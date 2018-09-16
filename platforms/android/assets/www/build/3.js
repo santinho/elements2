@@ -3203,7 +3203,7 @@ var MapsLayout3 = (function () {
     ], MapsLayout3.prototype, "events", void 0);
     MapsLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'maps-layout-3',template:/*ion-inline-start:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/maps/layout-3/maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/maps/layout-3/maps.html"*/
+            selector: 'maps-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-3/maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-3/maps.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MapsLayout3);

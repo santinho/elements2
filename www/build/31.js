@@ -116,7 +116,7 @@ var Spinner = (function () {
     ], Spinner.prototype, "data", void 0);
     Spinner = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'spinner',template:/*ion-inline-start:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/spinner/spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/spinner/spinner.html"*/
+            selector: 'spinner',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], Spinner);
@@ -164,7 +164,7 @@ var ItemDetailsPageSpinner = (function () {
         }
     }
     ItemDetailsPageSpinner = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/pages/item-details-spinner/item-details-spinner.html"*/'<!--Spinner components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n<ion-content class="spinner-view">\n\n  <ion-slides *ngIf="params.data.length" pager="true">\n\n    <ion-slide *ngFor="let spinnerItem of params.data;">\n\n      <spinner [data]="spinnerItem"></spinner>\n\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/pages/item-details-spinner/item-details-spinner.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-spinner/item-details-spinner.html"*/'<!--Spinner components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n<ion-content class="spinner-view">\n\n  <ion-slides *ngIf="params.data.length" pager="true">\n\n    <ion-slide *ngFor="let spinnerItem of params.data;">\n\n      <spinner [data]="spinnerItem"></spinner>\n\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-spinner/item-details-spinner.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageSpinner);

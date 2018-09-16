@@ -75,7 +75,7 @@ var TabsLayout1 = (function () {
     ], TabsLayout1.prototype, "tabRef", void 0);
     TabsLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-1',template:/*ion-inline-start:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/tabs/layout-1/tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n  <ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/tabs/layout-1/tabs.html"*/
+            selector: 'tabs-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-1/tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n  <ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-1/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout1);

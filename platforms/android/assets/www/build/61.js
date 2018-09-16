@@ -96,7 +96,7 @@ var SplashScreenLayout2 = (function () {
     ], SplashScreenLayout2.prototype, "events", void 0);
     SplashScreenLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/splash-screen/layout-2/splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/Downloads/codecanyon-19375225-ionic-2-ui-themetemplate-app-material-design-yellow-dark/Source/src/components/splash-screen/layout-2/splash-screen.html"*/
+            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout2);
