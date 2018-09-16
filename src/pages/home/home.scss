@@ -1,8 +1,13 @@
 /*  #Style First Screen (Home)
 ================================================*/
 page-home {
+  h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   [default-background] {
-    background-image: url("../assets/images/background/29.jpg");
+    background-image: none;
     height: 100%;
     width: 100%;
     display: table;
