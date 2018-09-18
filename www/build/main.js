@@ -1060,7 +1060,7 @@ var MyApp = (function () {
         this.menu = menu;
         this.menuService = menuService;
         this.modalCtrl = modalCtrl;
-        this.rootPage = "HomePage";
+        this.rootPage = "ElementsHomePage";
         this.initializeApp();
         this.pages = menuService.getAllThemes();
         this.leftMenuTitle = menuService.getTitle();

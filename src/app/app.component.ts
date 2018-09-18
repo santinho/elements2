@@ -16,7 +16,7 @@ import { ElementsClassesPage } from '../pages/elementsClasses/elementsClasses';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage = "HomePage";
+  rootPage = "ElementsHomePage";
   pages: any;
   params: any;
   leftMenuTitle: string;
