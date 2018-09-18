@@ -1,1 +1,240 @@
-webpackJsonp([45],{1123:function(n,l,u){"use strict";u.d(l,"a",function(){return a});u(0),u(65);var a=function(){return function(){}}()},1124:function(n,l,u){"use strict";function a(n){return t._22(0,[(n()(),t._20(-1,null,["\n"])),(n()(),t._0(1,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(n()(),t._20(-1,null,["\n"]))],null,function(n,l){n(l,1,0,l.component.path)})}u.d(l,"a",function(){return i}),l.c=a,u.d(l,"b",function(){return r});var t=u(2),e=u(983),i=t.Y({encapsulation:2,styles:[],data:{}}),r=t.W("spinner",e.a,function(n){return t._22(0,[(n()(),t._0(0,0,null,null,1,"spinner",[],null,null,null,a,i)),t.Z(1,4243456,null,0,e.a,[],null,null)],null,null)},{data:"data"},{},[])},861:function(n,l,u){"use strict";function a(n){return i._22(0,[(n()(),i._0(0,0,null,null,5,"ion-slide",[],null,null,null,Z.b,Z.a)),i.Z(1,180224,null,0,j.a,[i.j,i.A,A.a],null,null),(n()(),i._20(-1,0,["\n      "])),(n()(),i._0(3,0,null,0,1,"spinner",[],null,null,null,b.c,b.a)),i.Z(4,4243456,null,0,w.a,[],{data:[0,"data"]},null),(n()(),i._20(-1,0,["\n    "]))],function(n,l){n(l,4,0,l.context.$implicit)},null)}function t(n){return i._22(0,[(n()(),i._0(0,0,null,null,5,"ion-slides",[["pager","true"]],null,null,null,y.b,y.a)),i.Z(1,1228800,null,0,A.a,[k.a,P.a,i.u,[2,I.a],i.j,i.A],{pager:[0,"pager"]},null),(n()(),i._20(-1,0,["\n    "])),(n()(),i.V(16777216,null,0,1,null,a)),i.Z(4,802816,null,0,T.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(n()(),i._20(-1,0,["\n  "]))],function(n,l){var u=l.component;n(l,1,0,"true");n(l,4,0,u.params.data)},null)}function e(n){return i._22(0,[(n()(),i._20(-1,null,["\n"])),(n()(),i._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),i.Z(2,16384,null,0,Y.a,[k.a,i.j,i.A,[2,I.a]],null,null),(n()(),i._20(-1,null,["\n  "])),(n()(),i._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,x.b,x.a)),i.Z(5,49152,null,0,F.a,[J.a,[2,I.a],[2,O.a],k.a,i.j,i.A],null,null),(n()(),i._20(-1,3,["\n    "])),(n()(),i._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(n,l,u){var a=!0;if("click"===l){a=!1!==i._14(n,9).toggle()&&a}return a},V.b,V.a)),i.Z(8,1097728,[[1,4]],0,D.a,[[8,""],k.a,i.j,i.A],null,null),i.Z(9,1064960,null,0,G.a,[H.a,[2,I.a],[2,D.a],[2,F.a]],{menuToggle:[0,"menuToggle"]},null),i.Z(10,16384,null,1,M.a,[k.a,i.j,i.A,[2,R.a],[2,F.a]],null,null),i._18(603979776,1,{_buttons:1}),(n()(),i._20(-1,0,["\n      "])),(n()(),i._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(14,147456,null,0,W.a,[k.a,i.j,i.A],{name:[0,"name"]},null),(n()(),i._20(-1,0,["\n    "])),(n()(),i._20(-1,3,["\n    "])),(n()(),i._0(17,0,null,3,2,"ion-title",[["text-left",""],["text-uppercase",""]],null,null,null,z.b,z.a)),i.Z(18,49152,null,0,C.a,[k.a,i.j,i.A,[2,R.a],[2,F.a]],null,null),(n()(),i._20(19,0,["",""])),(n()(),i._20(-1,3,["\n  "])),(n()(),i._20(-1,null,["\n"])),(n()(),i._20(-1,null,["\n"])),(n()(),i._20(-1,null,["\n"])),(n()(),i._0(24,0,null,null,5,"ion-content",[["class","spinner-view"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,N.b,N.a)),i.Z(25,4374528,null,0,S.a,[k.a,P.a,X.a,i.j,i.A,J.a,$.a,i.u,[2,I.a],[2,O.a]],null,null),(n()(),i._20(-1,1,["\n  "])),(n()(),i.V(16777216,null,1,1,null,t)),i.Z(28,16384,null,0,T.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(n()(),i._20(-1,1,["\n"])),(n()(),i._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,9,0,"");n(l,14,0,"menu");n(l,28,0,u.params.data.length)},function(n,l){var u=l.component;n(l,4,0,i._14(l,5)._hidden,i._14(l,5)._sbPadding);n(l,7,0,i._14(l,9).isHidden);n(l,13,0,i._14(l,14)._hidden);n(l,19,0,u.params.title);n(l,24,0,i._14(l,25).statusbarPadding,i._14(l,25)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var i=u(2),r=(u(0),u(65),function(){return function(n,l){var u=this;this.navCtrl=n,this.params={},this.page=l.get("page"),this.service=l.get("service"),this.service?(this.params=this.service.prepareParams(this.page,n),this.service.load(this.page).subscribe(function(n){u.params.data=n})):n.setRoot("HomePage")}}()),s=u(1123),o=function(){return function(){}}(),c=u(418),_=u(419),d=u(420),p=u(421),f=u(422),g=u(423),m=u(424),h=u(425),v=u(426),b=u(1124),Z=u(896),j=u(221),A=u(145),w=u(983),y=u(897),k=u(4),P=u(7),I=u(8),T=u(21),Y=u(93),x=u(427),F=u(47),J=u(14),O=u(33),V=u(46),D=u(30),G=u(143),H=u(37),M=u(144),R=u(68),W=u(43),z=u(428),C=u(94),N=u(214),S=u(35),X=u(15),$=u(39),q=u(19),B=i.Y({encapsulation:2,styles:[],data:{}}),E=i.W("ng-component",r,function(n){return i._22(0,[(n()(),i._0(0,0,null,null,1,"ng-component",[],null,null,null,e,B)),i.Z(1,49152,null,0,r,[O.a,q.a],null,null)],null,null)},{},{},[]),K=u(26),L=u(215),Q=u(66);u.d(l,"ItemDetailsPageSpinnerModuleNgFactory",function(){return U});var U=i.X(o,[],function(n){return i._11([i._12(512,i.i,i.T,[[8,[c.a,_.a,d.a,p.a,f.a,g.a,m.a,h.a,v.a,b.b,E]],[3,i.i],i.s]),i._12(4608,T.l,T.k,[i.r,[2,T.t]]),i._12(4608,K.n,K.n,[]),i._12(4608,K.c,K.c,[]),i._12(512,T.c,T.c,[]),i._12(512,K.m,K.m,[]),i._12(512,K.d,K.d,[]),i._12(512,K.k,K.k,[]),i._12(512,L.a,L.a,[]),i._12(512,L.b,L.b,[]),i._12(512,s.a,s.a,[]),i._12(512,o,o,[]),i._12(256,Q.a,r,[])])})},896:function(n,l,u){"use strict";function a(n){return t._22(2,[(n()(),t._0(0,0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),t._13(null,0)],null,null)}u.d(l,"a",function(){return e}),l.b=a;var t=u(2),e=t.Y({encapsulation:2,styles:[],data:{}})},897:function(n,l,u){"use strict";function a(n){return t._22(2,[(n()(),t._0(0,0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(n()(),t._0(1,0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),t._13(null,0),(n()(),t._0(3,0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(n,l){var u=l.component;n(l,0,0,u._rtl?"rtl":null);n(l,3,0,!u.pager)})}u.d(l,"a",function(){return e}),l.b=a;var t=u(2),e=(u(4),u(7),u(8),t.Y({encapsulation:2,styles:[],data:{}}))},983:function(n,l,u){"use strict";u.d(l,"a",function(){return a});u(0);var a=function(){function n(){var n=this;this.getData=function(){return n.data}}return n.prototype.ngAfterViewInit=function(){this.path="assets/svg/"+this.data.icon+".svg"},n}()}});
+webpackJsonp([45],{
+
+/***/ 1149:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabPage1Module", function() { return TabPage1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_page_1__ = __webpack_require__(1299);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var TabPage1Module = (function () {
+    function TabPage1Module() {
+    }
+    TabPage1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__tab_page_1__["a" /* TabPage1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tab_page_1__["a" /* TabPage1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__tab_page_1__["a" /* TabPage1 */]
+            ]
+        })
+    ], TabPage1Module);
+    return TabPage1Module;
+}());
+
+//# sourceMappingURL=tab-page-1.module.js.map
+
+/***/ }),
+
+/***/ 1171:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(235);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var TabsService = (function () {
+    function TabsService(af, loadingService) {
+        var _this = this;
+        this.af = af;
+        this.loadingService = loadingService;
+        this.getId = function () { return 'tabs'; };
+        this.getTitle = function () { return 'Tabs'; };
+        this.getAllThemes = function () {
+            return [
+                { "title": "Footer tab - text", "theme": "layout1" },
+                { "title": "Footer tab - icons", "theme": "layout2" },
+                { "title": "Header tab - text", "theme": "layout3" }
+            ];
+        };
+        this.getDataForTheme = function (menuItem) {
+            return _this['getDataFor' +
+                menuItem.charAt(0).toUpperCase() +
+                menuItem.slice(1)]();
+        };
+        this.getDataForTab1 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/5.jpg",
+                "title": "Fragment Example 1",
+                "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            };
+        };
+        this.getDataForTab2 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/6.jpg",
+                "title": "Fragment Example 2",
+                "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            };
+        };
+        this.getDataForTab3 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/7.jpg",
+                "title": "Fragment Example 3",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+            };
+        };
+        this.getDataForTab4 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/5.jpg",
+                "title": "Fragment Example 4",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            };
+        };
+        this.getDataForTab5 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/6.jpg",
+                "title": "Fragment Example 5",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's."
+            };
+        };
+        this.getDataForTab6 = function () {
+            return {
+                "backgroundImage": "assets/images/avatar-large/7.jpg",
+                "title": "Fragment Example 6",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            };
+        };
+        this.getEventsForTheme = function (menuItem) {
+            return {};
+        };
+        this.getShowItemId = function (item) {
+            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
+        };
+        this.prepareParams = function (item) {
+            var result = {
+                title: item.title,
+                data: [],
+                events: _this.getEventsForTheme(item)
+            };
+            result[_this.getShowItemId(item)] = true;
+            return result;
+        };
+    }
+    TabsService.prototype.load = function (item) {
+        var _this = this;
+        var that = this;
+        that.loadingService.show();
+        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                _this.af
+                    .object('tab/' + item)
+                    .valueChanges()
+                    .subscribe(function (snapshot) {
+                    that.loadingService.hide();
+                    observer.next(snapshot);
+                    observer.complete();
+                }, function (err) {
+                    that.loadingService.hide();
+                    observer.error([]);
+                    observer.complete();
+                });
+            });
+        }
+        else {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                that.loadingService.hide();
+                observer.next(_this.getDataForTheme(item));
+                observer.complete();
+            });
+        }
+    };
+    ;
+    TabsService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
+    ], TabsService);
+    return TabsService;
+}());
+
+//# sourceMappingURL=tabs-service.js.map
+
+/***/ }),
+
+/***/ 1299:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabPage1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_native__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_tabs_service__ = __webpack_require__(1171);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var TabPage1 = (function () {
+    function TabPage1(tabsService) {
+        var _this = this;
+        this.tabsService = tabsService;
+        this.params = {};
+        this.tabsService.load("tab1").subscribe(function (snapshot) {
+            _this.params = snapshot;
+        });
+    }
+    TabPage1.prototype.ngOnChanges = function (changes) {
+        this.params = changes['data'].currentValue;
+    };
+    TabPage1.prototype.onItemClick = function (item) {
+        if (window.location.hostname === "localhost") {
+            console.log("Folow");
+        }
+        else {
+            __WEBPACK_IMPORTED_MODULE_1_ionic_native__["e" /* Toast */].show("Folow", '1000', 'bottom').subscribe(function (toast) { });
+        }
+    };
+    TabPage1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/tab-page-1/tab-page-1.html"*/'<!---Settings TAB lauout-1-->\n\n<ion-content class="content-background-images">\n\n    <div background-size class="tab-1"\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.backgroundImage + \')\'}" *ngIf=" params != null">\n\n        <div padding class="tab-decription">\n\n            <h2 tabs-title text-center>{{params.title}}</h2>\n\n            <p tabs-subtitle text-center>{{params.description}}</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/tab-page-1/tab-page-1.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_2__services_tabs_service__["a" /* TabsService */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_tabs_service__["a" /* TabsService */]])
+    ], TabPage1);
+    return TabPage1;
+}());
+
+//# sourceMappingURL=tab-page-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=45.js.map

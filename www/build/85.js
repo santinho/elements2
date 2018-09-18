@@ -1,1 +1,95 @@
-webpackJsonp([85],{864:function(l,n,u){"use strict";function a(l){return t._22(0,[(l()(),t._20(-1,null,["\n"])),(l()(),t._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),t.Z(2,16384,null,0,v.a,[h.a,t.j,t.A,[2,Z.a]],null,null),(l()(),t._20(-1,null,["\n  "])),(l()(),t._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,y.b,y.a)),t.Z(5,49152,null,0,j.a,[k.a,[2,Z.a],[2,A.a],h.a,t.j,t.A],null,null),(l()(),t._20(-1,3,["\n    "])),(l()(),t._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==t._14(l,9).toggle()&&a}return a},x.b,x.a)),t.Z(8,1097728,[[1,4]],0,I.a,[[8,""],h.a,t.j,t.A],null,null),t.Z(9,1064960,null,0,P.a,[S.a,[2,Z.a],[2,I.a],[2,j.a]],{menuToggle:[0,"menuToggle"]},null),t.Z(10,16384,null,1,F.a,[h.a,t.j,t.A,[2,G.a],[2,j.a]],null,null),t._18(603979776,1,{_buttons:1}),(l()(),t._20(-1,0,["\n      "])),(l()(),t._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Z(14,147456,null,0,T.a,[h.a,t.j,t.A],{name:[0,"name"]},null),(l()(),t._20(-1,0,["\n    "])),(l()(),t._20(-1,3,["\n    "])),(l()(),t._0(17,0,null,3,2,"ion-title",[["text-left",""],["text-uppercase",""]],null,null,null,w.b,w.a)),t.Z(18,49152,null,0,C.a,[h.a,t.j,t.A,[2,G.a],[2,j.a]],null,null),(l()(),t._20(-1,0,["sub-gallery"])),(l()(),t._20(-1,3,["\n  "])),(l()(),t._20(-1,null,["\n"])),(l()(),t._20(-1,null,["\n"])),(l()(),t._0(23,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,J.b,J.a)),t.Z(24,4374528,null,0,O.a,[h.a,D.a,H.a,t.j,t.A,k.a,M.a,t.u,[2,Z.a],[2,A.a]],null,null),(l()(),t._20(-1,1,["\n  "])),(l()(),t._0(26,0,null,1,1,"sub-image-gallery",[],null,null,null,b.c,b.a)),t.Z(27,49152,null,0,R.a,[A.a,V.a],{data:[0,"data"],events:[1,"events"]},null),(l()(),t._20(-1,1,[">\n"])),(l()(),t._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,9,0,"");l(n,14,0,"menu");l(n,27,0,u.params.data,u.params.events)},function(l,n){l(n,4,0,t._14(n,5)._hidden,t._14(n,5)._sbPadding);l(n,7,0,t._14(n,9).isHidden);l(n,13,0,t._14(n,14)._hidden);l(n,23,0,t._14(n,24).statusbarPadding,t._14(n,24)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=u(2),e=(u(0),u(65),function(){return function(l,n){this.navCtrl=l,this.params={},n.get("layout"),this.params={},this.params.events=n.get("events"),this.params.data=n.get("group"),n.get("group")?this.params.data.fullscreen="ItemDetailsPageFullScreenGallery":l.setRoot("HomePage")}}()),i=u(987),o=function(){return function(){}}(),r=u(418),c=u(419),s=u(420),_=u(421),d=u(422),g=u(423),f=u(424),m=u(425),p=u(426),b=u(988),v=u(93),h=u(4),Z=u(8),y=u(427),j=u(47),k=u(14),A=u(33),x=u(46),I=u(30),P=u(143),S=u(37),F=u(144),G=u(68),T=u(43),w=u(428),C=u(94),J=u(214),O=u(35),D=u(7),H=u(15),M=u(39),R=u(914),V=u(19),W=t.Y({encapsulation:2,styles:[],data:{}}),Y=t.W("ng-component",e,function(l){return t._22(0,[(l()(),t._0(0,0,null,null,1,"ng-component",[],null,null,null,a,W)),t.Z(1,49152,null,0,e,[A.a,V.a],null,null)],null,null)},{},{},[]),q=u(21),z=u(26),B=u(215),E=u(66);u.d(n,"ItemDetailsPageSubImageGalleryModuleNgFactory",function(){return N});var N=t.X(o,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[r.a,c.a,s.a,_.a,d.a,g.a,f.a,m.a,p.a,b.b,Y]],[3,t.i],t.s]),t._12(4608,q.l,q.k,[t.r,[2,q.t]]),t._12(4608,z.n,z.n,[]),t._12(4608,z.c,z.c,[]),t._12(512,q.c,q.c,[]),t._12(512,z.m,z.m,[]),t._12(512,z.d,z.d,[]),t._12(512,z.k,z.k,[]),t._12(512,B.a,B.a,[]),t._12(512,B.b,B.b,[]),t._12(512,i.a,i.a,[]),t._12(512,o,o,[]),t._12(256,E.a,e,[])])})},914:function(l,n,u){"use strict";u.d(n,"a",function(){return a});u(0),u(65);var a=function(){return function(l,n){var u=this;this.navCtrl=l,this.onEvent=function(l,n,a){a&&a.stopPropagation(),u.events[l]&&u.events[l](n)},this.openImageSlider=function(l,n){u.navCtrl.push(l.fullscreen,{group:l.items,index:n})}}}()},987:function(l,n,u){"use strict";u.d(n,"a",function(){return a});u(0),u(65);var a=function(){return function(){}}()},988:function(l,n,u){"use strict";function a(l){return i._22(0,[(l()(),i._0(0,0,null,null,8,"ion-col",[["class","col"],["col-4",""],["col-lg-4",""],["col-md-6",""],["col-sm-3",""],["col-xl-3",""],["no-margin",""],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,o.a,[],null,null),(l()(),i._20(-1,null,["\n            "])),(l()(),i._0(3,0,null,null,4,"ion-card",[["background-size",""],["no-margin",""]],null,[[null,"click"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==t.openImageSlider(t.data,l.context.index)&&a}return a},null,null)),i.Z(4,278528,null,0,r.m,[i.q,i.j,i.B],{ngStyle:[0,"ngStyle"]},null),i._16(5,{"background-image":0}),i.Z(6,16384,null,0,c.a,[s.a,i.j,i.A],null,null),(l()(),i._20(-1,null,["\n            "])),(l()(),i._20(-1,null,["\n        "]))],function(l,n){l(n,4,0,l(n,5,0,"url("+n.context.$implicit.image+")"))},null)}function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,9,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,_.a,[],null,null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._0(3,0,null,null,5,"ion-row",[["class","row"],["no-margin",""],["no-padding",""]],null,null,null,null,null)),i.Z(4,16384,null,0,d.a,[],null,null),(l()(),i._20(-1,null,["\n        "])),(l()(),i.V(16777216,null,null,1,null,a)),i.Z(7,802816,null,0,r.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,7,0,n.component.data.items)},null)}function e(l){return i._22(0,[(l()(),i._20(-1,null,["\n"])),(l()(),i.V(16777216,null,null,1,null,t)),i.Z(2,16384,null,0,r.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,2,0,null!=n.component.data)},null)}u.d(n,"a",function(){return p}),n.c=e,u.d(n,"b",function(){return b});var i=u(2),o=u(142),r=u(21),c=u(218),s=u(4),_=u(140),d=u(141),g=u(914),f=u(33),m=u(19),p=i.Y({encapsulation:2,styles:[],data:{}}),b=i.W("sub-image-gallery",g.a,function(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"sub-image-gallery",[],null,null,null,e,p)),i.Z(1,49152,null,0,g.a,[f.a,m.a],null,null)],null,null)},{data:"data",events:"events"},{},[])}});
+webpackJsonp([85],{
+
+/***/ 1077:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout1Module", function() { return LoginLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_1__ = __webpack_require__(1226);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var LoginLayout1Module = (function () {
+    function LoginLayout1Module() {
+    }
+    LoginLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], LoginLayout1Module);
+    return LoginLayout1Module;
+}());
+
+//# sourceMappingURL=login-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1226:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LoginLayout1 = (function () {
+    function LoginLayout1() {
+        var _this = this;
+        this.onEvent = function (event) {
+            if (_this.events[event]) {
+                _this.events[event]({
+                    'username': _this.username,
+                    'password': _this.password
+                });
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout1.prototype, "events", void 0);
+    LoginLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'login-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/login/layout-1/login.html"*/'<!-- Themes Login + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <button ion-button button-clear clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        <!---Logo-->\n\n        <ion-thumbnail>\n\n          <img [src]="data.logo">\n\n        </ion-thumbnail>\n\n        <!---Input field username-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.username}}</ion-label>\n\n          <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n        </ion-item>\n\n        <!---Input field password-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.password}}</ion-label>\n\n          <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n        </ion-item>\n\n        <!---Login button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onLogin\')">{{data.login}}</button>\n\n        <!---Register button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n      </ion-col>\n\n      <!---Share Section-->\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 social>\n\n        <!---Facebook button-->\n\n        <button ion-button color="facebook" (click)="onEvent(\'onFacebook\')">Facebook</button>\n\n        <!---Twitter button-->\n\n        <button ion-button color="twitter" (click)="onEvent(\'onTwitter\')">Twitter</button>\n\n        <!---Google button-->\n\n        <button ion-button color="google" (click)="onEvent(\'onGoogle\')">Google</button>\n\n        <!---Pinterest button-->\n\n        <button ion-button color="pinterest" (click)="onEvent(\'onPinterest\')">Pinterest</button>\n\n      </ion-col>\n\n      <!---End Share Section-->\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/login/layout-1/login.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], LoginLayout1);
+    return LoginLayout1;
+}());
+
+//# sourceMappingURL=login-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=85.js.map

@@ -1,1 +1,1240 @@
-webpackJsonp([115],{154:function(e,l,a){"use strict";a.d(l,"a",function(){return o});a(0),a(65),a(236);var t=a(400),o=(a.n(t),function(){function e(e,l,a){var t=this;this.navCtrl=e,this.service=l,this.af=a,this.title="Classes",this.lvls=[0,1,2,3,4,5,6,7,8,9,10],this.searchTerm="",console.log("classes"),l.load().subscribe(function(e){t.data=e}),this.list=this.af.list("classes").valueChanges(),this.listFiltered=this.af.list("classes").valueChanges()}return e.prototype.getItems=function(e){var l=this;this.list||(this.list=this.listFiltered),this.list.subscribe(function(a){var o=a.filter(function(l){return l.Nome.toLowerCase().indexOf(e.target.value.toLowerCase())>-1});l.listFiltered=t.Observable.of(o)})},e.prototype.toggleGroup=function(e){e.show=!e.show},e.prototype.isGroupShown=function(e){return e.show},e}())},219:function(e,l,a){"use strict";a.d(l,"a",function(){return o});a(0),a(65);var t=a(92),o=function(){function e(e){this.toastCtrl=e}return e.prototype.presentToast=function(e){var l=t.a.TOAST;l.message=e;this.toastCtrl.create(l).present()},e}()},236:function(e,l,a){"use strict";a.d(l,"a",function(){return n});a(0);var t=a(1),o=(a.n(t),a(92)),n=(a(91),function(){function e(e,l){this.af=e,this.loadingService=l,this.getData=function(){return{toolbarTitle:"Ionic3 UI Theme - Yellow Dark",title:"SAVE HOURS",subtitle:"OF DEVELOPING",subtitle2:"and make apps fast as light!",link:"http://csform.com/documentation-for-ionic-2-ui-template-app/",description:"For better understanding how our template works please read documentation.",background:"assets/images/background/29.jpg"}}}return e.prototype.load=function(){var e=this,l=this;return l.loadingService.show(),new t.Observable(o.a.IS_FIREBASE_ENABLED?function(a){e.af.object("home").valueChanges().subscribe(function(e){l.loadingService.hide(),a.next(e),a.complete()},function(e){l.loadingService.hide(),a.error([]),a.complete()})}:function(a){l.loadingService.hide(),a.next(e.getData()),a.complete()})},e}())},239:function(e,l,a){"use strict";a.d(l,"a",function(){return t});a(0),a(65);var t=function(){return function(){}}()},252:function(e,l){function a(e){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+e+"'.")})}a.keys=function(){return[]},a.resolve=a,e.exports=a,a.id=252},272:function(e,l,a){function t(e){var l=o[e];return l?a.e(l[1]).then(function(){return a(l[0])}):Promise.reject(new Error("Cannot find module '"+e+"'."))}var o={"../components/action-sheet/layout-1/action-sheet-layout-1.module.ngfactory":[763,37],"../components/action-sheet/layout-2/action-sheet-layout-2.module.ngfactory":[764,36],"../components/action-sheet/layout-3/action-sheet-layout-3.module.ngfactory":[765,101],"../components/check-box/layout-1/check-box-layout-1.module.ngfactory":[766,84],"../components/check-box/layout-2/check-box-layout-2.module.ngfactory":[767,83],"../components/check-box/layout-3/check-box-layout-3.module.ngfactory":[768,82],"../components/check-box/layout-4/check-box-layout-4.module.ngfactory":[769,81],"../components/full-screen-gallery/full-screen-gallery.module.ngfactory":[770,47],"../components/image-gallery/layout-1/image-gallery-layout-1.module.ngfactory":[771,100],"../components/image-gallery/layout-2/image-gallery-layout-2.module.ngfactory":[772,99],"../components/image-gallery/layout-3/image-gallery-layout-3.module.ngfactory":[773,113],"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module.ngfactory":[774,63],"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module.ngfactory":[775,62],"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module.ngfactory":[776,61],"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module.ngfactory":[777,60],"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module.ngfactory":[778,59],"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module.ngfactory":[779,58],"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module.ngfactory":[780,57],"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module.ngfactory":[781,56],"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module.ngfactory":[782,55],"../components/list-view/expandable/layout-1/expandable-layout-1.module.ngfactory":[783,54],"../components/list-view/expandable/layout-2/expandable-layout-2.module.ngfactory":[784,53],"../components/list-view/expandable/layout-3/expandable-layout-3.module.ngfactory":[785,52],"../components/list-view/google-card/layout-1/google-card-layout-1.module.ngfactory":[786,51],"../components/list-view/google-card/layout-2/google-card-layout-2.module.ngfactory":[787,50],"../components/list-view/google-card/layout-3/google-card-layout-3.module.ngfactory":[788,49],"../components/list-view/google-card/layout-4/google-card-layout-4.module.ngfactory":[789,48],"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module.ngfactory":[790,35],"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module.ngfactory":[791,34],"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module.ngfactory":[792,33],"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module.ngfactory":[793,32],"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module.ngfactory":[794,31],"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module.ngfactory":[795,30],"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module.ngfactory":[796,29],"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module.ngfactory":[797,28],"../components/login/layout-1/login-layout-1.module.ngfactory":[798,80],"../components/login/layout-2/login-layout-2.module.ngfactory":[799,79],"../components/maps/layout-1/maps-layout-1.module.ngfactory":[800,1],"../components/maps/layout-2/maps-layout-2.module.ngfactory":[801,3],"../components/maps/layout-3/maps-layout-3.module.ngfactory":[802,2],"../components/parallax/layout-1/parallax-layout-1.module.ngfactory":[803,27],"../components/parallax/layout-2/parallax-layout-2.module.ngfactory":[804,26],"../components/parallax/layout-3/parallax-layout-3.module.ngfactory":[805,25],"../components/parallax/layout-4/parallax-layout-4.module.ngfactory":[806,24],"../components/qrcode/layout-1/qrcode-layout-1.module.ngfactory":[807,98],"../components/radio-button/layout-1/radio-button-layout-1.module.ngfactory":[808,96],"../components/radio-button/layout-2/radio-button-layout-2.module.ngfactory":[809,95],"../components/radio-button/layout-3/radio-button-layout-3.module.ngfactory":[810,94],"../components/range/layout-1/range-layout-1.module.ngfactory":[811,76],"../components/range/layout-2/range-layout-2.module.ngfactory":[812,75],"../components/range/layout-3/range-layout-3.module.ngfactory":[813,74],"../components/range/layout-4/range-layout-4.module.ngfactory":[814,73],"../components/register/layout-1/register-layout-1.module.ngfactory":[815,78],"../components/register/layout-2/register-layout-2.module.ngfactory":[816,77],"../components/search-bar/layout-1/search-bar-layout-1.module.ngfactory":[817,93],"../components/search-bar/layout-2/search-bar-layout-2.module.ngfactory":[818,92],"../components/search-bar/layout-3/search-bar-layout-3.module.ngfactory":[819,91],"../components/select/layout-1/select-layout-1.module.ngfactory":[820,72],"../components/select/layout-2/select-layout-2.module.ngfactory":[821,71],"../components/select/layout-3/select-layout-3.module.ngfactory":[822,70],"../components/select/layout-4/select-layout-4.module.ngfactory":[823,69],"../components/select/layout-5/select-layout-5.module.ngfactory":[824,68],"../components/select/layout-6/select-layout-6.module.ngfactory":[825,67],"../components/spinner/spinner.module.ngfactory":[826,90],"../components/splash-screen/layout-1/splash-screen-layout-1.module.ngfactory":[827,89],"../components/splash-screen/layout-2/splash-screen-layout-2.module.ngfactory":[828,88],"../components/splash-screen/layout-3/splash-screen-layout-3.module.ngfactory":[829,87],"../components/sub-image-gallery/sub-image-gallery.module.ngfactory":[830,86],"../components/tabs/layout-1/tabs-layout-1.module.ngfactory":[831,40],"../components/tabs/layout-2/tabs-layout-2.module.ngfactory":[832,39],"../components/tabs/layout-3/tabs-layout-3.module.ngfactory":[833,38],"../components/toggle/layout-1/toggle-layout-1.module.ngfactory":[834,66],"../components/toggle/layout-2/toggle-layout-2.module.ngfactory":[835,65],"../components/toggle/layout-3/toggle-layout-3.module.ngfactory":[836,64],"../components/wizard/layout-1/wizard-layout-1.module.ngfactory":[837,44],"../components/wizard/layout-2/wizard-layout-2.module.ngfactory":[838,42],"../components/wizard/layout-3/wizard-layout-3.module.ngfactory":[839,41],"../pages/elementsClasses/elementsClasses.module.ngfactory":[840,114],"../pages/elementsHome/elementsHome.module.ngfactory":[841,112],"../pages/home/home.module.ngfactory":[842,111],"../pages/intro-page/intro-page.module.ngfactory":[843,43],"../pages/item-details-action-sheet/item-details-action-sheet.module.ngfactory":[844,13],"../pages/item-details-appearance-animation/item-details-appearance-animation.module.ngfactory":[845,5],"../pages/item-details-check-box/item-details-check-box.module.ngfactory":[846,12],"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module.ngfactory":[847,10],"../pages/item-details-expandable/item-details-expandable.module.ngfactory":[848,16],"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module.ngfactory":[849,46],"../pages/item-details-google-card/item-details-google-card.module.ngfactory":[850,9],"../pages/item-details-image-gallery/item-details-image-gallery.module.ngfactory":[851,21],"../pages/item-details-login/item-details-login.module.ngfactory":[852,23],"../pages/item-details-maps/item-details-maps.module.ngfactory":[853,0],"../pages/item-details-parallax/item-details-parallax.module.ngfactory":[854,6],"../pages/item-details-qrcode/item-details-qrcode.module.ngfactory":[855,97],"../pages/item-details-radio-button/item-details-radio-button.module.ngfactory":[856,20],"../pages/item-details-range/item-details-range.module.ngfactory":[857,11],"../pages/item-details-register/item-details-register.module.ngfactory":[858,22],"../pages/item-details-search-bar/item-details-search-bar.module.ngfactory":[859,19],"../pages/item-details-select/item-details-select.module.ngfactory":[860,4],"../pages/item-details-spinner/item-details-spinner.module.ngfactory":[861,45],"../pages/item-details-splash-screen/item-details-splash-screen.module.ngfactory":[862,18],"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module.ngfactory":[863,8],"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module.ngfactory":[864,85],"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module.ngfactory":[865,7],"../pages/item-details-tabs/item-details-tabs.module.ngfactory":[866,14],"../pages/item-details-text-view/item-details-text-view.module.ngfactory":[867,110],"../pages/item-details-toggle/item-details-toggle.module.ngfactory":[868,17],"../pages/item-details-wizard/item-details-wizard.module.ngfactory":[869,15],"../pages/item-details/item-details.module.ngfactory":[870,109],"../pages/items/items.module.ngfactory":[877,102],"../pages/tab-page-1/tab-page-1.module.ngfactory":[871,108],"../pages/tab-page-2/tab-page-2.module.ngfactory":[872,107],"../pages/tab-page-3/tab-page-3.module.ngfactory":[873,106],"../pages/tab-page-4/tab-page-4.module.ngfactory":[874,105],"../pages/tab-page-5/tab-page-5.module.ngfactory":[875,104],"../pages/tab-page-6/tab-page-6.module.ngfactory":[876,103]};t.keys=function(){return Object.keys(o)},t.id=272,e.exports=t},433:function(e,l,a){"use strict";function t(e){return u._22(0,[(e()(),u._0(0,0,null,null,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(1,null,["Lvl",": ",""]))],null,function(e,l){e(l,1,0,l.context.$implicit,l.parent.context.$implicit["Lvl"+l.context.$implicit])})}function o(e){return u._22(0,[(e()(),u._0(0,0,null,null,56,"li",[],null,null,null,null,null)),(e()(),u._20(-1,null,["\n              "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._0(3,0,null,null,15,"div",[["class","collapsible-header"]],null,[[null,"click"]],function(e,l,a){var t=!0;if("click"===l){t=!1!==e.component.toggleGroup(e.context.$implicit)&&t}return t},null,null)),(e()(),u._20(-1,null,["\n                "])),(e()(),u._0(5,0,null,null,12,"ion-item",[["class","item item-block"],["no-padding",""]],null,null,null,r.b,r.a)),u.Z(6,1097728,null,3,s.a,[d.a,c.a,u.j,u.A,[2,m.a]],null,null),u._18(335544320,5,{contentLabel:0}),u._18(603979776,6,{_buttons:1}),u._18(603979776,7,{_icons:1}),u.Z(10,16384,null,0,g.a,[],null,null),(e()(),u._20(-1,2,["\n                  "])),(e()(),u._0(12,0,null,2,1,"h2",[["item-title",""],["padding-left",""]],null,null,null,null,null)),(e()(),u._20(13,null,["",""])),(e()(),u._20(-1,2,["\n                  "])),(e()(),u._0(15,0,null,2,1,"h3",[["item-subtitle",""],["padding-left",""]],null,null,null,null,null)),(e()(),u._20(16,null,["HP:"," Perícia:",""])),(e()(),u._20(-1,2,["\n                "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._0(21,0,null,null,33,"div",[["class","item-accordion"]],[[8,"hidden",0]],null,null,null,null)),u.Z(22,278528,null,0,y.h,[u.p,u.q,u.j,u.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),u._16(23,{active:0}),(e()(),u._20(-1,null,["\n                "])),(e()(),u._0(25,0,null,null,28,"ion-item",[["class","item item-block"],["no-lines",""],["style","color: white"],["transparent",""]],null,null,null,r.b,r.a)),u.Z(26,1097728,null,3,s.a,[d.a,c.a,u.j,u.A,[2,m.a]],null,null),u._18(335544320,8,{contentLabel:0}),u._18(603979776,9,{_buttons:1}),u._18(603979776,10,{_icons:1}),u.Z(30,16384,null,0,g.a,[],null,null),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(32,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(33,null,["HP: ",""])),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(35,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(36,null,["Perícia: ",""])),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(38,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(39,null,["Crítico: ",""])),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(41,0,null,2,0,"br",[],null,null,null,null,null)),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(43,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(44,null,["Vantagens: ",""])),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(46,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(e()(),u._20(47,null,["Desvantagens: ",""])),(e()(),u._20(-1,2,["\n                    "])),(e()(),u._0(49,0,null,2,0,"br",[],null,null,null,null,null)),(e()(),u._20(-1,2,["\n                    "])),(e()(),u.V(16777216,null,2,1,null,t)),u.Z(52,802816,null,0,y.i,[u.J,u.G,u.p],{ngForOf:[0,"ngForOf"]},null),(e()(),u._20(-1,2,["\n                "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._20(-1,null,["\n              "])),(e()(),u._20(-1,null,["\n            "]))],function(e,l){var a=l.component;e(l,22,0,"item-accordion",e(l,23,0,a.isGroupShown(l.context.$implicit)));e(l,52,0,a.lvls)},function(e,l){var a=l.component;e(l,13,0,l.context.$implicit.Nome);e(l,16,0,l.context.$implicit.HP,l.context.$implicit.Pericia);e(l,21,0,!a.isGroupShown(l.context.$implicit));e(l,33,0,l.context.$implicit.HP);e(l,36,0,l.context.$implicit.Pericia);e(l,39,0,l.context.$implicit.Critico);e(l,44,0,l.context.$implicit.Vantagens);e(l,47,0,l.context.$implicit.Desvantagens)})}function n(e){return u._22(0,[(e()(),u._0(0,0,null,null,29,"ion-row",[["class","row"]],null,null,null,null,null)),u.Z(1,16384,null,0,p.a,[],null,null),(e()(),u._20(-1,null,["\n        "])),(e()(),u._20(-1,null,["\n        "])),(e()(),u._0(4,0,null,null,24,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),u.Z(5,16384,null,0,f.a,[],null,null),(e()(),u._20(-1,null,["\n            "])),(e()(),u._0(7,0,null,null,20,"ion-list",[["no-margin",""]],null,null,null,null,null)),u.Z(8,16384,null,0,h.a,[c.a,u.j,u.A,_.a,b.l,w.a],null,null),(e()(),u._20(-1,null,["\n            "])),(e()(),u._0(10,0,null,null,12,"ion-list-header",[["class","item"],["no-margin",""],["no-padding",""],["transparent",""]],null,null,null,r.b,r.a)),u.Z(11,1097728,null,3,s.a,[d.a,c.a,u.j,u.A,[2,m.a]],null,null),u._18(335544320,2,{contentLabel:0}),u._18(603979776,3,{_buttons:1}),u._18(603979776,4,{_icons:1}),u.Z(15,16384,null,0,C.a,[c.a,u.A,u.j,[8,null]],null,null),(e()(),u._20(-1,2,["\n                "])),(e()(),u._0(17,0,null,2,4,"ion-searchbar",[["placeholder","Buscar..."],["style","background-color: transparent !important;"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ngModelChange"],[null,"ionInput"]],function(e,l,a){var t=!0,o=e.component;if("ngModelChange"===l){t=!1!==(o.searchTerm=a)&&t}if("ionInput"===l){t=!1!==o.getItems(a)&&t}return t},L.b,L.a)),u.Z(18,671744,null,0,P.i,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),u._17(2048,null,P.g,null,[P.i]),u.Z(20,16384,null,0,P.h,[P.g],null,null),u.Z(21,1294336,null,0,H.a,[c.a,_.a,u.j,u.A,[2,P.g]],{placeholder:[0,"placeholder"]},{ionInput:"ionInput"}),(e()(),u._20(-1,2,["\n            "])),(e()(),u._20(-1,null,["\n\n            "])),(e()(),u.V(16777216,null,null,2,null,o)),u.Z(25,802816,null,0,y.i,[u.J,u.G,u.p],{ngForOf:[0,"ngForOf"]},null),u._15(131072,y.b,[u.g]),(e()(),u._20(-1,null,["\n            "])),(e()(),u._20(-1,null,["\n        "])),(e()(),u._20(-1,null,["\n        "]))],function(e,l){var a=l.component;e(l,18,0,a.searchTerm);e(l,21,0,"Buscar...");e(l,25,0,u._21(l,25,0,u._14(l,26).transform(a.listFiltered)))},function(e,l){e(l,17,1,[u._14(l,20).ngClassUntouched,u._14(l,20).ngClassTouched,u._14(l,20).ngClassPristine,u._14(l,20).ngClassDirty,u._14(l,20).ngClassValid,u._14(l,20).ngClassInvalid,u._14(l,20).ngClassPending,u._14(l,21)._animated,u._14(l,21)._value,u._14(l,21)._isActive,u._14(l,21)._showCancelButton,u._14(l,21)._shouldAlignLeft,u._14(l,21)._isFocus])})}function i(e){return u._22(0,[(e()(),u._20(-1,null,["\n"])),(e()(),u._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),u.Z(2,16384,null,0,F.a,[c.a,u.j,u.A,[2,k.a]],null,null),(e()(),u._20(-1,null,["\n    "])),(e()(),u._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,v.b,v.a)),u.Z(5,49152,null,0,x.a,[M.a,[2,k.a],[2,N.a],c.a,u.j,u.A],null,null),(e()(),u._20(-1,3,["\n    "])),(e()(),u._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(e,l,a){var t=!0;if("click"===l){t=!1!==u._14(e,9).toggle()&&t}return t},S.b,S.a)),u.Z(8,1097728,[[1,4]],0,I.a,[[8,""],c.a,u.j,u.A],null,null),u.Z(9,1064960,null,0,D.a,[A.a,[2,k.a],[2,I.a],[2,x.a]],{menuToggle:[0,"menuToggle"]},null),u.Z(10,16384,null,1,T.a,[c.a,u.j,u.A,[2,Z.a],[2,x.a]],null,null),u._18(603979776,1,{_buttons:1}),(e()(),u._20(-1,0,["\n      "])),(e()(),u._0(13,0,null,0,1,"ion-icon",[["class","icon-menu"],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(14,147456,null,0,j.a,[c.a,u.j,u.A],{name:[0,"name"]},null),(e()(),u._20(-1,0,["\n    "])),(e()(),u._20(-1,3,["\n    "])),(e()(),u._0(17,0,null,3,2,"ion-title",[["text-uppercase",""]],null,null,null,B.b,B.a)),u.Z(18,49152,null,0,R.a,[c.a,u.j,u.A,[2,Z.a],[2,x.a]],null,null),(e()(),u._20(-1,0,["Classes"])),(e()(),u._20(-1,3,["\n    "])),(e()(),u._20(-1,null,["\n"])),(e()(),u._20(-1,null,["\n"])),(e()(),u._20(-1,null,["\n"])),(e()(),u._0(24,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,E.b,E.a)),u.Z(25,4374528,null,0,G.a,[c.a,_.a,w.a,u.j,u.A,M.a,z.a,u.u,[2,k.a],[2,N.a]],null,null),(e()(),u._20(-1,1,["\n    "])),(e()(),u._0(27,0,null,1,5,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),u.Z(28,16384,null,0,V.a,[],null,null),(e()(),u._20(-1,null,["\n        "])),(e()(),u.V(16777216,null,null,1,null,n)),u.Z(31,16384,null,0,y.j,[u.J,u.G],{ngIf:[0,"ngIf"]},null),(e()(),u._20(-1,null,["\n    "])),(e()(),u._20(-1,1,["\n"])),(e()(),u._20(-1,null,["\n"]))],function(e,l){var a=l.component;e(l,9,0,"");e(l,14,0,"menu");e(l,31,0,null!=a.data)},function(e,l){e(l,4,0,u._14(l,5)._hidden,u._14(l,5)._sbPadding);e(l,7,0,u._14(l,9).isHidden);e(l,13,0,u._14(l,14)._hidden);e(l,24,0,u._14(l,25).statusbarPadding,u._14(l,25)._hasRefresher)})}a.d(l,"a",function(){return K});var u=a(2),r=a(139),s=a(27),d=a(23),c=a(4),m=a(57),g=a(71),y=a(21),p=a(141),f=a(142),h=a(67),_=a(7),b=a(11),w=a(15),C=a(95),L=a(431),P=a(26),H=a(97),F=a(93),k=a(8),v=a(427),x=a(47),M=a(14),N=a(33),S=a(46),I=a(30),D=a(143),A=a(37),T=a(144),Z=a(68),j=a(43),B=a(428),R=a(94),E=a(214),G=a(35),z=a(39),V=a(140),O=a(236),q=a(58),W=a(91),$=a(154),J=u.Y({encapsulation:2,styles:[],data:{}}),K=u.W("elements-page-classes",$.a,function(e){return u._22(0,[(e()(),u._0(0,0,null,null,2,"elements-page-classes",[],null,null,null,i,J)),u._17(512,null,O.a,O.a,[q.a,W.a]),u.Z(2,49152,null,0,$.a,[N.a,O.a,q.a],null,null)],null,null)},{data:"data",events:"events"},{},[])},434:function(e,l,a){"use strict";function t(e){return i._22(0,[(e()(),i._0(0,0,null,null,120,"ion-menu",[["role","navigation"]],null,null,null,Z.b,Z.a)),i.Z(1,245760,null,2,j.a,[B.a,i.j,R.a,E.a,i.A,G.a,z.l,V.a,O.a],{content:[0,"content"]},null),i._18(335544320,3,{menuContent:0}),i._18(335544320,4,{menuNav:0}),i._17(2048,[[2,4]],q.a,null,[j.a]),(e()(),i._20(-1,0,["\n    "])),(e()(),i._20(-1,0,["\n    "])),(e()(),i._0(7,0,null,0,13,"ion-header",[["background-size",""],["header-background-image",""],["padding",""]],null,null,null,null,null)),i.Z(8,278528,null,0,W.m,[i.q,i.j,i.B],{ngStyle:[0,"ngStyle"]},null),i._16(9,{"background-image":0}),i.Z(10,16384,null,0,$.a,[R.a,i.j,i.A,[2,J.a]],null,null),(e()(),i._20(-1,null,["\n      "])),(e()(),i._0(12,0,null,null,4,"ion-thumbnail",[],null,null,null,null,null)),i.Z(13,16384,null,0,K.a,[],null,null),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(15,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(e()(),i._20(-1,null,["\n      "])),(e()(),i._20(-1,null,["\n      "])),(e()(),i._0(18,0,null,null,1,"h2",[["item-title",""],["text-center",""]],null,null,null,null,null)),(e()(),i._20(-1,null,["Elements"])),(e()(),i._20(-1,null,["\n    "])),(e()(),i._20(-1,0,["\n    "])),(e()(),i._20(-1,0,["\n    "])),(e()(),i._0(23,0,null,0,96,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,U.b,U.a)),i.Z(24,4374528,[[3,4]],0,Q.a,[R.a,E.a,V.a,i.j,i.A,O.a,G.a,i.u,[2,J.a],[2,Y.a]],null,null),(e()(),i._20(-1,1,["\n      "])),(e()(),i._0(26,0,null,1,92,"ion-list",[["no-margin",""],["no-padding",""]],null,null,null,null,null)),i.Z(27,16384,null,0,X.a,[R.a,i.j,i.A,E.a,z.l,V.a],null,null),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(29,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,35).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsClassesPage")&&t}return t},ee.b,ee.a)),i.Z(30,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,5,{contentLabel:0}),i._18(603979776,6,{_buttons:1}),i._18(603979776,7,{_icons:1}),i.Z(34,16384,null,0,oe.a,[],null,null),i.Z(35,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n          "])),(e()(),i._0(37,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(38,147456,[[7,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n            "])),(e()(),i._0(40,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n          "])),(e()(),i._20(-1,2,["\n          Classes\n        "])),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(44,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,50).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsRacasPage")&&t}return t},ee.b,ee.a)),i.Z(45,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,8,{contentLabel:0}),i._18(603979776,9,{_buttons:1}),i._18(603979776,10,{_icons:1}),i.Z(49,16384,null,0,oe.a,[],null,null),i.Z(50,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n            "])),(e()(),i._0(52,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(53,147456,[[10,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n              "])),(e()(),i._0(55,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n            "])),(e()(),i._20(-1,2,["\n            Raças\n        "])),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(59,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,65).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsMagiasPage")&&t}return t},ee.b,ee.a)),i.Z(60,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,11,{contentLabel:0}),i._18(603979776,12,{_buttons:1}),i._18(603979776,13,{_icons:1}),i.Z(64,16384,null,0,oe.a,[],null,null),i.Z(65,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n            "])),(e()(),i._0(67,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(68,147456,[[13,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n              "])),(e()(),i._0(70,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n            "])),(e()(),i._20(-1,2,["\n            Magias\n        "])),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(74,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,80).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsPericiasPage")&&t}return t},ee.b,ee.a)),i.Z(75,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,14,{contentLabel:0}),i._18(603979776,15,{_buttons:1}),i._18(603979776,16,{_icons:1}),i.Z(79,16384,null,0,oe.a,[],null,null),i.Z(80,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n            "])),(e()(),i._0(82,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(83,147456,[[16,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n              "])),(e()(),i._0(85,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n            "])),(e()(),i._20(-1,2,["\n            Perícias\n        "])),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(89,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,95).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsLojasPage")&&t}return t},ee.b,ee.a)),i.Z(90,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,17,{contentLabel:0}),i._18(603979776,18,{_buttons:1}),i._18(603979776,19,{_icons:1}),i.Z(94,16384,null,0,oe.a,[],null,null),i.Z(95,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n            "])),(e()(),i._0(97,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(98,147456,[[19,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n              "])),(e()(),i._0(100,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n            "])),(e()(),i._20(-1,2,["\n            Lojas\n        "])),(e()(),i._20(-1,null,["\n        "])),(e()(),i._0(104,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(e,l,a){var t=!0,o=e.component;if("click"===l){t=!1!==i._14(e,110).close()&&t}if("click"===l){t=!1!==o.abrePagina("ElementsRegrasPage")&&t}return t},ee.b,ee.a)),i.Z(105,1097728,null,3,le.a,[ae.a,R.a,i.j,i.A,[2,te.a]],null,null),i._18(335544320,20,{contentLabel:0}),i._18(603979776,21,{_buttons:1}),i._18(603979776,22,{_icons:1}),i.Z(109,16384,null,0,oe.a,[],null,null),i.Z(110,16384,null,0,ne.a,[B.a],{menuClose:[0,"menuClose"]},null),(e()(),i._20(-1,2,["\n            "])),(e()(),i._0(112,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(113,147456,[[22,4]],0,ie.a,[R.a,i.j,i.A],null,null),(e()(),i._20(-1,null,["\n              "])),(e()(),i._0(115,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(e()(),i._20(-1,null,["\n            "])),(e()(),i._20(-1,2,["\n            Regras\n        "])),(e()(),i._20(-1,null,["\n      "])),(e()(),i._20(-1,1,["\n    "])),(e()(),i._20(-1,0,["\n  "]))],function(e,l){var a=l.component;e(l,1,0,i._14(l.parent,11));e(l,8,0,e(l,9,0,"url("+a.params.background+")"));e(l,35,0,"");e(l,50,0,"");e(l,65,0,"");e(l,80,0,"");e(l,95,0,"");e(l,110,0,"")},function(e,l){e(l,15,0,l.component.params.image);e(l,23,0,i._14(l,24).statusbarPadding,i._14(l,24)._hasRefresher);e(l,37,0,i._14(l,38)._hidden);e(l,52,0,i._14(l,53)._hidden);e(l,67,0,i._14(l,68)._hidden);e(l,82,0,i._14(l,83)._hidden);e(l,97,0,i._14(l,98)._hidden);e(l,112,0,i._14(l,113)._hidden)})}function o(e){return i._22(0,[i._18(402653184,1,{nav:0}),(e()(),i._0(1,0,null,null,12,"ion-split-pane",[["when","md"]],null,null,null,null,null)),i.Z(2,4341760,null,1,q.b,[i.u,E.a,R.a,i.j,i.A],{when:[0,"when"]},null),i._18(603979776,2,{_setchildren:1}),i._17(2048,[[2,4]],q.a,null,[q.b]),(e()(),i._20(-1,null,["\n  "])),(e()(),i.V(16777216,null,null,1,null,t)),i.Z(7,16384,null,0,W.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(e()(),i._20(-1,null,["\n  "])),(e()(),i._20(-1,null,["\n  "])),(e()(),i._0(10,0,null,null,2,"ion-nav",[["main",""],["swipeBackEnabled","false"]],null,null,null,ue.b,ue.a)),i.Z(11,4374528,[[1,4],["content",4]],0,re.a,[[2,J.a],[2,Y.a],O.a,R.a,E.a,i.j,i.u,i.A,i.i,z.l,se.a,[2,de.a],V.a,i.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),i._17(2048,[[2,4]],q.a,null,[re.a]),(e()(),i._20(-1,null,["\n"])),(e()(),i._20(-1,null,["\n"]))],function(e,l){var a=l.component;e(l,2,0,"md");e(l,7,0,null!=a.params);e(l,11,0,"false",a.rootPage)},null)}Object.defineProperty(l,"__esModule",{value:!0});var n=a(51),i=a(2),u=(a(0),a(65),a(238)),r=a(429),s=a(58),d=a(1),c=a(92),m=function(){function e(e){var l=this;this.af=e,this.getId=function(){return"menu"},this.getTitle=function(){return"UIAppTemplate"},this.getAllThemes=function(){return[{title:"List Views",theme:"listViews",icon:"icon-format-align-justify",listView:!0,component:"",singlePage:!1},{title:"Parallax",theme:"parallax",icon:"icon-format-line-spacing",listView:!1,component:"",singlePage:!1},{title:"Login Pages",theme:"login",icon:"icon-lock-open-outline",listView:!1,component:"",singlePage:!1},{title:"Register Pages",theme:"register",icon:"icon-comment-account",listView:!1,component:"",singlePage:!1},{title:"Image Gallery",theme:"imageGallery",icon:"icon-apps",listView:!1,component:"",singlePage:!1},{title:"Splash Screen",theme:"splashScreens",icon:"icon-logout",listView:!1,component:"",singlePage:!1},{title:"Check Boxs",theme:"checkBoxes",icon:"icon-checkbox-marked",listView:!1,component:"",singlePage:!1},{title:"Search Bars",theme:"searchBars",icon:"icon-magnify",listView:!1,component:"",singlePage:!1},{title:"Typo + small components",theme:"textViews",icon:"icon-tumblr",listView:!1,component:"",singlePage:!1},{title:"Wizard",theme:"wizard",icon:"icon-cellphone-settings",listView:!1,component:"",singlePage:!1},{title:"Spinner",theme:"spinner",icon:"icon-image-filter-tilt-shift",listView:!1,component:"",singlePage:!1},{title:"Tabs",theme:"tabs",icon:"icon-view-array",listView:!1,component:"",singlePage:!1},{title:"Maps",theme:"maps",icon:"icon-google-maps",listView:!1,component:"",singlePage:!1},{title:"QRCode",theme:"qrcode",icon:"icon-qrcode",listView:!1,component:"",singlePage:!1},{title:"Radio Button",theme:"radioButton",icon:"icon-radiobox-marked",listView:!1,component:"",singlePage:!1},{title:"Range",theme:"range",icon:"icon-toggle-switch-off",listView:!1,component:"",singlePage:!1},{title:"Toggle",theme:"toggle",icon:"icon-toggle-switch",listView:!1,component:"",singlePage:!1},{title:"Select",theme:"select",icon:"icon-menu-down",listView:!0,component:"",singlePage:!1},{title:"Action Sheet",theme:"actionSheet",icon:"icon-dots-horizontal",listView:!1,component:"",singlePage:!1}]},this.getDataForTheme=function(e){return{background:"assets/images/topo.png",image:"assets/images/logo/login.png",title:"Ionic3 UI Theme - Yellow Dark"}},this.getEventsForTheme=function(e){return{}},this.prepareParams=function(e){return{title:e.title,data:{},events:l.getEventsForTheme(e)}}}return e.prototype.load=function(e){var l=this;return new d.Observable(c.a.IS_FIREBASE_ENABLED?function(e){l.af.object("menu").valueChanges().subscribe(function(l){e.next(l),e.complete()},function(l){e.error([]),e.complete()})}:function(a){a.next(l.getDataForTheme(e)),a.complete()})},e}(),g=function(){function e(e,l,a,t){var o=this;this.platform=e,this.menu=l,this.menuService=a,this.modalCtrl=t,this.rootPage="HomePage",this.initializeApp(),this.pages=a.getAllThemes(),this.leftMenuTitle=a.getTitle(),this.menuService.load(null).subscribe(function(e){o.params=e}),c.a.SHOW_START_WIZARD&&this.presentProfileModal()}return e.prototype.presentProfileModal=function(){this.modalCtrl.create("IntroPage").present()},e.prototype.initializeApp=function(){this.platform.ready().then(function(){r.d.styleDefault(),r.c.hide(),localStorage.setItem("mailChimpLocal","true")})},e.prototype.openPage=function(e){e.singlePage?(this.menu.open(),this.nav.push(this.getPageForOpen(e.theme),{service:this.getServiceForPage(e.theme),page:e,componentName:e.theme})):this.nav.setRoot("ItemsPage",{componentName:e.theme})},e.prototype.abrePagina=function(e){console.log(e),this.nav.push(e)},e.prototype.getPageForOpen=function(e){return null},e.prototype.getServiceForPage=function(e){return null},e}(),y=a(42),p=a(411),f=a(413),h=a(219),_=a(91),b=a(414),w=a(415),C=a(416),L=a(417),P=a(239),H=function(){return function(){}}(),F=a(76),k=a(418),v=a(419),x=a(420),M=a(421),N=a(422),S=a(423),I=a(424),D=a(425),A=a(426),T=a(433),Z=a(761),j=a(112),B=a(37),R=a(4),E=a(7),G=a(39),z=a(11),V=a(15),O=a(14),q=a(50),W=a(21),$=a(93),J=a(8),K=a(146),U=a(214),Q=a(35),Y=a(33),X=a(67),ee=a(139),le=a(27),ae=a(23),te=a(57),oe=a(71),ne=a(168),ie=a(43),ue=a(762),re=a(81),se=a(49),de=a(28),ce=a(118),me=i.Y({encapsulation:2,styles:[],data:{}}),ge=i.W("ng-component",g,function(e){return i._22(0,[(e()(),i._0(0,0,null,null,2,"ng-component",[],null,null,null,o,me)),i._17(512,null,m,m,[s.a]),i.Z(2,49152,null,0,g,[E.a,B.a,m,ce.a],null,null)],null,null)},{},{},[]),ye=a(171),pe=a(26),fe=a(150),he=a(153),_e=a(170),be=a(48),we=a(167),Ce=a(215),Le=a(78),Pe=a(66),He=a(108),Fe=a(177),ke=a(173),ve=a(182),xe=a(410),Me=a(172),Ne=a(169),Se=a(174),Ie=a(154),De=i.X(H,[F.b],function(e){return i._11([i._12(512,i.i,i.T,[[8,[k.a,v.a,x.a,M.a,N.a,S.a,I.a,D.a,A.a,T.a,ge]],[3,i.i],i.s]),i._12(5120,i.r,i._10,[[3,i.r]]),i._12(4608,W.l,W.k,[i.r,[2,W.t]]),i._12(5120,i.b,i._1,[]),i._12(5120,i.p,i._7,[]),i._12(5120,i.q,i._8,[]),i._12(4608,n.c,n.q,[W.d]),i._12(6144,i.E,null,[n.c]),i._12(4608,n.f,ye.a,[]),i._12(5120,n.d,function(e,l,a,t,o){return[new n.k(e,l),new n.o(a),new n.n(t,o)]},[W.d,i.u,W.d,W.d,n.f]),i._12(4608,n.e,n.e,[n.d,i.u]),i._12(135680,n.m,n.m,[W.d]),i._12(4608,n.l,n.l,[n.e,n.m]),i._12(6144,i.C,null,[n.l]),i._12(6144,n.p,null,[n.m]),i._12(4608,i.H,i.H,[i.u]),i._12(4608,n.h,n.h,[W.d]),i._12(4608,n.i,n.i,[W.d]),i._12(4608,u.c,u.c,[]),i._12(4608,u.g,u.b,[]),i._12(5120,u.i,u.j,[]),i._12(4608,u.h,u.h,[u.c,u.g,u.i]),i._12(4608,u.f,u.a,[]),i._12(5120,u.d,u.k,[u.h,u.f]),i._12(4608,pe.n,pe.n,[]),i._12(4608,pe.c,pe.c,[]),i._12(5120,y.b,y.f,[y.c,y.d]),i._12(5120,s.a,s.c,[y.b]),i._12(5120,p.a,p.c,[y.b]),i._12(5120,f.a,f.d,[y.b,f.c]),i._12(4608,fe.a,fe.a,[O.a,R.a]),i._12(4608,he.a,he.a,[O.a,R.a]),i._12(4608,_e.a,_e.a,[]),i._12(4608,ae.a,ae.a,[]),i._12(4608,be.a,be.a,[E.a]),i._12(4608,G.a,G.a,[R.a,E.a,i.u,V.a]),i._12(4608,we.a,we.a,[O.a,R.a]),i._12(5120,W.g,Ce.c,[W.r,[2,W.a],R.a]),i._12(4608,W.f,W.f,[W.g]),i._12(5120,Le.b,Le.d,[O.a,Le.a]),i._12(5120,de.a,de.b,[O.a,Le.b,W.f,Pe.b,i.i]),i._12(4608,ce.a,ce.a,[O.a,R.a,de.a]),i._12(4608,He.a,He.a,[O.a,R.a]),i._12(4608,Fe.a,Fe.a,[O.a,R.a,de.a]),i._12(4608,ke.a,ke.a,[R.a,E.a,V.a,O.a,z.l]),i._12(4608,ve.a,ve.a,[O.a,R.a]),i._12(4608,se.a,se.a,[E.a,R.a]),i._12(4608,C.a,C.a,[]),i._12(4608,b.a,b.a,[]),i._12(4608,w.a,w.a,[]),i._12(4608,h.a,h.a,[ve.a]),i._12(4608,_.a,_.a,[we.a]),i._12(4608,L.a,L.a,[]),i._12(512,W.c,W.c,[]),i._12(512,i.k,xe.a,[]),i._12(256,R.b,{},[]),i._12(1024,Me.a,Me.b,[]),i._12(1024,E.a,E.b,[n.b,Me.a,i.u]),i._12(1024,R.a,R.c,[R.b,E.a]),i._12(512,V.a,V.a,[E.a]),i._12(512,B.a,B.a,[]),i._12(512,O.a,O.a,[R.a,E.a,[2,B.a]]),i._12(512,z.l,z.l,[O.a]),i._12(256,Le.a,{links:[{loadChildren:"../components/action-sheet/layout-1/action-sheet-layout-1.module.ngfactory#ActionSheetLayout1ModuleNgFactory",name:"ActionSheetLayout1",segment:"action-sheet-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/action-sheet/layout-2/action-sheet-layout-2.module.ngfactory#ActionSheetLayout2ModuleNgFactory",name:"ActionSheetLayout2",segment:"action-sheet-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/action-sheet/layout-3/action-sheet-layout-3.module.ngfactory#ActionSheetLayout3ModuleNgFactory",name:"ActionSheetLayout3",segment:"action-sheet-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-1/check-box-layout-1.module.ngfactory#CheckBoxLayout1ModuleNgFactory",name:"CheckBoxLayout1",segment:"check-box-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-2/check-box-layout-2.module.ngfactory#CheckBoxLayout2ModuleNgFactory",name:"CheckBoxLayout2",segment:"check-box-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-3/check-box-layout-3.module.ngfactory#CheckBoxLayout3ModuleNgFactory",name:"CheckBoxLayout3",segment:"check-box-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-4/check-box-layout-4.module.ngfactory#CheckBoxLayout4ModuleNgFactory",name:"CheckBoxLayout4",segment:"check-box-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/full-screen-gallery/full-screen-gallery.module.ngfactory#FullScreenGalleryModuleNgFactory",name:"FullScreenGallery",segment:"full-screen-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-1/image-gallery-layout-1.module.ngfactory#ImageGalleryLayout1ModuleNgFactory",name:"ImageGalleryLayout1",segment:"image-gallery-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-2/image-gallery-layout-2.module.ngfactory#ImageGalleryLayout2ModuleNgFactory",name:"ImageGalleryLayout2",segment:"image-gallery-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-3/image-gallery-layout-3.module.ngfactory#ImageGalleryLayout3ModuleNgFactory",name:"ImageGalleryLayout3",segment:"image-gallery-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module.ngfactory#AppearanceAnimationLayout1ModuleNgFactory",name:"AppearanceAnimationLayout1",segment:"appearance-animation-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module.ngfactory#AppearanceAnimationLayout2ModuleNgFactory",name:"AppearanceAnimationLayout2",segment:"appearance-animation-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module.ngfactory#AppearanceAnimationLayout3ModuleNgFactory",name:"AppearanceAnimationLayout3",segment:"appearance-animation-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module.ngfactory#AppearanceAnimationLayout4ModuleNgFactory",name:"AppearanceAnimationLayout4",segment:"appearance-animation-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module.ngfactory#AppearanceAnimationLayout5ModuleNgFactory",name:"AppearanceAnimationLayout5",segment:"appearance-animation-layout-5",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module.ngfactory#DragAndDropLayout1ModuleNgFactory",name:"DragAndDropLayout1",segment:"drag-and-drop-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module.ngfactory#DragAndDropLayout2ModuleNgFactory",name:"DragAndDropLayout2",segment:"drag-and-drop-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module.ngfactory#DragAndDropLayout3ModuleNgFactory",name:"DragAndDropLayout3",segment:"drag-and-drop-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module.ngfactory#DragAndDropLayout4ModuleNgFactory",name:"DragAndDropLayout4",segment:"drag-and-drop-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-1/expandable-layout-1.module.ngfactory#ExpandableLayout1ModuleNgFactory",name:"ExpandableLayout1",segment:"expandable-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-2/expandable-layout-2.module.ngfactory#ExpandableLayout2ModuleNgFactory",name:"ExpandableLayout2",segment:"expandable-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-3/expandable-layout-3.module.ngfactory#ExpandableLayout3ModuleNgFactory",name:"ExpandableLayout3",segment:"expandable-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-1/google-card-layout-1.module.ngfactory#GoogleCardLayout1ModuleNgFactory",name:"GoogleCardLayout1",segment:"google-card-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-2/google-card-layout-2.module.ngfactory#GoogleCardLayout2ModuleNgFactory",name:"GoogleCardLayout2",segment:"google-card-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-3/google-card-layout-3.module.ngfactory#GoogleCardLayout3ModuleNgFactory",name:"GoogleCardLayout3",segment:"google-card-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-4/google-card-layout-4.module.ngfactory#GoogleCardLayout4ModuleNgFactory",name:"GoogleCardLayout4",segment:"google-card-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module.ngfactory#StickyListHeaderLayout1ModuleNgFactory",name:"StickyListHeaderLayout1",segment:"sticky-list-header-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module.ngfactory#StickyListHeaderLayout2ModuleNgFactory",name:"StickyListHeaderLayout2",segment:"sticky-list-header-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module.ngfactory#StickyListHeaderLayout3ModuleNgFactory",name:"StickyListHeaderLayout3",segment:"sticky-list-header-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module.ngfactory#StickyListHeaderLayout4ModuleNgFactory",name:"StickyListHeaderLayout4",segment:"sticky-list-header-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module.ngfactory#SwipeToDismissLayout1ModuleNgFactory",name:"SwipeToDismissLayout1",segment:"swipe-to-dismiss-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module.ngfactory#SwipeToDismissLayout2ModuleNgFactory",name:"SwipeToDismissLayout2",segment:"swipe-to-dismiss-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module.ngfactory#SwipeToDismissLayout3ModuleNgFactory",name:"SwipeToDismissLayout3",segment:"swipe-to-dismiss-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module.ngfactory#SwipeToDismissLayout4ModuleNgFactory",name:"SwipeToDismissLayout4",segment:"swipe-to-dismiss-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/login/layout-1/login-layout-1.module.ngfactory#LoginLayout1ModuleNgFactory",name:"LoginLayout1",segment:"login-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/login/layout-2/login-layout-2.module.ngfactory#LoginLayout2ModuleNgFactory",name:"LoginLayout2",segment:"login-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-1/maps-layout-1.module.ngfactory#MapsLayout1ModuleNgFactory",name:"MapsLayout1",segment:"maps-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-2/maps-layout-2.module.ngfactory#MapsLayout2ModuleNgFactory",name:"MapsLayout2",segment:"maps-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-3/maps-layout-3.module.ngfactory#MapsLayout3ModuleNgFactory",name:"MapsLayout3",segment:"maps-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-1/parallax-layout-1.module.ngfactory#ParallaxLayout1ModuleNgFactory",name:"ParallaxLayout1",segment:"parallax-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-2/parallax-layout-2.module.ngfactory#ParallaxLayout2ModuleNgFactory",name:"ParallaxLayout2",segment:"parallax-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-3/parallax-layout-3.module.ngfactory#ParallaxLayout3ModuleNgFactory",name:"ParallaxLayout3",segment:"parallax-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-4/parallax-layout-4.module.ngfactory#ParallaxLayout4ModuleNgFactory",name:"ParallaxLayout4",segment:"parallax-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/qrcode/layout-1/qrcode-layout-1.module.ngfactory#QRcodeLayout1ModuleNgFactory",name:"QRcodeLayout1",segment:"qrcode-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-1/radio-button-layout-1.module.ngfactory#RadioButtonLayout1ModuleNgFactory",name:"RadioButtonLayout1",segment:"radio-button-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-2/radio-button-layout-2.module.ngfactory#RadioButtonLayout2ModuleNgFactory",name:"RadioButtonLayout2",segment:"radio-button-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-3/radio-button-layout-3.module.ngfactory#RadioButtonLayout3ModuleNgFactory",name:"RadioButtonLayout3",segment:"radio-button-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-1/range-layout-1.module.ngfactory#RangeLayout1ModuleNgFactory",name:"RangeLayout1",segment:"range-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-2/range-layout-2.module.ngfactory#RangeLayout2ModuleNgFactory",name:"RangeLayout2",segment:"range-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-3/range-layout-3.module.ngfactory#RangeLayout3ModuleNgFactory",name:"RangeLayout3",segment:"range-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-4/range-layout-4.module.ngfactory#RangeLayout4ModuleNgFactory",name:"RangeLayout4",segment:"range-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/register/layout-1/register-layout-1.module.ngfactory#RegisterLayout1ModuleNgFactory",name:"RegisterLayout1",segment:"register-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/register/layout-2/register-layout-2.module.ngfactory#RegisterLayout2ModuleNgFactory",name:"RegisterLayout2",segment:"register-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-1/search-bar-layout-1.module.ngfactory#SearchBarLayout1ModuleNgFactory",name:"SearchBarLayout1",segment:"search-bar-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-2/search-bar-layout-2.module.ngfactory#SearchBarLayout2ModuleNgFactory",name:"SearchBarLayout2",segment:"search-bar-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-3/search-bar-layout-3.module.ngfactory#SearchBarLayout3ModuleNgFactory",name:"SearchBarLayout3",segment:"search-bar-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-1/select-layout-1.module.ngfactory#SelectLayout1ModuleNgFactory",name:"SelectLayout1",segment:"select-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-2/select-layout-2.module.ngfactory#SelectLayout2ModuleNgFactory",name:"SelectLayout2",segment:"select-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-3/select-layout-3.module.ngfactory#SelectLayout3ModuleNgFactory",name:"SelectLayout3",segment:"select-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-4/select-layout-4.module.ngfactory#SelectLayout4ModuleNgFactory",name:"SelectLayout4",segment:"select-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-5/select-layout-5.module.ngfactory#SelectLayout5ModuleNgFactory",name:"SelectLayout5",segment:"select-layout-5",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-6/select-layout-6.module.ngfactory#SelectLayout6ModuleNgFactory",name:"SelectLayout6",segment:"select-layout-6",priority:"low",defaultHistory:[]},{loadChildren:"../components/spinner/spinner.module.ngfactory#SpinnerModuleNgFactory",name:"Spinner",segment:"spinner",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-1/splash-screen-layout-1.module.ngfactory#SplashScreenLayout1ModuleNgFactory",name:"SplashScreenLayout1",segment:"splash-screen-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-2/splash-screen-layout-2.module.ngfactory#SplashScreenLayout2ModuleNgFactory",name:"SplashScreenLayout2",segment:"splash-screen-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-3/splash-screen-layout-3.module.ngfactory#SplashScreenLayout3ModuleNgFactory",name:"SplashScreenLayout3",segment:"splash-screen-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/sub-image-gallery/sub-image-gallery.module.ngfactory#SubImageGalleryModuleNgFactory",name:"SubImageGallery",segment:"sub-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-1/tabs-layout-1.module.ngfactory#TabsLayout1ModuleNgFactory",name:"TabsLayout1",segment:"tabs-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-2/tabs-layout-2.module.ngfactory#TabsLayout2ModuleNgFactory",name:"TabsLayout2",segment:"tabs-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-3/tabs-layout-3.module.ngfactory#TabsLayout3ModuleNgFactory",name:"TabsLayout3",segment:"tabs-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-1/toggle-layout-1.module.ngfactory#ToggleLayout1ModuleNgFactory",name:"ToggleLayout1",segment:"toggle-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-2/toggle-layout-2.module.ngfactory#ToggleLayout2ModuleNgFactory",name:"ToggleLayout2",segment:"toggle-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-3/toggle-layout-3.module.ngfactory#ToggleLayout3ModuleNgFactory",name:"ToggleLayout3",segment:"toggle-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-1/wizard-layout-1.module.ngfactory#WizardLayout1ModuleNgFactory",name:"WizardLayout1",segment:"wizard-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-2/wizard-layout-2.module.ngfactory#WizardLayout2ModuleNgFactory",name:"WizardLayout2",segment:"wizard-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-3/wizard-layout-3.module.ngfactory#WizardLayout3ModuleNgFactory",name:"WizardLayout3",segment:"wizard-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../pages/elementsClasses/elementsClasses.module.ngfactory#ElementsClassesPageModuleNgFactory",name:"ElementsClassesPage",segment:"elementsClasses",priority:"low",defaultHistory:[]},{loadChildren:"../pages/elementsHome/elementsHome.module.ngfactory#ElementsHomePageModuleNgFactory",name:"ElementsHomePage",segment:"elementsHome",priority:"low",defaultHistory:[]},{loadChildren:"../pages/home/home.module.ngfactory#HomePageModuleNgFactory",name:"HomePage",segment:"home",priority:"low",defaultHistory:[]},{loadChildren:"../pages/intro-page/intro-page.module.ngfactory#IntroPageModuleNgFactory",name:"IntroPage",segment:"intro-page",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-action-sheet/item-details-action-sheet.module.ngfactory#ItemDetailsPageActionSheetModuleNgFactory",name:"ItemDetailsPageActionSheet",segment:"item-details-action-sheet",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-appearance-animation/item-details-appearance-animation.module.ngfactory#ItemDetailsPageAppearanceAnimationModuleNgFactory",name:"ItemDetailsPageAppearanceAnimation",segment:"item-details-appearance-animation",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-check-box/item-details-check-box.module.ngfactory#ItemDetailsPageCheckBoxModuleNgFactory",name:"ItemDetailsPageCheckBox",segment:"item-details-check-box",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module.ngfactory#ItemDetailsPageDragAndDropModuleNgFactory",name:"ItemDetailsPageDragAndDrop",segment:"item-details-drag-and-drop",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-expandable/item-details-expandable.module.ngfactory#ItemDetailsPageExpandableModuleNgFactory",name:"ItemDetailsPageExpandable",segment:"item-details-expandable",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module.ngfactory#ItemDetailsPageFullScreenGalleryModuleNgFactory",name:"ItemDetailsPageFullScreenGallery",segment:"item-details-full-screen-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-google-card/item-details-google-card.module.ngfactory#ItemDetailsPageGoogleCardModuleNgFactory",name:"ItemDetailsPageGoogleCard",segment:"item-details-google-card",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-image-gallery/item-details-image-gallery.module.ngfactory#ItemDetailsPageImageGalleryModuleNgFactory",name:"ItemDetailsPageImageGallery",segment:"item-details-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-login/item-details-login.module.ngfactory#ItemDetailsPageLoginModuleNgFactory",name:"ItemDetailsPageLogin",segment:"item-details-login",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-maps/item-details-maps.module.ngfactory#ItemDetailsPageMapsModuleNgFactory",name:"ItemDetailsPageMaps",segment:"item-details-maps",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-parallax/item-details-parallax.module.ngfactory#ItemDetailsPageParallaxModuleNgFactory",name:"ItemDetailsPageParallax",segment:"item-details-parallax",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-qrcode/item-details-qrcode.module.ngfactory#ItemDetailsPageQRCodeModuleNgFactory",name:"ItemDetailsPageQRCode",segment:"item-details-qrcode",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-radio-button/item-details-radio-button.module.ngfactory#ItemDetailsPageRadioButtonModuleNgFactory",name:"ItemDetailsPageRadioButton",segment:"item-details-radio-button",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-range/item-details-range.module.ngfactory#ItemDetailsPageRangeModuleNgFactory",name:"ItemDetailsPageRange",segment:"item-details-range",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-register/item-details-register.module.ngfactory#ItemDetailsPageRegisterModuleNgFactory",name:"ItemDetailsPageRegister",segment:"item-details-register",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-search-bar/item-details-search-bar.module.ngfactory#ItemDetailsPageSearchBarModuleNgFactory",name:"ItemDetailsPageSearchBar",segment:"item-details-search-bar",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-select/item-details-select.module.ngfactory#ItemDetailsPageSelectModuleNgFactory",name:"ItemDetailsPageSelect",segment:"item-details-select",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-spinner/item-details-spinner.module.ngfactory#ItemDetailsPageSpinnerModuleNgFactory",name:"ItemDetailsPageSpinner",segment:"item-details-spinner",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-splash-screen/item-details-splash-screen.module.ngfactory#ItemDetailsPageSplashScreenModuleNgFactory",name:"ItemDetailsPageSplashScreen",segment:"item-details-splash-screen",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module.ngfactory#ItemDetailsPageStickyListHeaderModuleNgFactory",name:"ItemDetailsPageStickyListHeader",segment:"item-details-sticky-list-header",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module.ngfactory#ItemDetailsPageSubImageGalleryModuleNgFactory",name:"ItemDetailsPageSubImageGallery",segment:"item-details-sub-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module.ngfactory#ItemDetailsPageSwipeToDismissModuleNgFactory",name:"ItemDetailsPageSwipeToDismiss",segment:"item-details-swipe-to-dismiss",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-tabs/item-details-tabs.module.ngfactory#ItemDetailsPageTabsModuleNgFactory",name:"ItemDetailsPageTabs",segment:"item-details-tabs",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-text-view/item-details-text-view.module.ngfactory#ItemDetailsPageTextViewModuleNgFactory",name:"ItemDetailsPageTextView",segment:"item-details-text-view",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-toggle/item-details-toggle.module.ngfactory#ItemDetailsPageToggleModuleNgFactory",name:"ItemDetailsPageToggle",segment:"item-details-toggle",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-wizard/item-details-wizard.module.ngfactory#ItemDetailsPageWizardModuleNgFactory",name:"ItemDetailsPageWizard",segment:"item-details-wizard",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details/item-details.module.ngfactory#ItemDetailsPageModuleNgFactory",name:"ItemDetailsPage",segment:"item-details",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-1/tab-page-1.module.ngfactory#TabPage1ModuleNgFactory",name:"TabPage1",segment:"tab-page-1",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-2/tab-page-2.module.ngfactory#TabPage2ModuleNgFactory",name:"TabPage2",segment:"tab-page-2",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-3/tab-page-3.module.ngfactory#TabPage3ModuleNgFactory",name:"TabPage3",segment:"tab-page-3",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-4/tab-page-4.module.ngfactory#TabPage4ModuleNgFactory",name:"TabPage4",segment:"tab-page-4",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-5/tab-page-5.module.ngfactory#TabPage5ModuleNgFactory",name:"TabPage5",segment:"tab-page-5",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-6/tab-page-6.module.ngfactory#TabPage6ModuleNgFactory",name:"TabPage6",segment:"tab-page-6",priority:"low",defaultHistory:[]},{loadChildren:"../pages/items/items.module.ngfactory#ItemsPageModuleNgFactory",name:"ItemsPage",segment:"items",priority:"low",defaultHistory:[]}]},[]),i._12(512,i.h,i.h,[]),i._12(512,Ne.a,Ne.a,[i.h]),i._12(1024,Pe.b,Pe.c,[Ne.a,i.o]),i._12(1024,i.c,function(e,l,a,t,o,i,u,r,s,d,c,m,g){return[n.s(e),Se.a(l),_e.b(a,t),ke.b(o,i,u,r,s),Pe.d(d,c,m,g)]},[[2,i.t],R.a,E.a,V.a,R.a,E.a,V.a,O.a,z.l,R.a,Le.a,Pe.b,i.u]),i._12(512,i.d,i.d,[[2,i.c]]),i._12(131584,i.f,i.f,[i.u,i.U,i.o,i.k,i.i,i.d]),i._12(512,i.e,i.e,[i.f]),i._12(512,n.a,n.a,[[3,n.a]]),i._12(512,u.e,u.e,[]),i._12(512,pe.m,pe.m,[]),i._12(512,pe.d,pe.d,[]),i._12(512,pe.k,pe.k,[]),i._12(512,Ce.a,Ce.a,[]),i._12(512,y.a,y.a,[]),i._12(512,s.b,s.b,[]),i._12(512,p.b,p.b,[]),i._12(512,f.b,f.b,[]),i._12(512,Ce.b,Ce.b,[]),i._12(512,P.a,P.a,[]),i._12(512,H,H,[]),i._12(256,y.c,{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",authDomain:"elements-arton.firebaseapp.com",databaseURL:"https://elements-arton.firebaseio.com",projectId:"elements-arton",storageBucket:"elements-arton.appspot.com",messagingSenderId:"715361864172"},[]),i._12(256,y.d,void 0,[]),i._12(256,f.c,!1,[]),i._12(256,Pe.a,Ie.a,[]),i._12(256,F.a,g,[]),i._12(256,W.a,"/",[])])});Object(i.N)(),Object(n.j)().bootstrapModuleFactory(De)},91:function(e,l,a){"use strict";a.d(l,"a",function(){return t});a(0),a(65);var t=function(){function e(e){this.loadingCtrl=e}return e.prototype.show=function(){this.loading=this.loadingCtrl.create({content:"Please wait..."}),this.loading.present()},e.prototype.hide=function(){this.loading.dismiss()},e}()},92:function(e,l,a){"use strict";a.d(l,"a",function(){return t});var t=Object.freeze({IS_FIREBASE_ENABLED:!1,SHOW_START_WIZARD:!1,SUBSCRIBE:!0,TOAST:{duration:1e3,position:"buttom"},FIREBASE_CONFIG:{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",authDomain:"elements-arton.firebaseapp.com",databaseURL:"https://elements-arton.firebaseio.com",projectId:"elements-arton",storageBucket:"elements-arton.appspot.com",messagingSenderId:"715361864172"},MAP_KEY:{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg"}})}},[434]);
+webpackJsonp([115],{
+
+/***/ 235:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var LoadingService = (function () {
+    function LoadingService(loadingCtrl) {
+        this.loadingCtrl = loadingCtrl;
+    }
+    LoadingService.prototype.show = function () {
+        this.loading = this.loadingCtrl.create({
+            content: 'Please wait...'
+        });
+        this.loading.present();
+    };
+    LoadingService.prototype.hide = function () {
+        this.loading.dismiss();
+    };
+    LoadingService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["i" /* LoadingController */]])
+    ], LoadingService);
+    return LoadingService;
+}());
+
+//# sourceMappingURL=loading-service.js.map
+
+/***/ }),
+
+/***/ 249:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 249;
+
+/***/ }),
+
+/***/ 294:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../components/action-sheet/layout-1/action-sheet-layout-1.module": [
+		1043,
+		39
+	],
+	"../components/action-sheet/layout-2/action-sheet-layout-2.module": [
+		1044,
+		38
+	],
+	"../components/action-sheet/layout-3/action-sheet-layout-3.module": [
+		1045,
+		114
+	],
+	"../components/check-box/layout-1/check-box-layout-1.module": [
+		1046,
+		113
+	],
+	"../components/check-box/layout-2/check-box-layout-2.module": [
+		1047,
+		112
+	],
+	"../components/check-box/layout-3/check-box-layout-3.module": [
+		1048,
+		111
+	],
+	"../components/check-box/layout-4/check-box-layout-4.module": [
+		1049,
+		110
+	],
+	"../components/full-screen-gallery/full-screen-gallery.module": [
+		1050,
+		109
+	],
+	"../components/image-gallery/layout-1/image-gallery-layout-1.module": [
+		1051,
+		108
+	],
+	"../components/image-gallery/layout-2/image-gallery-layout-2.module": [
+		1052,
+		107
+	],
+	"../components/image-gallery/layout-3/image-gallery-layout-3.module": [
+		1117,
+		106
+	],
+	"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module": [
+		1053,
+		105
+	],
+	"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module": [
+		1054,
+		104
+	],
+	"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module": [
+		1055,
+		103
+	],
+	"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module": [
+		1056,
+		102
+	],
+	"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module": [
+		1057,
+		101
+	],
+	"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module": [
+		1058,
+		100
+	],
+	"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module": [
+		1059,
+		99
+	],
+	"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module": [
+		1060,
+		98
+	],
+	"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module": [
+		1061,
+		97
+	],
+	"../components/list-view/expandable/layout-1/expandable-layout-1.module": [
+		1062,
+		96
+	],
+	"../components/list-view/expandable/layout-2/expandable-layout-2.module": [
+		1063,
+		95
+	],
+	"../components/list-view/expandable/layout-3/expandable-layout-3.module": [
+		1064,
+		94
+	],
+	"../components/list-view/google-card/layout-1/google-card-layout-1.module": [
+		1065,
+		93
+	],
+	"../components/list-view/google-card/layout-2/google-card-layout-2.module": [
+		1066,
+		92
+	],
+	"../components/list-view/google-card/layout-3/google-card-layout-3.module": [
+		1067,
+		91
+	],
+	"../components/list-view/google-card/layout-4/google-card-layout-4.module": [
+		1068,
+		90
+	],
+	"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module": [
+		1069,
+		24
+	],
+	"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module": [
+		1070,
+		23
+	],
+	"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module": [
+		1071,
+		22
+	],
+	"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module": [
+		1072,
+		21
+	],
+	"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module": [
+		1073,
+		89
+	],
+	"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module": [
+		1074,
+		88
+	],
+	"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module": [
+		1075,
+		87
+	],
+	"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module": [
+		1076,
+		86
+	],
+	"../components/login/layout-1/login-layout-1.module": [
+		1077,
+		85
+	],
+	"../components/login/layout-2/login-layout-2.module": [
+		1078,
+		84
+	],
+	"../components/maps/layout-1/maps-layout-1.module": [
+		1079,
+		2
+	],
+	"../components/maps/layout-2/maps-layout-2.module": [
+		1080,
+		4
+	],
+	"../components/maps/layout-3/maps-layout-3.module": [
+		1081,
+		3
+	],
+	"../components/parallax/layout-1/parallax-layout-1.module": [
+		1082,
+		37
+	],
+	"../components/parallax/layout-2/parallax-layout-2.module": [
+		1083,
+		36
+	],
+	"../components/parallax/layout-3/parallax-layout-3.module": [
+		1084,
+		35
+	],
+	"../components/parallax/layout-4/parallax-layout-4.module": [
+		1085,
+		34
+	],
+	"../components/qrcode/layout-1/qrcode-layout-1.module": [
+		1086,
+		83
+	],
+	"../components/radio-button/layout-1/radio-button-layout-1.module": [
+		1087,
+		82
+	],
+	"../components/radio-button/layout-2/radio-button-layout-2.module": [
+		1088,
+		81
+	],
+	"../components/radio-button/layout-3/radio-button-layout-3.module": [
+		1089,
+		80
+	],
+	"../components/range/layout-1/range-layout-1.module": [
+		1090,
+		79
+	],
+	"../components/range/layout-2/range-layout-2.module": [
+		1091,
+		78
+	],
+	"../components/range/layout-3/range-layout-3.module": [
+		1092,
+		77
+	],
+	"../components/range/layout-4/range-layout-4.module": [
+		1093,
+		76
+	],
+	"../components/register/layout-1/register-layout-1.module": [
+		1094,
+		75
+	],
+	"../components/register/layout-2/register-layout-2.module": [
+		1095,
+		74
+	],
+	"../components/search-bar/layout-1/search-bar-layout-1.module": [
+		1096,
+		73
+	],
+	"../components/search-bar/layout-2/search-bar-layout-2.module": [
+		1097,
+		72
+	],
+	"../components/search-bar/layout-3/search-bar-layout-3.module": [
+		1098,
+		71
+	],
+	"../components/select/layout-1/select-layout-1.module": [
+		1099,
+		70
+	],
+	"../components/select/layout-2/select-layout-2.module": [
+		1100,
+		69
+	],
+	"../components/select/layout-3/select-layout-3.module": [
+		1101,
+		68
+	],
+	"../components/select/layout-4/select-layout-4.module": [
+		1102,
+		67
+	],
+	"../components/select/layout-5/select-layout-5.module": [
+		1103,
+		66
+	],
+	"../components/select/layout-6/select-layout-6.module": [
+		1104,
+		65
+	],
+	"../components/spinner/spinner.module": [
+		1105,
+		64
+	],
+	"../components/splash-screen/layout-1/splash-screen-layout-1.module": [
+		1106,
+		63
+	],
+	"../components/splash-screen/layout-2/splash-screen-layout-2.module": [
+		1107,
+		62
+	],
+	"../components/splash-screen/layout-3/splash-screen-layout-3.module": [
+		1108,
+		61
+	],
+	"../components/sub-image-gallery/sub-image-gallery.module": [
+		1041,
+		60
+	],
+	"../components/tabs/layout-1/tabs-layout-1.module": [
+		1109,
+		59
+	],
+	"../components/tabs/layout-2/tabs-layout-2.module": [
+		1110,
+		58
+	],
+	"../components/tabs/layout-3/tabs-layout-3.module": [
+		1111,
+		57
+	],
+	"../components/toggle/layout-1/toggle-layout-1.module": [
+		1112,
+		56
+	],
+	"../components/toggle/layout-2/toggle-layout-2.module": [
+		1113,
+		55
+	],
+	"../components/toggle/layout-3/toggle-layout-3.module": [
+		1114,
+		54
+	],
+	"../components/wizard/layout-1/wizard-layout-1.module": [
+		1042,
+		53
+	],
+	"../components/wizard/layout-2/wizard-layout-2.module": [
+		1115,
+		52
+	],
+	"../components/wizard/layout-3/wizard-layout-3.module": [
+		1116,
+		51
+	],
+	"../pages/elementsClasses/elementsClasses.module": [
+		375
+	],
+	"../pages/elementsHome/elementsHome.module": [
+		1118,
+		50
+	],
+	"../pages/elementsRacas/elementsRacas.module": [
+		1119,
+		49
+	],
+	"../pages/home/home.module": [
+		1120,
+		48
+	],
+	"../pages/intro-page/intro-page.module": [
+		1121,
+		29
+	],
+	"../pages/item-details-action-sheet/item-details-action-sheet.module": [
+		1122,
+		14
+	],
+	"../pages/item-details-appearance-animation/item-details-appearance-animation.module": [
+		1123,
+		7
+	],
+	"../pages/item-details-check-box/item-details-check-box.module": [
+		1124,
+		13
+	],
+	"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module": [
+		1125,
+		12
+	],
+	"../pages/item-details-expandable/item-details-expandable.module": [
+		1126,
+		25
+	],
+	"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module": [
+		1127,
+		33
+	],
+	"../pages/item-details-google-card/item-details-google-card.module": [
+		1128,
+		11
+	],
+	"../pages/item-details-image-gallery/item-details-image-gallery.module": [
+		1129,
+		26
+	],
+	"../pages/item-details-login/item-details-login.module": [
+		1130,
+		28
+	],
+	"../pages/item-details-maps/item-details-maps.module": [
+		1131,
+		0
+	],
+	"../pages/item-details-parallax/item-details-parallax.module": [
+		1132,
+		8
+	],
+	"../pages/item-details-qrcode/item-details-qrcode.module": [
+		1133,
+		32
+	],
+	"../pages/item-details-radio-button/item-details-radio-button.module": [
+		1134,
+		20
+	],
+	"../pages/item-details-range/item-details-range.module": [
+		1135,
+		9
+	],
+	"../pages/item-details-register/item-details-register.module": [
+		1136,
+		27
+	],
+	"../pages/item-details-search-bar/item-details-search-bar.module": [
+		1137,
+		19
+	],
+	"../pages/item-details-select/item-details-select.module": [
+		1138,
+		6
+	],
+	"../pages/item-details-spinner/item-details-spinner.module": [
+		1139,
+		31
+	],
+	"../pages/item-details-splash-screen/item-details-splash-screen.module": [
+		1140,
+		18
+	],
+	"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module": [
+		1141,
+		5
+	],
+	"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module": [
+		1142,
+		30
+	],
+	"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module": [
+		1143,
+		10
+	],
+	"../pages/item-details-tabs/item-details-tabs.module": [
+		1144,
+		17
+	],
+	"../pages/item-details-text-view/item-details-text-view.module": [
+		1145,
+		47
+	],
+	"../pages/item-details-toggle/item-details-toggle.module": [
+		1146,
+		16
+	],
+	"../pages/item-details-wizard/item-details-wizard.module": [
+		1147,
+		15
+	],
+	"../pages/item-details/item-details.module": [
+		1148,
+		46
+	],
+	"../pages/items/items.module": [
+		1155,
+		1
+	],
+	"../pages/tab-page-1/tab-page-1.module": [
+		1149,
+		45
+	],
+	"../pages/tab-page-2/tab-page-2.module": [
+		1150,
+		44
+	],
+	"../pages/tab-page-3/tab-page-3.module": [
+		1151,
+		43
+	],
+	"../pages/tab-page-4/tab-page-4.module": [
+		1152,
+		42
+	],
+	"../pages/tab-page-5/tab-page-5.module": [
+		1153,
+		41
+	],
+	"../pages/tab-page-6/tab-page-6.module": [
+		1154,
+		40
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 294;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 375:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsClassesPageModule", function() { return ElementsClassesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsClasses__ = __webpack_require__(653);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ElementsClassesPageModule = (function () {
+    function ElementsClassesPageModule() {
+    }
+    ElementsClassesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__elementsClasses__["a" /* ElementsClassesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__elementsClasses__["a" /* ElementsClassesPage */]),
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ElementsClassesPageModule);
+    return ElementsClassesPageModule;
+}());
+
+//# sourceMappingURL=elementsClasses.module.js.map
+
+/***/ }),
+
+/***/ 609:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToastService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_settings__ = __webpack_require__(98);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ToastService = (function () {
+    function ToastService(toastCtrl) {
+        this.toastCtrl = toastCtrl;
+    }
+    ToastService.prototype.presentToast = function (message) {
+        var toastItem = __WEBPACK_IMPORTED_MODULE_2__app_settings__["a" /* AppSettings */].TOAST;
+        toastItem["message"] = message;
+        var toast = this.toastCtrl.create(toastItem);
+        toast.present();
+    };
+    ToastService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["r" /* ToastController */]])
+    ], ToastService);
+    return ToastService;
+}());
+
+//# sourceMappingURL=toast-service.js.map
+
+/***/ }),
+
+/***/ 612:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(235);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var HomeService = (function () {
+    function HomeService(af, loadingService) {
+        this.af = af;
+        this.loadingService = loadingService;
+        this.getData = function () {
+            return {
+                "toolbarTitle": "Ionic3 UI Theme - Yellow Dark",
+                "title": "SAVE HOURS",
+                "subtitle": "OF DEVELOPING",
+                "subtitle2": "and make apps fast as light!",
+                "link": "http://csform.com/documentation-for-ionic-2-ui-template-app/",
+                "description": "For better understanding how our template works please read documentation.",
+                "background": "assets/images/background/29.jpg"
+            };
+        };
+    }
+    HomeService.prototype.load = function () {
+        var _this = this;
+        var that = this;
+        that.loadingService.show();
+        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                _this.af
+                    .object('home')
+                    .valueChanges()
+                    .subscribe(function (snapshot) {
+                    that.loadingService.hide();
+                    observer.next(snapshot);
+                    observer.complete();
+                }, function (err) {
+                    that.loadingService.hide();
+                    observer.error([]);
+                    observer.complete();
+                });
+            });
+        }
+        else {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                that.loadingService.hide();
+                observer.next(_this.getData());
+                observer.complete();
+            });
+        }
+    };
+    HomeService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
+    ], HomeService);
+    return HomeService;
+}());
+
+//# sourceMappingURL=home-service.js.map
+
+/***/ }),
+
+/***/ 614:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(615);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(619);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 619:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(987);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_toast_service__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_loading_service__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(1034);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(1038);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_barcode_scanner__ = __webpack_require__(1039);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_google_analytics__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_elementsClasses_elementsClasses_module__ = __webpack_require__(375);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var firebaseAppConfig = {
+    apiKey: "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",
+    authDomain: "elements-arton.firebaseapp.com",
+    databaseURL: "https://elements-arton.firebaseio.com",
+    projectId: "elements-arton",
+    storageBucket: "elements-arton.appspot.com",
+    messagingSenderId: "715361864172"
+};
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
+                    links: [
+                        { loadChildren: '../components/action-sheet/layout-1/action-sheet-layout-1.module#ActionSheetLayout1Module', name: 'ActionSheetLayout1', segment: 'action-sheet-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/action-sheet/layout-2/action-sheet-layout-2.module#ActionSheetLayout2Module', name: 'ActionSheetLayout2', segment: 'action-sheet-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/action-sheet/layout-3/action-sheet-layout-3.module#ActionSheetLayout3Module', name: 'ActionSheetLayout3', segment: 'action-sheet-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-1/check-box-layout-1.module#CheckBoxLayout1Module', name: 'CheckBoxLayout1', segment: 'check-box-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-2/check-box-layout-2.module#CheckBoxLayout2Module', name: 'CheckBoxLayout2', segment: 'check-box-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-3/check-box-layout-3.module#CheckBoxLayout3Module', name: 'CheckBoxLayout3', segment: 'check-box-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-4/check-box-layout-4.module#CheckBoxLayout4Module', name: 'CheckBoxLayout4', segment: 'check-box-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/full-screen-gallery/full-screen-gallery.module#FullScreenGalleryModule', name: 'FullScreenGallery', segment: 'full-screen-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-1/image-gallery-layout-1.module#ImageGalleryLayout1Module', name: 'ImageGalleryLayout1', segment: 'image-gallery-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-2/image-gallery-layout-2.module#ImageGalleryLayout2Module', name: 'ImageGalleryLayout2', segment: 'image-gallery-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-3/image-gallery-layout-3.module#ImageGalleryLayout3Module', name: 'ImageGalleryLayout3', segment: 'image-gallery-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module#AppearanceAnimationLayout1Module', name: 'AppearanceAnimationLayout1', segment: 'appearance-animation-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module#AppearanceAnimationLayout2Module', name: 'AppearanceAnimationLayout2', segment: 'appearance-animation-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module#AppearanceAnimationLayout3Module', name: 'AppearanceAnimationLayout3', segment: 'appearance-animation-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module#AppearanceAnimationLayout4Module', name: 'AppearanceAnimationLayout4', segment: 'appearance-animation-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module#AppearanceAnimationLayout5Module', name: 'AppearanceAnimationLayout5', segment: 'appearance-animation-layout-5', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module#DragAndDropLayout1Module', name: 'DragAndDropLayout1', segment: 'drag-and-drop-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module#DragAndDropLayout2Module', name: 'DragAndDropLayout2', segment: 'drag-and-drop-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module#DragAndDropLayout3Module', name: 'DragAndDropLayout3', segment: 'drag-and-drop-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module#DragAndDropLayout4Module', name: 'DragAndDropLayout4', segment: 'drag-and-drop-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-1/expandable-layout-1.module#ExpandableLayout1Module', name: 'ExpandableLayout1', segment: 'expandable-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-2/expandable-layout-2.module#ExpandableLayout2Module', name: 'ExpandableLayout2', segment: 'expandable-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-3/expandable-layout-3.module#ExpandableLayout3Module', name: 'ExpandableLayout3', segment: 'expandable-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-1/google-card-layout-1.module#GoogleCardLayout1Module', name: 'GoogleCardLayout1', segment: 'google-card-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-2/google-card-layout-2.module#GoogleCardLayout2Module', name: 'GoogleCardLayout2', segment: 'google-card-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-3/google-card-layout-3.module#GoogleCardLayout3Module', name: 'GoogleCardLayout3', segment: 'google-card-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-4/google-card-layout-4.module#GoogleCardLayout4Module', name: 'GoogleCardLayout4', segment: 'google-card-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module#StickyListHeaderLayout1Module', name: 'StickyListHeaderLayout1', segment: 'sticky-list-header-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module#StickyListHeaderLayout2Module', name: 'StickyListHeaderLayout2', segment: 'sticky-list-header-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module#StickyListHeaderLayout3Module', name: 'StickyListHeaderLayout3', segment: 'sticky-list-header-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module#StickyListHeaderLayout4Module', name: 'StickyListHeaderLayout4', segment: 'sticky-list-header-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module#SwipeToDismissLayout1Module', name: 'SwipeToDismissLayout1', segment: 'swipe-to-dismiss-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module#SwipeToDismissLayout2Module', name: 'SwipeToDismissLayout2', segment: 'swipe-to-dismiss-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module#SwipeToDismissLayout3Module', name: 'SwipeToDismissLayout3', segment: 'swipe-to-dismiss-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module#SwipeToDismissLayout4Module', name: 'SwipeToDismissLayout4', segment: 'swipe-to-dismiss-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/login/layout-1/login-layout-1.module#LoginLayout1Module', name: 'LoginLayout1', segment: 'login-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/login/layout-2/login-layout-2.module#LoginLayout2Module', name: 'LoginLayout2', segment: 'login-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-1/maps-layout-1.module#MapsLayout1Module', name: 'MapsLayout1', segment: 'maps-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-2/maps-layout-2.module#MapsLayout2Module', name: 'MapsLayout2', segment: 'maps-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-3/maps-layout-3.module#MapsLayout3Module', name: 'MapsLayout3', segment: 'maps-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-1/parallax-layout-1.module#ParallaxLayout1Module', name: 'ParallaxLayout1', segment: 'parallax-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-2/parallax-layout-2.module#ParallaxLayout2Module', name: 'ParallaxLayout2', segment: 'parallax-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-3/parallax-layout-3.module#ParallaxLayout3Module', name: 'ParallaxLayout3', segment: 'parallax-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-4/parallax-layout-4.module#ParallaxLayout4Module', name: 'ParallaxLayout4', segment: 'parallax-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/qrcode/layout-1/qrcode-layout-1.module#QRcodeLayout1Module', name: 'QRcodeLayout1', segment: 'qrcode-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-1/radio-button-layout-1.module#RadioButtonLayout1Module', name: 'RadioButtonLayout1', segment: 'radio-button-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-2/radio-button-layout-2.module#RadioButtonLayout2Module', name: 'RadioButtonLayout2', segment: 'radio-button-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-3/radio-button-layout-3.module#RadioButtonLayout3Module', name: 'RadioButtonLayout3', segment: 'radio-button-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-1/range-layout-1.module#RangeLayout1Module', name: 'RangeLayout1', segment: 'range-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-2/range-layout-2.module#RangeLayout2Module', name: 'RangeLayout2', segment: 'range-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-3/range-layout-3.module#RangeLayout3Module', name: 'RangeLayout3', segment: 'range-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-4/range-layout-4.module#RangeLayout4Module', name: 'RangeLayout4', segment: 'range-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/register/layout-1/register-layout-1.module#RegisterLayout1Module', name: 'RegisterLayout1', segment: 'register-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/register/layout-2/register-layout-2.module#RegisterLayout2Module', name: 'RegisterLayout2', segment: 'register-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-1/search-bar-layout-1.module#SearchBarLayout1Module', name: 'SearchBarLayout1', segment: 'search-bar-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-2/search-bar-layout-2.module#SearchBarLayout2Module', name: 'SearchBarLayout2', segment: 'search-bar-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-3/search-bar-layout-3.module#SearchBarLayout3Module', name: 'SearchBarLayout3', segment: 'search-bar-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-1/select-layout-1.module#SelectLayout1Module', name: 'SelectLayout1', segment: 'select-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-2/select-layout-2.module#SelectLayout2Module', name: 'SelectLayout2', segment: 'select-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-3/select-layout-3.module#SelectLayout3Module', name: 'SelectLayout3', segment: 'select-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-4/select-layout-4.module#SelectLayout4Module', name: 'SelectLayout4', segment: 'select-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-5/select-layout-5.module#SelectLayout5Module', name: 'SelectLayout5', segment: 'select-layout-5', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-6/select-layout-6.module#SelectLayout6Module', name: 'SelectLayout6', segment: 'select-layout-6', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/spinner/spinner.module#SpinnerModule', name: 'Spinner', segment: 'spinner', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-1/splash-screen-layout-1.module#SplashScreenLayout1Module', name: 'SplashScreenLayout1', segment: 'splash-screen-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-2/splash-screen-layout-2.module#SplashScreenLayout2Module', name: 'SplashScreenLayout2', segment: 'splash-screen-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-3/splash-screen-layout-3.module#SplashScreenLayout3Module', name: 'SplashScreenLayout3', segment: 'splash-screen-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/sub-image-gallery/sub-image-gallery.module#SubImageGalleryModule', name: 'SubImageGallery', segment: 'sub-image-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-1/tabs-layout-1.module#TabsLayout1Module', name: 'TabsLayout1', segment: 'tabs-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-2/tabs-layout-2.module#TabsLayout2Module', name: 'TabsLayout2', segment: 'tabs-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-3/tabs-layout-3.module#TabsLayout3Module', name: 'TabsLayout3', segment: 'tabs-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-1/toggle-layout-1.module#ToggleLayout1Module', name: 'ToggleLayout1', segment: 'toggle-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-2/toggle-layout-2.module#ToggleLayout2Module', name: 'ToggleLayout2', segment: 'toggle-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-3/toggle-layout-3.module#ToggleLayout3Module', name: 'ToggleLayout3', segment: 'toggle-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-1/wizard-layout-1.module#WizardLayout1Module', name: 'WizardLayout1', segment: 'wizard-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-2/wizard-layout-2.module#WizardLayout2Module', name: 'WizardLayout2', segment: 'wizard-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-3/wizard-layout-3.module#WizardLayout3Module', name: 'WizardLayout3', segment: 'wizard-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsClasses/elementsClasses.module#ElementsClassesPageModule', name: 'ElementsClassesPage', segment: 'elementsClasses', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsHome/elementsHome.module#ElementsHomePageModule', name: 'ElementsHomePage', segment: 'elementsHome', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsRacas/elementsRacas.module#ElementsRacasPageModule', name: 'ElementsRacasPage', segment: 'elementsRacas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intro-page/intro-page.module#IntroPageModule', name: 'IntroPage', segment: 'intro-page', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-action-sheet/item-details-action-sheet.module#ItemDetailsPageActionSheetModule', name: 'ItemDetailsPageActionSheet', segment: 'item-details-action-sheet', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-appearance-animation/item-details-appearance-animation.module#ItemDetailsPageAppearanceAnimationModule', name: 'ItemDetailsPageAppearanceAnimation', segment: 'item-details-appearance-animation', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-check-box/item-details-check-box.module#ItemDetailsPageCheckBoxModule', name: 'ItemDetailsPageCheckBox', segment: 'item-details-check-box', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-drag-and-drop/item-details-drag-and-drop.module#ItemDetailsPageDragAndDropModule', name: 'ItemDetailsPageDragAndDrop', segment: 'item-details-drag-and-drop', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-expandable/item-details-expandable.module#ItemDetailsPageExpandableModule', name: 'ItemDetailsPageExpandable', segment: 'item-details-expandable', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module#ItemDetailsPageFullScreenGalleryModule', name: 'ItemDetailsPageFullScreenGallery', segment: 'item-details-full-screen-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-google-card/item-details-google-card.module#ItemDetailsPageGoogleCardModule', name: 'ItemDetailsPageGoogleCard', segment: 'item-details-google-card', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-image-gallery/item-details-image-gallery.module#ItemDetailsPageImageGalleryModule', name: 'ItemDetailsPageImageGallery', segment: 'item-details-image-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-login/item-details-login.module#ItemDetailsPageLoginModule', name: 'ItemDetailsPageLogin', segment: 'item-details-login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-maps/item-details-maps.module#ItemDetailsPageMapsModule', name: 'ItemDetailsPageMaps', segment: 'item-details-maps', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-parallax/item-details-parallax.module#ItemDetailsPageParallaxModule', name: 'ItemDetailsPageParallax', segment: 'item-details-parallax', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-qrcode/item-details-qrcode.module#ItemDetailsPageQRCodeModule', name: 'ItemDetailsPageQRCode', segment: 'item-details-qrcode', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-radio-button/item-details-radio-button.module#ItemDetailsPageRadioButtonModule', name: 'ItemDetailsPageRadioButton', segment: 'item-details-radio-button', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-range/item-details-range.module#ItemDetailsPageRangeModule', name: 'ItemDetailsPageRange', segment: 'item-details-range', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-register/item-details-register.module#ItemDetailsPageRegisterModule', name: 'ItemDetailsPageRegister', segment: 'item-details-register', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-search-bar/item-details-search-bar.module#ItemDetailsPageSearchBarModule', name: 'ItemDetailsPageSearchBar', segment: 'item-details-search-bar', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-select/item-details-select.module#ItemDetailsPageSelectModule', name: 'ItemDetailsPageSelect', segment: 'item-details-select', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-spinner/item-details-spinner.module#ItemDetailsPageSpinnerModule', name: 'ItemDetailsPageSpinner', segment: 'item-details-spinner', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-splash-screen/item-details-splash-screen.module#ItemDetailsPageSplashScreenModule', name: 'ItemDetailsPageSplashScreen', segment: 'item-details-splash-screen', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-sticky-list-header/item-details-sticky-list-header.module#ItemDetailsPageStickyListHeaderModule', name: 'ItemDetailsPageStickyListHeader', segment: 'item-details-sticky-list-header', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module#ItemDetailsPageSubImageGalleryModule', name: 'ItemDetailsPageSubImageGallery', segment: 'item-details-sub-image-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module#ItemDetailsPageSwipeToDismissModule', name: 'ItemDetailsPageSwipeToDismiss', segment: 'item-details-swipe-to-dismiss', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-tabs/item-details-tabs.module#ItemDetailsPageTabsModule', name: 'ItemDetailsPageTabs', segment: 'item-details-tabs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-text-view/item-details-text-view.module#ItemDetailsPageTextViewModule', name: 'ItemDetailsPageTextView', segment: 'item-details-text-view', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-toggle/item-details-toggle.module#ItemDetailsPageToggleModule', name: 'ItemDetailsPageToggle', segment: 'item-details-toggle', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-wizard/item-details-wizard.module#ItemDetailsPageWizardModule', name: 'ItemDetailsPageWizard', segment: 'item-details-wizard', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details/item-details.module#ItemDetailsPageModule', name: 'ItemDetailsPage', segment: 'item-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-1/tab-page-1.module#TabPage1Module', name: 'TabPage1', segment: 'tab-page-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-2/tab-page-2.module#TabPage2Module', name: 'TabPage2', segment: 'tab-page-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-3/tab-page-3.module#TabPage3Module', name: 'TabPage3', segment: 'tab-page-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-4/tab-page-4.module#TabPage4Module', name: 'TabPage4', segment: 'tab-page-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-5/tab-page-5.module#TabPage5Module', name: 'TabPage5', segment: 'tab-page-5', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tab-page-6/tab-page-6.module#TabPage6Module', name: 'TabPage6', segment: 'tab-page-6', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/items/items.module#ItemsPageModule', name: 'ItemsPage', segment: 'items', priority: 'low', defaultHistory: [] }
+                    ]
+                }),
+                __WEBPACK_IMPORTED_MODULE_5_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseAppConfig),
+                __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__["b" /* AngularFireDatabaseModule */], __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuthModule */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__["a" /* AngularFirestoreModule */], __WEBPACK_IMPORTED_MODULE_15__pages_elementsClasses_elementsClasses_module__["ElementsClassesPageModule"]
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicApp */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_13__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_9__services_toast_service__["a" /* ToastService */], __WEBPACK_IMPORTED_MODULE_10__services_loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_14__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 653:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElementsClassesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_home_service__ = __webpack_require__(612);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var ElementsClassesPage = (function () {
+    function ElementsClassesPage(navCtrl, service, af) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.service = service;
+        this.af = af;
+        this.title = 'Classes';
+        this.lvls = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        this.tipoClasses = ['Agility', 'Clericato', 'Damage', 'Utility'];
+        this.tipoClassesSelecionados = ['Agility', 'Clericato', 'Damage', 'Utility'];
+        this.searchTerm = "";
+        console.log('classes');
+        service.load().subscribe(function (snapshot) {
+            _this.data = snapshot;
+        });
+        this.list = this.af.list('classes').valueChanges();
+        this.listFiltered = this.af.list('classes').valueChanges();
+    }
+    ElementsClassesPage.prototype.getItems = function (event) {
+        var _this = this;
+        if (!this.list) {
+            this.list = this.listFiltered;
+        }
+        this.list.subscribe(function (listaBD) {
+            var listaBDFiltrada = listaBD.filter(function (item) {
+                return item['Nome'].toLowerCase().indexOf(event.target.value.toLowerCase()) > -1;
+            });
+            _this.listFiltered = __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(listaBDFiltrada);
+        });
+    };
+    ElementsClassesPage.prototype.toggleGroup = function (group) {
+        group.show = !group.show;
+    };
+    ElementsClassesPage.prototype.isGroupShown = function (group) {
+        return group.show;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ElementsClassesPage.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ElementsClassesPage.prototype, "events", void 0);
+    ElementsClassesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'elements-page-classes',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/elementsClasses/elementsClasses.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Classes</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n        <!-- List -->\n\n        <ion-col col-12>\n\n        <ion-list no-padding no-margin transparent>\n\n        <ion-item padding-top no-lines *ngIf="data != null">\n\n            <ion-label>Tipo Classes:</ion-label>\n\n            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados">\n\n                <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        </ion-list>\n\n        </ion-col>\n\n        \n\n        <ion-col col-12>\n\n            <ion-list no-margin>\n\n            \n\n            <ion-list-header no-padding no-margin transparent>\n\n                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>\n\n                \n\n            </ion-list-header>\n\n\n\n            <li *ngFor="let group of listFiltered | async">\n\n              <!-- List big image Header -->\n\n              <div class="collapsible-header" (click)="toggleGroup(group)">\n\n                <ion-item no-padding>\n\n                  <h2 padding-left item-title>{{group.Nome}}</h2>\n\n                  <h3 padding-left item-subtitle>HP:{{group.HP}} Perícia:{{group.Pericia}}</h3>\n\n                </ion-item>\n\n              </div>\n\n              <!-- List big image Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }" [hidden]="!isGroupShown(group)">\n\n                <ion-item transparent no-lines style="color: white">\n\n                    <h2 padding-left>HP: {{group.HP}}</h2>\n\n                    <h2 padding-left>Perícia: {{group.Pericia}}</h2>\n\n                    <h2 padding-left>Crítico: {{group.Critico}}</h2>\n\n                    <br/>\n\n                    <h2 padding-left>Vantagens: {{group.Vantagens}}</h2>\n\n                    <h2 padding-left>Desvantagens: {{group.Desvantagens}}</h2>\n\n                    <br/>\n\n                    <h2 *ngFor="let lvl of lvls" padding-left>Lvl{{lvl}}: {{group[\'Lvl\'+lvl]}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n            </ion-list>\n\n        </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/elementsClasses/elementsClasses.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */], __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], ElementsClassesPage);
+    return ElementsClassesPage;
+}());
+
+//# sourceMappingURL=elementsClasses.js.map
+
+/***/ }),
+
+/***/ 98:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppSettings; });
+var AppSettings = Object.freeze({
+    "IS_FIREBASE_ENABLED": false,
+    "SHOW_START_WIZARD": false,
+    "SUBSCRIBE": true,
+    "TOAST": {
+        "duration": 1000,
+        "position": "buttom"
+    },
+    "FIREBASE_CONFIG": {
+        "apiKey": "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",
+        "authDomain": "elements-arton.firebaseapp.com",
+        "databaseURL": "https://elements-arton.firebaseio.com",
+        "projectId": "elements-arton",
+        "storageBucket": "elements-arton.appspot.com",
+        "messagingSenderId": "715361864172"
+    },
+    "MAP_KEY": {
+        "apiKey": "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg"
+    }
+});
+//# sourceMappingURL=app-settings.js.map
+
+/***/ }),
+
+/***/ 987:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_native__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_menu_service__ = __webpack_require__(988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_settings__ = __webpack_require__(98);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, menu, menuService, modalCtrl) {
+        var _this = this;
+        this.platform = platform;
+        this.menu = menu;
+        this.menuService = menuService;
+        this.modalCtrl = modalCtrl;
+        this.rootPage = "HomePage";
+        this.initializeApp();
+        this.pages = menuService.getAllThemes();
+        this.leftMenuTitle = menuService.getTitle();
+        this.menuService.load(null).subscribe(function (snapshot) {
+            _this.params = snapshot;
+        });
+        if (__WEBPACK_IMPORTED_MODULE_4__services_app_settings__["a" /* AppSettings */].SHOW_START_WIZARD) {
+            this.presentProfileModal();
+        }
+    }
+    MyApp.prototype.presentProfileModal = function () {
+        var profileModal = this.modalCtrl.create("IntroPage");
+        profileModal.present();
+    };
+    MyApp.prototype.initializeApp = function () {
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            __WEBPACK_IMPORTED_MODULE_2_ionic_native__["d" /* StatusBar */].styleDefault();
+            __WEBPACK_IMPORTED_MODULE_2_ionic_native__["c" /* Splashscreen */].hide();
+            localStorage.setItem("mailChimpLocal", "true");
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // close the menu when clicking a link from the menu
+        // navigate to the new page if it is not the current page
+        if (page.singlePage) {
+            this.menu.open();
+            this.nav.push(this.getPageForOpen(page.theme), {
+                service: this.getServiceForPage(page.theme),
+                page: page,
+                componentName: page.theme
+            });
+        }
+        else {
+            this.nav.setRoot("ItemsPage", {
+                componentName: page.theme
+            });
+        }
+    };
+    ;
+    MyApp.prototype.abrePagina = function (page) {
+        console.log(page);
+        this.nav.push(page);
+    };
+    MyApp.prototype.getPageForOpen = function (value) {
+        return null;
+    };
+    MyApp.prototype.getServiceForPage = function (value) {
+        return null;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/app/app.html"*/'<ion-split-pane when="md">\n\n  <ion-menu [content]="content" *ngIf="params != null">\n\n    <!-- Menu Main Top -->\n\n    <ion-header padding background-size header-background-image\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.background + \')\'}">\n\n      <ion-thumbnail>\n\n        <img [src]="params.image">\n\n      </ion-thumbnail>\n\n      <h2 item-title text-center>Elements</h2>\n\n    </ion-header>\n\n    \n\n    <!-- Menu Main List -->\n\n    <ion-content>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsClassesPage\')">\n\n          <ion-icon padding-left>\n\n            <i class="icon icon-format-align-justify"></i>\n\n          </ion-icon>\n\n          Classes\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRacasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Raças\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsMagiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Magias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsPericiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Perícias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsLojasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Lojas\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRegrasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Regras\n\n        </button>\n\n      </ion-list>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">\n\n        <ion-icon padding-left>\n\n          <i class="icon {{p.icon}}"></i>\n\n        </ion-icon>\n\n        {{p.title}}\n\n      </button>\n\n      </ion-list>\n\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n  <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav>\n\n</ion-split-pane>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/app/app.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_3__services_menu_service__["a" /* MenuService */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_3__services_menu_service__["a" /* MenuService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ModalController */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 988:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(98);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MenuService = (function () {
+    function MenuService(af) {
+        var _this = this;
+        this.af = af;
+        this.getId = function () { return 'menu'; };
+        this.getTitle = function () { return 'UIAppTemplate'; };
+        this.getAllThemes = function () {
+            return [
+                { "title": "List Views", "theme": "listViews", "icon": "icon-format-align-justify", "listView": true, "component": "", "singlePage": false },
+                { "title": "Parallax", "theme": "parallax", "icon": "icon-format-line-spacing", "listView": false, "component": "", "singlePage": false },
+                { "title": "Login Pages", "theme": "login", "icon": "icon-lock-open-outline", "listView": false, "component": "", "singlePage": false },
+                { "title": "Register Pages", "theme": "register", "icon": "icon-comment-account", "listView": false, "component": "", "singlePage": false },
+                { "title": "Image Gallery", "theme": "imageGallery", "icon": "icon-apps", "listView": false, "component": "", "singlePage": false },
+                { "title": "Splash Screen", "theme": "splashScreens", "icon": "icon-logout", "listView": false, "component": "", "singlePage": false },
+                { "title": "Check Boxs", "theme": "checkBoxes", "icon": "icon-checkbox-marked", "listView": false, "component": "", "singlePage": false },
+                { "title": "Search Bars", "theme": "searchBars", "icon": "icon-magnify", "listView": false, "component": "", "singlePage": false },
+                { "title": "Typo + small components", "theme": "textViews", "icon": "icon-tumblr", "listView": false, "component": "", "singlePage": false },
+                { "title": "Wizard", "theme": "wizard", "icon": "icon-cellphone-settings", "listView": false, "component": "", "singlePage": false },
+                { "title": "Spinner", "theme": "spinner", "icon": "icon-image-filter-tilt-shift", "listView": false, "component": "", "singlePage": false },
+                { "title": "Tabs", "theme": "tabs", "icon": "icon-view-array", "listView": false, "component": "", "singlePage": false },
+                { "title": "Maps", "theme": "maps", "icon": "icon-google-maps", "listView": false, "component": "", "singlePage": false },
+                { "title": "QRCode", "theme": "qrcode", "icon": "icon-qrcode", "listView": false, "component": "", "singlePage": false },
+                { "title": "Radio Button", "theme": "radioButton", "icon": "icon-radiobox-marked", "listView": false, "component": "", "singlePage": false },
+                { "title": "Range", "theme": "range", "icon": "icon-toggle-switch-off", "listView": false, "component": "", "singlePage": false },
+                { "title": "Toggle", "theme": "toggle", "icon": "icon-toggle-switch", "listView": false, "component": "", "singlePage": false },
+                { "title": "Select", "theme": "select", "icon": "icon-menu-down", "listView": true, "component": "", "singlePage": false },
+                { "title": "Action Sheet", "theme": "actionSheet", "icon": "icon-dots-horizontal", "listView": false, "component": "", "singlePage": false }
+            ];
+        };
+        this.getDataForTheme = function (menuItem) {
+            return {
+                "background": "assets/images/topo.png",
+                "image": "assets/images/logo/login.png",
+                "title": "Ionic3 UI Theme - Yellow Dark"
+            };
+        };
+        this.getEventsForTheme = function (menuItem) {
+            return {};
+        };
+        this.prepareParams = function (item) {
+            return {
+                title: item.title,
+                data: {},
+                events: _this.getEventsForTheme(item)
+            };
+        };
+    }
+    MenuService.prototype.load = function (item) {
+        var _this = this;
+        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                _this.af
+                    .object('menu')
+                    .valueChanges()
+                    .subscribe(function (snapshot) {
+                    observer.next(snapshot);
+                    observer.complete();
+                }, function (err) {
+                    observer.error([]);
+                    observer.complete();
+                });
+            });
+        }
+        else {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                observer.next(_this.getDataForTheme(item));
+                observer.complete();
+            });
+        }
+    };
+    MenuService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], MenuService);
+    return MenuService;
+}());
+
+//# sourceMappingURL=menu-service.js.map
+
+/***/ })
+
+},[614]);
+//# sourceMappingURL=main.js.map

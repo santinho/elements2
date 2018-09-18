@@ -1,1 +1,437 @@
-webpackJsonp([25],{1081:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65),u(881);var t=function(){return function(){}}()},1082:function(l,n,u){"use strict";function t(l){return a._22(0,[(l()(),a._0(0,0,null,null,26,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit)&&t}return t},o.b,o.a)),a.Z(1,1097728,null,3,c.a,[r.a,s.a,a.j,a.A,[2,_.a]],null,null),a._18(335544320,6,{contentLabel:0}),a._18(603979776,7,{_buttons:1}),a._18(603979776,8,{_icons:1}),a.Z(5,16384,null,0,d.a,[],null,null),(l()(),a._20(-1,2,["\n            "])),(l()(),a._0(7,0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),a.Z(8,16384,null,0,f.a,[],null,null),(l()(),a._20(-1,null,["\n              "])),(l()(),a._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),a._20(-1,null,["\n            "])),(l()(),a._20(-1,2,["\n            "])),(l()(),a._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),a._20(14,null,["",""])),(l()(),a._20(-1,2,["\n            "])),(l()(),a._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),a._20(17,null,["",""])),(l()(),a._20(-1,2,["\n            "])),(l()(),a._0(19,0,null,4,6,"ion-icon",[["item-right",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onFavorite",l.context.$implicit,u)&&t}return t},null,null)),a.Z(20,147456,[[8,4]],0,h.a,[s.a,a.j,a.A],null,null),(l()(),a._20(-1,null,["\n              "])),(l()(),a._0(22,0,null,null,2,"i",[["class","icon"],["icon-small",""]],null,null,null,null,null)),a.Z(23,278528,null,0,m.h,[a.p,a.q,a.j,a.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._16(24,{"icon-heart":0,"icon-heart-outline":1}),(l()(),a._20(-1,null,["\n            "])),(l()(),a._20(-1,2,["\n          "]))],function(l,n){l(n,23,0,"icon",l(n,24,0,n.context.$implicit.favorite,!n.context.$implicit.favorite))},function(l,n){l(n,10,0,a._3(1,"",n.context.$implicit.image,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description);l(n,19,0,a._14(n,20)._hidden)})}function e(l){return a._22(0,[(l()(),a._0(0,0,null,null,45,"ion-content",[["elastic-header",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,b.b,b.a)),a.Z(1,4374528,[[1,4]],0,p.a,[s.a,g.a,v.a,a.j,a.A,k.a,Z.a,a.u,[2,y.a],[2,A.a]],null,null),a.Z(2,81920,null,0,E.a,[a.j,a.A],null,null),(l()(),a._20(-1,1,["\n  "])),(l()(),a._0(4,0,null,1,20,"ion-item",[["background-size",""],["class","item item-block"],["id","elastic-header"],["no-lines",""]],null,null,null,o.b,o.a)),a.Z(5,278528,null,0,m.m,[a.q,a.j,a.B],{ngStyle:[0,"ngStyle"]},null),a._16(6,{"background-image":0}),a.Z(7,1097728,null,3,c.a,[r.a,s.a,a.j,a.A,[2,_.a]],null,null),a._18(335544320,3,{contentLabel:0}),a._18(603979776,4,{_buttons:1}),a._18(603979776,5,{_icons:1}),a.Z(11,16384,null,0,d.a,[],null,null),(l()(),a._20(-1,2,["\n    "])),(l()(),a._0(13,0,null,2,4,"ion-thumbnail",[],null,null,null,null,null)),a.Z(14,16384,null,0,j.a,[],null,null),(l()(),a._20(-1,null,["\n      "])),(l()(),a._0(16,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),a._20(-1,null,["\n    "])),(l()(),a._20(-1,2,["\n    "])),(l()(),a._0(19,0,null,2,4,"div",[["text-center",""]],null,null,null,null,null)),(l()(),a._20(-1,null,["\n      "])),(l()(),a._0(21,0,null,null,1,"h1",[["parallax-title",""]],null,null,null,null,null)),(l()(),a._20(22,null,["",""])),(l()(),a._20(-1,null,["\n    "])),(l()(),a._20(-1,2,["\n  "])),(l()(),a._20(-1,1,["\n  "])),(l()(),a._20(-1,1,["\n  "])),(l()(),a._0(27,0,null,1,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),a.Z(28,16384,null,0,x.a,[],null,null),(l()(),a._20(-1,null,["\n    "])),(l()(),a._0(30,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),a.Z(31,16384,null,0,H.a,[],null,null),(l()(),a._20(-1,null,["\n      "])),(l()(),a._0(33,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),a.Z(34,16384,null,0,w.a,[],null,null),(l()(),a._20(-1,null,["\n        "])),(l()(),a._0(36,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),a.Z(37,16384,null,0,T.a,[s.a,a.j,a.A,g.a,I.l,v.a],null,null),(l()(),a._20(-1,null,["\n          "])),(l()(),a.V(16777216,null,null,1,null,t)),a.Z(40,802816,null,0,m.i,[a.J,a.G,a.p],{ngForOf:[0,"ngForOf"]},null),(l()(),a._20(-1,null,["\n        "])),(l()(),a._20(-1,null,["\n      "])),(l()(),a._20(-1,null,["\n    "])),(l()(),a._20(-1,null,["\n  "])),(l()(),a._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,2,0);l(n,5,0,l(n,6,0,"url("+u.data.headerImage+")"));l(n,40,0,u.data.items)},function(l,n){var u=n.component;l(n,0,0,a._14(n,1).statusbarPadding,a._14(n,1)._hasRefresher);l(n,16,0,a._3(1,"",u.data.avatar,""));l(n,22,0,u.data.title)})}function i(l){return a._22(0,[a._18(671088640,1,{content:0}),a._18(402653184,2,{fabButton:0}),(l()(),a._20(-1,null,["\n"])),(l()(),a._20(-1,null,["\n"])),(l()(),a.V(16777216,null,null,1,null,e)),a.Z(5,16384,null,0,m.j,[a.J,a.G],{ngIf:[0,"ngIf"]},null),(l()(),a._20(-1,null,["\n"])),(l()(),a._20(-1,null,["\n"])),(l()(),a._0(8,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,S.b,S.a)),a.Z(9,1228800,[["fab",4]],2,C.a,[g.a],null,null),a._18(335544320,9,{_mainButton:0}),a._18(603979776,10,{_fabLists:1}),(l()(),a._20(-1,0,["\n  "])),(l()(),a._0(13,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.onEvent("onFab",e.data,u)&&t}return t},$.b,$.a)),a.Z(14,49152,[[9,4],[2,4]],0,B.a,[s.a,a.j,a.A],null,null),(l()(),a._20(-1,0,["\n    "])),(l()(),a._0(16,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Z(17,147456,null,0,h.a,[s.a,a.j,a.A],{name:[0,"name"]},null),(l()(),a._20(-1,0,["\n  "])),(l()(),a._20(-1,0,["\n"])),(l()(),a._20(-1,null,["\n"]))],function(l,n){l(n,5,0,null!=n.component.data);l(n,17,0,"add")},function(l,n){l(n,16,0,a._14(n,17)._hidden)})}u.d(n,"b",function(){return L}),n.c=i,u.d(n,"a",function(){return O});var a=u(2),o=u(139),c=u(27),r=u(23),s=u(4),_=u(57),d=u(71),f=u(217),h=u(43),m=u(21),b=u(214),p=u(35),g=u(7),v=u(15),k=u(14),Z=u(39),y=u(8),A=u(33),E=u(882),j=u(146),x=u(140),H=u(141),w=u(142),T=u(67),I=u(11),S=u(878),C=u(216),$=u(879),B=u(90),F=u(962),L=a.Y({encapsulation:2,styles:[],data:{}}),O=a.W("parallax-layout-3",F.a,function(l){return a._22(0,[(l()(),a._0(0,0,null,null,1,"parallax-layout-3",[],null,null,null,i,L)),a.Z(1,4767744,null,0,F.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},805:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),u.d(n,"ParallaxLayout3ModuleNgFactory",function(){return Z});var t=u(2),e=u(1081),i=u(418),a=u(419),o=u(420),c=u(421),r=u(422),s=u(423),_=u(424),d=u(425),f=u(426),h=u(1082),m=u(21),b=u(26),p=u(215),g=u(881),v=u(66),k=u(962),Z=t.X(e.a,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[i.a,a.a,o.a,c.a,r.a,s.a,_.a,d.a,f.a,h.a]],[3,t.i],t.s]),t._12(4608,m.l,m.k,[t.r,[2,m.t]]),t._12(4608,b.n,b.n,[]),t._12(4608,b.c,b.c,[]),t._12(512,m.c,m.c,[]),t._12(512,b.m,b.m,[]),t._12(512,b.d,b.d,[]),t._12(512,b.k,b.k,[]),t._12(512,p.a,p.a,[]),t._12(512,p.b,p.b,[]),t._12(512,g.a,g.a,[]),t._12(512,e.a,e.a,[]),t._12(256,v.a,k.a,[])])})},878:function(l,n,u){"use strict";function t(l){return e._22(0,[e._13(null,0)],null,null)}u.d(n,"a",function(){return i}),n.b=t;var e=u(2),i=(u(7),e.Y({encapsulation:2,styles:[],data:{}}))},879:function(l,n,u){"use strict";function t(l){return e._22(2,[(l()(),e._0(0,0,null,null,1,"ion-icon",[["class","fab-close-icon"],["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Z(1,147456,null,0,i.a,[a.a,e.j,e.A],{name:[0,"name"]},null),(l()(),e._0(2,0,null,null,1,"span",[["class","button-inner"]],null,null,null,null,null)),e._13(null,0),(l()(),e._0(4,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){l(n,1,0,"close")},function(l,n){l(n,0,0,e._14(n,1)._hidden)})}u.d(n,"a",function(){return o}),n.b=t;var e=u(2),i=u(43),a=u(4),o=e.Y({encapsulation:2,styles:[],data:{}})},881:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(882);var t=function(){return function(){}}()},882:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0);var t=function(){function l(l,n){this.element=l,this.renderer=n}return l.prototype.ngOnInit=function(){var l=this;this.scrollerHandle=this.element.nativeElement.getElementsByClassName("scroll-content")[0],this.header=this.scrollerHandle.firstElementChild,this.headerHeight=this.scrollerHandle.clientHeight,this.ticking=!1,this.renderer.setElementStyle(this.header,"webkitTransformOrigin","center bottom"),window.addEventListener("resize",function(){l.headerHeight=l.scrollerHandle.clientHeight},!1),this.scrollerHandle.addEventListener("scroll",function(){l.ticking||window.requestAnimationFrame(function(){l.updateElasticHeader()}),l.ticking=!0})},l.prototype.updateElasticHeader=function(){this.scrollTop=this.scrollerHandle.scrollTop,this.scrollTop>=0?(this.translateAmt=this.scrollTop/2,this.scaleAmt=1):(this.translateAmt=0,this.scaleAmt=-this.scrollTop/this.headerHeight+1),this.renderer.setElementStyle(this.header,"webkitTransform","translate3d(0,"+this.translateAmt+"px,0) scale("+this.scaleAmt+","+this.scaleAmt+")"),this.ticking=!1},l}()},962:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){function l(){}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngOnChanges=function(l){this.subscribeToIonScroll()},l.prototype.ngAfterViewInit=function(){this.subscribeToIonScroll()},l.prototype.subscribeToIonScroll=function(){var l=this;null!=this.content&&null!=this.content.ionScroll&&this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()}});
+webpackJsonp([25,94,95,96],{
+
+/***/ 1062:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout1Module", function() { return ExpandableLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_1__ = __webpack_require__(1211);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ExpandableLayout1Module = (function () {
+    function ExpandableLayout1Module() {
+    }
+    ExpandableLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_1__["a" /* ExpandableLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__expandable_layout_1__["a" /* ExpandableLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_1__["a" /* ExpandableLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ExpandableLayout1Module);
+    return ExpandableLayout1Module;
+}());
+
+//# sourceMappingURL=expandable-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1063:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout2Module", function() { return ExpandableLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__ = __webpack_require__(1212);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ExpandableLayout2Module = (function () {
+    function ExpandableLayout2Module() {
+    }
+    ExpandableLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ExpandableLayout2Module);
+    return ExpandableLayout2Module;
+}());
+
+//# sourceMappingURL=expandable-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1064:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout3Module", function() { return ExpandableLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__ = __webpack_require__(1213);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ExpandableLayout3Module = (function () {
+    function ExpandableLayout3Module() {
+    }
+    ExpandableLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ExpandableLayout3Module);
+    return ExpandableLayout3Module;
+}());
+
+//# sourceMappingURL=expandable-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1126:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageExpandableModule", function() { return ItemDetailsPageExpandableModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_expandable__ = __webpack_require__(1276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_expandable_layout_1_expandable_layout_1_module__ = __webpack_require__(1062);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_expandable_layout_2_expandable_layout_2_module__ = __webpack_require__(1063);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_expandable_layout_3_expandable_layout_3_module__ = __webpack_require__(1064);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var ItemDetailsPageExpandableModule = (function () {
+    function ItemDetailsPageExpandableModule() {
+    }
+    ItemDetailsPageExpandableModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__item_details_expandable__["a" /* ItemDetailsPageExpandable */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__item_details_expandable__["a" /* ItemDetailsPageExpandable */]),
+                __WEBPACK_IMPORTED_MODULE_3__components_list_view_expandable_layout_1_expandable_layout_1_module__["ExpandableLayout1Module"], __WEBPACK_IMPORTED_MODULE_4__components_list_view_expandable_layout_2_expandable_layout_2_module__["ExpandableLayout2Module"],
+                __WEBPACK_IMPORTED_MODULE_5__components_list_view_expandable_layout_3_expandable_layout_3_module__["ExpandableLayout3Module"]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ItemDetailsPageExpandableModule);
+    return ItemDetailsPageExpandableModule;
+}());
+
+//# sourceMappingURL=item-details-expandable.module.js.map
+
+/***/ }),
+
+/***/ 1211:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExpandableLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ExpandableLayout1 = (function () {
+    function ExpandableLayout1() {
+    }
+    ExpandableLayout1.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    ExpandableLayout1.prototype.toggleGroup = function (group) {
+        group.show = !group.show;
+    };
+    ExpandableLayout1.prototype.isGroupShown = function (group) {
+        return group.show;
+    };
+    ExpandableLayout1.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout1.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], ExpandableLayout1.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
+    ], ExpandableLayout1.prototype, "fabButton", void 0);
+    ExpandableLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'expandable-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-1/expandable.html"*/'<!-- Theme List big image -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li *ngFor="let group of data.items;">\n\n              <!-- List big image Header -->\n\n              <div class="collapsible-header" (click)="toggleGroup(group)">\n\n                <ion-item no-padding>\n\n                  <ion-thumbnail item-start no-margin>\n\n                    <img [src]="group.image" alt="{{group.title}}" />\n\n                  </ion-thumbnail>\n\n                  <h2 padding-left item-title>{{group.title}}</h2>\n\n                  <h3 padding-left item-subtitle>{{group.description}}</h3>\n\n                  <div social float-right>\n\n                    <ion-icon>\n\n                      <i ng-if="group.iconLike" class="icon {{group.iconLike}}"\n\n                      (click)="onEvent(\'onLike\', group, $event)"></i>\n\n                    </ion-icon>\n\n                    <ion-icon>\n\n                      <i ng-if="group.iconFavorite" class="icon {{group.iconFavorite}}"\n\n                      (click)="onEvent(\'onFavorite\', group, $event)"></i>\n\n                    </ion-icon>\n\n                    <ion-icon>\n\n                      <i ng-if="group.iconShare" class="icon {{group.iconShare}}"\n\n                      (click)="onEvent(\'onShare\', group, $event)"></i>\n\n                    </ion-icon>\n\n                  </div>\n\n                </ion-item>\n\n              </div>\n\n              <!-- List big image Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }" [hidden]="!isGroupShown(group)">\n\n                <ion-item transparent no-lines *ngFor="let item of group.items;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                  <ion-thumbnail item-start>\n\n                    <img [src]="item.image" alt="{{item.title}}" />\n\n                  </ion-thumbnail>\n\n                  <h2 subitem-title>{{item.title}}</h2>\n\n                  <h3 subitem-subtitle>{{item.description}}</h3>\n\n                  <ion-icon item-end icon-medium><i class="icon {{item.iconPlay}}"></i></ion-icon>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-1/expandable.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ExpandableLayout1);
+    return ExpandableLayout1;
+}());
+
+//# sourceMappingURL=expandable-layout-1.js.map
+
+/***/ }),
+
+/***/ 1212:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExpandableLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ExpandableLayout2 = (function () {
+    function ExpandableLayout2() {
+    }
+    ExpandableLayout2.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    ExpandableLayout2.prototype.toggleGroup = function (group) {
+        group.show = !group.show;
+    };
+    ExpandableLayout2.prototype.isGroupShown = function (group) {
+        return group.show;
+    };
+    ExpandableLayout2.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout2.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], ExpandableLayout2.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
+    ], ExpandableLayout2.prototype, "fabButton", void 0);
+    ExpandableLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'expandable-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-2/expandable.html"*/'<!-- Themes Expandable Full image with CTA -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Full image with CTA Header-->\n\n              <div class="collapsible-header">\n\n                <ion-item no-margin no-padding no-lines background-size\n\n                [ngStyle]="{\'background-image\': \'url(\' + group.backgroundImage + \')\'}">\n\n                  <h2 item-title>{{group.title}}</h2>\n\n                  <button ion-button float-right default-button (click)="toggleGroup(group)">\n\n                      {{group.button}}\n\n                </button>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Full image with CTA Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item full default-button no-lines *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 padding-left subitem-title>{{item}}</h2>\n\n                  <ion-icon item-end icon-small>\n\n                    <i class=" icon icon-chevron-right"></i>\n\n                  </ion-icon>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-2/expandable.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ExpandableLayout2);
+    return ExpandableLayout2;
+}());
+
+//# sourceMappingURL=expandable-layout-2.js.map
+
+/***/ }),
+
+/***/ 1213:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExpandableLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ExpandableLayout3 = (function () {
+    function ExpandableLayout3() {
+    }
+    ExpandableLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    ExpandableLayout3.prototype.toggleGroup = function (group) {
+        group.show = !group.show;
+    };
+    ExpandableLayout3.prototype.isGroupShown = function (group) {
+        return group.show;
+    };
+    ExpandableLayout3.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ExpandableLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], ExpandableLayout3.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
+    ], ExpandableLayout3.prototype, "fabButton", void 0);
+    ExpandableLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'expandable-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-3/expandable.html"*/'<!-- Themes Centered with header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <!---HEADER-->\n\n          <ion-list-header no-margin no-padding no-lines background-size\n\n          [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n            <h2 item-title text-center>{{data.title}}</h2>\n\n          </ion-list-header>\n\n          <!--CONTENT-->\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li no-margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Centered with header Header-->\n\n              <div class="collapsible-header" no-margin no-padding (click)="toggleGroup(group)">\n\n                <ion-item text-center no-lines>\n\n                  <ion-icon icon-small>\n\n                    <i class="icon {{group.icon}}"></i>\n\n                  </ion-icon>\n\n                  <h2 text-center item-title>{{group.title}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Centered with header Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item no-lines no-padding transparent *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 text-center subitem-title>{{item}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-3/expandable.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ExpandableLayout3);
+    return ExpandableLayout3;
+}());
+
+//# sourceMappingURL=expandable-layout-3.js.map
+
+/***/ }),
+
+/***/ 1276:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageExpandable; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ItemDetailsPageExpandable = (function () {
+    function ItemDetailsPageExpandable(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.params = {};
+        // If we navigated to this page, we will have an item available as a nav param
+        this.page = navParams.get('page');
+        this.service = navParams.get('service');
+        if (this.service) {
+            this.params = this.service.prepareParams(this.page, navCtrl);
+            this.params.data = this.service.load(this.page);
+        }
+        else {
+            navCtrl.setRoot("HomePage");
+        }
+    }
+    ItemDetailsPageExpandable.prototype.doRefresh = function (refresher) {
+        setTimeout(function () {
+            refresher.complete();
+        }, 2000);
+    };
+    ItemDetailsPageExpandable = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-expandable/item-details-expandable.html"*/'<!--Expandable components-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE EXPANDABLE -List big image -->\n\n<expandable-layout-1  has-header *ngIf="params.expandableLayout1" [data]="params.data | async" [events]="params.events">\n\n</expandable-layout-1>\n\n\n\n<!-- PAGE EXPANDABLE - Full image with CTA -->\n\n<expandable-layout-2  has-header *ngIf="params.expandableLayout2" [data]="params.data | async" [events]="params.events">\n\n</expandable-layout-2>\n\n\n\n<!-- PAGE EXPANDABLE - Centered with header -->\n\n<expandable-layout-3  has-header *ngIf="params.expandableLayout3" [data]="params.data | async" [events]="params.events">\n\n</expandable-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-expandable/item-details-expandable.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    ], ItemDetailsPageExpandable);
+    return ItemDetailsPageExpandable;
+}());
+
+//# sourceMappingURL=item-details-expandable.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=25.js.map

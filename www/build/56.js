@@ -1,1 +1,95 @@
-webpackJsonp([56],{1033:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1034:function(l,n,u){"use strict";function t(l){return o._22(0,[(l()(),o._0(0,0,null,null,18,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit.title,u)&&t}return t},i.b,i.a)),o.Z(1,1097728,null,3,r.a,[c.a,_.a,o.j,o.A,[2,s.a]],null,null),o._18(335544320,3,{contentLabel:0}),o._18(603979776,4,{_buttons:1}),o._18(603979776,5,{_icons:1}),o.Z(5,16384,null,0,d.a,[],null,null),(l()(),o._20(-1,2,["\n                        "])),(l()(),o._0(7,0,null,0,4,"ion-avatar",[["item-start",""]],null,null,null,null,null)),o.Z(8,16384,null,0,f.a,[],null,null),(l()(),o._20(-1,null,["\n                            "])),(l()(),o._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),o._20(-1,null,["\n                        "])),(l()(),o._20(-1,2,["\n                        "])),(l()(),o._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),o._20(14,null,["",""])),(l()(),o._20(-1,2,["\n                        "])),(l()(),o._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),o._20(17,null,["",""])),(l()(),o._20(-1,2,["\n                    "]))],null,function(l,n){l(n,10,0,n.context.$implicit.image);l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description)})}function a(l){return o._22(0,[(l()(),o._0(0,0,null,null,19,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),o.Z(1,16384,null,0,m.a,[],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(4,0,null,null,14,"ion-row",[["class","row"]],null,null,null,null,null)),o.Z(5,16384,null,0,b.a,[],null,null),(l()(),o._20(-1,null,["\n            "])),(l()(),o._0(7,0,null,null,10,"ion-col",[["class","col"],["col-12",""],["col-lg-12",""],["col-md-12",""],["col-sm-12",""],["col-xl-12",""]],null,null,null,null,null)),o.Z(8,16384,null,0,p.a,[],null,null),(l()(),o._20(-1,null,["\n                "])),(l()(),o._0(10,0,null,null,6,"ion-list",[["no-margin",""],["reorder","true"]],[[2,"reorder-enabled",null],[2,"reorder-visible",null],[2,"reorder-side-start",null]],[[null,"ionItemReorder"]],function(l,n,u){var t=!0;if("ionItemReorder"===n){t=!1!==l.component.reorderItems(u)&&t}return t},null,null)),o.Z(11,147456,null,0,s.a,[v.a,g.a,o.j,o.A,o.u,[2,h.a]],{reorder:[0,"reorder"]},{ionItemReorder:"ionItemReorder"}),o.Z(12,16384,null,0,Z.a,[_.a,o.j,o.A,v.a,j.l,g.a],null,null),(l()(),o._20(-1,null,["\n                    "])),(l()(),o.V(16777216,null,null,1,null,t)),o.Z(15,802816,null,0,k.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(l()(),o._20(-1,null,["\n                "])),(l()(),o._20(-1,null,["\n            "])),(l()(),o._20(-1,null,["\n        "])),(l()(),o._20(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,11,0,"true");l(n,15,0,u.data.items)},function(l,n){l(n,10,0,o._14(n,11)._enableReorder,o._14(n,11)._visibleReorder,o._14(n,11)._isStart)})}function e(l){return o._22(0,[o._18(402653184,1,{content:0}),o._18(402653184,2,{fabButton:0}),(l()(),o._20(-1,null,["\n"])),(l()(),o._0(3,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,y.b,y.a)),o.Z(4,4374528,[[1,4]],0,h.a,[_.a,v.a,g.a,o.j,o.A,I.a,A.a,o.u,[2,R.a],[2,w.a]],null,null),(l()(),o._20(-1,1,["\n    "])),(l()(),o.V(16777216,null,1,1,null,a)),o.Z(7,16384,null,0,k.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(l()(),o._20(-1,1,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o._0(11,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,x.b,x.a)),o.Z(12,1228800,[["fab",4]],2,E.a,[v.a],null,null),o._18(335544320,6,{_mainButton:0}),o._18(603979776,7,{_fabLists:1}),(l()(),o._20(-1,0,["\n    "])),(l()(),o._0(16,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},F.b,F.a)),o.Z(17,49152,[[6,4],[2,4]],0,O.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,0,["\n    "])),(l()(),o._0(19,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(20,147456,null,0,Y.a,[_.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._20(-1,0,["\n  "])),(l()(),o._20(-1,0,["\n"])),(l()(),o._20(-1,null,["\n"]))],function(l,n){l(n,7,0,null!=n.component.data);l(n,20,0,"add")},function(l,n){l(n,3,0,o._14(n,4).statusbarPadding,o._14(n,4)._hasRefresher);l(n,19,0,o._14(n,20)._hidden)})}u.d(n,"b",function(){return B}),n.c=e,u.d(n,"a",function(){return J});var o=u(2),i=u(139),r=u(27),c=u(23),_=u(4),s=u(57),d=u(71),f=u(217),m=u(140),b=u(141),p=u(142),v=u(7),g=u(15),h=u(35),Z=u(67),j=u(11),k=u(21),y=u(214),I=u(14),A=u(39),R=u(8),w=u(33),x=u(878),E=u(216),F=u(879),O=u(90),Y=u(43),$=u(938),B=o.Y({encapsulation:2,styles:[],data:{}}),J=o.W("drag-and-drop-layout-3",$.a,function(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"drag-and-drop-layout-3",[],null,null,null,e,B)),o.Z(1,4243456,null,0,$.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},781:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),u.d(n,"DragAndDropLayout3ModuleNgFactory",function(){return Z});var t=u(2),a=u(1033),e=u(418),o=u(419),i=u(420),r=u(421),c=u(422),_=u(423),s=u(424),d=u(425),f=u(426),m=u(1034),b=u(21),p=u(26),v=u(215),g=u(66),h=u(938),Z=t.X(a.a,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[e.a,o.a,i.a,r.a,c.a,_.a,s.a,d.a,f.a,m.a]],[3,t.i],t.s]),t._12(4608,b.l,b.k,[t.r,[2,b.t]]),t._12(4608,p.n,p.n,[]),t._12(4608,p.c,p.c,[]),t._12(512,b.c,b.c,[]),t._12(512,p.m,p.m,[]),t._12(512,p.d,p.d,[]),t._12(512,p.k,p.k,[]),t._12(512,v.a,v.a,[]),t._12(512,v.b,v.b,[]),t._12(512,a.a,a.a,[]),t._12(256,g.a,h.a,[])])})},878:function(l,n,u){"use strict";function t(l){return a._22(0,[a._13(null,0)],null,null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(2),e=(u(7),a.Y({encapsulation:2,styles:[],data:{}}))},879:function(l,n,u){"use strict";function t(l){return a._22(2,[(l()(),a._0(0,0,null,null,1,"ion-icon",[["class","fab-close-icon"],["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Z(1,147456,null,0,e.a,[o.a,a.j,a.A],{name:[0,"name"]},null),(l()(),a._0(2,0,null,null,1,"span",[["class","button-inner"]],null,null,null,null,null)),a._13(null,0),(l()(),a._0(4,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){l(n,1,0,"close")},function(l,n){l(n,0,0,a._14(n,1)._hidden)})}u.d(n,"a",function(){return i}),n.b=t;var a=u(2),e=u(43),o=u(4),i=a.Y({encapsulation:2,styles:[],data:{}})},938:function(l,n,u){"use strict";u.d(n,"a",function(){return a});u(0);var t=u(65),a=function(){function l(){var l=this;this.reorderItems=function(n){l.data.items=Object(t.c)(l.data.items,n)}}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngAfterViewInit=function(){var l=this;this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()}});
+webpackJsonp([56],{
+
+/***/ 1112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleLayout1Module", function() { return ToggleLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__ = __webpack_require__(1261);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ToggleLayout1Module = (function () {
+    function ToggleLayout1Module() {
+    }
+    ToggleLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ToggleLayout1Module);
+    return ToggleLayout1Module;
+}());
+
+//# sourceMappingURL=toggle-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1261:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToggleLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ToggleLayout1 = (function () {
+    function ToggleLayout1() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    ToggleLayout1.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], ToggleLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], ToggleLayout1.prototype, "events", void 0);
+    ToggleLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'toggle-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-1/toggle.html"*/'<!--Themes Toggle - With avatars -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <ion-avatar item-start>\n\n          <img images-filter [src]="item.avatar" />\n\n        </ion-avatar>\n\n        <ion-label item-title padding-top>{{item.title}}</ion-label>\n\n        <ion-label item-subtitle text-wrap>{{item.subtitle}}</ion-label>\n\n        <ion-toggle item-end [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-1/toggle.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ToggleLayout1);
+    return ToggleLayout1;
+}());
+
+//# sourceMappingURL=toggle-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=56.js.map

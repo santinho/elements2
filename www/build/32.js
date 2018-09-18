@@ -1,1 +1,194 @@
-webpackJsonp([32],{1057:function(n,l,t){"use strict";t.d(l,"a",function(){return e});t(0),t(65),t(905);var e=function(){return function(){}}()},1058:function(n,l,t){"use strict";function e(n){return r._22(0,[(n()(),r._0(0,0,null,null,50,"ion-item",[["class","item item-block"],["no-padding",""],["text-right",""]],null,[[null,"click"]],function(n,l,t){var e=!0;if("click"===l){e=!1!==n.component.onEvent("onItemClick",n.context.$implicit.title,t)&&e}return e},a.b,a.a)),r.Z(1,1097728,null,3,c.a,[s.a,h.a,r.j,r.A,[2,d.a]],null,null),r._18(335544320,8,{contentLabel:0}),r._18(603979776,9,{_buttons:1}),r._18(603979776,10,{_icons:1}),r.Z(5,16384,null,0,p.a,[],null,null),(n()(),r._20(-1,2,["\n          "])),(n()(),r._0(7,0,null,2,38,"ion-item-divider",[["class","item item-divider"],["no-lines",""],["padding-left",""]],null,null,null,a.b,a.a)),r.Z(8,1097728,null,3,c.a,[s.a,h.a,r.j,r.A,[2,d.a]],null,null),r._18(335544320,11,{contentLabel:0}),r._18(603979776,12,{_buttons:1}),r._18(603979776,13,{_icons:1}),r.Z(12,16384,null,0,m.a,[h.a,r.j,r.A],null,null),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(15,0,null,2,4,"ion-icon",[["float-left",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(n,l,t){var e=!0;if("click"===l){e=!1!==n.component.onEvent("onLike",n.context.$implicit.title,t)&&e}return e},null,null)),r.Z(16,147456,[[13,4]],0,_.a,[h.a,r.j,r.A],null,null),(n()(),r._20(-1,null,["\n              "])),(n()(),r._0(18,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null)),(n()(),r._20(-1,null,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(22,0,null,2,4,"ion-icon",[["float-left",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(n,l,t){var e=!0;if("click"===l){e=!1!==n.component.onEvent("onBookmark",n.context.$implicit.title,t)&&e}return e},null,null)),r.Z(23,147456,[[13,4]],0,_.a,[h.a,r.j,r.A],null,null),(n()(),r._20(-1,null,["\n              "])),(n()(),r._0(25,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null)),(n()(),r._20(-1,null,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(29,0,null,2,4,"ion-icon",[["float-left",""],["margin-right",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(n,l,t){var e=!0;if("click"===l){e=!1!==n.component.onEvent("onShare",n.context.$implicit.title,t)&&e}return e},null,null)),r.Z(30,147456,[[13,4]],0,_.a,[h.a,r.j,r.A],null,null),(n()(),r._20(-1,null,["\n              "])),(n()(),r._0(32,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null)),(n()(),r._20(-1,null,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(36,0,null,4,4,"ion-avatar",[["item-end",""]],null,[[null,"click"]],function(n,l,t){var e=!0;if("click"===l){e=!1!==n.component.onEvent("onItemClick",n.context.$implicit.title,t)&&e}return e},null,null)),r.Z(37,16384,null,0,f.a,[],null,null),(n()(),r._20(-1,null,["\n              "])),(n()(),r._0(39,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(n()(),r._20(-1,null,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(43,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(n()(),r._20(44,null,["",""])),(n()(),r._20(-1,2,["\n          "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(48,0,null,2,1,"p",[["padding-left",""],["subitem-title",""],["text-left",""],["text-wrap",""]],null,null,null,null,null)),(n()(),r._20(49,null,["\n              ",""])),(n()(),r._20(-1,2,["\n          "]))],null,function(n,l){n(l,15,0,r._14(l,16)._hidden);n(l,18,0,r._3(1,"icon ",l.context.$implicit.iconLike,""));n(l,22,0,r._14(l,23)._hidden);n(l,25,0,r._3(1,"icon ",l.context.$implicit.iconBookmark,""));n(l,29,0,r._14(l,30)._hidden);n(l,32,0,r._3(1,"icon ",l.context.$implicit.iconShare,""));n(l,39,0,l.context.$implicit.image);n(l,44,0,l.context.$implicit.title);n(l,49,0,l.context.$implicit.description)})}function i(n){return r._22(0,[(n()(),r._0(0,0,null,null,41,"ion-list",[["no-margin",""]],null,null,null,null,null)),r.Z(1,16384,null,0,g.a,[h.a,r.j,r.A,y.a,E.l,S.a],null,null),(n()(),r._20(-1,null,["\n          "])),(n()(),r._20(-1,null,["\n          "])),(n()(),r._0(4,0,null,null,33,"ion-list-header",[["class","item"],["ion-affix",""],["no-margin",""]],null,null,null,a.b,a.a)),r.Z(5,1097728,null,3,c.a,[s.a,h.a,r.j,r.A,[2,d.a]],null,null),r._18(335544320,2,{contentLabel:0}),r._18(603979776,3,{_buttons:1}),r._18(603979776,4,{_icons:1}),r.Z(9,16384,null,0,v.a,[h.a,r.A,r.j,[8,null]],null,null),r.Z(10,4341760,null,0,x.a,[r.j,r.B],{content:[0,"content"]},null),(n()(),r._20(-1,2,["\n            "])),(n()(),r._0(12,0,null,2,24,"ion-item",[["class","item item-block"],["no-lines",""],["no-margin",""],["no-padding",""],["transparent",""]],null,null,null,a.b,a.a)),r.Z(13,1097728,null,3,c.a,[s.a,h.a,r.j,r.A,[2,d.a]],null,null),r._18(335544320,5,{contentLabel:0}),r._18(603979776,6,{_buttons:1}),r._18(603979776,7,{_icons:1}),r.Z(17,16384,null,0,p.a,[],null,null),(n()(),r._20(-1,2,["\n              "])),(n()(),r._20(-1,2,["\n              "])),(n()(),r._0(20,0,null,0,1,"h2",[["item-start",""],["no-margin",""],["text-uppercase",""]],null,null,null,null,null)),(n()(),r._20(21,null,["",""])),(n()(),r._20(-1,2,["\n              "])),(n()(),r._0(23,0,null,3,12,"div",[["item-content",""]],null,null,null,null,null)),(n()(),r._20(-1,null,["\n                "])),(n()(),r._20(-1,null,["\n                "])),(n()(),r._0(26,0,null,null,4,"ion-icon",[["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Z(27,147456,[[7,4]],0,_.a,[h.a,r.j,r.A],null,null),(n()(),r._20(-1,null,["\n                    "])),(n()(),r._0(29,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null)),(n()(),r._20(-1,null,["\n                "])),(n()(),r._20(-1,null,["\n                "])),(n()(),r._20(-1,null,["\n                "])),(n()(),r._0(33,0,null,null,1,"span",[["item-end",""],["span-small",""]],null,null,null,null,null)),(n()(),r._20(34,null,["",""])),(n()(),r._20(-1,null,["\n              "])),(n()(),r._20(-1,2,["\n            "])),(n()(),r._20(-1,2,["\n          "])),(n()(),r._20(-1,null,["\n          "])),(n()(),r.V(16777216,null,null,1,null,e)),r.Z(40,802816,null,0,b.i,[r.J,r.G,r.p],{ngForOf:[0,"ngForOf"]},null),(n()(),r._20(-1,null,["\n        "]))],function(n,l){n(l,10,0,l.component.content);n(l,40,0,l.context.$implicit.items)},function(n,l){n(l,21,0,l.context.$implicit.title);n(l,26,0,r._14(l,27)._hidden);n(l,29,0,r._3(1,"icon ",l.context.$implicit.icon,""));n(l,34,0,l.context.$implicit.description)})}function o(n){return r._22(0,[(n()(),r._0(0,0,null,null,13,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),r.Z(1,16384,null,0,k.a,[],null,null),(n()(),r._20(-1,null,["\n    "])),(n()(),r._0(3,0,null,null,9,"ion-row",[["class","row"],["no-padding",""]],null,null,null,null,null)),r.Z(4,16384,null,0,C.a,[],null,null),(n()(),r._20(-1,null,["\n      "])),(n()(),r._0(6,0,null,null,5,"ion-col",[["class","col"]],null,null,null,null,null)),r.Z(7,16384,null,0,w.a,[],null,null),(n()(),r._20(-1,null,["\n        "])),(n()(),r.V(16777216,null,null,1,null,i)),r.Z(10,802816,null,0,b.i,[r.J,r.G,r.p],{ngForOf:[0,"ngForOf"]},null),(n()(),r._20(-1,null,["\n      "])),(n()(),r._20(-1,null,["\n    "])),(n()(),r._20(-1,null,["\n  "]))],function(n,l){n(l,10,0,l.component.data.items)},null)}function u(n){return r._22(0,[r._18(402653184,1,{content:0}),(n()(),r._20(-1,null,["\n"])),(n()(),r._0(2,0,null,null,5,"ion-content",[["no-padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Z.b,Z.a)),r.Z(3,4374528,[[1,4]],0,j.a,[h.a,y.a,S.a,r.j,r.A,T.a,$.a,r.u,[2,A.a],[2,B.a]],null,null),(n()(),r._20(-1,1,["\n  "])),(n()(),r.V(16777216,null,1,1,null,o)),r.Z(6,16384,null,0,b.j,[r.J,r.G],{ngIf:[0,"ngIf"]},null),(n()(),r._20(-1,1,["\n"])),(n()(),r._20(-1,null,["\n"]))],function(n,l){n(l,6,0,null!=l.component.data)},function(n,l){n(l,2,0,r._14(l,3).statusbarPadding,r._14(l,3)._hasRefresher)})}t.d(l,"a",function(){return F}),l.c=u,t.d(l,"b",function(){return L});var r=t(2),a=t(139),c=t(27),s=t(23),h=t(4),d=t(57),p=t(71),m=t(222),_=t(43),f=t(217),g=t(67),y=t(7),E=t(11),S=t(15),v=t(95),x=t(891),b=t(21),k=t(140),C=t(141),w=t(142),Z=t(214),j=t(35),T=t(14),$=t(39),A=t(8),B=t(33),O=t(950),F=r.Y({encapsulation:2,styles:[],data:{}}),L=r.W("sticky-list-header-layout-4",O.a,function(n){return r._22(0,[(n()(),r._0(0,0,null,null,1,"sticky-list-header-layout-4",[],null,null,null,u,F)),r.Z(1,573440,null,0,O.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},793:function(n,l,t){"use strict";Object.defineProperty(l,"__esModule",{value:!0}),t.d(l,"StickyListHeaderLayout4ModuleNgFactory",function(){return v});var e=t(2),i=t(1057),o=t(418),u=t(419),r=t(420),a=t(421),c=t(422),s=t(423),h=t(424),d=t(425),p=t(426),m=t(1058),_=t(21),f=t(26),g=t(215),y=t(902),E=t(66),S=t(950),v=e.X(i.a,[],function(n){return e._11([e._12(512,e.i,e.T,[[8,[o.a,u.a,r.a,a.a,c.a,s.a,h.a,d.a,p.a,m.b]],[3,e.i],e.s]),e._12(4608,_.l,_.k,[e.r,[2,_.t]]),e._12(4608,f.n,f.n,[]),e._12(4608,f.c,f.c,[]),e._12(512,_.c,_.c,[]),e._12(512,f.m,f.m,[]),e._12(512,f.d,f.d,[]),e._12(512,f.k,f.k,[]),e._12(512,g.a,g.a,[]),e._12(512,g.b,g.b,[]),e._12(512,y.a,y.a,[]),e._12(512,i.a,i.a,[]),e._12(256,E.a,S.a,[])])})},891:function(n,l,t){"use strict";var e=t(2),i=t(65),o=t(1),u=(t(151),function(){function n(n){this.content=n}return n.prototype.onScroll=function(){return o.Observable.merge(this.content.ionScrollStart,this.content.ionScroll,this.content.ionScrollEnd)},n.prototype.getClientTop=function(){return this.content.getScrollElement().getBoundingClientRect().top},n.prototype.getScrollTop=function(){return this.content.getScrollElement().scrollTop},n.prototype.appendFixedHeader=function(n){this.content.getNativeElement().appendChild(n)},n.prototype.isScrollingDown=function(){return"down"===this.content.directionY},n}()),r=(t(98),t(432)),a=function(){function n(n){this.scroll=n,this.scrollingDown=!1}return n.prototype.onScroll=function(){var n=this;return o.Observable.fromEvent(this.scroll._scrollContent.nativeElement,"scroll").pipe(Object(r.map)(function(){return n.getScrollTop()}),Object(r.pairwise)(),Object(r.tap)(function(l){return n.scrollingDown=l[0]-l[1]<0}))},n.prototype.getClientTop=function(){return 0},n.prototype.getScrollTop=function(){return this.scroll._scrollContent.nativeElement.scrollTop},n.prototype.appendFixedHeader=function(n){this.scroll._scrollContent.nativeElement.parentElement.appendChild(n)},n.prototype.isScrollingDown=function(){return this.scrollingDown},n}();t.d(l,"a",function(){return c});var c=function(){function n(n,l){this.element=n,this.renderer=l,this.onSticky=new e.l}return n.prototype.ngAfterViewInit=function(){var n=this;this.scrollContainer=function(n){if(n instanceof i.a)return new u(n);if(n instanceof i.b)return new a(n);throw"Invalid container element (only ion-content and ion-scroll currently supported)"}(this.content),this.headerElement=this.element.nativeElement,this.containerElement=this.headerElement.parentElement;var l=this.headerElement.getBoundingClientRect().height,t=window.innerWidth-this.headerElement.getBoundingClientRect().width-this.headerElement.getBoundingClientRect().left,e=this.headerElement.getBoundingClientRect().left,o=this.scrollContainer.getClientTop(),r=this.containerElement.offsetTop,c=r+this.containerElement.getBoundingClientRect().height;this.updateSticky(this.scrollContainer.getScrollTop(),r,c,o,l,e,t,!0);this.scrollSubscription=this.scrollContainer.onScroll().subscribe(function(){var i=n.scrollContainer.getScrollTop();o=n.scrollContainer.getClientTop(),c=(r=n.containerElement.offsetTop)+n.containerElement.getBoundingClientRect().height,n.updateSticky(i,r,c,o,l,e,t,n.scrollContainer.isScrollingDown())})},n.prototype.updateSticky=function(n,l,t,e,i,o,u,r){var a=this;if(n>0&&n>=l&&n<=t)if(this.clone||(this.clone=this.headerElement.cloneNode(!0),this.containerElement.insertBefore(this.clone,this.headerElement),this.scrollContainer.appendFixedHeader(this.headerElement),this.onSticky.emit({sticky:!0,affix:this}),r?this.applyStyles(o,u):this.applyStyles(0,0),setTimeout(function(){a.renderer.setStyle(a.headerElement,"right","0px"),a.renderer.setStyle(a.headerElement,"left","0px")},0)),n<=t&&n>=t-i){var c=e-(n-(t-i));this.renderer.setStyle(this.headerElement,"transform","translate3d(0px, "+c+"px, 0px)"),this.renderer.setStyle(this.headerElement,"-webkit-transform","translate3d(0px, "+c+"px, 0px)")}else this.renderer.setStyle(this.headerElement,"transform","translate3d(0px, "+e+"px, 0px)"),this.renderer.setStyle(this.headerElement,"-webkit-transform","translate3d(0px, "+e+"px, 0px)");else this.reset()},n.prototype.reset=function(){this.clone&&(this.containerElement.insertBefore(this.headerElement,this.clone),this.clearStyles(),this.clone.remove(),this.clone=null,this.onSticky.emit({sticky:!1,affix:this}))},n.prototype.applyStyles=function(n,l){this.renderer.setStyle(this.headerElement,"right",l+"px"),this.renderer.setStyle(this.headerElement,"left",n+"px"),this.renderer.setStyle(this.headerElement,"transition","left 0.1s ease-out, right 0.1s ease-out"),this.renderer.setStyle(this.headerElement,"z-index","2"),this.renderer.setStyle(this.headerElement,"position","absolute"),this.renderer.setStyle(this.headerElement,"width","auto"),this.renderer.setStyle(this.headerElement,"top","0px")},n.prototype.clearStyles=function(){this.renderer.removeStyle(this.headerElement,"position"),this.renderer.removeStyle(this.headerElement,"z-index"),this.renderer.removeStyle(this.headerElement,"transition"),this.renderer.removeStyle(this.headerElement,"top"),this.renderer.removeStyle(this.headerElement,"transform"),this.renderer.removeStyle(this.headerElement,"-webkit-transform"),this.renderer.removeStyle(this.headerElement,"left"),this.renderer.removeStyle(this.headerElement,"right"),this.renderer.removeStyle(this.headerElement,"width")},n.prototype.ngOnDestroy=function(){this.reset(),this.scrollSubscription.unsubscribe()},n}()},902:function(n,l,t){"use strict";t.d(l,"a",function(){return e});t(891);var e=function(){return function(){}}()},905:function(n,l,t){"use strict";t(902),t(891)},950:function(n,l,t){"use strict";t.d(l,"a",function(){return e});t(0),t(65);var e=function(){function n(){this.slider={}}return n.prototype.ngOnChanges=function(n){this.data=n.data.currentValue},n.prototype.onEvent=function(n,l,t){t&&t.stopPropagation(),this.events[n]&&this.events[n](l)},n}()}});
+webpackJsonp([32,83],{
+
+/***/ 1086:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QRcodeLayout1Module", function() { return QRcodeLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__ = __webpack_require__(1235);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var QRcodeLayout1Module = (function () {
+    function QRcodeLayout1Module() {
+    }
+    QRcodeLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], QRcodeLayout1Module);
+    return QRcodeLayout1Module;
+}());
+
+//# sourceMappingURL=qrcode-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1133:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageQRCodeModule", function() { return ItemDetailsPageQRCodeModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_qrcode__ = __webpack_require__(1283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_qrcode_layout_1_qrcode_layout_1_module__ = __webpack_require__(1086);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ItemDetailsPageQRCodeModule = (function () {
+    function ItemDetailsPageQRCodeModule() {
+    }
+    ItemDetailsPageQRCodeModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__item_details_qrcode__["a" /* ItemDetailsPageQRCode */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__item_details_qrcode__["a" /* ItemDetailsPageQRCode */]),
+                __WEBPACK_IMPORTED_MODULE_3__components_qrcode_layout_1_qrcode_layout_1_module__["QRcodeLayout1Module"]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ItemDetailsPageQRCodeModule);
+    return ItemDetailsPageQRCodeModule;
+}());
+
+//# sourceMappingURL=item-details-qrcode.module.js.map
+
+/***/ }),
+
+/***/ 1235:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QRcodeLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var QRcodeLayout1 = (function () {
+    function QRcodeLayout1() {
+    }
+    QRcodeLayout1.prototype.onEvent = function (event, result) {
+        if (this.events[event]) {
+            this.events[event](result);
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], QRcodeLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], QRcodeLayout1.prototype, "events", void 0);
+    QRcodeLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'qrcode-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/'<ion-content has-header>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item padding-right text-wrap>\n\n            <h1 item-title>{{data.format}}</h1>\n\n          </ion-item>\n\n          <ion-item no-lines padding-right text-wrap>\n\n            <p item-subtitle>{{data.text}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], QRcodeLayout1);
+    return QRcodeLayout1;
+}());
+
+//# sourceMappingURL=qrcode-layout-1.js.map
+
+/***/ }),
+
+/***/ 1283:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageQRCode; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_native__ = __webpack_require__(610);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ItemDetailsPageQRCode = (function () {
+    function ItemDetailsPageQRCode(navCtrl, navParams) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.params = {};
+        // If we navigated to this page, we will have an item available as a nav param
+        this.page = navParams.get('page');
+        this.service = navParams.get('service');
+        if (this.service) {
+            this.params = this.service.prepareParams(this.page, navCtrl);
+            this.service.load(this.page).subscribe(function (snapshot) {
+                _this.params.data = snapshot;
+            });
+            this.scanner();
+        }
+        else {
+            navCtrl.setRoot("HomePage");
+        }
+    }
+    ItemDetailsPageQRCode.prototype.scanner = function () {
+        var _this = this;
+        __WEBPACK_IMPORTED_MODULE_2_ionic_native__["a" /* BarcodeScanner */].scan()
+            .then(function (result) {
+            _this.params.data = result;
+        })
+            .catch(function (error) {
+            alert(error);
+        });
+    };
+    ItemDetailsPageQRCode = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-qrcode/item-details-qrcode.html"*/'<!-- QRCode component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--Content-->\n\n<qrcode-layout-1 *ngIf="params.qrcodeLayout1" [data]="params.data" [events]="params.events">\n\n</qrcode-layout-1>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-qrcode/item-details-qrcode.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    ], ItemDetailsPageQRCode);
+    return ItemDetailsPageQRCode;
+}());
+
+//# sourceMappingURL=item-details-qrcode.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=32.js.map

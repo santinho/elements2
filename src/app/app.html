@@ -8,6 +8,7 @@
       </ion-thumbnail>
       <h2 item-title text-center>Elements</h2>
     </ion-header>
+    
     <!-- Menu Main List -->
     <ion-content>
       <ion-list no-margin no-padding>
@@ -47,6 +48,14 @@
             </ion-icon>
             Regras
         </button>
+      </ion-list>
+      <ion-list no-margin no-padding>
+        <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon padding-left>
+          <i class="icon {{p.icon}}"></i>
+        </ion-icon>
+        {{p.title}}
+      </button>
       </ion-list>
     </ion-content>
   </ion-menu>

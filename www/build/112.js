@@ -1,1 +1,92 @@
-webpackJsonp([112],{841:function(l,n,u){"use strict";function a(l){return t._22(0,[(l()(),t._0(0,0,null,null,10,"div",[["background-size",""],["default-background",""]],null,null,null,null,null)),(l()(),t._20(-1,null,["\n        "])),(l()(),t._0(2,0,null,null,7,"div",[["class","ionic-description"],["text-center",""]],null,null,null,null,null)),(l()(),t._20(-1,null,["\n            "])),(l()(),t._0(4,0,null,null,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),t._20(-1,null,["CONSULTA"])),(l()(),t._20(-1,null,["\n            "])),(l()(),t._0(7,0,null,null,1,"p",[["item-subtitle",""]],null,null,null,null,null)),(l()(),t._20(-1,null,["Classes, raças, magias, perícias, lojas e regras"])),(l()(),t._20(-1,null,["\n        "])),(l()(),t._20(-1,null,["\n    "]))],null,null)}function e(l){return t._22(0,[(l()(),t._20(-1,null,["\n"])),(l()(),t._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),t.Z(2,16384,null,0,p.a,[v.a,t.j,t.A,[2,j.a]],null,null),(l()(),t._20(-1,null,["\n    "])),(l()(),t._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Z.b,Z.a)),t.Z(5,49152,null,0,k.a,[A.a,[2,j.a],[2,T.a],v.a,t.j,t.A],null,null),(l()(),t._20(-1,3,["\n    "])),(l()(),t._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==t._14(l,9).toggle()&&a}return a},E.b,E.a)),t.Z(8,1097728,[[1,4]],0,P.a,[[8,""],v.a,t.j,t.A],null,null),t.Z(9,1064960,null,0,y.a,[C.a,[2,j.a],[2,P.a],[2,k.a]],{menuToggle:[0,"menuToggle"]},null),t.Z(10,16384,null,1,x.a,[v.a,t.j,t.A,[2,H.a],[2,k.a]],null,null),t._18(603979776,1,{_buttons:1}),(l()(),t._20(-1,0,["\n      "])),(l()(),t._0(13,0,null,0,1,"ion-icon",[["class","icon-menu"],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Z(14,147456,null,0,I.a,[v.a,t.j,t.A],{name:[0,"name"]},null),(l()(),t._20(-1,0,["\n    "])),(l()(),t._20(-1,3,["\n    "])),(l()(),t._0(17,0,null,3,2,"ion-title",[["text-uppercase",""]],null,null,null,J.b,J.a)),t.Z(18,49152,null,0,M.a,[v.a,t.j,t.A,[2,H.a],[2,k.a]],null,null),(l()(),t._20(19,0,["",""])),(l()(),t._20(-1,3,["\n    "])),(l()(),t._20(-1,null,["\n"])),(l()(),t._20(-1,null,["\n"])),(l()(),t._20(-1,null,["\n"])),(l()(),t._0(24,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,N.b,N.a)),t.Z(25,4374528,null,0,O.a,[v.a,w.a,z.a,t.j,t.A,A.a,F.a,t.u,[2,j.a],[2,T.a]],null,null),(l()(),t._20(-1,1,["\n    "])),(l()(),t.V(16777216,null,1,1,null,a)),t.Z(28,16384,null,0,G.j,[t.J,t.G],{ngIf:[0,"ngIf"]},null),(l()(),t._20(-1,1,["\n"])),(l()(),t._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,9,0,"");l(n,14,0,"menu");l(n,28,0,null!=u.data.background)},function(l,n){var u=n.component;l(n,4,0,t._14(n,5)._hidden,t._14(n,5)._sbPadding);l(n,7,0,t._14(n,9).isHidden);l(n,13,0,t._14(n,14)._hidden);l(n,19,0,u.titleElements);l(n,24,0,t._14(n,25).statusbarPadding,t._14(n,25)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=u(2),i=(u(0),u(65),u(236)),_=function(){return function(l,n){var u=this;this.navCtrl=l,this.service=n,this.titleElements="Elements",this.data={},n.load().subscribe(function(l){u.data=l})}}(),o=function(){return function(){}}(),s=u(418),r=u(419),c=u(420),d=u(421),m=u(422),g=u(423),b=u(424),f=u(425),h=u(426),p=u(93),v=u(4),j=u(8),Z=u(427),k=u(47),A=u(14),T=u(33),E=u(46),P=u(30),y=u(143),C=u(37),x=u(144),H=u(68),I=u(43),J=u(428),M=u(94),N=u(214),O=u(35),w=u(7),z=u(15),F=u(39),G=u(21),L=u(58),R=u(91),S=t.Y({encapsulation:2,styles:[],data:{}}),U=t.W("elements-page-home",_,function(l){return t._22(0,[(l()(),t._0(0,0,null,null,2,"elements-page-home",[],null,null,null,e,S)),t._17(512,null,i.a,i.a,[L.a,R.a]),t.Z(2,49152,null,0,_,[T.a,i.a],null,null)],null,null)},{},{},[]),V=u(26),W=u(215),X=u(66);u.d(n,"ElementsHomePageModuleNgFactory",function(){return Y});var Y=t.X(o,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[s.a,r.a,c.a,d.a,m.a,g.a,b.a,f.a,h.a,U]],[3,t.i],t.s]),t._12(4608,G.l,G.k,[t.r,[2,G.t]]),t._12(4608,V.n,V.n,[]),t._12(4608,V.c,V.c,[]),t._12(512,G.c,G.c,[]),t._12(512,V.m,V.m,[]),t._12(512,V.d,V.d,[]),t._12(512,V.k,V.k,[]),t._12(512,W.a,W.a,[]),t._12(512,W.b,W.b,[]),t._12(512,o,o,[]),t._12(256,X.a,_,[])])})}});
+webpackJsonp([112],{
+
+/***/ 1047:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout2Module", function() { return CheckBoxLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__ = __webpack_require__(1196);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CheckBoxLayout2Module = (function () {
+    function CheckBoxLayout2Module() {
+    }
+    CheckBoxLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], CheckBoxLayout2Module);
+    return CheckBoxLayout2Module;
+}());
+
+//# sourceMappingURL=check-box-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CheckBoxLayout2 = (function () {
+    function CheckBoxLayout2() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout2.prototype, "events", void 0);
+    CheckBoxLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'check-box-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/check-box/layout-2/check-box.html"*/'<!--Themes With avatar -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row>\n\n    <ion-col col-12 no-padding>\n\n      <ion-list>\n\n        <ion-item *ngFor="let item of data; let i = index;" (tap)="onEvent(\'onButton\', item)">\n\n          <ion-avatar item-start>\n\n            <img [src]="item.image">\n\n          </ion-avatar>\n\n          <ion-label item-title>{{item.title}}</ion-label>\n\n          <ion-checkbox item-end [checked]="item.favorite"></ion-checkbox>\n\n        </ion-item>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/check-box/layout-2/check-box.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], CheckBoxLayout2);
+    return CheckBoxLayout2;
+}());
+
+//# sourceMappingURL=check-box-layout-2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=112.js.map
