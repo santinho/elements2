@@ -33,12 +33,12 @@
 
             <li *ngFor="let group of listFiltered | async">
               <!-- List big image Header -->
-              <ion-item-divider no-margin header-title ion-affix [content]="content" style="color: white; background-color: #4a000063!important">
+              <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">
                 <h2 text-uppercase>{{group.NomeCaminho}}</h2>
               </ion-item-divider>
               <div *ngFor="let n of nivelCaminho">
                 <div *ngIf="group[n]!=null">
-                    <ion-item-divider no-margin header-title ion-affix [content]="content" style="color: white; background-color: #80808040!important">
+                    <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerNivel" >
                         <h2 text-uppercase>{{n}}</h2>
                     </ion-item-divider>
                     <div *ngFor="let magia of group[n]">
