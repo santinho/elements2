@@ -1,4 +1,4 @@
-webpackJsonp([6,65,66,67,68,69,70],{
+webpackJsonp([6,66,67,68,69,70,71],{
 
 /***/ 1099:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout1Module", function() { return SelectLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_1__ = __webpack_require__(1248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_1__ = __webpack_require__(1249);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout2Module", function() { return SelectLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_2__ = __webpack_require__(1249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_2__ = __webpack_require__(1250);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout3Module", function() { return SelectLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_3__ = __webpack_require__(1250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_3__ = __webpack_require__(1251);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout4Module", function() { return SelectLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_4__ = __webpack_require__(1251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_4__ = __webpack_require__(1252);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout5Module", function() { return SelectLayout5Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_5__ = __webpack_require__(1252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_5__ = __webpack_require__(1253);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -218,7 +218,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout6Module", function() { return SelectLayout6Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_6__ = __webpack_require__(1253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_6__ = __webpack_require__(1254);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -252,7 +252,7 @@ var SelectLayout6Module = (function () {
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -260,7 +260,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSelectModule", function() { return ItemDetailsPageSelectModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_select__ = __webpack_require__(1288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_select__ = __webpack_require__(1290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_select_layout_1_select_layout_1_module__ = __webpack_require__(1099);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_select_layout_2_select_layout_2_module__ = __webpack_require__(1100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_select_layout_3_select_layout_3_module__ = __webpack_require__(1101);
@@ -308,7 +308,7 @@ var ItemDetailsPageSelectModule = (function () {
 
 /***/ }),
 
-/***/ 1248:
+/***/ 1249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -343,7 +343,7 @@ var SelectLayout1 = (function () {
     ], SelectLayout1.prototype, "events", void 0);
     SelectLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-1/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-1/select.html"*/
+            selector: 'select-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-1\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-1\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout1);
@@ -354,7 +354,7 @@ var SelectLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1249:
+/***/ 1250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -389,7 +389,7 @@ var SelectLayout2 = (function () {
     ], SelectLayout2.prototype, "events", void 0);
     SelectLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-2/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false" interface="popover">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-2/select.html"*/
+            selector: 'select-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-2\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false" interface="popover">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-2\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout2);
@@ -400,7 +400,7 @@ var SelectLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1250:
+/***/ 1251:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -435,7 +435,7 @@ var SelectLayout3 = (function () {
     ], SelectLayout3.prototype, "events", void 0);
     SelectLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-3/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false" interface="action-sheet">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-3/select.html"*/
+            selector: 'select-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-3\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false" interface="action-sheet">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-3\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout3);
@@ -446,7 +446,7 @@ var SelectLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1251:
+/***/ 1252:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -481,7 +481,7 @@ var SelectLayout4 = (function () {
     ], SelectLayout4.prototype, "events", void 0);
     SelectLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-4/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemMonth" multiple="false">\n\n        <ion-option *ngFor="let item of data.itemsMonth; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemYear" [multiple]="false">\n\n        <ion-option *ngFor="let item of data.itemsYears; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-4/select.html"*/
+            selector: 'select-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-4\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemMonth" multiple="false">\n\n        <ion-option *ngFor="let item of data.itemsMonth; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemYear" [multiple]="false">\n\n        <ion-option *ngFor="let item of data.itemsYears; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-4\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout4);
@@ -492,7 +492,7 @@ var SelectLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1252:
+/***/ 1253:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -527,7 +527,7 @@ var SelectLayout5 = (function () {
     ], SelectLayout5.prototype, "events", void 0);
     SelectLayout5 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-5',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-5/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="true" interface="action-sheet">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-5/select.html"*/
+            selector: 'select-layout-5',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-5\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="true" interface="action-sheet">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-5\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout5);
@@ -538,7 +538,7 @@ var SelectLayout5 = (function () {
 
 /***/ }),
 
-/***/ 1253:
+/***/ 1254:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -573,7 +573,7 @@ var SelectLayout6 = (function () {
     ], SelectLayout6.prototype, "events", void 0);
     SelectLayout6 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-6',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-6/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemMonth" multiple="true">\n\n        <ion-option *ngFor="let item of data.itemsMonth; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemYear" [multiple]="true">\n\n        <ion-option *ngFor="let item of data.itemsYears; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-6/select.html"*/
+            selector: 'select-layout-6',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\select\layout-6\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemMonth" multiple="true">\n\n        <ion-option *ngFor="let item of data.itemsMonth; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n\n\n    <ion-select interface="popover" [(ngModel)]="data.selectedItemYear" [multiple]="true">\n\n        <ion-option *ngFor="let item of data.itemsYears; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\select\layout-6\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout6);
@@ -584,7 +584,7 @@ var SelectLayout6 = (function () {
 
 /***/ }),
 
-/***/ 1288:
+/***/ 1290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -621,7 +621,7 @@ var ItemDetailsPageSelect = (function () {
         }
     }
     ItemDetailsPageSelect = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-select/item-details-select.html"*/'<!--Select bar components header-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <div *ngIf="params != null">\n\n            <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n        </div>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Select bar components content -->\n\n<ion-content *ngIf="params.data != null">\n\n    <div *ngIf="params.selectLayout1">\n\n        <!-- Select Basic dialog -->\n\n        <ion-list *ngIf="params.data.layout1 != null">\n\n            <ion-item-divider no-lines text-uppercase>{{params.data.layout1.header}}</ion-item-divider>\n\n            <select-layout-1 [data]="params.data.layout1" [events]="params.events"></select-layout-1>\n\n        </ion-list>\n\n        <!-- Select One touch dialog -->\n\n        <ion-list *ngIf="params.data.layout2 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout2.header}}</ion-item-divider>\n\n            <select-layout-2 [data]="params.data.layout2" [events]="params.events"></select-layout-2>\n\n        </ion-list>\n\n        <!-- Select With Action sheet -->\n\n        <ion-list *ngIf="params.data.layout3 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout3.header}}</ion-item-divider>\n\n            <select-layout-3 [data]="params.data.layout3" [events]="params.events"></select-layout-3>\n\n        </ion-list>\n\n        <!-- Select Two option select -->\n\n        <ion-list *ngIf="params.data.layout4 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout4.header}}</ion-item-divider>\n\n            <select-layout-4 [data]="params.data.layout4" [events]="params.events"></select-layout-4>\n\n        </ion-list>\n\n    </div>\n\n    <div *ngIf="params.selectLayout2">\n\n        <!-- Multi Select One touch dialog -->\n\n        <ion-list *ngIf="params.data.layout5 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout5.header}}</ion-item-divider>\n\n            <select-layout-5 [data]="params.data.layout5" [events]="params.events"></select-layout-5>\n\n        </ion-list>\n\n        <!-- Multi Select Two option select -->\n\n        <ion-list *ngIf="params.data.layout6 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout6.header}}</ion-item-divider>\n\n            <select-layout-6 [data]="params.data.layout6" [events]="params.events"></select-layout-6>\n\n        </ion-list>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-select/item-details-select.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-select\item-details-select.html"*/'<!--Select bar components header-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <div *ngIf="params != null">\n\n            <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n        </div>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Select bar components content -->\n\n<ion-content *ngIf="params.data != null">\n\n    <div *ngIf="params.selectLayout1">\n\n        <!-- Select Basic dialog -->\n\n        <ion-list *ngIf="params.data.layout1 != null">\n\n            <ion-item-divider no-lines text-uppercase>{{params.data.layout1.header}}</ion-item-divider>\n\n            <select-layout-1 [data]="params.data.layout1" [events]="params.events"></select-layout-1>\n\n        </ion-list>\n\n        <!-- Select One touch dialog -->\n\n        <ion-list *ngIf="params.data.layout2 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout2.header}}</ion-item-divider>\n\n            <select-layout-2 [data]="params.data.layout2" [events]="params.events"></select-layout-2>\n\n        </ion-list>\n\n        <!-- Select With Action sheet -->\n\n        <ion-list *ngIf="params.data.layout3 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout3.header}}</ion-item-divider>\n\n            <select-layout-3 [data]="params.data.layout3" [events]="params.events"></select-layout-3>\n\n        </ion-list>\n\n        <!-- Select Two option select -->\n\n        <ion-list *ngIf="params.data.layout4 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout4.header}}</ion-item-divider>\n\n            <select-layout-4 [data]="params.data.layout4" [events]="params.events"></select-layout-4>\n\n        </ion-list>\n\n    </div>\n\n    <div *ngIf="params.selectLayout2">\n\n        <!-- Multi Select One touch dialog -->\n\n        <ion-list *ngIf="params.data.layout5 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout5.header}}</ion-item-divider>\n\n            <select-layout-5 [data]="params.data.layout5" [events]="params.events"></select-layout-5>\n\n        </ion-list>\n\n        <!-- Multi Select Two option select -->\n\n        <ion-list *ngIf="params.data.layout6 != null">\n\n            <ion-item-divider text-uppercase no-lines>{{params.data.layout6.header}}</ion-item-divider>\n\n            <select-layout-6 [data]="params.data.layout6" [events]="params.events"></select-layout-6>\n\n        </ion-list>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-select\item-details-select.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageSelect);

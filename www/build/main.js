@@ -1,4 +1,4 @@
-webpackJsonp([115],{
+webpackJsonp([116],{
 
 /***/ 235:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -73,143 +73,143 @@ var map = {
 	],
 	"../components/action-sheet/layout-3/action-sheet-layout-3.module": [
 		1045,
-		114
+		115
 	],
 	"../components/check-box/layout-1/check-box-layout-1.module": [
 		1046,
-		113
+		114
 	],
 	"../components/check-box/layout-2/check-box-layout-2.module": [
 		1047,
-		112
+		113
 	],
 	"../components/check-box/layout-3/check-box-layout-3.module": [
 		1048,
-		111
+		112
 	],
 	"../components/check-box/layout-4/check-box-layout-4.module": [
 		1049,
-		110
+		111
 	],
 	"../components/full-screen-gallery/full-screen-gallery.module": [
 		1050,
-		109
+		110
 	],
 	"../components/image-gallery/layout-1/image-gallery-layout-1.module": [
 		1051,
-		108
+		109
 	],
 	"../components/image-gallery/layout-2/image-gallery-layout-2.module": [
 		1052,
-		107
+		108
 	],
 	"../components/image-gallery/layout-3/image-gallery-layout-3.module": [
 		1117,
-		106
+		107
 	],
 	"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module": [
 		1053,
-		105
+		106
 	],
 	"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module": [
 		1054,
-		104
+		105
 	],
 	"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module": [
 		1055,
-		103
+		104
 	],
 	"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module": [
 		1056,
-		102
+		103
 	],
 	"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module": [
 		1057,
-		101
+		102
 	],
 	"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module": [
 		1058,
-		100
+		101
 	],
 	"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module": [
 		1059,
-		99
+		100
 	],
 	"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module": [
 		1060,
-		98
+		99
 	],
 	"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module": [
 		1061,
-		97
+		98
 	],
 	"../components/list-view/expandable/layout-1/expandable-layout-1.module": [
 		1062,
-		96
+		97
 	],
 	"../components/list-view/expandable/layout-2/expandable-layout-2.module": [
 		1063,
-		95
+		96
 	],
 	"../components/list-view/expandable/layout-3/expandable-layout-3.module": [
+		1075,
+		95
+	],
+	"../components/list-view/google-card/layout-1/google-card-layout-1.module": [
 		1064,
 		94
 	],
-	"../components/list-view/google-card/layout-1/google-card-layout-1.module": [
+	"../components/list-view/google-card/layout-2/google-card-layout-2.module": [
 		1065,
 		93
 	],
-	"../components/list-view/google-card/layout-2/google-card-layout-2.module": [
+	"../components/list-view/google-card/layout-3/google-card-layout-3.module": [
 		1066,
 		92
 	],
-	"../components/list-view/google-card/layout-3/google-card-layout-3.module": [
+	"../components/list-view/google-card/layout-4/google-card-layout-4.module": [
 		1067,
 		91
 	],
-	"../components/list-view/google-card/layout-4/google-card-layout-4.module": [
-		1068,
-		90
-	],
 	"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module": [
-		1069,
+		1068,
 		24
 	],
 	"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module": [
-		1070,
+		1069,
 		23
 	],
 	"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module": [
-		1071,
+		1070,
 		22
 	],
 	"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module": [
-		1072,
+		1071,
 		21
 	],
 	"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module": [
+		1072,
+		90
+	],
+	"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module": [
 		1073,
 		89
 	],
-	"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module": [
+	"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module": [
 		1074,
 		88
 	],
-	"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module": [
-		1075,
-		87
-	],
 	"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module": [
 		1076,
-		86
+		87
 	],
 	"../components/login/layout-1/login-layout-1.module": [
-		1077,
-		85
+		1078,
+		86
 	],
 	"../components/login/layout-2/login-layout-2.module": [
-		1078,
-		84
+		1077,
+		85
 	],
 	"../components/maps/layout-1/maps-layout-1.module": [
 		1079,
@@ -241,185 +241,189 @@ var map = {
 	],
 	"../components/qrcode/layout-1/qrcode-layout-1.module": [
 		1086,
-		83
+		84
 	],
 	"../components/radio-button/layout-1/radio-button-layout-1.module": [
 		1087,
-		82
+		83
 	],
 	"../components/radio-button/layout-2/radio-button-layout-2.module": [
 		1088,
-		81
+		82
 	],
 	"../components/radio-button/layout-3/radio-button-layout-3.module": [
 		1089,
-		80
+		81
 	],
 	"../components/range/layout-1/range-layout-1.module": [
 		1090,
-		79
+		80
 	],
 	"../components/range/layout-2/range-layout-2.module": [
 		1091,
-		78
+		79
 	],
 	"../components/range/layout-3/range-layout-3.module": [
 		1092,
-		77
+		78
 	],
 	"../components/range/layout-4/range-layout-4.module": [
 		1093,
-		76
+		77
 	],
 	"../components/register/layout-1/register-layout-1.module": [
 		1094,
-		75
+		76
 	],
 	"../components/register/layout-2/register-layout-2.module": [
 		1095,
-		74
+		75
 	],
 	"../components/search-bar/layout-1/search-bar-layout-1.module": [
 		1096,
-		73
+		74
 	],
 	"../components/search-bar/layout-2/search-bar-layout-2.module": [
 		1097,
-		72
+		73
 	],
 	"../components/search-bar/layout-3/search-bar-layout-3.module": [
 		1098,
-		71
+		72
 	],
 	"../components/select/layout-1/select-layout-1.module": [
 		1099,
-		70
+		71
 	],
 	"../components/select/layout-2/select-layout-2.module": [
 		1100,
-		69
+		70
 	],
 	"../components/select/layout-3/select-layout-3.module": [
 		1101,
-		68
+		69
 	],
 	"../components/select/layout-4/select-layout-4.module": [
 		1102,
-		67
+		68
 	],
 	"../components/select/layout-5/select-layout-5.module": [
 		1103,
-		66
+		67
 	],
 	"../components/select/layout-6/select-layout-6.module": [
 		1104,
-		65
+		66
 	],
 	"../components/spinner/spinner.module": [
 		1105,
-		64
+		65
 	],
 	"../components/splash-screen/layout-1/splash-screen-layout-1.module": [
 		1106,
-		63
+		64
 	],
 	"../components/splash-screen/layout-2/splash-screen-layout-2.module": [
 		1107,
-		62
+		63
 	],
 	"../components/splash-screen/layout-3/splash-screen-layout-3.module": [
 		1108,
-		61
+		62
 	],
 	"../components/sub-image-gallery/sub-image-gallery.module": [
 		1041,
-		60
+		61
 	],
 	"../components/tabs/layout-1/tabs-layout-1.module": [
 		1109,
-		59
+		60
 	],
 	"../components/tabs/layout-2/tabs-layout-2.module": [
 		1110,
-		58
+		59
 	],
 	"../components/tabs/layout-3/tabs-layout-3.module": [
 		1111,
-		57
+		58
 	],
 	"../components/toggle/layout-1/toggle-layout-1.module": [
 		1112,
-		56
+		57
 	],
 	"../components/toggle/layout-2/toggle-layout-2.module": [
 		1113,
-		55
+		56
 	],
 	"../components/toggle/layout-3/toggle-layout-3.module": [
 		1114,
-		54
+		55
 	],
 	"../components/wizard/layout-1/wizard-layout-1.module": [
 		1042,
-		53
+		54
 	],
 	"../components/wizard/layout-2/wizard-layout-2.module": [
 		1115,
-		52
+		53
 	],
 	"../components/wizard/layout-3/wizard-layout-3.module": [
 		1116,
-		51
+		52
 	],
 	"../pages/elementsClasses/elementsClasses.module": [
-		375
+		425
 	],
 	"../pages/elementsHome/elementsHome.module": [
 		1118,
+		51
+	],
+	"../pages/elementsMagias/elementsMagias.module": [
+		1119,
 		50
 	],
 	"../pages/elementsRacas/elementsRacas.module": [
-		1119,
+		1120,
 		49
 	],
 	"../pages/home/home.module": [
-		1120,
+		1121,
 		48
 	],
 	"../pages/intro-page/intro-page.module": [
-		1121,
+		1122,
 		29
 	],
 	"../pages/item-details-action-sheet/item-details-action-sheet.module": [
-		1122,
+		1123,
 		14
 	],
 	"../pages/item-details-appearance-animation/item-details-appearance-animation.module": [
-		1123,
+		1124,
 		7
 	],
 	"../pages/item-details-check-box/item-details-check-box.module": [
-		1124,
+		1125,
 		13
 	],
 	"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module": [
-		1125,
+		1126,
 		12
 	],
 	"../pages/item-details-expandable/item-details-expandable.module": [
-		1126,
+		1127,
 		25
 	],
 	"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module": [
-		1127,
+		1128,
 		33
 	],
 	"../pages/item-details-google-card/item-details-google-card.module": [
-		1128,
+		1129,
 		11
 	],
 	"../pages/item-details-image-gallery/item-details-image-gallery.module": [
-		1129,
+		1131,
 		26
 	],
 	"../pages/item-details-login/item-details-login.module": [
@@ -427,103 +431,103 @@ var map = {
 		28
 	],
 	"../pages/item-details-maps/item-details-maps.module": [
-		1131,
+		1132,
 		0
 	],
 	"../pages/item-details-parallax/item-details-parallax.module": [
-		1132,
+		1133,
 		8
 	],
 	"../pages/item-details-qrcode/item-details-qrcode.module": [
-		1133,
+		1134,
 		32
 	],
 	"../pages/item-details-radio-button/item-details-radio-button.module": [
-		1134,
+		1135,
 		20
 	],
 	"../pages/item-details-range/item-details-range.module": [
-		1135,
+		1136,
 		9
 	],
 	"../pages/item-details-register/item-details-register.module": [
-		1136,
+		1137,
 		27
 	],
 	"../pages/item-details-search-bar/item-details-search-bar.module": [
-		1137,
+		1138,
 		19
 	],
 	"../pages/item-details-select/item-details-select.module": [
-		1138,
+		1139,
 		6
 	],
 	"../pages/item-details-spinner/item-details-spinner.module": [
-		1139,
+		1140,
 		31
 	],
 	"../pages/item-details-splash-screen/item-details-splash-screen.module": [
-		1140,
+		1141,
 		18
 	],
 	"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module": [
-		1141,
+		1142,
 		5
 	],
 	"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module": [
-		1142,
+		1143,
 		30
 	],
 	"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module": [
-		1143,
+		1144,
 		10
 	],
 	"../pages/item-details-tabs/item-details-tabs.module": [
-		1144,
+		1145,
 		17
 	],
 	"../pages/item-details-text-view/item-details-text-view.module": [
-		1145,
+		1146,
 		47
 	],
 	"../pages/item-details-toggle/item-details-toggle.module": [
-		1146,
+		1147,
 		16
 	],
 	"../pages/item-details-wizard/item-details-wizard.module": [
-		1147,
+		1148,
 		15
 	],
 	"../pages/item-details/item-details.module": [
-		1148,
+		1149,
 		46
 	],
 	"../pages/items/items.module": [
-		1155,
+		1150,
 		1
 	],
 	"../pages/tab-page-1/tab-page-1.module": [
-		1149,
+		1151,
 		45
 	],
 	"../pages/tab-page-2/tab-page-2.module": [
-		1150,
+		1152,
 		44
 	],
 	"../pages/tab-page-3/tab-page-3.module": [
-		1151,
+		1153,
 		43
 	],
 	"../pages/tab-page-4/tab-page-4.module": [
-		1152,
+		1154,
 		42
 	],
 	"../pages/tab-page-5/tab-page-5.module": [
-		1153,
+		1155,
 		41
 	],
 	"../pages/tab-page-6/tab-page-6.module": [
-		1154,
+		1156,
 		40
 	]
 };
@@ -543,7 +547,7 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 375:
+/***/ 425:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -551,7 +555,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsClassesPageModule", function() { return ElementsClassesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsClasses__ = __webpack_require__(653);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsClasses__ = __webpack_require__(967);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -737,7 +741,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(1038);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_barcode_scanner__ = __webpack_require__(1039);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_google_analytics__ = __webpack_require__(1040);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_elementsClasses_elementsClasses_module__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_elementsClasses_elementsClasses_module__ = __webpack_require__(425);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -801,7 +805,6 @@ var AppModule = (function () {
                         { loadChildren: '../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module#DragAndDropLayout4Module', name: 'DragAndDropLayout4', segment: 'drag-and-drop-layout-4', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/expandable/layout-1/expandable-layout-1.module#ExpandableLayout1Module', name: 'ExpandableLayout1', segment: 'expandable-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/expandable/layout-2/expandable-layout-2.module#ExpandableLayout2Module', name: 'ExpandableLayout2', segment: 'expandable-layout-2', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../components/list-view/expandable/layout-3/expandable-layout-3.module#ExpandableLayout3Module', name: 'ExpandableLayout3', segment: 'expandable-layout-3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/google-card/layout-1/google-card-layout-1.module#GoogleCardLayout1Module', name: 'GoogleCardLayout1', segment: 'google-card-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/google-card/layout-2/google-card-layout-2.module#GoogleCardLayout2Module', name: 'GoogleCardLayout2', segment: 'google-card-layout-2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/google-card/layout-3/google-card-layout-3.module#GoogleCardLayout3Module', name: 'GoogleCardLayout3', segment: 'google-card-layout-3', priority: 'low', defaultHistory: [] },
@@ -813,9 +816,10 @@ var AppModule = (function () {
                         { loadChildren: '../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module#SwipeToDismissLayout1Module', name: 'SwipeToDismissLayout1', segment: 'swipe-to-dismiss-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module#SwipeToDismissLayout2Module', name: 'SwipeToDismissLayout2', segment: 'swipe-to-dismiss-layout-2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module#SwipeToDismissLayout3Module', name: 'SwipeToDismissLayout3', segment: 'swipe-to-dismiss-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-3/expandable-layout-3.module#ExpandableLayout3Module', name: 'ExpandableLayout3', segment: 'expandable-layout-3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module#SwipeToDismissLayout4Module', name: 'SwipeToDismissLayout4', segment: 'swipe-to-dismiss-layout-4', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../components/login/layout-1/login-layout-1.module#LoginLayout1Module', name: 'LoginLayout1', segment: 'login-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/login/layout-2/login-layout-2.module#LoginLayout2Module', name: 'LoginLayout2', segment: 'login-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/login/layout-1/login-layout-1.module#LoginLayout1Module', name: 'LoginLayout1', segment: 'login-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/maps/layout-1/maps-layout-1.module#MapsLayout1Module', name: 'MapsLayout1', segment: 'maps-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/maps/layout-2/maps-layout-2.module#MapsLayout2Module', name: 'MapsLayout2', segment: 'maps-layout-2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/maps/layout-3/maps-layout-3.module#MapsLayout3Module', name: 'MapsLayout3', segment: 'maps-layout-3', priority: 'low', defaultHistory: [] },
@@ -856,8 +860,8 @@ var AppModule = (function () {
                         { loadChildren: '../components/wizard/layout-1/wizard-layout-1.module#WizardLayout1Module', name: 'WizardLayout1', segment: 'wizard-layout-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/wizard/layout-2/wizard-layout-2.module#WizardLayout2Module', name: 'WizardLayout2', segment: 'wizard-layout-2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../components/wizard/layout-3/wizard-layout-3.module#WizardLayout3Module', name: 'WizardLayout3', segment: 'wizard-layout-3', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/elementsClasses/elementsClasses.module#ElementsClassesPageModule', name: 'ElementsClassesPage', segment: 'elementsClasses', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/elementsHome/elementsHome.module#ElementsHomePageModule', name: 'ElementsHomePage', segment: 'elementsHome', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsMagias/elementsMagias.module#ElementsMagiasPageModule', name: 'ElementsMagiasPage', segment: 'elementsMagias', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/elementsRacas/elementsRacas.module#ElementsRacasPageModule', name: 'ElementsRacasPage', segment: 'elementsRacas', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intro-page/intro-page.module#IntroPageModule', name: 'IntroPage', segment: 'intro-page', priority: 'low', defaultHistory: [] },
@@ -866,10 +870,11 @@ var AppModule = (function () {
                         { loadChildren: '../pages/item-details-check-box/item-details-check-box.module#ItemDetailsPageCheckBoxModule', name: 'ItemDetailsPageCheckBox', segment: 'item-details-check-box', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-drag-and-drop/item-details-drag-and-drop.module#ItemDetailsPageDragAndDropModule', name: 'ItemDetailsPageDragAndDrop', segment: 'item-details-drag-and-drop', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-expandable/item-details-expandable.module#ItemDetailsPageExpandableModule', name: 'ItemDetailsPageExpandable', segment: 'item-details-expandable', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsClasses/elementsClasses.module#ElementsClassesPageModule', name: 'ElementsClassesPage', segment: 'elementsClasses', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module#ItemDetailsPageFullScreenGalleryModule', name: 'ItemDetailsPageFullScreenGallery', segment: 'item-details-full-screen-gallery', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-google-card/item-details-google-card.module#ItemDetailsPageGoogleCardModule', name: 'ItemDetailsPageGoogleCard', segment: 'item-details-google-card', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/item-details-image-gallery/item-details-image-gallery.module#ItemDetailsPageImageGalleryModule', name: 'ItemDetailsPageImageGallery', segment: 'item-details-image-gallery', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-login/item-details-login.module#ItemDetailsPageLoginModule', name: 'ItemDetailsPageLogin', segment: 'item-details-login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/item-details-image-gallery/item-details-image-gallery.module#ItemDetailsPageImageGalleryModule', name: 'ItemDetailsPageImageGallery', segment: 'item-details-image-gallery', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-maps/item-details-maps.module#ItemDetailsPageMapsModule', name: 'ItemDetailsPageMaps', segment: 'item-details-maps', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-parallax/item-details-parallax.module#ItemDetailsPageParallaxModule', name: 'ItemDetailsPageParallax', segment: 'item-details-parallax', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-qrcode/item-details-qrcode.module#ItemDetailsPageQRCodeModule', name: 'ItemDetailsPageQRCode', segment: 'item-details-qrcode', priority: 'low', defaultHistory: [] },
@@ -888,13 +893,13 @@ var AppModule = (function () {
                         { loadChildren: '../pages/item-details-toggle/item-details-toggle.module#ItemDetailsPageToggleModule', name: 'ItemDetailsPageToggle', segment: 'item-details-toggle', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details-wizard/item-details-wizard.module#ItemDetailsPageWizardModule', name: 'ItemDetailsPageWizard', segment: 'item-details-wizard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-details/item-details.module#ItemDetailsPageModule', name: 'ItemDetailsPage', segment: 'item-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/items/items.module#ItemsPageModule', name: 'ItemsPage', segment: 'items', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab-page-1/tab-page-1.module#TabPage1Module', name: 'TabPage1', segment: 'tab-page-1', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab-page-2/tab-page-2.module#TabPage2Module', name: 'TabPage2', segment: 'tab-page-2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab-page-3/tab-page-3.module#TabPage3Module', name: 'TabPage3', segment: 'tab-page-3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab-page-4/tab-page-4.module#TabPage4Module', name: 'TabPage4', segment: 'tab-page-4', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab-page-5/tab-page-5.module#TabPage5Module', name: 'TabPage5', segment: 'tab-page-5', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tab-page-6/tab-page-6.module#TabPage6Module', name: 'TabPage6', segment: 'tab-page-6', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/items/items.module#ItemsPageModule', name: 'ItemsPage', segment: 'items', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tab-page-6/tab-page-6.module#TabPage6Module', name: 'TabPage6', segment: 'tab-page-6', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_5_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseAppConfig),
@@ -917,7 +922,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 653:
+/***/ 967:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -962,12 +967,15 @@ var ElementsClassesPage = (function () {
     }
     ElementsClassesPage.prototype.getItems = function (event) {
         var _this = this;
+        console.log('getItems', this.searchTerm);
         if (!this.list) {
             this.list = this.listFiltered;
         }
         this.list.subscribe(function (listaBD) {
             var listaBDFiltrada = listaBD.filter(function (item) {
-                return item['Nome'].toLowerCase().indexOf(event.target.value.toLowerCase()) > -1;
+                var nomeOK = item['Nome'].toLowerCase().indexOf(_this.searchTerm.toLowerCase()) > -1;
+                var classeOK = _this.tipoClassesSelecionados.indexOf(item['TipoClasse']) > -1;
+                return nomeOK && classeOK;
             });
             _this.listFiltered = __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(listaBDFiltrada);
         });
@@ -988,12 +996,13 @@ var ElementsClassesPage = (function () {
     ], ElementsClassesPage.prototype, "events", void 0);
     ElementsClassesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'elements-page-classes',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/elementsClasses/elementsClasses.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Classes</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n        <!-- List -->\n\n        <ion-col col-12>\n\n        <ion-list no-padding no-margin transparent>\n\n        <ion-item padding-top no-lines *ngIf="data != null">\n\n            <ion-label>Tipo Classes:</ion-label>\n\n            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados">\n\n                <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        </ion-list>\n\n        </ion-col>\n\n        \n\n        <ion-col col-12>\n\n            <ion-list no-margin>\n\n            \n\n            <ion-list-header no-padding no-margin transparent>\n\n                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>\n\n                \n\n            </ion-list-header>\n\n\n\n            <li *ngFor="let group of listFiltered | async">\n\n              <!-- List big image Header -->\n\n              <div class="collapsible-header" (click)="toggleGroup(group)">\n\n                <ion-item no-padding>\n\n                  <h2 padding-left item-title>{{group.Nome}}</h2>\n\n                  <h3 padding-left item-subtitle>HP:{{group.HP}} Perícia:{{group.Pericia}}</h3>\n\n                </ion-item>\n\n              </div>\n\n              <!-- List big image Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }" [hidden]="!isGroupShown(group)">\n\n                <ion-item transparent no-lines style="color: white">\n\n                    <h2 padding-left>HP: {{group.HP}}</h2>\n\n                    <h2 padding-left>Perícia: {{group.Pericia}}</h2>\n\n                    <h2 padding-left>Crítico: {{group.Critico}}</h2>\n\n                    <br/>\n\n                    <h2 padding-left>Vantagens: {{group.Vantagens}}</h2>\n\n                    <h2 padding-left>Desvantagens: {{group.Desvantagens}}</h2>\n\n                    <br/>\n\n                    <h2 *ngFor="let lvl of lvls" padding-left>Lvl{{lvl}}: {{group[\'Lvl\'+lvl]}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n            </ion-list>\n\n        </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/elementsClasses/elementsClasses.html"*/,
+            selector: 'elements-page-classes',template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\elementsClasses\elementsClasses.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Classes</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n        <!-- List -->\n\n        <ion-col col-12>\n\n        <ion-list no-padding no-margin transparent>\n\n        <ion-item padding-top no-lines *ngIf="data != null">\n\n            <ion-label>Tipo Classes:</ion-label>\n\n            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados" (ngModelChange)="getItems($event)">\n\n                <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        </ion-list>\n\n        </ion-col>\n\n        \n\n        <ion-col col-12>\n\n            <ion-list no-margin>\n\n            \n\n            <ion-list-header no-padding no-margin transparent>\n\n                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>\n\n                \n\n            </ion-list-header>\n\n\n\n            <li *ngFor="let group of listFiltered | async">\n\n              <!-- List big image Header -->\n\n              <div class="collapsible-header" (click)="toggleGroup(group)">\n\n                <ion-item no-padding>\n\n                  <h2 padding-left item-title>{{group.Nome}}</h2>\n\n                  <h3 padding-left item-subtitle>HP:{{group.HP}} Perícia:{{group.Pericia}}</h3>\n\n                </ion-item>\n\n              </div>\n\n              <!-- List big image Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }" [hidden]="!isGroupShown(group)">\n\n                <ion-item transparent no-lines style="color: white">\n\n                    <h2 padding-left>HP: {{group.HP}}</h2>\n\n                    <h2 padding-left>Perícia: {{group.Pericia}}</h2>\n\n                    <h2 padding-left>Crítico: {{group.Critico}}</h2>\n\n                    <br/>\n\n                    <h2 padding-left>Vantagens: {{group.Vantagens}}</h2>\n\n                    <h2 padding-left>Desvantagens: {{group.Desvantagens}}</h2>\n\n                    <br/>\n\n                    <h2 *ngFor="let lvl of lvls" padding-left>Lvl{{lvl}}: {{group[\'Lvl\'+lvl]}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n            </ion-list>\n\n        </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\elementsClasses\elementsClasses.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */], __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */]) === "function" && _c || Object])
     ], ElementsClassesPage);
     return ElementsClassesPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=elementsClasses.js.map
@@ -1117,7 +1126,7 @@ var MyApp = (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/app/app.html"*/'<ion-split-pane when="md">\n\n  <ion-menu [content]="content" *ngIf="params != null">\n\n    <!-- Menu Main Top -->\n\n    <ion-header padding background-size header-background-image\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.background + \')\'}">\n\n      <ion-thumbnail>\n\n        <img [src]="params.image">\n\n      </ion-thumbnail>\n\n      <h2 item-title text-center>Elements</h2>\n\n    </ion-header>\n\n    \n\n    <!-- Menu Main List -->\n\n    <ion-content>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsClassesPage\')">\n\n          <ion-icon padding-left>\n\n            <i class="icon icon-format-align-justify"></i>\n\n          </ion-icon>\n\n          Classes\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRacasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Raças\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsMagiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Magias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsPericiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Perícias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsLojasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Lojas\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRegrasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Regras\n\n        </button>\n\n      </ion-list>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">\n\n        <ion-icon padding-left>\n\n          <i class="icon {{p.icon}}"></i>\n\n        </ion-icon>\n\n        {{p.title}}\n\n      </button>\n\n      </ion-list>\n\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n  <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav>\n\n</ion-split-pane>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/app/app.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\app\app.html"*/'<ion-split-pane when="md">\n\n  <ion-menu [content]="content" *ngIf="params != null">\n\n    <!-- Menu Main Top -->\n\n    <ion-header padding background-size header-background-image\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.background + \')\'}">\n\n      <ion-thumbnail>\n\n        <img [src]="params.image">\n\n      </ion-thumbnail>\n\n      <h2 item-title text-center>Elements</h2>\n\n    </ion-header>\n\n    \n\n    <!-- Menu Main List -->\n\n    <ion-content>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsClassesPage\')">\n\n          <ion-icon padding-left>\n\n            <i class="icon icon-format-align-justify"></i>\n\n          </ion-icon>\n\n          Classes\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRacasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Raças\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsMagiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Magias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsPericiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Perícias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsLojasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Lojas\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRegrasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Regras\n\n        </button>\n\n      </ion-list>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">\n\n        <ion-icon padding-left>\n\n          <i class="icon {{p.icon}}"></i>\n\n        </ion-icon>\n\n        {{p.title}}\n\n      </button>\n\n      </ion-list>\n\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n  <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav>\n\n</ion-split-pane>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\app\app.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_3__services_menu_service__["a" /* MenuService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Platform */],

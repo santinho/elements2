@@ -36,12 +36,16 @@ export class ElementsClassesPage {
   allItems:any;
 
   getItems(event: any):void {
+    console.log('getItems', this.searchTerm)
     if (!this.list) {
       this.list = this.listFiltered;
     }
     this.list.subscribe((listaBD:any[])=>{
       let listaBDFiltrada = listaBD.filter((item) => {
-        return item['Nome'].toLowerCase().indexOf(event.target.value.toLowerCase()) > -1;
+        let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
+        let classeOK:boolean = this.tipoClassesSelecionados.indexOf(item['TipoClasse']) > -1;
+
+        return nomeOK && classeOK
       });
       this.listFiltered = Observable.of(listaBDFiltrada);
 

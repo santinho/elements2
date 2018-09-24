@@ -1,14 +1,14 @@
 webpackJsonp([90],{
 
-/***/ 1068:
+/***/ 1072:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleCardLayout4Module", function() { return GoogleCardLayout4Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout1Module", function() { return SwipeToDismissLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_4__ = __webpack_require__(1217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__ = __webpack_require__(1222);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var GoogleCardLayout4Module = (function () {
-    function GoogleCardLayout4Module() {
+var SwipeToDismissLayout1Module = (function () {
+    function SwipeToDismissLayout1Module() {
     }
-    GoogleCardLayout4Module = __decorate([
+    SwipeToDismissLayout1Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__google_card_layout_4__["a" /* GoogleCardLayout4 */],
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__google_card_layout_4__["a" /* GoogleCardLayout4 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__google_card_layout_4__["a" /* GoogleCardLayout4 */]
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], GoogleCardLayout4Module);
-    return GoogleCardLayout4Module;
+    ], SwipeToDismissLayout1Module);
+    return SwipeToDismissLayout1Module;
 }());
 
-//# sourceMappingURL=google-card-layout-4.module.js.map
+//# sourceMappingURL=swipe-to-dismiss-layout-1.module.js.map
 
 /***/ }),
 
-/***/ 1217:
+/***/ 1222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoogleCardLayout4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -60,27 +60,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var GoogleCardLayout4 = (function () {
-    function GoogleCardLayout4() {
-        this.slider = {};
+var SwipeToDismissLayout1 = (function () {
+    function SwipeToDismissLayout1() {
+        var _this = this;
+        this.undo = function (slidingItem) {
+            slidingItem.close();
+        };
+        this.delete = function (item) {
+            var index = _this.data.items.indexOf(item);
+            if (index > -1) {
+                _this.data.items.splice(index, 1);
+            }
+        };
     }
-    GoogleCardLayout4.prototype.slideHasChanged = function (slider, index) {
-        this.slider[index] = slider;
-        if (2 == slider._activeIndex) {
-            if (this.data.items) {
-                this.data.items.splice(index, 1);
-            }
-            else {
-                this.data.splice(index, 1);
-            }
-        }
-    };
-    GoogleCardLayout4.prototype.onClickEvent = function (index) {
-        if (this.slider[index]) {
-            this.slider[index].slidePrev(300);
-        }
-    };
-    GoogleCardLayout4.prototype.onEvent = function (event, item, e) {
+    SwipeToDismissLayout1.prototype.onEvent = function (event, item, e) {
         if (e) {
             e.stopPropagation();
         }
@@ -88,7 +81,7 @@ var GoogleCardLayout4 = (function () {
             this.events[event](item);
         }
     };
-    GoogleCardLayout4.prototype.ngAfterViewInit = function () {
+    SwipeToDismissLayout1.prototype.ngAfterViewInit = function () {
         var _this = this;
         this.content.ionScroll.subscribe(function (d) {
             _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
@@ -97,29 +90,29 @@ var GoogleCardLayout4 = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], GoogleCardLayout4.prototype, "data", void 0);
+    ], SwipeToDismissLayout1.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], GoogleCardLayout4.prototype, "events", void 0);
+    ], SwipeToDismissLayout1.prototype, "events", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], GoogleCardLayout4.prototype, "content", void 0);
+    ], SwipeToDismissLayout1.prototype, "content", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
-    ], GoogleCardLayout4.prototype, "fabButton", void 0);
-    GoogleCardLayout4 = __decorate([
+    ], SwipeToDismissLayout1.prototype, "fabButton", void 0);
+    SwipeToDismissLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'google-card-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-4/google-card.html"*/'<!--Theme Post Card -->\n\n<ion-content>\n\n<ion-grid no-padding *ngIf="data != null">\n\n<ion-row no-padding>\n\n  <ion-col no-padding col-sm-12 col-md-6 col-lg-4 *ngFor="let item of data">\n\n    <ion-list>\n\n    <ion-card (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n      <!--Card-header-->\n\n      <ion-card-header>\n\n        <ion-item no-padding>\n\n          <!--Avatar-->\n\n          <ion-avatar item-start>\n\n            <img [src]="item.avatar">\n\n          </ion-avatar>\n\n          <!--Card-title-->\n\n          <h1 card-title>{{item.title}}</h1>\n\n          <!--Card-subtitle-->\n\n          <h2 card-subtitle>{{item.shortDescription}}</h2>\n\n        </ion-item>\n\n      </ion-card-header>\n\n      <!--Card-content-->\n\n      <ion-card-content no-padding>\n\n        <!--Card-image-->\n\n        <img margin-bottom [src]="item.image">\n\n        <!--Description-->\n\n        <p border margin card-body-text padding-bottom text-wrap>{{item.description}}</p>\n\n        <ion-item no-padding margin-bottom>\n\n          <!--Button Like-->\n\n          <button ion-button clear button-clear item-end\n\n            (click)="onEvent(\'onLike\', item.title, $event)">{{item.firstButton}}</button>\n\n            <!--Button Share-->\n\n          <button ion-button clear button-clear item-end\n\n            (click)="onEvent(\'onShare\', item.title, $event)">{{item.secondButton}}</button>\n\n        </ion-item>\n\n      </ion-card-content>\n\n    </ion-card>\n\n  </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n</ion-content>\n\n<!--Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-4/google-card.html"*/
+            selector: 'swipe-to-dismiss-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-1\swipe-to-dismiss.html"*/'<!--Theme Small item + header-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 header-bcg>\n\n        <ion-item no-padding no-lines transparent>\n\n          <ion-icon icon-large item-start>\n\n            <i class="icon {{data.iconPlay}}"></i>\n\n          </ion-icon>\n\n          <h1 header-title>{{data.title}}</h1>\n\n          <h2 header-subtitle>{{data.description}}</h2>\n\n          <span span-medium>{{data.shortDescription}}</span>\n\n          <div float-right social>\n\n            <ion-icon>\n\n              <i class="icon icon-thumb-up" (click)="onEvent(\'onLike\', item, $event)"></i>\n\n            </ion-icon>\n\n            <ion-icon>\n\n              <i class="icon icon-heart" (click)="onEvent(\'onFavorite\', item, $event)"></i>\n\n            </ion-icon>\n\n            <ion-icon>\n\n              <i class="icon icon-share-variant" (click)="onEvent(\'onShare\', item, $event)"></i>\n\n            </ion-icon>\n\n          </div>\n\n        </ion-item>\n\n      </ion-col>\n\n    </ion-row>\n\n    <!--Swipe To Dismiss -->\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list>\n\n          <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n            <button ion-item (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n              <ion-avatar item-start>\n\n                <img [src]="item.image">\n\n              </ion-avatar>\n\n              <h2 item-title>{{item.title}}</h2>\n\n              <h3 item-subtitle>{{item.description}}</h3>\n\n              <span item-end span-small>{{item.shortDescription}}</span>\n\n              <ion-icon icon-medium item-end>\n\n                <i class="icon icon-play"></i>\n\n              </ion-icon>\n\n            </button>\n\n            <ion-item-options no-lines>\n\n              <button ion-button (click)="delete(item)">\n\n                  <ion-icon icon-medium>\n\n                    <i class="icon {{item.iconDelate}}"></i>\n\n                  </ion-icon>\n\n              </button>\n\n              <button ion-button (click)="undo(slidingItem)">\n\n                  <ion-icon icon-medium>\n\n                    <i class="icon {{item.iconUndo}}"></i>\n\n                  </ion-icon>\n\n              </button>\n\n            </ion-item-options>\n\n          </ion-item-sliding>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', item, $event)">\n\n<ion-icon name="add"></ion-icon>\n\n</button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-1\swipe-to-dismiss.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], GoogleCardLayout4);
-    return GoogleCardLayout4;
+    ], SwipeToDismissLayout1);
+    return SwipeToDismissLayout1;
 }());
 
-//# sourceMappingURL=google-card-layout-4.js.map
+//# sourceMappingURL=swipe-to-dismiss-layout-1.js.map
 
 /***/ })
 

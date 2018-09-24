@@ -1,4 +1,4 @@
-webpackJsonp([31,64],{
+webpackJsonp([31,65],{
 
 /***/ 1105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpinnerModule", function() { return SpinnerModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__spinner__ = __webpack_require__(1254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__spinner__ = __webpack_require__(1255);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var SpinnerModule = (function () {
 
 /***/ }),
 
-/***/ 1139:
+/***/ 1140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSpinnerModule", function() { return ItemDetailsPageSpinnerModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_spinner__ = __webpack_require__(1289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_spinner__ = __webpack_require__(1291);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_spinner_spinner_module__ = __webpack_require__(1105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84,7 +84,7 @@ var ItemDetailsPageSpinnerModule = (function () {
 
 /***/ }),
 
-/***/ 1254:
+/***/ 1255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -116,7 +116,7 @@ var Spinner = (function () {
     ], Spinner.prototype, "data", void 0);
     Spinner = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'spinner',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/
+            selector: 'spinner',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\spinner\spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\spinner\spinner.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], Spinner);
@@ -127,7 +127,7 @@ var Spinner = (function () {
 
 /***/ }),
 
-/***/ 1289:
+/***/ 1291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -164,7 +164,7 @@ var ItemDetailsPageSpinner = (function () {
         }
     }
     ItemDetailsPageSpinner = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-spinner/item-details-spinner.html"*/'<!--Spinner components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n<ion-content class="spinner-view">\n\n  <ion-slides *ngIf="params.data.length" pager="true">\n\n    <ion-slide *ngFor="let spinnerItem of params.data;">\n\n      <spinner [data]="spinnerItem"></spinner>\n\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-spinner/item-details-spinner.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-spinner\item-details-spinner.html"*/'<!--Spinner components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n<ion-content class="spinner-view">\n\n  <ion-slides *ngIf="params.data.length" pager="true">\n\n    <ion-slide *ngFor="let spinnerItem of params.data;">\n\n      <spinner [data]="spinnerItem"></spinner>\n\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-spinner\item-details-spinner.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageSpinner);

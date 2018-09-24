@@ -1,4 +1,4 @@
-webpackJsonp([29,53],{
+webpackJsonp([29,54],{
 
 /***/ 1042:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout1Module", function() { return WizardLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__ = __webpack_require__(1191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__ = __webpack_require__(1192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var WizardLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1121:
+/***/ 1122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro_page__ = __webpack_require__(1270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro_page__ = __webpack_require__(1272);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__ = __webpack_require__(1042);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87,7 +87,7 @@ var IntroPageModule = (function () {
 
 /***/ }),
 
-/***/ 1191:
+/***/ 1192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -155,7 +155,7 @@ var WizardLayout1 = (function () {
     ], WizardLayout1.prototype, "slider", void 0);
     WizardLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'wizard-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/wizard/layout-1/wizard.html"*/'<!--Theme Wizard Simple + icon-->\n\n\n\n<!--Content -->\n\n<ion-slides #wizardSlider (ionSlideDidChange)="slideHasChanged()" pager="true" *ngIf="data != null">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <ion-icon icon-large>\n\n      <i class="icon {{item.iconSlider}}"></i>\n\n    </ion-icon>\n\n    <h1 wizard-title>{{item.title}}</h1>\n\n    <p wizard-body-text>{{item.description}}</p>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n  <button ion-button button-clear clear float-left (click)="changeSlide(-1)" *ngIf="prev">\n\n  {{data.btnPrev}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="changeSlide(1)" *ngIf="next">\n\n  {{data.btnNext}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n  {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/wizard/layout-1/wizard.html"*/
+            selector: 'wizard-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\wizard\layout-1\wizard.html"*/'<!--Theme Wizard Simple + icon-->\n\n\n\n<!--Content -->\n\n<ion-slides #wizardSlider (ionSlideDidChange)="slideHasChanged()" pager="true" *ngIf="data != null">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <ion-icon icon-large>\n\n      <i class="icon {{item.iconSlider}}"></i>\n\n    </ion-icon>\n\n    <h1 wizard-title>{{item.title}}</h1>\n\n    <p wizard-body-text>{{item.description}}</p>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n  <button ion-button button-clear clear float-left (click)="changeSlide(-1)" *ngIf="prev">\n\n  {{data.btnPrev}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="changeSlide(1)" *ngIf="next">\n\n  {{data.btnNext}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n  {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\wizard\layout-1\wizard.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], WizardLayout1);
@@ -166,14 +166,14 @@ var WizardLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1270:
+/***/ 1272:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_intro_service__ = __webpack_require__(1271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_intro_service__ = __webpack_require__(1273);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -206,7 +206,7 @@ var IntroPage = (function () {
         });
     }
     IntroPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/intro-page/intro-page.html"*/'<!--Wizard component-->\n\n<ion-content no-margin no-padding *ngIf="params != null">\n\n    <wizard-layout-1 [data]="params.data" [events]="params.events">\n\n    </wizard-layout-1>\n\n</ion-content>'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/intro-page/intro-page.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\intro-page\intro-page.html"*/'<!--Wizard component-->\n\n<ion-content no-margin no-padding *ngIf="params != null">\n\n    <wizard-layout-1 [data]="params.data" [events]="params.events">\n\n    </wizard-layout-1>\n\n</ion-content>'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\intro-page\intro-page.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__services_intro_service__["a" /* IntroService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__services_intro_service__["a" /* IntroService */]])
@@ -218,7 +218,7 @@ var IntroPage = (function () {
 
 /***/ }),
 
-/***/ 1271:
+/***/ 1273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

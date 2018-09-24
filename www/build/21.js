@@ -1,6 +1,6 @@
 webpackJsonp([21],{
 
-/***/ 1072:
+/***/ 1071:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_4__ = __webpack_require__(1221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1173);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45,13 +45,13 @@ var StickyListHeaderLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1170:
+/***/ 1171:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonAffix; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__adapters_adapter_factory__ = __webpack_require__(1182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__adapters_adapter_factory__ = __webpack_require__(1183);
 
 
 /**
@@ -188,13 +188,13 @@ var IonAffix = (function () {
 
 /***/ }),
 
-/***/ 1172:
+/***/ 1173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__ = __webpack_require__(1181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__ = __webpack_require__(1182);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1171);
 /* unused harmony namespace reexport */
 
 
@@ -202,13 +202,13 @@ var IonAffix = (function () {
 
 /***/ }),
 
-/***/ 1181:
+/***/ 1182:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonAffixModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1171);
 
 
 var IonAffixModule = (function () {
@@ -233,14 +233,14 @@ var IonAffixModule = (function () {
 
 /***/ }),
 
-/***/ 1182:
+/***/ 1183:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = adapterFactory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_adapter__ = __webpack_require__(1183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scroll_adapter__ = __webpack_require__(1184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_adapter__ = __webpack_require__(1184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scroll_adapter__ = __webpack_require__(1185);
 
 
 
@@ -257,7 +257,7 @@ function adapterFactory(container) {
 
 /***/ }),
 
-/***/ 1183:
+/***/ 1184:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -309,7 +309,7 @@ ContentAdapter = (function () {
 
 /***/ }),
 
-/***/ 1184:
+/***/ 1185:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -414,7 +414,7 @@ var StickyListHeaderLayout4 = (function () {
     ], StickyListHeaderLayout4.prototype, "content", void 0);
     StickyListHeaderLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'sticky-list-header-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/sticky-list-header/layout-4/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Small header + large item -->\n\n<ion-content no-padding>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <ion-list no-margin *ngFor="let item of data.items">\n\n          <!-- Sticky list header -->\n\n          <ion-list-header no-margin ion-affix [content]="content">\n\n            <ion-item transparent no-margin no-padding no-lines>\n\n              <!---Header title-->\n\n              <h2 item-start no-margin text-uppercase>{{item.title}}</h2>\n\n              <div item-content>\n\n                <!---Header icon-->\n\n                <ion-icon>\n\n                    <i icon-small class="icon {{item.icon}}"></i>\n\n                </ion-icon>\n\n                <!---Header description-->\n\n                <span item-end span-small>{{item.description}}</span>\n\n              </div>\n\n            </ion-item>\n\n          </ion-list-header>\n\n          <ion-item text-right no-padding *ngFor="let element of item.items"\n\n          (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <ion-item-divider no-lines padding-left>\n\n            <!---Icon Like-->\n\n            <ion-icon float-left (click)="onEvent(\'onLike\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconLike}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Bookmark-->\n\n            <ion-icon float-left (click)="onEvent(\'onBookmark\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconBookmark}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Share-->\n\n            <ion-icon margin-right float-left (click)="onEvent(\'onShare\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconShare}}"></i>\n\n            </ion-icon>\n\n            <!---Avatar-->\n\n            <ion-avatar item-end (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n              <img [src]="element.image">\n\n            </ion-avatar>\n\n            <!---Item-title-->\n\n            <h2 item-title>{{element.title}}</h2>\n\n          </ion-item-divider>\n\n            <!---Description-->\n\n            <p padding-left subitem-title text-left text-wrap>\n\n              {{element.description}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/sticky-list-header/layout-4/sticky-list-header.html"*/
+            selector: 'sticky-list-header-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\sticky-list-header\layout-4\sticky-list-header.html"*/'<!-- Theme Sticky List Header - Small header + large item -->\n\n<ion-content no-padding>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <ion-list no-margin *ngFor="let item of data.items">\n\n          <!-- Sticky list header -->\n\n          <ion-list-header no-margin ion-affix [content]="content">\n\n            <ion-item transparent no-margin no-padding no-lines>\n\n              <!---Header title-->\n\n              <h2 item-start no-margin text-uppercase>{{item.title}}</h2>\n\n              <div item-content>\n\n                <!---Header icon-->\n\n                <ion-icon>\n\n                    <i icon-small class="icon {{item.icon}}"></i>\n\n                </ion-icon>\n\n                <!---Header description-->\n\n                <span item-end span-small>{{item.description}}</span>\n\n              </div>\n\n            </ion-item>\n\n          </ion-list-header>\n\n          <ion-item text-right no-padding *ngFor="let element of item.items"\n\n          (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <ion-item-divider no-lines padding-left>\n\n            <!---Icon Like-->\n\n            <ion-icon float-left (click)="onEvent(\'onLike\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconLike}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Bookmark-->\n\n            <ion-icon float-left (click)="onEvent(\'onBookmark\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconBookmark}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Share-->\n\n            <ion-icon margin-right float-left (click)="onEvent(\'onShare\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconShare}}"></i>\n\n            </ion-icon>\n\n            <!---Avatar-->\n\n            <ion-avatar item-end (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n              <img [src]="element.image">\n\n            </ion-avatar>\n\n            <!---Item-title-->\n\n            <h2 item-title>{{element.title}}</h2>\n\n          </ion-item-divider>\n\n            <!---Description-->\n\n            <p padding-left subitem-title text-left text-wrap>\n\n              {{element.description}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\sticky-list-header\layout-4\sticky-list-header.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], StickyListHeaderLayout4);

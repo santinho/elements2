@@ -1,6 +1,6 @@
 webpackJsonp([41],{
 
-/***/ 1153:
+/***/ 1155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabPage5Module", function() { return TabPage5Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_page_5__ = __webpack_require__(1303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab_page_5__ = __webpack_require__(1333);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ var TabPage5Module = (function () {
 
 /***/ }),
 
-/***/ 1171:
+/***/ 1172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -183,14 +183,14 @@ var TabsService = (function () {
 
 /***/ }),
 
-/***/ 1303:
+/***/ 1333:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabPage5; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_native__ = __webpack_require__(610);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_tabs_service__ = __webpack_require__(1171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_tabs_service__ = __webpack_require__(1172);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -224,7 +224,7 @@ var TabPage5 = (function () {
         }
     };
     TabPage5 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/tab-page-5/tab-page-5.html"*/'<!---Settings TAB lauout-5-->\n\n<ion-content class="content-background-images">\n\n    <div background-size class="tab-5"\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.backgroundImage + \')\'}" *ngIf=" params != null">\n\n        <div padding class="tab-decription">\n\n            <h2 tabs-title text-center>{{params.title}}</h2>\n\n            <p tabs-subtitle text-center>{{params.description}}</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/tab-page-5/tab-page-5.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\tab-page-5\tab-page-5.html"*/'<!---Settings TAB lauout-5-->\n\n<ion-content class="content-background-images">\n\n    <div background-size class="tab-5"\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.backgroundImage + \')\'}" *ngIf=" params != null">\n\n        <div padding class="tab-decription">\n\n            <h2 tabs-title text-center>{{params.title}}</h2>\n\n            <p tabs-subtitle text-center>{{params.description}}</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\tab-page-5\tab-page-5.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__services_tabs_service__["a" /* TabsService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_tabs_service__["a" /* TabsService */]])

@@ -1,4 +1,4 @@
-webpackJsonp([18,61,62,63],{
+webpackJsonp([18,62,63,64],{
 
 /***/ 1106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout1Module", function() { return SplashScreenLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_1__ = __webpack_require__(1255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_1__ = __webpack_require__(1256);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout2Module", function() { return SplashScreenLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__ = __webpack_require__(1256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__ = __webpack_require__(1257);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout3Module", function() { return SplashScreenLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__ = __webpack_require__(1257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__ = __webpack_require__(1258);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -126,7 +126,7 @@ var SplashScreenLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1140:
+/***/ 1141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSplashScreenModule", function() { return ItemDetailsPageSplashScreenModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_splash_screen__ = __webpack_require__(1290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_splash_screen__ = __webpack_require__(1292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_splash_screen_layout_1_splash_screen_layout_1_module__ = __webpack_require__(1106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_splash_screen_layout_2_splash_screen_layout_2_module__ = __webpack_require__(1107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_splash_screen_layout_3_splash_screen_layout_3_module__ = __webpack_require__(1108);
@@ -172,7 +172,7 @@ var ItemDetailsPageSplashScreenModule = (function () {
 
 /***/ }),
 
-/***/ 1255:
+/***/ 1256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -226,7 +226,7 @@ var SplashScreenLayout1 = (function () {
     ], SplashScreenLayout1.prototype, "events", void 0);
     SplashScreenLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-1/splash-screen.html"*/'<!--Theme Fade in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-1/splash-screen.html"*/
+            selector: 'splash-screen-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\splash-screen\layout-1\splash-screen.html"*/'<!--Theme Fade in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\splash-screen\layout-1\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout1);
@@ -237,7 +237,7 @@ var SplashScreenLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1256:
+/***/ 1257:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -291,7 +291,7 @@ var SplashScreenLayout2 = (function () {
     ], SplashScreenLayout2.prototype, "events", void 0);
     SplashScreenLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/
+            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout2);
@@ -302,7 +302,7 @@ var SplashScreenLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1257:
+/***/ 1258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -356,7 +356,7 @@ var SplashScreenLayout3 = (function () {
     ], SplashScreenLayout3.prototype, "events", void 0);
     SplashScreenLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/
+            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout3);
@@ -367,7 +367,7 @@ var SplashScreenLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1290:
+/***/ 1292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -398,7 +398,7 @@ var ItemDetailsPageSplashScreen = (function () {
         });
     }
     ItemDetailsPageSplashScreen = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-splash-screen/item-details-splash-screen.html"*/'<!--SPLASH SCREEN FASE IN + KERN BURNS 1 component-->\n\n<ion-content *ngIf="params.splashScreensLayout1">\n\n  <splash-screen-layout-1 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-1>\n\n</ion-content>\n\n\n\n<!--SPLASH SCREEN DOWN + FADE IN + KEN BURNS component-->\n\n<ion-content *ngIf="params.splashScreensLayout2">\n\n  <splash-screen-layout-2 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-2>\n\n</ion-content>\n\n\n\n<!--SPLASH SCREEN DOWN + KEN BURNS component-->\n\n<ion-content *ngIf="params.splashScreensLayout3">\n\n  <splash-screen-layout-3 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-3>\n\n</ion-content>'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-splash-screen/item-details-splash-screen.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-splash-screen\item-details-splash-screen.html"*/'<!--SPLASH SCREEN FASE IN + KERN BURNS 1 component-->\n\n<ion-content *ngIf="params.splashScreensLayout1">\n\n  <splash-screen-layout-1 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-1>\n\n</ion-content>\n\n\n\n<!--SPLASH SCREEN DOWN + FADE IN + KEN BURNS component-->\n\n<ion-content *ngIf="params.splashScreensLayout2">\n\n  <splash-screen-layout-2 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-2>\n\n</ion-content>\n\n\n\n<!--SPLASH SCREEN DOWN + KEN BURNS component-->\n\n<ion-content *ngIf="params.splashScreensLayout3">\n\n  <splash-screen-layout-3 [data]="params.data" [events]="params.events">\n\n  </splash-screen-layout-3>\n\n</ion-content>'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-splash-screen\item-details-splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageSplashScreen);

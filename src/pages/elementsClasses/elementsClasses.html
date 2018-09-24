@@ -16,7 +16,7 @@
         <ion-list no-padding no-margin transparent>
         <ion-item padding-top no-lines *ngIf="data != null">
             <ion-label>Tipo Classes:</ion-label>
-            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados">
+            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados" (ngModelChange)="getItems($event)">
                 <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>
             </ion-select>
         </ion-item>

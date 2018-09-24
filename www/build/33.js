@@ -1,4 +1,4 @@
-webpackJsonp([33,109],{
+webpackJsonp([33,110],{
 
 /***/ 1050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FullScreenGalleryModule", function() { return FullScreenGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__ = __webpack_require__(1199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__ = __webpack_require__(1200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var FullScreenGalleryModule = (function () {
 
 /***/ }),
 
-/***/ 1127:
+/***/ 1128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageFullScreenGalleryModule", function() { return ItemDetailsPageFullScreenGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_full_screen_gallery__ = __webpack_require__(1277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_full_screen_gallery__ = __webpack_require__(1279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_full_screen_gallery_full_screen_gallery_module__ = __webpack_require__(1050);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87,7 +87,7 @@ var ItemDetailsPageFullScreenGalleryModule = (function () {
 
 /***/ }),
 
-/***/ 1199:
+/***/ 1200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -150,7 +150,7 @@ var FullScreenGallery = (function () {
     ], FullScreenGallery.prototype, "slider", void 0);
     FullScreenGallery = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'full-screen-gallery',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/full-screen-gallery/full-screen-gallery.html"*/'<!--Screen Gallery-->\n\n<ion-slides #slider pager="true" zoom="true" [initialSlide]="data.index">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <img [src]="item.image" />\n\n  </ion-slide>\n\n</ion-slides>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/full-screen-gallery/full-screen-gallery.html"*/
+            selector: 'full-screen-gallery',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/'<!--Screen Gallery-->\n\n<ion-slides #slider pager="true" zoom="true" [initialSlide]="data.index">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <img [src]="item.image" />\n\n  </ion-slide>\n\n</ion-slides>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], FullScreenGallery);
@@ -161,7 +161,7 @@ var FullScreenGallery = (function () {
 
 /***/ }),
 
-/***/ 1277:
+/***/ 1279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -195,7 +195,7 @@ var ItemDetailsPageFullScreenGallery = (function () {
         }
     }
     ItemDetailsPageFullScreenGallery = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-full-screen-gallery/item-details-full-screen-gallery.html"*/'<!--Full gallery component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle >\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Images</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <full-screen-gallery [data]="params.data"></full-screen-gallery>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-full-screen-gallery/item-details-full-screen-gallery.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-full-screen-gallery\item-details-full-screen-gallery.html"*/'<!--Full gallery component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle >\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Images</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <full-screen-gallery [data]="params.data"></full-screen-gallery>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-full-screen-gallery\item-details-full-screen-gallery.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageFullScreenGallery);

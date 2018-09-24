@@ -1,4 +1,4 @@
-webpackJsonp([12,97,98,99,100],{
+webpackJsonp([12,98,99,100,101],{
 
 /***/ 1058:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout1Module", function() { return DragAndDropLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_1__ = __webpack_require__(1207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_1__ = __webpack_require__(1208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout2Module", function() { return DragAndDropLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__ = __webpack_require__(1208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__ = __webpack_require__(1209);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout3Module", function() { return DragAndDropLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__ = __webpack_require__(1209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__ = __webpack_require__(1210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout4Module", function() { return DragAndDropLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__ = __webpack_require__(1210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__ = __webpack_require__(1211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -168,7 +168,7 @@ var DragAndDropLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1125:
+/***/ 1126:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageDragAndDropModule", function() { return ItemDetailsPageDragAndDropModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_drag_and_drop__ = __webpack_require__(1275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_drag_and_drop__ = __webpack_require__(1277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_drag_and_drop_layout_1_drag_and_drop_layout_1_module__ = __webpack_require__(1058);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_drag_and_drop_layout_2_drag_and_drop_layout_2_module__ = __webpack_require__(1059);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_drag_and_drop_layout_3_drag_and_drop_layout_3_module__ = __webpack_require__(1060);
@@ -217,7 +217,7 @@ var ItemDetailsPageDragAndDropModule = (function () {
 
 /***/ }),
 
-/***/ 1207:
+/***/ 1208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -274,7 +274,7 @@ var DragAndDropLayout1 = (function () {
     ], DragAndDropLayout1.prototype, "fabButton", void 0);
     DragAndDropLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'drag-and-drop-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-1/drag-and-drop.html"*/'<!-- Themes Small item + header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <!-- Header Section -->\n\n        <ion-list-header no-margin color="secondary" no-lines padding>\n\n          <ion-item-divider transparent no-lines no-padding>\n\n            <!-- Header Title -->\n\n            <h1 header-title>{{data.title}}</h1>\n\n            <!-- Header Subtitle -->\n\n            <h2 header-subtitle>{{data.description}}</h2>\n\n            <!-- Content -->\n\n            <div item-content>\n\n              <span span-medium text wrap>{{data.duration}}</span>\n\n              <ion-icon float-right>\n\n                <i icon-medium class="icon {{data.icon}}"></i>\n\n              </ion-icon>\n\n            </div>\n\n          </ion-item-divider>\n\n        </ion-list-header>\n\n        <!-- Item List Section -->\n\n        <ion-list reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-icon item-start icon-medium><i class="icon {{item.leftIcon}}"></i></ion-icon>\n\n            <h2 no-padding item-title>{{item.title}}</h2>\n\n            <h3 no-padding item-subtitle>{{item.author}}</h3>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-1/drag-and-drop.html"*/
+            selector: 'drag-and-drop-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-1\drag-and-drop.html"*/'<!-- Themes Small item + header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <!-- Header Section -->\n\n        <ion-list-header no-margin color="secondary" no-lines padding>\n\n          <ion-item-divider transparent no-lines no-padding>\n\n            <!-- Header Title -->\n\n            <h1 header-title>{{data.title}}</h1>\n\n            <!-- Header Subtitle -->\n\n            <h2 header-subtitle>{{data.description}}</h2>\n\n            <!-- Content -->\n\n            <div item-content>\n\n              <span span-medium text wrap>{{data.duration}}</span>\n\n              <ion-icon float-right>\n\n                <i icon-medium class="icon {{data.icon}}"></i>\n\n              </ion-icon>\n\n            </div>\n\n          </ion-item-divider>\n\n        </ion-list-header>\n\n        <!-- Item List Section -->\n\n        <ion-list reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-icon item-start icon-medium><i class="icon {{item.leftIcon}}"></i></ion-icon>\n\n            <h2 no-padding item-title>{{item.title}}</h2>\n\n            <h3 no-padding item-subtitle>{{item.author}}</h3>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-1\drag-and-drop.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], DragAndDropLayout1);
@@ -285,7 +285,7 @@ var DragAndDropLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1208:
+/***/ 1209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -342,7 +342,7 @@ var DragAndDropLayout2 = (function () {
     ], DragAndDropLayout2.prototype, "fabButton", void 0);
     DragAndDropLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'drag-and-drop-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-2/drag-and-drop.html"*/'<!-- Themes Products + CTA header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <!--Content-->\n\n    <ion-row no-padding>\n\n      <ion-col col-12>\n\n        <!-- Header Section -->\n\n        <ion-list-header no-lines no-margin padding background-size [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <ion-item-divider transparent no-lines no-padding>\n\n            <!-- Header Title -->\n\n            <h1 header-title text-uppercase>{{data.title}}</h1>\n\n            <!-- Header Subtitle -->\n\n            <h2 header-subtitle>{{data.description}}</h2>\n\n            <!-- Content -->\n\n            <div item-content>\n\n              <span span-large>{{data.price}}</span>\n\n              <button ion-button default-button (click)="onEvent(\'onProceed\', data, $event)">\n\n              {{data.buttonText}}\n\n            </button>\n\n            </div>\n\n          </ion-item-divider>\n\n        </ion-list-header>\n\n        <!-- Item List Section -->\n\n        <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-thumbnail item-start no-margin>\n\n              <img src="{{item.image}}">\n\n            </ion-thumbnail>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <div span-small>{{item.oldPrice}}</div>\n\n            <div span-medium>{{item.newPrice}}</div>\n\n            <!-- Products + CTA header Seller And Shipping-->\n\n            <h3 item-subtitle float-left>{{item.seller}} {{item.mark}}</h3>\n\n            <h3 item-subtitle float-right>Free shipping</h3>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n  <ion-icon name="add"></ion-icon>\n\n</button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-2/drag-and-drop.html"*/
+            selector: 'drag-and-drop-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-2\drag-and-drop.html"*/'<!-- Themes Products + CTA header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <!--Content-->\n\n    <ion-row no-padding>\n\n      <ion-col col-12>\n\n        <!-- Header Section -->\n\n        <ion-list-header no-lines no-margin padding background-size [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <ion-item-divider transparent no-lines no-padding>\n\n            <!-- Header Title -->\n\n            <h1 header-title text-uppercase>{{data.title}}</h1>\n\n            <!-- Header Subtitle -->\n\n            <h2 header-subtitle>{{data.description}}</h2>\n\n            <!-- Content -->\n\n            <div item-content>\n\n              <span span-large>{{data.price}}</span>\n\n              <button ion-button default-button (click)="onEvent(\'onProceed\', data, $event)">\n\n              {{data.buttonText}}\n\n            </button>\n\n            </div>\n\n          </ion-item-divider>\n\n        </ion-list-header>\n\n        <!-- Item List Section -->\n\n        <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-thumbnail item-start no-margin>\n\n              <img src="{{item.image}}">\n\n            </ion-thumbnail>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <div span-small>{{item.oldPrice}}</div>\n\n            <div span-medium>{{item.newPrice}}</div>\n\n            <!-- Products + CTA header Seller And Shipping-->\n\n            <h3 item-subtitle float-left>{{item.seller}} {{item.mark}}</h3>\n\n            <h3 item-subtitle float-right>Free shipping</h3>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n  <ion-icon name="add"></ion-icon>\n\n</button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-2\drag-and-drop.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], DragAndDropLayout2);
@@ -353,7 +353,7 @@ var DragAndDropLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1209:
+/***/ 1210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -410,7 +410,7 @@ var DragAndDropLayout3 = (function () {
     ], DragAndDropLayout3.prototype, "fabButton", void 0);
     DragAndDropLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'drag-and-drop-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-3/drag-and-drop.html"*/'<!-- Themes Medium item with avatar-->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <!--Content-->\n\n        <ion-row>\n\n            <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n                <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n                    <ion-item *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-start>\n\n                            <img [src]="item.image">\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <h3 item-subtitle>{{item.description}}</h3>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-3/drag-and-drop.html"*/
+            selector: 'drag-and-drop-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-3\drag-and-drop.html"*/'<!-- Themes Medium item with avatar-->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <!--Content-->\n\n        <ion-row>\n\n            <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n                <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n                    <ion-item *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-start>\n\n                            <img [src]="item.image">\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <h3 item-subtitle>{{item.description}}</h3>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-3\drag-and-drop.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], DragAndDropLayout3);
@@ -421,7 +421,7 @@ var DragAndDropLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1210:
+/***/ 1211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -478,7 +478,7 @@ var DragAndDropLayout4 = (function () {
     ], DragAndDropLayout4.prototype, "fabButton", void 0);
     DragAndDropLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'drag-and-drop-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-4/drag-and-drop.html"*/'<!-- Themes Medium item with image-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col col-12 no-padding>\n\n        <!-- Content List -->\n\n        <ion-list reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items"\n\n          (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <!-- Images -->\n\n            <ion-thumbnail no-margin item-start>\n\n              <img images-filter [src]="item.image">\n\n            </ion-thumbnail>\n\n            <!-- Title -->\n\n            <h2 padding-left item-title>{{item.title}}</h2>\n\n            <!-- Subtitle -->\n\n            <p padding-left >{{item.description}}</p>\n\n            <!-- Rating -->\n\n            <h3 margin-top item-title float-right>{{item.mark}}</h3>\n\n            <ion-icon margin-top icon-small float-right [name]="item.icon">\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/drag-and-drop/layout-4/drag-and-drop.html"*/
+            selector: 'drag-and-drop-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-4\drag-and-drop.html"*/'<!-- Themes Medium item with image-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col col-12 no-padding>\n\n        <!-- Content List -->\n\n        <ion-list reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items"\n\n          (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <!-- Images -->\n\n            <ion-thumbnail no-margin item-start>\n\n              <img images-filter [src]="item.image">\n\n            </ion-thumbnail>\n\n            <!-- Title -->\n\n            <h2 padding-left item-title>{{item.title}}</h2>\n\n            <!-- Subtitle -->\n\n            <p padding-left >{{item.description}}</p>\n\n            <!-- Rating -->\n\n            <h3 margin-top item-title float-right>{{item.mark}}</h3>\n\n            <ion-icon margin-top icon-small float-right [name]="item.icon">\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-4\drag-and-drop.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], DragAndDropLayout4);
@@ -489,7 +489,7 @@ var DragAndDropLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1275:
+/***/ 1277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -523,7 +523,7 @@ var ItemDetailsPageDragAndDrop = (function () {
         }
     }
     ItemDetailsPageDragAndDrop = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-drag-and-drop/item-details-drag-and-drop.html"*/'<!--DRAG AND DROP components-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!---Content-->\n\n\n\n<!-- PAGE DRAG AND DROP -Small item + header -->\n\n<drag-and-drop-layout-1 has-header *ngIf="params.dragAndDropLayout1" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-1>\n\n\n\n<!-- PAGE DRAG AND DROP -Products + CTA header -->\n\n<drag-and-drop-layout-2 has-header *ngIf="params.dragAndDropLayout2" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-2>\n\n\n\n<!-- PAGE DRAG AND DROP -Medium item with avatar -->\n\n<drag-and-drop-layout-3 has-header *ngIf="params.dragAndDropLayout3" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-3>\n\n\n\n<!-- PAGE DRAG AND DROP -Medium item with image -->\n\n<drag-and-drop-layout-4 has-header *ngIf="params.dragAndDropLayout4" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-4>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-drag-and-drop/item-details-drag-and-drop.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-drag-and-drop\item-details-drag-and-drop.html"*/'<!--DRAG AND DROP components-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!---Content-->\n\n\n\n<!-- PAGE DRAG AND DROP -Small item + header -->\n\n<drag-and-drop-layout-1 has-header *ngIf="params.dragAndDropLayout1" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-1>\n\n\n\n<!-- PAGE DRAG AND DROP -Products + CTA header -->\n\n<drag-and-drop-layout-2 has-header *ngIf="params.dragAndDropLayout2" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-2>\n\n\n\n<!-- PAGE DRAG AND DROP -Medium item with avatar -->\n\n<drag-and-drop-layout-3 has-header *ngIf="params.dragAndDropLayout3" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-3>\n\n\n\n<!-- PAGE DRAG AND DROP -Medium item with image -->\n\n<drag-and-drop-layout-4 has-header *ngIf="params.dragAndDropLayout4" [data]="params.data | async" [events]="params.events">\n\n</drag-and-drop-layout-4>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-drag-and-drop\item-details-drag-and-drop.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageDragAndDrop);

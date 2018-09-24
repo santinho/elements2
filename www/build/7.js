@@ -1,4 +1,4 @@
-webpackJsonp([7,101,102,103,104,105],{
+webpackJsonp([7,102,103,104,105,106],{
 
 /***/ 1053:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout1Module", function() { return AppearanceAnimationLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_1__ = __webpack_require__(1202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_1__ = __webpack_require__(1203);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,7 +50,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout2Module", function() { return AppearanceAnimationLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_2__ = __webpack_require__(1203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_2__ = __webpack_require__(1204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -92,7 +92,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout3Module", function() { return AppearanceAnimationLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__ = __webpack_require__(1204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_3__ = __webpack_require__(1205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout4Module", function() { return AppearanceAnimationLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__ = __webpack_require__(1205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_4__ = __webpack_require__(1206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppearanceAnimationLayout5Module", function() { return AppearanceAnimationLayout5Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(1206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appearance_animation_layout_5__ = __webpack_require__(1207);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -210,7 +210,7 @@ var AppearanceAnimationLayout5Module = (function () {
 
 /***/ }),
 
-/***/ 1123:
+/***/ 1124:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -218,7 +218,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageAppearanceAnimationModule", function() { return ItemDetailsPageAppearanceAnimationModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_appearance_animation__ = __webpack_require__(1273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_appearance_animation__ = __webpack_require__(1275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_appearance_animation_layout_1_appearance_animation_layout_1_module__ = __webpack_require__(1053);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_appearance_animation_layout_2_appearance_animation_layout_2_module__ = __webpack_require__(1054);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_appearance_animation_layout_3_appearance_animation_layout_3_module__ = __webpack_require__(1055);
@@ -261,7 +261,7 @@ var ItemDetailsPageAppearanceAnimationModule = (function () {
 
 /***/ }),
 
-/***/ 1202:
+/***/ 1203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -330,7 +330,7 @@ var AppearanceAnimationLayout1 = (function () {
     ], AppearanceAnimationLayout1.prototype, "fabButton", void 0);
     AppearanceAnimationLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-1/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Left)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-1/appearance-animation.html"*/
+            selector: 'appearance-animation-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-1\appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Left)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-1\appearance-animation.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], AppearanceAnimationLayout1);
@@ -341,7 +341,7 @@ var AppearanceAnimationLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1203:
+/***/ 1204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -410,7 +410,7 @@ var AppearanceAnimationLayout2 = (function () {
     ], AppearanceAnimationLayout2.prototype, "fabButton", void 0);
     AppearanceAnimationLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-2/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Right)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-2/appearance-animation.html"*/
+            selector: 'appearance-animation-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-2\appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Right)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-2\appearance-animation.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], AppearanceAnimationLayout2);
@@ -421,7 +421,7 @@ var AppearanceAnimationLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1204:
+/***/ 1205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -490,7 +490,7 @@ var AppearanceAnimationLayout3 = (function () {
     ], AppearanceAnimationLayout3.prototype, "fabButton", void 0);
     AppearanceAnimationLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Down)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-3/appearance-animation.html"*/
+            selector: 'appearance-animation-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-3\appearance-animation.html"*/'<!--Theme Appearance animation (Fade In Down)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-3\appearance-animation.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], AppearanceAnimationLayout3);
@@ -501,7 +501,7 @@ var AppearanceAnimationLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1205:
+/***/ 1206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -570,7 +570,7 @@ var AppearanceAnimationLayout4 = (function () {
     ], AppearanceAnimationLayout4.prototype, "fabButton", void 0);
     AppearanceAnimationLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/'<!--Theme Appearance animation (Fade In)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-4/appearance-animation.html"*/
+            selector: 'appearance-animation-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-4\appearance-animation.html"*/'<!--Theme Appearance animation (Fade In)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-4\appearance-animation.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], AppearanceAnimationLayout4);
@@ -581,7 +581,7 @@ var AppearanceAnimationLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1206:
+/***/ 1207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -650,7 +650,7 @@ var AppearanceAnimationLayout5 = (function () {
     ], AppearanceAnimationLayout5.prototype, "fabButton", void 0);
     AppearanceAnimationLayout5 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'appearance-animation-layout-5',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-5/appearance-animation.html"*/'<!--Theme Appearance animation (Zoom In)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/appearance-animation/layout-5/appearance-animation.html"*/
+            selector: 'appearance-animation-layout-5',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-5\appearance-animation.html"*/'<!--Theme Appearance animation (Zoom In)-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item [ngClass]="animateClass" *ngFor="let item of animateItems; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-avatar item-start>\n\n              <img [src]="item.image" alt="{{item.title}}" />\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <ion-icon icon-small item-end (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i class="icon" [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\appearance-animation\layout-5\appearance-animation.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], AppearanceAnimationLayout5);
@@ -661,7 +661,7 @@ var AppearanceAnimationLayout5 = (function () {
 
 /***/ }),
 
-/***/ 1273:
+/***/ 1275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -695,7 +695,7 @@ var ItemDetailsPageAppearanceAnimation = (function () {
         }
     }
     ItemDetailsPageAppearanceAnimation = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-appearance-animation/item-details-appearance-animation.html"*/'<!--Animation components-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in left -->\n\n<appearance-animation-layout-1 has-header *ngIf="params.appearanceAnimationsLayout1" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-1>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in right -->\n\n<appearance-animation-layout-2 has-header *ngIf="params.appearanceAnimationsLayout2" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-2>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in down -->\n\n<appearance-animation-layout-3 has-header *ngIf="params.appearanceAnimationsLayout3" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-3>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in -->\n\n<appearance-animation-layout-4 has-header *ngIf="params.appearanceAnimationsLayout4" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-4>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Zoom in -->\n\n<appearance-animation-layout-5 has-header *ngIf="params.appearanceAnimationsLayout5" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-5>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-appearance-animation/item-details-appearance-animation.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-appearance-animation\item-details-appearance-animation.html"*/'<!--Animation components-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in left -->\n\n<appearance-animation-layout-1 has-header *ngIf="params.appearanceAnimationsLayout1" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-1>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in right -->\n\n<appearance-animation-layout-2 has-header *ngIf="params.appearanceAnimationsLayout2" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-2>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in down -->\n\n<appearance-animation-layout-3 has-header *ngIf="params.appearanceAnimationsLayout3" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-3>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Fade in -->\n\n<appearance-animation-layout-4 has-header *ngIf="params.appearanceAnimationsLayout4" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-4>\n\n\n\n<!-- PAGE APPEARANCE ANIMATION - Zoom in -->\n\n<appearance-animation-layout-5 has-header *ngIf="params.appearanceAnimationsLayout5" [data]="params.data | async" [events]="params.events">\n\n</appearance-animation-layout-5>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-appearance-animation\item-details-appearance-animation.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageAppearanceAnimation);

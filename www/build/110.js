@@ -1,14 +1,14 @@
 webpackJsonp([110],{
 
-/***/ 1049:
+/***/ 1050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout4Module", function() { return CheckBoxLayout4Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FullScreenGalleryModule", function() { return FullScreenGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__ = __webpack_require__(1198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__ = __webpack_require__(1200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,36 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CheckBoxLayout4Module = (function () {
-    function CheckBoxLayout4Module() {
+var FullScreenGalleryModule = (function () {
+    function FullScreenGalleryModule() {
     }
-    CheckBoxLayout4Module = __decorate([
+    FullScreenGalleryModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */],
+                __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__["a" /* FullScreenGallery */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__["a" /* FullScreenGallery */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]
+                __WEBPACK_IMPORTED_MODULE_2__full_screen_gallery__["a" /* FullScreenGallery */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], CheckBoxLayout4Module);
-    return CheckBoxLayout4Module;
+    ], FullScreenGalleryModule);
+    return FullScreenGalleryModule;
 }());
 
-//# sourceMappingURL=check-box-layout-4.module.js.map
+//# sourceMappingURL=full-screen-gallery.module.js.map
 
 /***/ }),
 
-/***/ 1198:
+/***/ 1200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FullScreenGallery; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -58,33 +59,60 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var CheckBoxLayout4 = (function () {
-    function CheckBoxLayout4() {
+
+
+var FullScreenGallery = (function () {
+    function FullScreenGallery(navCtrl, navParams) {
         var _this = this;
-        this.onEvent = function (event, item) {
+        this.navCtrl = navCtrl;
+        this.isLocked = false;
+        this.onEvent = function (event, item, e) {
+            if (e) {
+                e.stopPropagation();
+            }
             if (_this.events[event]) {
                 _this.events[event](item);
             }
         };
+        this.onDoubleClick = function (e, slides) {
+            _this.isLocked = !_this.isLocked;
+            slides.lockSwipes(_this.isLocked);
+        };
+        this.sliderOptions = {
+            pager: true
+        };
     }
+    FullScreenGallery.prototype.ionViewDidLoad = function () {
+        this.sliderOptions = {
+            pager: true,
+            loop: true,
+            zoom: true,
+            initialSlide: this.data.index
+        };
+        debugger;
+    };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], CheckBoxLayout4.prototype, "data", void 0);
+    ], FullScreenGallery.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], CheckBoxLayout4.prototype, "events", void 0);
-    CheckBoxLayout4 = __decorate([
+    ], FullScreenGallery.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('slider'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Slides */])
+    ], FullScreenGallery.prototype, "slider", void 0);
+    FullScreenGallery = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'check-box-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/check-box/layout-4/check-box.html"*/'<!--Themes Two Columns -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row no-padding>\n\n    <ion-col col-6 *ngFor="let item of data" (tap)="onEvent(\'onButton\', item)">\n\n      <!-- Checkbox List -->\n\n      <ion-item no-lines>\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n      </ion-item>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/check-box/layout-4/check-box.html"*/
+            selector: 'full-screen-gallery',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/'<!--Screen Gallery-->\n\n<ion-slides #slider pager="true" zoom="true" [initialSlide]="data.index">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <img [src]="item.image" />\n\n  </ion-slide>\n\n</ion-slides>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/
         }),
-        __metadata("design:paramtypes", [])
-    ], CheckBoxLayout4);
-    return CheckBoxLayout4;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    ], FullScreenGallery);
+    return FullScreenGallery;
 }());
 
-//# sourceMappingURL=check-box-layout-4.js.map
+//# sourceMappingURL=full-screen-gallery.js.map
 
 /***/ })
 

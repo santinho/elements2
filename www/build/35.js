@@ -8,8 +8,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout3Module", function() { return ParallaxLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_3__ = __webpack_require__(1233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_3__ = __webpack_require__(1234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45,13 +45,13 @@ var ParallaxLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1157:
+/***/ 1158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElasticHeaderModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1159);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -81,7 +81,7 @@ var ElasticHeaderModule = (function () {
 
 /***/ }),
 
-/***/ 1158:
+/***/ 1159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -147,7 +147,7 @@ var ElasticHeader = (function () {
 
 /***/ }),
 
-/***/ 1233:
+/***/ 1234:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -208,7 +208,7 @@ var ParallaxLayout3 = (function () {
     ], ParallaxLayout3.prototype, "fabButton", void 0);
     ParallaxLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'parallax-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/parallax/layout-3/parallax.html"*/'<!--- Theme Parallax Basic -->\n\n<!--- Header Big Image-->\n\n<ion-content elastic-header *ngIf="data != null">\n\n  <ion-item no-lines background-size id="elastic-header"\n\n  [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n    <ion-thumbnail>\n\n      <img src="{{data.avatar}}" />\n\n    </ion-thumbnail>\n\n    <div text-center>\n\n      <h1 parallax-title>{{data.title}}</h1>\n\n    </div>\n\n  </ion-item>\n\n  <!--Content-->\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item *ngFor="let item of data.items;let i = index" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-avatar item-left>\n\n              <img src="{{item.image}}">\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h3 item-subtitle>{{item.description}}</h3>\n\n            <ion-icon item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i icon-small class="icon"\n\n              [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/parallax/layout-3/parallax.html"*/
+            selector: 'parallax-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\parallax\layout-3\parallax.html"*/'<!--- Theme Parallax Basic -->\n\n<!--- Header Big Image-->\n\n<ion-content elastic-header *ngIf="data != null">\n\n  <ion-item no-lines background-size id="elastic-header"\n\n  [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n    <ion-thumbnail>\n\n      <img src="{{data.avatar}}" />\n\n    </ion-thumbnail>\n\n    <div text-center>\n\n      <h1 parallax-title>{{data.title}}</h1>\n\n    </div>\n\n  </ion-item>\n\n  <!--Content-->\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item *ngFor="let item of data.items;let i = index" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-avatar item-left>\n\n              <img src="{{item.image}}">\n\n            </ion-avatar>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h3 item-subtitle>{{item.description}}</h3>\n\n            <ion-icon item-right (click)="onEvent(\'onFavorite\', item, $event)">\n\n              <i icon-small class="icon"\n\n              [ngClass]="{\'icon-heart\': item.favorite, \'icon-heart-outline\': !item.favorite}"></i>\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\parallax\layout-3\parallax.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ParallaxLayout3);

@@ -1,6 +1,6 @@
 webpackJsonp([48],{
 
-/***/ 1120:
+/***/ 1121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(1269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(1271);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -39,7 +39,7 @@ var HomePageModule = (function () {
 
 /***/ }),
 
-/***/ 1269:
+/***/ 1271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72,7 +72,7 @@ var HomePage = (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/home/home.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{data.toolbarTitle}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <div *ngIf="data.background!=null" background-size default-background [ngStyle]="{\'background-image\': \'url(\' + data.background + \')\'}">\n\n        <div class="ionic-description" text-center>\n\n            <h2 item-title>{{data.title}}</h2>\n\n            <h2 item-title>{{data.subtitle}}</h2>\n\n            <p item-subtitle>{{data.subtitle2}}</p>\n\n        </div>\n\n        <a [href]="data.link">\n\n            {{data.description}}\n\n        </a>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/home/home.html"*/,
+            selector: 'page-home',template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\home\home.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{data.toolbarTitle}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <div *ngIf="data.background!=null" background-size default-background [ngStyle]="{\'background-image\': \'url(\' + data.background + \')\'}">\n\n        <div class="ionic-description" text-center>\n\n            <h2 item-title>{{data.title}}</h2>\n\n            <h2 item-title>{{data.subtitle}}</h2>\n\n            <p item-subtitle>{{data.subtitle2}}</p>\n\n        </div>\n\n        <a [href]="data.link">\n\n            {{data.description}}\n\n        </a>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\home\home.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]])
