@@ -168,7 +168,7 @@ var RangeLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1136:
+/***/ 1135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageRangeModule", function() { return ItemDetailsPageRangeModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_range__ = __webpack_require__(1287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_range__ = __webpack_require__(1286);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_range_layout_1_range_layout_1_module__ = __webpack_require__(1090);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_range_layout_2_range_layout_2_module__ = __webpack_require__(1091);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_range_layout_3_range_layout_3_module__ = __webpack_require__(1092);
@@ -413,7 +413,7 @@ var RangeLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1287:
+/***/ 1286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -126,7 +126,7 @@ var TabsLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1145:
+/***/ 1144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageTabsModule", function() { return ItemDetailsPageTabsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(1296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(1295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_tabs_layout_1_tabs_layout_1_module__ = __webpack_require__(1109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_tabs_layout_2_tabs_layout_2_module__ = __webpack_require__(1110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_layout_3_tabs_layout_3_module__ = __webpack_require__(1111);
@@ -306,7 +306,7 @@ var TabsLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1296:
+/***/ 1295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

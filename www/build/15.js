@@ -126,7 +126,7 @@ var WizardLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1148:
+/***/ 1149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageWizardModule", function() { return ItemDetailsPageWizardModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_wizard__ = __webpack_require__(1299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_wizard__ = __webpack_require__(1300);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__ = __webpack_require__(1042);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_wizard_layout_2_wizard_layout_2_module__ = __webpack_require__(1115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_wizard_layout_3_wizard_layout_3_module__ = __webpack_require__(1116);
@@ -409,7 +409,7 @@ var WizardLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1299:
+/***/ 1300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

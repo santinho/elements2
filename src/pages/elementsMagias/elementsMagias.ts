@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import { Component, Input, ViewChild } from '@angular/core';
+import { IonicPage, NavController, Content } from 'ionic-angular';
 import { HomeService } from '../../services/home-service';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs';
@@ -19,6 +19,7 @@ export class ElementsMagiasPage {
   lvls: number[] = [0,1,2,3,4,5,6,7,8,9,10]
   tipoMagias: string[]=['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade']
   tipoMagiasSelecionados: string[] = ['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade'];
+  nivelCaminho: string[]=['Iniciante','Intermediario', 'Avançado', 'Mestre', 'Arquimago', 'Epicmago']
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     service.load().subscribe(snapshot => {
@@ -30,6 +31,8 @@ export class ElementsMagiasPage {
 
   @Input() data: any;
   @Input() events: any;
+  @ViewChild(Content)
+  content: Content;
 
   searchTerm:any="";
   allItems:any;

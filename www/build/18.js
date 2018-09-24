@@ -126,7 +126,7 @@ var SplashScreenLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSplashScreenModule", function() { return ItemDetailsPageSplashScreenModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_splash_screen__ = __webpack_require__(1292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_splash_screen__ = __webpack_require__(1293);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_splash_screen_layout_1_splash_screen_layout_1_module__ = __webpack_require__(1106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_splash_screen_layout_2_splash_screen_layout_2_module__ = __webpack_require__(1107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_splash_screen_layout_3_splash_screen_layout_3_module__ = __webpack_require__(1108);
@@ -367,7 +367,7 @@ var SplashScreenLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1292:
+/***/ 1293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

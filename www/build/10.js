@@ -1,6 +1,6 @@
 webpackJsonp([10,87,88,89,90],{
 
-/***/ 1072:
+/***/ 1073:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout1Module", function() { return SwipeToDismissLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__ = __webpack_require__(1222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__ = __webpack_require__(1223);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -39,48 +39,6 @@ var SwipeToDismissLayout1Module = (function () {
 }());
 
 //# sourceMappingURL=swipe-to-dismiss-layout-1.module.js.map
-
-/***/ }),
-
-/***/ 1073:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout2Module", function() { return SwipeToDismissLayout2Module; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__ = __webpack_require__(1223);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var SwipeToDismissLayout2Module = (function () {
-    function SwipeToDismissLayout2Module() {
-    }
-    SwipeToDismissLayout2Module = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */]),
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], SwipeToDismissLayout2Module);
-    return SwipeToDismissLayout2Module;
-}());
-
-//# sourceMappingURL=swipe-to-dismiss-layout-2.module.js.map
 
 /***/ }),
 
@@ -126,6 +84,48 @@ var SwipeToDismissLayout3Module = (function () {
 
 /***/ }),
 
+/***/ 1075:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout2Module", function() { return SwipeToDismissLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__ = __webpack_require__(1225);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SwipeToDismissLayout2Module = (function () {
+    function SwipeToDismissLayout2Module() {
+    }
+    SwipeToDismissLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_2__["a" /* SwipeToDismissLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], SwipeToDismissLayout2Module);
+    return SwipeToDismissLayout2Module;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-2.module.js.map
+
+/***/ }),
+
 /***/ 1076:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -168,7 +168,7 @@ var SwipeToDismissLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1144:
+/***/ 1145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,9 +176,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSwipeToDismissModule", function() { return ItemDetailsPageSwipeToDismissModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_swipe_to_dismiss__ = __webpack_require__(1295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_swipe_to_dismiss_layout_1_swipe_to_dismiss_layout_1_module__ = __webpack_require__(1072);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_swipe_to_dismiss_layout_2_swipe_to_dismiss_layout_2_module__ = __webpack_require__(1073);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_swipe_to_dismiss__ = __webpack_require__(1296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_swipe_to_dismiss_layout_1_swipe_to_dismiss_layout_1_module__ = __webpack_require__(1073);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_swipe_to_dismiss_layout_2_swipe_to_dismiss_layout_2_module__ = __webpack_require__(1075);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_swipe_to_dismiss_layout_3_swipe_to_dismiss_layout_3_module__ = __webpack_require__(1074);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_list_view_swipe_to_dismiss_layout_4_swipe_to_dismiss_layout_4_module__ = __webpack_require__(1076);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -217,7 +217,7 @@ var ItemDetailsPageSwipeToDismissModule = (function () {
 
 /***/ }),
 
-/***/ 1222:
+/***/ 1223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -288,80 +288,6 @@ var SwipeToDismissLayout1 = (function () {
 }());
 
 //# sourceMappingURL=swipe-to-dismiss-layout-1.js.map
-
-/***/ }),
-
-/***/ 1223:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout2; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var SwipeToDismissLayout2 = (function () {
-    function SwipeToDismissLayout2() {
-        var _this = this;
-        this.undo = function (slidingItem) {
-            slidingItem.close();
-        };
-        this.delete = function (item) {
-            var index = _this.data.items.indexOf(item);
-            if (index > -1) {
-                _this.data.items.splice(index, 1);
-            }
-        };
-    }
-    SwipeToDismissLayout2.prototype.onEvent = function (event, item, e) {
-        if (e) {
-            e.stopPropagation();
-        }
-        if (this.events[event]) {
-            this.events[event](item);
-        }
-    };
-    SwipeToDismissLayout2.prototype.ngAfterViewInit = function () {
-        var _this = this;
-        this.content.ionScroll.subscribe(function (d) {
-            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
-        });
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], SwipeToDismissLayout2.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], SwipeToDismissLayout2.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], SwipeToDismissLayout2.prototype, "content", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
-    ], SwipeToDismissLayout2.prototype, "fabButton", void 0);
-    SwipeToDismissLayout2 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'swipe-to-dismiss-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-2\swipe-to-dismiss.html"*/'<!-- Themes Swipe To Dismiss Products + CTA footer -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n      <ion-list no-margin>\n\n        <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n          <ion-item no-padding no-margina (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-thumbnail no-margin item-start>\n\n              <img [src]="item.image">\n\n            </ion-thumbnail>\n\n            <h2 item-title padding-left>{{item.title}}</h2>\n\n            <p item-subtitle padding-left>{{item.description}}</p>\n\n            <item-content item-end text-right>\n\n              <span span-small old-price>{{item.oldPrice}}</span>\n\n              <span span-medium new-price>{{item.newPrice}}</span>\n\n            </item-content>\n\n          </ion-item>\n\n          <ion-item-options no-lines>\n\n            <button ion-button (click)="delete(item)">\n\n              <ion-icon icon-medium>\n\n                <i class="icon {{item.iconDelate}}"></i>\n\n              </ion-icon>\n\n            </button>\n\n            <button ion-button (click)="undo(slidingItem)">\n\n                <ion-icon icon-medium>\n\n                  <i class="icon {{item.iconUndo}}"></i>\n\n                </ion-icon>\n\n            </button>\n\n          </ion-item-options>\n\n        </ion-item-sliding>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-2\swipe-to-dismiss.html"*/
-        }),
-        __metadata("design:paramtypes", [])
-    ], SwipeToDismissLayout2);
-    return SwipeToDismissLayout2;
-}());
-
-//# sourceMappingURL=swipe-to-dismiss-layout-2.js.map
 
 /***/ }),
 
@@ -439,6 +365,80 @@ var SwipeToDismissLayout3 = (function () {
 
 /***/ }),
 
+/***/ 1225:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SwipeToDismissLayout2 = (function () {
+    function SwipeToDismissLayout2() {
+        var _this = this;
+        this.undo = function (slidingItem) {
+            slidingItem.close();
+        };
+        this.delete = function (item) {
+            var index = _this.data.items.indexOf(item);
+            if (index > -1) {
+                _this.data.items.splice(index, 1);
+            }
+        };
+    }
+    SwipeToDismissLayout2.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    SwipeToDismissLayout2.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout2.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
+    ], SwipeToDismissLayout2.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
+    ], SwipeToDismissLayout2.prototype, "fabButton", void 0);
+    SwipeToDismissLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'swipe-to-dismiss-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-2\swipe-to-dismiss.html"*/'<!-- Themes Swipe To Dismiss Products + CTA footer -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n      <ion-list no-margin>\n\n        <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n          <ion-item no-padding no-margina (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-thumbnail no-margin item-start>\n\n              <img [src]="item.image">\n\n            </ion-thumbnail>\n\n            <h2 item-title padding-left>{{item.title}}</h2>\n\n            <p item-subtitle padding-left>{{item.description}}</p>\n\n            <item-content item-end text-right>\n\n              <span span-small old-price>{{item.oldPrice}}</span>\n\n              <span span-medium new-price>{{item.newPrice}}</span>\n\n            </item-content>\n\n          </ion-item>\n\n          <ion-item-options no-lines>\n\n            <button ion-button (click)="delete(item)">\n\n              <ion-icon icon-medium>\n\n                <i class="icon {{item.iconDelate}}"></i>\n\n              </ion-icon>\n\n            </button>\n\n            <button ion-button (click)="undo(slidingItem)">\n\n                <ion-icon icon-medium>\n\n                  <i class="icon {{item.iconUndo}}"></i>\n\n                </ion-icon>\n\n            </button>\n\n          </ion-item-options>\n\n        </ion-item-sliding>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\swipe-to-dismiss\layout-2\swipe-to-dismiss.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], SwipeToDismissLayout2);
+    return SwipeToDismissLayout2;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-2.js.map
+
+/***/ }),
+
 /***/ 1226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -513,7 +513,7 @@ var SwipeToDismissLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1295:
+/***/ 1296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
