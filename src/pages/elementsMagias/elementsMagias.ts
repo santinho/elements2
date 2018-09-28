@@ -19,7 +19,7 @@ export class ElementsMagiasPage {
   lvls: number[] = [0,1,2,3,4,5,6,7,8,9,10]
   tipoMagias: string[]=['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade']
   tipoMagiasSelecionados: string[] = ['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade'];
-  nivelCaminho: string[]=['Iniciante','Intermediario', 'Avançado', 'Mestre', 'Arquimago', 'Epicmago']
+  nivelCaminho: string[]=['Iniciante','Intermediario', 'Avancado', 'Mestre', 'Arquimago', 'Epicmago']
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     service.load().subscribe(snapshot => {
@@ -42,11 +42,23 @@ export class ElementsMagiasPage {
       this.list = this.listFiltered;
     }
     this.list.subscribe((listaBD:any[])=>{
-      let listaBDFiltrada = listaBD.filter((item) => {
-        let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
-        let tipoOK:boolean = this.tipoMagiasSelecionados.indexOf(item['Caminho']) > -1;
+      let listaBDFiltrada = [...listaBD];
+      listaBDFiltrada = listaBDFiltrada.filter((item) => {
+        let possuiElementos:boolean = false;
+        this.nivelCaminho.forEach((nivel)=>{
+          if(item[nivel]){
+            item[nivel] = item[nivel].filter((magia) =>{
+              let nomeOK:boolean = magia['NomeMagia'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
+              return nomeOK;
+            });
 
-        return nomeOK && tipoOK
+            console.log(item[nivel])
+            if(item[nivel].length > 0){
+              possuiElementos = true;
+            }
+          }
+        })
+        return possuiElementos;
       });
       this.listFiltered = Observable.of(listaBDFiltrada);
 

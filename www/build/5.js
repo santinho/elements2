@@ -180,7 +180,7 @@ var StickyListHeaderLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,7 +188,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageStickyListHeaderModule", function() { return ItemDetailsPageStickyListHeaderModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_sticky_list_header__ = __webpack_require__(1292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_sticky_list_header__ = __webpack_require__(1334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_sticky_list_header_layout_1_sticky_list_header_layout_1_module__ = __webpack_require__(1069);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_sticky_list_header_layout_2_sticky_list_header_layout_2_module__ = __webpack_require__(1070);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_sticky_list_header_layout_3_sticky_list_header_layout_3_module__ = __webpack_require__(1071);
@@ -783,7 +783,7 @@ var StickyListHeaderLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1292:
+/***/ 1334:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

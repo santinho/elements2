@@ -58479,6 +58479,19 @@ elements-page-magias [default-background] .item-md ion-thumbnail ion-img, elemen
   height: 32px;
 }
 
+elements-page-magias .dividerCaminho {
+  padding-left: 16px;
+  border-bottom: 1px solid #202020;
+  font-size: 1.4rem;
+  color: white !important;
+  background-color: rgba(74, 0, 0, 0.3) !important;
+}
+
+elements-page-magias .dividerNivel {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.4) !important;
+}
+
 /*  #Style First Screen (racas)
 ================================================*/
 elements-page-racas [default-background] {
