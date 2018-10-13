@@ -1,15 +1,15 @@
-webpackJsonp([14,38,39,115],{
+webpackJsonp([14,38,39,117],{
 
-/***/ 1043:
+/***/ 1040:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout1Module", function() { return ActionSheetLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_1__ = __webpack_require__(1193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1157);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45,16 +45,16 @@ var ActionSheetLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1044:
+/***/ 1041:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout2Module", function() { return ActionSheetLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_2__ = __webpack_require__(1194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1157);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -90,15 +90,15 @@ var ActionSheetLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1047:
+/***/ 1043:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout3Module", function() { return ActionSheetLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__ = __webpack_require__(1197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__ = __webpack_require__(1196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -132,18 +132,18 @@ var ActionSheetLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1123:
+/***/ 1122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageActionSheetModule", function() { return ItemDetailsPageActionSheetModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_action_sheet__ = __webpack_require__(1274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_layout_1_action_sheet_layout_1_module__ = __webpack_require__(1043);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_layout_2_action_sheet_layout_2_module__ = __webpack_require__(1044);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_action_sheet_layout_3_action_sheet_layout_3_module__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_action_sheet__ = __webpack_require__(1276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_layout_1_action_sheet_layout_1_module__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_layout_2_action_sheet_layout_2_module__ = __webpack_require__(1041);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_action_sheet_layout_3_action_sheet_layout_3_module__ = __webpack_require__(1043);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -178,13 +178,13 @@ var ItemDetailsPageActionSheetModule = (function () {
 
 /***/ }),
 
-/***/ 1158:
+/***/ 1157:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElasticHeaderModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -214,7 +214,7 @@ var ElasticHeaderModule = (function () {
 
 /***/ }),
 
-/***/ 1159:
+/***/ 1158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -286,7 +286,7 @@ var ElasticHeader = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -359,7 +359,7 @@ var ActionSheetLayout1 = (function () {
     ], ActionSheetLayout1.prototype, "content", void 0);
     ActionSheetLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'action-sheet-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\action-sheet\layout-1\action-sheet.html"*/'<!--- Theme Action Sheet - Basic -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <button ion-fixed ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n            <ion-icon *ngIf="data != null" name="{{data.shareIcon}}"></ion-icon>\n\n        </button>\n\n    </ion-item>\n\n    <!--Content-->\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item-group *ngFor="let item of data.items" (click)="onEvent(\'onItemClick\', item)">\n\n                        <ion-item-divider no-lines>\n\n                            <span new-category margin-top text-uppercase>{{item.category}}</span>\n\n                            <!--Parallax Title -->\n\n                            <h2 parallax-title text-wrap>{{item.title}}</h2>\n\n                        </ion-item-divider>\n\n                        <!--Parallax Description -->\n\n                        <ion-item no-lines>\n\n                          <div parallax-description *ngFor="let productDescription of item.productDescriptions" >\n\n                            <p parallax-description text-wrap>{{productDescription.description}}</p>\n\n                          </div>\n\n                        </ion-item>\n\n                    </ion-item-group>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\action-sheet\layout-1\action-sheet.html"*/
+            selector: 'action-sheet-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-1/action-sheet.html"*/'<!--- Theme Action Sheet - Basic -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <button ion-fixed ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n            <ion-icon *ngIf="data != null" name="{{data.shareIcon}}"></ion-icon>\n\n        </button>\n\n    </ion-item>\n\n    <!--Content-->\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n            <ion-col col-12>\n\n                <ion-list no-margin>\n\n                    <ion-item-group *ngFor="let item of data.items" (click)="onEvent(\'onItemClick\', item)">\n\n                        <ion-item-divider no-lines>\n\n                            <span new-category margin-top text-uppercase>{{item.category}}</span>\n\n                            <!--Parallax Title -->\n\n                            <h2 parallax-title text-wrap>{{item.title}}</h2>\n\n                        </ion-item-divider>\n\n                        <!--Parallax Description -->\n\n                        <ion-item no-lines>\n\n                          <div parallax-description *ngFor="let productDescription of item.productDescriptions" >\n\n                            <p parallax-description text-wrap>{{productDescription.description}}</p>\n\n                          </div>\n\n                        </ion-item>\n\n                    </ion-item-group>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-1/action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetLayout1);
@@ -376,7 +376,7 @@ var ActionSheetLayout1 = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetLayout2; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -455,7 +455,7 @@ var ActionSheetLayout2 = (function () {
     ], ActionSheetLayout2.prototype, "content", void 0);
     ActionSheetLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'action-sheet-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\action-sheet\layout-2\action-sheet.html"*/'<!--- Theme Action Sheet - News -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <div title-block *ngIf="data != null">\n\n            <!-- New-category -->\n\n            <span new-category>{{data.category}}</span>\n\n            <!-- Parallax-title -->\n\n            <h1 parallax-title text-wrap>{{data.title}}</h1>\n\n        </div>\n\n    </ion-item>\n\n    <ion-item-group *ngIf="data != null">\n\n        <ion-item-divider border no-lines>\n\n            <!-- Avatar-->\n\n            <ion-avatar item-start>\n\n                <img [src]="data.avatar" />\n\n            </ion-avatar>\n\n            <!-- Item-subtitle -->\n\n            <h2 item-subtitle>{{data.subtitle}}</h2>\n\n            <!-- Action Sheet Button-->\n\n            <button item-end ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n            </button>\n\n        </ion-item-divider>\n\n        <ion-item no-margin no-lines>\n\n          <!-- Parallax-description -->\n\n          <div parallax-description *ngFor="let item of data.items;let i = index">\n\n            <p parallax-description text-wrap>{{item.subtitle}}</p>\n\n          </div>\n\n        </ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\action-sheet\layout-2\action-sheet.html"*/
+            selector: 'action-sheet-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-2/action-sheet.html"*/'<!--- Theme Action Sheet - News -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <div title-block *ngIf="data != null">\n\n            <!-- New-category -->\n\n            <span new-category>{{data.category}}</span>\n\n            <!-- Parallax-title -->\n\n            <h1 parallax-title text-wrap>{{data.title}}</h1>\n\n        </div>\n\n    </ion-item>\n\n    <ion-item-group *ngIf="data != null">\n\n        <ion-item-divider border no-lines>\n\n            <!-- Avatar-->\n\n            <ion-avatar item-start>\n\n                <img [src]="data.avatar" />\n\n            </ion-avatar>\n\n            <!-- Item-subtitle -->\n\n            <h2 item-subtitle>{{data.subtitle}}</h2>\n\n            <!-- Action Sheet Button-->\n\n            <button item-end ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n            </button>\n\n        </ion-item-divider>\n\n        <ion-item no-margin no-lines>\n\n          <!-- Parallax-description -->\n\n          <div parallax-description *ngFor="let item of data.items;let i = index">\n\n            <p parallax-description text-wrap>{{item.subtitle}}</p>\n\n          </div>\n\n        </ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-2/action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetLayout2);
@@ -466,13 +466,13 @@ var ActionSheetLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1197:
+/***/ 1196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetLayout3; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -539,7 +539,7 @@ var ActionSheetLayout3 = (function () {
     ], ActionSheetLayout3.prototype, "content", void 0);
     ActionSheetLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'action-sheet-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\action-sheet\layout-3\action-sheet.html"*/'<!-- Theme Action Sheet - With Text Header -->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row *ngIf="data != null">\n\n            <!-- Cards Full Image-->\n\n            <ion-col col-12 col-md-6 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n                <ion-card (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <ion-item no-lines>\n\n                      <!-- Card Categoty-->\n\n                      <span new-category text-uppercase>{{item.category}}</span>\n\n                      <!-- Card Title-->\n\n                      <h2 card-title text-capitalize>{{item.title}}</h2>\n\n                      <!-- Card Subtitle-->\n\n                      <h3 card-subtitle text-wrap>{{item.subtitle}}</h3>\n\n                      <!-- Card Action Sheet Button-->\n\n                      <button item-end clear ion-button color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                          <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                  <!-- Card Big Image-->\n\n                  <img images-filter [src]="item.image" />\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\action-sheet\layout-3\action-sheet.html"*/
+            selector: 'action-sheet-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/'<!-- Theme Action Sheet - With Text Header -->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row *ngIf="data != null">\n\n            <!-- Cards Full Image-->\n\n            <ion-col col-12 col-md-6 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n                <ion-card (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <ion-item no-lines>\n\n                      <!-- Card Categoty-->\n\n                      <span new-category text-uppercase>{{item.category}}</span>\n\n                      <!-- Card Title-->\n\n                      <h2 card-title text-capitalize>{{item.title}}</h2>\n\n                      <!-- Card Subtitle-->\n\n                      <h3 card-subtitle text-wrap>{{item.subtitle}}</h3>\n\n                      <!-- Card Action Sheet Button-->\n\n                      <button item-end clear ion-button color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                          <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                  <!-- Card Big Image-->\n\n                  <img images-filter [src]="item.image" />\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetLayout3);
@@ -550,13 +550,13 @@ var ActionSheetLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1274:
+/***/ 1276:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageActionSheet; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -584,7 +584,7 @@ var ItemDetailsPageActionSheet = (function () {
         }
     }
     ItemDetailsPageActionSheet = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-action-sheet\item-details-action-sheet.html"*/'<!--Action Sheet components-->\n\n<ion-header header-ios>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<action-sheet-layout-1  has-header *ngIf="params.actionSheetLayout1" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-1>\n\n\n\n<action-sheet-layout-2 has-header  *ngIf="params.actionSheetLayout2" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-2>\n\n\n\n<action-sheet-layout-3 has-header  *ngIf="params.actionSheetLayout3" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-3>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-action-sheet\item-details-action-sheet.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-action-sheet/item-details-action-sheet.html"*/'<!--Action Sheet components-->\n\n<ion-header header-ios>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<action-sheet-layout-1  has-header *ngIf="params.actionSheetLayout1" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-1>\n\n\n\n<action-sheet-layout-2 has-header  *ngIf="params.actionSheetLayout2" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-2>\n\n\n\n<action-sheet-layout-3 has-header  *ngIf="params.actionSheetLayout3" [data]="params.data | async" [events]="params.events">\n\n</action-sheet-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-action-sheet/item-details-action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageActionSheet);

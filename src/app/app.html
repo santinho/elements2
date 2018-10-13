@@ -36,7 +36,7 @@
             </ion-icon>
             Perícias
         </button>
-        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina('ElementsLojasPage')">
+        <!-- <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina('ElementsLojasPage')">
             <ion-icon padding-left>
               <i class="icon icon-format-align-justify"></i>
             </ion-icon>
@@ -47,16 +47,16 @@
               <i class="icon icon-format-align-justify"></i>
             </ion-icon>
             Regras
+        </button> -->
+      </ion-list>
+        <!-- <ion-list no-margin no-padding>
+          <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">
+          <ion-icon padding-left>
+            <i class="icon {{p.icon}}"></i>
+          </ion-icon>
+          {{p.title}}
         </button>
-      </ion-list>
-      <ion-list no-margin no-padding>
-        <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">
-        <ion-icon padding-left>
-          <i class="icon {{p.icon}}"></i>
-        </ion-icon>
-        {{p.title}}
-      </button>
-      </ion-list>
+        </ion-list> -->
     </ion-content>
   </ion-menu>
   <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->

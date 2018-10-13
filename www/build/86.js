@@ -1,14 +1,14 @@
 webpackJsonp([86],{
 
-/***/ 1114:
+/***/ 1083:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout1Module", function() { return LoginLayout1Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QRcodeLayout1Module", function() { return QRcodeLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_1__ = __webpack_require__(1264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__ = __webpack_require__(1236);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LoginLayout1Module = (function () {
-    function LoginLayout1Module() {
+var QRcodeLayout1Module = (function () {
+    function QRcodeLayout1Module() {
     }
-    LoginLayout1Module = __decorate([
+    QRcodeLayout1Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */],
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], LoginLayout1Module);
-    return LoginLayout1Module;
+    ], QRcodeLayout1Module);
+    return QRcodeLayout1Module;
 }());
 
-//# sourceMappingURL=login-layout-1.module.js.map
+//# sourceMappingURL=qrcode-layout-1.module.js.map
 
 /***/ }),
 
-/***/ 1264:
+/***/ 1236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginLayout1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QRcodeLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -58,36 +58,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var LoginLayout1 = (function () {
-    function LoginLayout1() {
-        var _this = this;
-        this.onEvent = function (event) {
-            if (_this.events[event]) {
-                _this.events[event]({
-                    'username': _this.username,
-                    'password': _this.password
-                });
-            }
-        };
+var QRcodeLayout1 = (function () {
+    function QRcodeLayout1() {
     }
+    QRcodeLayout1.prototype.onEvent = function (event, result) {
+        if (this.events[event]) {
+            this.events[event](result);
+        }
+    };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], LoginLayout1.prototype, "data", void 0);
+    ], QRcodeLayout1.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], LoginLayout1.prototype, "events", void 0);
-    LoginLayout1 = __decorate([
+    ], QRcodeLayout1.prototype, "events", void 0);
+    QRcodeLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'login-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\login\layout-1\login.html"*/'<!-- Themes Login + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <button ion-button button-clear clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        <!---Logo-->\n\n        <ion-thumbnail>\n\n          <img [src]="data.logo">\n\n        </ion-thumbnail>\n\n        <!---Input field username-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.username}}</ion-label>\n\n          <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n        </ion-item>\n\n        <!---Input field password-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.password}}</ion-label>\n\n          <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n        </ion-item>\n\n        <!---Login button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onLogin\')">{{data.login}}</button>\n\n        <!---Register button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n      </ion-col>\n\n      <!---Share Section-->\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 social>\n\n        <!---Facebook button-->\n\n        <button ion-button color="facebook" (click)="onEvent(\'onFacebook\')">Facebook</button>\n\n        <!---Twitter button-->\n\n        <button ion-button color="twitter" (click)="onEvent(\'onTwitter\')">Twitter</button>\n\n        <!---Google button-->\n\n        <button ion-button color="google" (click)="onEvent(\'onGoogle\')">Google</button>\n\n        <!---Pinterest button-->\n\n        <button ion-button color="pinterest" (click)="onEvent(\'onPinterest\')">Pinterest</button>\n\n      </ion-col>\n\n      <!---End Share Section-->\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\login\layout-1\login.html"*/
+            selector: 'qrcode-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/'<ion-content has-header>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item padding-right text-wrap>\n\n            <h1 item-title>{{data.format}}</h1>\n\n          </ion-item>\n\n          <ion-item no-lines padding-right text-wrap>\n\n            <p item-subtitle>{{data.text}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], LoginLayout1);
-    return LoginLayout1;
+    ], QRcodeLayout1);
+    return QRcodeLayout1;
 }());
 
-//# sourceMappingURL=login-layout-1.js.map
+//# sourceMappingURL=qrcode-layout-1.js.map
 
 /***/ })
 

@@ -451,8 +451,8 @@ Copyright (c) 2015 Daniel Eden
     transform: skewX(-0.78125deg) skewY(-0.78125deg);
   }
   77.7% {
-    -webkit-transform: skewX(0.39063deg) skewY(0.39063deg);
-    transform: skewX(0.39063deg) skewY(0.39063deg);
+    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
+    transform: skewX(0.39062deg) skewY(0.39062deg);
   }
   88.8% {
     -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
@@ -486,8 +486,8 @@ Copyright (c) 2015 Daniel Eden
     transform: skewX(-0.78125deg) skewY(-0.78125deg);
   }
   77.7% {
-    -webkit-transform: skewX(0.39063deg) skewY(0.39063deg);
-    transform: skewX(0.39063deg) skewY(0.39063deg);
+    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
+    transform: skewX(0.39062deg) skewY(0.39062deg);
   }
   88.8% {
     -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
@@ -58490,6 +58490,42 @@ elements-page-magias .dividerCaminho {
 elements-page-magias .dividerNivel {
   color: white;
   background-color: rgba(128, 128, 128, 0.4) !important;
+}
+
+/*  #Style First Screen (pericias)
+================================================*/
+elements-page-pericias [default-background] {
+  background-image: none;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+elements-page-pericias [default-background] .ionic-description {
+  display: table-cell;
+}
+
+elements-page-pericias [default-background] .ionic-description h2[item-title] {
+  margin: 0;
+  color: white;
+}
+
+elements-page-pericias [default-background] .ionic-description p[item-subtitle] {
+  color: white !important;
+}
+
+elements-page-pericias [default-background] a {
+  color: white !important;
+  text-decoration: underline;
+  visibility: visible !important;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+elements-page-pericias [default-background] .item-md ion-thumbnail ion-img, elements-page-pericias [default-background] .item-md ion-thumbnail img {
+  width: 32px;
+  height: 32px;
 }
 
 /*  #Style First Screen (racas)

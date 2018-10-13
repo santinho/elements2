@@ -1,14 +1,14 @@
-webpackJsonp([19,72,73,74],{
+webpackJsonp([19,74,75,76],{
 
-/***/ 1094:
+/***/ 1093:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBarLayout1Module", function() { return SearchBarLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_1__ = __webpack_require__(1244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_1__ = __webpack_require__(1246);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,15 +42,15 @@ var SearchBarLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1095:
+/***/ 1094:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBarLayout2Module", function() { return SearchBarLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_2__ = __webpack_require__(1245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_2__ = __webpack_require__(1247);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,15 +84,15 @@ var SearchBarLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1115:
+/***/ 1095:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBarLayout3Module", function() { return SearchBarLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__ = __webpack_require__(1265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__ = __webpack_require__(1248);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -126,18 +126,18 @@ var SearchBarLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSearchBarModule", function() { return ItemDetailsPageSearchBarModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_search_bar__ = __webpack_require__(1289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_search_bar_layout_1_search_bar_layout_1_module__ = __webpack_require__(1094);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_search_bar_layout_2_search_bar_layout_2_module__ = __webpack_require__(1095);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_search_bar_layout_3_search_bar_layout_3_module__ = __webpack_require__(1115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_search_bar__ = __webpack_require__(1291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_search_bar_layout_1_search_bar_layout_1_module__ = __webpack_require__(1093);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_search_bar_layout_2_search_bar_layout_2_module__ = __webpack_require__(1094);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_search_bar_layout_3_search_bar_layout_3_module__ = __webpack_require__(1095);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -172,7 +172,7 @@ var ItemDetailsPageSearchBarModule = (function () {
 
 /***/ }),
 
-/***/ 1244:
+/***/ 1246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -223,7 +223,7 @@ var SearchBarLayout1 = (function () {
     ], SearchBarLayout1.prototype, "events", void 0);
     SearchBarLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'search-bar-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\search-bar\layout-1\search-bar.html"*/'<!-- Theme Search bars Simple -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-list-header no-padding no-margin transparent>\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </ion-list-header>\n\n          <ion-item *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon item-left icon-small>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h2 item-subtitle>{{item.description}}</h2>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\search-bar\layout-1\search-bar.html"*/
+            selector: 'search-bar-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-1/search-bar.html"*/'<!-- Theme Search bars Simple -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-list-header no-padding no-margin transparent>\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </ion-list-header>\n\n          <ion-item *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon item-left icon-small>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h2 item-subtitle>{{item.description}}</h2>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-1/search-bar.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SearchBarLayout1);
@@ -234,7 +234,7 @@ var SearchBarLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1245:
+/***/ 1247:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -285,7 +285,7 @@ var SearchBarLayout2 = (function () {
     ], SearchBarLayout2.prototype, "events", void 0);
     SearchBarLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'search-bar-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\search-bar\layout-2\search-bar.html"*/'<!-- Theme Search bars Field + header -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <ion-col col-12>\n\n        <div background-size container-hearder-image [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <div search-bar-bcg>\n\n            <h2 search-bar-title>{{data.searchText}}</h2>\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </div>\n\n        </div>\n\n      </ion-col>\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item no-margin *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon icon-small item-left>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\search-bar\layout-2\search-bar.html"*/
+            selector: 'search-bar-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-2/search-bar.html"*/'<!-- Theme Search bars Field + header -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <ion-col col-12>\n\n        <div background-size container-hearder-image [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <div search-bar-bcg>\n\n            <h2 search-bar-title>{{data.searchText}}</h2>\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </div>\n\n        </div>\n\n      </ion-col>\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item no-margin *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon icon-small item-left>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-2/search-bar.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SearchBarLayout2);
@@ -296,7 +296,7 @@ var SearchBarLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1265:
+/***/ 1248:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -347,7 +347,7 @@ var SearchBarLayout3 = (function () {
     ], SearchBarLayout3.prototype, "events", void 0);
     SearchBarLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'search-bar-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\search-bar\layout-3\search-bar.html"*/'<!-- Theme Search bars Field + header -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <ion-col col-12>\n\n        <div background-size container-hearder-image [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <div class="search-bar-bcg">\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </div>\n\n        </div>\n\n      </ion-col>\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon icon-medium item-left>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h3 item-subtitle>{{item.description}}</h3>\n\n            <span span-medium>{{item.price}}</span>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\search-bar\layout-3\search-bar.html"*/
+            selector: 'search-bar-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-3/search-bar.html"*/'<!-- Theme Search bars Field + header -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <ion-col col-12>\n\n        <div background-size container-hearder-image [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <div class="search-bar-bcg">\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </div>\n\n        </div>\n\n      </ion-col>\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon icon-medium item-left>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h3 item-subtitle>{{item.description}}</h3>\n\n            <span span-medium>{{item.price}}</span>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/search-bar/layout-3/search-bar.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SearchBarLayout3);
@@ -358,13 +358,13 @@ var SearchBarLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1289:
+/***/ 1291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageSearchBar; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -392,7 +392,7 @@ var ItemDetailsPageSearchBar = (function () {
         }
     }
     ItemDetailsPageSearchBar = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-search-bar\item-details-search-bar.html"*/'<!--Search bar components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!-- Content -->\n\n\n\n<!-- PAGE SEARCH BAR - Simple -->\n\n<search-bar-layout-1 has-header *ngIf="params.searchBarsLayout1" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-1>\n\n\n\n<!-- PAGE SEARCH BAR - Field + header -->\n\n<search-bar-layout-2  has-header *ngIf="params.searchBarsLayout2" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-2>\n\n\n\n<!-- PAGE SEARCH BAR - Field + header 2 -->\n\n<search-bar-layout-3 has-header *ngIf="params.searchBarsLayout3" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-3>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-search-bar\item-details-search-bar.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-search-bar/item-details-search-bar.html"*/'<!--Search bar components-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!-- Content -->\n\n\n\n<!-- PAGE SEARCH BAR - Simple -->\n\n<search-bar-layout-1 has-header *ngIf="params.searchBarsLayout1" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-1>\n\n\n\n<!-- PAGE SEARCH BAR - Field + header -->\n\n<search-bar-layout-2  has-header *ngIf="params.searchBarsLayout2" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-2>\n\n\n\n<!-- PAGE SEARCH BAR - Field + header 2 -->\n\n<search-bar-layout-3 has-header *ngIf="params.searchBarsLayout3" [data]="params.data | async" [events]="params.events">\n\n</search-bar-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-search-bar/item-details-search-bar.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageSearchBar);

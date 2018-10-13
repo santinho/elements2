@@ -1,14 +1,14 @@
 webpackJsonp([95],{
 
-/***/ 1064:
+/***/ 1063:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout3Module", function() { return ExpandableLayout3Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleCardLayout2Module", function() { return GoogleCardLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__ = __webpack_require__(1214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__ = __webpack_require__(1216);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,37 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ExpandableLayout3Module = (function () {
-    function ExpandableLayout3Module() {
+var GoogleCardLayout2Module = (function () {
+    function GoogleCardLayout2Module() {
     }
-    ExpandableLayout3Module = __decorate([
+    GoogleCardLayout2Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */],
+                __WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__["a" /* GoogleCardLayout2 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__["a" /* GoogleCardLayout2 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__["a" /* ExpandableLayout3 */]
+                __WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__["a" /* GoogleCardLayout2 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ExpandableLayout3Module);
-    return ExpandableLayout3Module;
+    ], GoogleCardLayout2Module);
+    return GoogleCardLayout2Module;
 }());
 
-//# sourceMappingURL=expandable-layout-3.module.js.map
+//# sourceMappingURL=google-card-layout-2.module.js.map
 
 /***/ }),
 
-/***/ 1214:
+/***/ 1216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExpandableLayout3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoogleCardLayout2; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,10 +60,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var ExpandableLayout3 = (function () {
-    function ExpandableLayout3() {
+var GoogleCardLayout2 = (function () {
+    function GoogleCardLayout2() {
+        this.slider = {};
     }
-    ExpandableLayout3.prototype.onEvent = function (event, item, e) {
+    GoogleCardLayout2.prototype.slideHasChanged = function (slider, index) {
+        this.slider[index] = slider;
+        if (2 == slider._activeIndex) {
+            if (this.data.items) {
+                this.data.items.splice(index, 1);
+            }
+            else {
+                this.data.splice(index, 1);
+            }
+        }
+    };
+    GoogleCardLayout2.prototype.onClickEvent = function (index) {
+        if (this.slider[index]) {
+            this.slider[index].slidePrev(300);
+        }
+    };
+    GoogleCardLayout2.prototype.onEvent = function (event, item, e) {
         if (e) {
             e.stopPropagation();
         }
@@ -71,13 +88,7 @@ var ExpandableLayout3 = (function () {
             this.events[event](item);
         }
     };
-    ExpandableLayout3.prototype.toggleGroup = function (group) {
-        group.show = !group.show;
-    };
-    ExpandableLayout3.prototype.isGroupShown = function (group) {
-        return group.show;
-    };
-    ExpandableLayout3.prototype.ngAfterViewInit = function () {
+    GoogleCardLayout2.prototype.ngAfterViewInit = function () {
         var _this = this;
         this.content.ionScroll.subscribe(function (d) {
             _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
@@ -86,29 +97,29 @@ var ExpandableLayout3 = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], ExpandableLayout3.prototype, "data", void 0);
+    ], GoogleCardLayout2.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], ExpandableLayout3.prototype, "events", void 0);
+    ], GoogleCardLayout2.prototype, "events", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], ExpandableLayout3.prototype, "content", void 0);
+    ], GoogleCardLayout2.prototype, "content", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
-    ], ExpandableLayout3.prototype, "fabButton", void 0);
-    ExpandableLayout3 = __decorate([
+    ], GoogleCardLayout2.prototype, "fabButton", void 0);
+    GoogleCardLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'expandable-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\expandable\layout-3\expandable.html"*/'<!-- Themes Centered with header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <!---HEADER-->\n\n          <ion-list-header no-margin no-padding no-lines background-size\n\n          [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n            <h2 item-title text-center>{{data.title}}</h2>\n\n          </ion-list-header>\n\n          <!--CONTENT-->\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li no-margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Centered with header Header-->\n\n              <div class="collapsible-header" no-margin no-padding (click)="toggleGroup(group)">\n\n                <ion-item text-center no-lines>\n\n                  <ion-icon icon-small>\n\n                    <i class="icon {{group.icon}}"></i>\n\n                  </ion-icon>\n\n                  <h2 text-center item-title>{{group.title}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Centered with header Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item no-lines no-padding transparent *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 text-center subitem-title>{{item}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\expandable\layout-3\expandable.html"*/
+            selector: 'google-card-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-2/google-card.html"*/'<!--Theme Styled cards 2-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n        <ion-card text-right (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n          <!--Card-image-->\n\n          <div card-image>\n\n            <img images-filter [src]="item.image" />\n\n            <!--Card-title-header-->\n\n            <h2 card-title>{{item.titleHeader}}</h2>\n\n          </div>\n\n          <!--Card-content-->\n\n          <ion-card-content>\n\n            <!--Card-title-->\n\n            <ion-card-title>\n\n              <!--Card-subtitle-->\n\n              <h1 card-subtitle>{{item.title}}</h1>\n\n            </ion-card-title>\n\n            <!--Description-->\n\n            <p card-body-text>{{item.description}}</p>\n\n          </ion-card-content>\n\n          <!--Button Share-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onShare\', item, $event)">\n\n            {{item.shareButton}}\n\n          </button>\n\n          <!--Button Explore-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onExplore\', item, $event)">\n\n            {{item.button}}\n\n          </button>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!--Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-2/google-card.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], ExpandableLayout3);
-    return ExpandableLayout3;
+    ], GoogleCardLayout2);
+    return GoogleCardLayout2;
 }());
 
-//# sourceMappingURL=expandable-layout-3.js.map
+//# sourceMappingURL=google-card-layout-2.js.map
 
 /***/ })
 

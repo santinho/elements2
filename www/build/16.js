@@ -1,14 +1,14 @@
-webpackJsonp([16,55,56,57],{
+webpackJsonp([16,57,58,59],{
 
-/***/ 1108:
+/***/ 1109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleLayout1Module", function() { return ToggleLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__ = __webpack_require__(1258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__ = __webpack_require__(1262);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,15 +42,15 @@ var ToggleLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1109:
+/***/ 1110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleLayout2Module", function() { return ToggleLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_2__ = __webpack_require__(1259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_2__ = __webpack_require__(1263);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,15 +84,15 @@ var ToggleLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1110:
+/***/ 1111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleLayout3Module", function() { return ToggleLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_3__ = __webpack_require__(1260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_3__ = __webpack_require__(1264);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -133,11 +133,11 @@ var ToggleLayout3Module = (function () {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageToggleModule", function() { return ItemDetailsPageToggleModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_toggle__ = __webpack_require__(1297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_toggle_layout_1_toggle_layout_1_module__ = __webpack_require__(1108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_toggle_layout_2_toggle_layout_2_module__ = __webpack_require__(1109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_toggle_layout_3_toggle_layout_3_module__ = __webpack_require__(1110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_toggle__ = __webpack_require__(1300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_toggle_layout_1_toggle_layout_1_module__ = __webpack_require__(1109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_toggle_layout_2_toggle_layout_2_module__ = __webpack_require__(1110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_toggle_layout_3_toggle_layout_3_module__ = __webpack_require__(1111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -175,7 +175,7 @@ var ItemDetailsPageToggleModule = (function () {
 
 /***/ }),
 
-/***/ 1258:
+/***/ 1262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -213,7 +213,7 @@ var ToggleLayout1 = (function () {
     ], ToggleLayout1.prototype, "events", void 0);
     ToggleLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'toggle-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\toggle\layout-1\toggle.html"*/'<!--Themes Toggle - With avatars -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <ion-avatar item-start>\n\n          <img images-filter [src]="item.avatar" />\n\n        </ion-avatar>\n\n        <ion-label item-title padding-top>{{item.title}}</ion-label>\n\n        <ion-label item-subtitle text-wrap>{{item.subtitle}}</ion-label>\n\n        <ion-toggle item-end [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\toggle\layout-1\toggle.html"*/
+            selector: 'toggle-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-1/toggle.html"*/'<!--Themes Toggle - With avatars -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <ion-avatar item-start>\n\n          <img images-filter [src]="item.avatar" />\n\n        </ion-avatar>\n\n        <ion-label item-title padding-top>{{item.title}}</ion-label>\n\n        <ion-label item-subtitle text-wrap>{{item.subtitle}}</ion-label>\n\n        <ion-toggle item-end [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-1/toggle.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToggleLayout1);
@@ -224,7 +224,7 @@ var ToggleLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1259:
+/***/ 1263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -262,7 +262,7 @@ var ToggleLayout2 = (function () {
     ], ToggleLayout2.prototype, "events", void 0);
     ToggleLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'toggle-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\toggle\layout-2\toggle.html"*/'<!--Themes Toggle - Simple 2 -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item lines *ngFor="let item of data.items; let i= index">\n\n        <ion-toggle item-start [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-label item-end text-right item-subtitle>{{item.subtitle}}</ion-label>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\toggle\layout-2\toggle.html"*/
+            selector: 'toggle-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-2/toggle.html"*/'<!--Themes Toggle - Simple 2 -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item lines *ngFor="let item of data.items; let i= index">\n\n        <ion-toggle item-start [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-label item-end text-right item-subtitle>{{item.subtitle}}</ion-label>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-2/toggle.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToggleLayout2);
@@ -273,7 +273,7 @@ var ToggleLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1260:
+/***/ 1264:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -311,7 +311,7 @@ var ToggleLayout3 = (function () {
     ], ToggleLayout3.prototype, "events", void 0);
     ToggleLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'toggle-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\toggle\layout-3\toggle.html"*/'<!--Themes Toggle - Simple -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list *ngIf="data != null">\n\n          <ion-item *ngFor="let item of data.items; let i= index">\n\n            <ion-label item-title>{{item.title}}</ion-label>\n\n            <ion-toggle [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\toggle\layout-3\toggle.html"*/
+            selector: 'toggle-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-3/toggle.html"*/'<!--Themes Toggle - Simple -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list *ngIf="data != null">\n\n          <ion-item *ngFor="let item of data.items; let i= index">\n\n            <ion-label item-title>{{item.title}}</ion-label>\n\n            <ion-toggle [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/toggle/layout-3/toggle.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ToggleLayout3);
@@ -322,13 +322,13 @@ var ToggleLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1297:
+/***/ 1300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageToggle; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -356,7 +356,7 @@ var ItemDetailsPageToggle = (function () {
         }
     }
     ItemDetailsPageToggle = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-toggle\item-details-toggle.html"*/'<!-- Toggle component-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE TOGGLE - With avatars -->\n\n<toggle-layout-1 has-header *ngIf="params.toggleLayout1" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-1>\n\n\n\n<!-- PAGE TOGGLE - Simple 2 -->\n\n<toggle-layout-2 has-header *ngIf="params.toggleLayout2" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-2>\n\n\n\n<!-- PAGE TOGGLE - Simple -->\n\n<toggle-layout-3 has-header *ngIf="params.toggleLayout3" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-3>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-toggle\item-details-toggle.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-toggle/item-details-toggle.html"*/'<!-- Toggle component-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n            <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE TOGGLE - With avatars -->\n\n<toggle-layout-1 has-header *ngIf="params.toggleLayout1" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-1>\n\n\n\n<!-- PAGE TOGGLE - Simple 2 -->\n\n<toggle-layout-2 has-header *ngIf="params.toggleLayout2" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-2>\n\n\n\n<!-- PAGE TOGGLE - Simple -->\n\n<toggle-layout-3 has-header *ngIf="params.toggleLayout3" [data]="params.data | async" [events]="params.events">\n\n</toggle-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-toggle/item-details-toggle.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageToggle);

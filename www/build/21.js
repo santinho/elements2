@@ -1,15 +1,15 @@
 webpackJsonp([21],{
 
-/***/ 1072:
+/***/ 1069:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout4Module", function() { return StickyListHeaderLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_4__ = __webpack_require__(1222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1172);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -45,7 +45,7 @@ var StickyListHeaderLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1171:
+/***/ 1170:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,13 +188,13 @@ var IonAffix = (function () {
 
 /***/ }),
 
-/***/ 1173:
+/***/ 1172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__ = __webpack_require__(1182);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1170);
 /* unused harmony namespace reexport */
 
 
@@ -208,7 +208,7 @@ var IonAffix = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonAffixModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1170);
 
 
 var IonAffixModule = (function () {
@@ -238,7 +238,7 @@ var IonAffixModule = (function () {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = adapterFactory;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_adapter__ = __webpack_require__(1184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scroll_adapter__ = __webpack_require__(1185);
 
@@ -264,7 +264,7 @@ function adapterFactory(container) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentAdapter; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__);
 
 
@@ -316,9 +316,9 @@ ContentAdapter = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScrollAdapter; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(611);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(609);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
 
 
@@ -373,7 +373,7 @@ ScrollAdapter = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StickyListHeaderLayout4; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -414,7 +414,7 @@ var StickyListHeaderLayout4 = (function () {
     ], StickyListHeaderLayout4.prototype, "content", void 0);
     StickyListHeaderLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'sticky-list-header-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\sticky-list-header\layout-4\sticky-list-header.html"*/'<!-- Theme Sticky List Header - Small header + large item -->\n\n<ion-content no-padding>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <ion-list no-margin *ngFor="let item of data.items">\n\n          <!-- Sticky list header -->\n\n          <ion-list-header no-margin ion-affix [content]="content">\n\n            <ion-item transparent no-margin no-padding no-lines>\n\n              <!---Header title-->\n\n              <h2 item-start no-margin text-uppercase>{{item.title}}</h2>\n\n              <div item-content>\n\n                <!---Header icon-->\n\n                <ion-icon>\n\n                    <i icon-small class="icon {{item.icon}}"></i>\n\n                </ion-icon>\n\n                <!---Header description-->\n\n                <span item-end span-small>{{item.description}}</span>\n\n              </div>\n\n            </ion-item>\n\n          </ion-list-header>\n\n          <ion-item text-right no-padding *ngFor="let element of item.items"\n\n          (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <ion-item-divider no-lines padding-left>\n\n            <!---Icon Like-->\n\n            <ion-icon float-left (click)="onEvent(\'onLike\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconLike}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Bookmark-->\n\n            <ion-icon float-left (click)="onEvent(\'onBookmark\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconBookmark}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Share-->\n\n            <ion-icon margin-right float-left (click)="onEvent(\'onShare\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconShare}}"></i>\n\n            </ion-icon>\n\n            <!---Avatar-->\n\n            <ion-avatar item-end (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n              <img [src]="element.image">\n\n            </ion-avatar>\n\n            <!---Item-title-->\n\n            <h2 item-title>{{element.title}}</h2>\n\n          </ion-item-divider>\n\n            <!---Description-->\n\n            <p padding-left subitem-title text-left text-wrap>\n\n              {{element.description}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\sticky-list-header\layout-4\sticky-list-header.html"*/
+            selector: 'sticky-list-header-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/sticky-list-header/layout-4/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Small header + large item -->\n\n<ion-content no-padding>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col>\n\n        <ion-list no-margin *ngFor="let item of data.items">\n\n          <!-- Sticky list header -->\n\n          <ion-list-header no-margin ion-affix [content]="content">\n\n            <ion-item transparent no-margin no-padding no-lines>\n\n              <!---Header title-->\n\n              <h2 item-start no-margin text-uppercase>{{item.title}}</h2>\n\n              <div item-content>\n\n                <!---Header icon-->\n\n                <ion-icon>\n\n                    <i icon-small class="icon {{item.icon}}"></i>\n\n                </ion-icon>\n\n                <!---Header description-->\n\n                <span item-end span-small>{{item.description}}</span>\n\n              </div>\n\n            </ion-item>\n\n          </ion-list-header>\n\n          <ion-item text-right no-padding *ngFor="let element of item.items"\n\n          (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <ion-item-divider no-lines padding-left>\n\n            <!---Icon Like-->\n\n            <ion-icon float-left (click)="onEvent(\'onLike\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconLike}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Bookmark-->\n\n            <ion-icon float-left (click)="onEvent(\'onBookmark\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconBookmark}}"></i>\n\n            </ion-icon>\n\n            <!---Icon Share-->\n\n            <ion-icon margin-right float-left (click)="onEvent(\'onShare\', element.title, $event)">\n\n              <i icon-small class="icon {{element.iconShare}}"></i>\n\n            </ion-icon>\n\n            <!---Avatar-->\n\n            <ion-avatar item-end (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n              <img [src]="element.image">\n\n            </ion-avatar>\n\n            <!---Item-title-->\n\n            <h2 item-title>{{element.title}}</h2>\n\n          </ion-item-divider>\n\n            <!---Description-->\n\n            <p padding-left subitem-title text-left text-wrap>\n\n              {{element.description}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/sticky-list-header/layout-4/sticky-list-header.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], StickyListHeaderLayout4);

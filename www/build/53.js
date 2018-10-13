@@ -1,14 +1,14 @@
 webpackJsonp([53],{
 
-/***/ 1111:
+/***/ 1145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout2Module", function() { return WizardLayout2Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageTextViewModule", function() { return ItemDetailsPageTextViewModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__ = __webpack_require__(1261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_text_view__ = __webpack_require__(1299);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,37 +18,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout2Module = (function () {
-    function WizardLayout2Module() {
+var ItemDetailsPageTextViewModule = (function () {
+    function ItemDetailsPageTextViewModule() {
     }
-    WizardLayout2Module = __decorate([
+    ItemDetailsPageTextViewModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */],
+                __WEBPACK_IMPORTED_MODULE_2__item_details_text_view__["a" /* ItemDetailsPageTextView */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */]),
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */]
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__item_details_text_view__["a" /* ItemDetailsPageTextView */]),
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], WizardLayout2Module);
-    return WizardLayout2Module;
+    ], ItemDetailsPageTextViewModule);
+    return ItemDetailsPageTextViewModule;
 }());
 
-//# sourceMappingURL=wizard-layout-2.module.js.map
+//# sourceMappingURL=item-details-text-view.module.js.map
 
 /***/ }),
 
-/***/ 1261:
+/***/ 1299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageTextView; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,64 +57,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout2 = (function () {
-    function WizardLayout2() {
-        this.sliderOptions = { pager: true };
-        this.path = false;
-        this.prev = true;
-        this.next = true;
-        this.finish = true;
-        this.prev = false;
-        this.next = true;
-        this.finish = false;
-    }
-    WizardLayout2.prototype.changeSlide = function (index) {
-        if (index > 0) {
-            this.slider.slideNext(300);
+var ItemDetailsPageTextView = (function () {
+    function ItemDetailsPageTextView(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.params = {};
+        // If we navigated to this page, we will have an item available as a nav param
+        this.page = navParams.get('page');
+        this.service = navParams.get('service');
+        if (this.service) {
+            this.params = this.service.prepareParams(this.page, navCtrl);
         }
         else {
-            this.slider.slidePrev(300);
+            navCtrl.setRoot("HomePage");
         }
-    };
-    WizardLayout2.prototype.slideHasChanged = function (index) {
-        try {
-            this.prev = !this.slider.isBeginning();
-            this.next = this.slider.getActiveIndex() < (this.slider.length() - 1);
-            this.finish = this.slider.isEnd();
-        }
-        catch (e) { }
-    };
-    WizardLayout2.prototype.ngOnChanges = function (changes) {
-        this.data = changes['data'].currentValue;
-    };
-    WizardLayout2.prototype.onEvent = function (event) {
-        if (this.events[event]) {
-            this.events[event]();
-        }
-        console.log(event);
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], WizardLayout2.prototype, "data", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
-        __metadata("design:type", Object)
-    ], WizardLayout2.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('wizardSlider'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Slides */])
-    ], WizardLayout2.prototype, "slider", void 0);
-    WizardLayout2 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'wizard-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\wizard\layout-2\wizard.html"*/'<!--Theme Wizard Big Image -->\n\n\n\n<!--Content-->\n\n\n\n<ion-slides #wizardSlider  *ngIf="data != null" (ionSlideDidChange)="slideHasChanged()" pager="true">\n\n  <ion-slide background-size *ngFor="let item of data.items;" [ngStyle]="{\'background-image\': \'url(\' + item.backgroundImage + \')\'}">\n\n    <h1 wizard-title>{{item.title}}</h1>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n  <button default-button full ion-button (click)="changeSlide(1)" *ngIf="next">\n\n    {{data.btnNext}}\n\n  </button>\n\n  <button default-button full ion-button (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n    {{data.btnFinish}}\n\n  </button>\n\n</div>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\wizard\layout-2\wizard.html"*/
+    }
+    ItemDetailsPageTextView = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-text-view/item-details-text-view.html"*/'<!--Text views component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>ALL</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--- Content text exapmles  --->\n\n<ion-content padding class="default-background">\n\n<div class="title-components">Typography examples:</div>\n\n<h1 class="example-h1">This is example of h1 title.</h1>\n\n<h2 class="example-h2">And this is example of h2 title/subtitle.</h2>\n\n<h3 class="example-h3">Example of h3 subtitle is also here.</h3>\n\n<h4 class="example-h4">And h4 subtitle example is here.</h4>\n\n<h5 class="example-h5">h5 subtitle is like this!</h5>\n\n<h6 class="example-h6">And h6 at the end usualy same as h6.</h6>\n\n<p class="example-p">This is example of paragraph text.\n\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n\n  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n  Ut enim ad minim veniam, quis nostrud exercitation ullamco\n\n  laboris nisi ut aliquip ex ea commodo consequat.</p>\n\n\n\n<!--- SPAN EXAMPLES  --->\n\n<div class="title-components">SPAN EXAMPLES:</div>\n\n<div span-small>Small span: $555, 31.12.2016., 4.84 (35 reviews)</div>\n\n<div span-medium>Medium span: $555, 31.12.2016.</div>\n\n<div span-large>Large span: $555, 31.12.2016.</div>\n\n\n\n<!--- BUTTON EXAMPLE  --->\n\n<div class="title-components">Button examples:</div>\n\n<div class="block-insert">\n\n  <span class="compomets"> Default</span>\n\n  <button default-button ion-button>BUTTON</button>\n\n</div>\n\n<div class="block-insert">\n\n  <span padding-left class="compomets">Flat</span>\n\n  <button button-clear clear ion-button>BUTTON</button>\n\n</div>\n\n\n\n<!--- ICON EXAMPLES  --->\n\n<div class="title-components">ICON EXAMPLES:</div>\n\n<ion-icon icon-small>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Small</span>\n\n<ion-icon icon-small>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-small>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Medium</span>\n\n<ion-icon icon-medium>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-medium>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-medium>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Large</span>\n\n<ion-icon icon-large>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-large>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-large>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-text-view/item-details-text-view.html"*/
         }),
-        __metadata("design:paramtypes", [])
-    ], WizardLayout2);
-    return WizardLayout2;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    ], ItemDetailsPageTextView);
+    return ItemDetailsPageTextView;
 }());
 
-//# sourceMappingURL=wizard-layout-2.js.map
+//# sourceMappingURL=item-details-text-view.js.map
 
 /***/ })
 

@@ -1,14 +1,14 @@
-webpackJsonp([9,77,78,79,80],{
+webpackJsonp([9,79,80,81,82],{
 
-/***/ 1088:
+/***/ 1087:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout1Module", function() { return RangeLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_1__ = __webpack_require__(1238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_1__ = __webpack_require__(1240);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,15 +42,15 @@ var RangeLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1089:
+/***/ 1088:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout2Module", function() { return RangeLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_2__ = __webpack_require__(1239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_2__ = __webpack_require__(1241);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,15 +84,15 @@ var RangeLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1090:
+/***/ 1089:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout3Module", function() { return RangeLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_3__ = __webpack_require__(1240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_3__ = __webpack_require__(1242);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -126,15 +126,15 @@ var RangeLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1091:
+/***/ 1090:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout4Module", function() { return RangeLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_4__ = __webpack_require__(1241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_4__ = __webpack_require__(1243);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -168,19 +168,19 @@ var RangeLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1136:
+/***/ 1135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageRangeModule", function() { return ItemDetailsPageRangeModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_range__ = __webpack_require__(1287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_range_layout_1_range_layout_1_module__ = __webpack_require__(1088);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_range_layout_2_range_layout_2_module__ = __webpack_require__(1089);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_range_layout_3_range_layout_3_module__ = __webpack_require__(1090);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_range_layout_4_range_layout_4_module__ = __webpack_require__(1091);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_range__ = __webpack_require__(1289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_range_layout_1_range_layout_1_module__ = __webpack_require__(1087);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_range_layout_2_range_layout_2_module__ = __webpack_require__(1088);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_range_layout_3_range_layout_3_module__ = __webpack_require__(1089);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_range_layout_4_range_layout_4_module__ = __webpack_require__(1090);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -216,7 +216,7 @@ var ItemDetailsPageRangeModule = (function () {
 
 /***/ }),
 
-/***/ 1238:
+/***/ 1240:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -254,7 +254,7 @@ var RangeLayout1 = (function () {
     ], RangeLayout1.prototype, "events", void 0);
     RangeLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'range-button-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\range\layout-1\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\range\layout-1\range.html"*/
+            selector: 'range-button-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-1/range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-1/range.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RangeLayout1);
@@ -265,7 +265,7 @@ var RangeLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1239:
+/***/ 1241:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -304,7 +304,7 @@ var RangeLayout2 = (function () {
     ], RangeLayout2.prototype, "events", void 0);
     RangeLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'range-button-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\range\layout-2\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [min]="data.min" [max]="data.max" pin="true" (ionChange)="onEvent(\'onChange\', data.value, $event)" [(ngModel)]="data.value">\n\n            <ion-icon range-left medium color="secondary" [name]="data.iconLeft"></ion-icon>\n\n            <ion-icon range-right medium color="secondary" [name]="data.iconRight"></ion-icon>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\range\layout-2\range.html"*/
+            selector: 'range-button-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-2/range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [min]="data.min" [max]="data.max" pin="true" (ionChange)="onEvent(\'onChange\', data.value, $event)" [(ngModel)]="data.value">\n\n            <ion-icon range-left medium color="secondary" [name]="data.iconLeft"></ion-icon>\n\n            <ion-icon range-right medium color="secondary" [name]="data.iconRight"></ion-icon>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-2/range.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RangeLayout2);
@@ -315,7 +315,7 @@ var RangeLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1240:
+/***/ 1242:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -353,7 +353,7 @@ var RangeLayout3 = (function () {
     ], RangeLayout3.prototype, "events", void 0);
     RangeLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'range-button-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\range\layout-3\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item lines>\n\n        <ion-range [min]="data.min" [max]="data.max" [step]="data.step" snaps="true" (ionChange)="onEvent(\'onChange\', data.value, $event)" [(ngModel)]="data.value">\n\n            <ion-label range-left span-small color="brown">{{data.textLeft}}</ion-label>\n\n            <ion-label range-right span-large color="brown">{{data.textRight}}</ion-label>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\range\layout-3\range.html"*/
+            selector: 'range-button-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-3/range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item lines>\n\n        <ion-range [min]="data.min" [max]="data.max" [step]="data.step" snaps="true" (ionChange)="onEvent(\'onChange\', data.value, $event)" [(ngModel)]="data.value">\n\n            <ion-label range-left span-small color="brown">{{data.textLeft}}</ion-label>\n\n            <ion-label range-right span-large color="brown">{{data.textRight}}</ion-label>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-3/range.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RangeLayout3);
@@ -364,7 +364,7 @@ var RangeLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1241:
+/***/ 1243:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -402,7 +402,7 @@ var RangeLayout4 = (function () {
     ], RangeLayout4.prototype, "events", void 0);
     RangeLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'range-button-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\range\layout-4\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n    </ion-list-header>\n\n    <ion-item no-lines>\n\n        <ion-range dualKnobs="true" pin="true" [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n            <ion-label range-left span-large>{{data.textLeft}}</ion-label>\n\n            <ion-label range-right span-large>{{data.textRight}}</ion-label>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\range\layout-4\range.html"*/
+            selector: 'range-button-layout-4',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-4/range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n    </ion-list-header>\n\n    <ion-item no-lines>\n\n        <ion-range dualKnobs="true" pin="true" [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n            <ion-label range-left span-large>{{data.textLeft}}</ion-label>\n\n            <ion-label range-right span-large>{{data.textRight}}</ion-label>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-4/range.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RangeLayout4);
@@ -413,13 +413,13 @@ var RangeLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1287:
+/***/ 1289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageRange; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -450,7 +450,7 @@ var ItemDetailsPageRange = (function () {
         }
     }
     ItemDetailsPageRange = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-range\item-details-range.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n              <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<ion-content class="outer-content" *ngIf="params.data!=null">\n\n\n\n    <!-- PAGE COMPONENTS - Basic -->\n\n    <range-button-layout-1 [data]="params.data.layout1" [events]="params.events">\n\n    </range-button-layout-1>\n\n\n\n    <!-- PAGE COMPONENTS - With icons -->\n\n    <range-button-layout-2 [data]="params.data.layout2" [events]="params.events">\n\n    </range-button-layout-2>\n\n\n\n    <!-- PAGE COMPONENTS - With predefined steps -->\n\n    <range-button-layout-3 [data]="params.data.layout3" [events]="params.events">\n\n    </range-button-layout-3>\n\n\n\n    <!-- PAGE COMPONENTS - Two sliders -->\n\n    <range-button-layout-4 [data]="params.data.layout4" [events]="params.events">\n\n    </range-button-layout-4>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-range\item-details-range.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-range/item-details-range.html"*/'<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n              <ion-icon name="menu"></ion-icon>\n\n            </button>\n\n        <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<ion-content class="outer-content" *ngIf="params.data!=null">\n\n\n\n    <!-- PAGE COMPONENTS - Basic -->\n\n    <range-button-layout-1 [data]="params.data.layout1" [events]="params.events">\n\n    </range-button-layout-1>\n\n\n\n    <!-- PAGE COMPONENTS - With icons -->\n\n    <range-button-layout-2 [data]="params.data.layout2" [events]="params.events">\n\n    </range-button-layout-2>\n\n\n\n    <!-- PAGE COMPONENTS - With predefined steps -->\n\n    <range-button-layout-3 [data]="params.data.layout3" [events]="params.events">\n\n    </range-button-layout-3>\n\n\n\n    <!-- PAGE COMPONENTS - Two sliders -->\n\n    <range-button-layout-4 [data]="params.data.layout4" [events]="params.events">\n\n    </range-button-layout-4>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-range/item-details-range.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageRange);

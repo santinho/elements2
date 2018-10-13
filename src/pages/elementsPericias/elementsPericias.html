@@ -1,0 +1,54 @@
+<!-- Main Menu Header -->
+<ion-header>
+    <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="icon-menu" name="menu"></ion-icon>
+    </button>
+    <ion-title text-uppercase>Pericias</ion-title>
+    </ion-navbar>
+</ion-header>
+<!-- Main Menu List -->
+<ion-content>
+    <ion-grid no-padding>
+        <ion-row *ngIf="data != null">
+        <!-- List -->
+        <ion-col col-12>
+        <ion-list no-padding no-margin transparent>
+        <ion-item padding-top no-lines *ngIf="data != null">
+            <ion-label>Tipo Pericias:</ion-label>
+            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoPericiasSelecionados" (ngModelChange)="getItems($event)">
+                <ion-option *ngFor="let tipo of tipoPericias;" [value]="tipo">{{tipo}}</ion-option>
+            </ion-select>
+        </ion-item>
+        </ion-list>
+        </ion-col>
+        
+        <ion-col col-12>
+            <ion-list no-margin>
+            
+            <ion-list-header no-padding no-margin transparent>
+                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>
+                
+            </ion-list-header>
+
+            <li *ngFor="let group of listFiltered | async">
+              <!-- List big image Header -->
+              <div class="collapsible-header" (click)="toggleGroup(group)">
+                <ion-item no-padding>
+                  <h2 padding-left item-title>{{group.Nome}} ({{group.Custo}})</h2>
+                  <h3 padding-left item-subtitle>{{group.Descricao}}</h3>
+                </ion-item>
+              </div>
+              <!-- List big image Body -->
+              <div class="item-accordion" [ngClass]="{'active': isGroupShown(group) }" [hidden]="!isGroupShown(group)">
+                <ion-item transparent no-lines style="color: white">
+                    <h2 padding-left>{{group.Descricao}}</h2>
+                </ion-item>
+              </div>
+              <!--end-->
+            </li>
+            </ion-list>
+        </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

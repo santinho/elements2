@@ -1,14 +1,14 @@
 webpackJsonp([98],{
 
-/***/ 1061:
+/***/ 1060:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout4Module", function() { return DragAndDropLayout4Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout2Module", function() { return ExpandableLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__ = __webpack_require__(1211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__ = __webpack_require__(1213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,37 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DragAndDropLayout4Module = (function () {
-    function DragAndDropLayout4Module() {
+var ExpandableLayout2Module = (function () {
+    function ExpandableLayout2Module() {
     }
-    DragAndDropLayout4Module = __decorate([
+    ExpandableLayout2Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__["a" /* DragAndDropLayout4 */],
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__["a" /* DragAndDropLayout4 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__["a" /* DragAndDropLayout4 */]
+                __WEBPACK_IMPORTED_MODULE_2__expandable_layout_2__["a" /* ExpandableLayout2 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], DragAndDropLayout4Module);
-    return DragAndDropLayout4Module;
+    ], ExpandableLayout2Module);
+    return ExpandableLayout2Module;
 }());
 
-//# sourceMappingURL=drag-and-drop-layout-4.module.js.map
+//# sourceMappingURL=expandable-layout-2.module.js.map
 
 /***/ }),
 
-/***/ 1211:
+/***/ 1213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DragAndDropLayout4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExpandableLayout2; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,14 +60,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var DragAndDropLayout4 = (function () {
-    function DragAndDropLayout4() {
-        var _this = this;
-        this.reorderItems = function (indexes) {
-            _this.data.items = Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* reorderArray */])(_this.data.items, indexes);
-        };
+var ExpandableLayout2 = (function () {
+    function ExpandableLayout2() {
     }
-    DragAndDropLayout4.prototype.onEvent = function (event, item, e) {
+    ExpandableLayout2.prototype.onEvent = function (event, item, e) {
         if (e) {
             e.stopPropagation();
         }
@@ -75,7 +71,13 @@ var DragAndDropLayout4 = (function () {
             this.events[event](item);
         }
     };
-    DragAndDropLayout4.prototype.ngAfterViewInit = function () {
+    ExpandableLayout2.prototype.toggleGroup = function (group) {
+        group.show = !group.show;
+    };
+    ExpandableLayout2.prototype.isGroupShown = function (group) {
+        return group.show;
+    };
+    ExpandableLayout2.prototype.ngAfterViewInit = function () {
         var _this = this;
         this.content.ionScroll.subscribe(function (d) {
             _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
@@ -84,29 +86,29 @@ var DragAndDropLayout4 = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], DragAndDropLayout4.prototype, "data", void 0);
+    ], ExpandableLayout2.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], DragAndDropLayout4.prototype, "events", void 0);
+    ], ExpandableLayout2.prototype, "events", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */])
-    ], DragAndDropLayout4.prototype, "content", void 0);
+    ], ExpandableLayout2.prototype, "content", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* FabButton */])
-    ], DragAndDropLayout4.prototype, "fabButton", void 0);
-    DragAndDropLayout4 = __decorate([
+    ], ExpandableLayout2.prototype, "fabButton", void 0);
+    ExpandableLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'drag-and-drop-layout-4',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-4\drag-and-drop.html"*/'<!-- Themes Medium item with image-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col col-12 no-padding>\n\n        <!-- Content List -->\n\n        <ion-list reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items"\n\n          (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <!-- Images -->\n\n            <ion-thumbnail no-margin item-start>\n\n              <img images-filter [src]="item.image">\n\n            </ion-thumbnail>\n\n            <!-- Title -->\n\n            <h2 padding-left item-title>{{item.title}}</h2>\n\n            <!-- Subtitle -->\n\n            <p padding-left >{{item.description}}</p>\n\n            <!-- Rating -->\n\n            <h3 margin-top item-title float-right>{{item.mark}}</h3>\n\n            <ion-icon margin-top icon-small float-right [name]="item.icon">\n\n            </ion-icon>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\list-view\drag-and-drop\layout-4\drag-and-drop.html"*/
+            selector: 'expandable-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-2/expandable.html"*/'<!-- Themes Expandable Full image with CTA -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Full image with CTA Header-->\n\n              <div class="collapsible-header">\n\n                <ion-item no-margin no-padding no-lines background-size\n\n                [ngStyle]="{\'background-image\': \'url(\' + group.backgroundImage + \')\'}">\n\n                  <h2 item-title>{{group.title}}</h2>\n\n                  <button ion-button float-right default-button (click)="toggleGroup(group)">\n\n                      {{group.button}}\n\n                </button>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Full image with CTA Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item full default-button no-lines *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 padding-left subitem-title>{{item}}</h2>\n\n                  <ion-icon item-end icon-small>\n\n                    <i class=" icon icon-chevron-right"></i>\n\n                  </ion-icon>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-2/expandable.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], DragAndDropLayout4);
-    return DragAndDropLayout4;
+    ], ExpandableLayout2);
+    return ExpandableLayout2;
 }());
 
-//# sourceMappingURL=drag-and-drop-layout-4.js.map
+//# sourceMappingURL=expandable-layout-2.js.map
 
 /***/ })
 

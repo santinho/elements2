@@ -1,14 +1,14 @@
 webpackJsonp([72],{
 
-/***/ 1115:
+/***/ 1097:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBarLayout3Module", function() { return SearchBarLayout3Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout2Module", function() { return SelectLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__ = __webpack_require__(1265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_2__ = __webpack_require__(1250);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SearchBarLayout3Module = (function () {
-    function SearchBarLayout3Module() {
+var SelectLayout2Module = (function () {
+    function SelectLayout2Module() {
     }
-    SearchBarLayout3Module = __decorate([
+    SelectLayout2Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__["a" /* SearchBarLayout3 */],
+                __WEBPACK_IMPORTED_MODULE_2__select_layout_2__["a" /* SelectLayout2 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__["a" /* SearchBarLayout3 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__select_layout_2__["a" /* SelectLayout2 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__search_bar_layout_3__["a" /* SearchBarLayout3 */]
+                __WEBPACK_IMPORTED_MODULE_2__select_layout_2__["a" /* SelectLayout2 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], SearchBarLayout3Module);
-    return SearchBarLayout3Module;
+    ], SelectLayout2Module);
+    return SelectLayout2Module;
 }());
 
-//# sourceMappingURL=search-bar-layout-3.module.js.map
+//# sourceMappingURL=select-layout-2.module.js.map
 
 /***/ }),
 
-/***/ 1265:
+/***/ 1250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchBarLayout3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectLayout2; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -58,49 +58,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var SearchBarLayout3 = (function () {
-    function SearchBarLayout3() {
-        this.searchTerm = "";
-    }
-    SearchBarLayout3.prototype.getItems = function (event) {
+var SelectLayout2 = (function () {
+    function SelectLayout2() {
         var _this = this;
-        if (!this.allItems) {
-            this.allItems = this.data.items;
-        }
-        this.data.items = this.allItems.filter(function (item) {
-            return item.title.toLowerCase().indexOf(_this.searchTerm.toLowerCase()) > -1;
-        });
-    };
-    SearchBarLayout3.prototype.onEvent = function (event, item) {
-        if (this.events[event]) {
-            if ('onTextChange' === event) {
-                this.getItems(item);
-                this.events[event](this.searchTerm);
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
             }
-            else {
-                this.events[event](item);
-            }
-        }
-        console.log(event);
-    };
+        };
+    }
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
         __metadata("design:type", Object)
-    ], SearchBarLayout3.prototype, "data", void 0);
+    ], SelectLayout2.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
         __metadata("design:type", Object)
-    ], SearchBarLayout3.prototype, "events", void 0);
-    SearchBarLayout3 = __decorate([
+    ], SelectLayout2.prototype, "events", void 0);
+    SelectLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'search-bar-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\search-bar\layout-3\search-bar.html"*/'<!-- Theme Search bars Field + header -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-row *ngIf="data != null">\n\n      <ion-col col-12>\n\n        <div background-size container-hearder-image [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <div class="search-bar-bcg">\n\n            <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="onEvent(\'onTextChange\', $event)"></ion-searchbar>\n\n          </div>\n\n        </div>\n\n      </ion-col>\n\n      <!-- List -->\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item *ngFor="let item of data.items;" (click)="onEvent(\'onItemClick\', item)">\n\n            <ion-icon icon-medium item-left>\n\n              <i class="icon {{item.icon}}"></i>\n\n            </ion-icon>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <h3 item-subtitle>{{item.description}}</h3>\n\n            <span span-medium>{{item.price}}</span>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\search-bar\layout-3\search-bar.html"*/
+            selector: 'select-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-2/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false" interface="popover">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-2/select.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], SearchBarLayout3);
-    return SearchBarLayout3;
+    ], SelectLayout2);
+    return SelectLayout2;
 }());
 
-//# sourceMappingURL=search-bar-layout-3.js.map
+//# sourceMappingURL=select-layout-2.js.map
 
 /***/ })
 

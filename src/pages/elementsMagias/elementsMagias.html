@@ -43,19 +43,15 @@
                     <div *ngFor="let magia of group[n]">
                         <div class="collapsible-header" (click)="toggleGroup(magia)">
                             <ion-item no-padding>
-                            <h2 padding-left item-title>{{magia.NomeMagia}}</h2>
-                            <h3 padding-left item-subtitle>HP:{{magia.NomeMagia}} Perícia:{{magia.NomeMagia}}</h3>
+                            <h2 padding-left item-title>{{magia.NomeMagia}} - ({{magia.MP}} MP)  {{magia.DescricaoNome!=''?' - '+magia.DescricaoNome:''}}</h2>
+                            <h3 padding-left item-subtitle>{{magia.Descricao}}</h3>
                             </ion-item>
                         </div>
                         <!-- List big image Body -->
                         <div class="item-accordion" [ngClass]="{'active': isGroupShown(magia) }" [hidden]="!isGroupShown(magia)">
                             <ion-item transparent no-lines style="color: white">
-                                <h2 padding-left>HP: {{magia.NomeMagia}}</h2>
-                                <h2 padding-left>Perícia: {{magia.NomeMagia}}</h2>
-                                <h2 padding-left>Crítico: {{magia.NomeMagia}}</h2>
-                                <br/>
-                                <h2 padding-left>Vantagens: {{magia.NomeMagia}}</h2>
-                                <h2 padding-left>Desvantagens: {{magia.NomeMagia}}</h2>
+                                <h2 padding-left>{{magia.MP}} MP  {{magia.DescricaoNome!=''?' - '+magia.DescricaoNome:''}}</h2>
+                                <h2 padding-left>{{magia.Descricao}}</h2>
                             </ion-item>
                         </div>
                         <!--end-->

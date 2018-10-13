@@ -1,16 +1,16 @@
 webpackJsonp([0,2,3,4],{
 
-/***/ 1078:
+/***/ 1076:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout1Module", function() { return MapsLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_1__ = __webpack_require__(1228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_settings__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_1__ = __webpack_require__(1229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_settings__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__agm_core__ = __webpack_require__(1186);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -50,16 +50,16 @@ var MapsLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1079:
+/***/ 1077:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout2Module", function() { return MapsLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_2__ = __webpack_require__(1229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_2__ = __webpack_require__(1230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__agm_core__ = __webpack_require__(1186);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -97,16 +97,16 @@ var MapsLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1080:
+/***/ 1078:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout3Module", function() { return MapsLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(1230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(1231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__agm_core__ = __webpack_require__(1186);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -151,11 +151,11 @@ var MapsLayout3Module = (function () {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageMapsModule", function() { return ItemDetailsPageMapsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_maps__ = __webpack_require__(1282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_maps_layout_1_maps_layout_1_module__ = __webpack_require__(1078);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_maps_layout_2_maps_layout_2_module__ = __webpack_require__(1079);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_maps_layout_3_maps_layout_3_module__ = __webpack_require__(1080);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_maps__ = __webpack_require__(1285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_maps_layout_1_maps_layout_1_module__ = __webpack_require__(1076);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_maps_layout_2_maps_layout_2_module__ = __webpack_require__(1077);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_maps_layout_3_maps_layout_3_module__ = __webpack_require__(1078);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -190,7 +190,7 @@ var ItemDetailsPageMapsModule = (function () {
 
 /***/ }),
 
-/***/ 1157:
+/***/ 1156:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -198,7 +198,7 @@ var ItemDetailsPageMapsModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader_maps_api_loader__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader_maps_api_loader__ = __webpack_require__(1159);
 
 
 
@@ -338,13 +338,13 @@ GoogleMapsAPIWrapper.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1158:
+/***/ 1157:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElasticHeaderModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__elastic_header__ = __webpack_require__(1158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -374,7 +374,7 @@ var ElasticHeaderModule = (function () {
 
 /***/ }),
 
-/***/ 1159:
+/***/ 1158:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -440,7 +440,7 @@ var ElasticHeader = (function () {
 
 /***/ }),
 
-/***/ 1160:
+/***/ 1159:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -462,7 +462,7 @@ MapsAPILoader.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 1161:
+/***/ 1160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -470,7 +470,7 @@ MapsAPILoader.ctorParameters = function () { return []; };
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -561,7 +561,7 @@ MarkerManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1162:
+/***/ 1161:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -569,7 +569,7 @@ MarkerManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -662,7 +662,7 @@ CircleManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1163:
+/***/ 1162:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -670,8 +670,8 @@ CircleManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__marker_manager__ = __webpack_require__(1161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__marker_manager__ = __webpack_require__(1160);
 
 
 
@@ -764,7 +764,7 @@ InfoWindowManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1164:
+/***/ 1163:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -772,7 +772,7 @@ InfoWindowManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -846,7 +846,7 @@ PolygonManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1165:
+/***/ 1164:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -854,7 +854,7 @@ PolygonManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -934,7 +934,7 @@ PolylineManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1166:
+/***/ 1165:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -942,7 +942,7 @@ PolylineManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -1008,7 +1008,7 @@ KmlLayerManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1167:
+/***/ 1166:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1016,7 +1016,7 @@ KmlLayerManager.ctorParameters = function () { return [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1156);
 
 
 
@@ -1123,13 +1123,13 @@ DataLayerManager.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1168:
+/***/ 1167:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmInfoWindow; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_info_window_manager__ = __webpack_require__(1163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_info_window_manager__ = __webpack_require__(1162);
 
 
 var infoWindowId = 0;
@@ -1259,7 +1259,7 @@ AgmInfoWindow.propDecorators = {
 
 /***/ }),
 
-/***/ 1169:
+/***/ 1168:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1303,7 +1303,7 @@ AgmPolylinePoint.propDecorators = {
 
 /***/ }),
 
-/***/ 1170:
+/***/ 1169:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1311,8 +1311,8 @@ AgmPolylinePoint.propDecorators = {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LAZY_MAPS_API_CONFIG; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return LazyMapsAPILoader; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_browser_globals__ = __webpack_require__(1181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_browser_globals__ = __webpack_require__(1180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader__ = __webpack_require__(1159);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -1430,20 +1430,20 @@ LazyMapsAPILoader.ctorParameters = function () { return [
 
 /***/ }),
 
-/***/ 1174:
+/***/ 1173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmMap; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_google_maps_api_wrapper__ = __webpack_require__(1157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_circle_manager__ = __webpack_require__(1162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_info_window_manager__ = __webpack_require__(1163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_marker_manager__ = __webpack_require__(1161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polygon_manager__ = __webpack_require__(1164);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_polyline_manager__ = __webpack_require__(1165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_kml_layer_manager__ = __webpack_require__(1166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_managers_data_layer_manager__ = __webpack_require__(1167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_google_maps_api_wrapper__ = __webpack_require__(1156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_circle_manager__ = __webpack_require__(1161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_info_window_manager__ = __webpack_require__(1162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_marker_manager__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polygon_manager__ = __webpack_require__(1163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_polyline_manager__ = __webpack_require__(1164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_kml_layer_manager__ = __webpack_require__(1165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_managers_data_layer_manager__ = __webpack_require__(1166);
 
 
 
@@ -1867,13 +1867,13 @@ AgmMap.propDecorators = {
 
 /***/ }),
 
-/***/ 1175:
+/***/ 1174:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmCircle; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1161);
 
 
 var AgmCircle = (function () {
@@ -2094,13 +2094,13 @@ AgmCircle.propDecorators = {
 
 /***/ }),
 
-/***/ 1176:
+/***/ 1175:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmKmlLayer; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_kml_layer_manager__ = __webpack_require__(1166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_kml_layer_manager__ = __webpack_require__(1165);
 
 
 var layerId = 0;
@@ -2227,13 +2227,13 @@ AgmKmlLayer.propDecorators = {
 
 /***/ }),
 
-/***/ 1177:
+/***/ 1176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmDataLayer; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_data_layer_manager__ = __webpack_require__(1167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_data_layer_manager__ = __webpack_require__(1166);
 
 
 var layerId = 0;
@@ -2506,14 +2506,14 @@ AgmDataLayer.propDecorators = {
 
 /***/ }),
 
-/***/ 1178:
+/***/ 1177:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmMarker; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_marker_manager__ = __webpack_require__(1161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_window__ = __webpack_require__(1168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_marker_manager__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_window__ = __webpack_require__(1167);
 
 
 
@@ -2720,13 +2720,13 @@ AgmMarker.propDecorators = {
 
 /***/ }),
 
-/***/ 1179:
+/***/ 1178:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmPolygon; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polygon_manager__ = __webpack_require__(1164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polygon_manager__ = __webpack_require__(1163);
 
 
 /**
@@ -2963,14 +2963,14 @@ AgmPolygon.propDecorators = {
 
 /***/ }),
 
-/***/ 1180:
+/***/ 1179:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmPolyline; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polyline_manager__ = __webpack_require__(1165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__polyline_point__ = __webpack_require__(1169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polyline_manager__ = __webpack_require__(1164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__polyline_point__ = __webpack_require__(1168);
 
 
 
@@ -3188,7 +3188,7 @@ AgmPolyline.propDecorators = {
 
 /***/ }),
 
-/***/ 1181:
+/***/ 1180:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3239,23 +3239,23 @@ var BROWSER_GLOBALS_PROVIDERS = [WindowRef, DocumentRef];
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_map__ = __webpack_require__(1174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_map__ = __webpack_require__(1173);
 /* unused harmony reexport AgmMap */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_circle__ = __webpack_require__(1175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_circle__ = __webpack_require__(1174);
 /* unused harmony reexport AgmCircle */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_info_window__ = __webpack_require__(1168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_info_window__ = __webpack_require__(1167);
 /* unused harmony reexport AgmInfoWindow */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_kml_layer__ = __webpack_require__(1176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_kml_layer__ = __webpack_require__(1175);
 /* unused harmony reexport AgmKmlLayer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_data_layer__ = __webpack_require__(1177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_data_layer__ = __webpack_require__(1176);
 /* unused harmony reexport AgmDataLayer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_marker__ = __webpack_require__(1178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_marker__ = __webpack_require__(1177);
 /* unused harmony reexport AgmMarker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polygon__ = __webpack_require__(1179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polygon__ = __webpack_require__(1178);
 /* unused harmony reexport AgmPolygon */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline__ = __webpack_require__(1180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline__ = __webpack_require__(1179);
 /* unused harmony reexport AgmPolyline */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_polyline_point__ = __webpack_require__(1169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_polyline_point__ = __webpack_require__(1168);
 /* unused harmony reexport AgmPolylinePoint */
 
 
@@ -3274,27 +3274,27 @@ var BROWSER_GLOBALS_PROVIDERS = [WindowRef, DocumentRef];
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_google_maps_api_wrapper__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_google_maps_api_wrapper__ = __webpack_require__(1156);
 /* unused harmony reexport GoogleMapsAPIWrapper */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1161);
 /* unused harmony reexport CircleManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_info_window_manager__ = __webpack_require__(1163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_info_window_manager__ = __webpack_require__(1162);
 /* unused harmony reexport InfoWindowManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_marker_manager__ = __webpack_require__(1161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_marker_manager__ = __webpack_require__(1160);
 /* unused harmony reexport MarkerManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_polygon_manager__ = __webpack_require__(1164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_polygon_manager__ = __webpack_require__(1163);
 /* unused harmony reexport PolygonManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polyline_manager__ = __webpack_require__(1165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polyline_manager__ = __webpack_require__(1164);
 /* unused harmony reexport PolylineManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_kml_layer_manager__ = __webpack_require__(1166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_kml_layer_manager__ = __webpack_require__(1165);
 /* unused harmony reexport KmlLayerManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_data_layer_manager__ = __webpack_require__(1167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_data_layer_manager__ = __webpack_require__(1166);
 /* unused harmony reexport DataLayerManager */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1169);
 /* unused harmony reexport GoogleMapsScriptProtocol */
 /* unused harmony reexport LAZY_MAPS_API_CONFIG */
 /* unused harmony reexport LazyMapsAPILoader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1159);
 /* unused harmony reexport MapsAPILoader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_noop_maps_api_loader__ = __webpack_require__(1189);
 /* unused harmony reexport NoOpMapsAPILoader */
@@ -3346,18 +3346,18 @@ var NoOpMapsAPILoader = (function () {
 /* unused harmony export coreDirectives */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmCoreModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_map__ = __webpack_require__(1174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_circle__ = __webpack_require__(1175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_info_window__ = __webpack_require__(1168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_marker__ = __webpack_require__(1178);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_polygon__ = __webpack_require__(1179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polyline__ = __webpack_require__(1180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline_point__ = __webpack_require__(1169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_kml_layer__ = __webpack_require__(1176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directives_data_layer__ = __webpack_require__(1177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_browser_globals__ = __webpack_require__(1181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_map__ = __webpack_require__(1173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_circle__ = __webpack_require__(1174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_info_window__ = __webpack_require__(1167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_marker__ = __webpack_require__(1177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_polygon__ = __webpack_require__(1178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polyline__ = __webpack_require__(1179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline_point__ = __webpack_require__(1168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_kml_layer__ = __webpack_require__(1175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directives_data_layer__ = __webpack_require__(1176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_browser_globals__ = __webpack_require__(1180);
 
 
 
@@ -3413,7 +3413,7 @@ AgmCoreModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 1228:
+/***/ 1229:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3455,7 +3455,7 @@ var MapsLayout1 = (function () {
     ], MapsLayout1.prototype, "events", void 0);
     MapsLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'maps-layout-1',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\maps\layout-1\maps.html"*/'<!--Content -->\n\n<ion-content elastic-header>\n\n    <div id="elastic-header">\n\n        <agm-map *ngIf="data != null" [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n            <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n        </agm-map>\n\n    </div>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12 map-header>\n\n                <ion-item social no-lines transparent>\n\n                    <ion-icon (click)="onEvent(\'onLike\', data)">\n\n                        <i class="icon {{data.iconLike}}"></i>\n\n                    </ion-icon>\n\n                    <ion-icon (click)="onEvent(\'onFavorite\', data)">\n\n                        <i class="icon {{data.iconFavorite}}"></i>\n\n                    </ion-icon>\n\n                    <ion-icon (click)="onEvent(\'onShare\', data)">\n\n                        <i class="icon {{data.iconShare}}"></i>\n\n                    </ion-icon>\n\n                </ion-item>\n\n                <ion-item no-lines transparent>\n\n                    <h1 padding-left maps-title>{{data.title}}</h1>\n\n                    <p padding-left maps-subtitle>{{data.titleDescription}}</p>\n\n                    <!--Parallax Rateing-->\n\n                    <ion-item no-margin padding-left transparent>\n\n                        <ion-icon *ngFor="let item of data.iconsStars;let i = index" (click)="onStarClass(data.iconsStars, i, $event)">\n\n                            <i *ngIf="item.isActive" class="icon {{item.iconActive}}"></i>\n\n                            <i *ngIf="!item.isActive" class="icon {{item.iconInactive}}"></i>\n\n                        </ion-icon>\n\n                        <span>{{data.reviews}}</span>\n\n                    </ion-item>\n\n                </ion-item>\n\n            </ion-col>\n\n            <!---Content-->\n\n            <ion-col col-12 map-content>\n\n                <ion-item padding no-lines>\n\n                    <h2 title padding-left>{{data.contentTitle}}</h2>\n\n                    <p description text-wrap padding-left>{{data.contentDescription}}</p>\n\n                </ion-item>\n\n            </ion-col>\n\n            <!---Content Info-->\n\n            <ion-col col-12 map-content>\n\n                <ion-list info>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconLoacation}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconLoacationText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconWatch}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconWatchText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconPhone}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconPhoneText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconEarth}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconEarthText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconEmail}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconEmailText}}</p>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\maps\layout-1\maps.html"*/
+            selector: 'maps-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-1/maps.html"*/'<!--Content -->\n\n<ion-content elastic-header>\n\n    <div id="elastic-header">\n\n        <agm-map *ngIf="data != null" [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n            <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n        </agm-map>\n\n    </div>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row>\n\n            <ion-col col-12 map-header>\n\n                <ion-item social no-lines transparent>\n\n                    <ion-icon (click)="onEvent(\'onLike\', data)">\n\n                        <i class="icon {{data.iconLike}}"></i>\n\n                    </ion-icon>\n\n                    <ion-icon (click)="onEvent(\'onFavorite\', data)">\n\n                        <i class="icon {{data.iconFavorite}}"></i>\n\n                    </ion-icon>\n\n                    <ion-icon (click)="onEvent(\'onShare\', data)">\n\n                        <i class="icon {{data.iconShare}}"></i>\n\n                    </ion-icon>\n\n                </ion-item>\n\n                <ion-item no-lines transparent>\n\n                    <h1 padding-left maps-title>{{data.title}}</h1>\n\n                    <p padding-left maps-subtitle>{{data.titleDescription}}</p>\n\n                    <!--Parallax Rateing-->\n\n                    <ion-item no-margin padding-left transparent>\n\n                        <ion-icon *ngFor="let item of data.iconsStars;let i = index" (click)="onStarClass(data.iconsStars, i, $event)">\n\n                            <i *ngIf="item.isActive" class="icon {{item.iconActive}}"></i>\n\n                            <i *ngIf="!item.isActive" class="icon {{item.iconInactive}}"></i>\n\n                        </ion-icon>\n\n                        <span>{{data.reviews}}</span>\n\n                    </ion-item>\n\n                </ion-item>\n\n            </ion-col>\n\n            <!---Content-->\n\n            <ion-col col-12 map-content>\n\n                <ion-item padding no-lines>\n\n                    <h2 title padding-left>{{data.contentTitle}}</h2>\n\n                    <p description text-wrap padding-left>{{data.contentDescription}}</p>\n\n                </ion-item>\n\n            </ion-col>\n\n            <!---Content Info-->\n\n            <ion-col col-12 map-content>\n\n                <ion-list info>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconLoacation}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconLoacationText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconWatch}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconWatchText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconPhone}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconPhoneText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconEarth}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconEarthText}}</p>\n\n                    </ion-item>\n\n                    <ion-item no-lines padding-left>\n\n                        <ion-icon item-start icon-small padding-left>\n\n                            <i class="icon {{data.iconEmail}}"></i>\n\n                        </ion-icon>\n\n                        <p no-margin description>{{data.iconEmailText}}</p>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-1/maps.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MapsLayout1);
@@ -3466,7 +3466,7 @@ var MapsLayout1 = (function () {
 
 /***/ }),
 
-/***/ 1229:
+/***/ 1230:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3501,7 +3501,7 @@ var MapsLayout2 = (function () {
     ], MapsLayout2.prototype, "events", void 0);
     MapsLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'maps-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\maps\layout-2\maps.html"*/'<!--Google Maps Gmaps + About Us-->\n\n<ion-content *ngIf="data != null">\n\n  <ion-grid no-padding>\n\n    <ion-row no-padding>\n\n      <!--Social Shere-->\n\n      <ion-col col-12>\n\n        <ion-item no-lines>\n\n          <div float-right social>\n\n            <ion-icon icon-small (click)="onEvent(\'onLike\', data)">\n\n              <i class="icon {{data.iconLike}}"></i>\n\n            </ion-icon>\n\n            <ion-icon icon-small (click)="onEvent(\'onFavorite\', data)">\n\n              <i class="icon {{data.iconFavorite}}"></i>\n\n            </ion-icon>\n\n            <ion-icon icon-small (click)="onEvent(\'onShare\', data)">\n\n              <i class="icon {{data.iconShare}}"></i>\n\n            </ion-icon>\n\n          </div>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---About Name-->\n\n      <ion-col col-12>\n\n        <ion-item map-header no-lines>\n\n          <h1 maps-title padding-horizontal>{{data.title}}</h1>\n\n          <p maps-subtitle padding-horizontal>{{data.titleDescription}}</p>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---About Us-->\n\n      <ion-col col-12 map-content>\n\n        <ion-item no-lines>\n\n          <h2 title padding-horizontal>{{data.contentTitle}}</h2>\n\n          <p description text-wrap padding-horizontal>{{data.contentDescription}}</p>\n\n        </ion-item>\n\n        <!---About Info-->\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconLoacation}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconLoacationText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconWatch}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconWatchText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconPhone}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconPhoneText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconEarth}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconEarthText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconEmail}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconEmailText}}</p>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---MAP TEXT-->\n\n      <ion-col col-12>\n\n        <ion-item no-lines>\n\n          <h2 title padding-horizontal>{{data.titleMap}}</h2>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---MAP-->\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n          <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n        </agm-map>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\maps\layout-2\maps.html"*/
+            selector: 'maps-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-2/maps.html"*/'<!--Google Maps Gmaps + About Us-->\n\n<ion-content *ngIf="data != null">\n\n  <ion-grid no-padding>\n\n    <ion-row no-padding>\n\n      <!--Social Shere-->\n\n      <ion-col col-12>\n\n        <ion-item no-lines>\n\n          <div float-right social>\n\n            <ion-icon icon-small (click)="onEvent(\'onLike\', data)">\n\n              <i class="icon {{data.iconLike}}"></i>\n\n            </ion-icon>\n\n            <ion-icon icon-small (click)="onEvent(\'onFavorite\', data)">\n\n              <i class="icon {{data.iconFavorite}}"></i>\n\n            </ion-icon>\n\n            <ion-icon icon-small (click)="onEvent(\'onShare\', data)">\n\n              <i class="icon {{data.iconShare}}"></i>\n\n            </ion-icon>\n\n          </div>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---About Name-->\n\n      <ion-col col-12>\n\n        <ion-item map-header no-lines>\n\n          <h1 maps-title padding-horizontal>{{data.title}}</h1>\n\n          <p maps-subtitle padding-horizontal>{{data.titleDescription}}</p>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---About Us-->\n\n      <ion-col col-12 map-content>\n\n        <ion-item no-lines>\n\n          <h2 title padding-horizontal>{{data.contentTitle}}</h2>\n\n          <p description text-wrap padding-horizontal>{{data.contentDescription}}</p>\n\n        </ion-item>\n\n        <!---About Info-->\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconLoacation}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconLoacationText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconWatch}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconWatchText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconPhone}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconPhoneText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconEarth}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconEarthText}}</p>\n\n        </ion-item>\n\n        <ion-item no-lines>\n\n          <ion-icon item-start icon-small padding-left>\n\n            <i class="icon {{data.iconEmail}}"></i>\n\n          </ion-icon>\n\n          <p no-margin description>{{data.iconEmailText}}</p>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---MAP TEXT-->\n\n      <ion-col col-12>\n\n        <ion-item no-lines>\n\n          <h2 title padding-horizontal>{{data.titleMap}}</h2>\n\n        </ion-item>\n\n      </ion-col>\n\n      <!---MAP-->\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n          <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n        </agm-map>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-2/maps.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MapsLayout2);
@@ -3512,7 +3512,7 @@ var MapsLayout2 = (function () {
 
 /***/ }),
 
-/***/ 1230:
+/***/ 1231:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3547,7 +3547,7 @@ var MapsLayout3 = (function () {
     ], MapsLayout3.prototype, "events", void 0);
     MapsLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'maps-layout-3',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\maps\layout-3\maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\maps\layout-3\maps.html"*/
+            selector: 'maps-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-3/maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/maps/layout-3/maps.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MapsLayout3);
@@ -3558,13 +3558,13 @@ var MapsLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1282:
+/***/ 1285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageMaps; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3592,7 +3592,7 @@ var ItemDetailsPageMaps = (function () {
         }
     }
     ItemDetailsPageMaps = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Pessoal\elements2\src\pages\item-details-maps\item-details-maps.html"*/'<!-- GOOGLE MAPS component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE GOOGLE MAPS - GMAPS + Location  Details -->\n\n<maps-layout-1 has-header *ngIf="params.mapsLayout1" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-1>\n\n\n\n<!-- PAGE GOOGLE MAPS - GMAPS + About Us -->\n\n<maps-layout-2 has-header *ngIf="params.mapsLayout2" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-2>\n\n\n\n<!-- PAGE GOOGLE MAPS - Full Screen View -->\n\n<maps-layout-3 has-header *ngIf="params.mapsLayout3" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-3>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\pages\item-details-maps\item-details-maps.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-maps/item-details-maps.html"*/'<!-- GOOGLE MAPS component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--Content-->\n\n\n\n<!-- PAGE GOOGLE MAPS - GMAPS + Location  Details -->\n\n<maps-layout-1 has-header *ngIf="params.mapsLayout1" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-1>\n\n\n\n<!-- PAGE GOOGLE MAPS - GMAPS + About Us -->\n\n<maps-layout-2 has-header *ngIf="params.mapsLayout2" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-2>\n\n\n\n<!-- PAGE GOOGLE MAPS - Full Screen View -->\n\n<maps-layout-3 has-header *ngIf="params.mapsLayout3" [data]="params.data | async" [events]="params.events">\n\n</maps-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-maps/item-details-maps.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageMaps);

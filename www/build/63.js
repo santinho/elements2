@@ -1,14 +1,14 @@
 webpackJsonp([63],{
 
-/***/ 1103:
+/***/ 1038:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout2Module", function() { return SplashScreenLayout2Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubImageGalleryModule", function() { return SubImageGalleryModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__ = __webpack_require__(1253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sub_image_gallery__ = __webpack_require__(1191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,36 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var SplashScreenLayout2Module = (function () {
-    function SplashScreenLayout2Module() {
+var SubImageGalleryModule = (function () {
+    function SubImageGalleryModule() {
     }
-    SplashScreenLayout2Module = __decorate([
+    SubImageGalleryModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__["a" /* SplashScreenLayout2 */],
+                __WEBPACK_IMPORTED_MODULE_2__sub_image_gallery__["a" /* SubImageGallery */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__["a" /* SplashScreenLayout2 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sub_image_gallery__["a" /* SubImageGallery */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__["a" /* SplashScreenLayout2 */]
+                __WEBPACK_IMPORTED_MODULE_2__sub_image_gallery__["a" /* SubImageGallery */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], SplashScreenLayout2Module);
-    return SplashScreenLayout2Module;
+    ], SubImageGalleryModule);
+    return SubImageGalleryModule;
 }());
 
-//# sourceMappingURL=splash-screen-layout-2.module.js.map
+//# sourceMappingURL=sub-image-gallery.module.js.map
 
 /***/ }),
 
-/***/ 1253:
+/***/ 1191:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreenLayout2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubImageGallery; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -58,52 +59,44 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var SplashScreenLayout2 = (function () {
-    function SplashScreenLayout2() {
-    }
-    SplashScreenLayout2.prototype.ngOnChanges = function (changes) {
-        clearInterval(this.timer);
-        this.executeEvents();
-    };
-    SplashScreenLayout2.prototype.getData = function () {
-        return this.data;
-    };
-    SplashScreenLayout2.prototype.getEvents = function () {
-        return this.events;
-    };
-    SplashScreenLayout2.prototype.executeEvents = function () {
-        var duration = (this.getData() && this.getData().duration) ? this.getData().duration : 10000;
-        var events = null;
-        if (this.getEvents()) {
-            events = this.getEvents()['onRedirect'];
-        }
-        this.timer = setTimeout(function () {
-            if (events) {
-                events();
+
+var SubImageGallery = (function () {
+    function SubImageGallery(navCtrl, navParams) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.onEvent = function (event, item, e) {
+            if (e) {
+                e.stopPropagation();
             }
-        }, duration);
-    };
-    SplashScreenLayout2.prototype.ngOnDestroy = function () {
-        clearInterval(this.timer);
-    };
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+        this.openImageSlider = function (group, index) {
+            _this.navCtrl.push(group.fullscreen, {
+                'group': group.items,
+                'index': index
+            });
+        };
+    }
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], SplashScreenLayout2.prototype, "data", void 0);
+    ], SubImageGallery.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], SplashScreenLayout2.prototype, "events", void 0);
-    SplashScreenLayout2 = __decorate([
+    ], SubImageGallery.prototype, "events", void 0);
+    SubImageGallery = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"D:\Pessoal\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Pessoal\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/
+            selector: 'sub-image-gallery',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/sub-image-gallery/sub-image-gallery.html"*/'<!-- Theme Image Sub-Gallery for Category 1 -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-margin no-padding>\n\n        <ion-col no-margin no-padding col-4 col-sm-3 col-md-6 col-lg-4 col-xl-3 *ngFor="let item of data.items;let i = index;">\n\n            <ion-card no-margin background-size (click)="openImageSlider(data, i)" [ngStyle]="{\'background-image\': \'url(\' + item.image + \')\'}">\n\n            </ion-card>\n\n        </ion-col>\n\n    </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/sub-image-gallery/sub-image-gallery.html"*/
         }),
-        __metadata("design:paramtypes", [])
-    ], SplashScreenLayout2);
-    return SplashScreenLayout2;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
+    ], SubImageGallery);
+    return SubImageGallery;
 }());
 
-//# sourceMappingURL=splash-screen-layout-2.js.map
+//# sourceMappingURL=sub-image-gallery.js.map
 
 /***/ })
 
