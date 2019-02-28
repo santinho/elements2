@@ -51,7 +51,7 @@
                     <h2 padding-left>Perícias de Classe: {{group.PericiasClasse}}</h2>
                     <h2 padding-left>Talentos: {{group.Talentos}}</h2>
                     <br/>
-                    <h2 *ngFor="let lvl of group.Niveis" padding-left><div *ngIf="lvl">Lvl{{lvl.Nivel}}: {{lvl.Habilidade}}</div></h2>
+                    <h2 *ngFor="let lvl of group.Niveis" padding-left><div *ngIf="lvl">Lvl{{lvl.Nivel}}: BBA:{{lvl.BBA}} - {{lvl.Habilidade}}</div></h2>
                 </ion-item>
               </div>
               <!--end-->
