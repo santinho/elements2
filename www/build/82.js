@@ -80,7 +80,7 @@ var RangeLayout1 = (function () {
     ], RangeLayout1.prototype, "events", void 0);
     RangeLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'range-button-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-1/range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/range/layout-1/range.html"*/
+            selector: 'range-button-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\range\layout-1\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\range\layout-1\range.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RangeLayout1);

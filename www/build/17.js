@@ -126,7 +126,7 @@ var TabsLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1144:
+/***/ 1145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -134,7 +134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageTabsModule", function() { return ItemDetailsPageTabsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(1298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_tabs__ = __webpack_require__(1299);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_tabs_layout_1_tabs_layout_1_module__ = __webpack_require__(1106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_tabs_layout_2_tabs_layout_2_module__ = __webpack_require__(1107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_tabs_layout_3_tabs_layout_3_module__ = __webpack_require__(1108);
@@ -207,7 +207,7 @@ var TabsLayout1 = (function () {
     ], TabsLayout1.prototype, "tabRef", void 0);
     TabsLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-1/tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n  <ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-1/tabs.html"*/
+            selector: 'tabs-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-1\tabs.html"*/'<!-- Theme Tabs Footer tab - text -->\n\n  <ion-tabs #tabs tabsPlacement="bottom">\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-1\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout1);
@@ -251,7 +251,7 @@ var TabsLayout2 = (function () {
     ], TabsLayout2.prototype, "tabRef", void 0);
     TabsLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-2/tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-2/tabs.html"*/
+            selector: 'tabs-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout2);
@@ -295,7 +295,7 @@ var TabsLayout3 = (function () {
     ], TabsLayout3.prototype, "tabRef", void 0);
     TabsLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-3/tabs.html"*/'<!-- Theme Tabs Header tab - text -->\n\n  <ion-tabs #tabs tabsPlacement=\'top\' tabs-content>\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-3/tabs.html"*/
+            selector: 'tabs-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-3\tabs.html"*/'<!-- Theme Tabs Header tab - text -->\n\n  <ion-tabs #tabs tabsPlacement=\'top\' tabs-content>\n\n    <ion-tab [tabTitle]="item.title" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-3\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout3);
@@ -306,7 +306,7 @@ var TabsLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1298:
+/***/ 1299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -361,7 +361,7 @@ var ItemDetailsPageTabs = (function () {
         }
     }
     ItemDetailsPageTabs = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-tabs/item-details-tabs.html"*/'<!--Tabs component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!-- Content -->\n\n\n\n<!-- PAGE TABS - Footer tab - text -->\n\n<tabs-layout-1 has-header *ngIf="params.tabsLayout1" [data]="params.data" [events]="params.events">\n\n</tabs-layout-1>\n\n\n\n<!-- PAGE TABS - Footer tab - icons -->\n\n<tabs-layout-2 has-header *ngIf="params.tabsLayout2" [data]="params.data" [events]="params.events">\n\n</tabs-layout-2>\n\n\n\n<!-- PAGE TABS - Header tab - text -->\n\n<tabs-layout-3 *ngIf="params.tabsLayout3" [data]="params.data" [events]="params.events">\n\n</tabs-layout-3>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-tabs/item-details-tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\item-details-tabs\item-details-tabs.html"*/'<!--Tabs component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!-- Content -->\n\n\n\n<!-- PAGE TABS - Footer tab - text -->\n\n<tabs-layout-1 has-header *ngIf="params.tabsLayout1" [data]="params.data" [events]="params.events">\n\n</tabs-layout-1>\n\n\n\n<!-- PAGE TABS - Footer tab - icons -->\n\n<tabs-layout-2 has-header *ngIf="params.tabsLayout2" [data]="params.data" [events]="params.events">\n\n</tabs-layout-2>\n\n\n\n<!-- PAGE TABS - Header tab - text -->\n\n<tabs-layout-3 *ngIf="params.tabsLayout3" [data]="params.data" [events]="params.events">\n\n</tabs-layout-3>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\item-details-tabs\item-details-tabs.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageTabs);

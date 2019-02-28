@@ -1,6 +1,6 @@
 webpackJsonp([117],{
 
-/***/ 1043:
+/***/ 1042:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout3Module", function() { return ActionSheetLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__ = __webpack_require__(1196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__ = __webpack_require__(1195);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var ActionSheetLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1196:
+/***/ 1195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -115,7 +115,7 @@ var ActionSheetLayout3 = (function () {
     ], ActionSheetLayout3.prototype, "content", void 0);
     ActionSheetLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'action-sheet-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/'<!-- Theme Action Sheet - With Text Header -->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row *ngIf="data != null">\n\n            <!-- Cards Full Image-->\n\n            <ion-col col-12 col-md-6 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n                <ion-card (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <ion-item no-lines>\n\n                      <!-- Card Categoty-->\n\n                      <span new-category text-uppercase>{{item.category}}</span>\n\n                      <!-- Card Title-->\n\n                      <h2 card-title text-capitalize>{{item.title}}</h2>\n\n                      <!-- Card Subtitle-->\n\n                      <h3 card-subtitle text-wrap>{{item.subtitle}}</h3>\n\n                      <!-- Card Action Sheet Button-->\n\n                      <button item-end clear ion-button color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                          <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                  <!-- Card Big Image-->\n\n                  <img images-filter [src]="item.image" />\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/
+            selector: 'action-sheet-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\action-sheet\layout-3\action-sheet.html"*/'<!-- Theme Action Sheet - With Text Header -->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row *ngIf="data != null">\n\n            <!-- Cards Full Image-->\n\n            <ion-col col-12 col-md-6 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n                <ion-card (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <ion-item no-lines>\n\n                      <!-- Card Categoty-->\n\n                      <span new-category text-uppercase>{{item.category}}</span>\n\n                      <!-- Card Title-->\n\n                      <h2 card-title text-capitalize>{{item.title}}</h2>\n\n                      <!-- Card Subtitle-->\n\n                      <h3 card-subtitle text-wrap>{{item.subtitle}}</h3>\n\n                      <!-- Card Action Sheet Button-->\n\n                      <button item-end clear ion-button color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                          <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                  <!-- Card Big Image-->\n\n                  <img images-filter [src]="item.image" />\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\action-sheet\layout-3\action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetLayout3);

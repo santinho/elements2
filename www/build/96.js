@@ -1,6 +1,6 @@
 webpackJsonp([96],{
 
-/***/ 1062:
+/***/ 1061:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleCardLayout1Module", function() { return GoogleCardLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_1__ = __webpack_require__(1215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_1__ = __webpack_require__(1214);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var GoogleCardLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1215:
+/***/ 1214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -112,7 +112,7 @@ var GoogleCardLayout1 = (function () {
     ], GoogleCardLayout1.prototype, "fabButton", void 0);
     GoogleCardLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'google-card-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-1/google-card.html"*/'<!--Theme Styled cards-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row card-background-page>\n\n      <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 *ngFor="let item of data.items;let i = index">\n\n            <ion-card text-left (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n              <!--Card-image-->\n\n              <div item-start float-left card-img>\n\n                <img [src]="item.image" />\n\n              </div>\n\n              <!--Card-content-->\n\n              <ion-card-content>\n\n                <!--Card-title-->\n\n                <ion-card-title no-padding>\n\n                  <h2 card-title>{{item.title}}</h2>\n\n                </ion-card-title>\n\n                <!--Description-->\n\n                <h3 card-subtitle>{{item.description}}</h3>\n\n                <h3 card-subtitle>{{item.shortDescription}}</h3>\n\n                <p card-body-text>{{item.longDescription}}</p>\n\n                <!---Social share-->\n\n                <div float-right social>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="group.iconLike" class="icon {{item.iconLike}}" (click)="onEvent(\'onLike\', item, $event)"></i>\n\n                  </ion-icon>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="item.iconFavorite" class="icon {{item.iconFavorite}}" (click)="onEvent(\'onFavorite\', item, $event)"></i>\n\n                  </ion-icon>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="item.iconShare" class="icon {{item.iconShare}}" (click)="onEvent(\'onShare\', item, $event)"></i>\n\n                  </ion-icon>\n\n                </div>\n\n              </ion-card-content>\n\n            </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n      <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/google-card/layout-1/google-card.html"*/
+            selector: 'google-card-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\google-card\layout-1\google-card.html"*/'<!--Theme Styled cards-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row card-background-page>\n\n      <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 *ngFor="let item of data.items;let i = index">\n\n            <ion-card text-left (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n              <!--Card-image-->\n\n              <div item-start float-left card-img>\n\n                <img [src]="item.image" />\n\n              </div>\n\n              <!--Card-content-->\n\n              <ion-card-content>\n\n                <!--Card-title-->\n\n                <ion-card-title no-padding>\n\n                  <h2 card-title>{{item.title}}</h2>\n\n                </ion-card-title>\n\n                <!--Description-->\n\n                <h3 card-subtitle>{{item.description}}</h3>\n\n                <h3 card-subtitle>{{item.shortDescription}}</h3>\n\n                <p card-body-text>{{item.longDescription}}</p>\n\n                <!---Social share-->\n\n                <div float-right social>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="group.iconLike" class="icon {{item.iconLike}}" (click)="onEvent(\'onLike\', item, $event)"></i>\n\n                  </ion-icon>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="item.iconFavorite" class="icon {{item.iconFavorite}}" (click)="onEvent(\'onFavorite\', item, $event)"></i>\n\n                  </ion-icon>\n\n                  <ion-icon>\n\n                    <i icon-small ng-if="item.iconShare" class="icon {{item.iconShare}}" (click)="onEvent(\'onShare\', item, $event)"></i>\n\n                  </ion-icon>\n\n                </div>\n\n              </ion-card-content>\n\n            </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n      <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\google-card\layout-1\google-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], GoogleCardLayout1);

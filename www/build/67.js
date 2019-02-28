@@ -74,7 +74,7 @@ var Spinner = (function () {
     ], Spinner.prototype, "data", void 0);
     Spinner = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'spinner',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/spinner/spinner.html"*/
+            selector: 'spinner',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\spinner\spinner.html"*/'<!-- Theme Spinner -->\n\n<img [src]="path" />\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\spinner\spinner.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], Spinner);

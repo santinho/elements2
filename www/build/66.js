@@ -96,7 +96,7 @@ var SplashScreenLayout1 = (function () {
     ], SplashScreenLayout1.prototype, "events", void 0);
     SplashScreenLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-1/splash-screen.html"*/'<!--Theme Fade in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/splash-screen/layout-1/splash-screen.html"*/
+            selector: 'splash-screen-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-1\splash-screen.html"*/'<!--Theme Fade in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-1\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout1);

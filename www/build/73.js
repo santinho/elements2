@@ -77,7 +77,7 @@ var SelectLayout1 = (function () {
     ], SelectLayout1.prototype, "events", void 0);
     SelectLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-1/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/select/layout-1/select.html"*/
+            selector: 'select-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\select\layout-1\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\select\layout-1\select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout1);

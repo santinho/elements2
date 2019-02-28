@@ -14,19 +14,23 @@ import { Observable } from 'rxjs';
 })
 export class ElementsClassesPage {
   title: string = 'Classes';
+  node: string = 'Tormenta/Classes'
   list: Observable<any[]>;
   listFiltered: Observable<any[]>;
   lvls: number[] = [0,1,2,3,4,5,6,7,8,9,10]
-  tipoClasses: string[]=['Agility', 'Clericato', 'Damage', 'Utility']
-  tipoClassesSelecionados: string[] = ['Agility', 'Clericato', 'Damage', 'Utility'];
+  tipoClasses: string[]=[]
+  tipoClassesSelecionados: string[] = [];
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     console.log('classes');
     service.load().subscribe(snapshot => {
       this.data = snapshot;
     });
-    this.list = this.af.list('classes').valueChanges()
-    this.listFiltered = this.af.list('classes').valueChanges()
+    this.list = this.af.list(this.node).valueChanges()
+    this.listFiltered = this.af.list(this.node).valueChanges()
+    this.list.subscribe((l)=>{
+      console.log(l);
+    });
   }
 
   @Input() data: any;
@@ -39,13 +43,14 @@ export class ElementsClassesPage {
     console.log('getItems', this.searchTerm)
     if (!this.list) {
       this.list = this.listFiltered;
+      
     }
     this.list.subscribe((listaBD:any[])=>{
       let listaBDFiltrada = listaBD.filter((item) => {
         let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
-        let classeOK:boolean = this.tipoClassesSelecionados.indexOf(item['TipoClasse']) > -1;
 
-        return nomeOK && classeOK
+
+        return nomeOK
       });
       this.listFiltered = Observable.of(listaBDFiltrada);
 

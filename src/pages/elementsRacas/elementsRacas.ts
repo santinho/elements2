@@ -14,18 +14,19 @@ import { Observable } from 'rxjs';
 })
 export class ElementsRacasPage {
   title: string = 'Racas';
+  node: string = 'Tormenta/Raca'
   list: Observable<any[]>;
   listFiltered: Observable<any[]>;
   lvls: number[] = [0,1,2,3,4,5,6,7,8,9,10]
-  tipoRacas: string[]=['Agility', 'Clericato', 'Damage', 'Utility']
-  tipoRacasSelecionados: string[] = ['Agility', 'Clericato', 'Damage', 'Utility'];
+  tipoRacas: string[]=[]
+  tipoRacasSelecionados: string[] = [];
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     service.load().subscribe(snapshot => {
       this.data = snapshot;
     });
-    this.list = this.af.list('racas').valueChanges()
-    this.listFiltered = this.af.list('racas').valueChanges()
+    this.list = this.af.list(this.node).valueChanges()
+    this.listFiltered = this.af.list(this.node).valueChanges()
   }
 
   @Input() data: any;

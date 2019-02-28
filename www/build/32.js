@@ -118,7 +118,7 @@ var QRcodeLayout1 = (function () {
     ], QRcodeLayout1.prototype, "events", void 0);
     QRcodeLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'qrcode-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/'<ion-content has-header>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item padding-right text-wrap>\n\n            <h1 item-title>{{data.format}}</h1>\n\n          </ion-item>\n\n          <ion-item no-lines padding-right text-wrap>\n\n            <p item-subtitle>{{data.text}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/qrcode/layout-1/qrcode.html"*/
+            selector: 'qrcode-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\qrcode\layout-1\qrcode.html"*/'<ion-content has-header>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item padding-right text-wrap>\n\n            <h1 item-title>{{data.format}}</h1>\n\n          </ion-item>\n\n          <ion-item no-lines padding-right text-wrap>\n\n            <p item-subtitle>{{data.text}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\qrcode\layout-1\qrcode.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], QRcodeLayout1);
@@ -179,7 +179,7 @@ var ItemDetailsPageQRCode = (function () {
         });
     };
     ItemDetailsPageQRCode = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-qrcode/item-details-qrcode.html"*/'<!-- QRCode component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--Content-->\n\n<qrcode-layout-1 *ngIf="params.qrcodeLayout1" [data]="params.data" [events]="params.events">\n\n</qrcode-layout-1>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/pages/item-details-qrcode/item-details-qrcode.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\item-details-qrcode\item-details-qrcode.html"*/'<!-- QRCode component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>{{params.title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<!--Content-->\n\n<qrcode-layout-1 *ngIf="params.qrcodeLayout1" [data]="params.data" [events]="params.events">\n\n</qrcode-layout-1>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\item-details-qrcode\item-details-qrcode.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
     ], ItemDetailsPageQRCode);

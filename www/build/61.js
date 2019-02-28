@@ -75,7 +75,7 @@ var TabsLayout2 = (function () {
     ], TabsLayout2.prototype, "tabRef", void 0);
     TabsLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-2/tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/tabs/layout-2/tabs.html"*/
+            selector: 'tabs-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout2);

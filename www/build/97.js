@@ -1,6 +1,6 @@
 webpackJsonp([97],{
 
-/***/ 1061:
+/***/ 1060:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExpandableLayout3Module", function() { return ExpandableLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__ = __webpack_require__(1214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__expandable_layout_3__ = __webpack_require__(1213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var ExpandableLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1214:
+/***/ 1213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -101,7 +101,7 @@ var ExpandableLayout3 = (function () {
     ], ExpandableLayout3.prototype, "fabButton", void 0);
     ExpandableLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'expandable-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-3/expandable.html"*/'<!-- Themes Centered with header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <!---HEADER-->\n\n          <ion-list-header no-margin no-padding no-lines background-size\n\n          [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n            <h2 item-title text-center>{{data.title}}</h2>\n\n          </ion-list-header>\n\n          <!--CONTENT-->\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li no-margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Centered with header Header-->\n\n              <div class="collapsible-header" no-margin no-padding (click)="toggleGroup(group)">\n\n                <ion-item text-center no-lines>\n\n                  <ion-icon icon-small>\n\n                    <i class="icon {{group.icon}}"></i>\n\n                  </ion-icon>\n\n                  <h2 text-center item-title>{{group.title}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Centered with header Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item no-lines no-padding transparent *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 text-center subitem-title>{{item}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/elements3/elements2/src/components/list-view/expandable/layout-3/expandable.html"*/
+            selector: 'expandable-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\expandable\layout-3\expandable.html"*/'<!-- Themes Centered with header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 no-padding no-margin>\n\n        <ion-list>\n\n          <!---HEADER-->\n\n          <ion-list-header no-margin no-padding no-lines background-size\n\n          [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n            <h2 item-title text-center>{{data.title}}</h2>\n\n          </ion-list-header>\n\n          <!--CONTENT-->\n\n          <ul no-margin no-padding class="collapsible">\n\n            <li no-margin *ngFor="let group of data.items;">\n\n              <!-- Expandable Centered with header Header-->\n\n              <div class="collapsible-header" no-margin no-padding (click)="toggleGroup(group)">\n\n                <ion-item text-center no-lines>\n\n                  <ion-icon icon-small>\n\n                    <i class="icon {{group.icon}}"></i>\n\n                  </ion-icon>\n\n                  <h2 text-center item-title>{{group.title}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!-- Expandable Centered with header Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }"\n\n              [hidden]="!isGroupShown(group)">\n\n                <ion-item no-lines no-padding transparent *ngFor="let item of group.items;"\n\n                (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <h2 text-center subitem-title>{{item}}</h2>\n\n                </ion-item>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n          </ul>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!---Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', group, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\expandable\layout-3\expandable.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], ExpandableLayout3);

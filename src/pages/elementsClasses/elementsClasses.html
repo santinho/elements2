@@ -32,24 +32,26 @@
             </ion-list-header>
 
             <li *ngFor="let group of listFiltered | async">
-              <!-- List big image Header -->
               <div class="collapsible-header" (click)="toggleGroup(group)">
                 <ion-item no-padding>
+                  <ion-thumbnail item-start no-margin>
+                    <img src="../assets/images/icons/{{group.Nome}}.png" alt="{{group.title}}" />
+                  </ion-thumbnail>
                   <h2 padding-left item-title>{{group.Nome}}</h2>
-                  <h3 padding-left item-subtitle>HP:{{group.HP}} Perícia:{{group.Pericia}}</h3>
+                  <h3 padding-left item-subtitle>PV Inicial: {{group.PVInicial}} </h3>
+                  <h3 padding-left item-subtitle>PV por Nível: {{group.PV}}</h3>
                 </ion-item>
               </div>
               <!-- List big image Body -->
               <div class="item-accordion" [ngClass]="{'active': isGroupShown(group) }" [hidden]="!isGroupShown(group)">
                 <ion-item transparent no-lines style="color: white">
-                    <h2 padding-left>HP: {{group.HP}}</h2>
-                    <h2 padding-left>Perícia: {{group.Pericia}}</h2>
-                    <h2 padding-left>Crítico: {{group.Critico}}</h2>
+                    <h2 padding-left>PV Inicial: {{group.PVInicial}}</h2>
+                    <h2 padding-left>PV por Nível: {{group.PV}}</h2>
+                    <h2 padding-left>Perícias: {{group.Pericias}}</h2>
+                    <h2 padding-left>Perícias de Classe: {{group.PericiasClasse}}</h2>
+                    <h2 padding-left>Talentos: {{group.Talentos}}</h2>
                     <br/>
-                    <h2 padding-left>Vantagens: {{group.Vantagens}}</h2>
-                    <h2 padding-left>Desvantagens: {{group.Desvantagens}}</h2>
-                    <br/>
-                    <h2 *ngFor="let lvl of lvls" padding-left>Lvl{{lvl}}: {{group['Lvl'+lvl]}}</h2>
+                    <h2 *ngFor="let lvl of group.Niveis" padding-left><div *ngIf="lvl">Lvl{{lvl.Nivel}}: {{lvl.Habilidade}}</div></h2>
                 </ion-item>
               </div>
               <!--end-->
