@@ -53,6 +53,16 @@
                     <br/>
                     <h2 *ngFor="let lvl of group.Niveis" padding-left><div *ngIf="lvl">Lvl{{lvl.Nivel}}: BBA:{{lvl.BBA}} - {{lvl.Habilidade}}</div></h2>
                 </ion-item>
+                <div class="collapsible-header" (click)="toggleHabilidade(group)">
+                    <ion-item no-padding class="dividerCaminho">
+                       <h2 padding-left item-title>Detalhes Habilidades</h2>
+                    </ion-item>
+                </div>
+                <div class="item-accordion" [ngClass]="{'active': isHabilidadeShow(group) }" [hidden]="!isHabilidadeShow(group)">
+                    <ion-item transparent no-lines style="color: white">
+                        <h2 *ngFor="let h of group.Habilidades" padding-left><div *ngIf="h">{{h.Nome}}: {{h.Descricao}}</div></h2>
+                    </ion-item>
+                </div>
               </div>
               <!--end-->
             </li>

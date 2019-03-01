@@ -3533,7 +3533,7 @@ ion-navbar.toolbar {
 .scroll-content {
   position: absolute;
   z-index: 101;
-  background-image: url(../assets/images/wall2.jpg);
+  background-image: url(../assets/images/wall.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -58404,6 +58404,14 @@ elements-page-classes [default-background] a {
 elements-page-classes [default-background] .item-md ion-thumbnail ion-img, elements-page-classes [default-background] .item-md ion-thumbnail img {
   width: 32px;
   height: 32px;
+}
+
+elements-page-classes [default-background] .dividerCaminho {
+  padding-left: 16px;
+  border-bottom: 1px solid #202020;
+  font-size: 1.4rem;
+  color: white !important;
+  background-color: rgba(74, 0, 0, 0.3) !important;
 }
 
 /*  #Style First Screen (Home)

@@ -66,4 +66,12 @@ export class ElementsClassesPage {
     return group.show;
   }
 
+  toggleHabilidade(group: any) {
+    group.habilidade = !group.habilidade;
+  }
+
+  isHabilidadeShow(group: any) {
+    return group.habilidade;
+  }
+
 }

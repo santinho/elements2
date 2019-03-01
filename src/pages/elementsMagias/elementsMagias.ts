@@ -15,18 +15,19 @@ import { Observable } from 'rxjs';
 export class ElementsMagiasPage {
   title: string = 'Magias';
   list: Observable<any[]>;
+  node: string = 'Tormenta/Magias'
   listFiltered: Observable<any[]>;
-  lvls: number[] = [0,1,2,3,4,5,6,7,8,9,10]
-  tipoMagias: string[]=['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade']
-  tipoMagiasSelecionados: string[] = ['Água','Ar', 'Combate', 'Destruição', 'Energia', 'Ether', 'Gelo', 'Natureza', 'Poison', 'Putridao', 'Sangue', 'Terra', 'Utilidade'];
-  nivelCaminho: string[]=['Iniciante','Intermediario', 'Avancado', 'Mestre', 'Arquimago', 'Epicmago']
+  tipoMagias: string[]=[]
+  tipoMagiasSelecionados: string[] = [];
+  nivelCaminho: string[]=[]
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     service.load().subscribe(snapshot => {
       this.data = snapshot;
     });
-    this.list = this.af.list('Magias').valueChanges()
-    this.listFiltered = this.af.list('Magias').valueChanges()
+    this.list = this.af.list(this.node).valueChanges()
+    this.listFiltered = this.af.list(this.node).valueChanges()
+    this.list.subscribe((l)=>{console.log(l)})
   }
 
   @Input() data: any;
