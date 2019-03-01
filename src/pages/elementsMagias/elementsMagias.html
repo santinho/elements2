@@ -15,7 +15,7 @@
         <ion-col col-12>
         <ion-list no-padding no-margin transparent>
         <ion-item padding-top no-lines *ngIf="data != null">
-            <ion-label>Caminhos:</ion-label>
+            <ion-label>Tipo Conjuração:</ion-label>
             <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoMagiasSelecionados">
                 <ion-option *ngFor="let tipo of tipoMagias;" [value]="tipo">{{tipo}}</ion-option>
             </ion-select>
@@ -31,35 +31,36 @@
             </ion-list-header>
 
             <li *ngFor="let group of listFiltered | async">
-              <!-- List big image Header -->
-              <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">
-                <h2 text-uppercase>{{group.Nome}}</h2>
-              </ion-item-divider>
-              <div *ngFor="let n of group.Niveis">
-                <div>
-                    <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerNivel" >
-                        <h2 text-uppercase>Nível {{n.Nivel}}</h2>
-                    </ion-item-divider>
-                    <div *ngFor="let magia of n.Lista">
-                        <div class="collapsible-header" (click)="toggleGroup(magia)">
-                            <ion-item no-padding>
-                            <h2 padding-left item-title>{{magia.Nome}}</h2>
-                            <h3 padding-left item-subtitle>{{magia.Resumo}}</h3>
-                            </ion-item>
+              <div *ngIf="group.Niveis && group.Niveis.length >0">
+                <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">
+                    <h2 text-uppercase>{{group.Nome}}</h2>
+                </ion-item-divider>
+                <div *ngFor="let n of group.Niveis">
+                    <div *ngIf="n.Lista && n.Lista.length >0">
+                        <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerNivel" >
+                            <h2 text-uppercase>Nível {{n.Nivel}}</h2>
+                        </ion-item-divider>
+                        <div *ngFor="let magia of n.Lista">
+                            <div class="collapsible-header" (click)="toggleGroup(magia)">
+                                <ion-item no-padding>
+                                <h2 padding-left item-title>{{magia.Nome}}</h2>
+                                <h3 padding-left item-subtitle>{{magia.Resumo}}</h3>
+                                </ion-item>
+                            </div>
+                            <!-- List big image Body -->
+                            <div class="item-accordion" [ngClass]="{'active': isGroupShown(magia) }" [hidden]="!isGroupShown(magia)">
+                                <ion-item transparent no-lines style="color: white">
+                                    <h2 padding-left>{{magia.Nome}} ({{magia.Tipo}})</h2>
+                                    <h2 padding-left>Tempo de Execução: {{magia.TempoExecucao}}</h2>
+                                    <h2 padding-left>Alvo: {{magia.Alvo}}</h2>
+                                    <h2 padding-left>Duração: {{magia.Duracao}}</h2>
+                                    <h2 padding-left>Teste de Resistência: {{magia.TesteResistencia}}</h2>
+                                    <br/>
+                                    <h2 padding-left text-wrap>Descrição: {{magia.Descricao}}</h2>
+                                </ion-item>
+                            </div>
+                            <!--end-->
                         </div>
-                        <!-- List big image Body -->
-                        <div class="item-accordion" [ngClass]="{'active': isGroupShown(magia) }" [hidden]="!isGroupShown(magia)">
-                            <ion-item transparent no-lines style="color: white">
-                                <h2 padding-left>{{magia.Nome}} ({{magia.Tipo}})</h2>
-                                <h2 padding-left>Tempo de Execução: {{magia.TempoExecucao}}</h2>
-                                <h2 padding-left>Alvo: {{magia.Alvo}}</h2>
-                                <h2 padding-left>Duração: {{magia.Duracao}}</h2>
-                                <h2 padding-left>Teste de Resistência: {{magia.TesteResistencia}}</h2>
-                                <br/>
-                                <h2 padding-left text-wrap>Descrição: {{magia.Descricao}}</h2>
-                            </ion-item>
-                        </div>
-                        <!--end-->
                     </div>
                 </div>
               </div>

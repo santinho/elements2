@@ -168,7 +168,7 @@ var SwipeToDismissLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1143:
+/***/ 1146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageSwipeToDismissModule", function() { return ItemDetailsPageSwipeToDismissModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_swipe_to_dismiss__ = __webpack_require__(1297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_swipe_to_dismiss__ = __webpack_require__(1300);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_list_view_swipe_to_dismiss_layout_1_swipe_to_dismiss_layout_1_module__ = __webpack_require__(1070);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_view_swipe_to_dismiss_layout_2_swipe_to_dismiss_layout_2_module__ = __webpack_require__(1071);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_list_view_swipe_to_dismiss_layout_3_swipe_to_dismiss_layout_3_module__ = __webpack_require__(1072);
@@ -513,7 +513,7 @@ var SwipeToDismissLayout4 = (function () {
 
 /***/ }),
 
-/***/ 1297:
+/***/ 1300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

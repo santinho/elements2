@@ -17,8 +17,8 @@ export class ElementsMagiasPage {
   list: Observable<any[]>;
   node: string = 'Tormenta/Magias'
   listFiltered: Observable<any[]>;
-  tipoMagias: string[]=[]
-  tipoMagiasSelecionados: string[] = [];
+  tipoMagias: string[]=['Arcana', 'Divina']
+  tipoMagiasSelecionados: string[] = ['Arcana', 'Divina'];
   nivelCaminho: string[]=[]
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
@@ -46,17 +46,18 @@ export class ElementsMagiasPage {
       let listaBDFiltrada = [...listaBD];
       listaBDFiltrada = listaBDFiltrada.filter((item) => {
         let possuiElementos:boolean = false;
-        this.nivelCaminho.forEach((nivel)=>{
-          if(item[nivel]){
-            item[nivel] = item[nivel].filter((magia) =>{
-              let nomeOK:boolean = magia['NomeMagia'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
+        item.Niveis.forEach((nivel)=>{
+          if(nivel){
+            let listaNivelFiltrado = nivel.Lista.filter((magia) =>{
+              let nomeOK:boolean = magia['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
+              console.log('nomeOk', nomeOK)
               return nomeOK;
             });
-
-            console.log(item[nivel])
-            if(item[nivel].length > 0){
+            nivel.Lista = listaNivelFiltrado
+            if(listaNivelFiltrado.length > 0){
               possuiElementos = true;
             }
+            console.log('nivel',listaNivelFiltrado);
           }
         })
         return possuiElementos;

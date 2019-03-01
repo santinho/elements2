@@ -144,7 +144,7 @@ var MapsLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1131:
+/***/ 1132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,7 +152,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageMapsModule", function() { return ItemDetailsPageMapsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_maps__ = __webpack_require__(1285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_maps__ = __webpack_require__(1286);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_maps_layout_1_maps_layout_1_module__ = __webpack_require__(1076);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_maps_layout_2_maps_layout_2_module__ = __webpack_require__(1077);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_maps_layout_3_maps_layout_3_module__ = __webpack_require__(1078);
@@ -3558,7 +3558,7 @@ var MapsLayout3 = (function () {
 
 /***/ }),
 
-/***/ 1285:
+/***/ 1286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
