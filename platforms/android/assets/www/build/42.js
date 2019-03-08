@@ -1,1 +1,98 @@
-webpackJsonp([42],{1143:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1144:function(n,l,u){"use strict";function t(n){return c._22(0,[(n()(),c._0(0,0,null,null,7,"ion-slide",[["background-size",""]],null,null,null,s.b,s.a)),c.Z(1,278528,null,0,d.m,[c.q,c.j,c.B],{ngStyle:[0,"ngStyle"]},null),c._16(2,{"background-image":0}),c.Z(3,180224,null,0,f.a,[c.j,c.A,_.a],null,null),(n()(),c._20(-1,0,["\n    "])),(n()(),c._0(5,0,null,0,1,"h1",[["wizard-title",""]],null,null,null,null,null)),(n()(),c._20(6,null,["",""])),(n()(),c._20(-1,0,["\n  "]))],function(n,l){n(l,1,0,n(l,2,0,"url("+l.context.$implicit.backgroundImage+")"))},function(n,l){n(l,6,0,l.context.$implicit.title)})}function i(n){return c._22(0,[(n()(),c._0(0,0,null,null,5,"ion-slides",[["pager","true"]],null,[[null,"ionSlideDidChange"]],function(n,l,u){var t=!0;if("ionSlideDidChange"===l){t=!1!==n.component.slideHasChanged()&&t}return t},p.b,p.a)),c.Z(1,1228800,[[1,4],["wizardSlider",4]],0,_.a,[h.a,g.a,c.u,[2,v.a],c.j,c.A],{pager:[0,"pager"]},{ionSlideDidChange:"ionSlideDidChange"}),(n()(),c._20(-1,0,["\n  "])),(n()(),c.V(16777216,null,0,1,null,t)),c.Z(4,802816,null,0,d.i,[c.J,c.G,c.p],{ngForOf:[0,"ngForOf"]},null),(n()(),c._20(-1,0,["\n"]))],function(n,l){var u=l.component;n(l,1,0,"true");n(l,4,0,u.data.items)},null)}function e(n){return c._22(0,[(n()(),c._0(0,0,null,null,2,"button",[["default-button",""],["full",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0;if("click"===l){t=!1!==n.component.changeSlide(1)&&t}return t},b.b,b.a)),c.Z(1,1097728,null,0,m.a,[[8,""],h.a,c.j,c.A],{full:[0,"full"]},null),(n()(),c._20(2,0,["\n    ","\n  "]))],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,l.component.data.btnNext)})}function a(n){return c._22(0,[(n()(),c._0(0,0,null,null,2,"button",[["default-button",""],["full",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0;if("click"===l){t=!1!==n.component.onEvent("onFinish")&&t}return t},b.b,b.a)),c.Z(1,1097728,null,0,m.a,[[8,""],h.a,c.j,c.A],{full:[0,"full"]},null),(n()(),c._20(2,0,["\n    ","\n  "]))],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,l.component.data.btnFinish)})}function r(n){return c._22(0,[(n()(),c._0(0,0,null,null,7,"div",[],null,null,null,null,null)),(n()(),c._20(-1,null,["\n  "])),(n()(),c.V(16777216,null,null,1,null,e)),c.Z(3,16384,null,0,d.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(n()(),c._20(-1,null,["\n  "])),(n()(),c.V(16777216,null,null,1,null,a)),c.Z(6,16384,null,0,d.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(n()(),c._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,3,0,u.next);n(l,6,0,u.finish)},null)}function o(n){return c._22(0,[c._18(671088640,1,{slider:0}),(n()(),c._20(-1,null,["\n\n"])),(n()(),c._20(-1,null,["\n\n"])),(n()(),c.V(16777216,null,null,1,null,i)),c.Z(4,16384,null,0,d.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(n()(),c._20(-1,null,["\n"])),(n()(),c._20(-1,null,["\n"])),(n()(),c.V(16777216,null,null,1,null,r)),c.Z(8,16384,null,0,d.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(n()(),c._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,4,0,null!=u.data);n(l,8,0,null!=u.data)},null)}u.d(l,"a",function(){return k}),l.b=o,u.d(l,"c",function(){return Z});var c=u(2),s=u(896),d=u(20),f=u(221),_=u(147),p=u(897),h=u(4),g=u(7),v=u(8),b=u(44),m=u(29),y=u(997),k=c.Y({encapsulation:2,styles:[],data:{}}),Z=c.W("wizard-layout-2",y.a,function(n){return c._22(0,[(n()(),c._0(0,0,null,null,1,"wizard-layout-2",[],null,null,null,o,k)),c.Z(1,573440,null,0,y.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},839:function(n,l,u){"use strict";Object.defineProperty(l,"__esModule",{value:!0}),u.d(l,"WizardLayout2ModuleNgFactory",function(){return y});var t=u(2),i=u(1143),e=u(418),a=u(419),r=u(420),o=u(421),c=u(422),s=u(423),d=u(424),f=u(425),_=u(426),p=u(1144),h=u(20),g=u(25),v=u(216),b=u(66),m=u(997),y=t.X(i.a,[],function(n){return t._11([t._12(512,t.i,t.T,[[8,[e.a,a.a,r.a,o.a,c.a,s.a,d.a,f.a,_.a,p.c]],[3,t.i],t.s]),t._12(4608,h.l,h.k,[t.r,[2,h.t]]),t._12(4608,g.n,g.n,[]),t._12(4608,g.c,g.c,[]),t._12(512,h.c,h.c,[]),t._12(512,g.m,g.m,[]),t._12(512,g.d,g.d,[]),t._12(512,g.k,g.k,[]),t._12(512,v.a,v.a,[]),t._12(512,v.b,v.b,[]),t._12(512,i.a,i.a,[]),t._12(256,b.a,m.a,[])])})},896:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),i._13(null,0)],null,null)}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=i.Y({encapsulation:2,styles:[],data:{}})},897:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(n()(),i._0(1,0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),i._13(null,0),(n()(),i._0(3,0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(n,l){var u=l.component;n(l,0,0,u._rtl?"rtl":null);n(l,3,0,!u.pager)})}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=(u(4),u(7),u(8),i.Y({encapsulation:2,styles:[],data:{}}))},997:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){function n(){this.sliderOptions={pager:!0},this.path=!1,this.prev=!0,this.next=!0,this.finish=!0,this.prev=!1,this.next=!0,this.finish=!1}return n.prototype.changeSlide=function(n){n>0?this.slider.slideNext(300):this.slider.slidePrev(300)},n.prototype.slideHasChanged=function(n){try{this.prev=!this.slider.isBeginning(),this.next=this.slider.getActiveIndex()<this.slider.length()-1,this.finish=this.slider.isEnd()}catch(n){}},n.prototype.ngOnChanges=function(n){this.data=n.data.currentValue},n.prototype.onEvent=function(n){this.events[n]&&this.events[n](),console.log(n)},n}()}});
+webpackJsonp([42],{
+
+/***/ 1091:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterLayout2Module", function() { return RegisterLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_layout_2__ = __webpack_require__(1208);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var RegisterLayout2Module = (function () {
+    function RegisterLayout2Module() {
+    }
+    RegisterLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__register_layout_2__["a" /* RegisterLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__register_layout_2__["a" /* RegisterLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__register_layout_2__["a" /* RegisterLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], RegisterLayout2Module);
+    return RegisterLayout2Module;
+}());
+
+//# sourceMappingURL=register-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1208:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var RegisterLayout2 = (function () {
+    function RegisterLayout2() {
+        var _this = this;
+        this.onEvent = function (event) {
+            if (_this.events[event]) {
+                _this.events[event]({
+                    'username': _this.username,
+                    'password': _this.password,
+                    'country': _this.country,
+                    'city': _this.city,
+                    'email': _this.email
+                });
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], RegisterLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], RegisterLayout2.prototype, "events", void 0);
+    RegisterLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'register-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\register\layout-2\register.html"*/'<!-- Themes Register + Image -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--Logo-->\n\n        <div class="logo">\n\n          <ion-thumbnail>\n\n            <img [src]="data.logo">\n\n          </ion-thumbnail>\n\n        </div>\n\n        <!--End logo-->\n\n        <!--Form-->\n\n        <div class="form">\n\n          <ion-item no-padding color="accent">\n\n            <!--Icon for username-->\n\n            <ion-icon item-left>\n\n              <i icon-small class="icon {{data.iconAccount}}"></i>\n\n            </ion-icon>\n\n            <!---Input field username-->\n\n            <ion-label floating>{{data.username}}</ion-label>\n\n            <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n          </ion-item>\n\n          <ion-item no-padding color="accent">\n\n            <!--Icon for password-->\n\n            <ion-icon item-left>\n\n              <i icon-small class="icon {{data.iconLock}}"></i>\n\n            </ion-icon>\n\n            <!---Input field password-->\n\n            <ion-label floating>{{data.password}}</ion-label>\n\n            <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n          <ion-item no-padding color="accent">\n\n            <!--Icon for email-->\n\n            <ion-icon item-left>\n\n              <i icon-small class="icon {{data.iconEmail}}"></i>\n\n            </ion-icon>\n\n            <!---Input field email-->\n\n            <ion-label floating>{{data.email}}</ion-label>\n\n            <ion-input required type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" [(ngModel)]="email"></ion-input>\n\n          </ion-item>\n\n          <ion-item no-padding color="accent">\n\n            <!--Icon for country-->\n\n            <ion-icon item-left>\n\n              <i icon-small class="icon {{data.iconWeb}}"></i>\n\n            </ion-icon>\n\n            <!---Input field country-->\n\n            <ion-label floating>{{data.country}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="country"></ion-input>\n\n          </ion-item>\n\n          <ion-item no-padding color="accent">\n\n            <!--Icon for city-->\n\n            <ion-icon item-left>\n\n              <i icon-small class="icon {{data.iconCity}}"></i>\n\n            </ion-icon>\n\n            <!---Input field city-->\n\n            <ion-label floating>{{data.city}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="city"></ion-input>\n\n          </ion-item>\n\n          <!---Register button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onRegister\')">{{data.submit}}</button>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\register\layout-2\register.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], RegisterLayout2);
+    return RegisterLayout2;
+}());
+
+//# sourceMappingURL=register-layout-2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=42.js.map

@@ -1,1 +1,120 @@
-webpackJsonp([57],{1031:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1032:function(l,n,u){"use strict";function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,28,"ion-item",[["class","item item-block"],["no-padding",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit.title,u)&&t}return t},o.b,o.a)),i.Z(1,1097728,null,3,r.a,[_.a,c.a,i.j,i.A,[2,s.a]],null,null),i._18(335544320,9,{contentLabel:0}),i._18(603979776,10,{_buttons:1}),i._18(603979776,11,{_icons:1}),i.Z(5,16384,null,0,d.a,[],null,null),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(7,0,null,0,4,"ion-thumbnail",[["item-start",""],["no-margin",""]],null,null,null,null,null)),i.Z(8,16384,null,0,f.a,[],null,null),(l()(),i._20(-1,null,["\n              "])),(l()(),i._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),i._20(-1,null,["\n            "])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),i._20(14,null,["",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(16,0,null,2,1,"div",[["span-small",""]],null,null,null,null,null)),(l()(),i._20(17,null,["",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(19,0,null,2,1,"div",[["span-medium",""]],null,null,null,null,null)),(l()(),i._20(20,null,["",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(23,0,null,2,1,"h3",[["float-left",""],["item-subtitle",""]],null,null,null,null,null)),(l()(),i._20(24,null,[""," ",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(26,0,null,2,1,"h3",[["float-right",""],["item-subtitle",""]],null,null,null,null,null)),(l()(),i._20(-1,null,["Free shipping"])),(l()(),i._20(-1,2,["\n          "]))],null,function(l,n){l(n,10,0,i._3(1,"",n.context.$implicit.image,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.oldPrice);l(n,20,0,n.context.$implicit.newPrice);l(n,24,0,n.context.$implicit.seller,n.context.$implicit.mark)})}function a(l){return i._22(0,[(l()(),i._0(0,0,null,null,58,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,m.a,[],null,null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._20(-1,null,["\n    "])),(l()(),i._0(4,0,null,null,53,"ion-row",[["class","row"],["no-padding",""]],null,null,null,null,null)),i.Z(5,16384,null,0,b.a,[],null,null),(l()(),i._20(-1,null,["\n      "])),(l()(),i._0(7,0,null,null,49,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),i.Z(8,16384,null,0,p.a,[],null,null),(l()(),i._20(-1,null,["\n        "])),(l()(),i._20(-1,null,["\n        "])),(l()(),i._0(11,0,null,null,35,"ion-list-header",[["background-size",""],["class","item"],["no-lines",""],["no-margin",""],["padding",""]],null,null,null,o.b,o.a)),i.Z(12,278528,null,0,g.m,[i.q,i.j,i.B],{ngStyle:[0,"ngStyle"]},null),i._16(13,{"background-image":0}),i.Z(14,1097728,null,3,r.a,[_.a,c.a,i.j,i.A,[2,s.a]],null,null),i._18(335544320,3,{contentLabel:0}),i._18(603979776,4,{_buttons:1}),i._18(603979776,5,{_icons:1}),i.Z(18,16384,null,0,v.a,[c.a,i.A,i.j,[8,null]],null,null),(l()(),i._20(-1,2,["\n          "])),(l()(),i._0(20,0,null,2,25,"ion-item-divider",[["class","item item-divider"],["no-lines",""],["no-padding",""],["transparent",""]],null,null,null,o.b,o.a)),i.Z(21,1097728,null,3,r.a,[_.a,c.a,i.j,i.A,[2,s.a]],null,null),i._18(335544320,6,{contentLabel:0}),i._18(603979776,7,{_buttons:1}),i._18(603979776,8,{_icons:1}),i.Z(25,16384,null,0,h.a,[c.a,i.j,i.A],null,null),(l()(),i._20(-1,2,["\n            "])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(28,0,null,2,1,"h1",[["header-title",""],["text-uppercase",""]],null,null,null,null,null)),(l()(),i._20(29,null,["",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(32,0,null,2,1,"h2",[["header-subtitle",""]],null,null,null,null,null)),(l()(),i._20(33,null,["",""])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._20(-1,2,["\n            "])),(l()(),i._0(36,0,null,3,8,"div",[["item-content",""]],null,null,null,null,null)),(l()(),i._20(-1,null,["\n              "])),(l()(),i._0(38,0,null,null,1,"span",[["span-large",""]],null,null,null,null,null)),(l()(),i._20(39,null,["",""])),(l()(),i._20(-1,null,["\n              "])),(l()(),i._0(41,0,null,null,2,"button",[["default-button",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onProceed",a.data,u)&&t}return t},Z.b,Z.a)),i.Z(42,1097728,[[7,4]],0,j.a,[[8,""],c.a,i.j,i.A],null,null),(l()(),i._20(43,0,["\n              ","\n            "])),(l()(),i._20(-1,null,["\n            "])),(l()(),i._20(-1,2,["\n          "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._20(-1,null,["\n        "])),(l()(),i._20(-1,null,["\n        "])),(l()(),i._0(49,0,null,null,6,"ion-list",[["no-margin",""],["reorder","true"]],[[2,"reorder-enabled",null],[2,"reorder-visible",null],[2,"reorder-side-start",null]],[[null,"ionItemReorder"]],function(l,n,u){var t=!0;if("ionItemReorder"===n){t=!1!==l.component.reorderItems(u)&&t}return t},null,null)),i.Z(50,147456,null,0,s.a,[k.a,A.a,i.j,i.A,i.u,[2,y.a]],{reorder:[0,"reorder"]},{ionItemReorder:"ionItemReorder"}),i.Z(51,16384,null,0,I.a,[c.a,i.j,i.A,k.a,x.l,A.a],null,null),(l()(),i._20(-1,null,["\n          "])),(l()(),i.V(16777216,null,null,1,null,t)),i.Z(54,802816,null,0,g.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._20(-1,null,["\n        "])),(l()(),i._20(-1,null,["\n      "])),(l()(),i._20(-1,null,["\n    "])),(l()(),i._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,12,0,l(n,13,0,"url("+u.data.headerImage+")"));l(n,50,0,"true");l(n,54,0,u.data.items)},function(l,n){var u=n.component;l(n,29,0,u.data.title);l(n,33,0,u.data.description);l(n,39,0,u.data.price);l(n,43,0,u.data.buttonText);l(n,49,0,i._14(n,50)._enableReorder,i._14(n,50)._visibleReorder,i._14(n,50)._isStart)})}function e(l){return i._22(0,[i._18(402653184,1,{content:0}),i._18(402653184,2,{fabButton:0}),(l()(),i._20(-1,null,["\n"])),(l()(),i._0(3,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,R.b,R.a)),i.Z(4,4374528,[[1,4]],0,y.a,[c.a,k.a,A.a,i.j,i.A,$.a,w.a,i.u,[2,P.a],[2,E.a]],null,null),(l()(),i._20(-1,1,["\n  "])),(l()(),i.V(16777216,null,1,1,null,a)),i.Z(7,16384,null,0,g.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._20(-1,1,["\n"])),(l()(),i._20(-1,null,["\n"])),(l()(),i._20(-1,null,["\n"])),(l()(),i._0(11,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,F.b,F.a)),i.Z(12,1228800,[["fab",4]],2,L.a,[k.a],null,null),i._18(335544320,12,{_mainButton:0}),i._18(603979776,13,{_fabLists:1}),(l()(),i._20(-1,0,["\n  "])),(l()(),i._0(16,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},B.b,B.a)),i.Z(17,49152,[[12,4],[2,4]],0,O.a,[c.a,i.j,i.A],null,null),(l()(),i._20(-1,0,["\n  "])),(l()(),i._0(19,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(20,147456,null,0,S.a,[c.a,i.j,i.A],{name:[0,"name"]},null),(l()(),i._20(-1,0,["\n"])),(l()(),i._20(-1,0,["\n"])),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,7,0,null!=n.component.data);l(n,20,0,"add")},function(l,n){l(n,3,0,i._14(n,4).statusbarPadding,i._14(n,4)._hasRefresher);l(n,19,0,i._14(n,20)._hidden)})}u.d(n,"b",function(){return J}),n.c=e,u.d(n,"a",function(){return V});var i=u(2),o=u(141),r=u(26),_=u(22),c=u(4),s=u(57),d=u(71),f=u(148),m=u(142),b=u(143),p=u(144),g=u(20),v=u(95),h=u(222),Z=u(44),j=u(29),k=u(7),A=u(15),y=u(35),I=u(67),x=u(11),R=u(215),$=u(14),w=u(39),P=u(8),E=u(33),F=u(879),L=u(217),B=u(880),O=u(90),S=u(43),Y=u(937),J=i.Y({encapsulation:2,styles:[],data:{}}),V=i.W("drag-and-drop-layout-2",Y.a,function(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"drag-and-drop-layout-2",[],null,null,null,e,J)),i.Z(1,4243456,null,0,Y.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},781:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),u.d(n,"DragAndDropLayout2ModuleNgFactory",function(){return Z});var t=u(2),a=u(1031),e=u(418),i=u(419),o=u(420),r=u(421),_=u(422),c=u(423),s=u(424),d=u(425),f=u(426),m=u(1032),b=u(20),p=u(25),g=u(216),v=u(66),h=u(937),Z=t.X(a.a,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[e.a,i.a,o.a,r.a,_.a,c.a,s.a,d.a,f.a,m.a]],[3,t.i],t.s]),t._12(4608,b.l,b.k,[t.r,[2,b.t]]),t._12(4608,p.n,p.n,[]),t._12(4608,p.c,p.c,[]),t._12(512,b.c,b.c,[]),t._12(512,p.m,p.m,[]),t._12(512,p.d,p.d,[]),t._12(512,p.k,p.k,[]),t._12(512,g.a,g.a,[]),t._12(512,g.b,g.b,[]),t._12(512,a.a,a.a,[]),t._12(256,v.a,h.a,[])])})},879:function(l,n,u){"use strict";function t(l){return a._22(0,[a._13(null,0)],null,null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(2),e=(u(7),a.Y({encapsulation:2,styles:[],data:{}}))},880:function(l,n,u){"use strict";function t(l){return a._22(2,[(l()(),a._0(0,0,null,null,1,"ion-icon",[["class","fab-close-icon"],["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Z(1,147456,null,0,e.a,[i.a,a.j,a.A],{name:[0,"name"]},null),(l()(),a._0(2,0,null,null,1,"span",[["class","button-inner"]],null,null,null,null,null)),a._13(null,0),(l()(),a._0(4,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){l(n,1,0,"close")},function(l,n){l(n,0,0,a._14(n,1)._hidden)})}u.d(n,"a",function(){return o}),n.b=t;var a=u(2),e=u(43),i=u(4),o=a.Y({encapsulation:2,styles:[],data:{}})},937:function(l,n,u){"use strict";u.d(n,"a",function(){return a});u(0);var t=u(65),a=function(){function l(){var l=this;this.reorderItems=function(n){l.data.items=Object(t.c)(l.data.items,n)}}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngAfterViewInit=function(){var l=this;this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()}});
+webpackJsonp([57],{
+
+/***/ 1069:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout1Module", function() { return SwipeToDismissLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__ = __webpack_require__(1186);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SwipeToDismissLayout1Module = (function () {
+    function SwipeToDismissLayout1Module() {
+    }
+    SwipeToDismissLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_1__["a" /* SwipeToDismissLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], SwipeToDismissLayout1Module);
+    return SwipeToDismissLayout1Module;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1186:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SwipeToDismissLayout1 = (function () {
+    function SwipeToDismissLayout1() {
+        var _this = this;
+        this.undo = function (slidingItem) {
+            slidingItem.close();
+        };
+        this.delete = function (item) {
+            var index = _this.data.items.indexOf(item);
+            if (index > -1) {
+                _this.data.items.splice(index, 1);
+            }
+        };
+    }
+    SwipeToDismissLayout1.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    SwipeToDismissLayout1.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout1.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], SwipeToDismissLayout1.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], SwipeToDismissLayout1.prototype, "fabButton", void 0);
+    SwipeToDismissLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'swipe-to-dismiss-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\swipe-to-dismiss\layout-1\swipe-to-dismiss.html"*/'<!--Theme Small item + header-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 header-bcg>\n\n        <ion-item no-padding no-lines transparent>\n\n          <ion-icon icon-large item-start>\n\n            <i class="icon {{data.iconPlay}}"></i>\n\n          </ion-icon>\n\n          <h1 header-title>{{data.title}}</h1>\n\n          <h2 header-subtitle>{{data.description}}</h2>\n\n          <span span-medium>{{data.shortDescription}}</span>\n\n          <div float-right social>\n\n            <ion-icon>\n\n              <i class="icon icon-thumb-up" (click)="onEvent(\'onLike\', item, $event)"></i>\n\n            </ion-icon>\n\n            <ion-icon>\n\n              <i class="icon icon-heart" (click)="onEvent(\'onFavorite\', item, $event)"></i>\n\n            </ion-icon>\n\n            <ion-icon>\n\n              <i class="icon icon-share-variant" (click)="onEvent(\'onShare\', item, $event)"></i>\n\n            </ion-icon>\n\n          </div>\n\n        </ion-item>\n\n      </ion-col>\n\n    </ion-row>\n\n    <!--Swipe To Dismiss -->\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list>\n\n          <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n            <button ion-item (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n              <ion-avatar item-start>\n\n                <img [src]="item.image">\n\n              </ion-avatar>\n\n              <h2 item-title>{{item.title}}</h2>\n\n              <h3 item-subtitle>{{item.description}}</h3>\n\n              <span item-end span-small>{{item.shortDescription}}</span>\n\n              <ion-icon icon-medium item-end>\n\n                <i class="icon icon-play"></i>\n\n              </ion-icon>\n\n            </button>\n\n            <ion-item-options no-lines>\n\n              <button ion-button (click)="delete(item)">\n\n                  <ion-icon icon-medium>\n\n                    <i class="icon {{item.iconDelate}}"></i>\n\n                  </ion-icon>\n\n              </button>\n\n              <button ion-button (click)="undo(slidingItem)">\n\n                  <ion-icon icon-medium>\n\n                    <i class="icon {{item.iconUndo}}"></i>\n\n                  </ion-icon>\n\n              </button>\n\n            </ion-item-options>\n\n          </ion-item-sliding>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', item, $event)">\n\n<ion-icon name="add"></ion-icon>\n\n</button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\swipe-to-dismiss\layout-1\swipe-to-dismiss.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], SwipeToDismissLayout1);
+    return SwipeToDismissLayout1;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=57.js.map

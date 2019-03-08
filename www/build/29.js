@@ -1,14 +1,14 @@
-webpackJsonp([29,56],{
+webpackJsonp([29],{
 
-/***/ 1039:
+/***/ 1101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout1Module", function() { return WizardLayout1Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout3Module", function() { return SplashScreenLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__ = __webpack_require__(1192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__ = __webpack_require__(1218);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,82 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout1Module = (function () {
-    function WizardLayout1Module() {
+var SplashScreenLayout3Module = (function () {
+    function SplashScreenLayout3Module() {
     }
-    WizardLayout1Module = __decorate([
+    SplashScreenLayout3Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__["a" /* WizardLayout1 */],
+                __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__["a" /* SplashScreenLayout3 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__["a" /* WizardLayout1 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__["a" /* SplashScreenLayout3 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_1__["a" /* WizardLayout1 */]
+                __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__["a" /* SplashScreenLayout3 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], WizardLayout1Module);
-    return WizardLayout1Module;
+    ], SplashScreenLayout3Module);
+    return SplashScreenLayout3Module;
 }());
 
-//# sourceMappingURL=wizard-layout-1.module.js.map
+//# sourceMappingURL=splash-screen-layout-3.module.js.map
 
 /***/ }),
 
-/***/ 1121:
+/***/ 1218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreenLayout3; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro_page__ = __webpack_require__(1274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__ = __webpack_require__(1039);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-var IntroPageModule = (function () {
-    function IntroPageModule() {
-    }
-    IntroPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__intro_page__["a" /* IntroPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__intro_page__["a" /* IntroPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__components_wizard_layout_1_wizard_layout_1_module__["WizardLayout1Module"]
-            ],
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_2__intro_page__["a" /* IntroPage */]
-            ],
-            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
-        })
-    ], IntroPageModule);
-    return IntroPageModule;
-}());
-
-//# sourceMappingURL=intro-page.module.js.map
-
-/***/ }),
-
-/***/ 1192:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout1; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -104,211 +58,52 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-var WizardLayout1 = (function () {
-    function WizardLayout1() {
-        this.sliderOptions = { pager: true };
-        this.path = false;
-        this.prev = true;
-        this.next = true;
-        this.finish = true;
-        this.prev = false;
-        this.next = true;
-        this.finish = false;
+var SplashScreenLayout3 = (function () {
+    function SplashScreenLayout3() {
     }
-    WizardLayout1.prototype.changeSlide = function (index) {
-        if (index > 0) {
-            this.slider.slideNext(300);
-        }
-        else {
-            this.slider.slidePrev(300);
-        }
+    SplashScreenLayout3.prototype.ngOnChanges = function (changes) {
+        clearInterval(this.timer);
+        this.executeEvents();
     };
-    WizardLayout1.prototype.slideHasChanged = function (index) {
-        try {
-            this.prev = !this.slider.isBeginning();
-            this.next = this.slider.getActiveIndex() < (this.slider.length() - 1);
-            this.finish = this.slider.isEnd();
-        }
-        catch (e) { }
+    SplashScreenLayout3.prototype.getData = function () {
+        return this.data;
     };
-    WizardLayout1.prototype.ngOnChanges = function (changes) {
-        this.data = changes['data'].currentValue;
+    SplashScreenLayout3.prototype.getEvents = function () {
+        return this.events;
     };
-    WizardLayout1.prototype.onEvent = function (event) {
-        if (this.events[event]) {
-            this.events[event]();
+    SplashScreenLayout3.prototype.executeEvents = function () {
+        var duration = (this.getData() && this.getData().duration) ? this.getData().duration : 10000;
+        var events = null;
+        if (this.getEvents()) {
+            events = this.getEvents()['onRedirect'];
         }
-        console.log(event);
+        this.timer = setTimeout(function () {
+            if (events) {
+                events();
+            }
+        }, duration);
+    };
+    SplashScreenLayout3.prototype.ngOnDestroy = function () {
+        clearInterval(this.timer);
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
         __metadata("design:type", Object)
-    ], WizardLayout1.prototype, "data", void 0);
+    ], SplashScreenLayout3.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
         __metadata("design:type", Object)
-    ], WizardLayout1.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('wizardSlider'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Slides */])
-    ], WizardLayout1.prototype, "slider", void 0);
-    WizardLayout1 = __decorate([
+    ], SplashScreenLayout3.prototype, "events", void 0);
+    SplashScreenLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'wizard-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\wizard\layout-1\wizard.html"*/'<!--Theme Wizard Simple + icon-->\n\n\n\n<!--Content -->\n\n<ion-slides #wizardSlider (ionSlideDidChange)="slideHasChanged()" pager="true" *ngIf="data != null">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <ion-icon icon-large>\n\n      <i class="icon {{item.iconSlider}}"></i>\n\n    </ion-icon>\n\n    <h1 wizard-title>{{item.title}}</h1>\n\n    <p wizard-body-text>{{item.description}}</p>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n  <button ion-button button-clear clear float-left (click)="changeSlide(-1)" *ngIf="prev">\n\n  {{data.btnPrev}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="changeSlide(1)" *ngIf="next">\n\n  {{data.btnNext}}\n\n</button>\n\n  <button ion-button button-clear clear float-right (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n  {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\wizard\layout-1\wizard.html"*/
+            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], WizardLayout1);
-    return WizardLayout1;
+    ], SplashScreenLayout3);
+    return SplashScreenLayout3;
 }());
 
-//# sourceMappingURL=wizard-layout-1.js.map
-
-/***/ }),
-
-/***/ 1274:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_intro_service__ = __webpack_require__(1275);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var IntroPage = (function () {
-    function IntroPage(viewCtrl, introService) {
-        this.viewCtrl = viewCtrl;
-        this.introService = introService;
-        this.params = null;
-        var that = this;
-        this.introService.load().subscribe(function (snapshot) {
-            setTimeout(function () {
-                that.params = {
-                    'events': {
-                        'onFinish': function (event) {
-                            that.viewCtrl.dismiss();
-                        }
-                    },
-                    'data': snapshot
-                };
-            });
-        });
-    }
-    IntroPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\intro-page\intro-page.html"*/'<!--Wizard component-->\n\n<ion-content no-margin no-padding *ngIf="params != null">\n\n    <wizard-layout-1 [data]="params.data" [events]="params.events">\n\n    </wizard-layout-1>\n\n</ion-content>'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\intro-page\intro-page.html"*/,
-            providers: [__WEBPACK_IMPORTED_MODULE_2__services_intro_service__["a" /* IntroService */]]
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__services_intro_service__["a" /* IntroService */]])
-    ], IntroPage);
-    return IntroPage;
-}());
-
-//# sourceMappingURL=intro-page.js.map
-
-/***/ }),
-
-/***/ 1275:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var IntroService = (function () {
-    function IntroService(af, loadingService) {
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getData = function () {
-            return {
-                "btnPrev": "Previous",
-                "btnNext": "Next",
-                "btnFinish": "Finish",
-                "items": [
-                    {
-                        "logo": "assets/images/logo/2.png",
-                        "title": "Welcome to our new material style theme",
-                        "description": "Finished layouts and components for Ionic 3. Ready to use!"
-                    },
-                    {
-                        "logo": "assets/images/logo/2.png",
-                        "title": "For Developers",
-                        "description": "Save hours of developing. Tons of funcional components."
-                    },
-                    {
-                        "logo": "assets/images/logo/2.png",
-                        "title": "For Designers",
-                        "description": "Endless possibilities. Combine layouts as you wish."
-                    }
-                ]
-            };
-        };
-    }
-    IntroService.prototype.load = function () {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('intro')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getData());
-                observer.complete();
-            });
-        }
-    };
-    ;
-    IntroService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], IntroService);
-    return IntroService;
-}());
-
-//# sourceMappingURL=intro-service.js.map
+//# sourceMappingURL=splash-screen-layout-3.js.map
 
 /***/ })
 

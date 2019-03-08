@@ -1,14 +1,14 @@
 webpackJsonp([54],{
 
-/***/ 1113:
+/***/ 1071:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout3Module", function() { return WizardLayout3Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout4Module", function() { return SwipeToDismissLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__ = __webpack_require__(1266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_4__ = __webpack_require__(1188);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout3Module = (function () {
-    function WizardLayout3Module() {
+var SwipeToDismissLayout4Module = (function () {
+    function SwipeToDismissLayout4Module() {
     }
-    WizardLayout3Module = __decorate([
+    SwipeToDismissLayout4Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */],
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_4__["a" /* SwipeToDismissLayout4 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_4__["a" /* SwipeToDismissLayout4 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_4__["a" /* SwipeToDismissLayout4 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], WizardLayout3Module);
-    return WizardLayout3Module;
+    ], SwipeToDismissLayout4Module);
+    return SwipeToDismissLayout4Module;
 }());
 
-//# sourceMappingURL=wizard-layout-3.module.js.map
+//# sourceMappingURL=swipe-to-dismiss-layout-4.module.js.map
 
 /***/ }),
 
-/***/ 1266:
+/***/ 1188:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout4; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -60,64 +60,59 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout3 = (function () {
-    function WizardLayout3() {
-        this.sliderOptions = { pager: true };
-        this.path = false;
-        this.prev = true;
-        this.next = true;
-        this.finish = true;
-        this.prev = false;
-        this.next = true;
-        this.finish = false;
+var SwipeToDismissLayout4 = (function () {
+    function SwipeToDismissLayout4() {
+        var _this = this;
+        this.undo = function (slidingItem) {
+            slidingItem.close();
+        };
+        this.delete = function (item) {
+            var index = _this.data.items.indexOf(item);
+            if (index > -1) {
+                _this.data.items.splice(index, 1);
+            }
+        };
     }
-    WizardLayout3.prototype.changeSlide = function (index) {
-        if (index > 0) {
-            this.slider.slideNext(300);
+    SwipeToDismissLayout4.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
         }
-        else {
-            this.slider.slidePrev(300);
-        }
-    };
-    WizardLayout3.prototype.slideHasChanged = function (index) {
-        try {
-            this.prev = !this.slider.isBeginning();
-            this.next = this.slider.getActiveIndex() < (this.slider.length() - 1);
-            this.finish = this.slider.isEnd();
-        }
-        catch (e) { }
-    };
-    WizardLayout3.prototype.ngOnChanges = function (changes) {
-        this.data = changes['data'].currentValue;
-    };
-    WizardLayout3.prototype.onEvent = function (event) {
         if (this.events[event]) {
-            this.events[event]();
+            this.events[event](item);
         }
-        console.log(event);
+    };
+    SwipeToDismissLayout4.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], WizardLayout3.prototype, "data", void 0);
+    ], SwipeToDismissLayout4.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], WizardLayout3.prototype, "events", void 0);
+    ], SwipeToDismissLayout4.prototype, "events", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('wizardSlider'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Slides */])
-    ], WizardLayout3.prototype, "slider", void 0);
-    WizardLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], SwipeToDismissLayout4.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], SwipeToDismissLayout4.prototype, "fabButton", void 0);
+    SwipeToDismissLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'wizard-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\wizard\layout-3\wizard.html"*/'<!--Theme Wizard Big Image -->\n\n<button *ngIf="data != null" skip button-clear clear ion-button text-right>\n\n    {{data.btnSkip}}\n\n</button>\n\n<ion-slides #wizardSlider *ngIf="data != null" (ionSlideDidChange)="slideHasChanged()" pager="true">\n\n  <ion-slide background-size *ngFor="let item of data.items;" [ngStyle]="{\'background-image\': \'url(\' + item.backgroundImage + \')\'}">\n\n    <div wizard-description text-left>\n\n      <h1 wizard-title>{{item.title}}</h1>\n\n      <h3 wizard-body-text>{{item.description}}</h3>\n\n    </div>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n<button navigation text-center button-clear clear ion-button (click)="changeSlide(1)" *ngIf="next">\n\n    {{data.btnNext}}\n\n</button>\n\n<button navigation text-center button-clear clear ion-button (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n    {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\wizard\layout-3\wizard.html"*/
+            selector: 'swipe-to-dismiss-layout-4',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\swipe-to-dismiss\layout-4\swipe-to-dismiss.html"*/'<!-- Themes Large item with text -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row no-padding>\n\n      <ion-col no-padding col-12>\n\n        <!-- Content List -->\n\n        <ion-list no-padding>\n\n          <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n            <ion-item no-padding border (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n              <ion-item-divider no-lines>\n\n                <!-- Avatar -->\n\n                <ion-avatar margin-right item-start>\n\n                  <img [src]="item.image">\n\n                </ion-avatar>\n\n                <!-- Title -->\n\n                <h1 item-title>{{item.title}}</h1>\n\n              </ion-item-divider>\n\n              <!-- Description -->\n\n              <p subitem-subtitle text-wrap>{{item.description}}</p>\n\n            </ion-item>\n\n            <ion-item-options>\n\n              <!-- Icon Delate -->\n\n              <button ion-button (click)="delete(item)">\n\n                <ion-icon icon-medium>\n\n                  <i class="icon {{item.iconDelate}}"></i>\n\n                </ion-icon>\n\n              </button>\n\n              <!-- Icon Undo -->\n\n              <button ion-button (click)="undo(slidingItem)">\n\n                <ion-icon icon-medium>\n\n                  <i class="icon {{item.iconUndo}}"></i>\n\n                </ion-icon>\n\n              </button>\n\n            </ion-item-options>\n\n          </ion-item-sliding>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\swipe-to-dismiss\layout-4\swipe-to-dismiss.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], WizardLayout3);
-    return WizardLayout3;
+    ], SwipeToDismissLayout4);
+    return SwipeToDismissLayout4;
 }());
 
-//# sourceMappingURL=wizard-layout-3.js.map
+//# sourceMappingURL=swipe-to-dismiss-layout-4.js.map
 
 /***/ })
 

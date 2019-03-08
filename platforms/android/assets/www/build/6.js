@@ -1,1 +1,429 @@
-webpackJsonp([6],{1077:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65),u(882);var t=function(){return function(){}}()},1078:function(l,n,u){"use strict";function t(l){return e._22(0,[(l()(),e._0(0,0,null,null,1,"h1",[["parallax-title",""]],null,null,null,null,null)),(l()(),e._20(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.data.title)})}function a(l){return e._22(0,[(l()(),e._0(0,0,null,null,18,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit)&&t}return t},c.b,c.a)),e.Z(1,1097728,null,3,r.a,[_.a,s.a,e.j,e.A,[2,d.a]],null,null),e._18(335544320,3,{contentLabel:0}),e._18(603979776,4,{_buttons:1}),e._18(603979776,5,{_icons:1}),e.Z(5,16384,null,0,f.a,[],null,null),(l()(),e._20(-1,2,["\n            "])),(l()(),e._0(7,0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),e.Z(8,16384,null,0,m.a,[],null,null),(l()(),e._20(-1,null,["\n              "])),(l()(),e._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),e._20(-1,null,["\n            "])),(l()(),e._20(-1,2,["\n            "])),(l()(),e._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),e._20(14,null,["",""])),(l()(),e._20(-1,2,["\n            "])),(l()(),e._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),e._20(17,null,["",""])),(l()(),e._20(-1,2,["\n          "]))],null,function(l,n){l(n,10,0,e._3(1,"",n.context.$implicit.image,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description)})}function i(l){return e._22(0,[(l()(),e._0(0,0,null,null,76,"ion-content",[["elastic-header",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,p.b,p.a)),e.Z(1,4374528,[[1,4]],0,b.a,[s.a,h.a,g.a,e.j,e.A,v.a,Z.a,e.u,[2,k.a],[2,j.a]],null,null),e.Z(2,81920,null,0,A.a,[e.j,e.A],null,null),(l()(),e._20(-1,1,["\n  "])),(l()(),e._0(4,0,null,1,51,"div",[["background-size",""],["id","elastic-header"]],null,null,null,null,null)),e.Z(5,278528,null,0,y.m,[e.q,e.j,e.B],{ngStyle:[0,"ngStyle"]},null),e._16(6,{"background-image":0}),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._0(9,0,null,null,19,"div",[["float-right",""],["social",""]],null,null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(11,0,null,null,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onLike",a.data)&&t}return t},null,null)),e.Z(12,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(14,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(17,0,null,null,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFavorite",a.data)&&t}return t},null,null)),e.Z(18,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(20,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(23,0,null,null,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onShare",a.data)&&t}return t},null,null)),e.Z(24,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(26,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e.V(16777216,null,null,1,null,t)),e.Z(32,16384,null,0,y.j,[e.J,e.G],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._0(35,0,null,null,19,"div",[["play-block",""]],null,null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(37,0,null,null,4,"ion-icon",[["icon-medium",""],["item-left",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onSkipPrevious",a.data)&&t}return t},null,null)),e.Z(38,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(40,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(43,0,null,null,4,"ion-icon",[["icon-medium",""],["item-left",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onPlay",a.data)&&t}return t},null,null)),e.Z(44,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(46,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(49,0,null,null,4,"ion-icon",[["icon-medium",""],["item-left",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onSkipNext",a.data)&&t}return t},null,null)),e.Z(50,147456,null,0,x.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(52,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n  "])),(l()(),e._20(-1,1,["\n  "])),(l()(),e._20(-1,1,["\n  "])),(l()(),e._0(58,0,null,1,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),e.Z(59,16384,null,0,I.a,[],null,null),(l()(),e._20(-1,null,["\n    "])),(l()(),e._0(61,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),e.Z(62,16384,null,0,S.a,[],null,null),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(64,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),e.Z(65,16384,null,0,E.a,[],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._0(67,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),e.Z(68,16384,null,0,L.a,[s.a,e.j,e.A,h.a,w.l,g.a],null,null),(l()(),e._20(-1,null,["\n          "])),(l()(),e.V(16777216,null,null,1,null,a)),e.Z(71,802816,null,0,y.i,[e.J,e.G,e.p],{ngForOf:[0,"ngForOf"]},null),(l()(),e._20(-1,null,["\n        "])),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n  "])),(l()(),e._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,2,0);l(n,5,0,l(n,6,0,"url("+u.data.headerImage+")"));l(n,32,0,null!=u.data);l(n,71,0,u.data.items)},function(l,n){var u=n.component;l(n,0,0,e._14(n,1).statusbarPadding,e._14(n,1)._hasRefresher);l(n,11,0,e._14(n,12)._hidden);l(n,14,0,e._3(1,"icon ",u.data.iconLike,""));l(n,17,0,e._14(n,18)._hidden);l(n,20,0,e._3(1,"icon ",u.data.iconFavorite,""));l(n,23,0,e._14(n,24)._hidden);l(n,26,0,e._3(1,"icon ",u.data.iconShare,""));l(n,37,0,e._14(n,38)._hidden);l(n,40,0,e._3(1,"icon ",u.data.iconSkipPrevious,""));l(n,43,0,e._14(n,44)._hidden);l(n,46,0,e._3(1,"icon ",u.data.iconPlay,""));l(n,49,0,e._14(n,50)._hidden);l(n,52,0,e._3(1,"icon ",u.data.iconSkipNext,""))})}function o(l){return e._22(0,[e._18(671088640,1,{content:0}),e._18(402653184,2,{fabButton:0}),(l()(),e._20(-1,null,["\n"])),(l()(),e.V(16777216,null,null,1,null,i)),e.Z(4,16384,null,0,y.j,[e.J,e.G],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,null,["\n"])),(l()(),e._20(-1,null,["\n"])),(l()(),e._0(7,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,F.b,F.a)),e.Z(8,1228800,[["fab",4]],2,T.a,[h.a],null,null),e._18(335544320,6,{_mainButton:0}),e._18(603979776,7,{_fabLists:1}),(l()(),e._20(-1,0,["\n  "])),(l()(),e._0(12,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},$.b,$.a)),e.Z(13,49152,[[6,4],[2,4]],0,V.a,[s.a,e.j,e.A],null,null),(l()(),e._20(-1,0,["\n    "])),(l()(),e._0(15,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Z(16,147456,null,0,x.a,[s.a,e.j,e.A],{name:[0,"name"]},null),(l()(),e._20(-1,0,["\n  "])),(l()(),e._20(-1,0,["\n"])),(l()(),e._20(-1,null,["\n"]))],function(l,n){l(n,4,0,null!=n.component.data);l(n,16,0,"add")},function(l,n){l(n,15,0,e._14(n,16)._hidden)})}u.d(n,"b",function(){return C}),n.c=o,u.d(n,"a",function(){return N});var e=u(2),c=u(141),r=u(26),_=u(22),s=u(4),d=u(57),f=u(71),m=u(218),p=u(215),b=u(35),h=u(7),g=u(15),v=u(14),Z=u(39),k=u(8),j=u(33),A=u(883),y=u(20),x=u(43),I=u(142),S=u(143),E=u(144),L=u(67),w=u(11),F=u(879),T=u(217),$=u(880),V=u(90),B=u(960),C=e.Y({encapsulation:2,styles:[],data:{}}),N=e.W("parallax-layout-1",B.a,function(l){return e._22(0,[(l()(),e._0(0,0,null,null,1,"parallax-layout-1",[],null,null,null,o,C)),e.Z(1,4767744,null,0,B.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},1079:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65),u(882);var t=function(){return function(){}}()},1080:function(l,n,u){"use strict";function t(l){return o._22(0,[(l()(),o._0(0,0,null,null,18,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit)&&t}return t},e.b,e.a)),o.Z(1,1097728,null,3,c.a,[r.a,_.a,o.j,o.A,[2,s.a]],null,null),o._18(335544320,3,{contentLabel:0}),o._18(603979776,4,{_buttons:1}),o._18(603979776,5,{_icons:1}),o.Z(5,16384,null,0,d.a,[],null,null),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(7,0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),o.Z(8,16384,null,0,f.a,[],null,null),(l()(),o._20(-1,null,["\n              "])),(l()(),o._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),o._20(-1,null,["\n            "])),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),o._20(14,null,["",""])),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),o._20(17,null,["",""])),(l()(),o._20(-1,2,["\n          "]))],null,function(l,n){l(n,10,0,o._3(1,"",n.context.$implicit.image,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description)})}function a(l){return o._22(0,[(l()(),o._0(0,0,null,null,58,"ion-content",[["elastic-header",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,m.b,m.a)),o.Z(1,4374528,[[1,4]],0,p.a,[_.a,b.a,h.a,o.j,o.A,g.a,v.a,o.u,[2,Z.a],[2,k.a]],null,null),o.Z(2,81920,null,0,j.a,[o.j,o.A],null,null),(l()(),o._20(-1,1,["\n  "])),(l()(),o._0(4,0,null,1,33,"div",[["background-size",""],["id","elastic-header"]],null,null,null,null,null)),o.Z(5,278528,null,0,A.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(6,{"background-image":0}),(l()(),o._20(-1,null,["\n    "])),(l()(),o._0(8,0,null,null,7,"div",[["class","title"]],null,null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(10,0,null,null,1,"h2",[["parallax-subtitle",""]],null,null,null,null,null)),(l()(),o._20(11,null,["",""])),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(13,0,null,null,1,"h1",[["parallax-title",""]],null,null,null,null,null)),(l()(),o._20(14,null,["",""])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._0(17,0,null,null,19,"div",[["social",""]],null,null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(19,0,null,null,4,"ion-icon",[["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onLike",a.data)&&t}return t},null,null)),o.Z(20,147456,null,0,y.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(22,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(25,0,null,null,4,"ion-icon",[["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFavorite",a.data)&&t}return t},null,null)),o.Z(26,147456,null,0,y.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(28,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(31,0,null,null,4,"ion-icon",[["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onShare",a.data)&&t}return t},null,null)),o.Z(32,147456,null,0,y.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(34,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,null,["\n  "])),(l()(),o._20(-1,1,["\n  "])),(l()(),o._20(-1,1,["\n  "])),(l()(),o._0(40,0,null,1,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),o.Z(41,16384,null,0,x.a,[],null,null),(l()(),o._20(-1,null,["\n    "])),(l()(),o._0(43,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),o.Z(44,16384,null,0,I.a,[],null,null),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(46,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),o.Z(47,16384,null,0,S.a,[],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(49,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),o.Z(50,16384,null,0,E.a,[_.a,o.j,o.A,b.a,L.l,h.a],null,null),(l()(),o._20(-1,null,["\n          "])),(l()(),o.V(16777216,null,null,1,null,t)),o.Z(53,802816,null,0,A.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._20(-1,null,["\n      "])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,null,["\n  "])),(l()(),o._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,2,0);l(n,5,0,l(n,6,0,"url("+u.data.headerImage+")"));l(n,53,0,u.data.items)},function(l,n){var u=n.component;l(n,0,0,o._14(n,1).statusbarPadding,o._14(n,1)._hasRefresher);l(n,11,0,u.data.description);l(n,14,0,u.data.title);l(n,19,0,o._14(n,20)._hidden);l(n,22,0,o._3(1,"icon ",u.data.iconLike,""));l(n,25,0,o._14(n,26)._hidden);l(n,28,0,o._3(1,"icon ",u.data.iconFavorite,""));l(n,31,0,o._14(n,32)._hidden);l(n,34,0,o._3(1,"icon ",u.data.iconShare,""))})}function i(l){return o._22(0,[o._18(671088640,1,{content:0}),o._18(402653184,2,{fabButton:0}),(l()(),o._20(-1,null,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o.V(16777216,null,null,1,null,a)),o.Z(5,16384,null,0,A.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(l()(),o._20(-1,null,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o._0(8,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,w.b,w.a)),o.Z(9,1228800,[["fab",4]],2,F.a,[b.a],null,null),o._18(335544320,6,{_mainButton:0}),o._18(603979776,7,{_fabLists:1}),(l()(),o._20(-1,0,["\n  "])),(l()(),o._0(13,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},T.b,T.a)),o.Z(14,49152,[[6,4],[2,4]],0,$.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,0,["\n    "])),(l()(),o._0(16,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(17,147456,null,0,y.a,[_.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._20(-1,0,["\n  "])),(l()(),o._20(-1,0,["\n"])),(l()(),o._20(-1,null,["\n"]))],function(l,n){l(n,5,0,null!=n.component.data);l(n,17,0,"add")},function(l,n){l(n,16,0,o._14(n,17)._hidden)})}u.d(n,"b",function(){return B}),n.c=i,u.d(n,"a",function(){return C});var o=u(2),e=u(141),c=u(26),r=u(22),_=u(4),s=u(57),d=u(71),f=u(218),m=u(215),p=u(35),b=u(7),h=u(15),g=u(14),v=u(39),Z=u(8),k=u(33),j=u(883),A=u(20),y=u(43),x=u(142),I=u(143),S=u(144),E=u(67),L=u(11),w=u(879),F=u(217),T=u(880),$=u(90),V=u(961),B=o.Y({encapsulation:2,styles:[],data:{}}),C=o.W("parallax-layout-2",V.a,function(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"parallax-layout-2",[],null,null,null,i,B)),o.Z(1,4767744,null,0,V.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},1081:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65),u(882);var t=function(){return function(){}}()},1082:function(l,n,u){"use strict";function t(l){return o._22(0,[(l()(),o._0(0,0,null,null,26,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit)&&t}return t},e.b,e.a)),o.Z(1,1097728,null,3,c.a,[r.a,_.a,o.j,o.A,[2,s.a]],null,null),o._18(335544320,6,{contentLabel:0}),o._18(603979776,7,{_buttons:1}),o._18(603979776,8,{_icons:1}),o.Z(5,16384,null,0,d.a,[],null,null),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(7,0,null,0,4,"ion-avatar",[["item-left",""]],null,null,null,null,null)),o.Z(8,16384,null,0,f.a,[],null,null),(l()(),o._20(-1,null,["\n              "])),(l()(),o._0(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),o._20(-1,null,["\n            "])),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),o._20(14,null,["",""])),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),o._20(17,null,["",""])),(l()(),o._20(-1,2,["\n            "])),(l()(),o._0(19,0,null,4,6,"ion-icon",[["item-right",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onFavorite",l.context.$implicit,u)&&t}return t},null,null)),o.Z(20,147456,[[8,4]],0,m.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,null,["\n              "])),(l()(),o._0(22,0,null,null,2,"i",[["class","icon"],["icon-small",""]],null,null,null,null,null)),o.Z(23,278528,null,0,p.h,[o.p,o.q,o.j,o.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),o._16(24,{"icon-heart":0,"icon-heart-outline":1}),(l()(),o._20(-1,null,["\n            "])),(l()(),o._20(-1,2,["\n          "]))],function(l,n){l(n,23,0,"icon",l(n,24,0,n.context.$implicit.favorite,!n.context.$implicit.favorite))},function(l,n){l(n,10,0,o._3(1,"",n.context.$implicit.image,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description);l(n,19,0,o._14(n,20)._hidden)})}function a(l){return o._22(0,[(l()(),o._0(0,0,null,null,45,"ion-content",[["elastic-header",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,b.b,b.a)),o.Z(1,4374528,[[1,4]],0,h.a,[_.a,g.a,v.a,o.j,o.A,Z.a,k.a,o.u,[2,j.a],[2,A.a]],null,null),o.Z(2,81920,null,0,y.a,[o.j,o.A],null,null),(l()(),o._20(-1,1,["\n  "])),(l()(),o._0(4,0,null,1,20,"ion-item",[["background-size",""],["class","item item-block"],["id","elastic-header"],["no-lines",""]],null,null,null,e.b,e.a)),o.Z(5,278528,null,0,p.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(6,{"background-image":0}),o.Z(7,1097728,null,3,c.a,[r.a,_.a,o.j,o.A,[2,s.a]],null,null),o._18(335544320,3,{contentLabel:0}),o._18(603979776,4,{_buttons:1}),o._18(603979776,5,{_icons:1}),o.Z(11,16384,null,0,d.a,[],null,null),(l()(),o._20(-1,2,["\n    "])),(l()(),o._0(13,0,null,2,4,"ion-thumbnail",[],null,null,null,null,null)),o.Z(14,16384,null,0,x.a,[],null,null),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(16,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,2,["\n    "])),(l()(),o._0(19,0,null,2,4,"div",[["text-center",""]],null,null,null,null,null)),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(21,0,null,null,1,"h1",[["parallax-title",""]],null,null,null,null,null)),(l()(),o._20(22,null,["",""])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,2,["\n  "])),(l()(),o._20(-1,1,["\n  "])),(l()(),o._20(-1,1,["\n  "])),(l()(),o._0(27,0,null,1,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),o.Z(28,16384,null,0,I.a,[],null,null),(l()(),o._20(-1,null,["\n    "])),(l()(),o._0(30,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),o.Z(31,16384,null,0,S.a,[],null,null),(l()(),o._20(-1,null,["\n      "])),(l()(),o._0(33,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),o.Z(34,16384,null,0,E.a,[],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._0(36,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),o.Z(37,16384,null,0,L.a,[_.a,o.j,o.A,g.a,w.l,v.a],null,null),(l()(),o._20(-1,null,["\n          "])),(l()(),o.V(16777216,null,null,1,null,t)),o.Z(40,802816,null,0,p.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(l()(),o._20(-1,null,["\n        "])),(l()(),o._20(-1,null,["\n      "])),(l()(),o._20(-1,null,["\n    "])),(l()(),o._20(-1,null,["\n  "])),(l()(),o._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,2,0);l(n,5,0,l(n,6,0,"url("+u.data.headerImage+")"));l(n,40,0,u.data.items)},function(l,n){var u=n.component;l(n,0,0,o._14(n,1).statusbarPadding,o._14(n,1)._hasRefresher);l(n,16,0,o._3(1,"",u.data.avatar,""));l(n,22,0,u.data.title)})}function i(l){return o._22(0,[o._18(671088640,1,{content:0}),o._18(402653184,2,{fabButton:0}),(l()(),o._20(-1,null,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o.V(16777216,null,null,1,null,a)),o.Z(5,16384,null,0,p.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(l()(),o._20(-1,null,["\n"])),(l()(),o._20(-1,null,["\n"])),(l()(),o._0(8,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,F.b,F.a)),o.Z(9,1228800,[["fab",4]],2,T.a,[g.a],null,null),o._18(335544320,9,{_mainButton:0}),o._18(603979776,10,{_fabLists:1}),(l()(),o._20(-1,0,["\n  "])),(l()(),o._0(13,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},$.b,$.a)),o.Z(14,49152,[[9,4],[2,4]],0,V.a,[_.a,o.j,o.A],null,null),(l()(),o._20(-1,0,["\n    "])),(l()(),o._0(16,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(17,147456,null,0,m.a,[_.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._20(-1,0,["\n  "])),(l()(),o._20(-1,0,["\n"])),(l()(),o._20(-1,null,["\n"]))],function(l,n){l(n,5,0,null!=n.component.data);l(n,17,0,"add")},function(l,n){l(n,16,0,o._14(n,17)._hidden)})}u.d(n,"b",function(){return C}),n.c=i,u.d(n,"a",function(){return N});var o=u(2),e=u(141),c=u(26),r=u(22),_=u(4),s=u(57),d=u(71),f=u(218),m=u(43),p=u(20),b=u(215),h=u(35),g=u(7),v=u(15),Z=u(14),k=u(39),j=u(8),A=u(33),y=u(883),x=u(148),I=u(142),S=u(143),E=u(144),L=u(67),w=u(11),F=u(879),T=u(217),$=u(880),V=u(90),B=u(962),C=o.Y({encapsulation:2,styles:[],data:{}}),N=o.W("parallax-layout-3",B.a,function(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"parallax-layout-3",[],null,null,null,i,C)),o.Z(1,4767744,null,0,B.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},1083:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65),u(882);var t=function(){return function(){}}()},1084:function(l,n,u){"use strict";function t(l){return r._22(0,[(l()(),r._0(0,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null))],null,function(l,n){l(n,0,0,r._3(1,"icon ",n.parent.context.$implicit.iconActive,""))})}function a(l){return r._22(0,[(l()(),r._0(0,0,null,null,0,"i",[["icon-small",""]],[[8,"className",0]],null,null,null,null))],null,function(l,n){l(n,0,0,r._3(1,"icon ",n.parent.context.$implicit.iconInactive,""))})}function i(l){return r._22(0,[(l()(),r._0(0,0,null,null,8,"ion-icon",[["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onStarClass(a.data.iconsStars,l.context.index,u)&&t}return t},null,null)),r.Z(1,147456,[[14,4]],0,_.a,[s.a,r.j,r.A],null,null),(l()(),r._20(-1,null,["\n            "])),(l()(),r.V(16777216,null,null,1,null,t)),r.Z(4,16384,null,0,d.j,[r.J,r.G],{ngIf:[0,"ngIf"]},null),(l()(),r._20(-1,null,["\n            "])),(l()(),r.V(16777216,null,null,1,null,a)),r.Z(7,16384,null,0,d.j,[r.J,r.G],{ngIf:[0,"ngIf"]},null),(l()(),r._20(-1,null,["\n          "]))],function(l,n){l(n,4,0,n.context.$implicit.isActive);l(n,7,0,!n.context.$implicit.isActive)},function(l,n){l(n,0,0,r._14(n,1)._hidden)})}function o(l){return r._22(0,[(l()(),r._0(0,0,null,null,7,"div",[["info",""]],null,null,null,null,null)),(l()(),r._20(-1,null,["\n            "])),(l()(),r._0(2,0,null,null,1,"span",[["float-left",""],["item-subtitle",""],["margin-right",""]],null,null,null,null,null)),(l()(),r._20(3,null,["",""])),(l()(),r._20(-1,null,["\n            "])),(l()(),r._0(5,0,null,null,1,"p",[["item-subtitle",""]],null,null,null,null,null)),(l()(),r._20(6,null,["",""])),(l()(),r._20(-1,null,["\n          "]))],null,function(l,n){l(n,3,0,n.context.$implicit.name);l(n,6,0,n.context.$implicit.value)})}function e(l){return r._22(0,[(l()(),r._0(0,0,null,null,152,"ion-content",[["elastic-header",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,f.b,f.a)),r.Z(1,4374528,[[1,4]],0,m.a,[s.a,p.a,b.a,r.j,r.A,h.a,g.a,r.u,[2,v.a],[2,Z.a]],null,null),r.Z(2,81920,null,0,k.a,[r.j,r.A],null,null),(l()(),r._20(-1,1,["\n  "])),(l()(),r._0(4,0,null,1,8,"ion-item",[["background-size",""],["class","item item-block"],["id","elastic-header"],["no-lines",""]],null,null,null,j.b,j.a)),r.Z(5,278528,null,0,d.m,[r.q,r.j,r.B],{ngStyle:[0,"ngStyle"]},null),r._16(6,{"background-image":0}),r.Z(7,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,3,{contentLabel:0}),r._18(603979776,4,{_buttons:1}),r._18(603979776,5,{_icons:1}),r.Z(11,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n  "])),(l()(),r._20(-1,1,["\n  "])),(l()(),r._20(-1,1,["\n  "])),(l()(),r._0(15,0,null,1,136,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),r.Z(16,16384,null,0,S.a,[],null,null),(l()(),r._20(-1,null,["\n    "])),(l()(),r._0(18,0,null,null,132,"ion-row",[["class","row"]],null,null,null,null,null)),r.Z(19,16384,null,0,E.a,[],null,null),(l()(),r._20(-1,null,["\n      "])),(l()(),r._0(21,0,null,null,28,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),r.Z(22,16384,null,0,L.a,[],null,null),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(24,0,null,null,24,"ion-item",[["class","item item-block"],["color","primary"],["no-lines",""]],null,null,null,j.b,j.a)),r.Z(25,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],{color:[0,"color"]},null),r._18(335544320,6,{contentLabel:0}),r._18(603979776,7,{_buttons:1}),r._18(603979776,8,{_icons:1}),r.Z(29,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(31,0,null,2,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onLike",a.data)&&t}return t},null,null)),r.Z(32,147456,[[8,4]],0,_.a,[s.a,r.j,r.A],null,null),(l()(),r._20(-1,null,["\n            "])),(l()(),r._0(34,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),r._20(-1,null,["\n          "])),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(37,0,null,2,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFavorite",a.data)&&t}return t},null,null)),r.Z(38,147456,[[8,4]],0,_.a,[s.a,r.j,r.A],null,null),(l()(),r._20(-1,null,["\n            "])),(l()(),r._0(40,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),r._20(-1,null,["\n          "])),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(43,0,null,2,4,"ion-icon",[["icon-small",""],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onShare",a.data)&&t}return t},null,null)),r.Z(44,147456,[[8,4]],0,_.a,[s.a,r.j,r.A],null,null),(l()(),r._20(-1,null,["\n            "])),(l()(),r._0(46,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),r._20(-1,null,["\n          "])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._0(52,0,null,null,13,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),r.Z(53,16384,null,0,L.a,[],null,null),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(55,0,null,null,9,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,j.b,j.a)),r.Z(56,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,9,{contentLabel:0}),r._18(603979776,10,{_buttons:1}),r._18(603979776,11,{_icons:1}),r.Z(60,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(62,0,null,2,1,"h1",[["parallax-title",""]],null,null,null,null,null)),(l()(),r._20(63,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._0(68,0,null,null,16,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),r.Z(69,16384,null,0,L.a,[],null,null),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(71,0,null,null,12,"ion-item",[["class","item item-block"],["no-margin",""],["padding-right",""]],null,null,null,j.b,j.a)),r.Z(72,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,12,{contentLabel:0}),r._18(603979776,13,{_buttons:1}),r._18(603979776,14,{_icons:1}),r.Z(76,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r.V(16777216,null,2,1,null,i)),r.Z(79,802816,null,0,d.i,[r.J,r.G,r.p],{ngForOf:[0,"ngForOf"]},null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(81,0,null,2,1,"span",[["span-small",""]],null,null,null,null,null)),(l()(),r._20(82,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._0(88,0,null,null,61,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),r.Z(89,16384,null,0,L.a,[],null,null),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(91,0,null,null,9,"ion-item",[["class","item item-block"],["no-margin",""],["padding-right",""],["text-wrap",""]],null,null,null,j.b,j.a)),r.Z(92,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,15,{contentLabel:0}),r._18(603979776,16,{_buttons:1}),r._18(603979776,17,{_icons:1}),r.Z(96,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(98,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),r._20(99,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(103,0,null,null,10,"ion-item",[["class","item item-block"],["no-margin",""],["padding-right",""]],null,null,null,j.b,j.a)),r.Z(104,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,18,{contentLabel:0}),r._18(603979776,19,{_buttons:1}),r._18(603979776,20,{_icons:1}),r.Z(108,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r.V(16777216,null,2,1,null,o)),r.Z(111,802816,null,0,d.i,[r.J,r.G,r.p],{ngForOf:[0,"ngForOf"]},null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(115,0,null,null,9,"ion-item",[["class","item item-block"],["no-margin",""],["padding-right",""],["text-wrap",""]],null,null,null,j.b,j.a)),r.Z(116,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,21,{contentLabel:0}),r._18(603979776,22,{_buttons:1}),r._18(603979776,23,{_icons:1}),r.Z(120,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(122,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),r._20(123,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(127,0,null,null,9,"ion-item",[["class","item item-block"],["no-margin",""],["padding-right",""],["text-wrap",""]],null,null,null,j.b,j.a)),r.Z(128,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,24,{contentLabel:0}),r._18(603979776,25,{_buttons:1}),r._18(603979776,26,{_icons:1}),r.Z(132,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(134,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),r._20(135,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._20(-1,null,["\n        "])),(l()(),r._0(139,0,null,null,9,"ion-item",[["class","item item-block"],["no-lines",""],["no-margin",""],["padding-right",""],["text-wrap",""]],null,null,null,j.b,j.a)),r.Z(140,1097728,null,3,A.a,[y.a,s.a,r.j,r.A,[2,x.a]],null,null),r._18(335544320,27,{contentLabel:0}),r._18(603979776,28,{_buttons:1}),r._18(603979776,29,{_icons:1}),r.Z(144,16384,null,0,I.a,[],null,null),(l()(),r._20(-1,2,["\n          "])),(l()(),r._0(146,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),r._20(147,null,["",""])),(l()(),r._20(-1,2,["\n        "])),(l()(),r._20(-1,null,["\n      "])),(l()(),r._20(-1,null,["\n    "])),(l()(),r._20(-1,null,["\n  "])),(l()(),r._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,2,0);l(n,5,0,l(n,6,0,"url("+u.data.headerImage+")"));l(n,25,0,"primary");l(n,79,0,u.data.iconsStars);l(n,111,0,u.data.items)},function(l,n){var u=n.component;l(n,0,0,r._14(n,1).statusbarPadding,r._14(n,1)._hasRefresher);l(n,31,0,r._14(n,32)._hidden);l(n,34,0,r._3(1,"icon ",u.data.iconLike,""));l(n,37,0,r._14(n,38)._hidden);l(n,40,0,r._3(1,"icon ",u.data.iconFavorite,""));l(n,43,0,r._14(n,44)._hidden);l(n,46,0,r._3(1,"icon ",u.data.iconShare,""));l(n,63,0,u.data.title);l(n,82,0,u.data.reviews);l(n,99,0,u.data.description);l(n,123,0,u.data.description2);l(n,135,0,u.data.description3);l(n,147,0,u.data.description4)})}function c(l){return r._22(0,[r._18(671088640,1,{content:0}),r._18(402653184,2,{fabButton:0}),(l()(),r._20(-1,null,["\n"])),(l()(),r._20(-1,null,["\n"])),(l()(),r.V(16777216,null,null,1,null,e)),r.Z(5,16384,null,0,d.j,[r.J,r.G],{ngIf:[0,"ngIf"]},null),(l()(),r._20(-1,null,["\n"])),(l()(),r._20(-1,null,["\n"])),(l()(),r._0(8,0,null,null,11,"ion-fab",[["bottom",""],["right",""]],null,null,null,w.b,w.a)),r.Z(9,1228800,[["fab",4]],2,F.a,[p.a],null,null),r._18(335544320,30,{_mainButton:0}),r._18(603979776,31,{_fabLists:1}),(l()(),r._20(-1,0,["\n  "])),(l()(),r._0(13,0,null,0,5,"button",[["button-ion-fab",""],["ion-fab",""]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.onEvent("onFab",a.data,u)&&t}return t},T.b,T.a)),r.Z(14,49152,[[30,4],[2,4]],0,$.a,[s.a,r.j,r.A],null,null),(l()(),r._20(-1,0,["\n    "])),(l()(),r._0(16,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Z(17,147456,null,0,_.a,[s.a,r.j,r.A],{name:[0,"name"]},null),(l()(),r._20(-1,0,["\n  "])),(l()(),r._20(-1,0,["\n"])),(l()(),r._20(-1,null,["\n"]))],function(l,n){l(n,5,0,null!=n.component.data);l(n,17,0,"add")},function(l,n){l(n,16,0,r._14(n,17)._hidden)})}u.d(n,"b",function(){return B}),n.c=c,u.d(n,"a",function(){return C});var r=u(2),_=u(43),s=u(4),d=u(20),f=u(215),m=u(35),p=u(7),b=u(15),h=u(14),g=u(39),v=u(8),Z=u(33),k=u(883),j=u(141),A=u(26),y=u(22),x=u(57),I=u(71),S=u(142),E=u(143),L=u(144),w=u(879),F=u(217),T=u(880),$=u(90),V=u(963),B=r.Y({encapsulation:2,styles:[],data:{}}),C=r.W("parallax-layout-4",V.a,function(l){return r._22(0,[(l()(),r._0(0,0,null,null,1,"parallax-layout-4",[],null,null,null,c,B)),r.Z(1,4767744,null,0,V.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},855:function(l,n,u){"use strict";function t(l){return c._22(0,[(l()(),c._0(0,0,null,null,3,"parallax-layout-1",[["has-header",""]],null,null,null,y.c,y.b)),c.Z(1,4767744,null,0,E.a,[],{data:[0,"data"],events:[1,"events"]},null),c._15(131072,L.b,[c.g]),(l()(),c._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,1,0,c._21(n,1,0,c._14(n,2).transform(u.params.data)),u.params.events)},null)}function a(l){return c._22(0,[(l()(),c._0(0,0,null,null,3,"parallax-layout-2",[["has-header",""]],null,null,null,x.c,x.b)),c.Z(1,4767744,null,0,w.a,[],{data:[0,"data"],events:[1,"events"]},null),c._15(131072,L.b,[c.g]),(l()(),c._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,1,0,c._21(n,1,0,c._14(n,2).transform(u.params.data)),u.params.events)},null)}function i(l){return c._22(0,[(l()(),c._0(0,0,null,null,3,"parallax-layout-3",[["has-header",""]],null,null,null,I.c,I.b)),c.Z(1,4767744,null,0,F.a,[],{data:[0,"data"],events:[1,"events"]},null),c._15(131072,L.b,[c.g]),(l()(),c._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,1,0,c._21(n,1,0,c._14(n,2).transform(u.params.data)),u.params.events)},null)}function o(l){return c._22(0,[(l()(),c._0(0,0,null,null,3,"parallax-layout-4",[["has-header",""]],null,null,null,S.c,S.b)),c.Z(1,4767744,null,0,T.a,[],{data:[0,"data"],events:[1,"events"]},null),c._15(131072,L.b,[c.g]),(l()(),c._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,1,0,c._21(n,1,0,c._14(n,2).transform(u.params.data)),u.params.events)},null)}function e(l){return c._22(0,[(l()(),c._20(-1,null,["\n"])),(l()(),c._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),c.Z(2,16384,null,0,$.a,[V.a,c.j,c.A,[2,B.a]],null,null),(l()(),c._20(-1,null,["\n  "])),(l()(),c._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,C.b,C.a)),c.Z(5,49152,null,0,N.a,[P.a,[2,B.a],[2,J.a],V.a,c.j,c.A],null,null),(l()(),c._20(-1,3,["\n    "])),(l()(),c._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==c._14(l,9).toggle()&&t}return t},O.b,O.a)),c.Z(8,1097728,[[1,4]],0,G.a,[[8,""],V.a,c.j,c.A],null,null),c.Z(9,1064960,null,0,H.a,[Y.a,[2,B.a],[2,G.a],[2,N.a]],{menuToggle:[0,"menuToggle"]},null),c.Z(10,16384,null,1,q.a,[V.a,c.j,c.A,[2,R.a],[2,N.a]],null,null),c._18(603979776,1,{_buttons:1}),(l()(),c._20(-1,0,["\n      "])),(l()(),c._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Z(14,147456,null,0,z.a,[V.a,c.j,c.A],{name:[0,"name"]},null),(l()(),c._20(-1,0,["\n    "])),(l()(),c._20(-1,3,["\n    "])),(l()(),c._0(17,0,null,3,2,"ion-title",[["text-left",""],["text-uppercase",""]],null,null,null,W.b,W.a)),c.Z(18,49152,null,0,M.a,[V.a,c.j,c.A,[2,R.a],[2,N.a]],null,null),(l()(),c._20(19,0,["",""])),(l()(),c._20(-1,3,["\n  "])),(l()(),c._20(-1,null,["\n"])),(l()(),c._20(-1,null,["\n"])),(l()(),c._20(-1,null,["\n\n"])),(l()(),c._20(-1,null,["\n"])),(l()(),c.V(16777216,null,null,1,null,t)),c.Z(26,16384,null,0,L.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n"])),(l()(),c._20(-1,null,["\n"])),(l()(),c.V(16777216,null,null,1,null,a)),c.Z(30,16384,null,0,L.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n"])),(l()(),c._20(-1,null,["\n"])),(l()(),c.V(16777216,null,null,1,null,i)),c.Z(34,16384,null,0,L.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n"])),(l()(),c._20(-1,null,["\n"])),(l()(),c.V(16777216,null,null,1,null,o)),c.Z(38,16384,null,0,L.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,9,0,"");l(n,14,0,"menu");l(n,26,0,u.params.parallaxLayout1);l(n,30,0,u.params.parallaxLayout2);l(n,34,0,u.params.parallaxLayout3);l(n,38,0,u.params.parallaxLayout4)},function(l,n){var u=n.component;l(n,4,0,c._14(n,5)._hidden,c._14(n,5)._sbPadding);l(n,7,0,c._14(n,9).isHidden);l(n,13,0,c._14(n,14)._hidden);l(n,19,0,u.params.title)})}Object.defineProperty(n,"__esModule",{value:!0});var c=u(2),r=(u(0),u(65),function(){return function(l,n){this.navCtrl=l,this.params={},this.page=n.get("page"),this.service=n.get("service"),this.service?(this.params=this.service.prepareParams(this.page,l),this.params.data=this.service.load(this.page)):l.setRoot("HomePage")}}()),_=u(1077),s=u(1079),d=u(1081),f=u(1083),m=function(){return function(){}}(),p=u(418),b=u(419),h=u(420),g=u(421),v=u(422),Z=u(423),k=u(424),j=u(425),A=u(426),y=u(1078),x=u(1080),I=u(1082),S=u(1084),E=u(960),L=u(20),w=u(961),F=u(962),T=u(963),$=u(93),V=u(4),B=u(8),C=u(427),N=u(47),P=u(14),J=u(33),O=u(44),G=u(29),H=u(145),Y=u(37),q=u(146),R=u(68),z=u(43),W=u(428),M=u(94),D=u(19),X=c.Y({encapsulation:2,styles:[],data:{}}),K=c.W("ng-component",r,function(l){return c._22(0,[(l()(),c._0(0,0,null,null,1,"ng-component",[],null,null,null,e,X)),c.Z(1,49152,null,0,r,[J.a,D.a],null,null)],null,null)},{},{},[]),Q=u(25),U=u(216),ll=u(882),nl=u(66);u.d(n,"ItemDetailsPageParallaxModuleNgFactory",function(){return ul});var ul=c.X(m,[],function(l){return c._11([c._12(512,c.i,c.T,[[8,[p.a,b.a,h.a,g.a,v.a,Z.a,k.a,j.a,A.a,y.a,x.a,I.a,S.a,K]],[3,c.i],c.s]),c._12(4608,L.l,L.k,[c.r,[2,L.t]]),c._12(4608,Q.n,Q.n,[]),c._12(4608,Q.c,Q.c,[]),c._12(512,L.c,L.c,[]),c._12(512,Q.m,Q.m,[]),c._12(512,Q.d,Q.d,[]),c._12(512,Q.k,Q.k,[]),c._12(512,U.a,U.a,[]),c._12(512,U.b,U.b,[]),c._12(512,ll.a,ll.a,[]),c._12(512,_.a,_.a,[]),c._12(512,s.a,s.a,[]),c._12(512,d.a,d.a,[]),c._12(512,f.a,f.a,[]),c._12(512,m,m,[]),c._12(256,nl.a,r,[])])})},879:function(l,n,u){"use strict";function t(l){return a._22(0,[a._13(null,0)],null,null)}u.d(n,"a",function(){return i}),n.b=t;var a=u(2),i=(u(7),a.Y({encapsulation:2,styles:[],data:{}}))},880:function(l,n,u){"use strict";function t(l){return a._22(2,[(l()(),a._0(0,0,null,null,1,"ion-icon",[["class","fab-close-icon"],["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Z(1,147456,null,0,i.a,[o.a,a.j,a.A],{name:[0,"name"]},null),(l()(),a._0(2,0,null,null,1,"span",[["class","button-inner"]],null,null,null,null,null)),a._13(null,0),(l()(),a._0(4,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){l(n,1,0,"close")},function(l,n){l(n,0,0,a._14(n,1)._hidden)})}u.d(n,"a",function(){return e}),n.b=t;var a=u(2),i=u(43),o=u(4),e=a.Y({encapsulation:2,styles:[],data:{}})},882:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(883);var t=function(){return function(){}}()},883:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0);var t=function(){function l(l,n){this.element=l,this.renderer=n}return l.prototype.ngOnInit=function(){var l=this;this.scrollerHandle=this.element.nativeElement.getElementsByClassName("scroll-content")[0],this.header=this.scrollerHandle.firstElementChild,this.headerHeight=this.scrollerHandle.clientHeight,this.ticking=!1,this.renderer.setElementStyle(this.header,"webkitTransformOrigin","center bottom"),window.addEventListener("resize",function(){l.headerHeight=l.scrollerHandle.clientHeight},!1),this.scrollerHandle.addEventListener("scroll",function(){l.ticking||window.requestAnimationFrame(function(){l.updateElasticHeader()}),l.ticking=!0})},l.prototype.updateElasticHeader=function(){this.scrollTop=this.scrollerHandle.scrollTop,this.scrollTop>=0?(this.translateAmt=this.scrollTop/2,this.scaleAmt=1):(this.translateAmt=0,this.scaleAmt=-this.scrollTop/this.headerHeight+1),this.renderer.setElementStyle(this.header,"webkitTransform","translate3d(0,"+this.translateAmt+"px,0) scale("+this.scaleAmt+","+this.scaleAmt+")"),this.ticking=!1},l}()},960:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){function l(){}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngOnChanges=function(l){this.subscribeToIonScroll()},l.prototype.ngAfterViewInit=function(){this.subscribeToIonScroll()},l.prototype.subscribeToIonScroll=function(){var l=this;null!=this.content&&null!=this.content.ionScroll&&this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()},961:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){function l(){}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngOnChanges=function(l){this.subscribeToIonScroll()},l.prototype.ngAfterViewInit=function(){this.subscribeToIonScroll()},l.prototype.subscribeToIonScroll=function(){var l=this;null!=this.content&&null!=this.content.ionScroll&&this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()},962:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){function l(){}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngOnChanges=function(l){this.subscribeToIonScroll()},l.prototype.ngAfterViewInit=function(){this.subscribeToIonScroll()},l.prototype.subscribeToIonScroll=function(){var l=this;null!=this.content&&null!=this.content.ionScroll&&this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()},963:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){function l(){}return l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.onStarClass=function(l,n,u){for(var t=0;t<l.length;t++)l[t].isActive=t<=n;this.onEvent("onRates",n,u)},l.prototype.ngOnChanges=function(l){this.subscribeToIonScroll()},l.prototype.ngAfterViewInit=function(){this.subscribeToIonScroll()},l.prototype.subscribeToIonScroll=function(){var l=this;null!=this.content&&null!=this.content.ionScroll&&this.content.ionScroll.subscribe(function(n){l.fabButton.setElementClass("fab-button-out","down"==n.directionY)})},l}()}});
+webpackJsonp([6],{
+
+/***/ 1064:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout1Module", function() { return StickyListHeaderLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__ = __webpack_require__(1181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1145);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var StickyListHeaderLayout1Module = (function () {
+    function StickyListHeaderLayout1Module() {
+    }
+    StickyListHeaderLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__["a" /* StickyListHeaderLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__["a" /* StickyListHeaderLayout1 */]),
+                __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_1__["a" /* StickyListHeaderLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], StickyListHeaderLayout1Module);
+    return StickyListHeaderLayout1Module;
+}());
+
+//# sourceMappingURL=sticky-list-header-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1126:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonAffix; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__adapters_adapter_factory__ = __webpack_require__(1147);
+
+
+/**
+ * Directive for creating affixed list headers. Apply it to ion-list-header and pass a reference to ion-content to it.
+ *
+ * @example
+ * <ion-content #content>
+ *     <ion-list>
+ *         <ion-list-header ion-affix [content]="content">Group 1</ion-list-header>
+ *         <ion-item *ngFor="let item of items">{{item}}</ion-item>
+ *     </ion-list>
+ * </ion-content>
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ *
+ */
+var IonAffix = (function () {
+    function IonAffix(element, renderer) {
+        this.element = element;
+        this.renderer = renderer;
+        this.onSticky = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    IonAffix.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        // getting container
+        this.scrollContainer = Object(__WEBPACK_IMPORTED_MODULE_1__adapters_adapter_factory__["a" /* adapterFactory */])(this.content);
+        this.headerElement = this.element.nativeElement;
+        this.containerElement = this.headerElement.parentElement;
+        var headerHeight = this.headerElement.getBoundingClientRect().height;
+        var right = window.innerWidth - this.headerElement.getBoundingClientRect().width - this.headerElement.getBoundingClientRect().left;
+        var left = this.headerElement.getBoundingClientRect().left;
+        var scrollClientTop = this.scrollContainer.getClientTop();
+        var containerTop = this.containerElement.offsetTop;
+        var containerBottom = containerTop + this.containerElement.getBoundingClientRect().height;
+        // initially checking if affix needs to be shown
+        this.updateSticky(this.scrollContainer.getScrollTop(), containerTop, containerBottom, scrollClientTop, headerHeight, left, right, true);
+        var onScroll = function () {
+            var scrollTop = _this.scrollContainer.getScrollTop();
+            scrollClientTop = _this.scrollContainer.getClientTop();
+            containerTop = _this.containerElement.offsetTop;
+            containerBottom = containerTop + _this.containerElement.getBoundingClientRect().height;
+            _this.updateSticky(scrollTop, containerTop, containerBottom, scrollClientTop, headerHeight, left, right, _this.scrollContainer.isScrollingDown());
+        };
+        // subscribing to scroll events
+        this.scrollSubscription = this.scrollContainer.onScroll().subscribe(onScroll);
+    };
+    IonAffix.prototype.updateSticky = function (scrollTop, containerTop, containerBottom, scrollClientTop, headerHeight, left, right, downwards) {
+        var _this = this;
+        // check if scrollTop is within list boundaries
+        if (scrollTop > 0 && scrollTop >= containerTop && scrollTop <= containerBottom) {
+            if (!this.clone) {
+                this.clone = this.headerElement.cloneNode(true);
+                this.containerElement.insertBefore(this.clone, this.headerElement);
+                this.scrollContainer.appendFixedHeader(this.headerElement);
+                this.onSticky.emit({ sticky: true, affix: this });
+                // for fancy transition efx if scrolling down
+                if (downwards) {
+                    this.applyStyles(left, right);
+                }
+                else {
+                    this.applyStyles(0, 0);
+                }
+                setTimeout(function () {
+                    _this.renderer.setStyle(_this.headerElement, 'right', '0px');
+                    _this.renderer.setStyle(_this.headerElement, 'left', '0px');
+                }, 0);
+            }
+            // transform vertical position to push fixed header up/down
+            if (scrollTop <= containerBottom && scrollTop >= (containerBottom - headerHeight)) {
+                var delta = scrollClientTop - (scrollTop - (containerBottom - headerHeight));
+                this.renderer.setStyle(this.headerElement, 'transform', "translate3d(0px, " + delta + "px, 0px)");
+                this.renderer.setStyle(this.headerElement, '-webkit-transform', "translate3d(0px, " + delta + "px, 0px)");
+            }
+            else {
+                this.renderer.setStyle(this.headerElement, 'transform', "translate3d(0px, " + scrollClientTop + "px, 0px)");
+                this.renderer.setStyle(this.headerElement, '-webkit-transform', "translate3d(0px, " + scrollClientTop + "px, 0px)");
+            }
+        }
+        else {
+            this.reset();
+        }
+    };
+    IonAffix.prototype.reset = function () {
+        if (this.clone) {
+            this.containerElement.insertBefore(this.headerElement, this.clone);
+            this.clearStyles();
+            this.clone.remove();
+            this.clone = null;
+            this.onSticky.emit({ sticky: false, affix: this });
+        }
+    };
+    IonAffix.prototype.applyStyles = function (left, right) {
+        this.renderer.setStyle(this.headerElement, 'right', right + "px");
+        this.renderer.setStyle(this.headerElement, 'left', left + "px");
+        this.renderer.setStyle(this.headerElement, 'transition', 'left 0.1s ease-out, right 0.1s ease-out');
+        this.renderer.setStyle(this.headerElement, 'z-index', '2');
+        this.renderer.setStyle(this.headerElement, 'position', 'absolute');
+        this.renderer.setStyle(this.headerElement, 'width', 'auto');
+        this.renderer.setStyle(this.headerElement, 'top', '0px');
+    };
+    IonAffix.prototype.clearStyles = function () {
+        this.renderer.removeStyle(this.headerElement, 'position');
+        this.renderer.removeStyle(this.headerElement, 'z-index');
+        this.renderer.removeStyle(this.headerElement, 'transition');
+        this.renderer.removeStyle(this.headerElement, 'top');
+        this.renderer.removeStyle(this.headerElement, 'transform');
+        this.renderer.removeStyle(this.headerElement, '-webkit-transform');
+        this.renderer.removeStyle(this.headerElement, 'left');
+        this.renderer.removeStyle(this.headerElement, 'right');
+        this.renderer.removeStyle(this.headerElement, 'width');
+    };
+    IonAffix.prototype.ngOnDestroy = function () {
+        this.reset();
+        this.scrollSubscription.unsubscribe();
+    };
+    IonAffix.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                    selector: '[ion-affix]'
+                },] },
+    ];
+    /** @nocollapse */
+    IonAffix.ctorParameters = function () { return [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["X" /* Renderer2 */], },
+    ]; };
+    IonAffix.propDecorators = {
+        "content": [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['content',] },],
+        "onSticky": [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    };
+    return IonAffix;
+}());
+
+//# sourceMappingURL=ion-affix.js.map
+
+/***/ }),
+
+/***/ 1145:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__ = __webpack_require__(1146);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ion_affix_module__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1126);
+/* unused harmony namespace reexport */
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 1146:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonAffixModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__ = __webpack_require__(1126);
+
+
+var IonAffixModule = (function () {
+    function IonAffixModule() {
+    }
+    IonAffixModule.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */], args: [{
+                    declarations: [
+                        __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__["a" /* IonAffix */]
+                    ],
+                    exports: [
+                        __WEBPACK_IMPORTED_MODULE_1__directives_ion_affix__["a" /* IonAffix */]
+                    ]
+                },] },
+    ];
+    /** @nocollapse */
+    IonAffixModule.ctorParameters = function () { return []; };
+    return IonAffixModule;
+}());
+
+//# sourceMappingURL=ion-affix.module.js.map
+
+/***/ }),
+
+/***/ 1147:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = adapterFactory;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_adapter__ = __webpack_require__(1148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scroll_adapter__ = __webpack_require__(1149);
+
+
+
+function adapterFactory(container) {
+    if (container instanceof __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["b" /* Content */]) {
+        return new __WEBPACK_IMPORTED_MODULE_1__content_adapter__["a" /* ContentAdapter */](container);
+    }
+    else if (container instanceof __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["o" /* Scroll */]) {
+        return new __WEBPACK_IMPORTED_MODULE_2__scroll_adapter__["a" /* ScrollAdapter */](container);
+    }
+    throw 'Invalid container element (only ion-content and ion-scroll currently supported)';
+}
+//# sourceMappingURL=adapter-factory.js.map
+
+/***/ }),
+
+/***/ 1148:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentAdapter; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_merge__);
+
+
+/**
+ * Adapter for ion-content.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+var /**
+ * Adapter for ion-content.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+ContentAdapter = (function () {
+    function ContentAdapter(content) {
+        this.content = content;
+    }
+    ContentAdapter.prototype.onScroll = function () {
+        return __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"].merge(this.content.ionScrollStart, this.content.ionScroll, this.content.ionScrollEnd);
+    };
+    ContentAdapter.prototype.getClientTop = function () {
+        return this.content.getScrollElement().getBoundingClientRect().top;
+    };
+    ContentAdapter.prototype.getScrollTop = function () {
+        return this.content.getScrollElement().scrollTop;
+    };
+    ContentAdapter.prototype.appendFixedHeader = function (headerElement) {
+        this.content.getNativeElement().appendChild(headerElement);
+    };
+    ContentAdapter.prototype.isScrollingDown = function () {
+        return this.content.directionY === 'down';
+    };
+    return ContentAdapter;
+}());
+/**
+ * Adapter for ion-content.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+
+//# sourceMappingURL=content-adapter.js.map
+
+/***/ }),
+
+/***/ 1149:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScrollAdapter; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_observable_fromEvent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
+
+
+
+/**
+ * Adapter for ion-scroll.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+var /**
+ * Adapter for ion-scroll.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+ScrollAdapter = (function () {
+    function ScrollAdapter(scroll) {
+        this.scroll = scroll;
+        this.scrollingDown = false;
+    }
+    ScrollAdapter.prototype.onScroll = function () {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"].fromEvent(this.scroll._scrollContent.nativeElement, 'scroll')
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["map"])(function () { return _this.getScrollTop(); }), Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["pairwise"])(), Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["tap"])(function (scrollTops) { return _this.scrollingDown = scrollTops[0] - scrollTops[1] < 0; }));
+    };
+    ScrollAdapter.prototype.getClientTop = function () {
+        return 0;
+    };
+    ScrollAdapter.prototype.getScrollTop = function () {
+        return this.scroll._scrollContent.nativeElement.scrollTop;
+    };
+    ScrollAdapter.prototype.appendFixedHeader = function (headerElement) {
+        this.scroll._scrollContent.nativeElement.parentElement.appendChild(headerElement);
+    };
+    ScrollAdapter.prototype.isScrollingDown = function () {
+        return this.scrollingDown;
+    };
+    return ScrollAdapter;
+}());
+/**
+ * Adapter for ion-scroll.
+ *
+ * @author Jonas Zuberbuehler <jonas.zuberbuehler@gmail.com>
+ */
+
+//# sourceMappingURL=scroll-adapter.js.map
+
+/***/ }),
+
+/***/ 1181:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StickyListHeaderLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var StickyListHeaderLayout1 = (function () {
+    function StickyListHeaderLayout1() {
+        this.slider = {};
+    }
+    StickyListHeaderLayout1.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    StickyListHeaderLayout1.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], StickyListHeaderLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], StickyListHeaderLayout1.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], StickyListHeaderLayout1.prototype, "content", void 0);
+    StickyListHeaderLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'sticky-list-header-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-1\sticky-list-header.html"*/'<!-- Theme Sticky List Header - Basic -->\n\n<ion-content>\n\n  <div *ngIf="data != null">\n\n    <ion-list no-margin *ngFor="let item of data.items">\n\n      <!-- Header Top -->\n\n      <ion-item-divider no-margin header-title ion-affix [content]="content">\n\n        <h2 text-uppercase>{{item.groupName}}</h2>\n\n      </ion-item-divider>\n\n      <ion-item *ngFor="let element of item.items"\n\n        (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n        <!-- Avatar -->\n\n        <ion-avatar item-start>\n\n          <img [src]="element.image" alt="{{element.title}}" />\n\n        </ion-avatar>\n\n        <!-- Title -->\n\n        <h2 item-title>{{element.title}}</h2>\n\n        <!-- Subtitle -->\n\n        <p item-subtitle text-wrap>{{element.subtitle}}</p>\n\n        <!-- Badge -->\n\n        <div item-content (click)="onEvent(\'onProceed\', element, $event)">\n\n          <ion-badge class="badge-light">{{element.price}}</ion-badge>\n\n        </div>\n\n      </ion-item>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-1\sticky-list-header.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], StickyListHeaderLayout1);
+    return StickyListHeaderLayout1;
+}());
+
+//# sourceMappingURL=sticky-list-header-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=6.js.map

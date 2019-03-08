@@ -1,14 +1,14 @@
 webpackJsonp([78],{
 
-/***/ 1091:
+/***/ 1043:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterLayout1Module", function() { return RegisterLayout1Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout4Module", function() { return CheckBoxLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_layout_1__ = __webpack_require__(1244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__ = __webpack_require__(1160);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RegisterLayout1Module = (function () {
-    function RegisterLayout1Module() {
+var CheckBoxLayout4Module = (function () {
+    function CheckBoxLayout4Module() {
     }
-    RegisterLayout1Module = __decorate([
+    CheckBoxLayout4Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */],
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */]
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], RegisterLayout1Module);
-    return RegisterLayout1Module;
+    ], CheckBoxLayout4Module);
+    return CheckBoxLayout4Module;
 }());
 
-//# sourceMappingURL=register-layout-1.module.js.map
+//# sourceMappingURL=check-box-layout-4.module.js.map
 
 /***/ }),
 
-/***/ 1244:
+/***/ 1160:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterLayout1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout4; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -58,39 +58,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var RegisterLayout1 = (function () {
-    function RegisterLayout1() {
+var CheckBoxLayout4 = (function () {
+    function CheckBoxLayout4() {
         var _this = this;
-        this.onEvent = function (event) {
+        this.onEvent = function (event, item) {
             if (_this.events[event]) {
-                _this.events[event]({
-                    'username': _this.username,
-                    'password': _this.password,
-                    'country': _this.country,
-                    'city': _this.city,
-                    'email': _this.email
-                });
+                _this.events[event](item);
             }
         };
     }
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
         __metadata("design:type", Object)
-    ], RegisterLayout1.prototype, "data", void 0);
+    ], CheckBoxLayout4.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
         __metadata("design:type", Object)
-    ], RegisterLayout1.prototype, "events", void 0);
-    RegisterLayout1 = __decorate([
+    ], CheckBoxLayout4.prototype, "events", void 0);
+    CheckBoxLayout4 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'register-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/'<!-- Themes Register + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--Form-->\n\n        <div class="form">\n\n          <!--Form Title-->\n\n          <h1 title text-right>{{data.register}}</h1>\n\n          <!---Input field username-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.username}}</ion-label>\n\n            <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n          </ion-item>\n\n          <!---Input field password-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.password}}</ion-label>\n\n            <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n          <!---Input field email-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.email}}</ion-label>\n\n            <ion-input required type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" [(ngModel)]="email"></ion-input>\n\n          </ion-item>\n\n          <!---Input field country-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.country}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="country"></ion-input>\n\n          </ion-item>\n\n          <!---Input field city-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.city}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="city"></ion-input>\n\n          </ion-item>\n\n          <!---Register button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n        </div>\n\n        <div class="logo">\n\n          <!---Logo-->\n\n          <ion-thumbnail>\n\n            <img float-left [src]="data.logo">\n\n          </ion-thumbnail>\n\n          <!---Skip button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/
+            selector: 'check-box-layout-4',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-4\check-box.html"*/'<!--Themes Two Columns -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row no-padding>\n\n    <ion-col col-6 *ngFor="let item of data" (tap)="onEvent(\'onButton\', item)">\n\n      <!-- Checkbox List -->\n\n      <ion-item no-lines>\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n      </ion-item>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-4\check-box.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], RegisterLayout1);
-    return RegisterLayout1;
+    ], CheckBoxLayout4);
+    return CheckBoxLayout4;
 }());
 
-//# sourceMappingURL=register-layout-1.js.map
+//# sourceMappingURL=check-box-layout-4.js.map
 
 /***/ })
 

@@ -1,14 +1,14 @@
 webpackJsonp([53],{
 
-/***/ 1144:
+/***/ 1073:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemDetailsPageTextViewModule", function() { return ItemDetailsPageTextViewModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout1Module", function() { return LoginLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_text_view__ = __webpack_require__(1298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_1__ = __webpack_require__(1190);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,34 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemDetailsPageTextViewModule = (function () {
-    function ItemDetailsPageTextViewModule() {
+var LoginLayout1Module = (function () {
+    function LoginLayout1Module() {
     }
-    ItemDetailsPageTextViewModule = __decorate([
+    LoginLayout1Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__item_details_text_view__["a" /* ItemDetailsPageTextView */],
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__item_details_text_view__["a" /* ItemDetailsPageTextView */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_1__["a" /* LoginLayout1 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ItemDetailsPageTextViewModule);
-    return ItemDetailsPageTextViewModule;
+    ], LoginLayout1Module);
+    return LoginLayout1Module;
 }());
 
-//# sourceMappingURL=item-details-text-view.module.js.map
+//# sourceMappingURL=login-layout-1.module.js.map
 
 /***/ }),
 
-/***/ 1298:
+/***/ 1190:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemDetailsPageTextView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -56,30 +58,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-var ItemDetailsPageTextView = (function () {
-    function ItemDetailsPageTextView(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.params = {};
-        // If we navigated to this page, we will have an item available as a nav param
-        this.page = navParams.get('page');
-        this.service = navParams.get('service');
-        if (this.service) {
-            this.params = this.service.prepareParams(this.page, navCtrl);
-        }
-        else {
-            navCtrl.setRoot("HomePage");
-        }
+var LoginLayout1 = (function () {
+    function LoginLayout1() {
+        var _this = this;
+        this.onEvent = function (event) {
+            if (_this.events[event]) {
+                _this.events[event]({
+                    'username': _this.username,
+                    'password': _this.password
+                });
+            }
+        };
     }
-    ItemDetailsPageTextView = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\item-details-text-view\item-details-text-view.html"*/'<!--Text views component-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-left text-uppercase>ALL</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!--- Content text exapmles  --->\n\n<ion-content padding class="default-background">\n\n<div class="title-components">Typography examples:</div>\n\n<h1 class="example-h1">This is example of h1 title.</h1>\n\n<h2 class="example-h2">And this is example of h2 title/subtitle.</h2>\n\n<h3 class="example-h3">Example of h3 subtitle is also here.</h3>\n\n<h4 class="example-h4">And h4 subtitle example is here.</h4>\n\n<h5 class="example-h5">h5 subtitle is like this!</h5>\n\n<h6 class="example-h6">And h6 at the end usualy same as h6.</h6>\n\n<p class="example-p">This is example of paragraph text.\n\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n\n  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n  Ut enim ad minim veniam, quis nostrud exercitation ullamco\n\n  laboris nisi ut aliquip ex ea commodo consequat.</p>\n\n\n\n<!--- SPAN EXAMPLES  --->\n\n<div class="title-components">SPAN EXAMPLES:</div>\n\n<div span-small>Small span: $555, 31.12.2016., 4.84 (35 reviews)</div>\n\n<div span-medium>Medium span: $555, 31.12.2016.</div>\n\n<div span-large>Large span: $555, 31.12.2016.</div>\n\n\n\n<!--- BUTTON EXAMPLE  --->\n\n<div class="title-components">Button examples:</div>\n\n<div class="block-insert">\n\n  <span class="compomets"> Default</span>\n\n  <button default-button ion-button>BUTTON</button>\n\n</div>\n\n<div class="block-insert">\n\n  <span padding-left class="compomets">Flat</span>\n\n  <button button-clear clear ion-button>BUTTON</button>\n\n</div>\n\n\n\n<!--- ICON EXAMPLES  --->\n\n<div class="title-components">ICON EXAMPLES:</div>\n\n<ion-icon icon-small>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Small</span>\n\n<ion-icon icon-small>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-small>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Medium</span>\n\n<ion-icon icon-medium>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-medium>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-medium>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n<span class="compomets">Large</span>\n\n<ion-icon icon-large>\n\n  <i class=" icon icon-thumb-up"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-large>\n\n  <i class=" icon icon-heart"></i>\n\n</ion-icon>\n\n\n\n<ion-icon icon-large>\n\n  <i class=" icon-share-variant"></i>\n\n</ion-icon>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\item-details-text-view\item-details-text-view.html"*/
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout1.prototype, "events", void 0);
+    LoginLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'login-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\login\layout-1\login.html"*/'<!-- Themes Login + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <button ion-button button-clear clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        <!---Logo-->\n\n        <ion-thumbnail>\n\n          <img [src]="data.logo">\n\n        </ion-thumbnail>\n\n        <!---Input field username-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.username}}</ion-label>\n\n          <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n        </ion-item>\n\n        <!---Input field password-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.password}}</ion-label>\n\n          <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n        </ion-item>\n\n        <!---Login button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onLogin\')">{{data.login}}</button>\n\n        <!---Register button-->\n\n        <button ion-button float-right default-button (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n      </ion-col>\n\n      <!---Share Section-->\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 social>\n\n        <!---Facebook button-->\n\n        <button ion-button color="facebook" (click)="onEvent(\'onFacebook\')">Facebook</button>\n\n        <!---Twitter button-->\n\n        <button ion-button color="twitter" (click)="onEvent(\'onTwitter\')">Twitter</button>\n\n        <!---Google button-->\n\n        <button ion-button color="google" (click)="onEvent(\'onGoogle\')">Google</button>\n\n        <!---Pinterest button-->\n\n        <button ion-button color="pinterest" (click)="onEvent(\'onPinterest\')">Pinterest</button>\n\n      </ion-col>\n\n      <!---End Share Section-->\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\login\layout-1\login.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
-    ], ItemDetailsPageTextView);
-    return ItemDetailsPageTextView;
+        __metadata("design:paramtypes", [])
+    ], LoginLayout1);
+    return LoginLayout1;
 }());
 
-//# sourceMappingURL=item-details-text-view.js.map
+//# sourceMappingURL=login-layout-1.js.map
 
 /***/ })
 

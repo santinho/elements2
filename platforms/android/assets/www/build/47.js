@@ -1,1 +1,95 @@
-webpackJsonp([47],{1013:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1014:function(n,l,u){"use strict";function t(n){return e._22(0,[(n()(),e._0(0,0,null,null,4,"ion-slide",[],null,null,null,a.b,a.a)),e.Z(1,180224,null,0,r.a,[e.j,e.A,o.a],null,null),(n()(),e._20(-1,0,["\n    "])),(n()(),e._0(3,0,null,0,0,"img",[],[[8,"src",4]],null,null,null,null)),(n()(),e._20(-1,0,["\n  "]))],null,function(n,l){n(l,3,0,l.context.$implicit.image)})}function i(n){return e._22(0,[e._18(402653184,1,{slider:0}),(n()(),e._20(-1,null,["\n"])),(n()(),e._0(2,0,null,null,5,"ion-slides",[["pager","true"],["zoom","true"]],null,null,null,s.b,s.a)),e.Z(3,1228800,[[1,4],["slider",4]],0,o.a,[c.a,d.a,e.u,[2,_.a],e.j,e.A],{initialSlide:[0,"initialSlide"],pager:[1,"pager"],zoom:[2,"zoom"]},null),(n()(),e._20(-1,0,["\n  "])),(n()(),e.V(16777216,null,0,1,null,t)),e.Z(6,802816,null,0,f.i,[e.J,e.G,e.p],{ngForOf:[0,"ngForOf"]},null),(n()(),e._20(-1,0,["\n"])),(n()(),e._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,3,0,u.data.index,"true","true");n(l,6,0,u.data.items)},null)}u.d(l,"b",function(){return m}),l.c=i,u.d(l,"a",function(){return b});var e=u(2),a=u(896),r=u(221),o=u(147),s=u(897),c=u(4),d=u(7),_=u(8),f=u(20),p=u(928),v=u(33),g=u(19),m=e.Y({encapsulation:2,styles:[],data:{}}),b=e.W("full-screen-gallery",p.a,function(n){return e._22(0,[(n()(),e._0(0,0,null,null,1,"full-screen-gallery",[],null,null,null,i,m)),e.Z(1,49152,null,0,p.a,[v.a,g.a],null,null)],null,null)},{data:"data",events:"events"},{},[])},771:function(n,l,u){"use strict";Object.defineProperty(l,"__esModule",{value:!0}),u.d(l,"FullScreenGalleryModuleNgFactory",function(){return h});var t=u(2),i=u(1013),e=u(418),a=u(419),r=u(420),o=u(421),s=u(422),c=u(423),d=u(424),_=u(425),f=u(426),p=u(1014),v=u(20),g=u(25),m=u(216),b=u(66),k=u(928),h=t.X(i.a,[],function(n){return t._11([t._12(512,t.i,t.T,[[8,[e.a,a.a,r.a,o.a,s.a,c.a,d.a,_.a,f.a,p.a]],[3,t.i],t.s]),t._12(4608,v.l,v.k,[t.r,[2,v.t]]),t._12(4608,g.n,g.n,[]),t._12(4608,g.c,g.c,[]),t._12(512,v.c,v.c,[]),t._12(512,g.m,g.m,[]),t._12(512,g.d,g.d,[]),t._12(512,g.k,g.k,[]),t._12(512,m.a,m.a,[]),t._12(512,m.b,m.b,[]),t._12(512,i.a,i.a,[]),t._12(256,b.a,k.a,[])])})},896:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),i._13(null,0)],null,null)}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=i.Y({encapsulation:2,styles:[],data:{}})},897:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(n()(),i._0(1,0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),i._13(null,0),(n()(),i._0(3,0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(n,l){var u=l.component;n(l,0,0,u._rtl?"rtl":null);n(l,3,0,!u.pager)})}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=(u(4),u(7),u(8),i.Y({encapsulation:2,styles:[],data:{}}))},928:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){function n(n,l){var u=this;this.navCtrl=n,this.isLocked=!1,this.onEvent=function(n,l,t){t&&t.stopPropagation(),u.events[n]&&u.events[n](l)},this.onDoubleClick=function(n,l){u.isLocked=!u.isLocked,l.lockSwipes(u.isLocked)},this.sliderOptions={pager:!0}}return n.prototype.ionViewDidLoad=function(){this.sliderOptions={pager:!0,loop:!0,zoom:!0,initialSlide:this.data.index}},n}()}});
+webpackJsonp([47],{
+
+/***/ 1085:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout1Module", function() { return RangeLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_1__ = __webpack_require__(1202);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var RangeLayout1Module = (function () {
+    function RangeLayout1Module() {
+    }
+    RangeLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__range_layout_1__["a" /* RangeLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__range_layout_1__["a" /* RangeLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__range_layout_1__["a" /* RangeLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], RangeLayout1Module);
+    return RangeLayout1Module;
+}());
+
+//# sourceMappingURL=range-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RangeLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var RangeLayout1 = (function () {
+    function RangeLayout1() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    RangeLayout1.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], RangeLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], RangeLayout1.prototype, "events", void 0);
+    RangeLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'range-button-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\range\layout-1\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item>\n\n        <ion-range [(ngModel)]="data.value" (ionChange)="onEvent(\'onChange\', data.value, $event)">\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\range\layout-1\range.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], RangeLayout1);
+    return RangeLayout1;
+}());
+
+//# sourceMappingURL=range-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=47.js.map

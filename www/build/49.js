@@ -1,14 +1,14 @@
 webpackJsonp([49],{
 
-/***/ 1117:
+/***/ 1084:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsMagiasPageModule", function() { return ElementsMagiasPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RadioButtonLayout2Module", function() { return RadioButtonLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsMagias__ = __webpack_require__(1270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_2__ = __webpack_require__(1201);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,38 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ElementsMagiasPageModule = (function () {
-    function ElementsMagiasPageModule() {
+var RadioButtonLayout2Module = (function () {
+    function RadioButtonLayout2Module() {
     }
-    ElementsMagiasPageModule = __decorate([
+    RadioButtonLayout2Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__elementsMagias__["a" /* ElementsMagiasPage */],
+                __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_2__["a" /* RadioButtonLayout2 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__elementsMagias__["a" /* ElementsMagiasPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__radio_button_layout_2__["a" /* RadioButtonLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_2__["a" /* RadioButtonLayout2 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ElementsMagiasPageModule);
-    return ElementsMagiasPageModule;
+    ], RadioButtonLayout2Module);
+    return RadioButtonLayout2Module;
 }());
 
-//# sourceMappingURL=elementsMagias.module.js.map
+//# sourceMappingURL=radio-button-layout-2.module.js.map
 
 /***/ }),
 
-/***/ 1181:
+/***/ 1201:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButtonLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,167 +58,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
-
-var HomeService = (function () {
-    function HomeService(af, loadingService) {
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getData = function () {
-            return {
-                "toolbarTitle": "Ionic3 UI Theme - Yellow Dark",
-                "title": "SAVE HOURS",
-                "subtitle": "OF DEVELOPING",
-                "subtitle2": "and make apps fast as light!",
-                "link": "http://csform.com/documentation-for-ionic-2-ui-template-app/",
-                "description": "For better understanding how our template works please read documentation.",
-                "background": "assets/images/background/29.jpg"
-            };
+var RadioButtonLayout2 = (function () {
+    function RadioButtonLayout2() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
         };
     }
-    HomeService.prototype.load = function () {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('home')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getData());
-                observer.complete();
-            });
-        }
-    };
-    HomeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], HomeService);
-    return HomeService;
-}());
-
-//# sourceMappingURL=home-service.js.map
-
-/***/ }),
-
-/***/ 1270:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElementsMagiasPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_home_service__ = __webpack_require__(1181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(610);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var ElementsMagiasPage = (function () {
-    function ElementsMagiasPage(navCtrl, service, af) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.service = service;
-        this.af = af;
-        this.title = 'Magias';
-        this.node = 'Tormenta/Magias';
-        this.tipoMagias = ['Arcana', 'Divina'];
-        this.tipoMagiasSelecionados = ['Arcana', 'Divina'];
-        this.nivelCaminho = [];
-        this.searchTerm = "";
-        service.load().subscribe(function (snapshot) {
-            _this.data = snapshot;
-        });
-        this.list = this.af.list(this.node).valueChanges();
-        this.listFiltered = this.af.list(this.node).valueChanges();
-        this.list.subscribe(function (l) { console.log(l); });
-    }
-    ElementsMagiasPage.prototype.getItems = function (event) {
-        var _this = this;
-        if (!this.list) {
-            this.list = this.listFiltered;
-        }
-        this.list.subscribe(function (listaBD) {
-            var listaBDFiltrada = listaBD.slice();
-            listaBDFiltrada = listaBDFiltrada.filter(function (item) {
-                var possuiElementos = false;
-                item.Niveis.forEach(function (nivel) {
-                    if (nivel) {
-                        var listaNivelFiltrado = nivel.Lista.filter(function (magia) {
-                            var nomeOK = magia['Nome'].toLowerCase().indexOf(_this.searchTerm.toLowerCase()) > -1;
-                            console.log('nomeOk', nomeOK);
-                            return nomeOK;
-                        });
-                        nivel.Lista = listaNivelFiltrado;
-                        if (listaNivelFiltrado.length > 0) {
-                            possuiElementos = true;
-                        }
-                        console.log('nivel', listaNivelFiltrado);
-                    }
-                });
-                return possuiElementos;
-            });
-            _this.listFiltered = __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(listaBDFiltrada);
-        });
-    };
-    ElementsMagiasPage.prototype.toggleGroup = function (group) {
-        group.show = !group.show;
-    };
-    ElementsMagiasPage.prototype.isGroupShown = function (group) {
-        return group.show;
-    };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
         __metadata("design:type", Object)
-    ], ElementsMagiasPage.prototype, "data", void 0);
+    ], RadioButtonLayout2.prototype, "data", void 0);
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
         __metadata("design:type", Object)
-    ], ElementsMagiasPage.prototype, "events", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Content */]) === "function" && _a || Object)
-    ], ElementsMagiasPage.prototype, "content", void 0);
-    ElementsMagiasPage = __decorate([
+    ], RadioButtonLayout2.prototype, "events", void 0);
+    RadioButtonLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'elements-page-magias',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\elementsMagias\elementsMagias.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Magias</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n        <!-- List -->\n\n        <ion-col col-12>\n\n        <ion-list no-padding no-margin transparent>\n\n        <ion-item padding-top no-lines *ngIf="data != null">\n\n            <ion-label>Tipo Conjuração:</ion-label>\n\n            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoMagiasSelecionados">\n\n                <ion-option *ngFor="let tipo of tipoMagias;" [value]="tipo">{{tipo}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        </ion-list>\n\n        </ion-col>\n\n        \n\n        <ion-col col-12>\n\n            <ion-list no-margin>\n\n            \n\n            <ion-list-header no-padding no-margin transparent>\n\n                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>\n\n            </ion-list-header>\n\n\n\n            <li *ngFor="let group of listFiltered | async">\n\n              <div *ngIf="group.Niveis && group.Niveis.length >0">\n\n                <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">\n\n                    <h2 text-uppercase>{{group.Nome}}</h2>\n\n                </ion-item-divider>\n\n                <div *ngFor="let n of group.Niveis">\n\n                    <div *ngIf="n.Lista && n.Lista.length >0">\n\n                        <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerNivel" >\n\n                            <h2 text-uppercase>Nível {{n.Nivel}}</h2>\n\n                        </ion-item-divider>\n\n                        <div *ngFor="let magia of n.Lista">\n\n                            <div class="collapsible-header" (click)="toggleGroup(magia)">\n\n                                <ion-item no-padding>\n\n                                <h2 padding-left item-title>{{magia.Nome}}</h2>\n\n                                <h3 padding-left item-subtitle>{{magia.Resumo}}</h3>\n\n                                </ion-item>\n\n                            </div>\n\n                            <!-- List big image Body -->\n\n                            <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(magia) }" [hidden]="!isGroupShown(magia)">\n\n                                <ion-item transparent no-lines style="color: white">\n\n                                    <h2 padding-left>{{magia.Nome}} ({{magia.Tipo}})</h2>\n\n                                    <h2 padding-left>Tempo de Execução: {{magia.TempoExecucao}}</h2>\n\n                                    <h2 padding-left>Alvo: {{magia.Alvo}}</h2>\n\n                                    <h2 padding-left>Duração: {{magia.Duracao}}</h2>\n\n                                    <h2 padding-left>Teste de Resistência: {{magia.TesteResistencia}}</h2>\n\n                                    <br/>\n\n                                    <h2 padding-left text-wrap>Descrição: {{magia.Descricao}}</h2>\n\n                                </ion-item>\n\n                            </div>\n\n                            <!--end-->\n\n                        </div>\n\n                    </div>\n\n                </div>\n\n              </div>\n\n            </li>\n\n            </ion-list>\n\n        </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\elementsMagias\elementsMagias.html"*/,
-            providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
+            selector: 'radio-button-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\radio-button\layout-2\radio-button.html"*/'<!--Themes Radio Button - With Avatars -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-list radio-group [(ngModel)]="data.selectedItem">\n\n      <!--Content -->\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <!-- Content Avatar -->\n\n        <ion-avatar item-start>\n\n          <img images-filter [src]="item.avatar" />\n\n        </ion-avatar>\n\n        <!-- Content Title -->\n\n        <ion-label item-title padding-top>{{item.title}}</ion-label>\n\n        <!-- Content Subtitle -->\n\n        <ion-label item-subtitle text-wrap>{{item.subtitle}}</ion-label>\n\n        <ion-radio item-end [value]="item.id" (ionSelect)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-radio>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\radio-button\layout-2\radio-button.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */]) === "function" && _d || Object])
-    ], ElementsMagiasPage);
-    return ElementsMagiasPage;
-    var _a, _b, _c, _d;
+        __metadata("design:paramtypes", [])
+    ], RadioButtonLayout2);
+    return RadioButtonLayout2;
 }());
 
-//# sourceMappingURL=elementsMagias.js.map
+//# sourceMappingURL=radio-button-layout-2.js.map
 
 /***/ })
 

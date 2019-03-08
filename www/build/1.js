@@ -1,14 +1,16 @@
 webpackJsonp([1],{
 
-/***/ 1149:
+/***/ 1077:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemsPageModule", function() { return ItemsPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout3Module", function() { return MapsLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__items__ = __webpack_require__(1303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(1194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__agm_core__ = __webpack_require__(1150);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,7780 +20,3197 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ItemsPageModule = (function () {
-    function ItemsPageModule() {
+
+
+var MapsLayout3Module = (function () {
+    function MapsLayout3Module() {
     }
-    ItemsPageModule = __decorate([
+    MapsLayout3Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__items__["a" /* ItemsPage */],
+                __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__["a" /* MapsLayout3 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__items__["a" /* ItemsPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__agm_core__["a" /* AgmCoreModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__services_app_settings__["a" /* AppSettings */].MAP_KEY),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__maps_layout_3__["a" /* MapsLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__["a" /* MapsLayout3 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ItemsPageModule);
-    return ItemsPageModule;
+    ], MapsLayout3Module);
+    return MapsLayout3Module;
 }());
 
-//# sourceMappingURL=items.module.js.map
+//# sourceMappingURL=maps-layout-3.module.js.map
 
 /***/ }),
 
-/***/ 1171:
+/***/ 1121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var TabsService = (function () {
-    function TabsService(af, loadingService) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getId = function () { return 'tabs'; };
-        this.getTitle = function () { return 'Tabs'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Footer tab - text", "theme": "layout1" },
-                { "title": "Footer tab - icons", "theme": "layout2" },
-                { "title": "Header tab - text", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.charAt(0).toUpperCase() +
-                menuItem.slice(1)]();
-        };
-        this.getDataForTab1 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/5.jpg",
-                "title": "Fragment Example 1",
-                "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            };
-        };
-        this.getDataForTab2 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/6.jpg",
-                "title": "Fragment Example 2",
-                "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            };
-        };
-        this.getDataForTab3 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/7.jpg",
-                "title": "Fragment Example 3",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-            };
-        };
-        this.getDataForTab4 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/5.jpg",
-                "title": "Fragment Example 4",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-            };
-        };
-        this.getDataForTab5 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/6.jpg",
-                "title": "Fragment Example 5",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's."
-            };
-        };
-        this.getDataForTab6 = function () {
-            return {
-                "backgroundImage": "assets/images/avatar-large/7.jpg",
-                "title": "Fragment Example 6",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            return {};
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-    }
-    TabsService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('tab/' + item)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    TabsService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], TabsService);
-    return TabsService;
-}());
-
-//# sourceMappingURL=tabs-service.js.map
-
-/***/ }),
-
-/***/ 1303:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoogleMapsAPIWrapper; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_HttpService__ = __webpack_require__(1304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_validation__ = __webpack_require__(1305);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__ = __webpack_require__(1306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_native__ = __webpack_require__(608);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__ = __webpack_require__(1307);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__ = __webpack_require__(1308);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__ = __webpack_require__(1309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__ = __webpack_require__(1310);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__ = __webpack_require__(1311);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__ = __webpack_require__(1312);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__services_tabs_service__ = __webpack_require__(1171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_login_service__ = __webpack_require__(1313);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_register_service__ = __webpack_require__(1314);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__ = __webpack_require__(1315);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__ = __webpack_require__(1316);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__ = __webpack_require__(1317);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__ = __webpack_require__(1318);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__ = __webpack_require__(1319);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__ = __webpack_require__(1320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__ = __webpack_require__(1321);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__ = __webpack_require__(1322);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__ = __webpack_require__(1323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__services_maps_service__ = __webpack_require__(1324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__ = __webpack_require__(1325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__ = __webpack_require__(1326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_range_service__ = __webpack_require__(1327);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__ = __webpack_require__(1328);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__services_select_service__ = __webpack_require__(1329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__ = __webpack_require__(1330);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader_maps_api_loader__ = __webpack_require__(1122);
+
+
+
+/**
+ * Wrapper class that handles the communication with the Google Maps Javascript
+ * API v3
+ */
+var GoogleMapsAPIWrapper = (function () {
+    function GoogleMapsAPIWrapper(_loader, _zone) {
+        var _this = this;
+        this._loader = _loader;
+        this._zone = _zone;
+        this._map =
+            new Promise(function (resolve) { _this._mapResolver = resolve; });
+    }
+    GoogleMapsAPIWrapper.prototype.createMap = function (el, mapOptions) {
+        var _this = this;
+        return this._loader.load().then(function () {
+            var map = new google.maps.Map(el, mapOptions);
+            _this._mapResolver(map);
+            return;
+        });
+    };
+    GoogleMapsAPIWrapper.prototype.setMapOptions = function (options) {
+        this._map.then(function (m) { m.setOptions(options); });
+    };
+    /**
+     * Creates a google map marker with the map context
+     */
+    GoogleMapsAPIWrapper.prototype.createMarker = function (options, addToMap) {
+        if (options === void 0) { options = {}; }
+        if (addToMap === void 0) { addToMap = true; }
+        return this._map.then(function (map) {
+            if (addToMap) {
+                options.map = map;
+            }
+            return new google.maps.Marker(options);
+        });
+    };
+    GoogleMapsAPIWrapper.prototype.createInfoWindow = function (options) {
+        return this._map.then(function () { return new google.maps.InfoWindow(options); });
+    };
+    /**
+     * Creates a google.map.Circle for the current map.
+     */
+    GoogleMapsAPIWrapper.prototype.createCircle = function (options) {
+        return this._map.then(function (map) {
+            options.map = map;
+            return new google.maps.Circle(options);
+        });
+    };
+    GoogleMapsAPIWrapper.prototype.createPolyline = function (options) {
+        return this.getNativeMap().then(function (map) {
+            var line = new google.maps.Polyline(options);
+            line.setMap(map);
+            return line;
+        });
+    };
+    GoogleMapsAPIWrapper.prototype.createPolygon = function (options) {
+        return this.getNativeMap().then(function (map) {
+            var polygon = new google.maps.Polygon(options);
+            polygon.setMap(map);
+            return polygon;
+        });
+    };
+    /**
+     * Creates a new google.map.Data layer for the current map
+     */
+    GoogleMapsAPIWrapper.prototype.createDataLayer = function (options) {
+        return this._map.then(function (m) {
+            var data = new google.maps.Data(options);
+            data.setMap(m);
+            return data;
+        });
+    };
+    /**
+     * Determines if given coordinates are insite a Polygon path.
+     */
+    GoogleMapsAPIWrapper.prototype.containsLocation = function (latLng, polygon) {
+        return google.maps.geometry.poly.containsLocation(latLng, polygon);
+    };
+    GoogleMapsAPIWrapper.prototype.subscribeToMapEvent = function (eventName) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._map.then(function (m) {
+                m.addListener(eventName, function (arg) { _this._zone.run(function () { return observer.next(arg); }); });
+            });
+        });
+    };
+    GoogleMapsAPIWrapper.prototype.setCenter = function (latLng) {
+        return this._map.then(function (map) { return map.setCenter(latLng); });
+    };
+    GoogleMapsAPIWrapper.prototype.getZoom = function () { return this._map.then(function (map) { return map.getZoom(); }); };
+    GoogleMapsAPIWrapper.prototype.getBounds = function () {
+        return this._map.then(function (map) { return map.getBounds(); });
+    };
+    GoogleMapsAPIWrapper.prototype.setZoom = function (zoom) {
+        return this._map.then(function (map) { return map.setZoom(zoom); });
+    };
+    GoogleMapsAPIWrapper.prototype.getCenter = function () {
+        return this._map.then(function (map) { return map.getCenter(); });
+    };
+    GoogleMapsAPIWrapper.prototype.panTo = function (latLng) {
+        return this._map.then(function (map) { return map.panTo(latLng); });
+    };
+    GoogleMapsAPIWrapper.prototype.panBy = function (x, y) {
+        return this._map.then(function (map) { return map.panBy(x, y); });
+    };
+    GoogleMapsAPIWrapper.prototype.fitBounds = function (latLng) {
+        return this._map.then(function (map) { return map.fitBounds(latLng); });
+    };
+    GoogleMapsAPIWrapper.prototype.panToBounds = function (latLng) {
+        return this._map.then(function (map) { return map.panToBounds(latLng); });
+    };
+    /**
+     * Returns the native Google Maps Map instance. Be careful when using this instance directly.
+     */
+    GoogleMapsAPIWrapper.prototype.getNativeMap = function () { return this._map; };
+    /**
+     * Triggers the given event name on the map instance.
+     */
+    GoogleMapsAPIWrapper.prototype.triggerMapEvent = function (eventName) {
+        return this._map.then(function (m) { return google.maps.event.trigger(m, eventName); });
+    };
+    return GoogleMapsAPIWrapper;
+}());
+
+GoogleMapsAPIWrapper.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+GoogleMapsAPIWrapper.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__maps_api_loader_maps_api_loader__["a" /* MapsAPILoader */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=google-maps-api-wrapper.js.map
+
+/***/ }),
+
+/***/ 1122:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapsAPILoader; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+
+var MapsAPILoader = (function () {
+    function MapsAPILoader() {
+    }
+    return MapsAPILoader;
+}());
+
+MapsAPILoader.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+MapsAPILoader.ctorParameters = function () { return []; };
+//# sourceMappingURL=maps-api-loader.js.map
+
+/***/ }),
+
+/***/ 1123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarkerManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+var MarkerManager = (function () {
+    function MarkerManager(_mapsWrapper, _zone) {
+        this._mapsWrapper = _mapsWrapper;
+        this._zone = _zone;
+        this._markers = new Map();
+    }
+    MarkerManager.prototype.deleteMarker = function (marker) {
+        var _this = this;
+        var m = this._markers.get(marker);
+        if (m == null) {
+            // marker already deleted
+            return Promise.resolve();
+        }
+        return m.then(function (m) {
+            return _this._zone.run(function () {
+                m.setMap(null);
+                _this._markers.delete(marker);
+            });
+        });
+    };
+    MarkerManager.prototype.updateMarkerPosition = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setPosition({ lat: marker.latitude, lng: marker.longitude }); });
+    };
+    MarkerManager.prototype.updateTitle = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setTitle(marker.title); });
+    };
+    MarkerManager.prototype.updateLabel = function (marker) {
+        return this._markers.get(marker).then(function (m) { m.setLabel(marker.label); });
+    };
+    MarkerManager.prototype.updateDraggable = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setDraggable(marker.draggable); });
+    };
+    MarkerManager.prototype.updateIcon = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setIcon(marker.iconUrl); });
+    };
+    MarkerManager.prototype.updateOpacity = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setOpacity(marker.opacity); });
+    };
+    MarkerManager.prototype.updateVisible = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setVisible(marker.visible); });
+    };
+    MarkerManager.prototype.updateZIndex = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setZIndex(marker.zIndex); });
+    };
+    MarkerManager.prototype.updateClickable = function (marker) {
+        return this._markers.get(marker).then(function (m) { return m.setClickable(marker.clickable); });
+    };
+    MarkerManager.prototype.addMarker = function (marker) {
+        var markerPromise = this._mapsWrapper.createMarker({
+            position: { lat: marker.latitude, lng: marker.longitude },
+            label: marker.label,
+            draggable: marker.draggable,
+            icon: marker.iconUrl,
+            opacity: marker.opacity,
+            visible: marker.visible,
+            zIndex: marker.zIndex,
+            title: marker.title,
+            clickable: marker.clickable
+        });
+        this._markers.set(marker, markerPromise);
+    };
+    MarkerManager.prototype.getNativeMarker = function (marker) {
+        return this._markers.get(marker);
+    };
+    MarkerManager.prototype.createEventObservable = function (eventName, marker) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._markers.get(marker).then(function (m) {
+                m.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
+    };
+    return MarkerManager;
+}());
+
+MarkerManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+MarkerManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=marker-manager.js.map
+
+/***/ }),
+
+/***/ 1127:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CircleManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+var CircleManager = (function () {
+    function CircleManager(_apiWrapper, _zone) {
+        this._apiWrapper = _apiWrapper;
+        this._zone = _zone;
+        this._circles = new Map();
+    }
+    CircleManager.prototype.addCircle = function (circle) {
+        this._circles.set(circle, this._apiWrapper.createCircle({
+            center: { lat: circle.latitude, lng: circle.longitude },
+            clickable: circle.clickable,
+            draggable: circle.draggable,
+            editable: circle.editable,
+            fillColor: circle.fillColor,
+            fillOpacity: circle.fillOpacity,
+            radius: circle.radius,
+            strokeColor: circle.strokeColor,
+            strokeOpacity: circle.strokeOpacity,
+            strokePosition: circle.strokePosition,
+            strokeWeight: circle.strokeWeight,
+            visible: circle.visible,
+            zIndex: circle.zIndex
+        }));
+    };
+    /**
+     * Removes the given circle from the map.
+     */
+    CircleManager.prototype.removeCircle = function (circle) {
+        var _this = this;
+        return this._circles.get(circle).then(function (c) {
+            c.setMap(null);
+            _this._circles.delete(circle);
+        });
+    };
+    CircleManager.prototype.setOptions = function (circle, options) {
+        return this._circles.get(circle).then(function (c) { return c.setOptions(options); });
+    };
+    CircleManager.prototype.getBounds = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.getBounds(); });
+    };
+    CircleManager.prototype.getCenter = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.getCenter(); });
+    };
+    CircleManager.prototype.getRadius = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.getRadius(); });
+    };
+    CircleManager.prototype.setCenter = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.setCenter({ lat: circle.latitude, lng: circle.longitude }); });
+    };
+    CircleManager.prototype.setEditable = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.setEditable(circle.editable); });
+    };
+    CircleManager.prototype.setDraggable = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.setDraggable(circle.draggable); });
+    };
+    CircleManager.prototype.setVisible = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.setVisible(circle.visible); });
+    };
+    CircleManager.prototype.setRadius = function (circle) {
+        return this._circles.get(circle).then(function (c) { return c.setRadius(circle.radius); });
+    };
+    CircleManager.prototype.createEventObservable = function (eventName, circle) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            var listener = null;
+            _this._circles.get(circle).then(function (c) {
+                listener = c.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+            return function () {
+                if (listener !== null) {
+                    listener.remove();
+                }
+            };
+        });
+    };
+    return CircleManager;
+}());
+
+CircleManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+CircleManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=circle-manager.js.map
+
+/***/ }),
+
+/***/ 1128:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoWindowManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__marker_manager__ = __webpack_require__(1123);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var ItemsPage = (function () {
-    var ItemsPage = ItemsPage_1 = 
-    // services: array
-    function ItemsPage(navCtrl, textViewService, spinnerService, imageGalleryService, searchBarService, checkBoxService, parallaxService, wizardService, tabsService, listViewService, listViewExpandableService, listViewDragAndDropService, listViewSwipeToDismissService, listViewAppearanceAnimationService, listViewGoogleCardsService, listViewStickyListHeaderService, loginService, registerService, splashScreenService, httpService, validationService, mailChimpService, mapsService, qRCodeService, radioButtonService, rangeService, toggleService, selectService, actionSheetService, alertCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.textViewService = textViewService;
-        this.spinnerService = spinnerService;
-        this.imageGalleryService = imageGalleryService;
-        this.searchBarService = searchBarService;
-        this.checkBoxService = checkBoxService;
-        this.parallaxService = parallaxService;
-        this.wizardService = wizardService;
-        this.tabsService = tabsService;
-        this.listViewService = listViewService;
-        this.listViewExpandableService = listViewExpandableService;
-        this.listViewDragAndDropService = listViewDragAndDropService;
-        this.listViewSwipeToDismissService = listViewSwipeToDismissService;
-        this.listViewAppearanceAnimationService = listViewAppearanceAnimationService;
-        this.listViewGoogleCardsService = listViewGoogleCardsService;
-        this.listViewStickyListHeaderService = listViewStickyListHeaderService;
-        this.loginService = loginService;
-        this.registerService = registerService;
-        this.splashScreenService = splashScreenService;
-        this.httpService = httpService;
-        this.validationService = validationService;
-        this.mailChimpService = mailChimpService;
-        this.mapsService = mapsService;
-        this.qRCodeService = qRCodeService;
-        this.radioButtonService = radioButtonService;
-        this.rangeService = rangeService;
-        this.toggleService = toggleService;
-        this.selectService = selectService;
-        this.actionSheetService = actionSheetService;
-        this.alertCtrl = alertCtrl;
-        this.pages = {};
-        this.listServices = {};
-        this.setGoogleAnalytics();
-        this.listServices = {
-            'checkBoxes': checkBoxService,
-            'login': loginService,
-            'register': registerService,
-            'imageGallery': imageGalleryService,
-            'textViews': textViewService,
-            'spinner': spinnerService,
-            'parallax': parallaxService,
-            'wizard': wizardService,
-            'searchBars': searchBarService,
-            'tabs': tabsService,
-            'listViews': listViewService,
-            'expandable': listViewExpandableService,
-            'dragAndDrop': listViewDragAndDropService,
-            'swipeToDismiss': listViewSwipeToDismissService,
-            'appearanceAnimation': listViewAppearanceAnimationService,
-            'googleCards': listViewGoogleCardsService,
-            'stickyListHeader': listViewStickyListHeaderService,
-            'splashScreens': splashScreenService,
-            'maps': mapsService,
-            'qrcode': qRCodeService,
-            'radioButton': radioButtonService,
-            'range': rangeService,
-            'toggle': toggleService,
-            'select': selectService,
-            'actionSheet': actionSheetService
+var InfoWindowManager = (function () {
+    function InfoWindowManager(_mapsWrapper, _zone, _markerManager) {
+        this._mapsWrapper = _mapsWrapper;
+        this._zone = _zone;
+        this._markerManager = _markerManager;
+        this._infoWindows = new Map();
+    }
+    InfoWindowManager.prototype.deleteInfoWindow = function (infoWindow) {
+        var _this = this;
+        var iWindow = this._infoWindows.get(infoWindow);
+        if (iWindow == null) {
+            // info window already deleted
+            return Promise.resolve();
+        }
+        return iWindow.then(function (i) {
+            return _this._zone.run(function () {
+                i.close();
+                _this._infoWindows.delete(infoWindow);
+            });
+        });
+    };
+    InfoWindowManager.prototype.setPosition = function (infoWindow) {
+        return this._infoWindows.get(infoWindow).then(function (i) { return i.setPosition({
+            lat: infoWindow.latitude,
+            lng: infoWindow.longitude
+        }); });
+    };
+    InfoWindowManager.prototype.setZIndex = function (infoWindow) {
+        return this._infoWindows.get(infoWindow)
+            .then(function (i) { return i.setZIndex(infoWindow.zIndex); });
+    };
+    InfoWindowManager.prototype.open = function (infoWindow) {
+        var _this = this;
+        return this._infoWindows.get(infoWindow).then(function (w) {
+            if (infoWindow.hostMarker != null) {
+                return _this._markerManager.getNativeMarker(infoWindow.hostMarker).then(function (marker) {
+                    return _this._mapsWrapper.getNativeMap().then(function (map) { return w.open(map, marker); });
+                });
+            }
+            return _this._mapsWrapper.getNativeMap().then(function (map) { return w.open(map); });
+        });
+    };
+    InfoWindowManager.prototype.close = function (infoWindow) {
+        return this._infoWindows.get(infoWindow).then(function (w) { return w.close(); });
+    };
+    InfoWindowManager.prototype.setOptions = function (infoWindow, options) {
+        return this._infoWindows.get(infoWindow).then(function (i) { return i.setOptions(options); });
+    };
+    InfoWindowManager.prototype.addInfoWindow = function (infoWindow) {
+        var options = {
+            content: infoWindow.content,
+            maxWidth: infoWindow.maxWidth,
+            zIndex: infoWindow.zIndex,
+            disableAutoPan: infoWindow.disableAutoPan
         };
-        this.componentName = navParams.get('componentName');
-        this.service = this.listServices[this.componentName];
-        if (this.service) {
-            this.pages = this.service.getAllThemes();
-            this.title = this.service.getTitle();
-            this.eventTrackView(this.title);
+        if (typeof infoWindow.latitude === 'number' && typeof infoWindow.longitude === 'number') {
+            options.position = { lat: infoWindow.latitude, lng: infoWindow.longitude };
         }
-        else {
-            navCtrl.setRoot("HomePage");
-        }
+        var infoWindowPromise = this._mapsWrapper.createInfoWindow(options);
+        this._infoWindows.set(infoWindow, infoWindowPromise);
     };
-    ItemsPage.prototype.selectPageForOpen = function (value) {
-        var page;
-        switch (value) {
-            case "spinner":
-                page = "ItemDetailsPageSpinner";
-                break;
-            case "textViews":
-                page = "ItemDetailsPageTextView";
-                break;
-            case "splashScreens":
-                page = "ItemDetailsPageSplashScreen";
-                break;
-            case "searchBars":
-                page = "ItemDetailsPageSearchBar";
-                break;
-            case "checkBoxes":
-                page = "ItemDetailsPageCheckBox";
-                break;
-            case "wizard":
-                page = "ItemDetailsPageWizard";
-                break;
-            case "tabs":
-                page = "ItemDetailsPageTabs";
-                break;
-            case "login":
-                page = "ItemDetailsPageLogin";
-                break;
-            case "register":
-                page = "ItemDetailsPageRegister";
-                break;
-            case "expandable":
-                page = "ItemDetailsPageExpandable";
-                break;
-            case "swipeToDismiss":
-                page = "ItemDetailsPageSwipeToDismiss";
-                break;
-            case "dragAndDrop":
-                page = "ItemDetailsPageDragAndDrop";
-                break;
-            case "appearanceAnimation":
-                page = "ItemDetailsPageAppearanceAnimation";
-                break;
-            case "googleCards":
-                page = "ItemDetailsPageGoogleCard";
-                break;
-            case "stickyListHeader":
-                page = "ItemDetailsPageStickyListHeader";
-                break;
-            case "parallax":
-                page = "ItemDetailsPageParallax";
-                break;
-            case "maps":
-                page = "ItemDetailsPageMaps";
-                break;
-            case "imageGallery":
-                page = "ItemDetailsPageImageGallery";
-                break;
-            case "qrcode":
-                page = "ItemDetailsPageQRCode";
-                break;
-            case "radioButton":
-                page = "ItemDetailsPageRadioButton";
-                break;
-            case "range":
-                page = "ItemDetailsPageRange";
-                break;
-            case "toggle":
-                page = "ItemDetailsPageToggle";
-                break;
-            case "select":
-                page = "ItemDetailsPageSelect";
-                break;
-            case "actionSheet":
-                page = "ItemDetailsPageActionSheet";
-                break;
-            default:
-                page = "ItemDetailsPage";
-        }
-        return page;
+    /**
+     * Creates a Google Maps event listener for the given InfoWindow as an Observable
+     */
+    InfoWindowManager.prototype.createEventObservable = function (eventName, infoWindow) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._infoWindows.get(infoWindow).then(function (i) {
+                i.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
     };
-    ItemsPage.prototype.openPage = function (page) {
-        if (__WEBPACK_IMPORTED_MODULE_6__services_app_settings__["a" /* AppSettings */].SUBSCRIBE) {
-            if (this.mailChimpService.showMailChimpForm()) {
-                this.mailChimpService.setMailChimpForm(false);
-                this.showPrompt();
+    return InfoWindowManager;
+}());
+
+InfoWindowManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+InfoWindowManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["N" /* NgZone */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__marker_manager__["a" /* MarkerManager */], },
+]; };
+//# sourceMappingURL=info-window-manager.js.map
+
+/***/ }),
+
+/***/ 1129:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PolygonManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+var PolygonManager = (function () {
+    function PolygonManager(_mapsWrapper, _zone) {
+        this._mapsWrapper = _mapsWrapper;
+        this._zone = _zone;
+        this._polygons = new Map();
+    }
+    PolygonManager.prototype.addPolygon = function (path) {
+        var polygonPromise = this._mapsWrapper.createPolygon({
+            clickable: path.clickable,
+            draggable: path.draggable,
+            editable: path.editable,
+            fillColor: path.fillColor,
+            fillOpacity: path.fillOpacity,
+            geodesic: path.geodesic,
+            paths: path.paths,
+            strokeColor: path.strokeColor,
+            strokeOpacity: path.strokeOpacity,
+            strokeWeight: path.strokeWeight,
+            visible: path.visible,
+            zIndex: path.zIndex,
+        });
+        this._polygons.set(path, polygonPromise);
+    };
+    PolygonManager.prototype.updatePolygon = function (polygon) {
+        var _this = this;
+        var m = this._polygons.get(polygon);
+        if (m == null) {
+            return Promise.resolve();
+        }
+        return m.then(function (l) { return _this._zone.run(function () { l.setPaths(polygon.paths); }); });
+    };
+    PolygonManager.prototype.setPolygonOptions = function (path, options) {
+        return this._polygons.get(path).then(function (l) { l.setOptions(options); });
+    };
+    PolygonManager.prototype.deletePolygon = function (paths) {
+        var _this = this;
+        var m = this._polygons.get(paths);
+        if (m == null) {
+            return Promise.resolve();
+        }
+        return m.then(function (l) {
+            return _this._zone.run(function () {
+                l.setMap(null);
+                _this._polygons.delete(paths);
+            });
+        });
+    };
+    PolygonManager.prototype.createEventObservable = function (eventName, path) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._polygons.get(path).then(function (l) {
+                l.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
+    };
+    return PolygonManager;
+}());
+
+PolygonManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+PolygonManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=polygon-manager.js.map
+
+/***/ }),
+
+/***/ 1130:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PolylineManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+var PolylineManager = (function () {
+    function PolylineManager(_mapsWrapper, _zone) {
+        this._mapsWrapper = _mapsWrapper;
+        this._zone = _zone;
+        this._polylines = new Map();
+    }
+    PolylineManager._convertPoints = function (line) {
+        var path = line._getPoints().map(function (point) {
+            return { lat: point.latitude, lng: point.longitude };
+        });
+        return path;
+    };
+    PolylineManager.prototype.addPolyline = function (line) {
+        var path = PolylineManager._convertPoints(line);
+        var polylinePromise = this._mapsWrapper.createPolyline({
+            clickable: line.clickable,
+            draggable: line.draggable,
+            editable: line.editable,
+            geodesic: line.geodesic,
+            strokeColor: line.strokeColor,
+            strokeOpacity: line.strokeOpacity,
+            strokeWeight: line.strokeWeight,
+            visible: line.visible,
+            zIndex: line.zIndex,
+            path: path
+        });
+        this._polylines.set(line, polylinePromise);
+    };
+    PolylineManager.prototype.updatePolylinePoints = function (line) {
+        var _this = this;
+        var path = PolylineManager._convertPoints(line);
+        var m = this._polylines.get(line);
+        if (m == null) {
+            return Promise.resolve();
+        }
+        return m.then(function (l) { return _this._zone.run(function () { l.setPath(path); }); });
+    };
+    PolylineManager.prototype.setPolylineOptions = function (line, options) {
+        return this._polylines.get(line).then(function (l) { l.setOptions(options); });
+    };
+    PolylineManager.prototype.deletePolyline = function (line) {
+        var _this = this;
+        var m = this._polylines.get(line);
+        if (m == null) {
+            return Promise.resolve();
+        }
+        return m.then(function (l) {
+            return _this._zone.run(function () {
+                l.setMap(null);
+                _this._polylines.delete(line);
+            });
+        });
+    };
+    PolylineManager.prototype.createEventObservable = function (eventName, line) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._polylines.get(line).then(function (l) {
+                l.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
+    };
+    return PolylineManager;
+}());
+
+PolylineManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+PolylineManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=polyline-manager.js.map
+
+/***/ }),
+
+/***/ 1131:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KmlLayerManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+/**
+ * Manages all KML Layers for a Google Map instance.
+ */
+var KmlLayerManager = (function () {
+    function KmlLayerManager(_wrapper, _zone) {
+        this._wrapper = _wrapper;
+        this._zone = _zone;
+        this._layers = new Map();
+    }
+    /**
+     * Adds a new KML Layer to the map.
+     */
+    KmlLayerManager.prototype.addKmlLayer = function (layer) {
+        var newLayer = this._wrapper.getNativeMap().then(function (m) {
+            return new google.maps.KmlLayer({
+                clickable: layer.clickable,
+                map: m,
+                preserveViewport: layer.preserveViewport,
+                screenOverlays: layer.screenOverlays,
+                suppressInfoWindows: layer.suppressInfoWindows,
+                url: layer.url,
+                zIndex: layer.zIndex
+            });
+        });
+        this._layers.set(layer, newLayer);
+    };
+    KmlLayerManager.prototype.setOptions = function (layer, options) {
+        this._layers.get(layer).then(function (l) { return l.setOptions(options); });
+    };
+    KmlLayerManager.prototype.deleteKmlLayer = function (layer) {
+        var _this = this;
+        this._layers.get(layer).then(function (l) {
+            l.setMap(null);
+            _this._layers.delete(layer);
+        });
+    };
+    /**
+     * Creates a Google Maps event listener for the given KmlLayer as an Observable
+     */
+    KmlLayerManager.prototype.createEventObservable = function (eventName, layer) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._layers.get(layer).then(function (m) {
+                m.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
+    };
+    return KmlLayerManager;
+}());
+
+KmlLayerManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+KmlLayerManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=kml-layer-manager.js.map
+
+/***/ }),
+
+/***/ 1132:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataLayerManager; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__ = __webpack_require__(1121);
+
+
+
+/**
+ * Manages all Data Layers for a Google Map instance.
+ */
+var DataLayerManager = (function () {
+    function DataLayerManager(_wrapper, _zone) {
+        this._wrapper = _wrapper;
+        this._zone = _zone;
+        this._layers = new Map();
+    }
+    /**
+     * Adds a new Data Layer to the map.
+     */
+    DataLayerManager.prototype.addDataLayer = function (layer) {
+        var _this = this;
+        var newLayer = this._wrapper.createDataLayer({
+            style: layer.style
+        })
+            .then(function (d) {
+            if (layer.geoJson) {
+                _this.getDataFeatures(d, layer.geoJson).then(function (features) { return d.features = features; });
+            }
+            return d;
+        });
+        this._layers.set(layer, newLayer);
+    };
+    DataLayerManager.prototype.deleteDataLayer = function (layer) {
+        var _this = this;
+        this._layers.get(layer).then(function (l) {
+            l.setMap(null);
+            _this._layers.delete(layer);
+        });
+    };
+    DataLayerManager.prototype.updateGeoJson = function (layer, geoJson) {
+        var _this = this;
+        this._layers.get(layer).then(function (l) {
+            l.forEach(function (feature) {
+                l.remove(feature);
+                var index = l.features.indexOf(feature, 0);
+                if (index > -1) {
+                    l.features.splice(index, 1);
+                }
+            });
+            _this.getDataFeatures(l, geoJson).then(function (features) { return l.features = features; });
+        });
+    };
+    DataLayerManager.prototype.setDataOptions = function (layer, options) {
+        this._layers.get(layer).then(function (l) {
+            l.setControlPosition(options.controlPosition);
+            l.setControls(options.controls);
+            l.setDrawingMode(options.drawingMode);
+            l.setStyle(options.style);
+        });
+    };
+    /**
+     * Creates a Google Maps event listener for the given DataLayer as an Observable
+     */
+    DataLayerManager.prototype.createEventObservable = function (eventName, layer) {
+        var _this = this;
+        return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].create(function (observer) {
+            _this._layers.get(layer).then(function (d) {
+                d.addListener(eventName, function (e) { return _this._zone.run(function () { return observer.next(e); }); });
+            });
+        });
+    };
+    /**
+     * Extract features from a geoJson using google.maps Data Class
+     * @param d : google.maps.Data class instance
+     * @param geoJson : url or geojson object
+     */
+    DataLayerManager.prototype.getDataFeatures = function (d, geoJson) {
+        return new Promise(function (resolve, reject) {
+            if (typeof geoJson === 'object') {
+                try {
+                    var features = d.addGeoJson(geoJson);
+                    resolve(features);
+                }
+                catch (e) {
+                    reject(e);
+                }
+            }
+            else if (typeof geoJson === 'string') {
+                d.loadGeoJson(geoJson, null, resolve);
             }
             else {
-                this.navigation(page);
+                reject("Impossible to extract features from geoJson: wrong argument type");
             }
+        });
+    };
+    return DataLayerManager;
+}());
+
+DataLayerManager.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+DataLayerManager.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* NgZone */], },
+]; };
+//# sourceMappingURL=data-layer-manager.js.map
+
+/***/ }),
+
+/***/ 1133:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmInfoWindow; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_info_window_manager__ = __webpack_require__(1128);
+
+
+var infoWindowId = 0;
+/**
+ * AgmInfoWindow renders a info window inside a {@link AgmMarker} or standalone.
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from '@angular/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  styles: [`
+ *    .agm-map-container {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ *    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ *      <agm-marker [latitude]="lat" [longitude]="lng" [label]="'M'">
+ *        <agm-info-window [disableAutoPan]="true">
+ *          Hi, this is the content of the <strong>info window</strong>
+ *        </agm-info-window>
+ *      </agm-marker>
+ *    </agm-map>
+ *  `
+ * })
+ * ```
+ */
+var AgmInfoWindow = (function () {
+    function AgmInfoWindow(_infoWindowManager, _el) {
+        this._infoWindowManager = _infoWindowManager;
+        this._el = _el;
+        /**
+         * Sets the open state for the InfoWindow. You can also call the open() and close() methods.
+         */
+        this.isOpen = false;
+        /**
+         * Emits an event when the info window is closed.
+         */
+        this.infoWindowClose = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this._infoWindowAddedToManager = false;
+        this._id = (infoWindowId++).toString();
+    }
+    AgmInfoWindow.prototype.ngOnInit = function () {
+        this.content = this._el.nativeElement.querySelector('.agm-info-window-content');
+        this._infoWindowManager.addInfoWindow(this);
+        this._infoWindowAddedToManager = true;
+        this._updateOpenState();
+        this._registerEventListeners();
+    };
+    /** @internal */
+    AgmInfoWindow.prototype.ngOnChanges = function (changes) {
+        if (!this._infoWindowAddedToManager) {
+            return;
         }
-        else {
-            this.navigation(page);
+        if ((changes['latitude'] || changes['longitude']) && typeof this.latitude === 'number' &&
+            typeof this.longitude === 'number') {
+            this._infoWindowManager.setPosition(this);
+        }
+        if (changes['zIndex']) {
+            this._infoWindowManager.setZIndex(this);
+        }
+        if (changes['isOpen']) {
+            this._updateOpenState();
+        }
+        this._setInfoWindowOptions(changes);
+    };
+    AgmInfoWindow.prototype._registerEventListeners = function () {
+        var _this = this;
+        this._infoWindowManager.createEventObservable('closeclick', this).subscribe(function () {
+            _this.isOpen = false;
+            _this.infoWindowClose.emit();
+        });
+    };
+    AgmInfoWindow.prototype._updateOpenState = function () {
+        this.isOpen ? this.open() : this.close();
+    };
+    AgmInfoWindow.prototype._setInfoWindowOptions = function (changes) {
+        var options = {};
+        var optionKeys = Object.keys(changes).filter(function (k) { return AgmInfoWindow._infoWindowOptionsInputs.indexOf(k) !== -1; });
+        optionKeys.forEach(function (k) { options[k] = changes[k].currentValue; });
+        this._infoWindowManager.setOptions(this, options);
+    };
+    /**
+     * Opens the info window.
+     */
+    AgmInfoWindow.prototype.open = function () { return this._infoWindowManager.open(this); };
+    /**
+     * Closes the info window.
+     */
+    AgmInfoWindow.prototype.close = function () {
+        var _this = this;
+        return this._infoWindowManager.close(this).then(function () { _this.infoWindowClose.emit(); });
+    };
+    /** @internal */
+    AgmInfoWindow.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmInfoWindow.prototype.toString = function () { return 'AgmInfoWindow-' + this._id.toString(); };
+    /** @internal */
+    AgmInfoWindow.prototype.ngOnDestroy = function () { this._infoWindowManager.deleteInfoWindow(this); };
+    return AgmInfoWindow;
+}());
+
+AgmInfoWindow._infoWindowOptionsInputs = ['disableAutoPan', 'maxWidth'];
+AgmInfoWindow.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'agm-info-window',
+                template: "<div class='agm-info-window-content'>\n      <ng-content></ng-content>\n    </div>\n  "
+            },] },
+];
+/** @nocollapse */
+AgmInfoWindow.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_info_window_manager__["a" /* InfoWindowManager */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+]; };
+AgmInfoWindow.propDecorators = {
+    'latitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'longitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'disableAutoPan': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'maxWidth': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'isOpen': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'infoWindowClose': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=info-window.js.map
+
+/***/ }),
+
+/***/ 1134:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmPolylinePoint; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+
+/**
+ * AgmPolylinePoint represents one element of a polyline within a  {@link
+ * SembGoogleMapPolyline}
+ */
+var AgmPolylinePoint = (function () {
+    function AgmPolylinePoint() {
+        /**
+         * This event emitter gets emitted when the position of the point changed.
+         */
+        this.positionChanged = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    AgmPolylinePoint.prototype.ngOnChanges = function (changes) {
+        if (changes['latitude'] || changes['longitude']) {
+            var position = {
+                lat: changes['latitude'].currentValue,
+                lng: changes['longitude'].currentValue
+            };
+            this.positionChanged.emit(position);
         }
     };
-    ItemsPage.prototype.navigation = function (page) {
-        if (page.listView) {
-            this.navCtrl.push(ItemsPage_1, {
-                componentName: page.theme
+    return AgmPolylinePoint;
+}());
+
+AgmPolylinePoint.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{ selector: 'agm-polyline-point' },] },
+];
+/** @nocollapse */
+AgmPolylinePoint.ctorParameters = function () { return []; };
+AgmPolylinePoint.propDecorators = {
+    'latitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'longitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'positionChanged': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=polyline-point.js.map
+
+/***/ }),
+
+/***/ 1135:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export GoogleMapsScriptProtocol */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LAZY_MAPS_API_CONFIG; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return LazyMapsAPILoader; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_browser_globals__ = __webpack_require__(1144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_api_loader__ = __webpack_require__(1122);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+var GoogleMapsScriptProtocol;
+(function (GoogleMapsScriptProtocol) {
+    GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTP"] = 1] = "HTTP";
+    GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["HTTPS"] = 2] = "HTTPS";
+    GoogleMapsScriptProtocol[GoogleMapsScriptProtocol["AUTO"] = 3] = "AUTO";
+})(GoogleMapsScriptProtocol || (GoogleMapsScriptProtocol = {}));
+/**
+ * Token for the config of the LazyMapsAPILoader. Please provide an object of type {@link
+ * LazyMapsAPILoaderConfig}.
+ */
+var LAZY_MAPS_API_CONFIG = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* InjectionToken */]('angular-google-maps LAZY_MAPS_API_CONFIG');
+var LazyMapsAPILoader = (function (_super) {
+    __extends(LazyMapsAPILoader, _super);
+    function LazyMapsAPILoader(config, w, d) {
+        var _this = _super.call(this) || this;
+        _this._config = config || {};
+        _this._windowRef = w;
+        _this._documentRef = d;
+        return _this;
+    }
+    LazyMapsAPILoader.prototype.load = function () {
+        var _this = this;
+        if (this._scriptLoadingPromise) {
+            return this._scriptLoadingPromise;
+        }
+        var script = this._documentRef.getNativeDocument().createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.defer = true;
+        var callbackName = "angular2GoogleMapsLazyMapsAPILoader";
+        script.src = this._getScriptSrc(callbackName);
+        this._scriptLoadingPromise = new Promise(function (resolve, reject) {
+            _this._windowRef.getNativeWindow()[callbackName] = function () {
+                resolve();
+            };
+            script.onerror = function (error) {
+                reject(error);
+            };
+        });
+        this._documentRef.getNativeDocument().body.appendChild(script);
+        return this._scriptLoadingPromise;
+    };
+    LazyMapsAPILoader.prototype._getScriptSrc = function (callbackName) {
+        var protocolType = (this._config && this._config.protocol) || GoogleMapsScriptProtocol.HTTPS;
+        var protocol;
+        switch (protocolType) {
+            case GoogleMapsScriptProtocol.AUTO:
+                protocol = '';
+                break;
+            case GoogleMapsScriptProtocol.HTTP:
+                protocol = 'http:';
+                break;
+            case GoogleMapsScriptProtocol.HTTPS:
+                protocol = 'https:';
+                break;
+        }
+        var hostAndPath = this._config.hostAndPath || 'maps.googleapis.com/maps/api/js';
+        var queryParams = {
+            v: this._config.apiVersion || '3',
+            callback: callbackName,
+            key: this._config.apiKey,
+            client: this._config.clientId,
+            channel: this._config.channel,
+            libraries: this._config.libraries,
+            region: this._config.region,
+            language: this._config.language
+        };
+        var params = Object.keys(queryParams)
+            .filter(function (k) { return queryParams[k] != null; })
+            .filter(function (k) {
+            // remove empty arrays
+            return !Array.isArray(queryParams[k]) ||
+                (Array.isArray(queryParams[k]) && queryParams[k].length > 0);
+        })
+            .map(function (k) {
+            // join arrays as comma seperated strings
+            var i = queryParams[k];
+            if (Array.isArray(i)) {
+                return { key: k, value: i.join(',') };
+            }
+            return { key: k, value: queryParams[k] };
+        })
+            .map(function (entry) {
+            return entry.key + "=" + entry.value;
+        })
+            .join('&');
+        return protocol + "//" + hostAndPath + "?" + params;
+    };
+    return LazyMapsAPILoader;
+}(__WEBPACK_IMPORTED_MODULE_2__maps_api_loader__["a" /* MapsAPILoader */]));
+
+LazyMapsAPILoader.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/** @nocollapse */
+LazyMapsAPILoader.ctorParameters = function () { return [
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Inject */], args: [LAZY_MAPS_API_CONFIG,] },] },
+    { type: __WEBPACK_IMPORTED_MODULE_1__utils_browser_globals__["c" /* WindowRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__utils_browser_globals__["b" /* DocumentRef */], },
+]; };
+//# sourceMappingURL=lazy-maps-api-loader.js.map
+
+/***/ }),
+
+/***/ 1137:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmMap; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_google_maps_api_wrapper__ = __webpack_require__(1121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_circle_manager__ = __webpack_require__(1127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_info_window_manager__ = __webpack_require__(1128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_marker_manager__ = __webpack_require__(1123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polygon_manager__ = __webpack_require__(1129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_polyline_manager__ = __webpack_require__(1130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_kml_layer_manager__ = __webpack_require__(1131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_managers_data_layer_manager__ = __webpack_require__(1132);
+
+
+
+
+
+
+
+
+
+/**
+ * AgmMap renders a Google Map.
+ * **Important note**: To be able see a map in the browser, you have to define a height for the
+ * element `agm-map`.
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from '@angular/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  styles: [`
+ *    agm-map {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ *    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ *    </agm-map>
+ *  `
+ * })
+ * ```
+ */
+var AgmMap = (function () {
+    function AgmMap(_elem, _mapsWrapper) {
+        this._elem = _elem;
+        this._mapsWrapper = _mapsWrapper;
+        /**
+         * The longitude that defines the center of the map.
+         */
+        this.longitude = 0;
+        /**
+         * The latitude that defines the center of the map.
+         */
+        this.latitude = 0;
+        /**
+         * The zoom level of the map. The default zoom level is 8.
+         */
+        this.zoom = 8;
+        /**
+         * Enables/disables if map is draggable.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.draggable = true;
+        /**
+         * Enables/disables zoom and center on double click. Enabled by default.
+         */
+        this.disableDoubleClickZoom = false;
+        /**
+         * Enables/disables all default UI of the Google map. Please note: When the map is created, this
+         * value cannot get updated.
+         */
+        this.disableDefaultUI = false;
+        /**
+         * If false, disables scrollwheel zooming on the map. The scrollwheel is enabled by default.
+         */
+        this.scrollwheel = true;
+        /**
+         * If false, prevents the map from being controlled by the keyboard. Keyboard shortcuts are
+         * enabled by default.
+         */
+        this.keyboardShortcuts = true;
+        /**
+         * The enabled/disabled state of the Zoom control.
+         */
+        this.zoomControl = true;
+        /**
+         * Styles to apply to each of the default map types. Note that for Satellite/Hybrid and Terrain
+         * modes, these styles will only apply to labels and geometry.
+         */
+        this.styles = [];
+        /**
+         * When true and the latitude and/or longitude values changes, the Google Maps panTo method is
+         * used to
+         * center the map. See: https://developers.google.com/maps/documentation/javascript/reference#Map
+         */
+        this.usePanning = false;
+        /**
+         * The initial enabled/disabled state of the Street View Pegman control.
+         * This control is part of the default UI, and should be set to false when displaying a map type
+         * on which the Street View road overlay should not appear (e.g. a non-Earth map type).
+         */
+        this.streetViewControl = true;
+        /**
+         * Sets the viewport to contain the given bounds.
+         */
+        this.fitBounds = null;
+        /**
+         * The initial enabled/disabled state of the Scale control. This is disabled by default.
+         */
+        this.scaleControl = false;
+        /**
+         * The initial enabled/disabled state of the Map type control.
+         */
+        this.mapTypeControl = false;
+        /**
+         * The initial enabled/disabled state of the Pan control.
+         */
+        this.panControl = false;
+        /**
+         * The initial enabled/disabled state of the Rotate control.
+         */
+        this.rotateControl = false;
+        /**
+         * The initial enabled/disabled state of the Fullscreen control.
+         */
+        this.fullscreenControl = false;
+        /**
+         * The map mapTypeId. Defaults to 'roadmap'.
+         */
+        this.mapTypeId = 'roadmap';
+        /**
+         * When false, map icons are not clickable. A map icon represents a point of interest,
+         * also known as a POI. By default map icons are clickable.
+         */
+        this.clickableIcons = true;
+        /**
+         * This setting controls how gestures on the map are handled.
+         * Allowed values:
+         * - 'cooperative' (Two-finger touch gestures pan and zoom the map. One-finger touch gestures are not handled by the map.)
+         * - 'greedy'      (All touch gestures pan or zoom the map.)
+         * - 'none'        (The map cannot be panned or zoomed by user gestures.)
+         * - 'auto'        [default] (Gesture handling is either cooperative or greedy, depending on whether the page is scrollable or not.
+         */
+        this.gestureHandling = 'auto';
+        this._observableSubscriptions = [];
+        /**
+         * This event emitter gets emitted when the user clicks on the map (but not when they click on a
+         * marker or infoWindow).
+         */
+        this.mapClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event emitter gets emitted when the user right-clicks on the map (but not when they click
+         * on a marker or infoWindow).
+         */
+        this.mapRightClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event emitter gets emitted when the user double-clicks on the map (but not when they click
+         * on a marker or infoWindow).
+         */
+        this.mapDblClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event emitter is fired when the map center changes.
+         */
+        this.centerChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the viewport bounds have changed.
+         */
+        this.boundsChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the map becomes idle after panning or zooming.
+         */
+        this.idle = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the zoom level has changed.
+         */
+        this.zoomChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the google map is fully initialized.
+         * You get the google.maps.Map instance as a result of this EventEmitter.
+         */
+        this.mapReady = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    /** @internal */
+    AgmMap.prototype.ngOnInit = function () {
+        // todo: this should be solved with a new component and a viewChild decorator
+        var container = this._elem.nativeElement.querySelector('.agm-map-container-inner');
+        this._initMapInstance(container);
+    };
+    AgmMap.prototype._initMapInstance = function (el) {
+        var _this = this;
+        this._mapsWrapper.createMap(el, {
+            center: { lat: this.latitude || 0, lng: this.longitude || 0 },
+            zoom: this.zoom,
+            minZoom: this.minZoom,
+            maxZoom: this.maxZoom,
+            disableDefaultUI: this.disableDefaultUI,
+            disableDoubleClickZoom: this.disableDoubleClickZoom,
+            scrollwheel: this.scrollwheel,
+            backgroundColor: this.backgroundColor,
+            draggable: this.draggable,
+            draggableCursor: this.draggableCursor,
+            draggingCursor: this.draggingCursor,
+            keyboardShortcuts: this.keyboardShortcuts,
+            styles: this.styles,
+            zoomControl: this.zoomControl,
+            zoomControlOptions: this.zoomControlOptions,
+            streetViewControl: this.streetViewControl,
+            streetViewControlOptions: this.streetViewControlOptions,
+            scaleControl: this.scaleControl,
+            scaleControlOptions: this.scaleControlOptions,
+            mapTypeControl: this.mapTypeControl,
+            mapTypeControlOptions: this.mapTypeControlOptions,
+            panControl: this.panControl,
+            panControlOptions: this.panControlOptions,
+            rotateControl: this.rotateControl,
+            rotateControlOptions: this.rotateControlOptions,
+            fullscreenControl: this.fullscreenControl,
+            fullscreenControlOptions: this.fullscreenControlOptions,
+            mapTypeId: this.mapTypeId,
+            clickableIcons: this.clickableIcons,
+            gestureHandling: this.gestureHandling
+        })
+            .then(function () { return _this._mapsWrapper.getNativeMap(); })
+            .then(function (map) { return _this.mapReady.emit(map); });
+        // register event listeners
+        this._handleMapCenterChange();
+        this._handleMapZoomChange();
+        this._handleMapMouseEvents();
+        this._handleBoundsChange();
+        this._handleIdleEvent();
+    };
+    /** @internal */
+    AgmMap.prototype.ngOnDestroy = function () {
+        // unsubscribe all registered observable subscriptions
+        this._observableSubscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    /* @internal */
+    AgmMap.prototype.ngOnChanges = function (changes) {
+        this._updateMapOptionsChanges(changes);
+        this._updatePosition(changes);
+    };
+    AgmMap.prototype._updateMapOptionsChanges = function (changes) {
+        var options = {};
+        var optionKeys = Object.keys(changes).filter(function (k) { return AgmMap._mapOptionsAttributes.indexOf(k) !== -1; });
+        optionKeys.forEach(function (k) { options[k] = changes[k].currentValue; });
+        this._mapsWrapper.setMapOptions(options);
+    };
+    /**
+     * Triggers a resize event on the google map instance.
+     * When recenter is true, the of the google map gets called with the current lat/lng values or fitBounds value to recenter the map.
+     * Returns a promise that gets resolved after the event was triggered.
+     */
+    AgmMap.prototype.triggerResize = function (recenter) {
+        var _this = this;
+        if (recenter === void 0) { recenter = true; }
+        // Note: When we would trigger the resize event and show the map in the same turn (which is a
+        // common case for triggering a resize event), then the resize event would not
+        // work (to show the map), so we trigger the event in a timeout.
+        return new Promise(function (resolve) {
+            setTimeout(function () {
+                return _this._mapsWrapper.triggerMapEvent('resize').then(function () {
+                    if (recenter) {
+                        _this.fitBounds != null ? _this._fitBounds() : _this._setCenter();
+                    }
+                    resolve();
+                });
+            });
+        });
+    };
+    AgmMap.prototype._updatePosition = function (changes) {
+        if (changes['latitude'] == null && changes['longitude'] == null &&
+            changes['fitBounds'] == null) {
+            // no position update needed
+            return;
+        }
+        // we prefer fitBounds in changes
+        if (changes['fitBounds'] && this.fitBounds != null) {
+            this._fitBounds();
+            return;
+        }
+        if (typeof this.latitude !== 'number' || typeof this.longitude !== 'number') {
+            return;
+        }
+        this._setCenter();
+    };
+    AgmMap.prototype._setCenter = function () {
+        var newCenter = {
+            lat: this.latitude,
+            lng: this.longitude,
+        };
+        if (this.usePanning) {
+            this._mapsWrapper.panTo(newCenter);
+        }
+        else {
+            this._mapsWrapper.setCenter(newCenter);
+        }
+    };
+    AgmMap.prototype._fitBounds = function () {
+        if (this.usePanning) {
+            this._mapsWrapper.panToBounds(this.fitBounds);
+            return;
+        }
+        this._mapsWrapper.fitBounds(this.fitBounds);
+    };
+    AgmMap.prototype._handleMapCenterChange = function () {
+        var _this = this;
+        var s = this._mapsWrapper.subscribeToMapEvent('center_changed').subscribe(function () {
+            _this._mapsWrapper.getCenter().then(function (center) {
+                _this.latitude = center.lat();
+                _this.longitude = center.lng();
+                _this.centerChange.emit({ lat: _this.latitude, lng: _this.longitude });
+            });
+        });
+        this._observableSubscriptions.push(s);
+    };
+    AgmMap.prototype._handleBoundsChange = function () {
+        var _this = this;
+        var s = this._mapsWrapper.subscribeToMapEvent('bounds_changed').subscribe(function () {
+            _this._mapsWrapper.getBounds().then(function (bounds) { _this.boundsChange.emit(bounds); });
+        });
+        this._observableSubscriptions.push(s);
+    };
+    AgmMap.prototype._handleMapZoomChange = function () {
+        var _this = this;
+        var s = this._mapsWrapper.subscribeToMapEvent('zoom_changed').subscribe(function () {
+            _this._mapsWrapper.getZoom().then(function (z) {
+                _this.zoom = z;
+                _this.zoomChange.emit(z);
+            });
+        });
+        this._observableSubscriptions.push(s);
+    };
+    AgmMap.prototype._handleIdleEvent = function () {
+        var _this = this;
+        var s = this._mapsWrapper.subscribeToMapEvent('idle').subscribe(function () { _this.idle.emit(void 0); });
+        this._observableSubscriptions.push(s);
+    };
+    AgmMap.prototype._handleMapMouseEvents = function () {
+        var _this = this;
+        var events = [
+            { name: 'click', emitter: this.mapClick },
+            { name: 'rightclick', emitter: this.mapRightClick },
+            { name: 'dblclick', emitter: this.mapDblClick },
+        ];
+        events.forEach(function (e) {
+            var s = _this._mapsWrapper.subscribeToMapEvent(e.name).subscribe(function (event) {
+                var value = { coords: { lat: event.latLng.lat(), lng: event.latLng.lng() } };
+                e.emitter.emit(value);
+            });
+            _this._observableSubscriptions.push(s);
+        });
+    };
+    return AgmMap;
+}());
+
+/**
+ * Map option attributes that can change over time
+ */
+AgmMap._mapOptionsAttributes = [
+    'disableDoubleClickZoom', 'scrollwheel', 'draggable', 'draggableCursor', 'draggingCursor',
+    'keyboardShortcuts', 'zoomControl', 'zoomControlOptions', 'styles', 'streetViewControl',
+    'streetViewControlOptions', 'zoom', 'mapTypeControl', 'mapTypeControlOptions', 'minZoom',
+    'maxZoom', 'panControl', 'panControlOptions', 'rotateControl', 'rotateControlOptions',
+    'fullscreenControl', 'fullscreenControlOptions', 'scaleControl', 'scaleControlOptions',
+    'mapTypeId', 'clickableIcons', 'gestureHandling'
+];
+AgmMap.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'agm-map',
+                providers: [
+                    __WEBPACK_IMPORTED_MODULE_1__services_google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], __WEBPACK_IMPORTED_MODULE_4__services_managers_marker_manager__["a" /* MarkerManager */], __WEBPACK_IMPORTED_MODULE_3__services_managers_info_window_manager__["a" /* InfoWindowManager */], __WEBPACK_IMPORTED_MODULE_2__services_managers_circle_manager__["a" /* CircleManager */], __WEBPACK_IMPORTED_MODULE_6__services_managers_polyline_manager__["a" /* PolylineManager */],
+                    __WEBPACK_IMPORTED_MODULE_5__services_managers_polygon_manager__["a" /* PolygonManager */], __WEBPACK_IMPORTED_MODULE_7__services_managers_kml_layer_manager__["a" /* KmlLayerManager */], __WEBPACK_IMPORTED_MODULE_8__services_managers_data_layer_manager__["a" /* DataLayerManager */]
+                ],
+                host: {
+                    // todo: deprecated - we will remove it with the next version
+                    '[class.sebm-google-map-container]': 'true'
+                },
+                styles: ["\n    .agm-map-container-inner {\n      width: inherit;\n      height: inherit;\n    }\n    .agm-map-content {\n      display:none;\n    }\n  "],
+                template: "\n    <div class='agm-map-container-inner sebm-google-map-container-inner'></div>\n    <div class='agm-map-content'>\n      <ng-content></ng-content>\n    </div>\n  "
+            },] },
+];
+/** @nocollapse */
+AgmMap.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_google_maps_api_wrapper__["a" /* GoogleMapsAPIWrapper */], },
+]; };
+AgmMap.propDecorators = {
+    'longitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'latitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zoom': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'minZoom': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'maxZoom': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['mapDraggable',] },],
+    'disableDoubleClickZoom': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'disableDefaultUI': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'scrollwheel': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'backgroundColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggableCursor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggingCursor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'keyboardShortcuts': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zoomControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zoomControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'styles': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'usePanning': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'streetViewControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'streetViewControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fitBounds': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'scaleControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'scaleControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'mapTypeControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'mapTypeControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'panControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'panControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'rotateControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'rotateControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fullscreenControl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fullscreenControlOptions': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'mapTypeId': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'clickableIcons': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'gestureHandling': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'mapClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mapRightClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mapDblClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'centerChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'boundsChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'idle': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'zoomChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mapReady': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+
+/***/ 1138:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmCircle; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1127);
+
+
+var AgmCircle = (function () {
+    function AgmCircle(_manager) {
+        this._manager = _manager;
+        /**
+         * Indicates whether this Circle handles mouse events. Defaults to true.
+         */
+        this.clickable = true;
+        /**
+         * If set to true, the user can drag this circle over the map. Defaults to false.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.draggable = false;
+        /**
+         * If set to true, the user can edit this circle by dragging the control points shown at
+         * the center and around the circumference of the circle. Defaults to false.
+         */
+        this.editable = false;
+        /**
+         * The radius in meters on the Earth's surface.
+         */
+        this.radius = 0;
+        /**
+         * The stroke position. Defaults to CENTER.
+         * This property is not supported on Internet Explorer 8 and earlier.
+         */
+        this.strokePosition = 'CENTER';
+        /**
+         * The stroke width in pixels.
+         */
+        this.strokeWeight = 0;
+        /**
+         * Whether this circle is visible on the map. Defaults to true.
+         */
+        this.visible = true;
+        /**
+         * This event is fired when the circle's center is changed.
+         */
+        this.centerChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event emitter gets emitted when the user clicks on the circle.
+         */
+        this.circleClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event emitter gets emitted when the user clicks on the circle.
+         */
+        this.circleDblClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is repeatedly fired while the user drags the circle.
+         */
+        this.drag = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user stops dragging the circle.
+         */
+        this.dragEnd = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user starts dragging the circle.
+         */
+        this.dragStart = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousedown event is fired on the circle.
+         */
+        this.mouseDown = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousemove event is fired on the circle.
+         */
+        this.mouseMove = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on circle mouseout.
+         */
+        this.mouseOut = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on circle mouseover.
+         */
+        this.mouseOver = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mouseup event is fired on the circle.
+         */
+        this.mouseUp = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the circle's radius is changed.
+         */
+        this.radiusChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the circle is right-clicked on.
+         */
+        this.rightClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this._circleAddedToManager = false;
+        this._eventSubscriptions = [];
+    }
+    /** @internal */
+    AgmCircle.prototype.ngOnInit = function () {
+        this._manager.addCircle(this);
+        this._circleAddedToManager = true;
+        this._registerEventListeners();
+    };
+    /** @internal */
+    AgmCircle.prototype.ngOnChanges = function (changes) {
+        if (!this._circleAddedToManager) {
+            return;
+        }
+        if (changes['latitude'] || changes['longitude']) {
+            this._manager.setCenter(this);
+        }
+        if (changes['editable']) {
+            this._manager.setEditable(this);
+        }
+        if (changes['draggable']) {
+            this._manager.setDraggable(this);
+        }
+        if (changes['visible']) {
+            this._manager.setVisible(this);
+        }
+        if (changes['radius']) {
+            this._manager.setRadius(this);
+        }
+        this._updateCircleOptionsChanges(changes);
+    };
+    AgmCircle.prototype._updateCircleOptionsChanges = function (changes) {
+        var options = {};
+        var optionKeys = Object.keys(changes).filter(function (k) { return AgmCircle._mapOptions.indexOf(k) !== -1; });
+        optionKeys.forEach(function (k) { options[k] = changes[k].currentValue; });
+        if (optionKeys.length > 0) {
+            this._manager.setOptions(this, options);
+        }
+    };
+    AgmCircle.prototype._registerEventListeners = function () {
+        var _this = this;
+        var events = new Map();
+        events.set('center_changed', this.centerChange);
+        events.set('click', this.circleClick);
+        events.set('dblclick', this.circleDblClick);
+        events.set('drag', this.drag);
+        events.set('dragend', this.dragEnd);
+        events.set('dragStart', this.dragStart);
+        events.set('mousedown', this.mouseDown);
+        events.set('mousemove', this.mouseMove);
+        events.set('mouseout', this.mouseOut);
+        events.set('mouseover', this.mouseOver);
+        events.set('mouseup', this.mouseUp);
+        events.set('radius_changed', this.radiusChange);
+        events.set('rightclick', this.rightClick);
+        events.forEach(function (eventEmitter, eventName) {
+            _this._eventSubscriptions.push(_this._manager.createEventObservable(eventName, _this).subscribe(function (value) {
+                switch (eventName) {
+                    case 'radius_changed':
+                        _this._manager.getRadius(_this).then(function (radius) { return eventEmitter.emit(radius); });
+                        break;
+                    case 'center_changed':
+                        _this._manager.getCenter(_this).then(function (center) {
+                            return eventEmitter.emit({ lat: center.lat(), lng: center.lng() });
+                        });
+                        break;
+                    default:
+                        eventEmitter.emit({ coords: { lat: value.latLng.lat(), lng: value.latLng.lng() } });
+                }
+            }));
+        });
+    };
+    /** @internal */
+    AgmCircle.prototype.ngOnDestroy = function () {
+        this._eventSubscriptions.forEach(function (s) { s.unsubscribe(); });
+        this._eventSubscriptions = null;
+        this._manager.removeCircle(this);
+    };
+    /**
+     * Gets the LatLngBounds of this Circle.
+     */
+    AgmCircle.prototype.getBounds = function () { return this._manager.getBounds(this); };
+    AgmCircle.prototype.getCenter = function () { return this._manager.getCenter(this); };
+    return AgmCircle;
+}());
+
+AgmCircle._mapOptions = [
+    'fillColor', 'fillOpacity', 'strokeColor', 'strokeOpacity', 'strokePosition', 'strokeWeight',
+    'visible', 'zIndex', 'clickable'
+];
+AgmCircle.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-circle'
+            },] },
+];
+/** @nocollapse */
+AgmCircle.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__["a" /* CircleManager */], },
+]; };
+AgmCircle.propDecorators = {
+    'latitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'longitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'clickable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['circleDraggable',] },],
+    'editable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fillColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fillOpacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'radius': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeOpacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokePosition': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeWeight': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'visible': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'centerChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'circleClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'circleDblClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'drag': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'dragEnd': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'dragStart': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseDown': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseMove': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseOut': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseOver': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'radiusChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'rightClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=circle.js.map
+
+/***/ }),
+
+/***/ 1139:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmKmlLayer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_kml_layer_manager__ = __webpack_require__(1131);
+
+
+var layerId = 0;
+var AgmKmlLayer = (function () {
+    function AgmKmlLayer(_manager) {
+        this._manager = _manager;
+        this._addedToManager = false;
+        this._id = (layerId++).toString();
+        this._subscriptions = [];
+        /**
+         * If true, the layer receives mouse events. Default value is true.
+         */
+        this.clickable = true;
+        /**
+         * By default, the input map is centered and zoomed to the bounding box of the contents of the
+         * layer.
+         * If this option is set to true, the viewport is left unchanged, unless the map's center and zoom
+         * were never set.
+         */
+        this.preserveViewport = false;
+        /**
+         * Whether to render the screen overlays. Default true.
+         */
+        this.screenOverlays = true;
+        /**
+         * Suppress the rendering of info windows when layer features are clicked.
+         */
+        this.suppressInfoWindows = false;
+        /**
+         * The URL of the KML document to display.
+         */
+        this.url = null;
+        /**
+         * The z-index of the layer.
+         */
+        this.zIndex = null;
+        /**
+         * This event is fired when a feature in the layer is clicked.
+         */
+        this.layerClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the KML layers default viewport has changed.
+         */
+        this.defaultViewportChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the KML layer has finished loading.
+         * At this point it is safe to read the status property to determine if the layer loaded
+         * successfully.
+         */
+        this.statusChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    AgmKmlLayer.prototype.ngOnInit = function () {
+        if (this._addedToManager) {
+            return;
+        }
+        this._manager.addKmlLayer(this);
+        this._addedToManager = true;
+        this._addEventListeners();
+    };
+    AgmKmlLayer.prototype.ngOnChanges = function (changes) {
+        if (!this._addedToManager) {
+            return;
+        }
+        this._updatePolygonOptions(changes);
+    };
+    AgmKmlLayer.prototype._updatePolygonOptions = function (changes) {
+        var options = Object.keys(changes)
+            .filter(function (k) { return AgmKmlLayer._kmlLayerOptions.indexOf(k) !== -1; })
+            .reduce(function (obj, k) {
+            obj[k] = changes[k].currentValue;
+            return obj;
+        }, {});
+        if (Object.keys(options).length > 0) {
+            this._manager.setOptions(this, options);
+        }
+    };
+    AgmKmlLayer.prototype._addEventListeners = function () {
+        var _this = this;
+        var listeners = [
+            { name: 'click', handler: function (ev) { return _this.layerClick.emit(ev); } },
+            { name: 'defaultviewport_changed', handler: function () { return _this.defaultViewportChange.emit(); } },
+            { name: 'status_changed', handler: function () { return _this.statusChange.emit(); } },
+        ];
+        listeners.forEach(function (obj) {
+            var os = _this._manager.createEventObservable(obj.name, _this).subscribe(obj.handler);
+            _this._subscriptions.push(os);
+        });
+    };
+    /** @internal */
+    AgmKmlLayer.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmKmlLayer.prototype.toString = function () { return "AgmKmlLayer-" + this._id.toString(); };
+    /** @internal */
+    AgmKmlLayer.prototype.ngOnDestroy = function () {
+        this._manager.deleteKmlLayer(this);
+        // unsubscribe all registered observable subscriptions
+        this._subscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    return AgmKmlLayer;
+}());
+
+AgmKmlLayer._kmlLayerOptions = ['clickable', 'preserveViewport', 'screenOverlays', 'suppressInfoWindows', 'url', 'zIndex'];
+AgmKmlLayer.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-kml-layer'
+            },] },
+];
+/** @nocollapse */
+AgmKmlLayer.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_kml_layer_manager__["a" /* KmlLayerManager */], },
+]; };
+AgmKmlLayer.propDecorators = {
+    'clickable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'preserveViewport': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'screenOverlays': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'suppressInfoWindows': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'url': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'layerClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'defaultViewportChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'statusChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=kml-layer.js.map
+
+/***/ }),
+
+/***/ 1140:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmDataLayer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_data_layer_manager__ = __webpack_require__(1132);
+
+
+var layerId = 0;
+/**
+ * AgmDataLayer enables the user to add data layers to the map.
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from 'angular2/core';
+ * import { AgmMap, AgmDataLayer } from
+ * 'angular-google-maps/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  directives: [AgmMap, AgmDataLayer],
+ *  styles: [`
+ *    .agm-container {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ * <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ * 	  <agm-data-layer [geoJson]="geoJsonObject" (layerClick)="clicked($event)" [style]="styleFunc">
+ * 	  </agm-data-layer>
+ * </agm-map>
+ *  `
+ * })
+ * export class MyMapCmp {
+ *   lat: number = -25.274449;
+ *   lng: number = 133.775060;
+ *   zoom: number = 5;
+ *
+ * clicked(clickEvent) {
+ *    console.log(clickEvent);
+ *  }
+ *
+ *  styleFunc(feature) {
+ *    return ({
+ *      clickable: false,
+ *      fillColor: feature.getProperty('color'),
+ *      strokeWeight: 1
+ *    });
+ *  }
+ *
+ *  geoJsonObject: Object = {
+ *    "type": "FeatureCollection",
+ *    "features": [
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "G",
+ *          "color": "blue",
+ *          "rank": "7",
+ *          "ascii": "71"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [123.61, -22.14], [122.38, -21.73], [121.06, -21.69], [119.66, -22.22], [119.00, -23.40],
+ *              [118.65, -24.76], [118.43, -26.07], [118.78, -27.56], [119.22, -28.57], [120.23, -29.49],
+ *              [121.77, -29.87], [123.57, -29.64], [124.45, -29.03], [124.71, -27.95], [124.80, -26.70],
+ *              [124.80, -25.60], [123.61, -25.64], [122.56, -25.64], [121.72, -25.72], [121.81, -26.62],
+ *              [121.86, -26.98], [122.60, -26.90], [123.57, -27.05], [123.57, -27.68], [123.35, -28.18],
+ *              [122.51, -28.38], [121.77, -28.26], [121.02, -27.91], [120.49, -27.21], [120.14, -26.50],
+ *              [120.10, -25.64], [120.27, -24.52], [120.67, -23.68], [121.72, -23.32], [122.43, -23.48],
+ *              [123.04, -24.04], [124.54, -24.28], [124.58, -23.20], [123.61, -22.14]
+ *            ]
+ *          ]
+ *        }
+ *      },
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "o",
+ *          "color": "red",
+ *          "rank": "15",
+ *          "ascii": "111"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [128.84, -25.76], [128.18, -25.60], [127.96, -25.52], [127.88, -25.52], [127.70, -25.60],
+ *              [127.26, -25.79], [126.60, -26.11], [126.16, -26.78], [126.12, -27.68], [126.21, -28.42],
+ *              [126.69, -29.49], [127.74, -29.80], [128.80, -29.72], [129.41, -29.03], [129.72, -27.95],
+ *              [129.68, -27.21], [129.33, -26.23], [128.84, -25.76]
+ *            ],
+ *            [
+ *              [128.45, -27.44], [128.32, -26.94], [127.70, -26.82], [127.35, -27.05], [127.17, -27.80],
+ *              [127.57, -28.22], [128.10, -28.42], [128.49, -27.80], [128.45, -27.44]
+ *            ]
+ *          ]
+ *        }
+ *      },
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "o",
+ *          "color": "yellow",
+ *          "rank": "15",
+ *          "ascii": "111"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [131.87, -25.76], [131.35, -26.07], [130.95, -26.78], [130.82, -27.64], [130.86, -28.53],
+ *              [131.26, -29.22], [131.92, -29.76], [132.45, -29.87], [133.06, -29.76], [133.72, -29.34],
+ *              [134.07, -28.80], [134.20, -27.91], [134.07, -27.21], [133.81, -26.31], [133.37, -25.83],
+ *              [132.71, -25.64], [131.87, -25.76]
+ *            ],
+ *            [
+ *              [133.15, -27.17], [132.71, -26.86], [132.09, -26.90], [131.74, -27.56], [131.79, -28.26],
+ *              [132.36, -28.45], [132.93, -28.34], [133.15, -27.76], [133.15, -27.17]
+ *            ]
+ *          ]
+ *        }
+ *      },
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "g",
+ *          "color": "blue",
+ *          "rank": "7",
+ *          "ascii": "103"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [138.12, -25.04], [136.84, -25.16], [135.96, -25.36], [135.26, -25.99], [135, -26.90],
+ *              [135.04, -27.91], [135.26, -28.88], [136.05, -29.45], [137.02, -29.49], [137.81, -29.49],
+ *              [137.94, -29.99], [137.90, -31.20], [137.85, -32.24], [136.88, -32.69], [136.45, -32.36],
+ *              [136.27, -31.80], [134.95, -31.84], [135.17, -32.99], [135.52, -33.43], [136.14, -33.76],
+ *              [137.06, -33.83], [138.12, -33.65], [138.86, -33.21], [139.30, -32.28], [139.30, -31.24],
+ *              [139.30, -30.14], [139.21, -28.96], [139.17, -28.22], [139.08, -27.41], [139.08, -26.47],
+ *              [138.99, -25.40], [138.73, -25.00], [138.12, -25.04]
+ *            ],
+ *            [
+ *              [137.50, -26.54], [136.97, -26.47], [136.49, -26.58], [136.31, -27.13], [136.31, -27.72],
+ *              [136.58, -27.99], [137.50, -28.03], [137.68, -27.68], [137.59, -26.78], [137.50, -26.54]
+ *            ]
+ *          ]
+ *        }
+ *      },
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "l",
+ *          "color": "green",
+ *          "rank": "12",
+ *          "ascii": "108"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [140.14, -21.04], [140.31, -29.42], [141.67, -29.49], [141.59, -20.92], [140.14, -21.04]
+ *            ]
+ *          ]
+ *        }
+ *      },
+ *      {
+ *        "type": "Feature",
+ *        "properties": {
+ *          "letter": "e",
+ *          "color": "red",
+ *          "rank": "5",
+ *          "ascii": "101"
+ *        },
+ *        "geometry": {
+ *          "type": "Polygon",
+ *          "coordinates": [
+ *            [
+ *              [144.14, -27.41], [145.67, -27.52], [146.86, -27.09], [146.82, -25.64], [146.25, -25.04],
+ *              [145.45, -24.68], [144.66, -24.60], [144.09, -24.76], [143.43, -25.08], [142.99, -25.40],
+ *              [142.64, -26.03], [142.64, -27.05], [142.64, -28.26], [143.30, -29.11], [144.18, -29.57],
+ *              [145.41, -29.64], [146.46, -29.19], [146.64, -28.72], [146.82, -28.14], [144.84, -28.42],
+ *              [144.31, -28.26], [144.14, -27.41]
+ *            ],
+ *            [
+ *              [144.18, -26.39], [144.53, -26.58], [145.19, -26.62], [145.72, -26.35], [145.81, -25.91],
+ *              [145.41, -25.68], [144.97, -25.68], [144.49, -25.64], [144, -25.99], [144.18, -26.39]
+ *            ]
+ *          ]
+ *        }
+ *      }
+ *    ]
+ *  };
+ * }
+ * ```
+ */
+var AgmDataLayer = (function () {
+    function AgmDataLayer(_manager) {
+        this._manager = _manager;
+        this._addedToManager = false;
+        this._id = (layerId++).toString();
+        this._subscriptions = [];
+        /**
+         * This event is fired when a feature in the layer is clicked.
+         */
+        this.layerClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * The geoJson to be displayed
+         */
+        this.geoJson = null;
+    }
+    AgmDataLayer.prototype.ngOnInit = function () {
+        if (this._addedToManager) {
+            return;
+        }
+        this._manager.addDataLayer(this);
+        this._addedToManager = true;
+        this._addEventListeners();
+    };
+    AgmDataLayer.prototype._addEventListeners = function () {
+        var _this = this;
+        var listeners = [
+            { name: 'click', handler: function (ev) { return _this.layerClick.emit(ev); } },
+        ];
+        listeners.forEach(function (obj) {
+            var os = _this._manager.createEventObservable(obj.name, _this).subscribe(obj.handler);
+            _this._subscriptions.push(os);
+        });
+    };
+    /** @internal */
+    AgmDataLayer.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmDataLayer.prototype.toString = function () { return "AgmDataLayer-" + this._id.toString(); };
+    /** @internal */
+    AgmDataLayer.prototype.ngOnDestroy = function () {
+        this._manager.deleteDataLayer(this);
+        // unsubscribe all registered observable subscriptions
+        this._subscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    /** @internal */
+    AgmDataLayer.prototype.ngOnChanges = function (changes) {
+        var _this = this;
+        if (!this._addedToManager) {
+            return;
+        }
+        var geoJsonChange = changes['geoJson'];
+        if (geoJsonChange) {
+            this._manager.updateGeoJson(this, geoJsonChange.currentValue);
+        }
+        var dataOptions = {};
+        AgmDataLayer._dataOptionsAttributes.forEach(function (k) { return dataOptions[k] = changes.hasOwnProperty(k) ? changes[k].currentValue : _this[k]; });
+        this._manager.setDataOptions(this, dataOptions);
+    };
+    return AgmDataLayer;
+}());
+
+AgmDataLayer._dataOptionsAttributes = ['style'];
+AgmDataLayer.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-data-layer'
+            },] },
+];
+/** @nocollapse */
+AgmDataLayer.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_data_layer_manager__["a" /* DataLayerManager */], },
+]; };
+AgmDataLayer.propDecorators = {
+    'layerClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'geoJson': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'style': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+};
+//# sourceMappingURL=data-layer.js.map
+
+/***/ }),
+
+/***/ 1141:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmMarker; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_marker_manager__ = __webpack_require__(1123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_window__ = __webpack_require__(1133);
+
+
+
+var markerId = 0;
+/**
+ * AgmMarker renders a map marker inside a {@link AgmMap}.
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from '@angular/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  styles: [`
+ *    .agm-map-container {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ *    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ *      <agm-marker [latitude]="lat" [longitude]="lng" [label]="'M'">
+ *      </agm-marker>
+ *    </agm-map>
+ *  `
+ * })
+ * ```
+ */
+var AgmMarker = (function () {
+    function AgmMarker(_markerManager) {
+        this._markerManager = _markerManager;
+        /**
+         * If true, the marker can be dragged. Default value is false.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.draggable = false;
+        /**
+         * If true, the marker is visible
+         */
+        this.visible = true;
+        /**
+         * Whether to automatically open the child info window when the marker is clicked.
+         */
+        this.openInfoWindow = true;
+        /**
+         * The marker's opacity between 0.0 and 1.0.
+         */
+        this.opacity = 1;
+        /**
+         * All markers are displayed on the map in order of their zIndex, with higher values displaying in
+         * front of markers with lower values. By default, markers are displayed according to their
+         * vertical position on screen, with lower markers appearing in front of markers further up the
+         * screen.
+         */
+        this.zIndex = 1;
+        /**
+         * If true, the marker can be clicked. Default value is true.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.clickable = true;
+        /**
+         * This event emitter gets emitted when the user clicks on the marker.
+         */
+        this.markerClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user stops dragging the marker.
+         */
+        this.dragEnd = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user mouses over the marker.
+         */
+        this.mouseOver = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user mouses outside the marker.
+         */
+        this.mouseOut = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * @internal
+         */
+        this.infoWindow = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["U" /* QueryList */]();
+        this._markerAddedToManger = false;
+        this._observableSubscriptions = [];
+        this._id = (markerId++).toString();
+    }
+    /* @internal */
+    AgmMarker.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this.handleInfoWindowUpdate();
+        this.infoWindow.changes.subscribe(function () { return _this.handleInfoWindowUpdate(); });
+    };
+    AgmMarker.prototype.handleInfoWindowUpdate = function () {
+        var _this = this;
+        if (this.infoWindow.length > 1) {
+            throw new Error('Expected no more than one info window.');
+        }
+        this.infoWindow.forEach(function (marker) {
+            marker.hostMarker = _this;
+        });
+    };
+    /** @internal */
+    AgmMarker.prototype.ngOnChanges = function (changes) {
+        if (typeof this.latitude !== 'number' || typeof this.longitude !== 'number') {
+            return;
+        }
+        if (!this._markerAddedToManger) {
+            this._markerManager.addMarker(this);
+            this._markerAddedToManger = true;
+            this._addEventListeners();
+            return;
+        }
+        if (changes['latitude'] || changes['longitude']) {
+            this._markerManager.updateMarkerPosition(this);
+        }
+        if (changes['title']) {
+            this._markerManager.updateTitle(this);
+        }
+        if (changes['label']) {
+            this._markerManager.updateLabel(this);
+        }
+        if (changes['draggable']) {
+            this._markerManager.updateDraggable(this);
+        }
+        if (changes['iconUrl']) {
+            this._markerManager.updateIcon(this);
+        }
+        if (changes['opacity']) {
+            this._markerManager.updateOpacity(this);
+        }
+        if (changes['visible']) {
+            this._markerManager.updateVisible(this);
+        }
+        if (changes['zIndex']) {
+            this._markerManager.updateZIndex(this);
+        }
+        if (changes['clickable']) {
+            this._markerManager.updateClickable(this);
+        }
+    };
+    AgmMarker.prototype._addEventListeners = function () {
+        var _this = this;
+        var cs = this._markerManager.createEventObservable('click', this).subscribe(function () {
+            if (_this.openInfoWindow) {
+                _this.infoWindow.forEach(function (infoWindow) { return infoWindow.open(); });
+            }
+            _this.markerClick.emit(null);
+        });
+        this._observableSubscriptions.push(cs);
+        var ds = this._markerManager.createEventObservable('dragend', this)
+            .subscribe(function (e) {
+            _this.dragEnd.emit({ coords: { lat: e.latLng.lat(), lng: e.latLng.lng() } });
+        });
+        this._observableSubscriptions.push(ds);
+        var mover = this._markerManager.createEventObservable('mouseover', this)
+            .subscribe(function (e) {
+            _this.mouseOver.emit({ coords: { lat: e.latLng.lat(), lng: e.latLng.lng() } });
+        });
+        this._observableSubscriptions.push(mover);
+        var mout = this._markerManager.createEventObservable('mouseout', this)
+            .subscribe(function (e) {
+            _this.mouseOut.emit({ coords: { lat: e.latLng.lat(), lng: e.latLng.lng() } });
+        });
+        this._observableSubscriptions.push(mout);
+    };
+    /** @internal */
+    AgmMarker.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmMarker.prototype.toString = function () { return 'AgmMarker-' + this._id.toString(); };
+    /** @internal */
+    AgmMarker.prototype.ngOnDestroy = function () {
+        this._markerManager.deleteMarker(this);
+        // unsubscribe all registered observable subscriptions
+        this._observableSubscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    return AgmMarker;
+}());
+
+AgmMarker.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-marker'
+            },] },
+];
+/** @nocollapse */
+AgmMarker.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_marker_manager__["a" /* MarkerManager */], },
+]; };
+AgmMarker.propDecorators = {
+    'latitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'longitude': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'title': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'label': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['markerDraggable',] },],
+    'iconUrl': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'visible': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'openInfoWindow': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'opacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'clickable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['markerClickable',] },],
+    'markerClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'dragEnd': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseOver': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'mouseOut': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'infoWindow': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [__WEBPACK_IMPORTED_MODULE_2__info_window__["a" /* AgmInfoWindow */],] },],
+};
+//# sourceMappingURL=marker.js.map
+
+/***/ }),
+
+/***/ 1142:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmPolygon; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polygon_manager__ = __webpack_require__(1129);
+
+
+/**
+ * AgmPolygon renders a polygon on a {@link AgmMap}
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from '@angular/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  styles: [`
+ *    agm-map {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ *    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ *      <agm-polygon [paths]="paths">
+ *      </agm-polygon>
+ *    </agm-map>
+ *  `
+ * })
+ * export class MyMapCmp {
+ *   lat: number = 0;
+ *   lng: number = 0;
+ *   zoom: number = 10;
+ *   paths: Array<LatLngLiteral> = [
+ *     { lat: 0,  lng: 10 },
+ *     { lat: 0,  lng: 20 },
+ *     { lat: 10, lng: 20 },
+ *     { lat: 10, lng: 10 },
+ *     { lat: 0,  lng: 10 }
+ *   ]
+ *   // Nesting paths will create a hole where they overlap;
+ *   nestedPaths: Array<Array<LatLngLiteral>> = [[
+ *     { lat: 0,  lng: 10 },
+ *     { lat: 0,  lng: 20 },
+ *     { lat: 10, lng: 20 },
+ *     { lat: 10, lng: 10 },
+ *     { lat: 0,  lng: 10 }
+ *   ], [
+ *     { lat: 0, lng: 15 },
+ *     { lat: 0, lng: 20 },
+ *     { lat: 5, lng: 20 },
+ *     { lat: 5, lng: 15 },
+ *     { lat: 0, lng: 15 }
+ *   ]]
+ * }
+ * ```
+ */
+var AgmPolygon = (function () {
+    function AgmPolygon(_polygonManager) {
+        this._polygonManager = _polygonManager;
+        /**
+         * Indicates whether this Polygon handles mouse events. Defaults to true.
+         */
+        this.clickable = true;
+        /**
+         * If set to true, the user can drag this shape over the map. The geodesic
+         * property defines the mode of dragging. Defaults to false.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.draggable = false;
+        /**
+         * If set to true, the user can edit this shape by dragging the control
+         * points shown at the vertices and on each segment. Defaults to false.
+         */
+        this.editable = false;
+        /**
+         * When true, edges of the polygon are interpreted as geodesic and will
+         * follow the curvature of the Earth. When false, edges of the polygon are
+         * rendered as straight lines in screen space. Note that the shape of a
+         * geodesic polygon may appear to change when dragged, as the dimensions
+         * are maintained relative to the surface of the earth. Defaults to false.
+         */
+        this.geodesic = false;
+        /**
+         * The ordered sequence of coordinates that designates a closed loop.
+         * Unlike polylines, a polygon may consist of one or more paths.
+         *  As a result, the paths property may specify one or more arrays of
+         * LatLng coordinates. Paths are closed automatically; do not repeat the
+         * first vertex of the path as the last vertex. Simple polygons may be
+         * defined using a single array of LatLngs. More complex polygons may
+         * specify an array of arrays. Any simple arrays are converted into Arrays.
+         * Inserting or removing LatLngs from the Array will automatically update
+         * the polygon on the map.
+         */
+        this.paths = [];
+        /**
+         * This event is fired when the DOM click event is fired on the Polygon.
+         */
+        this.polyClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM dblclick event is fired on the Polygon.
+         */
+        this.polyDblClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is repeatedly fired while the user drags the polygon.
+         */
+        this.polyDrag = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user stops dragging the polygon.
+         */
+        this.polyDragEnd = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user starts dragging the polygon.
+         */
+        this.polyDragStart = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousedown event is fired on the Polygon.
+         */
+        this.polyMouseDown = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousemove event is fired on the Polygon.
+         */
+        this.polyMouseMove = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on Polygon mouseout.
+         */
+        this.polyMouseOut = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on Polygon mouseover.
+         */
+        this.polyMouseOver = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired whe the DOM mouseup event is fired on the Polygon
+         */
+        this.polyMouseUp = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This even is fired when the Polygon is right-clicked on.
+         */
+        this.polyRightClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this._polygonAddedToManager = false;
+        this._subscriptions = [];
+    }
+    /** @internal */
+    AgmPolygon.prototype.ngAfterContentInit = function () {
+        if (!this._polygonAddedToManager) {
+            this._init();
+        }
+    };
+    AgmPolygon.prototype.ngOnChanges = function (changes) {
+        if (!this._polygonAddedToManager) {
+            this._init();
+            return;
+        }
+        this._polygonManager.setPolygonOptions(this, this._updatePolygonOptions(changes));
+    };
+    AgmPolygon.prototype._init = function () {
+        this._polygonManager.addPolygon(this);
+        this._polygonAddedToManager = true;
+        this._addEventListeners();
+    };
+    AgmPolygon.prototype._addEventListeners = function () {
+        var _this = this;
+        var handlers = [
+            { name: 'click', handler: function (ev) { return _this.polyClick.emit(ev); } },
+            { name: 'dbclick', handler: function (ev) { return _this.polyDblClick.emit(ev); } },
+            { name: 'drag', handler: function (ev) { return _this.polyDrag.emit(ev); } },
+            { name: 'dragend', handler: function (ev) { return _this.polyDragEnd.emit(ev); } },
+            { name: 'dragstart', handler: function (ev) { return _this.polyDragStart.emit(ev); } },
+            { name: 'mousedown', handler: function (ev) { return _this.polyMouseDown.emit(ev); } },
+            { name: 'mousemove', handler: function (ev) { return _this.polyMouseMove.emit(ev); } },
+            { name: 'mouseout', handler: function (ev) { return _this.polyMouseOut.emit(ev); } },
+            { name: 'mouseover', handler: function (ev) { return _this.polyMouseOver.emit(ev); } },
+            { name: 'mouseup', handler: function (ev) { return _this.polyMouseUp.emit(ev); } },
+            { name: 'rightclick', handler: function (ev) { return _this.polyRightClick.emit(ev); } },
+        ];
+        handlers.forEach(function (obj) {
+            var os = _this._polygonManager.createEventObservable(obj.name, _this).subscribe(obj.handler);
+            _this._subscriptions.push(os);
+        });
+    };
+    AgmPolygon.prototype._updatePolygonOptions = function (changes) {
+        return Object.keys(changes)
+            .filter(function (k) { return AgmPolygon._polygonOptionsAttributes.indexOf(k) !== -1; })
+            .reduce(function (obj, k) {
+            obj[k] = changes[k].currentValue;
+            return obj;
+        }, {});
+    };
+    /** @internal */
+    AgmPolygon.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmPolygon.prototype.ngOnDestroy = function () {
+        this._polygonManager.deletePolygon(this);
+        // unsubscribe all registered observable subscriptions
+        this._subscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    return AgmPolygon;
+}());
+
+AgmPolygon._polygonOptionsAttributes = [
+    'clickable', 'draggable', 'editable', 'fillColor', 'fillOpacity', 'geodesic', 'icon', 'map',
+    'paths', 'strokeColor', 'strokeOpacity', 'strokeWeight', 'visible', 'zIndex', 'draggable',
+    'editable', 'visible'
+];
+AgmPolygon.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-polygon'
+            },] },
+];
+/** @nocollapse */
+AgmPolygon.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_polygon_manager__["a" /* PolygonManager */], },
+]; };
+AgmPolygon.propDecorators = {
+    'clickable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['polyDraggable',] },],
+    'editable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fillColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'fillOpacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'geodesic': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'paths': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeOpacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeWeight': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'visible': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'polyClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyDblClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyDrag': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyDragEnd': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyDragStart': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyMouseDown': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyMouseMove': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyMouseOut': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyMouseOver': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyMouseUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'polyRightClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+};
+//# sourceMappingURL=polygon.js.map
+
+/***/ }),
+
+/***/ 1143:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmPolyline; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_polyline_manager__ = __webpack_require__(1130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__polyline_point__ = __webpack_require__(1134);
+
+
+
+var polylineId = 0;
+/**
+ * AgmPolyline renders a polyline on a {@link AgmMap}
+ *
+ * ### Example
+ * ```typescript
+ * import { Component } from '@angular/core';
+ *
+ * @Component({
+ *  selector: 'my-map-cmp',
+ *  styles: [`
+ *    .agm-map-container {
+ *      height: 300px;
+ *    }
+ * `],
+ *  template: `
+ *    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+ *      <agm-polyline>
+ *          <agm-polyline-point [latitude]="latA" [longitude]="lngA">
+ *          </agm-polyline-point>
+ *          <agm-polyline-point [latitude]="latB" [longitude]="lngB">
+ *          </agm-polyline-point>
+ *      </agm-polyline>
+ *    </agm-map>
+ *  `
+ * })
+ * ```
+ */
+var AgmPolyline = (function () {
+    function AgmPolyline(_polylineManager) {
+        this._polylineManager = _polylineManager;
+        /**
+         * Indicates whether this Polyline handles mouse events. Defaults to true.
+         */
+        this.clickable = true;
+        /**
+         * If set to true, the user can drag this shape over the map. The geodesic property defines the
+         * mode of dragging. Defaults to false.
+         */
+        // tslint:disable-next-line:no-input-rename
+        this.draggable = false;
+        /**
+         * If set to true, the user can edit this shape by dragging the control points shown at the
+         * vertices and on each segment. Defaults to false.
+         */
+        this.editable = false;
+        /**
+         * When true, edges of the polygon are interpreted as geodesic and will follow the curvature of
+         * the Earth. When false, edges of the polygon are rendered as straight lines in screen space.
+         * Note that the shape of a geodesic polygon may appear to change when dragged, as the dimensions
+         * are maintained relative to the surface of the earth. Defaults to false.
+         */
+        this.geodesic = false;
+        /**
+         * Whether this polyline is visible on the map. Defaults to true.
+         */
+        this.visible = true;
+        /**
+         * This event is fired when the DOM click event is fired on the Polyline.
+         */
+        this.lineClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM dblclick event is fired on the Polyline.
+         */
+        this.lineDblClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is repeatedly fired while the user drags the polyline.
+         */
+        this.lineDrag = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user stops dragging the polyline.
+         */
+        this.lineDragEnd = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the user starts dragging the polyline.
+         */
+        this.lineDragStart = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousedown event is fired on the Polyline.
+         */
+        this.lineMouseDown = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired when the DOM mousemove event is fired on the Polyline.
+         */
+        this.lineMouseMove = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on Polyline mouseout.
+         */
+        this.lineMouseOut = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired on Polyline mouseover.
+         */
+        this.lineMouseOver = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This event is fired whe the DOM mouseup event is fired on the Polyline
+         */
+        this.lineMouseUp = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        /**
+         * This even is fired when the Polyline is right-clicked on.
+         */
+        this.lineRightClick = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this._polylineAddedToManager = false;
+        this._subscriptions = [];
+        this._id = (polylineId++).toString();
+    }
+    /** @internal */
+    AgmPolyline.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        if (this.points.length) {
+            this.points.forEach(function (point) {
+                var s = point.positionChanged.subscribe(function () { _this._polylineManager.updatePolylinePoints(_this); });
+                _this._subscriptions.push(s);
             });
         }
-        else {
-            this.navCtrl.push(this.selectPageForOpen(this.componentName), {
-                service: this.service,
-                page: page
-            });
+        if (!this._polylineAddedToManager) {
+            this._init();
         }
+        var s = this.points.changes.subscribe(function () { return _this._polylineManager.updatePolylinePoints(_this); });
+        this._subscriptions.push(s);
+        this._polylineManager.updatePolylinePoints(this);
     };
-    ItemsPage.prototype.showPrompt = function () {
+    AgmPolyline.prototype.ngOnChanges = function (changes) {
+        if (!this._polylineAddedToManager) {
+            this._init();
+            return;
+        }
+        var options = {};
+        var optionKeys = Object.keys(changes).filter(function (k) { return AgmPolyline._polylineOptionsAttributes.indexOf(k) !== -1; });
+        optionKeys.forEach(function (k) { return options[k] = changes[k].currentValue; });
+        this._polylineManager.setPolylineOptions(this, options);
     };
-    ItemsPage.prototype.setGoogleAnalytics = function () {
-        if (window.location.hostname != "localhost") {
-            __WEBPACK_IMPORTED_MODULE_5_ionic_native__["b" /* GoogleAnalytics */].startTrackerWithId("UA-35500609-14").then(function () {
-                __WEBPACK_IMPORTED_MODULE_5_ionic_native__["b" /* GoogleAnalytics */].trackEvent("active", "user", "click");
-            });
-        }
-        else {
-            console.log("Start Tracker");
-        }
+    AgmPolyline.prototype._init = function () {
+        this._polylineManager.addPolyline(this);
+        this._polylineAddedToManager = true;
+        this._addEventListeners();
     };
-    ItemsPage.prototype.eventTrackView = function (event) {
-        if (window.location.hostname != "localhost") {
-            __WEBPACK_IMPORTED_MODULE_5_ionic_native__["b" /* GoogleAnalytics */].trackView(event, "Items", false);
-            __WEBPACK_IMPORTED_MODULE_5_ionic_native__["b" /* GoogleAnalytics */].trackEvent("openPage", event, "click");
-        }
-        else {
-            console.log("event:" + event);
-        }
+    AgmPolyline.prototype._addEventListeners = function () {
+        var _this = this;
+        var handlers = [
+            { name: 'click', handler: function (ev) { return _this.lineClick.emit(ev); } },
+            { name: 'dblclick', handler: function (ev) { return _this.lineDblClick.emit(ev); } },
+            { name: 'drag', handler: function (ev) { return _this.lineDrag.emit(ev); } },
+            { name: 'dragend', handler: function (ev) { return _this.lineDragEnd.emit(ev); } },
+            { name: 'dragstart', handler: function (ev) { return _this.lineDragStart.emit(ev); } },
+            { name: 'mousedown', handler: function (ev) { return _this.lineMouseDown.emit(ev); } },
+            { name: 'mousemove', handler: function (ev) { return _this.lineMouseMove.emit(ev); } },
+            { name: 'mouseout', handler: function (ev) { return _this.lineMouseOut.emit(ev); } },
+            { name: 'mouseover', handler: function (ev) { return _this.lineMouseOver.emit(ev); } },
+            { name: 'mouseup', handler: function (ev) { return _this.lineMouseUp.emit(ev); } },
+            { name: 'rightclick', handler: function (ev) { return _this.lineRightClick.emit(ev); } },
+        ];
+        handlers.forEach(function (obj) {
+            var os = _this._polylineManager.createEventObservable(obj.name, _this).subscribe(obj.handler);
+            _this._subscriptions.push(os);
+        });
     };
-    ItemsPage = ItemsPage_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\items\items.html"*/'<!-- Submenu Header -->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{title}}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<!-- Submenu List -->\n\n<ion-content no-padding>\n\n  <ion-list no-padding no-margin>\n\n    <button ion-item no-padding item-title submenu *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n    </button>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\items\items.html"*/,
-            providers: [__WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__["a" /* MailChimpService */], __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__["a" /* TextViewService */], __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__["a" /* SpinnerService */],
-                __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__["a" /* SplashScreenService */], __WEBPACK_IMPORTED_MODULE_14__services_login_service__["a" /* LoginService */], __WEBPACK_IMPORTED_MODULE_15__services_register_service__["a" /* RegisterService */],
-                __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__["a" /* SearchBarService */], __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__["a" /* CheckBoxService */], __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__["a" /* WizardService */], __WEBPACK_IMPORTED_MODULE_13__services_tabs_service__["a" /* TabsService */], __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__["a" /* ParallaxService */],
-                __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__["a" /* ListViewService */], __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__["a" /* ListViewExpandableService */], __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__["a" /* ListViewDragAndDropService */], __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__["a" /* ImageGalleryService */],
-                __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__["a" /* ListViewSwipeToDismissService */], __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__["a" /* ListViewGoogleCardsService */], __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__["a" /* ListViewAppearanceAnimationService */],
-                __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__["a" /* ListViewStickyListHeaderService */], __WEBPACK_IMPORTED_MODULE_2__services_HttpService__["a" /* HttpService */], __WEBPACK_IMPORTED_MODULE_3__services_validation__["a" /* ValidationService */], __WEBPACK_IMPORTED_MODULE_25__services_maps_service__["a" /* MapsService */], __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__["a" /* QRCodeService */],
-                __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__["a" /* RadioButtonService */], __WEBPACK_IMPORTED_MODULE_28__services_range_service__["a" /* RangeService */], __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__["a" /* ToggleService */], __WEBPACK_IMPORTED_MODULE_30__services_select_service__["a" /* SelectService */], __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__["a" /* ActionSheetService */]]
+    /** @internal */
+    AgmPolyline.prototype._getPoints = function () {
+        if (this.points) {
+            return this.points.toArray();
+        }
+        return [];
+    };
+    /** @internal */
+    AgmPolyline.prototype.id = function () { return this._id; };
+    /** @internal */
+    AgmPolyline.prototype.ngOnDestroy = function () {
+        this._polylineManager.deletePolyline(this);
+        // unsubscribe all registered observable subscriptions
+        this._subscriptions.forEach(function (s) { return s.unsubscribe(); });
+    };
+    return AgmPolyline;
+}());
+
+AgmPolyline._polylineOptionsAttributes = [
+    'draggable', 'editable', 'visible', 'geodesic', 'strokeColor', 'strokeOpacity', 'strokeWeight',
+    'zIndex'
+];
+AgmPolyline.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'agm-polyline'
+            },] },
+];
+/** @nocollapse */
+AgmPolyline.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__services_managers_polyline_manager__["a" /* PolylineManager */], },
+]; };
+AgmPolyline.propDecorators = {
+    'clickable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'draggable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['polylineDraggable',] },],
+    'editable': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'geodesic': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeColor': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeOpacity': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'strokeWeight': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'visible': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'zIndex': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'lineClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineDblClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineDrag': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineDragEnd': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineDragStart': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineMouseDown': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineMouseMove': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineMouseOut': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineMouseOver': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineMouseUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'lineRightClick': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* Output */] },],
+    'points': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [__WEBPACK_IMPORTED_MODULE_2__polyline_point__["a" /* AgmPolylinePoint */],] },],
+};
+//# sourceMappingURL=polyline.js.map
+
+/***/ }),
+
+/***/ 1144:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return WindowRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return DocumentRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BROWSER_GLOBALS_PROVIDERS; });
+var WindowRef = (function () {
+    function WindowRef() {
+    }
+    WindowRef.prototype.getNativeWindow = function () { return window; };
+    return WindowRef;
+}());
+
+var DocumentRef = (function () {
+    function DocumentRef() {
+    }
+    DocumentRef.prototype.getNativeDocument = function () { return document; };
+    return DocumentRef;
+}());
+
+var BROWSER_GLOBALS_PROVIDERS = [WindowRef, DocumentRef];
+//# sourceMappingURL=browser-globals.js.map
+
+/***/ }),
+
+/***/ 1150:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives__ = __webpack_require__(1151);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services__ = __webpack_require__(1152);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_module__ = __webpack_require__(1154);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__core_module__["a"]; });
+// main modules
+
+
+// core module
+// we explicitly export the module here to prevent this Ionic 2 bug:
+// http://stevemichelotti.com/integrate-angular-2-google-maps-into-ionic-2/
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 1151:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__directives_map__ = __webpack_require__(1137);
+/* unused harmony reexport AgmMap */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_circle__ = __webpack_require__(1138);
+/* unused harmony reexport AgmCircle */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_info_window__ = __webpack_require__(1133);
+/* unused harmony reexport AgmInfoWindow */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_kml_layer__ = __webpack_require__(1139);
+/* unused harmony reexport AgmKmlLayer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_data_layer__ = __webpack_require__(1140);
+/* unused harmony reexport AgmDataLayer */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_marker__ = __webpack_require__(1141);
+/* unused harmony reexport AgmMarker */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polygon__ = __webpack_require__(1142);
+/* unused harmony reexport AgmPolygon */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline__ = __webpack_require__(1143);
+/* unused harmony reexport AgmPolyline */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_polyline_point__ = __webpack_require__(1134);
+/* unused harmony reexport AgmPolylinePoint */
+
+
+
+
+
+
+
+
+
+//# sourceMappingURL=directives.js.map
+
+/***/ }),
+
+/***/ 1152:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_google_maps_api_wrapper__ = __webpack_require__(1121);
+/* unused harmony reexport GoogleMapsAPIWrapper */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_managers_circle_manager__ = __webpack_require__(1127);
+/* unused harmony reexport CircleManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_managers_info_window_manager__ = __webpack_require__(1128);
+/* unused harmony reexport InfoWindowManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_managers_marker_manager__ = __webpack_require__(1123);
+/* unused harmony reexport MarkerManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_managers_polygon_manager__ = __webpack_require__(1129);
+/* unused harmony reexport PolygonManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_managers_polyline_manager__ = __webpack_require__(1130);
+/* unused harmony reexport PolylineManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_managers_kml_layer_manager__ = __webpack_require__(1131);
+/* unused harmony reexport KmlLayerManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_managers_data_layer_manager__ = __webpack_require__(1132);
+/* unused harmony reexport DataLayerManager */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1135);
+/* unused harmony reexport GoogleMapsScriptProtocol */
+/* unused harmony reexport LAZY_MAPS_API_CONFIG */
+/* unused harmony reexport LazyMapsAPILoader */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1122);
+/* unused harmony reexport MapsAPILoader */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_noop_maps_api_loader__ = __webpack_require__(1153);
+/* unused harmony reexport NoOpMapsAPILoader */
+
+
+
+
+
+
+
+
+
+
+
+//# sourceMappingURL=services.js.map
+
+/***/ }),
+
+/***/ 1153:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export NoOpMapsAPILoader */
+/**
+ * When using the NoOpMapsAPILoader, the Google Maps API must be added to the page via a `<script>`
+ * Tag.
+ * It's important that the Google Maps API script gets loaded first on the page.
+ */
+var NoOpMapsAPILoader = (function () {
+    function NoOpMapsAPILoader() {
+    }
+    NoOpMapsAPILoader.prototype.load = function () {
+        if (!window.google || !window.google.maps) {
+            throw new Error('Google Maps API not loaded on page. Make sure window.google.maps is available!');
+        }
+        return Promise.resolve();
+    };
+    return NoOpMapsAPILoader;
+}());
+
+//# sourceMappingURL=noop-maps-api-loader.js.map
+
+/***/ }),
+
+/***/ 1154:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export coreDirectives */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgmCoreModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_map__ = __webpack_require__(1137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_circle__ = __webpack_require__(1138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_info_window__ = __webpack_require__(1133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_marker__ = __webpack_require__(1141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_polygon__ = __webpack_require__(1142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_polyline__ = __webpack_require__(1143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__directives_polyline_point__ = __webpack_require__(1134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directives_kml_layer__ = __webpack_require__(1139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directives_data_layer__ = __webpack_require__(1140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_lazy_maps_api_loader__ = __webpack_require__(1135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_maps_api_loader_maps_api_loader__ = __webpack_require__(1122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_browser_globals__ = __webpack_require__(1144);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @internal
+ */
+function coreDirectives() {
+    return [
+        __WEBPACK_IMPORTED_MODULE_1__directives_map__["a" /* AgmMap */], __WEBPACK_IMPORTED_MODULE_4__directives_marker__["a" /* AgmMarker */], __WEBPACK_IMPORTED_MODULE_3__directives_info_window__["a" /* AgmInfoWindow */], __WEBPACK_IMPORTED_MODULE_2__directives_circle__["a" /* AgmCircle */],
+        __WEBPACK_IMPORTED_MODULE_5__directives_polygon__["a" /* AgmPolygon */], __WEBPACK_IMPORTED_MODULE_6__directives_polyline__["a" /* AgmPolyline */], __WEBPACK_IMPORTED_MODULE_7__directives_polyline_point__["a" /* AgmPolylinePoint */], __WEBPACK_IMPORTED_MODULE_8__directives_kml_layer__["a" /* AgmKmlLayer */],
+        __WEBPACK_IMPORTED_MODULE_9__directives_data_layer__["a" /* AgmDataLayer */]
+    ];
+}
+/**
+ * The angular-google-maps core module. Contains all Directives/Services/Pipes
+ * of the core module. Please use `AgmCoreModule.forRoot()` in your app module.
+ */
+var AgmCoreModule = (function () {
+    function AgmCoreModule() {
+    }
+    /**
+     * Please use this method when you register the module at the root level.
+     */
+    AgmCoreModule.forRoot = function (lazyMapsAPILoaderConfig) {
+        return {
+            ngModule: AgmCoreModule,
+            providers: __WEBPACK_IMPORTED_MODULE_12__utils_browser_globals__["a" /* BROWSER_GLOBALS_PROVIDERS */].concat([
+                { provide: __WEBPACK_IMPORTED_MODULE_11__services_maps_api_loader_maps_api_loader__["a" /* MapsAPILoader */], useClass: __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_lazy_maps_api_loader__["b" /* LazyMapsAPILoader */] },
+                { provide: __WEBPACK_IMPORTED_MODULE_10__services_maps_api_loader_lazy_maps_api_loader__["a" /* LAZY_MAPS_API_CONFIG */], useValue: lazyMapsAPILoaderConfig }
+            ]),
+        };
+    };
+    return AgmCoreModule;
+}());
+
+AgmCoreModule.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */], args: [{ declarations: coreDirectives(), exports: coreDirectives() },] },
+];
+/** @nocollapse */
+AgmCoreModule.ctorParameters = function () { return []; };
+//# sourceMappingURL=core.module.js.map
+
+/***/ }),
+
+/***/ 1194:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapsLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MapsLayout3 = (function () {
+    function MapsLayout3() {
+    }
+    MapsLayout3.prototype.onEvent = function (event) {
+        if (this.events[event]) {
+            this.events[event]();
+        }
+        console.log(event);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], MapsLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], MapsLayout3.prototype, "events", void 0);
+    MapsLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'maps-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\maps\layout-3\maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\maps\layout-3\maps.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_8__services_text_view_service__["a" /* TextViewService */],
-            __WEBPACK_IMPORTED_MODULE_9__services_spinner_service__["a" /* SpinnerService */],
-            __WEBPACK_IMPORTED_MODULE_24__services_image_gallery_service__["a" /* ImageGalleryService */],
-            __WEBPACK_IMPORTED_MODULE_11__services_search_bar_service__["a" /* SearchBarService */],
-            __WEBPACK_IMPORTED_MODULE_7__services_check_box_service__["a" /* CheckBoxService */],
-            __WEBPACK_IMPORTED_MODULE_23__services_parallax_service__["a" /* ParallaxService */],
-            __WEBPACK_IMPORTED_MODULE_12__services_wizard_service__["a" /* WizardService */],
-            __WEBPACK_IMPORTED_MODULE_13__services_tabs_service__["a" /* TabsService */],
-            __WEBPACK_IMPORTED_MODULE_16__services_list_view_service__["a" /* ListViewService */],
-            __WEBPACK_IMPORTED_MODULE_17__services_list_view_expandable_service__["a" /* ListViewExpandableService */],
-            __WEBPACK_IMPORTED_MODULE_18__services_list_view_drag_and_drop_service__["a" /* ListViewDragAndDropService */],
-            __WEBPACK_IMPORTED_MODULE_19__services_list_view_swipe_to_dismiss_service__["a" /* ListViewSwipeToDismissService */],
-            __WEBPACK_IMPORTED_MODULE_20__services_list_view_appearance_animation_service__["a" /* ListViewAppearanceAnimationService */],
-            __WEBPACK_IMPORTED_MODULE_21__services_list_view_google_card_service__["a" /* ListViewGoogleCardsService */],
-            __WEBPACK_IMPORTED_MODULE_22__services_list_view_sticky_list_header_service__["a" /* ListViewStickyListHeaderService */],
-            __WEBPACK_IMPORTED_MODULE_14__services_login_service__["a" /* LoginService */],
-            __WEBPACK_IMPORTED_MODULE_15__services_register_service__["a" /* RegisterService */],
-            __WEBPACK_IMPORTED_MODULE_10__services_splash_screen_service__["a" /* SplashScreenService */],
-            __WEBPACK_IMPORTED_MODULE_2__services_HttpService__["a" /* HttpService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_validation__["a" /* ValidationService */],
-            __WEBPACK_IMPORTED_MODULE_4__services_mail_chimp_service__["a" /* MailChimpService */],
-            __WEBPACK_IMPORTED_MODULE_25__services_maps_service__["a" /* MapsService */],
-            __WEBPACK_IMPORTED_MODULE_26__services_qrcode_service__["a" /* QRCodeService */],
-            __WEBPACK_IMPORTED_MODULE_27__services_radio_button_service__["a" /* RadioButtonService */],
-            __WEBPACK_IMPORTED_MODULE_28__services_range_service__["a" /* RangeService */],
-            __WEBPACK_IMPORTED_MODULE_29__services_toggle_service__["a" /* ToggleService */],
-            __WEBPACK_IMPORTED_MODULE_30__services_select_service__["a" /* SelectService */],
-            __WEBPACK_IMPORTED_MODULE_31__services_action_sheet_service__["a" /* ActionSheetService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */]])
-    ], ItemsPage);
-    return ItemsPage;
-    var ItemsPage_1;
+        __metadata("design:paramtypes", [])
+    ], MapsLayout3);
+    return MapsLayout3;
 }());
 
-//# sourceMappingURL=items.js.map
-
-/***/ }),
-
-/***/ 1304:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(611);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/**
- * Created by DRAGAN on 3/22/2017.
- */
-
-
-var HttpService = (function () {
-    function HttpService(http) {
-        this.http = http;
-    }
-    Object.defineProperty(HttpService, "parameters", {
-        get: function () {
-            return [[__WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]]];
-        },
-        enumerable: true,
-        configurable: true
-    });
-    HttpService.prototype.sendData = function (email) {
-        var url = "http://facebook.us14.list-manage.com/subscribe/post-json?u=2c0f7baa8dc004a62ff3922e3&id=456928d791&EMAIL=" + encodeURI(email) + "&b_2c0f7baa8dc004a62ff3922e3_456928d791";
-        var response = this.http.get(url).map(function (res) { return res.json(); });
-        return response;
-    };
-    return HttpService;
-}());
-
-//# sourceMappingURL=HttpService.js.map
-
-/***/ }),
-
-/***/ 1305:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ValidationService; });
-/**
- * Created by DRAGAN on 3/22/2017.
- */
-var ValidationService = (function () {
-    function ValidationService() {
-    }
-    ValidationService.prototype.isMail = function (email) {
-        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-    };
-    return ValidationService;
-}());
-
-//# sourceMappingURL=validation.js.map
-
-/***/ }),
-
-/***/ 1306:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MailChimpService; });
-var MailChimpService = (function () {
-    function MailChimpService() {
-    }
-    MailChimpService.prototype.showMailChimpForm = function () {
-        var mailChimp = localStorage.getItem("mailChimp") == "true";
-        var mailChimpLocal = localStorage.getItem("mailChimpLocal") == "true";
-        if (mailChimp) {
-            return false;
-        }
-        else {
-            return mailChimpLocal;
-        }
-    };
-    MailChimpService.prototype.setMailChimpForm = function (isVisible) {
-        localStorage.setItem("mailChimpLocal", isVisible + "");
-    };
-    MailChimpService.prototype.hideMailChimp = function () {
-        localStorage.setItem("mailChimp", "true");
-    };
-    return MailChimpService;
-}());
-
-//# sourceMappingURL=mail-chimp-service.js.map
-
-/***/ }),
-
-/***/ 1307:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var CheckBoxService = (function () {
-    function CheckBoxService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'checkBoxes'; };
-        this.getTitle = function () { return 'Check Boxes'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Simple", "theme": "layout1" },
-                { "title": "With Avatar", "theme": "layout2" },
-                { "title": "Simple", "theme": "layout3" },
-                { "title": "Two Columns", "theme": "layout4" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Simple data
-        this.getDataForLayout1 = function () {
-            return [
-                {
-                    "id": 1,
-                    "title": "Song",
-                    "icon": "",
-                    "favorite": false,
-                    "image": ""
-                },
-                {
-                    "id": 2,
-                    "title": "Album",
-                    "icon": "",
-                    "favorite": false,
-                    "image": ""
-                },
-                {
-                    "id": 3,
-                    "title": "Artist",
-                    "icon": "",
-                    "favorite": false,
-                    "image": ""
-                },
-                {
-                    "id": 4,
-                    "title": "Song",
-                    "icon": "",
-                    "favorite": true,
-                    "image": ""
-                },
-                {
-                    "id": 5,
-                    "title": "Album",
-                    "icon": "",
-                    "favorite": false,
-                    "image": ""
-                },
-                {
-                    "id": 6,
-                    "title": "Artist",
-                    "icon": "",
-                    "favorite": false,
-                    "image": ""
-                }
-            ];
-        };
-        //With Avatar data
-        this.getDataForLayout2 = function () {
-            return [
-                {
-                    "id": 1,
-                    "title": "Martin Peck",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/1.jpg"
-                },
-                {
-                    "id": 2,
-                    "title": "Sherry Hale",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/2.jpg"
-                },
-                {
-                    "id": 3,
-                    "title": "Michele Henderson",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/3.jpg"
-                },
-                {
-                    "id": 4,
-                    "title": "Natasha Gamble",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/4.jpg"
-                },
-                {
-                    "id": 5,
-                    "title": "Julia Petersen",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/5.jpg"
-                },
-                {
-                    "id": 6,
-                    "title": "Randall Hurley",
-                    "icon": "",
-                    "favorite": false,
-                    "image": "assets/images/avatar/6.jpg"
-                }
-            ];
-        };
-        //Simple data
-        this.getDataForLayout3 = function () {
-            return [
-                {
-                    "id": 1,
-                    "title": "Song",
-                    "icon": "icon-music-box"
-                },
-                {
-                    "id": 2,
-                    "title": "Album",
-                    "icon": "icon-music-box"
-                },
-                {
-                    "id": 3,
-                    "title": "Artist",
-                    "icon": "icon-music-box"
-                },
-                {
-                    "id": 4,
-                    "title": "Song",
-                    "icon": "icon-music-box"
-                },
-                {
-                    "id": 5,
-                    "title": "Album",
-                    "icon": "icon-music-box"
-                },
-                {
-                    "id": 6,
-                    "title": "Artist",
-                    "icon": "icon-music-box"
-                }
-            ];
-        };
-        // Two columns data
-        this.getDataForLayout4 = function () {
-            return [
-                {
-                    'id': 1,
-                    'title': 'Shoes',
-                    'favorite': true
-                },
-                {
-                    'id': 2,
-                    'title': 'Clothes',
-                    'favorite': false
-                },
-                {
-                    'id': 3,
-                    'title': 'Mobile',
-                    'favorite': false
-                },
-                {
-                    'id': 4,
-                    'title': 'IT',
-                    'favorite': true
-                },
-                {
-                    'id': 5,
-                    'title': 'Food',
-                    'favorite': false
-                },
-                {
-                    id: 6,
-                    'title': 'Fruits',
-                    'favorite': false
-                }
-            ];
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                onButton: function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                }
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    CheckBoxService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('checkBoxes/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    CheckBoxService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], CheckBoxService);
-    return CheckBoxService;
-}());
-
-//# sourceMappingURL=check-box-service.js.map
-
-/***/ }),
-
-/***/ 1308:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextViewService; });
-var TextViewService = (function () {
-    function TextViewService() {
-        var _this = this;
-        this.getId = function () { return 'textViews'; };
-        this.getTitle = function () { return 'Typo + small components'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "All", "theme": "all" },
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        this.getDataForAll = function () {
-            return [];
-        };
-        this.getEventsForTheme = function (menuItem) {
-            return {};
-        };
-        this.prepareParams = function (item) {
-            return {
-                title: item.title,
-                data: _this.getDataForTheme(item),
-                events: _this.getEventsForTheme(item)
-            };
-        };
-    }
-    TextViewService.prototype.load = function (url) {
-        return null;
-    };
-    ;
-    return TextViewService;
-}());
-
-//# sourceMappingURL=text-view-service.js.map
-
-/***/ }),
-
-/***/ 1309:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpinnerService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var SpinnerService = (function () {
-    function SpinnerService(loadingService) {
-        var _this = this;
-        this.loadingService = loadingService;
-        this.getId = function () { return 'spinners'; };
-        this.getTitle = function () { return 'Spinners'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "All", "theme": "all" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        this.getEventsForTheme = function (menuItem) {
-            return {};
-        };
-        this.getDataForAll = function () {
-            return [
-                { "icon": "tail-spin" },
-                { "icon": "oval" },
-                { "icon": "audio" },
-                { "icon": "bars" },
-                { "icon": "hearts" },
-                { "icon": "three-dots" },
-                { "icon": "puff" },
-                { "icon": "grid" },
-                { "icon": "ball-triangle" },
-                { "icon": "circles" }
-            ];
-        };
-        this.prepareParams = function (item) {
-            return {
-                spinner: true,
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-        };
-    }
-    SpinnerService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        return new __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"](function (observer) {
-            that.loadingService.hide();
-            observer.next(_this.getDataForAll());
-            observer.complete();
-        });
-    };
-    ;
-    SpinnerService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__loading_service__["a" /* LoadingService */]])
-    ], SpinnerService);
-    return SpinnerService;
-}());
-
-//# sourceMappingURL=spinner-service.js.map
-
-/***/ }),
-
-/***/ 1310:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreenService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var SplashScreenService = (function () {
-    function SplashScreenService(loadingService) {
-        var _this = this;
-        this.loadingService = loadingService;
-        this.getId = function () { return 'splashScreens'; };
-        this.getTitle = function () { return 'Splash screens'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Fade in + Ken Burns 1", "theme": "layout1" },
-                { "title": "Down + fade in + Ken Burns", "theme": "layout2" },
-                { "title": "Down + Ken Burns", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Fade in + Ken Burns 1 data
-        this.getDataForLayout1 = function () {
-            return {
-                "duration": 10000,
-                "backgroundImage": "assets/images/background/29.jpg",
-                "logo": "assets/images/logo/login.png",
-                "title": ""
-            };
-        };
-        //Down + fade in + Ken Burns data
-        this.getDataForLayout2 = function () {
-            return {
-                "duration": 10000,
-                "backgroundImage": "assets/images/background/29.jpg",
-                "logo": "assets/images/logo/login.png",
-                "title": ""
-            };
-        };
-        //Down + Ken Burns data
-        this.getDataForLayout3 = function () {
-            return {
-                "duration": 10000,
-                "backgroundImage": "assets/images/background/29.jpg",
-                "logo": "assets/images/logo/login.png",
-                "title": "IONICTEMPLATE"
-            };
-        };
-        this.getEventsForTheme = function (menuItem, navCtrl) {
-            return {
-                "onRedirect": function () {
-                    navCtrl.pop();
-                }
-            };
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-        this.prepareParams = function (item, navCtrl) {
-            var result = {
-                title: item.title,
-                data: _this.getDataForTheme(item),
-                events: _this.getEventsForTheme(item, navCtrl)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-    }
-    SplashScreenService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        return new __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"](function (observer) {
-            that.loadingService.hide();
-            observer.next(_this.getDataForTheme(item));
-            observer.complete();
-        });
-    };
-    ;
-    SplashScreenService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__loading_service__["a" /* LoadingService */]])
-    ], SplashScreenService);
-    return SplashScreenService;
-}());
-
-//# sourceMappingURL=splash-screen-service.js.map
-
-/***/ }),
-
-/***/ 1311:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchBarService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var SearchBarService = (function () {
-    function SearchBarService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'searchBars'; };
-        this.getTitle = function () { return 'Search bars'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Simple", "theme": "layout1" },
-                { "title": "Field + header", "theme": "layout2" },
-                { "title": "Field + header 2", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        // Simple data
-        this.getDataForLayout1 = function () {
-            return {
-                "items": [
-                    {
-                        "title": "Friends",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Enemies",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Neutral",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Family",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Guests",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Students",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Friends",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Enemies",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Neutral",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Family",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Guests",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    },
-                    {
-                        "title": "Students",
-                        "description": "254 people",
-                        "icon": "icon-account-check"
-                    }
-                ]
-            };
-        };
-        //Field + header data
-        this.getDataForLayout2 = function () {
-            return {
-                "headerImage": "assets/images/background/30.jpg",
-                "searchText": "Search by",
-                "items": [
-                    {
-                        "title": "Song",
-                        "icon": "icon-music-box"
-                    },
-                    {
-                        "title": "Album",
-                        "icon": "icon-headset"
-                    },
-                    {
-                        "title": "Artist",
-                        "icon": "icon-human-child"
-                    },
-                    {
-                        "title": "Genre",
-                        "icon": "icon-menu"
-                    },
-                    {
-                        "title": "Song",
-                        "icon": "icon-music-box"
-                    },
-                    {
-                        "title": "Album",
-                        "icon": "icon-headset"
-                    },
-                    {
-                        "title": "Artist",
-                        "icon": "icon-human-child"
-                    },
-                    {
-                        "title": "Genre",
-                        "icon": "icon-menu"
-                    },
-                    {
-                        "title": "Album",
-                        "icon": "icon-headset"
-                    }
-                ]
-            };
-        };
-        //Field + header 2 data
-        this.getDataForLayout3 = function () {
-            return {
-                "headerImage": "assets/images/background/9.jpg",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Monument walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 2,
-                        "title": "River walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 3,
-                        "title": "City walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Park walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Vilage walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Lake walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Castle walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Beach walk tour",
-                        "description": "3:30min walking tour",
-                        "price": "123$",
-                        "icon": "icon-map-marker-radius"
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onTextChange': function (text) {
-                    that.toastCtrl.presentToast(text);
-                },
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(JSON.stringify(item));
-                }
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    SearchBarService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('searchBars/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    SearchBarService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], SearchBarService);
-    return SearchBarService;
-}());
-
-//# sourceMappingURL=search-bar-service.js.map
-
-/***/ }),
-
-/***/ 1312:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var WizardService = (function () {
-    function WizardService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'wizard'; };
-        this.getTitle = function () { return 'Wizard'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Simple + icon", "theme": "layout1" },
-                { "title": "Big image", "theme": "layout2" },
-                { "title": "Big Image + Text", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Simple + icon data
-        this.getDataForLayout1 = function () {
-            return {
-                "btnPrev": "Previous",
-                "btnNext": "Next",
-                "btnFinish": "Finish",
-                "items": [
-                    {
-                        "logo": "",
-                        "iconSlider": "icon-star-outline",
-                        "title": "Fragment Example 1",
-                        "description": "Text for Fragment Example 1 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "buttonNext": "Next"
-                    },
-                    {
-                        "logo": "",
-                        "iconSlider": "icon-star-half",
-                        "title": "Fragment Example 2",
-                        "description": "Text for Fragment Example 2 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "buttonNext": "Next",
-                        "buttonPrevious": "Previous"
-                    },
-                    {
-                        "logo": "",
-                        "iconSlider": "icon-star",
-                        "title": "Fragment Example 3",
-                        "description": "Text for Fragment Example 3 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "buttonPrevious": "Previous",
-                        "buttonFinish": "Finish"
-                    }
-                ]
-            };
-        };
-        //Big image data
-        this.getDataForLayout2 = function () {
-            return {
-                "btnNext": "Next",
-                "btnFinish": "Finish",
-                "items": [
-                    {
-                        "backgroundImage": "assets/images/avatar-large/1.jpg",
-                        "title": "Fragment Example 1"
-                    },
-                    {
-                        "backgroundImage": "assets/images/avatar-large/2.jpg",
-                        "title": "Fragment Example 2"
-                    },
-                    {
-                        "backgroundImage": "assets/images/avatar-large/3.jpg",
-                        "title": "Fragment Example 3"
-                    }
-                ]
-            };
-        };
-        //Big Image + Text data
-        this.getDataForLayout3 = function () {
-            return {
-                "btnNext": "Next",
-                "btnFinish": "Finish",
-                "btnSkip": "Skip",
-                "items": [
-                    {
-                        "backgroundImage": "assets/images/avatar-large/5.jpg",
-                        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 1",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-                        "button": "Next",
-                        "skip": "Skip"
-                    },
-                    {
-                        "backgroundImage": "assets/images/avatar-large/6.jpg",
-                        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 2",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-                        "button": "Next",
-                        "skip": "Skip"
-                    },
-                    {
-                        "backgroundImage": "assets/images/avatar-large/7.jpg",
-                        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 3",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-                        "button": "Finish",
-                        "skip": "Skip"
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onFinish': function (event) {
-                    that.toastCtrl.presentToast('Finish');
-                }
-            };
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-    }
-    WizardService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('wizard/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    WizardService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], WizardService);
-    return WizardService;
-}());
-
-//# sourceMappingURL=wizard-service.js.map
-
-/***/ }),
-
-/***/ 1313:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var LoginService = (function () {
-    function LoginService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'login'; };
-        this.getTitle = function () { return 'Login pages'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Login + logo 1", "theme": "layout1" },
-                { "title": "Login + logo 2", "theme": "layout2" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        // login + logo 1 data
-        this.getDataForLayout1 = function () {
-            return {
-                "username": "Username",
-                "password": "Password",
-                "register": "Register",
-                "login": "Login",
-                "skip": "Skip",
-                "logo": "assets/images/logo/login.png"
-            };
-        };
-        //Login + logo 2 data
-        this.getDataForLayout2 = function () {
-            return {
-                "username": "Username",
-                "password": "Password",
-                "register": "Register",
-                "login": "Login",
-                "skip": "Skip",
-                "logo": "assets/images/logo/login.png"
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                onLogin: function (params) {
-                    that.toastCtrl.presentToast('onLogin:' + JSON.stringify(params));
-                },
-                onRegister: function (params) {
-                    that.toastCtrl.presentToast('onRegister:' + JSON.stringify(params));
-                },
-                onSkip: function (params) {
-                    that.toastCtrl.presentToast('onSkip:' + JSON.stringify(params));
-                },
-                onFacebook: function (params) {
-                    that.toastCtrl.presentToast('onFacebook:' + JSON.stringify(params));
-                },
-                onTwitter: function (params) {
-                    that.toastCtrl.presentToast('onTwitter:' + JSON.stringify(params));
-                },
-                onGoogle: function (params) {
-                    that.toastCtrl.presentToast('onGoogle:' + JSON.stringify(params));
-                },
-                onPinterest: function (params) {
-                    that.toastCtrl.presentToast('onPinterest:' + JSON.stringify(params));
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: {},
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    LoginService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('login/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    LoginService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], LoginService);
-    return LoginService;
-}());
-
-//# sourceMappingURL=login-service.js.map
-
-/***/ }),
-
-/***/ 1314:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var RegisterService = (function () {
-    function RegisterService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'register'; };
-        this.getTitle = function () { return 'Register pages'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Register + logo", "theme": "layout1" },
-                { "title": "Register + image", "theme": "layout2" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Register + logo data
-        this.getDataForLayout1 = function () {
-            return {
-                "logo": "assets/images/logo/login.png",
-                "register": "Register",
-                "username": "Username",
-                "city": "City",
-                "country": "Country",
-                "password": "Password",
-                "email": "Email",
-                "button": "submit",
-                "skip": "Skip"
-            };
-        };
-        //Register + image data
-        this.getDataForLayout2 = function () {
-            return {
-                "logo": "assets/images/logo/login-2.png",
-                "iconAccount": "icon-account",
-                "username": "Username",
-                "iconHome": "icon-home-variant",
-                "iconCity": "icon-city",
-                "city": "City",
-                "iconWeb": "icon-web",
-                "country": "Country",
-                "iconLock": "icon-lock",
-                "password": "Password",
-                "iconEmail": "icon-email-outline",
-                "email": "Email",
-                "submit": "submit",
-                "skip": "Skip"
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                onRegister: function (params) {
-                    that.toastCtrl.presentToast('onRegister:' + JSON.stringify(params));
-                },
-                onSkip: function (params) {
-                    that.toastCtrl.presentToast('onSkip:' + JSON.stringify(params));
-                }
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: {},
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    RegisterService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('register/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    RegisterService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], RegisterService);
-    return RegisterService;
-}());
-
-//# sourceMappingURL=register-service.js.map
-
-/***/ }),
-
-/***/ 1315:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewService; });
-var ListViewService = (function () {
-    function ListViewService() {
-        var _this = this;
-        this.getId = function () { return 'listViews'; };
-        this.getTitle = function () { return 'List views'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Expandable", "theme": "expandable", "listView": true },
-                { "title": "Drag&Drop", "theme": "dragAndDrop", "listView": true },
-                { "title": "Swipe-to-dismiss", "theme": "swipeToDismiss", "listView": true },
-                { "title": "Appearance animations", "theme": "appearanceAnimation", "listView": true },
-                { "title": "Google Cards", "theme": "googleCards", "listView": true },
-                { "title": "Sticky List Header", "theme": "stickyListHeader", "listView": true },
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return [];
-        };
-        this.getEventsForTheme = function (menuItem) {
-            return {};
-        };
-        this.prepareParams = function (item) {
-            return {
-                title: item.title,
-                data: _this.getDataForTheme(item),
-                events: _this.getEventsForTheme(item)
-            };
-        };
-    }
-    ListViewService.prototype.load = function (url) {
-        return null;
-    };
-    ;
-    return ListViewService;
-}());
-
-//# sourceMappingURL=list-view-service.js.map
-
-/***/ }),
-
-/***/ 1316:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewExpandableService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewExpandableService = (function () {
-    function ListViewExpandableService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'expandable'; };
-        this.getTitle = function () { return 'Expandable'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "List big image", "theme": "layout1" },
-                { "title": "Full image with CTA", "theme": "layout2" },
-                { "title": "Centered with header", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        // List big image data
-        this.getDataForLayout1 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Benton Willis",
-                        "description": "SINGER",
-                        "image": "assets/images/avatar/15.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Smokestack Lightning",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/10.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Boogie Chillen’",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/11.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Call It Stormy Mondaye",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/12.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "I’m Tore Down",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/13.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Jessica Miles",
-                        "description": "BASSO",
-                        "image": "assets/images/avatar/2.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Bell Bottom Blues",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Still Got The Blues",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/15.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Mustang Sally",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Ball N’ Chain",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/13.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "title": "Holman Valencia",
-                        "description": "GUITARIST",
-                        "image": "assets/images/avatar/3.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Dust My Broom",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/11.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Hold On, I’m Coming",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/12.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "The Little Red Rooster",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/13.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Bright Lights",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "title": "Natasha Gambl",
-                        "description": "SINGER",
-                        "image": "assets/images/avatar/4.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Got My Mojo Working",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/0.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "A Little Less Conversation",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/1.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Life By The Drop",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/2.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Boom Boom",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/3.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "title": "Carol Kelly",
-                        "description": "DRUMMER",
-                        "image": "assets/images/avatar/5.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Thing Called Love",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Green Onions",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/15.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "The Midnight Special",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/6.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Mess Around",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/7.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 6,
-                        "title": "Mildred Clark",
-                        "description": "DRUMMER",
-                        "image": "assets/images/avatar/3.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Little Wing",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Bad Penny",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/15.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Farther on Up the Road",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/6.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Mannish Boy",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/7.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "title": "Megan Singleton",
-                        "description": "DRUMMER",
-                        "image": "assets/images/avatar/4.jpg",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trouble No More",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/14.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Hellhound On My Trail",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/15.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Help Me",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/6.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            },
-                            {
-                                "id": 4,
-                                "title": "A Man Of Many Words",
-                                "description": "Universal, 2016",
-                                "image": "assets/images/avatar/7.jpg",
-                                "iconPlay": "icon-play-circle-outline"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        // Full image with CTA
-        this.getDataForLayout2 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Rubus idaeus Pi",
-                        "backgroundImage": "assets/images/background/22.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Nidum Thermostat",
-                        "backgroundImage": "assets/images/background/23.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "title": "Baculum Magicum",
-                        "backgroundImage": "assets/images/background/24.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "title": "Commodore LXIV",
-                        "backgroundImage": "assets/images/background/25.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "title": "Palm Nauclerus",
-                        "backgroundImage": "assets/images/background/26.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 6,
-                        "title": "Optio Fridericus Hultsch Box",
-                        "backgroundImage": "assets/images/background/27.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "title": "Oculi Odium",
-                        "backgroundImage": "assets/images/background/28.jpg",
-                        "button": "BUY",
-                        "items": [
-                            "PAY WITH PAYPAL",
-                            "PAY WITH VISA CARD",
-                            "PAY WITH MAESTRO CARD"
-                        ]
-                    }
-                ]
-            };
-        };
-        // Centered with header
-        this.getDataForLayout3 = function () {
-            return {
-                "title": "New York",
-                "headerImage": "assets/images/background-small/7.jpg",
-                "items": [
-                    {
-                        "title": "Where to go",
-                        "icon": "icon-map-marker-radius",
-                        "items": [
-                            "Monuments",
-                            "Sightseeing",
-                            "Historical",
-                            "Sport"
-                        ]
-                    },
-                    {
-                        "title": "Where to sleep",
-                        "icon": "icon-hotel",
-                        "items": [
-                            "Hotels",
-                            "Hostels",
-                            "Motels",
-                            "Rooms"
-                        ]
-                    },
-                    {
-                        "title": "Where to eat",
-                        "icon": "icon-silverware-variant",
-                        "items": [
-                            "Fast Food",
-                            "Restorants",
-                            "Pubs",
-                            "Hotels"
-                        ]
-                    },
-                    {
-                        "title": "Where to drink",
-                        "icon": "icon-martini",
-                        "items": [
-                            "Caffes",
-                            "Bars",
-                            "Pubs",
-                            "Clubs"
-                        ]
-                    },
-                    {
-                        "title": "Where to go",
-                        "icon": "icon-map-marker-radius",
-                        "items": [
-                            "Monuments",
-                            "Sightseeing",
-                            "Historical",
-                            "Sport"
-                        ]
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-                'onFavorite': function (item) {
-                    that.toastCtrl.presentToast("Favorite");
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewExpandableService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.toastCtrl.presentToast(item.theme);
-                _this.af
-                    .object('listView/expandable/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ListViewExpandableService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewExpandableService);
-    return ListViewExpandableService;
-}());
-
-//# sourceMappingURL=list-view-expandable-service.js.map
-
-/***/ }),
-
-/***/ 1317:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewDragAndDropService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewDragAndDropService = (function () {
-    function ListViewDragAndDropService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'dragAndDrop'; };
-        this.getTitle = function () { return 'Drag and Drop'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Small item + header", "theme": "layout1" },
-                { "title": "Products + CTA header", "theme": "layout2" },
-                { "title": "Medium item with avatar", "theme": "layout3" },
-                { "title": "Medium item with image", "theme": "layout4" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Small item + header data
-        this.getDataForLayout1 = function () {
-            return {
-                "title": "Playlist Name",
-                "description": "Author: Username",
-                "duration": "35:72",
-                "icon": "icon-check",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Hoochie Coochie Man",
-                        "author": "Author: Muddy Waters",
-                        "image": "assets/images/avatar/0.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 2,
-                        "title": "The Thrill is Gone",
-                        "author": "Author: B.B. King",
-                        "image": "assets/images/avatar/1.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Me And The Devil Blues",
-                        "author": "Author: Robert Johnson",
-                        "image": "assets/images/avatar/2.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Stone Crazy",
-                        "author": "Author: Buddy Guy",
-                        "image": "assets/images/avatar/3.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 5,
-                        "title": "I’d Rather Go Blind",
-                        "author": "Author: Etta James",
-                        "image": "assets/images/avatar/4.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 6,
-                        "title": "I’m Tore Down",
-                        "author": "Author: Freddie King",
-                        "image": "assets/images/avatar/5.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Call It Stormy Monday",
-                        "author": "Author: T-Bone Walker",
-                        "image": "assets/images/avatar/6.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Smokestack Lightning",
-                        "author": "Author: Howlin’ Wolf",
-                        "image": "assets/images/avatar/0.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Bell Bottom Blues",
-                        "author": "Author: Derek and the Dominoes",
-                        "image": "assets/images/avatar/1.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 10,
-                        "title": "Still Got The Blues",
-                        "author": "Author: Gary Moore",
-                        "image": "assets/images/avatar/2.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 11,
-                        "title": "Mustang Sally",
-                        "author": "Author: Wilson Pickett",
-                        "image": "assets/images/avatar/3.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 12,
-                        "title": "Ball N’ Chain",
-                        "author": "Author: Big Mama Thornton",
-                        "image": "assets/images/avatar/4.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 13,
-                        "title": "Dust My Broom",
-                        "author": "Author: Elmore James",
-                        "image": "assets/images/avatar/5.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 14,
-                        "title": "Hold On, I’m Coming",
-                        "author": "Author: Eric Clapton",
-                        "image": "assets/images/avatar/6.jpg",
-                        "leftIcon": "icon-play-circle",
-                        "rightIcon": "icon-unfold-more"
-                    }
-                ]
-            };
-        };
-        //Products + CTA header data
-        this.getDataForLayout2 = function () {
-            return {
-                "title": "Order No. 1",
-                "description": "Will be shipped: 15.5.2016.",
-                "buttonText": "PROCEED",
-                "headerImage": "assets/images/background/22.jpg",
-                "price": "$42.99",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Black Shirt",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/17.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Black Sweater",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/18.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Shirt",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/19.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 4,
-                        "title": "White Shirt",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/20.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 5,
-                        "title": "White T shirt",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/21.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 6,
-                        "title": "T shirt",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/22.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Hoodies",
-                        "seller": "Seller Name",
-                        "image": "assets/images/avatar/23.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "rightIcon": "icon-unfold-more"
-                    }
-                ]
-            };
-        };
-        //Medium item with avatar data
-        this.getDataForLayout3 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Isaac Reid",
-                        "description": "from Las Vegas",
-                        "image": "assets/images/avatar/0.jpg"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Jason Graham",
-                        "description": "from Brogan",
-                        "image": "assets/images/avatar/1.jpg"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Abigail Ross",
-                        "description": "from Bannock",
-                        "image": "assets/images/avatar/2.jpg"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Justin Rutherford",
-                        "description": "from Madrid",
-                        "image": "assets/images/avatar/3.jpg"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Nicholas Henderson",
-                        "description": "from Bridgetown",
-                        "image": "assets/images/avatar/4.jpg"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Elizabeth Mackenzie",
-                        "description": "from Nipinnawasee",
-                        "image": "assets/images/avatar/5.jpg"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Melanie Ferguson",
-                        "description": "from Dixonville",
-                        "image": "assets/images/avatar/6.jpg"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Fiona Kelly",
-                        "description": "from Orovada",
-                        "image": "assets/images/avatar/7.jpg"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Nicholas King",
-                        "description": "from Interlochen",
-                        "image": "assets/images/avatar/8.jpg"
-                    },
-                    {
-                        "id": 10,
-                        "title": "Victoria Mitchell",
-                        "description": "from Sanders",
-                        "image": "assets/images/avatar/9.jpg"
-                    },
-                    {
-                        "id": 11,
-                        "title": "Sophie Lyman",
-                        "description": "from Boonville",
-                        "image": "assets/images/avatar/10.jpg"
-                    },
-                    {
-                        "id": 12,
-                        "title": "Carl Ince",
-                        "description": "from Wattsville",
-                        "image": "assets/images/avatar/11.jpg"
-                    },
-                    {
-                        "id": 13,
-                        "title": "Michelle Slater",
-                        "description": "from Harrison",
-                        "image": "assets/images/avatar/12.jpg"
-                    },
-                    {
-                        "id": 14,
-                        "title": "Ryan Mathis",
-                        "description": "from Montura",
-                        "image": "assets/images/avatar/13.jpg"
-                    },
-                    {
-                        "id": 15,
-                        "title": "Julia Grant",
-                        "description": "from Onton",
-                        "image": "assets/images/avatar/14.jpg"
-                    },
-                    {
-                        "id": 16,
-                        "title": "Hannah Martin",
-                        "description": "from Emison",
-                        "image": "assets/images/avatar/15.jpg"
-                    }
-                ]
-            };
-        };
-        // Medium item with image data
-        this.getDataForLayout4 = function () {
-            return {
-                "items": [
-                    {
-                        id: 1,
-                        title: 'Monument walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '4.1',
-                        image: 'assets/images/background-small/16.jpg'
-                    },
-                    {
-                        id: 2,
-                        title: 'Park walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '4.4',
-                        image: 'assets/images/background-small/17.jpg'
-                    },
-                    {
-                        id: 3,
-                        title: 'River walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '3.6',
-                        image: 'assets/images/background-small/18.jpg'
-                    },
-                    {
-                        id: 4,
-                        title: 'City walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '4.2',
-                        image: 'assets/images/background-small/19.jpg'
-                    },
-                    {
-                        id: 5,
-                        title: 'Lake walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '3.5',
-                        image: 'assets/images/background-small/20.jpg'
-                    },
-                    {
-                        id: 6,
-                        title: 'Vilage walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '4.5',
-                        image: 'assets/images/background-small/21.jpg'
-                    },
-                    {
-                        id: 7,
-                        title: 'Castle walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '4.7',
-                        image: 'assets/images/background-small/22.jpg'
-                    },
-                    {
-                        id: 8,
-                        title: 'Beach walk tour',
-                        description: '23min walk from center',
-                        icon: 'star',
-                        mark: '3.1',
-                        image: 'assets/images/background-small/23.jpg'
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onProceed': function (item) {
-                    that.toastCtrl.presentToast("Proceed");
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewDragAndDropService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('listView/dragAndDrop/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    ListViewDragAndDropService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewDragAndDropService);
-    return ListViewDragAndDropService;
-}());
-
-//# sourceMappingURL=list-view-drag-and-drop-service.js.map
-
-/***/ }),
-
-/***/ 1318:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewSwipeToDismissService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewSwipeToDismissService = (function () {
-    function ListViewSwipeToDismissService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'swipeToDismiss'; };
-        this.getTitle = function () { return 'Swipe to dismiss'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Small item + header", "theme": "layout1" },
-                { "title": "Products + CTA", "theme": "layout2" },
-                { "title": "Full width image", "theme": "layout3" },
-                { "title": "Large item with text", "theme": "layout4" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Small item + header data
-        this.getDataForLayout1 = function () {
-            return {
-                "title": "HeaderTitle",
-                "description": "HeaderSubtitle",
-                "shortDescription": "35:72",
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-heart",
-                "iconShare": "icon-share-variant",
-                "iconPlay": "icon-play-circle-outline",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Hoochie Coochie Man",
-                        "description": "Muddy Waters",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/0.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Six Strings Down",
-                        "description": "Jimmie Vaughn",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/1.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Cherry Red Wine",
-                        "description": "Luther Allison",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/2.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Blue and Lonesome",
-                        "description": "Rolling Stones",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/3.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 5,
-                        "title": "The Sky is Crying",
-                        "description": "Stevie Ray Vaughan",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/4.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Everybody Needs Somebody To Love",
-                        "description": "Solomon Burke",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/5.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Walking by Myself",
-                        "description": "Jimmy Rogers",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/6.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Sinner’s Prayer",
-                        "description": "Ray Charles",
-                        "shortDescription": "3:42",
-                        "image": "assets/images/avatar/7.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    }
-                ]
-            };
-        };
-        //Products + CTA data
-        this.getDataForLayout2 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Black Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/17.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Black Sweater",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/18.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 3,
-                        "title": "White Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/19.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/20.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 5,
-                        "title": "T Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/21.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 6,
-                        "title": "White T Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/22.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Hoodies",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/23.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Shirt",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/17.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Sweater",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "image": "assets/images/avatar/18.jpg",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    }
-                ]
-            };
-        };
-        //Full width image data
-        this.getDataForLayout3 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Weedville",
-                        "description": "Northern Mariana Islands",
-                        "image": "assets/images/background-small/7.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Curtice",
-                        "description": "Nauru",
-                        "image": "assets/images/background-small/9.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Norvelt",
-                        "description": "Indonesia",
-                        "image": "assets/images/background-small/10.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Vincent",
-                        "description": "Antarctica",
-                        "image": "assets/images/background-small/11.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Fairacres",
-                        "description": "Colombia",
-                        "image": "assets/images/background-small/12.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Greenwich",
-                        "description": "Tajikistan",
-                        "image": "assets/images/background-small/13.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Ryderwood",
-                        "description": "Sao Tome and Principe",
-                        "image": "assets/images/background-small/14.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Lithium",
-                        "description": "Puerto Rico",
-                        "image": "assets/images/background-small/15.jpg",
-                        "iconDelate": "icon-delete",
-                        "iconUndo": "icon-undo-variant"
-                    }
-                ]
-            };
-        };
-        // Large item with text data
-        this.getDataForLayout4 = function () {
-            return {
-                "items": [
-                    {
-                        id: 1,
-                        title: '@Monument walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/3.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 2,
-                        title: '@River walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/4.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 3,
-                        title: '@City walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/5.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 4,
-                        title: '@Park walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/6.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 5,
-                        title: '@Vilage walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/7.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 6,
-                        title: '@Lake walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/8.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 7,
-                        title: '@Castle walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/9.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    },
-                    {
-                        id: 8,
-                        title: '@Beach walk tour',
-                        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                        iconDelate: "icon-delete",
-                        image: 'assets/images/avatar/10.jpg',
-                        iconUndo: 'icon-undo-variant'
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-                'onFavorite': function (item) {
-                    that.toastCtrl.presentToast("Favorite");
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewSwipeToDismissService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('listView/swipeToDismiss/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ListViewSwipeToDismissService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewSwipeToDismissService);
-    return ListViewSwipeToDismissService;
-}());
-
-//# sourceMappingURL=list-view-swipe-to-dismiss-service.js.map
-
-/***/ }),
-
-/***/ 1319:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewAppearanceAnimationService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewAppearanceAnimationService = (function () {
-    function ListViewAppearanceAnimationService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'appearanceAnimations'; };
-        this.getTitle = function () { return 'Appearance animations'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Fade in left", "theme": "layout1" },
-                { "title": "Fade in right", "theme": "layout2" },
-                { "title": "Fade in down", "theme": "layout3" },
-                { "title": "Fade in", "theme": "layout4" },
-                { "title": "Zoom in", "theme": "layout5" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Isaac Raid",
-                        "image": "assets/images/avatar/0.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 2,
-                        "title": "Jason Graham",
-                        "image": "assets/images/avatar/1.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 3,
-                        "title": "Abigail Ross",
-                        "image": "assets/images/avatar/2.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 4,
-                        "title": "Justin Rutherford",
-                        "image": "assets/images/avatar/3.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 5,
-                        "title": "Nicholas Henderson",
-                        "image": "assets/images/avatar/4.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 6,
-                        "title": "Elizabeth Mackenzie",
-                        "image": "assets/images/avatar/5.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 7,
-                        "title": "Melanie Ferguson",
-                        "image": "assets/images/avatar/6.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 8,
-                        "title": "Fiona Kelly",
-                        "image": "assets/images/avatar/7.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 9,
-                        "title": "Nicholas King",
-                        "image": "assets/images/avatar/8.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 10,
-                        "title": "Victoria Mitchell",
-                        "image": "assets/images/avatar/9.jpg",
-                        "favorite": true
-                    },
-                    {
-                        "id": 11,
-                        "title": "Sophie Lyman",
-                        "image": "assets/images/avatar/10.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 12,
-                        "title": "Carl Ince",
-                        "image": "assets/images/avatar/11.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 13,
-                        "title": "Michelle Slater",
-                        "image": "assets/images/avatar/12.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 14,
-                        "title": "Ryan Mathis",
-                        "image": "assets/images/avatar/13.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 15,
-                        "title": "Julia Grant",
-                        "image": "assets/images/avatar/14.jpg",
-                        "favorite": false
-                    },
-                    {
-                        "id": 16,
-                        "title": "Hannah Martin",
-                        "image": "assets/images/avatar/15.jpg",
-                        "favorite": false
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onFavorite': function (item) {
-                    item.favorite = !item.favorite;
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewAppearanceAnimationService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('listView/appearanceAnimations/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ListViewAppearanceAnimationService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewAppearanceAnimationService);
-    return ListViewAppearanceAnimationService;
-}());
-
-//# sourceMappingURL=list-view-appearance-animation-service.js.map
-
-/***/ }),
-
-/***/ 1320:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewGoogleCardsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewGoogleCardsService = (function () {
-    function ListViewGoogleCardsService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'googleCards'; };
-        this.getTitle = function () { return 'Google Cards'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Styled cards", "theme": "layout1" },
-                { "title": "Styled cards 2", "theme": "layout2" },
-                { "title": "Full image cards", "theme": "layout3" },
-                { "title": "Post card", "theme": "layout4" }
-            ];
-        };
-        //Styled cards data
-        this.getDataForLayout1 = function () {
-            return {
-                "title": "PlaylistName",
-                "description": "Author:Username",
-                "duration": "35:72",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Guerrero Woodard",
-                        "image": "assets/images/avatar-small/0.jpg",
-                        "description": "Birth year: 1984",
-                        "shortDescription": "Country: Germany",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Fitzgerald Stanton",
-                        "image": "assets/images/avatar-small/1.jpg",
-                        "description": "Birth year: 1970",
-                        "shortDescription": "Country: Belgium",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Jessica Miles",
-                        "image": "assets/images/avatar-small/2.jpg",
-                        "description": "Birth year: 1982",
-                        "shortDescription": "Country: Netherlands Antilles",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Duran Clayton",
-                        "image": "assets/images/avatar-small/3.jpg",
-                        "description": "Birth year: 1986",
-                        "shortDescription": "Country: Russian Federation",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Julia Petersen",
-                        "image": "assets/images/avatar-small/4.jpg",
-                        "description": "Birth year: 1984",
-                        "shortDescription": "Country: Czech Republic",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Natasha Gamble",
-                        "image": "assets/images/avatar-small/5.jpg",
-                        "description": "Birth year: 1981",
-                        "shortDescription": "Country: United Kingdom",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Parsons Mcfadden",
-                        "image": "assets/images/avatar-small/6.jpg",
-                        "description": "Birth year: 1985",
-                        "shortDescription": "Country: Ireland",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Compton Dejesus",
-                        "image": "assets/images/avatar-small/7.jpg",
-                        "description": "Birth year: 1987",
-                        "shortDescription": "Country: Swaziland",
-                        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-                        "iconLike": "icon-thumb-up",
-                        "iconFavorite": "icon-heart",
-                        "iconShare": "icon-share-variant"
-                    }
-                ]
-            };
-        };
-        //Styled cards 2 data
-        this.getDataForLayout2 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Fortuitu ad aeroportus",
-                        "titleHeader": "Simul quanta praecinctionis",
-                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        "image": "assets/images/background/1.jpg",
-                        "button": "EXPLORE",
-                        "shareButton": "SHARE"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Hoc est exortum",
-                        "titleHeader": "Pedestres sub imprudentia contentum",
-                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        "image": "assets/images/background/2.jpg",
-                        "button": "EXPLORE",
-                        "shareButton": "SHARE"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Communications moderatoris",
-                        "titleHeader": "Technica et Internet habeat facultatem",
-                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        "image": "assets/images/background/5.jpg",
-                        "button": "EXPLORE",
-                        "shareButton": "SHARE"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Tabulas scripto munus agere providere",
-                        "titleHeader": "Ut adeptus est atrium",
-                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        "image": "assets/images/background/3.jpg",
-                        "button": "EXPLORE",
-                        "shareButton": "SHARE"
-                    },
-                    {
-                        "id": 5,
-                        "title": "In outpatient nuntiatum ministerium",
-                        "titleHeader": "Testis unus",
-                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        "image": "assets/images/background/1.jpg",
-                        "button": "EXPLORE",
-                        "shareButton": "SHARE"
-                    }
-                ]
-            };
-        };
-        //Full image cards data
-        this.getDataForLayout3 = function () {
-            return {
-                "refreshMessage": "Pull to refresh...",
-                "items": [
-                    {
-                        "id": 1,
-                        "image": "assets/images/background/0.jpg",
-                        "title": "Denique sexta",
-                        "subtitle": "Pilae per"
-                    },
-                    {
-                        "id": 2,
-                        "image": "assets/images/background/9.jpg",
-                        "title": "Iura sem",
-                        "subtitle": "Incredibilem pecuniae"
-                    },
-                    {
-                        "id": 3,
-                        "image": "assets/images/background/8.jpg",
-                        "title": "Partim players",
-                        "subtitle": "Minimum pretium"
-                    },
-                    {
-                        "id": 4,
-                        "image": "assets/images/background/10.jpg",
-                        "title": "Prope unstoppable",
-                        "subtitle": "Bonum defensus"
-                    },
-                    {
-                        "id": 5,
-                        "image": "assets/images/background/13.jpg",
-                        "title": "Primum par ludere",
-                        "subtitle": "Et stadium contendas in Humsko"
-                    },
-                    {
-                        "id": 6,
-                        "image": "assets/images/background/11.jpg",
-                        "title": "Vestibulum non eleison",
-                        "subtitle": "Notissima"
-                    },
-                    {
-                        "id": 7,
-                        "image": "assets/images/background/12.jpg",
-                        "title": "Optimum natus",
-                        "subtitle": "Non saltem racemum reliquissent"
-                    },
-                    {
-                        "id": 8,
-                        "image": "assets/images/background/0.jpg",
-                        "title": "Quod magnum firmamentum",
-                        "subtitle": "Ingens tailwind"
-                    }
-                ]
-            };
-        };
-        // Post card data
-        this.getDataForLayout4 = function () {
-            return [
-                {
-                    id: 1,
-                    title: 'Jessica Miles',
-                    avatar: 'assets/images/avatar/2.jpg',
-                    image: 'assets/images/background/1.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 2,
-                    title: 'Holman Valencia',
-                    avatar: 'assets/images/avatar/0.jpg',
-                    image: 'assets/images/background/2.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 3,
-                    title: 'Gayle Gaines',
-                    avatar: 'assets/images/avatar/1.jpg',
-                    image: 'assets/images/background/3.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 4,
-                    title: 'Josefa Gardner',
-                    avatar: 'assets/images/avatar/4.jpg',
-                    image: 'assets/images/background/4.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 5,
-                    title: 'Barbara Bernard',
-                    avatar: 'assets/images/avatar/5.jpg',
-                    image: 'assets/images/background/5.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 6,
-                    title: 'Valdez Bruce',
-                    avatar: 'assets/images/avatar/6.jpg',
-                    image: 'assets/images/background/6.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                },
-                {
-                    id: 7,
-                    title: 'Wilkerson Hardin',
-                    avatar: 'assets/images/avatar/7.jpg',
-                    image: 'assets/images/background/7.jpg',
-                    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-                    shortDescription: 'November 05, 1955',
-                    firstButton: 'LIKE',
-                    secondButton: 'SHARE'
-                }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onExplore': function (item) {
-                    that.toastCtrl.presentToast("Explore");
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-                'onFavorite': function (item) {
-                    that.toastCtrl.presentToast("Favorite");
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                theme: item.theme,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewGoogleCardsService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                debugger;
-                _this.af
-                    .object('listView/googleCards/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ListViewGoogleCardsService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewGoogleCardsService);
-    return ListViewGoogleCardsService;
-}());
-
-//# sourceMappingURL=list-view-google-card-service.js.map
-
-/***/ }),
-
-/***/ 1321:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListViewStickyListHeaderService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ListViewStickyListHeaderService = (function () {
-    function ListViewStickyListHeaderService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'stickyListHeader'; };
-        this.getTitle = function () { return 'Sticky List header'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Basic", "theme": "layout1" },
-                { "title": "Product", "theme": "layout2" },
-                { "title": "Post", "theme": "layout3" },
-                { "title": "Small header + large item", "theme": "layout4" }
-            ];
-        };
-        //Basic data
-        this.getDataForLayout1 = function () {
-            return {
-                "items": [
-                    {
-                        "groupName": "Jazz",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Dejesus Norris",
-                                "image": "assets/images/avatar/0.jpg",
-                                "price": "$58.99",
-                                "subtitle": "58 songs"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Gayle Gaines",
-                                "image": "assets/images/avatar/1.jpg",
-                                "price": "$16.99",
-                                "subtitle": "16 songs"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Prince Phelps",
-                                "image": "assets/images/avatar/7.jpg",
-                                "price": "$8.29",
-                                "subtitle": "92 songs"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Blues",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Keri Hudson",
-                                "image": "assets/images/avatar/0.jpg",
-                                "price": "$13.95",
-                                "subtitle": "93 songs"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Duran Clayton",
-                                "image": "assets/images/avatar/1.jpg",
-                                "price": "$3.89",
-                                "subtitle": "43 songs"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Schmidt English",
-                                "image": "assets/images/avatar/2.jpg",
-                                "price": "$45.06",
-                                "subtitle": "62 songs"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Lara Lynn",
-                                "image": "assets/images/avatar/3.jpg",
-                                "price": "$56.66",
-                                "subtitle": "81 songs"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Perry Bradley",
-                                "image": "assets/images/avatar/7.jpg",
-                                "price": "$6.78",
-                                "subtitle": "2 songs"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Rock and roll",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Randall Hurley",
-                                "image": "assets/images/avatar/0.jpg",
-                                "price": "$3.99",
-                                "subtitle": "4 songs"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Josefa Gardner",
-                                "image": "assets/images/avatar/1.jpg",
-                                "price": "$9.99",
-                                "subtitle": "51 songs"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Vega Hayes",
-                                "image": "assets/images/avatar/2.jpg",
-                                "price": "$7.99",
-                                "subtitle": "40 songs"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Burns Marks",
-                                "image": "assets/images/avatar/3.jpg",
-                                "price": "$45.99",
-                                "subtitle": "58 songs"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Byrd Hewitt",
-                                "image": "assets/images/avatar/7.jpg",
-                                "price": "$39.75",
-                                "subtitle": "55 songs"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "R&B",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Solis Mullen",
-                                "image": "assets/images/avatar/0.jpg",
-                                "price": "$34.59",
-                                "subtitle": "41 songs"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Lottie Stone",
-                                "image": "assets/images/avatar/1.jpg",
-                                "price": "$44.99",
-                                "subtitle": "48 songs"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Bates Dunn",
-                                "image": "assets/images/avatar/2.jpg",
-                                "price": "$89.45",
-                                "subtitle": "70 songs"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Benton Willis",
-                                "image": "assets/images/avatar/3.jpg",
-                                "price": "$3.10",
-                                "subtitle": "6 songs"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Country Song",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Barbara Bernard",
-                                "image": "assets/images/avatar/4.jpg",
-                                "price": "$7.99",
-                                "subtitle": "85 songs"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Megan Singleton",
-                                "image": "assets/images/avatar/5.jpg",
-                                "price": "$7.39",
-                                "subtitle": "59 songs"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Guy Mccoy",
-                                "image": "assets/images/avatar/6.jpg",
-                                "price": "$13.99",
-                                "subtitle": "24 songs"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Cline Lindsay",
-                                "image": "assets/images/avatar/7.jpg",
-                                "price": "$75.95",
-                                "subtitle": "40 songs"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        //  Product data
-        this.getDataForLayout2 = function () {
-            return {
-                "items": [
-                    {
-                        "groupName": "Shirts",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trendy White Shirt",
-                                "image1": "assets/images/background/19.jpg",
-                                "image2": "assets/images/background/15.jpg",
-                                "image3": "assets/images/background/16.jpg",
-                                "image4": "assets/images/background/17.jpg",
-                                "image5": "assets/images/background/18.jpg",
-                                "price": "$33.99",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Trendy Black Shirt",
-                                "image1": "assets/images/background/18.jpg",
-                                "image2": "assets/images/background/17.jpg",
-                                "image3": "assets/images/background/16.jpg",
-                                "image4": "assets/images/background/15.jpg",
-                                "image5": "assets/images/background/19.jpg",
-                                "price": "$28.17",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Shoes",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trendy White Shoes",
-                                "image1": "assets/images/background/16.jpg",
-                                "image2": "assets/images/background/18.jpg",
-                                "image3": "assets/images/background/19.jpg",
-                                "image4": "assets/images/background/15.jpg",
-                                "image5": "assets/images/background/17.jpg",
-                                "price": "$31.99",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Black Shoes",
-                                "image1": "assets/images/background/17.jpg",
-                                "image2": "assets/images/background/18.jpg",
-                                "image3": "assets/images/background/16.jpg",
-                                "image4": "assets/images/background/15.jpg",
-                                "image5": "assets/images/background/19.jpg",
-                                "price": "$25.69",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Trendy Shoes",
-                                "image1": "assets/images/background/16.jpg",
-                                "image2": "assets/images/background/17.jpg",
-                                "image3": "assets/images/background/18.jpg",
-                                "image4": "assets/images/background/19.jpg",
-                                "image5": "assets/images/background/15.jpg",
-                                "price": "$13.66",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Jacket",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trendy White Jacket",
-                                "image1": "assets/images/background/19.jpg",
-                                "image2": "assets/images/background/18.jpg",
-                                "image3": "assets/images/background/17.jpg",
-                                "image4": "assets/images/background/16.jpg",
-                                "image5": "assets/images/background/15.jpg",
-                                "price": "$17.89",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Trendy Black Jacket",
-                                "image1": "assets/images/background/15.jpg",
-                                "image2": "assets/images/background/16.jpg",
-                                "image3": "assets/images/background/17.jpg",
-                                "image4": "assets/images/background/18.jpg",
-                                "image5": "assets/images/background/19.jpg",
-                                "price": "$55.01",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Brown Jacket",
-                                "image1": "assets/images/background/16.jpg",
-                                "image2": "assets/images/background/17.jpg",
-                                "image3": "assets/images/background/18.jpg",
-                                "image4": "assets/images/background/19.jpg",
-                                "image5": "assets/images/background/15.jpg",
-                                "price": "$14.45",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "T-Shirt",
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trendy White T-Shirt",
-                                "image1": "assets/images/background/19.jpg",
-                                "image2": "assets/images/background/15.jpg",
-                                "image3": "assets/images/background/16.jpg",
-                                "image4": "assets/images/background/17.jpg",
-                                "image5": "assets/images/background/18.jpg",
-                                "price": "$17.99",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Black T-Shirt",
-                                "image1": "assets/images/background/18.jpg",
-                                "image2": "assets/images/background/17.jpg",
-                                "image3": "assets/images/background/16.jpg",
-                                "image4": "assets/images/background/15.jpg",
-                                "image5": "assets/images/background/19.jpg",
-                                "price": "$44.99",
-                                "buy": "buy",
-                                "subtitle": "Free shipping"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        //Post data
-        this.getDataForLayout3 = function () {
-            return {
-                "items": [
-                    {
-                        "groupName": "Yesterday",
-                        "dateTime": "January 19, 2017.",
-                        "items": [
-                            {
-                                "id": 1,
-                                "name": "Julia Petersen",
-                                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/1.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            },
-                            {
-                                "id": 2,
-                                "name": "Holman Valencia",
-                                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/2.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "Today",
-                        "dateTime": "June 26, 2017.",
-                        "items": [
-                            {
-                                "id": 1,
-                                "name": "Marisa Cain",
-                                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/3.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            },
-                            {
-                                "id": 2,
-                                "name": "Dejesus Norris",
-                                "title": "Lorem ipsum dolor sit amet.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/4.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            }
-                        ]
-                    },
-                    {
-                        "groupName": "tomorrow",
-                        "dateTime": "August 07, 2017.",
-                        "items": [
-                            {
-                                "id": 1,
-                                "name": "Gayle Gaines",
-                                "title": "Lorem ipsum dolor sit amet, consectetur.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/5.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            },
-                            {
-                                "id": 2,
-                                "name": "Prince Phelps",
-                                "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-                                "shareIcon": "more",
-                                "image": "assets/images/avatar/5.jpg",
-                                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        // Small header + large item data
-        this.getDataForLayout4 = function () {
-            return {
-                "items": [
-                    {
-                        title: 'Monday',
-                        description: '14.02.2018',
-                        icon: 'icon-calendar-today',
-                        items: [
-                            {
-                                id: '',
-                                title: 'Duran Clayton ',
-                                image: 'assets/images/avatar/0.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Schmidt English ',
-                                image: 'assets/images/avatar/1.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Lara Lynn ',
-                                image: 'assets/images/avatar/2.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Perry Bradley ',
-                                image: 'assets/images/avatar/3.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Randall Hurle ',
-                                image: 'assets/images/avatar/4.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'John Smit ',
-                                image: 'assets/images/avatar/5.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            }
-                        ]
-                    },
-                    {
-                        title: 'Tuesday',
-                        description: '25.01.2018',
-                        icon: 'icon-calendar-today',
-                        items: [
-                            {
-                                id: '',
-                                title: 'Josefa Gardner ',
-                                image: 'assets/images/avatar/0.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Vega Hayes ',
-                                image: 'assets/images/avatar/1.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Fitzgerald Stantont ',
-                                image: 'assets/images/avatar/2.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Burns Marks ',
-                                image: 'assets/images/avatar/3.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Byrd Hewitt ',
-                                image: 'assets/images/avatar/4.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Bates Dunnt ',
-                                image: 'assets/images/avatar/5.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            }
-                        ]
-                    },
-                    {
-                        title: 'Wednesday',
-                        description: '04.02.2018',
-                        icon: 'icon-calendar-today',
-                        items: [
-                            {
-                                id: '',
-                                title: 'Barbara Bernard ',
-                                image: 'assets/images/avatar/0.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Guy Mccoy ',
-                                image: 'assets/images/avatar/1.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Cline Lindsay ',
-                                image: 'assets/images/avatar/2.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Juliette Medina ',
-                                image: 'assets/images/avatar/3.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Mildred Clar ',
-                                image: 'assets/images/avatar/4.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            },
-                            {
-                                id: '',
-                                title: 'Valdez Bruce ',
-                                image: 'assets/images/avatar/5.jpg',
-                                iconLike: 'icon-thumb-up',
-                                iconBookmark: 'icon-bookmark',
-                                iconShare: 'icon-share-variant',
-                                description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also'
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item);
-                },
-                'onProceed': function (item) {
-                    that.toastCtrl.presentToast("onProceed");
-                },
-                'onBuy': function (item) {
-                    that.toastCtrl.presentToast("Buy");
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onBookmark': function (item) {
-                    that.toastCtrl.presentToast("Bookmark");
-                },
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ListViewStickyListHeaderService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('listView/stickyListHeader/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ListViewStickyListHeaderService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ListViewStickyListHeaderService);
-    return ListViewStickyListHeaderService;
-}());
-
-//# sourceMappingURL=list-view-sticky-list-header-service.js.map
-
-/***/ }),
-
-/***/ 1322:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParallaxService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ParallaxService = (function () {
-    function ParallaxService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'parallax'; };
-        this.getTitle = function () { return 'Parallax'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Player", "theme": "layout1" },
-                { "title": "Product", "theme": "layout2" },
-                { "title": "Basic", "theme": "layout3" },
-                { "title": "Location Details", "theme": "layout4" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Player data
-        this.getDataForLayout1 = function () {
-            return {
-                "headerImage": "assets/images/background/14.jpg",
-                "toolBarTitle": "Player",
-                "title": "ArtistName",
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-heart",
-                "iconShare": "icon-share-variant",
-                "iconSkipPrevious": "icon-skip-previous",
-                "iconPlay": "icon-play",
-                "iconSkipNext": "icon-skip-next",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Highway 49",
-                        "description": "George Thorogood",
-                        "image": "assets/images/avatar/0.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 2,
-                        "title": "A Man Of Many Words",
-                        "description": "Buddy Guy",
-                        "image": "assets/images/avatar/1.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Don’t Think Twice",
-                        "description": "Susan Tedeschi",
-                        "image": "assets/images/avatar/2.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Everyday I Have the Blues",
-                        "description": "B.B. King",
-                        "image": "assets/images/avatar/3.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Love Me Like a Man",
-                        "description": "Bonnie Raitt",
-                        "image": "assets/images/avatar/4.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Five Long Years",
-                        "description": "	Ike and Tina Turner",
-                        "image": "assets/images/avatar/5.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Sacred Ground",
-                        "description": "John Mooney",
-                        "image": "assets/images/avatar/6.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Sinner’s Prayer",
-                        "description": "Ray Charles",
-                        "image": "assets/images/avatar/7.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Statesboro Blues",
-                        "description": "Allman Brothers Band",
-                        "image": "assets/images/avatar/1.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 10,
-                        "title": "Walking by Myself",
-                        "description": "Jimmy Rogers",
-                        "image": "assets/images/avatar/2.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 11,
-                        "title": "Lovin’ In My Baby’s Eyes",
-                        "description": "Taj Mahal",
-                        "image": "assets/images/avatar/0.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    },
-                    {
-                        "id": 12,
-                        "title": "Think It Over",
-                        "description": "Dave Hole",
-                        "image": "assets/images/avatar/3.jpg",
-                        "imageAlt": "avatar",
-                        "icon": "icon-heart-outline",
-                        "duration": "3:42"
-                    }
-                ]
-            };
-        };
-        //Product data
-        this.getDataForLayout2 = function () {
-            return {
-                "headerImage": "assets/images/background/7.jpg",
-                "toolBarTitle": "Product",
-                "title": "Super discount",
-                "description": "50% OFF",
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-heart",
-                "iconShare": "icon-share-variant",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Black Shirt",
-                        "image": "assets/images/avatar/0.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Black Sweater",
-                        "image": "assets/images/avatar/1.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Shirt",
-                        "image": "assets/images/avatar/2.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 4,
-                        "title": "White Shirt",
-                        "image": "assets/images/avatar/3.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 5,
-                        "title": "White T Shirt",
-                        "image": "assets/images/avatar/4.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Hoodies",
-                        "image": "assets/images/avatar/5.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Black Shirt",
-                        "image": "assets/images/avatar/0.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Black Sweater",
-                        "image": "assets/images/avatar/1.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Shirt",
-                        "image": "assets/images/avatar/2.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 10,
-                        "title": "White Shirt",
-                        "image": "assets/images/avatar/3.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 11,
-                        "title": "White T Shirt",
-                        "image": "assets/images/avatar/4.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    },
-                    {
-                        "id": 12,
-                        "title": "Hoodies",
-                        "image": "assets/images/avatar/5.jpg",
-                        "description": "Duis aute irure dolor in reprehenderit",
-                        "oldPrice": "$42.99",
-                        "newPrice": "$35.99"
-                    }
-                ]
-            };
-        };
-        //Basic data
-        this.getDataForLayout3 = function () {
-            return {
-                "headerImage": "assets/images/background/2.jpg",
-                "avatar": "assets/images/avatar/0.jpg",
-                "title": "Parallax Title",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Isaac Raid",
-                        "image": "assets/images/avatar/0.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 2,
-                        "title": "Jason Graham",
-                        "image": "assets/images/avatar/1.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 3,
-                        "title": "Abigail Ross",
-                        "image": "assets/images/avatar/2.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 4,
-                        "title": "Justin Rutherford",
-                        "image": "assets/images/avatar/3.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 5,
-                        "title": "Nicholas Henderson",
-                        "image": "assets/images/avatar/4.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 6,
-                        "title": "Elizabeth Mackenzie",
-                        "image": "assets/images/avatar/5.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 7,
-                        "title": "Melanie Ferguson",
-                        "image": "assets/images/avatar/6.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 8,
-                        "title": "Fiona Kelly",
-                        "image": "assets/images/avatar/7.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 9,
-                        "title": "Nicholas King",
-                        "image": "assets/images/avatar/8.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 10,
-                        "title": "Victoria Mitchell",
-                        "image": "assets/images/avatar/9.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 11,
-                        "title": "Sophie Lyman",
-                        "image": "assets/images/avatar/10.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 12,
-                        "title": "Carl Ince",
-                        "image": "assets/images/avatar/11.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 13,
-                        "title": "Michelle Slater",
-                        "image": "assets/images/avatar/12.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 14,
-                        "title": "Ryan Mathis",
-                        "image": "assets/images/avatar/13.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 15,
-                        "title": "Julia Grant",
-                        "image": "assets/images/avatar/14.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    },
-                    {
-                        "id": 16,
-                        "title": "Hannah Martin",
-                        "image": "assets/images/avatar/15.jpg",
-                        "icon": "icon-heart-outline",
-                        "favorite": false
-                    }
-                ]
-            };
-        };
-        //Location Details data
-        this.getDataForLayout4 = function () {
-            return {
-                "headerImage": "assets/images/background/15.jpg",
-                "title": "Joe's restaurant",
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-comment",
-                "iconShare": "icon-share-variant",
-                "reviews": "4.12 (78 reviews)",
-                "iconButton": "icon-walk",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-                "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-                "description3": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English",
-                "description4": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-                "iconsStars": [
-                    {
-                        "isActive": true,
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline"
-                    },
-                    {
-                        "isActive": true,
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline"
-                    },
-                    {
-                        "isActive": true,
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline"
-                    },
-                    {
-                        "isActive": true,
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline"
-                    },
-                    {
-                        "isActive": false,
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline"
-                    }
-                ],
-                "items": [
-                    {
-                        "id": 1,
-                        "name": "ADDRESS:",
-                        "value": "Boulevard of food, New York, USA"
-                    },
-                    {
-                        "id": 2,
-                        "name": "PHONE:",
-                        "value": "+555 555 555"
-                    },
-                    {
-                        "id": 3,
-                        "name": "WEB:",
-                        "value": "www.joesrestaurant.com"
-                    },
-                    {
-                        "id": 4,
-                        "name": "MAIL:",
-                        "value": "jimmy@gmail.com"
-                    },
-                    {
-                        "id": 5,
-                        "name": "WORKING HOURS:",
-                        "value": "7:00 to 23:00 every day"
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-                'onFavorite': function (item) {
-                    that.toastCtrl.presentToast("Favorite");
-                    if (item) {
-                        item.favorite = !item.favorite;
-                    }
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onSkipPrevious': function (item) {
-                    that.toastCtrl.presentToast("Skip Previous");
-                },
-                'onPlay': function (item) {
-                    that.toastCtrl.presentToast("Play");
-                },
-                'onSkipNext': function (item) {
-                    that.toastCtrl.presentToast("Skip Next");
-                },
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-                'onRates': function (index) {
-                    that.toastCtrl.presentToast("Rates " + (index + 1));
-                },
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ParallaxService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('parallax/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    ParallaxService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ParallaxService);
-    return ParallaxService;
-}());
-
-//# sourceMappingURL=parallax-service.js.map
-
-/***/ }),
-
-/***/ 1323:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ImageGalleryService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var ImageGalleryService = (function () {
-    function ImageGalleryService(af, loadingService) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getId = function () { return 'imageGallery'; };
-        this.getTitle = function () { return 'Image Gallery'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Category 1 (Animals)", "theme": "layout1" },
-                { "title": "Subcategory 1 (Dogs)", "theme": "subcategory" },
-                { "title": "Category 2 (Music)", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Category 1 (Animals) data
-        this.getDataForLayout1 = function () {
-            return {
-                "toolBarTitle": "CATEGORY 1 (ANIMALS)",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Dogs",
-                        "image": "assets/images/gallery/dogs/14250733433_271362f4ff_h.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Dog 1",
-                                "image": "assets/images/gallery/dogs/14250733433_271362f4ff_h.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Dog 2",
-                                "image": "assets/images/gallery/dogs/174085592_c0b7e5076f_o.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Dog 3",
-                                "image": "assets/images/gallery/dogs/174097822_6c0aae32e1_o.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Dog 4",
-                                "image": "assets/images/gallery/dogs/4733823624_a758c8e8e9_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Dog 5",
-                                "image": "assets/images/gallery/dogs/4939588185_4dc4fa8cca_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Dog 6",
-                                "image": "assets/images/gallery/dogs/6698150783_161b18182e_b.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Dog 7",
-                                "image": "assets/images/gallery/dogs/6787786882_4e74d00628_b.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Dog 8",
-                                "image": "assets/images/gallery/dogs/8206632393_36622366c6_k.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Horses",
-                        "image": "assets/images/gallery/horses/1242426877_9cdace7a19_b.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Horses 1",
-                                "image": "assets/images/gallery/horses/1242426877_9cdace7a19_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Horses 2",
-                                "image": "assets/images/gallery/horses/2795764001_1e899c8560_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Horses 3",
-                                "image": "assets/images/gallery/horses/3571783564_b02308c31c_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Horses 4",
-                                "image": "assets/images/gallery/horses/3724307231_7077e8a5da_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Horses 5",
-                                "image": "assets/images/gallery/horses/548518280_b408f3d2a5_o.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Horses 6",
-                                "image": "assets/images/gallery/horses/6990704333_abff211880_b.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Horses 7",
-                                "image": "assets/images/gallery/horses/8621170742_15cd967dc8_b.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Horses 8",
-                                "image": "assets/images/gallery/horses/9581032545_e388ee7d3e_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "title": "Cats",
-                        "image": "assets/images/gallery/cats/15636456045_f99e3a5ccd_k.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Cats 1",
-                                "image": "assets/images/gallery/cats/15636456045_f99e3a5ccd_k.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Cats 2",
-                                "image": "assets/images/gallery/cats/3285731954_a31261bd38_o.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Cats 3",
-                                "image": "assets/images/gallery/cats/560380352_8b58b0611c_o.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Cats 4",
-                                "image": "assets/images/gallery/cats/6131811835_b7cdb594f3_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Cats 4",
-                                "image": "assets/images/gallery/cats/6944735673_7d201cbb98_k.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Cats 5",
-                                "image": "assets/images/gallery/cats/8470085922_ed703dcda3_b.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Cats 6",
-                                "image": "assets/images/gallery/cats/8854205418_3739d5b3e9_h.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Cats 7",
-                                "image": "assets/images/gallery/cats/9308613838_de3df521b0_b.jpg"
-                            },
-                            {
-                                "id": 9,
-                                "title": "Cats 8",
-                                "image": "assets/images/gallery/cats/9657345685_b680cd813b_k.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "title": "Kangaroos",
-                        "image": "assets/images/gallery/kangaroos/14018941654_b24dc40edd_k.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Kangaroo 1",
-                                "image": "assets/images/gallery/kangaroos/14018941654_b24dc40edd_k.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Kangaroo 2",
-                                "image": "assets/images/gallery/kangaroos/4849609708_06a24058ec_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Kangaroo 3",
-                                "image": "assets/images/gallery/kangaroos/4901737404_cf375a44d3_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Kangaroo 4",
-                                "image": "assets/images/gallery/kangaroos/4962092282_15a076cb8c_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Kangaroo 5",
-                                "image": "assets/images/gallery/kangaroos/5366854530_35d6de81c2_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Kangaroo 6",
-                                "image": "assets/images/gallery/kangaroos/7643187732_3753aa9b70_k.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Kangaroo 7",
-                                "image": "assets/images/gallery/kangaroos/8275651371_0e5e6bffc4_k.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Kangaroo 8",
-                                "image": "assets/images/gallery/kangaroos/8672908837_1ec6c9c967_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "title": "Foxes",
-                        "image": "assets/images/gallery/foxes/2741843163_5aefaae694_b.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Fox 1",
-                                "image": "assets/images/gallery/foxes/2741843163_5aefaae694_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Fox 2",
-                                "image": "assets/images/gallery/foxes/5461393397_b7bbff4c87_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Fox 3",
-                                "image": "assets/images/gallery/foxes/5872864880_b1739e6e76_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Fox 4",
-                                "image": "assets/images/gallery/foxes/6904712695_751bb39e16_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Fox 5",
-                                "image": "assets/images/gallery/foxes/6904714319_c4dbbb2b14_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Fox 6",
-                                "image": "assets/images/gallery/foxes/6977256115_af1011fbfb_h.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Fox 7",
-                                "image": "assets/images/gallery/foxes/7132259891_878e6513c4_k.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Fox 8",
-                                "image": "assets/images/gallery/foxes/7238361098_5d244ea023_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 6,
-                        "title": "Eagles",
-                        "image": "assets/images/gallery/eagles/12111485434_015bcf17e0_k.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Eagles 1",
-                                "image": "assets/images/gallery/eagles/12111485434_015bcf17e0_k.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Eagles 2",
-                                "image": "assets/images/gallery/eagles/12387369564_ee3e9810f3_k.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Eagles 3",
-                                "image": "assets/images/gallery/eagles/3358262896_8a623dc7ca_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Eagles 4",
-                                "image": "assets/images/gallery/eagles/6130420503_b5516d49e4_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Eagles 5",
-                                "image": "assets/images/gallery/eagles/7924818318_d4f0355bdd_k.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Eagles 6",
-                                "image": "assets/images/gallery/eagles/8626880581_7308f6a8a7_k.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Eagles 7",
-                                "image": "assets/images/gallery/eagles/9395841437_95035aed96_k.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "title": "Squirrels",
-                        "image": "assets/images/gallery/squirrels/12683899725_ec12a691c5_k.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Squirrels 1",
-                                "image": "assets/images/gallery/squirrels/12683899725_ec12a691c5_k.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Squirrels 2",
-                                "image": "assets/images/gallery/squirrels/12935575784_bcb43443f9_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Squirrels 3",
-                                "image": "assets/images/gallery/squirrels/15365307348_82551c3cb6_h.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Squirrels 4",
-                                "image": "assets/images/gallery/squirrels/2438938256_655ed4f254_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Squirrels 5",
-                                "image": "assets/images/gallery/squirrels/5194088091_f8af189189_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Squirrels 6",
-                                "image": "assets/images/gallery/squirrels/5339749381_f1c0a3040b_b.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Squirrels 7",
-                                "image": "assets/images/gallery/squirrels/6359846085_c88e231c01_b.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Squirrels 8",
-                                "image": "assets/images/gallery/squirrels/6583159839_0ba9c33a75_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 8,
-                        "title": "Bears",
-                        "image": "assets/images/gallery/bears/14316604273_778ccdac73_b.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Bears 1",
-                                "image": "assets/images/gallery/bears/14316604273_778ccdac73_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Bears 2",
-                                "image": "assets/images/gallery/bears/14567666406_61df9c0d52_k.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Bears 3",
-                                "image": "assets/images/gallery/bears/15665160302_f87492c246_k.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Bears 4",
-                                "image": "assets/images/gallery/bears/3946668599_90958b634c_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Bears 5",
-                                "image": "assets/images/gallery/bears/5396353993_d8bcf19d5e_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Bears 6",
-                                "image": "assets/images/gallery/bears/6346303116_7f3d463a68_b.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Bears 7",
-                                "image": "assets/images/gallery/bears/8568153824_ae2b3d3a02_k.jpg"
-                            },
-                            {
-                                "id": 8,
-                                "title": "Bears 8",
-                                "image": "assets/images/gallery/bears/8797595259_e99bf75d2e_k.jpg"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        //Subcategory 1 (Dogs) data
-        this.getDataForSubcategory = function () {
-            return {
-                "title": "SUBCATEGORY 1 (DOG)",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Dog 1",
-                        "image": "assets/images/gallery/dogs/14250733433_271362f4ff_h.jpg"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Dog 2",
-                        "image": "assets/images/gallery/dogs/174085592_c0b7e5076f_o.jpg"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Dog 3",
-                        "image": "assets/images/gallery/dogs/174097822_6c0aae32e1_o.jpg"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Dog 4",
-                        "image": "assets/images/gallery/dogs/4733823624_a758c8e8e9_b.jpg"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Dog 5",
-                        "image": "assets/images/gallery/dogs/4939588185_4dc4fa8cca_b.jpg"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Dog 6",
-                        "image": "assets/images/gallery/dogs/6698150783_161b18182e_b.jpg"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Dog 7",
-                        "image": "assets/images/gallery/dogs/6787786882_4e74d00628_b.jpg"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Dog 8",
-                        "image": "assets/images/gallery/dogs/8206632393_36622366c6_k.jpg"
-                    }
-                ]
-            };
-        };
-        //Category 2 (Music) data
-        this.getDataForLayout3 = function () {
-            return {
-                "toolBarTitle": "CATEGORY 2 (MUSIC)",
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Violins",
-                        "image": "assets/images/gallery/violins/147587554_205e3ed653_o.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Violin 1",
-                                "image": "assets/images/gallery/violins/147587554_205e3ed653_o.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Violin 2",
-                                "image": "assets/images/gallery/violins/2322113757_808c904f04_o.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Violin 3",
-                                "image": "assets/images/gallery/violins/2323048092_b6c70654ef_o.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Violin 4",
-                                "image": "assets/images/gallery/violins/2348623142_af7802400f_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Violin 5",
-                                "image": "assets/images/gallery/violins/459221457_09e40e82a8_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Violin 6",
-                                "image": "assets/images/gallery/violins/5950552903_7dbea63895_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "title": "Drums",
-                        "image": "assets/images/gallery/drums/14258762970_33f3a049ed_b.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Drum 1",
-                                "image": "assets/images/gallery/drums/14258762970_33f3a049ed_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Drum 2",
-                                "image": "assets/images/gallery/drums/2419154841_a4c2015605_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Drum 3",
-                                "image": "assets/images/gallery/drums/6500936951_bf8d21a4b7_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Drum 4",
-                                "image": "assets/images/gallery/drums/7587609934_f90d316fa0_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Drum 5",
-                                "image": "assets/images/gallery/drums/7672718592_ca4ccf7315_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Drum 6",
-                                "image": "assets/images/gallery/drums/8229110151_3c963f6a8d_k.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 3,
-                        "title": "Saxophones",
-                        "image": "assets/images/gallery/saxophones/3022692180_fd02682a44_b.jpg",
-                        "favorite": true,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Saxophones 1",
-                                "image": "assets/images/gallery/saxophones/3022692180_fd02682a44_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Saxophones 2",
-                                "image": "assets/images/gallery/saxophones/4268421378_e2d3ecdf1b_o.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Saxophones 3",
-                                "image": "assets/images/gallery/saxophones/4586115189_d4886a2118_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Saxophones 4",
-                                "image": "assets/images/gallery/saxophones/5823606898_77db8827b1_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Saxophones 5",
-                                "image": "assets/images/gallery/saxophones/7807389560_57b1d5b5f8_k.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Saxophones 6",
-                                "image": "assets/images/gallery/saxophones/870265218_716ebe2cb8_o.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 4,
-                        "title": "Trumpets",
-                        "image": "assets/images/gallery/trumpets/14163752896_453a37b84a_h.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Trumpet 1",
-                                "image": "assets/images/gallery/trumpets/14163752896_453a37b84a_h.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Trumpet 2",
-                                "image": "assets/images/gallery/trumpets/2531134817_ba97791524_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Trumpet 3",
-                                "image": "assets/images/gallery/trumpets/4867822712_1b1d3da2cd_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Trumpet 4",
-                                "image": "assets/images/gallery/trumpets/4949712803_7fc832d2cc_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Trumpet 5",
-                                "image": "assets/images/gallery/trumpets/6186270505_cc834a94c6_o.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Trumpet 6",
-                                "image": "assets/images/gallery/trumpets/7865792422_ef00cb7840_k.jpg"
-                            },
-                            {
-                                "id": 7,
-                                "title": "Trumpet 7",
-                                "image": "assets/images/gallery/trumpets/8044715752_9855063570_k.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 5,
-                        "title": "Pianos",
-                        "image": "assets/images/gallery/pianos/14287113341_fe14885b70_b.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Piano 1",
-                                "image": "assets/images/gallery/pianos/14287113341_fe14885b70_b.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Piano 2",
-                                "image": "assets/images/gallery/pianos/5052063297_61b6386db5_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Piano 3",
-                                "image": "assets/images/gallery/pianos/5200112333_502355c045_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Piano 4",
-                                "image": "assets/images/gallery/pianos/5637747696_42cba72967_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Piano 5",
-                                "image": "assets/images/gallery/pianos/7310209818_537dd46419_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Piano 6",
-                                "image": "assets/images/gallery/pianos/8247668743_36fcf1f4bb_b.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 6,
-                        "title": "Accordions",
-                        "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Accordion 1",
-                                "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Accordion 2",
-                                "image": "assets/images/gallery/accordions/2681657661_177a5edbc5_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Accordion 3",
-                                "image": "assets/images/gallery/accordions/3369363243_94fb76891d_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Accordion 4",
-                                "image": "assets/images/gallery/accordions/5316360932_719617fa1d_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Accordion 5",
-                                "image": "assets/images/gallery/accordions/6151326630_349b892d5a_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Accordion 6",
-                                "image": "assets/images/gallery/accordions/7607076588_593e509440_h.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 7,
-                        "title": "Accordions",
-                        "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Accordion 1",
-                                "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Accordion 2",
-                                "image": "assets/images/gallery/accordions/2681657661_177a5edbc5_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Accordion 3",
-                                "image": "assets/images/gallery/accordions/3369363243_94fb76891d_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Accordion 4",
-                                "image": "assets/images/gallery/accordions/5316360932_719617fa1d_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Accordion 5",
-                                "image": "assets/images/gallery/accordions/6151326630_349b892d5a_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Accordion 6",
-                                "image": "assets/images/gallery/accordions/7607076588_593e509440_h.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "id": 8,
-                        "title": "Accordions",
-                        "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg",
-                        "favorite": false,
-                        "items": [
-                            {
-                                "id": 1,
-                                "title": "Accordion 1",
-                                "image": "assets/images/gallery/accordions/153706234_c473e8eabd_o.jpg"
-                            },
-                            {
-                                "id": 2,
-                                "title": "Accordion 2",
-                                "image": "assets/images/gallery/accordions/2681657661_177a5edbc5_b.jpg"
-                            },
-                            {
-                                "id": 3,
-                                "title": "Accordion 3",
-                                "image": "assets/images/gallery/accordions/3369363243_94fb76891d_b.jpg"
-                            },
-                            {
-                                "id": 4,
-                                "title": "Accordion 4",
-                                "image": "assets/images/gallery/accordions/5316360932_719617fa1d_b.jpg"
-                            },
-                            {
-                                "id": 5,
-                                "title": "Accordion 5",
-                                "image": "assets/images/gallery/accordions/6151326630_349b892d5a_b.jpg"
-                            },
-                            {
-                                "id": 6,
-                                "title": "Accordion 6",
-                                "image": "assets/images/gallery/accordions/7607076588_593e509440_h.jpg"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            return {
-                onFavorite: function (item) {
-                    item.favorite = !item.favorite;
-                }
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ImageGalleryService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('imageGallery/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    ImageGalleryService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], ImageGalleryService);
-    return ImageGalleryService;
-}());
-
-//# sourceMappingURL=image-gallery-service.js.map
-
-/***/ }),
-
-/***/ 1324:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapsService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var MapsService = (function () {
-    function MapsService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'maps'; };
-        this.getTitle = function () { return 'Maps'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "GMAPS + Location  Details", "theme": "layout1" },
-                { "title": "GMAPS + About Us", "theme": "layout2" },
-                { "title": "Full Screen View", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //GMAPS + Location  Details data
-        this.getDataForLayout1 = function () {
-            return {
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-heart",
-                "iconShare": "icon-share-variant",
-                "title": "Museum of modern art",
-                "titleDescription": "Art Boulevard, New York, USA",
-                "reviews": "4.12 (78 reviews)",
-                "contentTitle": "In short",
-                "contentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus semper elit platea; Velit aptent euismod pede euismod facilisis? In ultrices venenatis mauris. Consequat gravida pretium ligula lectus; Lacus natoque elit elit: Imperdiet cursus fermentum suspendisse; Cum iaculis venenatis!",
-                "iconLoacation": "icon-map-marker-radius",
-                "iconLoacationText": "Design Street, New York, USA",
-                "iconWatch": "icon-alarm",
-                "iconWatchText": "8:00 to 16:00 working days",
-                "iconPhone": "icon-phone",
-                "iconPhoneText": "333 222 111",
-                "iconEarth": "icon-earth",
-                "iconEarthText": "www.csform.com",
-                "iconEmail": "icon-email-outline",
-                "iconEmailText": "dev@csform.com",
-                "iconsStars": [
-                    {
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline",
-                        "isActive": true
-                    },
-                    {
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline",
-                        "isActive": true
-                    },
-                    {
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline",
-                        "isActive": true
-                    },
-                    {
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline",
-                        "isActive": true
-                    },
-                    {
-                        "iconActive": "icon-star",
-                        "iconInactive": "icon-star-outline",
-                        "isActive": false
-                    }
-                ],
-                "map": {
-                    "lat": 40.712562,
-                    "lng": -74.005911,
-                    "zoom": 15,
-                    "mapTypeControl": true,
-                    "streetViewControl": true
-                }
-            };
-        };
-        //GMAPS + About Us data
-        this.getDataForLayout2 = function () {
-            return {
-                "iconLike": "icon-thumb-up",
-                "iconFavorite": "icon-heart",
-                "iconShare": "icon-share-variant",
-                "title": "Creative Studio Form",
-                "titleDescription": "Design & Development agency",
-                "contentTitle": "About us",
-                "contentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus semper elit platea; Velit aptent euismod pede euismod facilisis? In ultrices venenatis mauris. Consequat gravida pretium ligula lectus; Lacus natoque elit elit: Imperdiet cursus fermentum suspendisse; Cum iaculis venenatis!",
-                "iconLoacation": "icon-map-marker-radius",
-                "iconLoacationText": "Design Street, New York, USA",
-                "iconWatch": "icon-alarm",
-                "iconWatchText": "8:00 to 16:00 working days",
-                "iconPhone": "icon-phone",
-                "iconPhoneText": "333 222 111",
-                "iconEarth": "icon-earth",
-                "iconEarthText": "www.csform.com",
-                "iconEmail": "icon-email-outline",
-                "iconEmailText": "dev@csform.com",
-                "titleMap": "Here we are :",
-                "map": {
-                    "lat": 40.712562,
-                    "lng": -74.005911,
-                    "zoom": 15,
-                    "mapTypeControl": true,
-                    "streetViewControl": true
-                }
-            };
-        };
-        //Full Screen View data
-        this.getDataForLayout3 = function () {
-            return {
-                "map": {
-                    "lat": 40.712562,
-                    "lng": -74.005911,
-                    "zoom": 15,
-                    "mapTypeControl": true,
-                    "streetViewControl": true
-                }
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onLike': function (item) {
-                    that.toastCtrl.presentToast("Like");
-                },
-                'onFavorite': function (item) {
-                    that.toastCtrl.presentToast("Favorite");
-                    if (item) {
-                        item.favorite = !item.favorite;
-                    }
-                },
-                'onShare': function (item) {
-                    that.toastCtrl.presentToast("Share");
-                },
-                'onRates': function (index) {
-                    that.toastCtrl.presentToast("Rates " + (index + 1));
-                },
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: {},
-                theme: item.theme,
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    MapsService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('maps/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    MapsService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], MapsService);
-    return MapsService;
-}());
-
-//# sourceMappingURL=maps-service.js.map
-
-/***/ }),
-
-/***/ 1325:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QRCodeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var QRCodeService = (function () {
-    function QRCodeService(loadingService, toastCtrl) {
-        var _this = this;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'qrcode'; };
-        this.getTitle = function () { return 'Scanner'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Click here", "theme": "layout1" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return {};
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onFab': function (item) {
-                    that.toastCtrl.presentToast("Fab");
-                },
-                'onScan': function (item) {
-                    that.toastCtrl.presentToast(JSON.stringify(item));
-                },
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: _this.getDataForTheme(item),
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    QRCodeService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        return new __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"](function (observer) {
-            that.loadingService.hide();
-            observer.next(_this.getDataForTheme(item));
-            observer.complete();
-        });
-    };
-    QRCodeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_2__toast_service__["a" /* ToastService */]])
-    ], QRCodeService);
-    return QRCodeService;
-}());
-
-//# sourceMappingURL=qrcode-service.js.map
-
-/***/ }),
-
-/***/ 1326:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButtonService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var RadioButtonService = (function () {
-    function RadioButtonService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'radioButton'; };
-        this.getTitle = function () { return 'Radio Button'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Simple", "theme": "layout1" },
-                { "title": "With avatars", "theme": "layout2" },
-                { "title": "Simple 2", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Simple data
-        this.getDataForLayout1 = function () {
-            return {
-                "selectedItem": 3,
-                "items": [
-                    { "id": 1, "title": "Mayotte" },
-                    { "id": 2, "title": "El Salvador" },
-                    { "id": 4, "title": "Slovak Republic" },
-                    { "id": 3, "title": "Myanmar" },
-                    { "id": 5, "title": "Sudan" },
-                    { "id": 6, "title": "Venezuela" },
-                    { "id": 7, "title": "Canada" },
-                    { "id": 8, "title": "French Polynesia" },
-                    { "id": 9, "title": "Zambia" },
-                    { "id": 10, "title": "Libya" },
-                    { "id": 11, "title": "Swaziland" },
-                    { "id": 12, "title": "Uruguay" },
-                    { "id": 13, "title": "Ireland" }
-                ]
-            };
-        };
-        //With avatars data
-        this.getDataForLayout2 = function () {
-            return {
-                "selectedItem": 4,
-                "items": [
-                    { "id": 1, "title": "Julia Petersen", "subtitle": "@julia333", "avatar": "assets/images/avatar/0.jpg" },
-                    { "id": 2, "title": "Holman Valencia", "subtitle": "@holmanval", "avatar": "assets/images/avatar/1.jpg" },
-                    { "id": 4, "title": "Marisa Cain", "subtitle": "@marisa", "avatar": "assets/images/avatar/2.jpg" },
-                    { "id": 3, "title": "Dejesus Norris", "subtitle": "@norris", "avatar": "assets/images/avatar/3.jpg" },
-                    { "id": 5, "title": "Gayle Gaines", "subtitle": "@Gayle", "avatar": "assets/images/avatar/4.jpg" },
-                    { "id": 6, "title": "Prince Phelps", "subtitle": "@phelps123", "avatar": "assets/images/avatar/5.jpg" },
-                    { "id": 7, "title": "Keri Hudson", "subtitle": "@kerri333", "avatar": "assets/images/avatar/6.jpg" },
-                    { "id": 8, "title": "Duran Clayton", "subtitle": "@duran44", "avatar": "assets/images/avatar/7.jpg" },
-                    { "id": 9, "title": "Lara Lynn", "subtitle": "@lara", "avatar": "assets/images/avatar/8.jpg" },
-                    { "id": 10, "title": "Perry Bradley", "subtitle": "@bradley", "avatar": "assets/images/avatar/9.jpg" }
-                ]
-            };
-        };
-        //Simple 2 data
-        this.getDataForLayout3 = function () {
-            return {
-                "selectedItem": 4,
-                "items": [
-                    { "id": 1, "title": "Brogan", "subtitle": "Chad" },
-                    { "id": 2, "title": "Rehrersburg", "subtitle": "Romania" },
-                    { "id": 4, "title": "Durham", "subtitle": "Mauritania" },
-                    { "id": 3, "title": "Callaghan", "subtitle": "Tonga" },
-                    { "id": 5, "title": "Manitou", "subtitle": "Norway" },
-                    { "id": 6, "title": "Weedville", "subtitle": "Northern Mariana Islands" },
-                    { "id": 7, "title": "Curtice", "subtitle": "Nauru" },
-                    { "id": 8, "title": "Barronett", "subtitle": "Iran" },
-                    { "id": 9, "title": "Urie", "subtitle": "Swaziland" },
-                    { "id": 10, "title": "Blackgum", "subtitle": "Uruguay" },
-                    { "id": 11, "title": "Bannock", "subtitle": "Mayotte" },
-                    { "id": 12, "title": "Singer", "subtitle": "El Salvador" },
-                    { "id": 13, "title": "Nutrioso", "subtitle": "Slovak Republic" }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onSelect': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    RadioButtonService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('radioButton/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    RadioButtonService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], RadioButtonService);
-    return RadioButtonService;
-}());
-
-//# sourceMappingURL=radio-button-service.js.map
-
-/***/ }),
-
-/***/ 1327:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RangeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var RangeService = (function () {
-    function RangeService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'range'; };
-        this.getTitle = function () { return 'Range'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "All", "theme": "layout1" },
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return {
-                "layout1": {
-                    "title": "BASIC",
-                    "value": 10
-                },
-                "layout2": {
-                    "title": "WITH ICONS",
-                    "iconLeft": "volume-mute",
-                    "iconRight": "volume-up",
-                    "min": "-200",
-                    "max": "200",
-                    "value": 0
-                },
-                "layout3": {
-                    "textLeft": "A",
-                    "textRight": "A",
-                    "title": "WITH PREDEFINED STEPS",
-                    "min": "1000",
-                    "max": "2000",
-                    "step": "100",
-                    "value": 20
-                },
-                "layout4": {
-                    "title": "TWO SLIDERS",
-                    "min": "1",
-                    "max": "100",
-                    "step": "10",
-                    "value": {
-                        "lower": 20,
-                        "upper": 70
-                    },
-                    "textLeft": "1",
-                    "textRight": "10"
-                }
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onChange': function (item) {
-                    if (window.location.hostname === "localhost") {
-                    }
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    RangeService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('ranges')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ;
-    RangeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], RangeService);
-    return RangeService;
-}());
-
-//# sourceMappingURL=range-service.js.map
-
-/***/ }),
-
-/***/ 1328:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToggleService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ToggleService = (function () {
-    function ToggleService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'toggle'; };
-        this.getTitle = function () { return 'Toggle'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "With avatars", "theme": "layout1" },
-                { "title": "Simple 2", "theme": "layout2" },
-                { "title": "Simple", "theme": "layout3" },
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //With avatars data 
-        this.getDataForLayout1 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 0,
-                        "title": "Chloe\tGibson",
-                        "subtitle": "chloe.gibson@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/0.jpg"
-                    },
-                    {
-                        "id": 1,
-                        "title": "Amy\tKing",
-                        "subtitle": "amy.king@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/1.jpg"
-                    },
-                    {
-                        "id": 2,
-                        "title": "Jasmine\tStewart",
-                        "subtitle": "jasmine.stewart@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/2.jpg"
-                    },
-                    {
-                        "id": 3,
-                        "title": "Lillian\tSpringer",
-                        "subtitle": "lillian.springer@emai",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/3.jpg"
-                    },
-                    {
-                        "id": 4,
-                        "title": "Sophie\tDyer",
-                        "subtitle": "sophie.dyer@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/4.jpg"
-                    },
-                    {
-                        "id": 5,
-                        "title": "Julia\tLawrence",
-                        "subtitle": "julia.lawrence@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/5.jpg"
-                    },
-                    {
-                        "id": 6,
-                        "title": "Grace\tLambert",
-                        "subtitle": "grace.lambert@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/6.jpg"
-                    },
-                    {
-                        "id": 7,
-                        "title": "Amanda\tLawrence",
-                        "subtitle": "amanda.lawrence@emai",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/7.jpg"
-                    },
-                    {
-                        "id": 8,
-                        "title": "Sally\tReid",
-                        "subtitle": "sally.reid@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/8.jpg"
-                    },
-                    {
-                        "id": 9,
-                        "title": "Alison\tParsons",
-                        "subtitle": "alison.parsons@emai",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/9.jpg"
-                    },
-                    {
-                        "id": 10,
-                        "title": "Faith\tAvery",
-                        "subtitle": "faith.avery@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/10.jpg"
-                    },
-                    {
-                        "id": 11,
-                        "title": "Amelia\tMathis",
-                        "subtitle": "amelia.mathis@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/11.jpg"
-                    },
-                    {
-                        "id": 12,
-                        "title": "Sarah\tReid",
-                        "subtitle": "sarah.reid@email",
-                        "isChecked": false,
-                        "avatar": "assets/images/avatar/12.jpg"
-                    }
-                ]
-            };
-        };
-        //Simple 2 data
-        this.getDataForLayout2 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "marshall@yahoo.com",
-                        "subtitle": "Grant",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 2,
-                        "title": "valdez@yahoo.com",
-                        "subtitle": "Pena",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 4,
-                        "title": "miles@mail.com",
-                        "subtitle": "Jessica",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 3,
-                        "title": "barber@gmail.com",
-                        "subtitle": "Kerri",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 5,
-                        "title": "gamble@outlook.com",
-                        "subtitle": "Natasha",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 6,
-                        "title": "castaneda@mail.com",
-                        "subtitle": "White",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 7,
-                        "title": "ryan@mail.com",
-                        "subtitle": "Vanessa",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 8,
-                        "title": "hendricks@yahoo.com",
-                        "subtitle": "Meredith",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 9,
-                        "title": "kelly@mail.com",
-                        "subtitle": "Carol",
-                        "isChecked": false
-                    }
-                ]
-            };
-        };
-        //Simple data
-        this.getDataForLayout3 = function () {
-            return {
-                "items": [
-                    {
-                        "id": 0,
-                        "title": "Romania",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 1,
-                        "title": "Mauritania",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 2,
-                        "title": "Tonga",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 3,
-                        "title": "Norway",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 4,
-                        "title": "Northern Mariana Islands",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 5,
-                        "title": "Nauru",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 6,
-                        "title": "Iran",
-                        "isChecked": true
-                    },
-                    {
-                        "id": 7,
-                        "title": "Swaziland",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 8,
-                        "title": "Uruguay",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 9,
-                        "title": "Ireland",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 10,
-                        "title": "Indonesia",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 11,
-                        "title": "Austria",
-                        "isChecked": false
-                    },
-                    {
-                        "id": 12,
-                        "title": "Panama",
-                        "isChecked": false
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onSelect': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ToggleService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('toggle/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ToggleService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ToggleService);
-    return ToggleService;
-}());
-
-//# sourceMappingURL=toggle-service.js.map
-
-/***/ }),
-
-/***/ 1329:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SelectService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var SelectService = (function () {
-    function SelectService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'select'; };
-        this.getTitle = function () { return 'Select'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Single Select", "theme": "layout1" },
-                { "title": "Multi Select", "theme": "layout2" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return {
-                "title": "Select",
-                "layout1": {
-                    "title": "City",
-                    "selectedItem": 12,
-                    "header": "Basic dialog",
-                    "items": [
-                        {
-                            "id": 12,
-                            "title": "New York"
-                        },
-                        {
-                            "id": 14,
-                            "title": "Paris"
-                        },
-                        {
-                            "id": 13,
-                            "title": "Amsterdam"
-                        },
-                        {
-                            "id": 15,
-                            "title": "Gotham City"
-                        }
-                    ]
-                },
-                "layout2": {
-                    "title": "Country",
-                    "header": "One touch dialog",
-                    "selectedItem": 22,
-                    "items": [
-                        {
-                            "id": 22,
-                            "title": "USA"
-                        },
-                        {
-                            "id": 24,
-                            "title": "France"
-                        },
-                        {
-                            "id": 23,
-                            "title": "Netherland"
-                        },
-                        {
-                            "id": 25,
-                            "title": "Gothamland"
-                        }
-                    ]
-                },
-                "layout3": {
-                    "title": "Address",
-                    "header": "With Action sheet",
-                    "selectedItem": 31,
-                    "items": [
-                        {
-                            "id": 31,
-                            "title": "Choose address"
-                        },
-                        {
-                            "id": 32,
-                            "title": "222 Duffield Street"
-                        },
-                        {
-                            "id": 34,
-                            "title": "198 Clark Street"
-                        },
-                        {
-                            "id": 33,
-                            "title": "588 Kenmore Terrace"
-                        }
-                    ]
-                },
-                "layout4": {
-                    "title": "Date",
-                    "header": "Two option select",
-                    "selectedItemMonth": 38,
-                    "selectedItemYear": 50,
-                    "itemsMonth": [
-                        {
-                            "id": 38,
-                            "title": "January"
-                        },
-                        {
-                            "id": 39,
-                            "title": "February"
-                        },
-                        {
-                            "id": 40,
-                            "title": "March"
-                        },
-                        {
-                            "id": 41,
-                            "title": "April"
-                        },
-                        {
-                            "id": 42,
-                            "title": "May"
-                        },
-                        {
-                            "id": 43,
-                            "title": "June"
-                        },
-                        {
-                            "id": 44,
-                            "title": "July"
-                        },
-                        {
-                            "id": 45,
-                            "title": "August"
-                        },
-                        {
-                            "id": 46,
-                            "title": "September"
-                        },
-                        {
-                            "id": 47,
-                            "title": "October"
-                        },
-                        {
-                            "id": 48,
-                            "title": "November"
-                        },
-                        {
-                            "id": 49,
-                            "title": "December"
-                        }
-                    ],
-                    "itemsYears": [
-                        {
-                            "id": 50,
-                            "title": "2009"
-                        },
-                        {
-                            "id": 51,
-                            "title": "2010"
-                        },
-                        {
-                            "id": 52,
-                            "title": "2011"
-                        },
-                        {
-                            "id": 53,
-                            "title": "2012"
-                        },
-                        {
-                            "id": 54,
-                            "title": "2013"
-                        },
-                        {
-                            "id": 55,
-                            "title": "2014"
-                        },
-                        {
-                            "id": 56,
-                            "title": "2015"
-                        },
-                        {
-                            "id": 57,
-                            "title": "2016"
-                        },
-                        {
-                            "id": 58,
-                            "title": "2017"
-                        }
-                    ]
-                },
-                "layout5": {
-                    "title": "Country",
-                    "header": "One touch dialog",
-                    "selectedItem": 22,
-                    "items": [
-                        {
-                            "id": 22,
-                            "title": "USA"
-                        },
-                        {
-                            "id": 24,
-                            "title": "France"
-                        },
-                        {
-                            "id": 23,
-                            "title": "Netherland"
-                        },
-                        {
-                            "id": 25,
-                            "title": "Gothamland"
-                        }
-                    ]
-                },
-                "layout6": {
-                    "title": "Date",
-                    "header": "Two option select",
-                    "selectedItemMonth": 38,
-                    "selectedItemYear": 50,
-                    "itemsMonth": [
-                        {
-                            "id": 38,
-                            "title": "January"
-                        },
-                        {
-                            "id": 39,
-                            "title": "February"
-                        },
-                        {
-                            "id": 40,
-                            "title": "March"
-                        },
-                        {
-                            "id": 41,
-                            "title": "April"
-                        },
-                        {
-                            "id": 42,
-                            "title": "May"
-                        },
-                        {
-                            "id": 43,
-                            "title": "June"
-                        },
-                        {
-                            "id": 44,
-                            "title": "July"
-                        },
-                        {
-                            "id": 45,
-                            "title": "August"
-                        },
-                        {
-                            "id": 46,
-                            "title": "September"
-                        },
-                        {
-                            "id": 47,
-                            "title": "October"
-                        },
-                        {
-                            "id": 48,
-                            "title": "November"
-                        },
-                        {
-                            "id": 49,
-                            "title": "December"
-                        }
-                    ],
-                    "itemsYears": [
-                        {
-                            "id": 50,
-                            "title": "2009"
-                        },
-                        {
-                            "id": 51,
-                            "title": "2010"
-                        },
-                        {
-                            "id": 52,
-                            "title": "2011"
-                        },
-                        {
-                            "id": 53,
-                            "title": "2012"
-                        },
-                        {
-                            "id": 54,
-                            "title": "2013"
-                        },
-                        {
-                            "id": 55,
-                            "title": "2014"
-                        },
-                        {
-                            "id": 56,
-                            "title": "2015"
-                        },
-                        {
-                            "id": 57,
-                            "title": "2016"
-                        },
-                        {
-                            "id": 58,
-                            "title": "2017"
-                        }
-                    ]
-                }
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onSelect': function (item) {
-                    that.toastCtrl.presentToast(JSON.stringify(item));
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    SelectService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('select')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    SelectService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], SelectService);
-    return SelectService;
-}());
-
-//# sourceMappingURL=select-service.js.map
-
-/***/ }),
-
-/***/ 1330:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toast_service__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var ActionSheetService = (function () {
-    function ActionSheetService(af, loadingService, toastCtrl) {
-        var _this = this;
-        this.af = af;
-        this.loadingService = loadingService;
-        this.toastCtrl = toastCtrl;
-        this.getId = function () { return 'actionSheet'; };
-        this.getTitle = function () { return 'Action Sheet'; };
-        this.getAllThemes = function () {
-            return [
-                { "title": "Basic", "theme": "layout1" },
-                { "title": "News", "theme": "layout2" },
-                { "title": "With Text Header", "theme": "layout3" }
-            ];
-        };
-        this.getDataForTheme = function (menuItem) {
-            return _this['getDataFor' +
-                menuItem.theme.charAt(0).toUpperCase() +
-                menuItem.theme.slice(1)]();
-        };
-        //Basic data
-        this.getDataForLayout1 = function () {
-            return {
-                "headerImage": "assets/images/background/0.jpg",
-                "shareIcon": "more",
-                "actionSheet": {
-                    "buttons": [
-                        {
-                            "text": "Add to Cart",
-                            "role": "destructive"
-                        },
-                        {
-                            "text": "Add to Favorites"
-                        },
-                        {
-                            "text": "Read more info"
-                        },
-                        {
-                            "text": "Delete Item"
-                        },
-                        {
-                            "text": "Cancel",
-                            "role": "cancel"
-                        }
-                    ]
-                },
-                "items": [
-                    {
-                        "id": 1,
-                        "title": "Australia clade in Anglia Pulvis Blundstone",
-                        "category": "Celebrity vitae",
-                        "productDescriptions": [
-                            {
-                                "id": 1,
-                                "description": "Cum autem producturus tribus cursibus turpis eget nisi cinxit saeculi altum traditione Maxwell tenues satis gratanter polum noctis vincula purgare subest."
-                            },
-                            {
-                                "id": 2,
-                                "description": "Cujus rei manifestum est compositus award victor hominis, Maxwell Mark locutus est ad eum de ludo Nicolaum post perficientur in captura quaestionemque quae ipsius causa et de tali tumultu proficisci imperat. Nice quod nest accipere in unum funem, et consummare officium et pro nobis ut hanc seriem incipere possumus habere in via ob facultatem"
-                            },
-                            {
-                                "id": 3,
-                                "description": "Nabu portare potuimus protector meus et in Sacra Pagina formam Magna pars aestiva. Quod fuit placitum est in re."
-                            },
-                            {
-                                "id": 4,
-                                "description": "Passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum"
-                            }
-                        ]
-                    }
-                ]
-            };
-        };
-        //News data
-        this.getDataForLayout2 = function () {
-            return {
-                "headerImage": "assets/images/background/8.jpg",
-                "title": "Infinit pontem in Sinis. Quod locus non videre finem pontis. VII deambulatio inter homines pereunt.",
-                "subtitle": "by Guerrero Woodard",
-                "category": "SEASONAL ITINERIBUS",
-                "avatar": "assets/images/avatar/3.jpg",
-                "shareIcon": "more",
-                "actionSheet": {
-                    "buttons": [
-                        {
-                            "text": "Add to Cart",
-                            "role": "destructive"
-                        },
-                        {
-                            "text": "Add to Favorites"
-                        },
-                        {
-                            "text": "Read more info"
-                        },
-                        {
-                            "text": "Delete Item"
-                        },
-                        {
-                            "text": "Cancel",
-                            "role": "cancel"
-                        }
-                    ]
-                },
-                "items": [
-                    {
-                        "id": 1,
-                        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    {
-                        "id": 2,
-                        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    {
-                        "id": 3,
-                        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-                    },
-                    {
-                        "id": 4,
-                        "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                    }
-                ]
-            };
-        };
-        //With Text Header data
-        this.getDataForLayout3 = function () {
-            return {
-                "shareIcon": "more",
-                "actionSheet": {
-                    "title": "Choose what to do with this card?",
-                    "buttons": [
-                        {
-                            "text": "Read more",
-                            "role": "destructive"
-                        },
-                        {
-                            "text": "Add to Favorites"
-                        },
-                        {
-                            "text": "Delete Card"
-                        },
-                        {
-                            "text": "Disable Card"
-                        },
-                        {
-                            "text": "Cancel",
-                            "role": "cancel"
-                        }
-                    ]
-                },
-                "items": [
-                    {
-                        "id": 1,
-                        "category": "offer optimus",
-                        "image": "assets/images/background/2.jpg",
-                        "title": "Aliquam libero pontem",
-                        "subtitle": "Tiffany Place, Rehrersburg",
-                        "button": "$35.99"
-                    },
-                    {
-                        "id": 2,
-                        "category": "res pelagus",
-                        "image": "assets/images/background/1.jpg",
-                        "title": "Aeris aperta cinematographico",
-                        "subtitle": "Rutherford Place, Norvelt",
-                        "button": "$12.99"
-                    },
-                    {
-                        "id": 3,
-                        "category": "optimus unius tortae",
-                        "image": "assets/images/background/0.jpg",
-                        "title": "hiems sit naturæ debitus",
-                        "subtitle": "Lewis Avenue, Caspar",
-                        "button": "$13.45"
-                    },
-                    {
-                        "id": 4,
-                        "category": "mons",
-                        "image": "assets/images/background/3.jpg",
-                        "title": "mons piscium",
-                        "subtitle": "SMountain Trout Camp",
-                        "button": "$38.60"
-                    },
-                    {
-                        "id": 5,
-                        "category": "Aliquam pontem",
-                        "image": "assets/images/background/4.jpg",
-                        "title": "Aliquam pontem",
-                        "subtitle": "Stryker Court, Evergreen",
-                        "button": "$40.85"
-                    },
-                    {
-                        "id": 6,
-                        "category": "certe optimus",
-                        "image": "assets/images/background/5.jpg",
-                        "title": "De musica",
-                        "subtitle": "Joval Court, Holtville",
-                        "button": "$56.55"
-                    }
-                ]
-            };
-        };
-        this.getEventsForTheme = function (menuItem) {
-            var that = _this;
-            return {
-                'onItemClick': function (item) {
-                    that.toastCtrl.presentToast(item.title);
-                },
-                'onItemClickActionSheet': function (item) {
-                    that.toastCtrl.presentToast(item.button.text);
-                },
-            };
-        };
-        this.prepareParams = function (item) {
-            var result = {
-                title: item.title,
-                data: [],
-                events: _this.getEventsForTheme(item)
-            };
-            result[_this.getShowItemId(item)] = true;
-            return result;
-        };
-        this.getShowItemId = function (item) {
-            return _this.getId() + item.theme.charAt(0).toUpperCase() + "" + item.theme.slice(1);
-        };
-    }
-    ActionSheetService.prototype.load = function (item) {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('actionSheet/' + item.theme)
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getDataForTheme(item));
-                observer.complete();
-            });
-        }
-    };
-    ActionSheetService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_5__loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_4__toast_service__["a" /* ToastService */]])
-    ], ActionSheetService);
-    return ActionSheetService;
-}());
-
-//# sourceMappingURL=action-sheet-service.js.map
+//# sourceMappingURL=maps-layout-3.js.map
 
 /***/ })
 

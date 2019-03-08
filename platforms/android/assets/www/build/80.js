@@ -1,1 +1,92 @@
-webpackJsonp([80],{831:function(n,l,u){"use strict";Object.defineProperty(l,"__esModule",{value:!0}),u.d(l,"SubImageGalleryModuleNgFactory",function(){return y});var t=u(2),a=u(987),o=u(418),i=u(419),e=u(420),r=u(421),c=u(422),s=u(423),_=u(424),d=u(425),f=u(426),g=u(988),m=u(20),p=u(25),v=u(216),b=u(66),k=u(914),y=t.X(a.a,[],function(n){return t._11([t._12(512,t.i,t.T,[[8,[o.a,i.a,e.a,r.a,c.a,s.a,_.a,d.a,f.a,g.b]],[3,t.i],t.s]),t._12(4608,m.l,m.k,[t.r,[2,m.t]]),t._12(4608,p.n,p.n,[]),t._12(4608,p.c,p.c,[]),t._12(512,m.c,m.c,[]),t._12(512,p.m,p.m,[]),t._12(512,p.d,p.d,[]),t._12(512,p.k,p.k,[]),t._12(512,v.a,v.a,[]),t._12(512,v.b,v.b,[]),t._12(512,a.a,a.a,[]),t._12(256,b.a,k.a,[])])})},914:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(n,l){var u=this;this.navCtrl=n,this.onEvent=function(n,l,t){t&&t.stopPropagation(),u.events[n]&&u.events[n](l)},this.openImageSlider=function(n,l){u.navCtrl.push(n.fullscreen,{group:n.items,index:l})}}}()},987:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},988:function(n,l,u){"use strict";function t(n){return i._22(0,[(n()(),i._0(0,0,null,null,8,"ion-col",[["class","col"],["col-4",""],["col-lg-4",""],["col-md-6",""],["col-sm-3",""],["col-xl-3",""],["no-margin",""],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,e.a,[],null,null),(n()(),i._20(-1,null,["\n            "])),(n()(),i._0(3,0,null,null,4,"ion-card",[["background-size",""],["no-margin",""]],null,[[null,"click"]],function(n,l,u){var t=!0,a=n.component;if("click"===l){t=!1!==a.openImageSlider(a.data,n.context.index)&&t}return t},null,null)),i.Z(4,278528,null,0,r.m,[i.q,i.j,i.B],{ngStyle:[0,"ngStyle"]},null),i._16(5,{"background-image":0}),i.Z(6,16384,null,0,c.a,[s.a,i.j,i.A],null,null),(n()(),i._20(-1,null,["\n            "])),(n()(),i._20(-1,null,["\n        "]))],function(n,l){n(l,4,0,n(l,5,0,"url("+l.context.$implicit.image+")"))},null)}function a(n){return i._22(0,[(n()(),i._0(0,0,null,null,9,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,_.a,[],null,null),(n()(),i._20(-1,null,["\n    "])),(n()(),i._0(3,0,null,null,5,"ion-row",[["class","row"],["no-margin",""],["no-padding",""]],null,null,null,null,null)),i.Z(4,16384,null,0,d.a,[],null,null),(n()(),i._20(-1,null,["\n        "])),(n()(),i.V(16777216,null,null,1,null,t)),i.Z(7,802816,null,0,r.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(n()(),i._20(-1,null,["\n    "])),(n()(),i._20(-1,null,["\n"]))],function(n,l){n(l,7,0,l.component.data.items)},null)}function o(n){return i._22(0,[(n()(),i._20(-1,null,["\n"])),(n()(),i.V(16777216,null,null,1,null,a)),i.Z(2,16384,null,0,r.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(n()(),i._20(-1,null,["\n"]))],function(n,l){n(l,2,0,null!=l.component.data)},null)}u.d(l,"a",function(){return p}),l.c=o,u.d(l,"b",function(){return v});var i=u(2),e=u(144),r=u(20),c=u(219),s=u(4),_=u(142),d=u(143),f=u(914),g=u(33),m=u(19),p=i.Y({encapsulation:2,styles:[],data:{}}),v=i.W("sub-image-gallery",f.a,function(n){return i._22(0,[(n()(),i._0(0,0,null,null,1,"sub-image-gallery",[],null,null,null,o,p)),i.Z(1,49152,null,0,f.a,[g.a,m.a],null,null)],null,null)},{data:"data",events:"events"},{},[])}});
+webpackJsonp([80],{
+
+/***/ 1045:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout2Module", function() { return CheckBoxLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__ = __webpack_require__(1162);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CheckBoxLayout2Module = (function () {
+    function CheckBoxLayout2Module() {
+    }
+    CheckBoxLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_2__["a" /* CheckBoxLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], CheckBoxLayout2Module);
+    return CheckBoxLayout2Module;
+}());
+
+//# sourceMappingURL=check-box-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1162:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CheckBoxLayout2 = (function () {
+    function CheckBoxLayout2() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout2.prototype, "events", void 0);
+    CheckBoxLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'check-box-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-2\check-box.html"*/'<!--Themes With avatar -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row>\n\n    <ion-col col-12 no-padding>\n\n      <ion-list>\n\n        <ion-item *ngFor="let item of data; let i = index;" (tap)="onEvent(\'onButton\', item)">\n\n          <ion-avatar item-start>\n\n            <img [src]="item.image">\n\n          </ion-avatar>\n\n          <ion-label item-title>{{item.title}}</ion-label>\n\n          <ion-checkbox item-end [checked]="item.favorite"></ion-checkbox>\n\n        </ion-item>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-2\check-box.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], CheckBoxLayout2);
+    return CheckBoxLayout2;
+}());
+
+//# sourceMappingURL=check-box-layout-2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=80.js.map

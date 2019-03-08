@@ -1,1 +1,872 @@
-webpackJsonp([115],{155:function(l,e,a){"use strict";a.d(e,"a",function(){return n});a(0),a(65),a(236);var t=a(400),n=(a.n(t),function(){function l(l,e,a){var t=this;this.navCtrl=l,this.service=e,this.af=a,this.title="Classes",this.lvls=[0,1,2,3,4,5,6,7,8,9,10],this.tipoClasses=["Agility","Clericato","Damage","Utility"],this.tipoClassesSelecionados=["Agility","Clericato","Damage","Utility"],this.searchTerm="",console.log("classes"),e.load().subscribe(function(l){t.data=l}),this.list=this.af.list("classes").valueChanges(),this.listFiltered=this.af.list("classes").valueChanges()}return l.prototype.getItems=function(l){var e=this;this.list||(this.list=this.listFiltered),this.list.subscribe(function(a){var n=a.filter(function(e){return e.Nome.toLowerCase().indexOf(l.target.value.toLowerCase())>-1});e.listFiltered=t.Observable.of(n)})},l.prototype.toggleGroup=function(l){l.show=!l.show},l.prototype.isGroupShown=function(l){return l.show},l}())},220:function(l,e,a){"use strict";a.d(e,"a",function(){return n});a(0),a(65);var t=a(92),n=function(){function l(l){this.toastCtrl=l}return l.prototype.presentToast=function(l){var e=t.a.TOAST;e.message=l;this.toastCtrl.create(e).present()},l}()},236:function(l,e,a){"use strict";a.d(e,"a",function(){return o});a(0);var t=a(1),n=(a.n(t),a(92)),o=(a(91),function(){function l(l,e){this.af=l,this.loadingService=e,this.getData=function(){return{toolbarTitle:"Ionic3 UI Theme - Yellow Dark",title:"SAVE HOURS",subtitle:"OF DEVELOPING",subtitle2:"and make apps fast as light!",link:"http://csform.com/documentation-for-ionic-2-ui-template-app/",description:"For better understanding how our template works please read documentation.",background:"assets/images/background/29.jpg"}}}return l.prototype.load=function(){var l=this,e=this;return e.loadingService.show(),new t.Observable(n.a.IS_FIREBASE_ENABLED?function(a){l.af.object("home").valueChanges().subscribe(function(l){e.loadingService.hide(),a.next(l),a.complete()},function(l){e.loadingService.hide(),a.error([]),a.complete()})}:function(a){e.loadingService.hide(),a.next(l.getData()),a.complete()})},l}())},239:function(l,e,a){"use strict";a.d(e,"a",function(){return t});a(0),a(65);var t=function(){return function(){}}()},252:function(l,e){function a(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}a.keys=function(){return[]},a.resolve=a,l.exports=a,a.id=252},272:function(l,e,a){function t(l){var e=n[l];return e?a.e(e[1]).then(function(){return a(e[0])}):Promise.reject(new Error("Cannot find module '"+l+"'."))}var n={"../components/action-sheet/layout-1/action-sheet-layout-1.module.ngfactory":[764,37],"../components/action-sheet/layout-2/action-sheet-layout-2.module.ngfactory":[765,36],"../components/action-sheet/layout-3/action-sheet-layout-3.module.ngfactory":[766,101],"../components/check-box/layout-1/check-box-layout-1.module.ngfactory":[767,78],"../components/check-box/layout-2/check-box-layout-2.module.ngfactory":[768,77],"../components/check-box/layout-3/check-box-layout-3.module.ngfactory":[769,76],"../components/check-box/layout-4/check-box-layout-4.module.ngfactory":[770,75],"../components/full-screen-gallery/full-screen-gallery.module.ngfactory":[771,47],"../components/image-gallery/layout-1/image-gallery-layout-1.module.ngfactory":[772,100],"../components/image-gallery/layout-2/image-gallery-layout-2.module.ngfactory":[773,99],"../components/image-gallery/layout-3/image-gallery-layout-3.module.ngfactory":[774,113],"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module.ngfactory":[775,63],"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module.ngfactory":[776,62],"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module.ngfactory":[777,61],"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module.ngfactory":[778,60],"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module.ngfactory":[779,59],"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module.ngfactory":[780,58],"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module.ngfactory":[781,57],"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module.ngfactory":[782,56],"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module.ngfactory":[783,55],"../components/list-view/expandable/layout-1/expandable-layout-1.module.ngfactory":[784,54],"../components/list-view/expandable/layout-2/expandable-layout-2.module.ngfactory":[785,53],"../components/list-view/expandable/layout-3/expandable-layout-3.module.ngfactory":[786,52],"../components/list-view/google-card/layout-1/google-card-layout-1.module.ngfactory":[787,51],"../components/list-view/google-card/layout-2/google-card-layout-2.module.ngfactory":[788,50],"../components/list-view/google-card/layout-3/google-card-layout-3.module.ngfactory":[789,49],"../components/list-view/google-card/layout-4/google-card-layout-4.module.ngfactory":[790,48],"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module.ngfactory":[791,35],"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module.ngfactory":[792,34],"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module.ngfactory":[793,33],"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module.ngfactory":[794,32],"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module.ngfactory":[795,31],"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module.ngfactory":[796,30],"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module.ngfactory":[797,29],"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module.ngfactory":[798,28],"../components/login/layout-1/login-layout-1.module.ngfactory":[799,74],"../components/login/layout-2/login-layout-2.module.ngfactory":[800,73],"../components/maps/layout-1/maps-layout-1.module.ngfactory":[801,1],"../components/maps/layout-2/maps-layout-2.module.ngfactory":[802,3],"../components/maps/layout-3/maps-layout-3.module.ngfactory":[803,2],"../components/parallax/layout-1/parallax-layout-1.module.ngfactory":[804,27],"../components/parallax/layout-2/parallax-layout-2.module.ngfactory":[805,26],"../components/parallax/layout-3/parallax-layout-3.module.ngfactory":[806,25],"../components/parallax/layout-4/parallax-layout-4.module.ngfactory":[807,24],"../components/qrcode/layout-1/qrcode-layout-1.module.ngfactory":[808,98],"../components/radio-button/layout-1/radio-button-layout-1.module.ngfactory":[809,96],"../components/radio-button/layout-2/radio-button-layout-2.module.ngfactory":[810,95],"../components/radio-button/layout-3/radio-button-layout-3.module.ngfactory":[811,94],"../components/range/layout-1/range-layout-1.module.ngfactory":[812,70],"../components/range/layout-2/range-layout-2.module.ngfactory":[813,69],"../components/range/layout-3/range-layout-3.module.ngfactory":[814,68],"../components/range/layout-4/range-layout-4.module.ngfactory":[815,67],"../components/register/layout-1/register-layout-1.module.ngfactory":[816,72],"../components/register/layout-2/register-layout-2.module.ngfactory":[817,71],"../components/search-bar/layout-1/search-bar-layout-1.module.ngfactory":[818,93],"../components/search-bar/layout-2/search-bar-layout-2.module.ngfactory":[819,92],"../components/search-bar/layout-3/search-bar-layout-3.module.ngfactory":[820,91],"../components/select/layout-1/select-layout-1.module.ngfactory":[821,90],"../components/select/layout-2/select-layout-2.module.ngfactory":[822,89],"../components/select/layout-3/select-layout-3.module.ngfactory":[823,88],"../components/select/layout-4/select-layout-4.module.ngfactory":[824,87],"../components/select/layout-5/select-layout-5.module.ngfactory":[825,86],"../components/select/layout-6/select-layout-6.module.ngfactory":[826,85],"../components/spinner/spinner.module.ngfactory":[827,84],"../components/splash-screen/layout-1/splash-screen-layout-1.module.ngfactory":[828,83],"../components/splash-screen/layout-2/splash-screen-layout-2.module.ngfactory":[829,82],"../components/splash-screen/layout-3/splash-screen-layout-3.module.ngfactory":[830,81],"../components/sub-image-gallery/sub-image-gallery.module.ngfactory":[831,80],"../components/tabs/layout-1/tabs-layout-1.module.ngfactory":[832,40],"../components/tabs/layout-2/tabs-layout-2.module.ngfactory":[833,39],"../components/tabs/layout-3/tabs-layout-3.module.ngfactory":[834,38],"../components/toggle/layout-1/toggle-layout-1.module.ngfactory":[835,66],"../components/toggle/layout-2/toggle-layout-2.module.ngfactory":[836,65],"../components/toggle/layout-3/toggle-layout-3.module.ngfactory":[837,64],"../components/wizard/layout-1/wizard-layout-1.module.ngfactory":[838,44],"../components/wizard/layout-2/wizard-layout-2.module.ngfactory":[839,42],"../components/wizard/layout-3/wizard-layout-3.module.ngfactory":[840,41],"../pages/elementsClasses/elementsClasses.module.ngfactory":[841,114],"../pages/elementsHome/elementsHome.module.ngfactory":[842,112],"../pages/home/home.module.ngfactory":[843,111],"../pages/intro-page/intro-page.module.ngfactory":[844,43],"../pages/item-details-action-sheet/item-details-action-sheet.module.ngfactory":[845,13],"../pages/item-details-appearance-animation/item-details-appearance-animation.module.ngfactory":[846,5],"../pages/item-details-check-box/item-details-check-box.module.ngfactory":[847,12],"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module.ngfactory":[848,10],"../pages/item-details-expandable/item-details-expandable.module.ngfactory":[849,16],"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module.ngfactory":[850,46],"../pages/item-details-google-card/item-details-google-card.module.ngfactory":[851,9],"../pages/item-details-image-gallery/item-details-image-gallery.module.ngfactory":[852,21],"../pages/item-details-login/item-details-login.module.ngfactory":[853,23],"../pages/item-details-maps/item-details-maps.module.ngfactory":[854,0],"../pages/item-details-parallax/item-details-parallax.module.ngfactory":[855,6],"../pages/item-details-qrcode/item-details-qrcode.module.ngfactory":[856,97],"../pages/item-details-radio-button/item-details-radio-button.module.ngfactory":[857,20],"../pages/item-details-range/item-details-range.module.ngfactory":[858,11],"../pages/item-details-register/item-details-register.module.ngfactory":[859,22],"../pages/item-details-search-bar/item-details-search-bar.module.ngfactory":[860,19],"../pages/item-details-select/item-details-select.module.ngfactory":[861,4],"../pages/item-details-spinner/item-details-spinner.module.ngfactory":[862,45],"../pages/item-details-splash-screen/item-details-splash-screen.module.ngfactory":[863,18],"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module.ngfactory":[864,8],"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module.ngfactory":[865,79],"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module.ngfactory":[866,7],"../pages/item-details-tabs/item-details-tabs.module.ngfactory":[867,14],"../pages/item-details-text-view/item-details-text-view.module.ngfactory":[868,110],"../pages/item-details-toggle/item-details-toggle.module.ngfactory":[869,17],"../pages/item-details-wizard/item-details-wizard.module.ngfactory":[870,15],"../pages/item-details/item-details.module.ngfactory":[871,109],"../pages/items/items.module.ngfactory":[878,102],"../pages/tab-page-1/tab-page-1.module.ngfactory":[872,108],"../pages/tab-page-2/tab-page-2.module.ngfactory":[873,107],"../pages/tab-page-3/tab-page-3.module.ngfactory":[874,106],"../pages/tab-page-4/tab-page-4.module.ngfactory":[875,105],"../pages/tab-page-5/tab-page-5.module.ngfactory":[876,104],"../pages/tab-page-6/tab-page-6.module.ngfactory":[877,103]};t.keys=function(){return Object.keys(n)},t.id=272,l.exports=t},434:function(l,e,a){"use strict";function t(l){return s._22(0,[(l()(),s._0(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),s.Z(1,16384,[[5,4]],0,c.a,[s.j],{value:[0,"value"]},null),(l()(),s._20(2,null,["",""]))],function(l,e){l(e,1,0,e.context.$implicit)},function(l,e){l(e,2,0,e.context.$implicit)})}function n(l){return s._22(0,[(l()(),s._0(0,0,null,null,18,"ion-item",[["class","item item-block"],["no-lines",""],["padding-top",""]],null,null,null,d.b,d.a)),s.Z(1,1097728,null,3,m.a,[g.a,y.a,s.j,s.A,[2,p.a]],null,null),s._18(335544320,2,{contentLabel:0}),s._18(603979776,3,{_buttons:1}),s._18(603979776,4,{_icons:1}),s.Z(5,16384,null,0,f.a,[],null,null),(l()(),s._20(-1,2,["\n            "])),(l()(),s._0(7,0,null,3,10,"ion-select",[["interface","action-sheet"],["multiple","true"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==s._14(l,8)._click(a)&&t}if("keyup.space"===e){t=!1!==s._14(l,8)._keyup()&&t}if("ngModelChange"===e){t=!1!==(n.tipoClassesSelecionados=a)&&t}return t},h.b,h.a)),s.Z(8,1228800,null,1,_.a,[b.a,g.a,y.a,s.j,s.A,[2,m.a],w.a],{interface:[0,"interface"],multiple:[1,"multiple"]},null),s._18(603979776,5,{options:1}),s._17(1024,null,C.f,function(l){return[l]},[_.a]),s.Z(11,671744,null,0,C.i,[[8,null],[8,null],[8,null],[2,C.f]],{model:[0,"model"]},{update:"ngModelChange"}),s._17(2048,null,C.g,null,[C.i]),s.Z(13,16384,null,0,C.h,[C.g],null,null),(l()(),s._20(-1,null,["\n                "])),(l()(),s.V(16777216,null,null,1,null,t)),s.Z(16,802816,null,0,L.i,[s.J,s.G,s.p],{ngForOf:[0,"ngForOf"]},null),(l()(),s._20(-1,null,["\n            "])),(l()(),s._20(-1,2,["\n        "]))],function(l,e){var a=e.component;l(e,8,0,"action-sheet","true");l(e,11,0,a.tipoClassesSelecionados);l(e,16,0,a.tipoClasses)},function(l,e){l(e,7,0,s._14(e,8)._disabled,s._14(e,13).ngClassUntouched,s._14(e,13).ngClassTouched,s._14(e,13).ngClassPristine,s._14(e,13).ngClassDirty,s._14(e,13).ngClassValid,s._14(e,13).ngClassInvalid,s._14(e,13).ngClassPending)})}function o(l){return s._22(0,[(l()(),s._0(0,0,null,null,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(1,null,["Lvl",": ",""]))],null,function(l,e){l(e,1,0,e.context.$implicit,e.parent.context.$implicit["Lvl"+e.context.$implicit])})}function i(l){return s._22(0,[(l()(),s._0(0,0,null,null,56,"li",[],null,null,null,null,null)),(l()(),s._20(-1,null,["\n              "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._0(3,0,null,null,15,"div",[["class","collapsible-header"]],null,[[null,"click"]],function(l,e,a){var t=!0;if("click"===e){t=!1!==l.component.toggleGroup(l.context.$implicit)&&t}return t},null,null)),(l()(),s._20(-1,null,["\n                "])),(l()(),s._0(5,0,null,null,12,"ion-item",[["class","item item-block"],["no-padding",""]],null,null,null,d.b,d.a)),s.Z(6,1097728,null,3,m.a,[g.a,y.a,s.j,s.A,[2,p.a]],null,null),s._18(335544320,9,{contentLabel:0}),s._18(603979776,10,{_buttons:1}),s._18(603979776,11,{_icons:1}),s.Z(10,16384,null,0,f.a,[],null,null),(l()(),s._20(-1,2,["\n                  "])),(l()(),s._0(12,0,null,2,1,"h2",[["item-title",""],["padding-left",""]],null,null,null,null,null)),(l()(),s._20(13,null,["",""])),(l()(),s._20(-1,2,["\n                  "])),(l()(),s._0(15,0,null,2,1,"h3",[["item-subtitle",""],["padding-left",""]],null,null,null,null,null)),(l()(),s._20(16,null,["HP:"," Perícia:",""])),(l()(),s._20(-1,2,["\n                "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._0(21,0,null,null,33,"div",[["class","item-accordion"]],[[8,"hidden",0]],null,null,null,null)),s.Z(22,278528,null,0,L.h,[s.p,s.q,s.j,s.B],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),s._16(23,{active:0}),(l()(),s._20(-1,null,["\n                "])),(l()(),s._0(25,0,null,null,28,"ion-item",[["class","item item-block"],["no-lines",""],["style","color: white"],["transparent",""]],null,null,null,d.b,d.a)),s.Z(26,1097728,null,3,m.a,[g.a,y.a,s.j,s.A,[2,p.a]],null,null),s._18(335544320,12,{contentLabel:0}),s._18(603979776,13,{_buttons:1}),s._18(603979776,14,{_icons:1}),s.Z(30,16384,null,0,f.a,[],null,null),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(32,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(33,null,["HP: ",""])),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(35,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(36,null,["Perícia: ",""])),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(38,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(39,null,["Crítico: ",""])),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(41,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(43,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(44,null,["Vantagens: ",""])),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(46,0,null,2,1,"h2",[["padding-left",""]],null,null,null,null,null)),(l()(),s._20(47,null,["Desvantagens: ",""])),(l()(),s._20(-1,2,["\n                    "])),(l()(),s._0(49,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),s._20(-1,2,["\n                    "])),(l()(),s.V(16777216,null,2,1,null,o)),s.Z(52,802816,null,0,L.i,[s.J,s.G,s.p],{ngForOf:[0,"ngForOf"]},null),(l()(),s._20(-1,2,["\n                "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._20(-1,null,["\n              "])),(l()(),s._20(-1,null,["\n            "]))],function(l,e){var a=e.component;l(e,22,0,"item-accordion",l(e,23,0,a.isGroupShown(e.context.$implicit)));l(e,52,0,a.lvls)},function(l,e){var a=e.component;l(e,13,0,e.context.$implicit.Nome);l(e,16,0,e.context.$implicit.HP,e.context.$implicit.Pericia);l(e,21,0,!a.isGroupShown(e.context.$implicit));l(e,33,0,e.context.$implicit.HP);l(e,36,0,e.context.$implicit.Pericia);l(e,39,0,e.context.$implicit.Critico);l(e,44,0,e.context.$implicit.Vantagens);l(e,47,0,e.context.$implicit.Desvantagens)})}function u(l){return s._22(0,[(l()(),s._0(0,0,null,null,40,"ion-row",[["class","row"]],null,null,null,null,null)),s.Z(1,16384,null,0,P.a,[],null,null),(l()(),s._20(-1,null,["\n        "])),(l()(),s._20(-1,null,["\n        "])),(l()(),s._0(4,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),s.Z(5,16384,null,0,k.a,[],null,null),(l()(),s._20(-1,null,["\n        "])),(l()(),s._0(7,0,null,null,5,"ion-list",[["no-margin",""],["no-padding",""],["transparent",""]],null,null,null,null,null)),s.Z(8,16384,null,0,v.a,[y.a,s.j,s.A,F.a,H.l,x.a],null,null),(l()(),s._20(-1,null,["\n        "])),(l()(),s.V(16777216,null,null,1,null,n)),s.Z(11,16384,null,0,L.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(l()(),s._20(-1,null,["\n        "])),(l()(),s._20(-1,null,["\n        "])),(l()(),s._20(-1,null,["\n        \n        "])),(l()(),s._0(15,0,null,null,24,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),s.Z(16,16384,null,0,k.a,[],null,null),(l()(),s._20(-1,null,["\n            "])),(l()(),s._0(18,0,null,null,20,"ion-list",[["no-margin",""]],null,null,null,null,null)),s.Z(19,16384,null,0,v.a,[y.a,s.j,s.A,F.a,H.l,x.a],null,null),(l()(),s._20(-1,null,["\n            \n            "])),(l()(),s._0(21,0,null,null,12,"ion-list-header",[["class","item"],["no-margin",""],["no-padding",""],["transparent",""]],null,null,null,d.b,d.a)),s.Z(22,1097728,null,3,m.a,[g.a,y.a,s.j,s.A,[2,p.a]],null,null),s._18(335544320,6,{contentLabel:0}),s._18(603979776,7,{_buttons:1}),s._18(603979776,8,{_icons:1}),s.Z(26,16384,null,0,M.a,[y.a,s.A,s.j,[8,null]],null,null),(l()(),s._20(-1,2,["\n                "])),(l()(),s._0(28,0,null,2,4,"ion-searchbar",[["placeholder","Buscar..."],["style","background-color: transparent !important;"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ngModelChange"],[null,"ionInput"]],function(l,e,a){var t=!0,n=l.component;if("ngModelChange"===e){t=!1!==(n.searchTerm=a)&&t}if("ionInput"===e){t=!1!==n.getItems(a)&&t}return t},S.b,S.a)),s.Z(29,671744,null,0,C.i,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),s._17(2048,null,C.g,null,[C.i]),s.Z(31,16384,null,0,C.h,[C.g],null,null),s.Z(32,1294336,null,0,N.a,[y.a,F.a,s.j,s.A,[2,C.g]],{placeholder:[0,"placeholder"]},{ionInput:"ionInput"}),(l()(),s._20(-1,2,["\n                \n            "])),(l()(),s._20(-1,null,["\n\n            "])),(l()(),s.V(16777216,null,null,2,null,i)),s.Z(36,802816,null,0,L.i,[s.J,s.G,s.p],{ngForOf:[0,"ngForOf"]},null),s._15(131072,L.b,[s.g]),(l()(),s._20(-1,null,["\n            "])),(l()(),s._20(-1,null,["\n        "])),(l()(),s._20(-1,null,["\n        "]))],function(l,e){var a=e.component;l(e,11,0,null!=a.data);l(e,29,0,a.searchTerm);l(e,32,0,"Buscar...");l(e,36,0,s._21(e,36,0,s._14(e,37).transform(a.listFiltered)))},function(l,e){l(e,28,1,[s._14(e,31).ngClassUntouched,s._14(e,31).ngClassTouched,s._14(e,31).ngClassPristine,s._14(e,31).ngClassDirty,s._14(e,31).ngClassValid,s._14(e,31).ngClassInvalid,s._14(e,31).ngClassPending,s._14(e,32)._animated,s._14(e,32)._value,s._14(e,32)._isActive,s._14(e,32)._showCancelButton,s._14(e,32)._shouldAlignLeft,s._14(e,32)._isFocus])})}function r(l){return s._22(0,[(l()(),s._20(-1,null,["\n"])),(l()(),s._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),s.Z(2,16384,null,0,I.a,[y.a,s.j,s.A,[2,A.a]],null,null),(l()(),s._20(-1,null,["\n    "])),(l()(),s._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,D.b,D.a)),s.Z(5,49152,null,0,Z.a,[b.a,[2,A.a],[2,T.a],y.a,s.j,s.A],null,null),(l()(),s._20(-1,3,["\n    "])),(l()(),s._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,e,a){var t=!0;if("click"===e){t=!1!==s._14(l,9).toggle()&&t}return t},j.b,j.a)),s.Z(8,1097728,[[1,4]],0,B.a,[[8,""],y.a,s.j,s.A],null,null),s.Z(9,1064960,null,0,R.a,[G.a,[2,A.a],[2,B.a],[2,Z.a]],{menuToggle:[0,"menuToggle"]},null),s.Z(10,16384,null,1,E.a,[y.a,s.j,s.A,[2,V.a],[2,Z.a]],null,null),s._18(603979776,1,{_buttons:1}),(l()(),s._20(-1,0,["\n      "])),(l()(),s._0(13,0,null,0,1,"ion-icon",[["class","icon-menu"],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),s.Z(14,147456,null,0,z.a,[y.a,s.j,s.A],{name:[0,"name"]},null),(l()(),s._20(-1,0,["\n    "])),(l()(),s._20(-1,3,["\n    "])),(l()(),s._0(17,0,null,3,2,"ion-title",[["text-uppercase",""]],null,null,null,O.b,O.a)),s.Z(18,49152,null,0,q.a,[y.a,s.j,s.A,[2,V.a],[2,Z.a]],null,null),(l()(),s._20(-1,0,["Classes"])),(l()(),s._20(-1,3,["\n    "])),(l()(),s._20(-1,null,["\n"])),(l()(),s._20(-1,null,["\n"])),(l()(),s._20(-1,null,["\n"])),(l()(),s._0(24,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$.b,$.a)),s.Z(25,4374528,null,0,W.a,[y.a,F.a,x.a,s.j,s.A,b.a,J.a,s.u,[2,A.a],[2,T.a]],null,null),(l()(),s._20(-1,1,["\n    "])),(l()(),s._0(27,0,null,1,5,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),s.Z(28,16384,null,0,U.a,[],null,null),(l()(),s._20(-1,null,["\n        "])),(l()(),s.V(16777216,null,null,1,null,u)),s.Z(31,16384,null,0,L.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(l()(),s._20(-1,null,["\n    "])),(l()(),s._20(-1,1,["\n"])),(l()(),s._20(-1,null,["\n"]))],function(l,e){var a=e.component;l(e,9,0,"");l(e,14,0,"menu");l(e,31,0,null!=a.data)},function(l,e){l(e,4,0,s._14(e,5)._hidden,s._14(e,5)._sbPadding);l(e,7,0,s._14(e,9).isHidden);l(e,13,0,s._14(e,14)._hidden);l(e,24,0,s._14(e,25).statusbarPadding,s._14(e,25)._hasRefresher)})}a.d(e,"a",function(){return el});var s=a(2),c=a(96),d=a(141),m=a(26),g=a(22),y=a(4),p=a(57),f=a(71),h=a(429),_=a(97),b=a(14),w=a(23),C=a(25),L=a(20),P=a(143),k=a(144),v=a(67),F=a(7),H=a(11),x=a(15),M=a(95),S=a(432),N=a(99),I=a(93),A=a(8),D=a(427),Z=a(47),T=a(33),j=a(44),B=a(29),R=a(145),G=a(37),E=a(146),V=a(68),z=a(43),O=a(428),q=a(94),$=a(215),W=a(35),J=a(39),U=a(142),K=a(236),Q=a(58),Y=a(91),X=a(155),ll=s.Y({encapsulation:2,styles:[],data:{}}),el=s.W("elements-page-classes",X.a,function(l){return s._22(0,[(l()(),s._0(0,0,null,null,2,"elements-page-classes",[],null,null,null,r,ll)),s._17(512,null,K.a,K.a,[Q.a,Y.a]),s.Z(2,49152,null,0,X.a,[T.a,K.a,Q.a],null,null)],null,null)},{data:"data",events:"events"},{},[])},435:function(l,e,a){"use strict";function t(l){return u._22(0,[(l()(),u._0(0,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,6).close()&&t}if("click"===e){t=!1!==n.openPage(l.context.$implicit)&&t}return t},j.b,j.a)),u.Z(1,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,23,{contentLabel:0}),u._18(603979776,24,{_buttons:1}),u._18(603979776,25,{_icons:1}),u.Z(5,16384,null,0,V.a,[],null,null),u.Z(6,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n        "])),(l()(),u._0(8,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(9,147456,[[25,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n          "])),(l()(),u._0(11,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),u._20(-1,null,["\n        "])),(l()(),u._20(13,2,["\n        ","\n      "]))],function(l,e){l(e,6,0,"")},function(l,e){l(e,8,0,u._14(e,9)._hidden);l(e,11,0,u._3(1,"icon ",e.context.$implicit.icon,""));l(e,13,0,e.context.$implicit.title)})}function n(l){return u._22(0,[(l()(),u._0(0,0,null,null,127,"ion-menu",[["role","navigation"]],null,null,null,$.b,$.a)),u.Z(1,245760,null,2,W.a,[O.a,u.j,G.a,J.a,u.A,U.a,K.l,Q.a,Y.a],{content:[0,"content"]},null),u._18(335544320,3,{menuContent:0}),u._18(335544320,4,{menuNav:0}),u._17(2048,[[2,4]],X.a,null,[W.a]),(l()(),u._20(-1,0,["\n    "])),(l()(),u._20(-1,0,["\n    "])),(l()(),u._0(7,0,null,0,13,"ion-header",[["background-size",""],["header-background-image",""],["padding",""]],null,null,null,null,null)),u.Z(8,278528,null,0,ll.m,[u.q,u.j,u.B],{ngStyle:[0,"ngStyle"]},null),u._16(9,{"background-image":0}),u.Z(10,16384,null,0,el.a,[G.a,u.j,u.A,[2,al.a]],null,null),(l()(),u._20(-1,null,["\n      "])),(l()(),u._0(12,0,null,null,4,"ion-thumbnail",[],null,null,null,null,null)),u.Z(13,16384,null,0,tl.a,[],null,null),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(15,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),u._20(-1,null,["\n      "])),(l()(),u._20(-1,null,["\n      "])),(l()(),u._0(18,0,null,null,1,"h2",[["item-title",""],["text-center",""]],null,null,null,null,null)),(l()(),u._20(-1,null,["Elements"])),(l()(),u._20(-1,null,["\n    "])),(l()(),u._20(-1,0,["\n    \n    "])),(l()(),u._20(-1,0,["\n    "])),(l()(),u._0(23,0,null,0,103,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),u.Z(24,4374528,[[3,4]],0,ol.a,[G.a,J.a,Q.a,u.j,u.A,Y.a,U.a,u.u,[2,al.a],[2,il.a]],null,null),(l()(),u._20(-1,1,["\n      "])),(l()(),u._0(26,0,null,1,92,"ion-list",[["no-margin",""],["no-padding",""]],null,null,null,null,null)),u.Z(27,16384,null,0,ul.a,[G.a,u.j,u.A,J.a,K.l,Q.a],null,null),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(29,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,35).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsClassesPage")&&t}return t},j.b,j.a)),u.Z(30,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,5,{contentLabel:0}),u._18(603979776,6,{_buttons:1}),u._18(603979776,7,{_icons:1}),u.Z(34,16384,null,0,V.a,[],null,null),u.Z(35,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n          "])),(l()(),u._0(37,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(38,147456,[[7,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n            "])),(l()(),u._0(40,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n          "])),(l()(),u._20(-1,2,["\n          Classes\n        "])),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(44,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,50).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsRacasPage")&&t}return t},j.b,j.a)),u.Z(45,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,8,{contentLabel:0}),u._18(603979776,9,{_buttons:1}),u._18(603979776,10,{_icons:1}),u.Z(49,16384,null,0,V.a,[],null,null),u.Z(50,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n            "])),(l()(),u._0(52,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(53,147456,[[10,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n              "])),(l()(),u._0(55,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n            "])),(l()(),u._20(-1,2,["\n            Raças\n        "])),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(59,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,65).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsMagiasPage")&&t}return t},j.b,j.a)),u.Z(60,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,11,{contentLabel:0}),u._18(603979776,12,{_buttons:1}),u._18(603979776,13,{_icons:1}),u.Z(64,16384,null,0,V.a,[],null,null),u.Z(65,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n            "])),(l()(),u._0(67,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(68,147456,[[13,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n              "])),(l()(),u._0(70,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n            "])),(l()(),u._20(-1,2,["\n            Magias\n        "])),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(74,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,80).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsPericiasPage")&&t}return t},j.b,j.a)),u.Z(75,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,14,{contentLabel:0}),u._18(603979776,15,{_buttons:1}),u._18(603979776,16,{_icons:1}),u.Z(79,16384,null,0,V.a,[],null,null),u.Z(80,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n            "])),(l()(),u._0(82,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(83,147456,[[16,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n              "])),(l()(),u._0(85,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n            "])),(l()(),u._20(-1,2,["\n            Perícias\n        "])),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(89,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,95).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsLojasPage")&&t}return t},j.b,j.a)),u.Z(90,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,17,{contentLabel:0}),u._18(603979776,18,{_buttons:1}),u._18(603979776,19,{_icons:1}),u.Z(94,16384,null,0,V.a,[],null,null),u.Z(95,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n            "])),(l()(),u._0(97,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(98,147456,[[19,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n              "])),(l()(),u._0(100,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n            "])),(l()(),u._20(-1,2,["\n            Lojas\n        "])),(l()(),u._20(-1,null,["\n        "])),(l()(),u._0(104,0,null,null,13,"button",[["class","item item-block"],["ion-item",""],["item-title",""],["main-menu",""],["menuClose",""],["no-padding",""]],null,[[null,"click"]],function(l,e,a){var t=!0,n=l.component;if("click"===e){t=!1!==u._14(l,110).close()&&t}if("click"===e){t=!1!==n.abrePagina("ElementsRegrasPage")&&t}return t},j.b,j.a)),u.Z(105,1097728,null,3,B.a,[R.a,G.a,u.j,u.A,[2,E.a]],null,null),u._18(335544320,20,{contentLabel:0}),u._18(603979776,21,{_buttons:1}),u._18(603979776,22,{_icons:1}),u.Z(109,16384,null,0,V.a,[],null,null),u.Z(110,16384,null,0,z.a,[O.a],{menuClose:[0,"menuClose"]},null),(l()(),u._20(-1,2,["\n            "])),(l()(),u._0(112,0,null,2,4,"ion-icon",[["padding-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),u.Z(113,147456,[[22,4]],0,q.a,[G.a,u.j,u.A],null,null),(l()(),u._20(-1,null,["\n              "])),(l()(),u._0(115,0,null,null,0,"i",[["class","icon icon-format-align-justify"]],null,null,null,null,null)),(l()(),u._20(-1,null,["\n            "])),(l()(),u._20(-1,2,["\n            Regras\n        "])),(l()(),u._20(-1,null,["\n      "])),(l()(),u._20(-1,1,["\n      "])),(l()(),u._0(120,0,null,1,5,"ion-list",[["no-margin",""],["no-padding",""]],null,null,null,null,null)),u.Z(121,16384,null,0,ul.a,[G.a,u.j,u.A,J.a,K.l,Q.a],null,null),(l()(),u._20(-1,null,["\n        "])),(l()(),u.V(16777216,null,null,1,null,t)),u.Z(124,802816,null,0,ll.i,[u.J,u.G,u.p],{ngForOf:[0,"ngForOf"]},null),(l()(),u._20(-1,null,["\n      "])),(l()(),u._20(-1,1,["\n    "])),(l()(),u._20(-1,0,["\n  "]))],function(l,e){var a=e.component;l(e,1,0,u._14(e.parent,11));l(e,8,0,l(e,9,0,"url("+a.params.background+")"));l(e,35,0,"");l(e,50,0,"");l(e,65,0,"");l(e,80,0,"");l(e,95,0,"");l(e,110,0,"");l(e,124,0,a.pages)},function(l,e){l(e,15,0,e.component.params.image);l(e,23,0,u._14(e,24).statusbarPadding,u._14(e,24)._hasRefresher);l(e,37,0,u._14(e,38)._hidden);l(e,52,0,u._14(e,53)._hidden);l(e,67,0,u._14(e,68)._hidden);l(e,82,0,u._14(e,83)._hidden);l(e,97,0,u._14(e,98)._hidden);l(e,112,0,u._14(e,113)._hidden)})}function o(l){return u._22(0,[u._18(402653184,1,{nav:0}),(l()(),u._0(1,0,null,null,12,"ion-split-pane",[["when","md"]],null,null,null,null,null)),u.Z(2,4341760,null,1,X.b,[u.u,J.a,G.a,u.j,u.A],{when:[0,"when"]},null),u._18(603979776,2,{_setchildren:1}),u._17(2048,[[2,4]],X.a,null,[X.b]),(l()(),u._20(-1,null,["\n  "])),(l()(),u.V(16777216,null,null,1,null,n)),u.Z(7,16384,null,0,ll.j,[u.J,u.G],{ngIf:[0,"ngIf"]},null),(l()(),u._20(-1,null,["\n  "])),(l()(),u._20(-1,null,["\n  "])),(l()(),u._0(10,0,null,null,2,"ion-nav",[["main",""],["swipeBackEnabled","false"]],null,null,null,rl.b,rl.a)),u.Z(11,4374528,[[1,4],["content",4]],0,sl.a,[[2,al.a],[2,il.a],Y.a,G.a,J.a,u.j,u.u,u.A,u.i,K.l,cl.a,[2,dl.a],Q.a,u.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),u._17(2048,[[2,4]],X.a,null,[sl.a]),(l()(),u._20(-1,null,["\n"])),(l()(),u._20(-1,null,["\n"]))],function(l,e){var a=e.component;l(e,2,0,"md");l(e,7,0,null!=a.params);l(e,11,0,"false",a.rootPage)},null)}Object.defineProperty(e,"__esModule",{value:!0});var i=a(51),u=a(2),r=(a(0),a(65),a(238)),s=a(430),c=a(58),d=a(1),m=a(92),g=function(){function l(l){var e=this;this.af=l,this.getId=function(){return"menu"},this.getTitle=function(){return"UIAppTemplate"},this.getAllThemes=function(){return[{title:"List Views",theme:"listViews",icon:"icon-format-align-justify",listView:!0,component:"",singlePage:!1},{title:"Parallax",theme:"parallax",icon:"icon-format-line-spacing",listView:!1,component:"",singlePage:!1},{title:"Login Pages",theme:"login",icon:"icon-lock-open-outline",listView:!1,component:"",singlePage:!1},{title:"Register Pages",theme:"register",icon:"icon-comment-account",listView:!1,component:"",singlePage:!1},{title:"Image Gallery",theme:"imageGallery",icon:"icon-apps",listView:!1,component:"",singlePage:!1},{title:"Splash Screen",theme:"splashScreens",icon:"icon-logout",listView:!1,component:"",singlePage:!1},{title:"Check Boxs",theme:"checkBoxes",icon:"icon-checkbox-marked",listView:!1,component:"",singlePage:!1},{title:"Search Bars",theme:"searchBars",icon:"icon-magnify",listView:!1,component:"",singlePage:!1},{title:"Typo + small components",theme:"textViews",icon:"icon-tumblr",listView:!1,component:"",singlePage:!1},{title:"Wizard",theme:"wizard",icon:"icon-cellphone-settings",listView:!1,component:"",singlePage:!1},{title:"Spinner",theme:"spinner",icon:"icon-image-filter-tilt-shift",listView:!1,component:"",singlePage:!1},{title:"Tabs",theme:"tabs",icon:"icon-view-array",listView:!1,component:"",singlePage:!1},{title:"Maps",theme:"maps",icon:"icon-google-maps",listView:!1,component:"",singlePage:!1},{title:"QRCode",theme:"qrcode",icon:"icon-qrcode",listView:!1,component:"",singlePage:!1},{title:"Radio Button",theme:"radioButton",icon:"icon-radiobox-marked",listView:!1,component:"",singlePage:!1},{title:"Range",theme:"range",icon:"icon-toggle-switch-off",listView:!1,component:"",singlePage:!1},{title:"Toggle",theme:"toggle",icon:"icon-toggle-switch",listView:!1,component:"",singlePage:!1},{title:"Select",theme:"select",icon:"icon-menu-down",listView:!0,component:"",singlePage:!1},{title:"Action Sheet",theme:"actionSheet",icon:"icon-dots-horizontal",listView:!1,component:"",singlePage:!1}]},this.getDataForTheme=function(l){return{background:"assets/images/topo.png",image:"assets/images/logo/login.png",title:"Ionic3 UI Theme - Yellow Dark"}},this.getEventsForTheme=function(l){return{}},this.prepareParams=function(l){return{title:l.title,data:{},events:e.getEventsForTheme(l)}}}return l.prototype.load=function(l){var e=this;return new d.Observable(m.a.IS_FIREBASE_ENABLED?function(l){e.af.object("menu").valueChanges().subscribe(function(e){l.next(e),l.complete()},function(e){l.error([]),l.complete()})}:function(a){a.next(e.getDataForTheme(l)),a.complete()})},l}(),y=function(){function l(l,e,a,t){var n=this;this.platform=l,this.menu=e,this.menuService=a,this.modalCtrl=t,this.rootPage="HomePage",this.initializeApp(),this.pages=a.getAllThemes(),this.leftMenuTitle=a.getTitle(),this.menuService.load(null).subscribe(function(l){n.params=l}),m.a.SHOW_START_WIZARD&&this.presentProfileModal()}return l.prototype.presentProfileModal=function(){this.modalCtrl.create("IntroPage").present()},l.prototype.initializeApp=function(){this.platform.ready().then(function(){s.d.styleDefault(),s.c.hide(),localStorage.setItem("mailChimpLocal","true")})},l.prototype.openPage=function(l){l.singlePage?(this.menu.open(),this.nav.push(this.getPageForOpen(l.theme),{service:this.getServiceForPage(l.theme),page:l,componentName:l.theme})):this.nav.setRoot("ItemsPage",{componentName:l.theme})},l.prototype.abrePagina=function(l){console.log(l),this.nav.push(l)},l.prototype.getPageForOpen=function(l){return null},l.prototype.getServiceForPage=function(l){return null},l}(),p=a(42),f=a(411),h=a(413),_=a(220),b=a(91),w=a(414),C=a(415),L=a(416),P=a(417),k=a(239),v=function(){return function(){}}(),F=a(76),H=a(418),x=a(419),M=a(420),S=a(421),N=a(422),I=a(423),A=a(424),D=a(425),Z=a(426),T=a(434),j=a(141),B=a(26),R=a(22),G=a(4),E=a(57),V=a(71),z=a(169),O=a(37),q=a(43),$=a(762),W=a(114),J=a(7),U=a(39),K=a(11),Q=a(15),Y=a(14),X=a(50),ll=a(20),el=a(93),al=a(8),tl=a(148),nl=a(215),ol=a(35),il=a(33),ul=a(67),rl=a(763),sl=a(81),cl=a(49),dl=a(23),ml=a(120),gl=u.Y({encapsulation:2,styles:[],data:{}}),yl=u.W("ng-component",y,function(l){return u._22(0,[(l()(),u._0(0,0,null,null,2,"ng-component",[],null,null,null,o,gl)),u._17(512,null,g,g,[c.a]),u.Z(2,49152,null,0,y,[J.a,O.a,g,ml.a],null,null)],null,null)},{},{},[]),pl=a(172),fl=a(25),hl=a(151),_l=a(154),bl=a(171),wl=a(48),Cl=a(168),Ll=a(216),Pl=a(78),kl=a(66),vl=a(110),Fl=a(178),Hl=a(174),xl=a(183),Ml=a(410),Sl=a(173),Nl=a(170),Il=a(175),Al=a(155),Dl=u.X(v,[F.b],function(l){return u._11([u._12(512,u.i,u.T,[[8,[H.a,x.a,M.a,S.a,N.a,I.a,A.a,D.a,Z.a,T.a,yl]],[3,u.i],u.s]),u._12(5120,u.r,u._10,[[3,u.r]]),u._12(4608,ll.l,ll.k,[u.r,[2,ll.t]]),u._12(5120,u.b,u._1,[]),u._12(5120,u.p,u._7,[]),u._12(5120,u.q,u._8,[]),u._12(4608,i.c,i.q,[ll.d]),u._12(6144,u.E,null,[i.c]),u._12(4608,i.f,pl.a,[]),u._12(5120,i.d,function(l,e,a,t,n){return[new i.k(l,e),new i.o(a),new i.n(t,n)]},[ll.d,u.u,ll.d,ll.d,i.f]),u._12(4608,i.e,i.e,[i.d,u.u]),u._12(135680,i.m,i.m,[ll.d]),u._12(4608,i.l,i.l,[i.e,i.m]),u._12(6144,u.C,null,[i.l]),u._12(6144,i.p,null,[i.m]),u._12(4608,u.H,u.H,[u.u]),u._12(4608,i.h,i.h,[ll.d]),u._12(4608,i.i,i.i,[ll.d]),u._12(4608,r.c,r.c,[]),u._12(4608,r.g,r.b,[]),u._12(5120,r.i,r.j,[]),u._12(4608,r.h,r.h,[r.c,r.g,r.i]),u._12(4608,r.f,r.a,[]),u._12(5120,r.d,r.k,[r.h,r.f]),u._12(4608,fl.n,fl.n,[]),u._12(4608,fl.c,fl.c,[]),u._12(5120,p.b,p.f,[p.c,p.d]),u._12(5120,c.a,c.c,[p.b]),u._12(5120,f.a,f.c,[p.b]),u._12(5120,h.a,h.d,[p.b,h.c]),u._12(4608,hl.a,hl.a,[Y.a,G.a]),u._12(4608,_l.a,_l.a,[Y.a,G.a]),u._12(4608,bl.a,bl.a,[]),u._12(4608,R.a,R.a,[]),u._12(4608,wl.a,wl.a,[J.a]),u._12(4608,U.a,U.a,[G.a,J.a,u.u,Q.a]),u._12(4608,Cl.a,Cl.a,[Y.a,G.a]),u._12(5120,ll.g,Ll.c,[ll.r,[2,ll.a],G.a]),u._12(4608,ll.f,ll.f,[ll.g]),u._12(5120,Pl.b,Pl.d,[Y.a,Pl.a]),u._12(5120,dl.a,dl.b,[Y.a,Pl.b,ll.f,kl.b,u.i]),u._12(4608,ml.a,ml.a,[Y.a,G.a,dl.a]),u._12(4608,vl.a,vl.a,[Y.a,G.a]),u._12(4608,Fl.a,Fl.a,[Y.a,G.a,dl.a]),u._12(4608,Hl.a,Hl.a,[G.a,J.a,Q.a,Y.a,K.l]),u._12(4608,xl.a,xl.a,[Y.a,G.a]),u._12(4608,cl.a,cl.a,[J.a,G.a]),u._12(4608,L.a,L.a,[]),u._12(4608,w.a,w.a,[]),u._12(4608,C.a,C.a,[]),u._12(4608,_.a,_.a,[xl.a]),u._12(4608,b.a,b.a,[Cl.a]),u._12(4608,P.a,P.a,[]),u._12(512,ll.c,ll.c,[]),u._12(512,u.k,Ml.a,[]),u._12(256,G.b,{},[]),u._12(1024,Sl.a,Sl.b,[]),u._12(1024,J.a,J.b,[i.b,Sl.a,u.u]),u._12(1024,G.a,G.c,[G.b,J.a]),u._12(512,Q.a,Q.a,[J.a]),u._12(512,O.a,O.a,[]),u._12(512,Y.a,Y.a,[G.a,J.a,[2,O.a]]),u._12(512,K.l,K.l,[Y.a]),u._12(256,Pl.a,{links:[{loadChildren:"../components/action-sheet/layout-1/action-sheet-layout-1.module.ngfactory#ActionSheetLayout1ModuleNgFactory",name:"ActionSheetLayout1",segment:"action-sheet-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/action-sheet/layout-2/action-sheet-layout-2.module.ngfactory#ActionSheetLayout2ModuleNgFactory",name:"ActionSheetLayout2",segment:"action-sheet-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/action-sheet/layout-3/action-sheet-layout-3.module.ngfactory#ActionSheetLayout3ModuleNgFactory",name:"ActionSheetLayout3",segment:"action-sheet-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-1/check-box-layout-1.module.ngfactory#CheckBoxLayout1ModuleNgFactory",name:"CheckBoxLayout1",segment:"check-box-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-2/check-box-layout-2.module.ngfactory#CheckBoxLayout2ModuleNgFactory",name:"CheckBoxLayout2",segment:"check-box-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-3/check-box-layout-3.module.ngfactory#CheckBoxLayout3ModuleNgFactory",name:"CheckBoxLayout3",segment:"check-box-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/check-box/layout-4/check-box-layout-4.module.ngfactory#CheckBoxLayout4ModuleNgFactory",name:"CheckBoxLayout4",segment:"check-box-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/full-screen-gallery/full-screen-gallery.module.ngfactory#FullScreenGalleryModuleNgFactory",name:"FullScreenGallery",segment:"full-screen-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-1/image-gallery-layout-1.module.ngfactory#ImageGalleryLayout1ModuleNgFactory",name:"ImageGalleryLayout1",segment:"image-gallery-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-2/image-gallery-layout-2.module.ngfactory#ImageGalleryLayout2ModuleNgFactory",name:"ImageGalleryLayout2",segment:"image-gallery-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/image-gallery/layout-3/image-gallery-layout-3.module.ngfactory#ImageGalleryLayout3ModuleNgFactory",name:"ImageGalleryLayout3",segment:"image-gallery-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module.ngfactory#AppearanceAnimationLayout1ModuleNgFactory",name:"AppearanceAnimationLayout1",segment:"appearance-animation-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module.ngfactory#AppearanceAnimationLayout2ModuleNgFactory",name:"AppearanceAnimationLayout2",segment:"appearance-animation-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module.ngfactory#AppearanceAnimationLayout3ModuleNgFactory",name:"AppearanceAnimationLayout3",segment:"appearance-animation-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module.ngfactory#AppearanceAnimationLayout4ModuleNgFactory",name:"AppearanceAnimationLayout4",segment:"appearance-animation-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module.ngfactory#AppearanceAnimationLayout5ModuleNgFactory",name:"AppearanceAnimationLayout5",segment:"appearance-animation-layout-5",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module.ngfactory#DragAndDropLayout1ModuleNgFactory",name:"DragAndDropLayout1",segment:"drag-and-drop-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module.ngfactory#DragAndDropLayout2ModuleNgFactory",name:"DragAndDropLayout2",segment:"drag-and-drop-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module.ngfactory#DragAndDropLayout3ModuleNgFactory",name:"DragAndDropLayout3",segment:"drag-and-drop-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module.ngfactory#DragAndDropLayout4ModuleNgFactory",name:"DragAndDropLayout4",segment:"drag-and-drop-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-1/expandable-layout-1.module.ngfactory#ExpandableLayout1ModuleNgFactory",name:"ExpandableLayout1",segment:"expandable-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-2/expandable-layout-2.module.ngfactory#ExpandableLayout2ModuleNgFactory",name:"ExpandableLayout2",segment:"expandable-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/expandable/layout-3/expandable-layout-3.module.ngfactory#ExpandableLayout3ModuleNgFactory",name:"ExpandableLayout3",segment:"expandable-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-1/google-card-layout-1.module.ngfactory#GoogleCardLayout1ModuleNgFactory",name:"GoogleCardLayout1",segment:"google-card-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-2/google-card-layout-2.module.ngfactory#GoogleCardLayout2ModuleNgFactory",name:"GoogleCardLayout2",segment:"google-card-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-3/google-card-layout-3.module.ngfactory#GoogleCardLayout3ModuleNgFactory",name:"GoogleCardLayout3",segment:"google-card-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/google-card/layout-4/google-card-layout-4.module.ngfactory#GoogleCardLayout4ModuleNgFactory",name:"GoogleCardLayout4",segment:"google-card-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module.ngfactory#StickyListHeaderLayout1ModuleNgFactory",name:"StickyListHeaderLayout1",segment:"sticky-list-header-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module.ngfactory#StickyListHeaderLayout2ModuleNgFactory",name:"StickyListHeaderLayout2",segment:"sticky-list-header-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module.ngfactory#StickyListHeaderLayout3ModuleNgFactory",name:"StickyListHeaderLayout3",segment:"sticky-list-header-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module.ngfactory#StickyListHeaderLayout4ModuleNgFactory",name:"StickyListHeaderLayout4",segment:"sticky-list-header-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module.ngfactory#SwipeToDismissLayout1ModuleNgFactory",name:"SwipeToDismissLayout1",segment:"swipe-to-dismiss-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module.ngfactory#SwipeToDismissLayout2ModuleNgFactory",name:"SwipeToDismissLayout2",segment:"swipe-to-dismiss-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module.ngfactory#SwipeToDismissLayout3ModuleNgFactory",name:"SwipeToDismissLayout3",segment:"swipe-to-dismiss-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module.ngfactory#SwipeToDismissLayout4ModuleNgFactory",name:"SwipeToDismissLayout4",segment:"swipe-to-dismiss-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/login/layout-1/login-layout-1.module.ngfactory#LoginLayout1ModuleNgFactory",name:"LoginLayout1",segment:"login-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/login/layout-2/login-layout-2.module.ngfactory#LoginLayout2ModuleNgFactory",name:"LoginLayout2",segment:"login-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-1/maps-layout-1.module.ngfactory#MapsLayout1ModuleNgFactory",name:"MapsLayout1",segment:"maps-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-2/maps-layout-2.module.ngfactory#MapsLayout2ModuleNgFactory",name:"MapsLayout2",segment:"maps-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/maps/layout-3/maps-layout-3.module.ngfactory#MapsLayout3ModuleNgFactory",name:"MapsLayout3",segment:"maps-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-1/parallax-layout-1.module.ngfactory#ParallaxLayout1ModuleNgFactory",name:"ParallaxLayout1",segment:"parallax-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-2/parallax-layout-2.module.ngfactory#ParallaxLayout2ModuleNgFactory",name:"ParallaxLayout2",segment:"parallax-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-3/parallax-layout-3.module.ngfactory#ParallaxLayout3ModuleNgFactory",name:"ParallaxLayout3",segment:"parallax-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/parallax/layout-4/parallax-layout-4.module.ngfactory#ParallaxLayout4ModuleNgFactory",name:"ParallaxLayout4",segment:"parallax-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/qrcode/layout-1/qrcode-layout-1.module.ngfactory#QRcodeLayout1ModuleNgFactory",name:"QRcodeLayout1",segment:"qrcode-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-1/radio-button-layout-1.module.ngfactory#RadioButtonLayout1ModuleNgFactory",name:"RadioButtonLayout1",segment:"radio-button-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-2/radio-button-layout-2.module.ngfactory#RadioButtonLayout2ModuleNgFactory",name:"RadioButtonLayout2",segment:"radio-button-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/radio-button/layout-3/radio-button-layout-3.module.ngfactory#RadioButtonLayout3ModuleNgFactory",name:"RadioButtonLayout3",segment:"radio-button-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-1/range-layout-1.module.ngfactory#RangeLayout1ModuleNgFactory",name:"RangeLayout1",segment:"range-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-2/range-layout-2.module.ngfactory#RangeLayout2ModuleNgFactory",name:"RangeLayout2",segment:"range-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-3/range-layout-3.module.ngfactory#RangeLayout3ModuleNgFactory",name:"RangeLayout3",segment:"range-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/range/layout-4/range-layout-4.module.ngfactory#RangeLayout4ModuleNgFactory",name:"RangeLayout4",segment:"range-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/register/layout-1/register-layout-1.module.ngfactory#RegisterLayout1ModuleNgFactory",name:"RegisterLayout1",segment:"register-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/register/layout-2/register-layout-2.module.ngfactory#RegisterLayout2ModuleNgFactory",name:"RegisterLayout2",segment:"register-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-1/search-bar-layout-1.module.ngfactory#SearchBarLayout1ModuleNgFactory",name:"SearchBarLayout1",segment:"search-bar-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-2/search-bar-layout-2.module.ngfactory#SearchBarLayout2ModuleNgFactory",name:"SearchBarLayout2",segment:"search-bar-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/search-bar/layout-3/search-bar-layout-3.module.ngfactory#SearchBarLayout3ModuleNgFactory",name:"SearchBarLayout3",segment:"search-bar-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-1/select-layout-1.module.ngfactory#SelectLayout1ModuleNgFactory",name:"SelectLayout1",segment:"select-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-2/select-layout-2.module.ngfactory#SelectLayout2ModuleNgFactory",name:"SelectLayout2",segment:"select-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-3/select-layout-3.module.ngfactory#SelectLayout3ModuleNgFactory",name:"SelectLayout3",segment:"select-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-4/select-layout-4.module.ngfactory#SelectLayout4ModuleNgFactory",name:"SelectLayout4",segment:"select-layout-4",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-5/select-layout-5.module.ngfactory#SelectLayout5ModuleNgFactory",name:"SelectLayout5",segment:"select-layout-5",priority:"low",defaultHistory:[]},{loadChildren:"../components/select/layout-6/select-layout-6.module.ngfactory#SelectLayout6ModuleNgFactory",name:"SelectLayout6",segment:"select-layout-6",priority:"low",defaultHistory:[]},{loadChildren:"../components/spinner/spinner.module.ngfactory#SpinnerModuleNgFactory",name:"Spinner",segment:"spinner",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-1/splash-screen-layout-1.module.ngfactory#SplashScreenLayout1ModuleNgFactory",name:"SplashScreenLayout1",segment:"splash-screen-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-2/splash-screen-layout-2.module.ngfactory#SplashScreenLayout2ModuleNgFactory",name:"SplashScreenLayout2",segment:"splash-screen-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/splash-screen/layout-3/splash-screen-layout-3.module.ngfactory#SplashScreenLayout3ModuleNgFactory",name:"SplashScreenLayout3",segment:"splash-screen-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/sub-image-gallery/sub-image-gallery.module.ngfactory#SubImageGalleryModuleNgFactory",name:"SubImageGallery",segment:"sub-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-1/tabs-layout-1.module.ngfactory#TabsLayout1ModuleNgFactory",name:"TabsLayout1",segment:"tabs-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-2/tabs-layout-2.module.ngfactory#TabsLayout2ModuleNgFactory",name:"TabsLayout2",segment:"tabs-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/tabs/layout-3/tabs-layout-3.module.ngfactory#TabsLayout3ModuleNgFactory",name:"TabsLayout3",segment:"tabs-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-1/toggle-layout-1.module.ngfactory#ToggleLayout1ModuleNgFactory",name:"ToggleLayout1",segment:"toggle-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-2/toggle-layout-2.module.ngfactory#ToggleLayout2ModuleNgFactory",name:"ToggleLayout2",segment:"toggle-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/toggle/layout-3/toggle-layout-3.module.ngfactory#ToggleLayout3ModuleNgFactory",name:"ToggleLayout3",segment:"toggle-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-1/wizard-layout-1.module.ngfactory#WizardLayout1ModuleNgFactory",name:"WizardLayout1",segment:"wizard-layout-1",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-2/wizard-layout-2.module.ngfactory#WizardLayout2ModuleNgFactory",name:"WizardLayout2",segment:"wizard-layout-2",priority:"low",defaultHistory:[]},{loadChildren:"../components/wizard/layout-3/wizard-layout-3.module.ngfactory#WizardLayout3ModuleNgFactory",name:"WizardLayout3",segment:"wizard-layout-3",priority:"low",defaultHistory:[]},{loadChildren:"../pages/elementsClasses/elementsClasses.module.ngfactory#ElementsClassesPageModuleNgFactory",name:"ElementsClassesPage",segment:"elementsClasses",priority:"low",defaultHistory:[]},{loadChildren:"../pages/elementsHome/elementsHome.module.ngfactory#ElementsHomePageModuleNgFactory",name:"ElementsHomePage",segment:"elementsHome",priority:"low",defaultHistory:[]},{loadChildren:"../pages/home/home.module.ngfactory#HomePageModuleNgFactory",name:"HomePage",segment:"home",priority:"low",defaultHistory:[]},{loadChildren:"../pages/intro-page/intro-page.module.ngfactory#IntroPageModuleNgFactory",name:"IntroPage",segment:"intro-page",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-action-sheet/item-details-action-sheet.module.ngfactory#ItemDetailsPageActionSheetModuleNgFactory",name:"ItemDetailsPageActionSheet",segment:"item-details-action-sheet",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-appearance-animation/item-details-appearance-animation.module.ngfactory#ItemDetailsPageAppearanceAnimationModuleNgFactory",name:"ItemDetailsPageAppearanceAnimation",segment:"item-details-appearance-animation",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-check-box/item-details-check-box.module.ngfactory#ItemDetailsPageCheckBoxModuleNgFactory",name:"ItemDetailsPageCheckBox",segment:"item-details-check-box",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-drag-and-drop/item-details-drag-and-drop.module.ngfactory#ItemDetailsPageDragAndDropModuleNgFactory",name:"ItemDetailsPageDragAndDrop",segment:"item-details-drag-and-drop",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-expandable/item-details-expandable.module.ngfactory#ItemDetailsPageExpandableModuleNgFactory",name:"ItemDetailsPageExpandable",segment:"item-details-expandable",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-full-screen-gallery/item-details-full-screen-gallery.module.ngfactory#ItemDetailsPageFullScreenGalleryModuleNgFactory",name:"ItemDetailsPageFullScreenGallery",segment:"item-details-full-screen-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-google-card/item-details-google-card.module.ngfactory#ItemDetailsPageGoogleCardModuleNgFactory",name:"ItemDetailsPageGoogleCard",segment:"item-details-google-card",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-image-gallery/item-details-image-gallery.module.ngfactory#ItemDetailsPageImageGalleryModuleNgFactory",name:"ItemDetailsPageImageGallery",segment:"item-details-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-login/item-details-login.module.ngfactory#ItemDetailsPageLoginModuleNgFactory",name:"ItemDetailsPageLogin",segment:"item-details-login",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-maps/item-details-maps.module.ngfactory#ItemDetailsPageMapsModuleNgFactory",name:"ItemDetailsPageMaps",segment:"item-details-maps",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-parallax/item-details-parallax.module.ngfactory#ItemDetailsPageParallaxModuleNgFactory",name:"ItemDetailsPageParallax",segment:"item-details-parallax",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-qrcode/item-details-qrcode.module.ngfactory#ItemDetailsPageQRCodeModuleNgFactory",name:"ItemDetailsPageQRCode",segment:"item-details-qrcode",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-radio-button/item-details-radio-button.module.ngfactory#ItemDetailsPageRadioButtonModuleNgFactory",name:"ItemDetailsPageRadioButton",segment:"item-details-radio-button",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-range/item-details-range.module.ngfactory#ItemDetailsPageRangeModuleNgFactory",name:"ItemDetailsPageRange",segment:"item-details-range",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-register/item-details-register.module.ngfactory#ItemDetailsPageRegisterModuleNgFactory",name:"ItemDetailsPageRegister",segment:"item-details-register",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-search-bar/item-details-search-bar.module.ngfactory#ItemDetailsPageSearchBarModuleNgFactory",name:"ItemDetailsPageSearchBar",segment:"item-details-search-bar",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-select/item-details-select.module.ngfactory#ItemDetailsPageSelectModuleNgFactory",name:"ItemDetailsPageSelect",segment:"item-details-select",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-spinner/item-details-spinner.module.ngfactory#ItemDetailsPageSpinnerModuleNgFactory",name:"ItemDetailsPageSpinner",segment:"item-details-spinner",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-splash-screen/item-details-splash-screen.module.ngfactory#ItemDetailsPageSplashScreenModuleNgFactory",name:"ItemDetailsPageSplashScreen",segment:"item-details-splash-screen",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-sticky-list-header/item-details-sticky-list-header.module.ngfactory#ItemDetailsPageStickyListHeaderModuleNgFactory",name:"ItemDetailsPageStickyListHeader",segment:"item-details-sticky-list-header",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-sub-image-gallery/item-details-sub-image-gallery.module.ngfactory#ItemDetailsPageSubImageGalleryModuleNgFactory",name:"ItemDetailsPageSubImageGallery",segment:"item-details-sub-image-gallery",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-swipe-to-dismiss/item-details-swipe-to-dismiss.module.ngfactory#ItemDetailsPageSwipeToDismissModuleNgFactory",name:"ItemDetailsPageSwipeToDismiss",segment:"item-details-swipe-to-dismiss",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-tabs/item-details-tabs.module.ngfactory#ItemDetailsPageTabsModuleNgFactory",name:"ItemDetailsPageTabs",segment:"item-details-tabs",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-text-view/item-details-text-view.module.ngfactory#ItemDetailsPageTextViewModuleNgFactory",name:"ItemDetailsPageTextView",segment:"item-details-text-view",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-toggle/item-details-toggle.module.ngfactory#ItemDetailsPageToggleModuleNgFactory",name:"ItemDetailsPageToggle",segment:"item-details-toggle",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details-wizard/item-details-wizard.module.ngfactory#ItemDetailsPageWizardModuleNgFactory",name:"ItemDetailsPageWizard",segment:"item-details-wizard",priority:"low",defaultHistory:[]},{loadChildren:"../pages/item-details/item-details.module.ngfactory#ItemDetailsPageModuleNgFactory",name:"ItemDetailsPage",segment:"item-details",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-1/tab-page-1.module.ngfactory#TabPage1ModuleNgFactory",name:"TabPage1",segment:"tab-page-1",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-2/tab-page-2.module.ngfactory#TabPage2ModuleNgFactory",name:"TabPage2",segment:"tab-page-2",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-3/tab-page-3.module.ngfactory#TabPage3ModuleNgFactory",name:"TabPage3",segment:"tab-page-3",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-4/tab-page-4.module.ngfactory#TabPage4ModuleNgFactory",name:"TabPage4",segment:"tab-page-4",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-5/tab-page-5.module.ngfactory#TabPage5ModuleNgFactory",name:"TabPage5",segment:"tab-page-5",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tab-page-6/tab-page-6.module.ngfactory#TabPage6ModuleNgFactory",name:"TabPage6",segment:"tab-page-6",priority:"low",defaultHistory:[]},{loadChildren:"../pages/items/items.module.ngfactory#ItemsPageModuleNgFactory",name:"ItemsPage",segment:"items",priority:"low",defaultHistory:[]}]},[]),u._12(512,u.h,u.h,[]),u._12(512,Nl.a,Nl.a,[u.h]),u._12(1024,kl.b,kl.c,[Nl.a,u.o]),u._12(1024,u.c,function(l,e,a,t,n,o,u,r,s,c,d,m,g){return[i.s(l),Il.a(e),bl.b(a,t),Hl.b(n,o,u,r,s),kl.d(c,d,m,g)]},[[2,u.t],G.a,J.a,Q.a,G.a,J.a,Q.a,Y.a,K.l,G.a,Pl.a,kl.b,u.u]),u._12(512,u.d,u.d,[[2,u.c]]),u._12(131584,u.f,u.f,[u.u,u.U,u.o,u.k,u.i,u.d]),u._12(512,u.e,u.e,[u.f]),u._12(512,i.a,i.a,[[3,i.a]]),u._12(512,r.e,r.e,[]),u._12(512,fl.m,fl.m,[]),u._12(512,fl.d,fl.d,[]),u._12(512,fl.k,fl.k,[]),u._12(512,Ll.a,Ll.a,[]),u._12(512,p.a,p.a,[]),u._12(512,c.b,c.b,[]),u._12(512,f.b,f.b,[]),u._12(512,h.b,h.b,[]),u._12(512,Ll.b,Ll.b,[]),u._12(512,k.a,k.a,[]),u._12(512,v,v,[]),u._12(256,p.c,{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",authDomain:"elements-arton.firebaseapp.com",databaseURL:"https://elements-arton.firebaseio.com",projectId:"elements-arton",storageBucket:"elements-arton.appspot.com",messagingSenderId:"715361864172"},[]),u._12(256,p.d,void 0,[]),u._12(256,h.c,!1,[]),u._12(256,kl.a,Al.a,[]),u._12(256,F.a,y,[]),u._12(256,ll.a,"/",[])])});Object(u.N)(),Object(i.j)().bootstrapModuleFactory(Dl)},91:function(l,e,a){"use strict";a.d(e,"a",function(){return t});a(0),a(65);var t=function(){function l(l){this.loadingCtrl=l}return l.prototype.show=function(){this.loading=this.loadingCtrl.create({content:"Please wait..."}),this.loading.present()},l.prototype.hide=function(){this.loading.dismiss()},l}()},92:function(l,e,a){"use strict";a.d(e,"a",function(){return t});var t=Object.freeze({IS_FIREBASE_ENABLED:!1,SHOW_START_WIZARD:!1,SUBSCRIBE:!0,TOAST:{duration:1e3,position:"buttom"},FIREBASE_CONFIG:{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",authDomain:"elements-arton.firebaseapp.com",databaseURL:"https://elements-arton.firebaseio.com",projectId:"elements-arton",storageBucket:"elements-arton.appspot.com",messagingSenderId:"715361864172"},MAP_KEY:{apiKey:"AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg"}})}},[435]);
+webpackJsonp([83],{
+
+/***/ 1030:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToastService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_settings__ = __webpack_require__(140);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ToastService = (function () {
+    function ToastService(toastCtrl) {
+        this.toastCtrl = toastCtrl;
+    }
+    ToastService.prototype.presentToast = function (message) {
+        var toastItem = __WEBPACK_IMPORTED_MODULE_2__app_settings__["a" /* AppSettings */].TOAST;
+        toastItem["message"] = message;
+        var toast = this.toastCtrl.create(toastItem);
+        toast.present();
+    };
+    ToastService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["q" /* ToastController */]])
+    ], ToastService);
+    return ToastService;
+}());
+
+//# sourceMappingURL=toast-service.js.map
+
+/***/ }),
+
+/***/ 140:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppSettings; });
+var AppSettings = Object.freeze({
+    "IS_FIREBASE_ENABLED": false,
+    "SHOW_START_WIZARD": false,
+    "SUBSCRIBE": true,
+    "TOAST": {
+        "duration": 1000,
+        "position": "buttom"
+    },
+    "FIREBASE_CONFIG": {
+        "apiKey": "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",
+        "authDomain": "elements-arton.firebaseapp.com",
+        "databaseURL": "https://elements-arton.firebaseio.com",
+        "projectId": "elements-arton",
+        "storageBucket": "elements-arton.appspot.com",
+        "messagingSenderId": "715361864172"
+    },
+    "MAP_KEY": {
+        "apiKey": "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg"
+    }
+});
+//# sourceMappingURL=app-settings.js.map
+
+/***/ }),
+
+/***/ 247:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 247;
+
+/***/ }),
+
+/***/ 292:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../components/action-sheet/layout-1/action-sheet-layout-1.module": [
+		1038,
+		12
+	],
+	"../components/action-sheet/layout-2/action-sheet-layout-2.module": [
+		1040,
+		11
+	],
+	"../components/action-sheet/layout-3/action-sheet-layout-3.module": [
+		1039,
+		82
+	],
+	"../components/check-box/layout-1/check-box-layout-1.module": [
+		1041,
+		81
+	],
+	"../components/check-box/layout-2/check-box-layout-2.module": [
+		1045,
+		80
+	],
+	"../components/check-box/layout-3/check-box-layout-3.module": [
+		1042,
+		79
+	],
+	"../components/check-box/layout-4/check-box-layout-4.module": [
+		1043,
+		78
+	],
+	"../components/full-screen-gallery/full-screen-gallery.module": [
+		1044,
+		77
+	],
+	"../components/image-gallery/layout-1/image-gallery-layout-1.module": [
+		1046,
+		76
+	],
+	"../components/image-gallery/layout-2/image-gallery-layout-2.module": [
+		1047,
+		75
+	],
+	"../components/image-gallery/layout-3/image-gallery-layout-3.module": [
+		1048,
+		74
+	],
+	"../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module": [
+		1049,
+		73
+	],
+	"../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module": [
+		1050,
+		72
+	],
+	"../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module": [
+		1051,
+		71
+	],
+	"../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module": [
+		1052,
+		70
+	],
+	"../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module": [
+		1053,
+		69
+	],
+	"../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module": [
+		1054,
+		68
+	],
+	"../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module": [
+		1055,
+		67
+	],
+	"../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module": [
+		1057,
+		66
+	],
+	"../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module": [
+		1056,
+		65
+	],
+	"../components/list-view/expandable/layout-1/expandable-layout-1.module": [
+		1058,
+		64
+	],
+	"../components/list-view/expandable/layout-2/expandable-layout-2.module": [
+		1060,
+		63
+	],
+	"../components/list-view/expandable/layout-3/expandable-layout-3.module": [
+		1059,
+		62
+	],
+	"../components/list-view/google-card/layout-1/google-card-layout-1.module": [
+		1061,
+		61
+	],
+	"../components/list-view/google-card/layout-2/google-card-layout-2.module": [
+		1062,
+		60
+	],
+	"../components/list-view/google-card/layout-3/google-card-layout-3.module": [
+		1065,
+		59
+	],
+	"../components/list-view/google-card/layout-4/google-card-layout-4.module": [
+		1063,
+		58
+	],
+	"../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module": [
+		1064,
+		6
+	],
+	"../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module": [
+		1068,
+		5
+	],
+	"../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module": [
+		1066,
+		4
+	],
+	"../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module": [
+		1067,
+		3
+	],
+	"../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module": [
+		1069,
+		57
+	],
+	"../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module": [
+		1070,
+		56
+	],
+	"../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module": [
+		1072,
+		55
+	],
+	"../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module": [
+		1071,
+		54
+	],
+	"../components/login/layout-1/login-layout-1.module": [
+		1073,
+		53
+	],
+	"../components/login/layout-2/login-layout-2.module": [
+		1074,
+		52
+	],
+	"../components/maps/layout-1/maps-layout-1.module": [
+		1075,
+		0
+	],
+	"../components/maps/layout-2/maps-layout-2.module": [
+		1076,
+		2
+	],
+	"../components/maps/layout-3/maps-layout-3.module": [
+		1077,
+		1
+	],
+	"../components/parallax/layout-1/parallax-layout-1.module": [
+		1078,
+		10
+	],
+	"../components/parallax/layout-2/parallax-layout-2.module": [
+		1079,
+		9
+	],
+	"../components/parallax/layout-3/parallax-layout-3.module": [
+		1080,
+		8
+	],
+	"../components/parallax/layout-4/parallax-layout-4.module": [
+		1082,
+		7
+	],
+	"../components/qrcode/layout-1/qrcode-layout-1.module": [
+		1081,
+		51
+	],
+	"../components/radio-button/layout-1/radio-button-layout-1.module": [
+		1083,
+		50
+	],
+	"../components/radio-button/layout-2/radio-button-layout-2.module": [
+		1084,
+		49
+	],
+	"../components/radio-button/layout-3/radio-button-layout-3.module": [
+		1086,
+		48
+	],
+	"../components/range/layout-1/range-layout-1.module": [
+		1085,
+		47
+	],
+	"../components/range/layout-2/range-layout-2.module": [
+		1087,
+		46
+	],
+	"../components/range/layout-3/range-layout-3.module": [
+		1088,
+		45
+	],
+	"../components/range/layout-4/range-layout-4.module": [
+		1089,
+		44
+	],
+	"../components/register/layout-1/register-layout-1.module": [
+		1090,
+		43
+	],
+	"../components/register/layout-2/register-layout-2.module": [
+		1091,
+		42
+	],
+	"../components/search-bar/layout-1/search-bar-layout-1.module": [
+		1092,
+		41
+	],
+	"../components/search-bar/layout-2/search-bar-layout-2.module": [
+		1104,
+		40
+	],
+	"../components/search-bar/layout-3/search-bar-layout-3.module": [
+		1093,
+		39
+	],
+	"../components/select/layout-1/select-layout-1.module": [
+		1094,
+		38
+	],
+	"../components/select/layout-2/select-layout-2.module": [
+		1095,
+		37
+	],
+	"../components/select/layout-3/select-layout-3.module": [
+		1096,
+		36
+	],
+	"../components/select/layout-4/select-layout-4.module": [
+		1119,
+		35
+	],
+	"../components/select/layout-5/select-layout-5.module": [
+		1097,
+		34
+	],
+	"../components/select/layout-6/select-layout-6.module": [
+		1098,
+		33
+	],
+	"../components/spinner/spinner.module": [
+		1099,
+		32
+	],
+	"../components/splash-screen/layout-1/splash-screen-layout-1.module": [
+		1100,
+		31
+	],
+	"../components/splash-screen/layout-2/splash-screen-layout-2.module": [
+		1115,
+		30
+	],
+	"../components/splash-screen/layout-3/splash-screen-layout-3.module": [
+		1101,
+		29
+	],
+	"../components/sub-image-gallery/sub-image-gallery.module": [
+		1102,
+		28
+	],
+	"../components/tabs/layout-1/tabs-layout-1.module": [
+		1120,
+		27
+	],
+	"../components/tabs/layout-2/tabs-layout-2.module": [
+		1103,
+		26
+	],
+	"../components/tabs/layout-3/tabs-layout-3.module": [
+		1105,
+		25
+	],
+	"../components/toggle/layout-1/toggle-layout-1.module": [
+		1106,
+		24
+	],
+	"../components/toggle/layout-2/toggle-layout-2.module": [
+		1107,
+		23
+	],
+	"../components/toggle/layout-3/toggle-layout-3.module": [
+		1108,
+		22
+	],
+	"../components/wizard/layout-1/wizard-layout-1.module": [
+		1109,
+		21
+	],
+	"../components/wizard/layout-2/wizard-layout-2.module": [
+		1110,
+		20
+	],
+	"../components/wizard/layout-3/wizard-layout-3.module": [
+		1111,
+		19
+	],
+	"../pages/elementsClasses/elementsClasses.module": [
+		1112,
+		18
+	],
+	"../pages/elementsHome/elementsHome.module": [
+		1113,
+		17
+	],
+	"../pages/elementsMagias/elementsMagias.module": [
+		1114,
+		16
+	],
+	"../pages/elementsPericias/elementsPericias.module": [
+		1118,
+		15
+	],
+	"../pages/elementsRacas/elementsRacas.module": [
+		1116,
+		14
+	],
+	"../pages/home/home.module": [
+		1117,
+		13
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 292;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 606:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var LoadingService = (function () {
+    function LoadingService(loadingCtrl) {
+        this.loadingCtrl = loadingCtrl;
+    }
+    LoadingService.prototype.show = function () {
+        this.loading = this.loadingCtrl.create({
+            content: 'Please wait...'
+        });
+        this.loading.present();
+    };
+    LoadingService.prototype.hide = function () {
+        this.loading.dismiss();
+    };
+    LoadingService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["h" /* LoadingController */]])
+    ], LoadingService);
+    return LoadingService;
+}());
+
+//# sourceMappingURL=loading-service.js.map
+
+/***/ }),
+
+/***/ 609:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(614);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 614:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__ = __webpack_require__(985);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_toast_service__ = __webpack_require__(1030);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_loading_service__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(1031);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(1035);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_barcode_scanner__ = __webpack_require__(1036);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_google_analytics__ = __webpack_require__(1037);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var firebaseAppConfig = {
+    apiKey: "AIzaSyCqrGGPf5TJK0kwVqn8Z5-HnKJcx6wS9Tg",
+    authDomain: "elements-arton.firebaseapp.com",
+    databaseURL: "https://elements-arton.firebaseio.com",
+    projectId: "elements-arton",
+    storageBucket: "elements-arton.appspot.com",
+    messagingSenderId: "715361864172"
+};
+var AppModule = (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
+                    links: [
+                        { loadChildren: '../components/action-sheet/layout-1/action-sheet-layout-1.module#ActionSheetLayout1Module', name: 'ActionSheetLayout1', segment: 'action-sheet-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/action-sheet/layout-3/action-sheet-layout-3.module#ActionSheetLayout3Module', name: 'ActionSheetLayout3', segment: 'action-sheet-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/action-sheet/layout-2/action-sheet-layout-2.module#ActionSheetLayout2Module', name: 'ActionSheetLayout2', segment: 'action-sheet-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-1/check-box-layout-1.module#CheckBoxLayout1Module', name: 'CheckBoxLayout1', segment: 'check-box-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-3/check-box-layout-3.module#CheckBoxLayout3Module', name: 'CheckBoxLayout3', segment: 'check-box-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-4/check-box-layout-4.module#CheckBoxLayout4Module', name: 'CheckBoxLayout4', segment: 'check-box-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/full-screen-gallery/full-screen-gallery.module#FullScreenGalleryModule', name: 'FullScreenGallery', segment: 'full-screen-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/check-box/layout-2/check-box-layout-2.module#CheckBoxLayout2Module', name: 'CheckBoxLayout2', segment: 'check-box-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-1/image-gallery-layout-1.module#ImageGalleryLayout1Module', name: 'ImageGalleryLayout1', segment: 'image-gallery-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-2/image-gallery-layout-2.module#ImageGalleryLayout2Module', name: 'ImageGalleryLayout2', segment: 'image-gallery-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/image-gallery/layout-3/image-gallery-layout-3.module#ImageGalleryLayout3Module', name: 'ImageGalleryLayout3', segment: 'image-gallery-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-1/appearance-animation-layout-1.module#AppearanceAnimationLayout1Module', name: 'AppearanceAnimationLayout1', segment: 'appearance-animation-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-2/appearance-animation-layout-2.module#AppearanceAnimationLayout2Module', name: 'AppearanceAnimationLayout2', segment: 'appearance-animation-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-3/appearance-animation-layout-3.module#AppearanceAnimationLayout3Module', name: 'AppearanceAnimationLayout3', segment: 'appearance-animation-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-4/appearance-animation-layout-4.module#AppearanceAnimationLayout4Module', name: 'AppearanceAnimationLayout4', segment: 'appearance-animation-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/appearance-animation/layout-5/appearance-animation-layout-5.module#AppearanceAnimationLayout5Module', name: 'AppearanceAnimationLayout5', segment: 'appearance-animation-layout-5', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-1/drag-and-drop-layout-1.module#DragAndDropLayout1Module', name: 'DragAndDropLayout1', segment: 'drag-and-drop-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-2/drag-and-drop-layout-2.module#DragAndDropLayout2Module', name: 'DragAndDropLayout2', segment: 'drag-and-drop-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-4/drag-and-drop-layout-4.module#DragAndDropLayout4Module', name: 'DragAndDropLayout4', segment: 'drag-and-drop-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/drag-and-drop/layout-3/drag-and-drop-layout-3.module#DragAndDropLayout3Module', name: 'DragAndDropLayout3', segment: 'drag-and-drop-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-1/expandable-layout-1.module#ExpandableLayout1Module', name: 'ExpandableLayout1', segment: 'expandable-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-3/expandable-layout-3.module#ExpandableLayout3Module', name: 'ExpandableLayout3', segment: 'expandable-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/expandable/layout-2/expandable-layout-2.module#ExpandableLayout2Module', name: 'ExpandableLayout2', segment: 'expandable-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-1/google-card-layout-1.module#GoogleCardLayout1Module', name: 'GoogleCardLayout1', segment: 'google-card-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-2/google-card-layout-2.module#GoogleCardLayout2Module', name: 'GoogleCardLayout2', segment: 'google-card-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-4/google-card-layout-4.module#GoogleCardLayout4Module', name: 'GoogleCardLayout4', segment: 'google-card-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-1/sticky-list-header-layout-1.module#StickyListHeaderLayout1Module', name: 'StickyListHeaderLayout1', segment: 'sticky-list-header-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/google-card/layout-3/google-card-layout-3.module#GoogleCardLayout3Module', name: 'GoogleCardLayout3', segment: 'google-card-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-3/sticky-list-header-layout-3.module#StickyListHeaderLayout3Module', name: 'StickyListHeaderLayout3', segment: 'sticky-list-header-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-4/sticky-list-header-layout-4.module#StickyListHeaderLayout4Module', name: 'StickyListHeaderLayout4', segment: 'sticky-list-header-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/sticky-list-header/layout-2/sticky-list-header-layout-2.module#StickyListHeaderLayout2Module', name: 'StickyListHeaderLayout2', segment: 'sticky-list-header-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-1/swipe-to-dismiss-layout-1.module#SwipeToDismissLayout1Module', name: 'SwipeToDismissLayout1', segment: 'swipe-to-dismiss-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-2/swipe-to-dismiss-layout-2.module#SwipeToDismissLayout2Module', name: 'SwipeToDismissLayout2', segment: 'swipe-to-dismiss-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-4/swipe-to-dismiss-layout-4.module#SwipeToDismissLayout4Module', name: 'SwipeToDismissLayout4', segment: 'swipe-to-dismiss-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss-layout-3.module#SwipeToDismissLayout3Module', name: 'SwipeToDismissLayout3', segment: 'swipe-to-dismiss-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/login/layout-1/login-layout-1.module#LoginLayout1Module', name: 'LoginLayout1', segment: 'login-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/login/layout-2/login-layout-2.module#LoginLayout2Module', name: 'LoginLayout2', segment: 'login-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-1/maps-layout-1.module#MapsLayout1Module', name: 'MapsLayout1', segment: 'maps-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-2/maps-layout-2.module#MapsLayout2Module', name: 'MapsLayout2', segment: 'maps-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/maps/layout-3/maps-layout-3.module#MapsLayout3Module', name: 'MapsLayout3', segment: 'maps-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-1/parallax-layout-1.module#ParallaxLayout1Module', name: 'ParallaxLayout1', segment: 'parallax-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-2/parallax-layout-2.module#ParallaxLayout2Module', name: 'ParallaxLayout2', segment: 'parallax-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-3/parallax-layout-3.module#ParallaxLayout3Module', name: 'ParallaxLayout3', segment: 'parallax-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/qrcode/layout-1/qrcode-layout-1.module#QRcodeLayout1Module', name: 'QRcodeLayout1', segment: 'qrcode-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/parallax/layout-4/parallax-layout-4.module#ParallaxLayout4Module', name: 'ParallaxLayout4', segment: 'parallax-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-1/radio-button-layout-1.module#RadioButtonLayout1Module', name: 'RadioButtonLayout1', segment: 'radio-button-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-2/radio-button-layout-2.module#RadioButtonLayout2Module', name: 'RadioButtonLayout2', segment: 'radio-button-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-1/range-layout-1.module#RangeLayout1Module', name: 'RangeLayout1', segment: 'range-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/radio-button/layout-3/radio-button-layout-3.module#RadioButtonLayout3Module', name: 'RadioButtonLayout3', segment: 'radio-button-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-2/range-layout-2.module#RangeLayout2Module', name: 'RangeLayout2', segment: 'range-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-3/range-layout-3.module#RangeLayout3Module', name: 'RangeLayout3', segment: 'range-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/range/layout-4/range-layout-4.module#RangeLayout4Module', name: 'RangeLayout4', segment: 'range-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/register/layout-1/register-layout-1.module#RegisterLayout1Module', name: 'RegisterLayout1', segment: 'register-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/register/layout-2/register-layout-2.module#RegisterLayout2Module', name: 'RegisterLayout2', segment: 'register-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-1/search-bar-layout-1.module#SearchBarLayout1Module', name: 'SearchBarLayout1', segment: 'search-bar-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-3/search-bar-layout-3.module#SearchBarLayout3Module', name: 'SearchBarLayout3', segment: 'search-bar-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-1/select-layout-1.module#SelectLayout1Module', name: 'SelectLayout1', segment: 'select-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-2/select-layout-2.module#SelectLayout2Module', name: 'SelectLayout2', segment: 'select-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-3/select-layout-3.module#SelectLayout3Module', name: 'SelectLayout3', segment: 'select-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-5/select-layout-5.module#SelectLayout5Module', name: 'SelectLayout5', segment: 'select-layout-5', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-6/select-layout-6.module#SelectLayout6Module', name: 'SelectLayout6', segment: 'select-layout-6', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/spinner/spinner.module#SpinnerModule', name: 'Spinner', segment: 'spinner', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-1/splash-screen-layout-1.module#SplashScreenLayout1Module', name: 'SplashScreenLayout1', segment: 'splash-screen-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-3/splash-screen-layout-3.module#SplashScreenLayout3Module', name: 'SplashScreenLayout3', segment: 'splash-screen-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/sub-image-gallery/sub-image-gallery.module#SubImageGalleryModule', name: 'SubImageGallery', segment: 'sub-image-gallery', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-2/tabs-layout-2.module#TabsLayout2Module', name: 'TabsLayout2', segment: 'tabs-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/search-bar/layout-2/search-bar-layout-2.module#SearchBarLayout2Module', name: 'SearchBarLayout2', segment: 'search-bar-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-3/tabs-layout-3.module#TabsLayout3Module', name: 'TabsLayout3', segment: 'tabs-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-1/toggle-layout-1.module#ToggleLayout1Module', name: 'ToggleLayout1', segment: 'toggle-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-2/toggle-layout-2.module#ToggleLayout2Module', name: 'ToggleLayout2', segment: 'toggle-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/toggle/layout-3/toggle-layout-3.module#ToggleLayout3Module', name: 'ToggleLayout3', segment: 'toggle-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-1/wizard-layout-1.module#WizardLayout1Module', name: 'WizardLayout1', segment: 'wizard-layout-1', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-2/wizard-layout-2.module#WizardLayout2Module', name: 'WizardLayout2', segment: 'wizard-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/wizard/layout-3/wizard-layout-3.module#WizardLayout3Module', name: 'WizardLayout3', segment: 'wizard-layout-3', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsClasses/elementsClasses.module#ElementsClassesPageModule', name: 'ElementsClassesPage', segment: 'elementsClasses', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsHome/elementsHome.module#ElementsHomePageModule', name: 'ElementsHomePage', segment: 'elementsHome', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsMagias/elementsMagias.module#ElementsMagiasPageModule', name: 'ElementsMagiasPage', segment: 'elementsMagias', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/splash-screen/layout-2/splash-screen-layout-2.module#SplashScreenLayout2Module', name: 'SplashScreenLayout2', segment: 'splash-screen-layout-2', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsRacas/elementsRacas.module#ElementsRacasPageModule', name: 'ElementsRacasPage', segment: 'elementsRacas', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/elementsPericias/elementsPericias.module#ElementsPericiasPageModule', name: 'ElementsPericiasPage', segment: 'elementsPericias', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/select/layout-4/select-layout-4.module#SelectLayout4Module', name: 'SelectLayout4', segment: 'select-layout-4', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../components/tabs/layout-1/tabs-layout-1.module#TabsLayout1Module', name: 'TabsLayout1', segment: 'tabs-layout-1', priority: 'low', defaultHistory: [] }
+                    ]
+                }),
+                __WEBPACK_IMPORTED_MODULE_5_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseAppConfig),
+                __WEBPACK_IMPORTED_MODULE_6_angularfire2_database__["b" /* AngularFireDatabaseModule */], __WEBPACK_IMPORTED_MODULE_7_angularfire2_auth__["a" /* AngularFireAuthModule */], __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__["a" /* AngularFirestoreModule */]
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicApp */]],
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_13__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_9__services_toast_service__["a" /* ToastService */], __WEBPACK_IMPORTED_MODULE_10__services_loading_service__["a" /* LoadingService */], __WEBPACK_IMPORTED_MODULE_14__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 980:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_native__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_menu_service__ = __webpack_require__(984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_app_settings__ = __webpack_require__(140);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, menu, menuService, modalCtrl) {
+        var _this = this;
+        this.platform = platform;
+        this.menu = menu;
+        this.menuService = menuService;
+        this.modalCtrl = modalCtrl;
+        this.rootPage = "ElementsHomePage";
+        this.initializeApp();
+        this.pages = menuService.getAllThemes();
+        this.leftMenuTitle = menuService.getTitle();
+        this.menuService.load(null).subscribe(function (snapshot) {
+            _this.params = snapshot;
+        });
+        if (__WEBPACK_IMPORTED_MODULE_4__services_app_settings__["a" /* AppSettings */].SHOW_START_WIZARD) {
+            this.presentProfileModal();
+        }
+    }
+    MyApp.prototype.presentProfileModal = function () {
+        var profileModal = this.modalCtrl.create("IntroPage");
+        profileModal.present();
+    };
+    MyApp.prototype.initializeApp = function () {
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            __WEBPACK_IMPORTED_MODULE_2_ionic_native__["b" /* StatusBar */].styleDefault();
+            __WEBPACK_IMPORTED_MODULE_2_ionic_native__["a" /* Splashscreen */].hide();
+            localStorage.setItem("mailChimpLocal", "true");
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // close the menu when clicking a link from the menu
+        // navigate to the new page if it is not the current page
+        if (page.singlePage) {
+            this.menu.open();
+            this.nav.push(this.getPageForOpen(page.theme), {
+                service: this.getServiceForPage(page.theme),
+                page: page,
+                componentName: page.theme
+            });
+        }
+        else {
+            this.nav.setRoot("ItemsPage", {
+                componentName: page.theme
+            });
+        }
+    };
+    ;
+    MyApp.prototype.abrePagina = function (page) {
+        console.log(page);
+        this.nav.push(page);
+    };
+    MyApp.prototype.getPageForOpen = function (value) {
+        return null;
+    };
+    MyApp.prototype.getServiceForPage = function (value) {
+        return null;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\app\app.html"*/'<ion-split-pane when="md">\n\n  <ion-menu [content]="content" *ngIf="params != null">\n\n    <!-- Menu Main Top -->\n\n    <ion-header padding background-size header-background-image\n\n    [ngStyle]="{\'background-image\': \'url(\' + params.background + \')\'}">\n\n      <ion-thumbnail>\n\n        <img [src]="params.image">\n\n      </ion-thumbnail>\n\n      <h2 item-title text-center></h2>\n\n    </ion-header>\n\n    \n\n    <!-- Menu Main List -->\n\n    <ion-content>\n\n      <ion-list no-margin no-padding>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsClassesPage\')">\n\n          <ion-icon padding-left>\n\n            <i class="icon icon-format-align-justify"></i>\n\n          </ion-icon>\n\n          Classes\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRacasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Raças\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsMagiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Magias\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsPericiasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Perícias\n\n        </button>\n\n        <!-- <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsLojasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Lojas\n\n        </button>\n\n        <button menuClose ion-item item-title no-padding main-menu (click)="abrePagina(\'ElementsRegrasPage\')">\n\n            <ion-icon padding-left>\n\n              <i class="icon icon-format-align-justify"></i>\n\n            </ion-icon>\n\n            Regras\n\n        </button> -->\n\n      </ion-list>\n\n        <!-- <ion-list no-margin no-padding>\n\n          <button menuClose ion-item item-title no-padding main-menu *ngFor="let p of pages" (click)="openPage(p)">\n\n          <ion-icon padding-left>\n\n            <i class="icon {{p.icon}}"></i>\n\n          </ion-icon>\n\n          {{p.title}}\n\n        </button>\n\n        </ion-list> -->\n\n    </ion-content>\n\n  </ion-menu>\n\n  <!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n  <ion-nav [root]="rootPage" #content main swipeBackEnabled="false"></ion-nav>\n\n</ion-split-pane>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\app\app.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_3__services_menu_service__["a" /* MenuService */]]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_3__services_menu_service__["a" /* MenuService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ModalController */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 984:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MenuService = (function () {
+    function MenuService(af) {
+        var _this = this;
+        this.af = af;
+        this.getId = function () { return 'menu'; };
+        this.getTitle = function () { return 'UIAppTemplate'; };
+        this.getAllThemes = function () {
+            return [
+                { "title": "List Views", "theme": "listViews", "icon": "icon-format-align-justify", "listView": true, "component": "", "singlePage": false },
+                { "title": "Parallax", "theme": "parallax", "icon": "icon-format-line-spacing", "listView": false, "component": "", "singlePage": false },
+                { "title": "Login Pages", "theme": "login", "icon": "icon-lock-open-outline", "listView": false, "component": "", "singlePage": false },
+                { "title": "Register Pages", "theme": "register", "icon": "icon-comment-account", "listView": false, "component": "", "singlePage": false },
+                { "title": "Image Gallery", "theme": "imageGallery", "icon": "icon-apps", "listView": false, "component": "", "singlePage": false },
+                { "title": "Splash Screen", "theme": "splashScreens", "icon": "icon-logout", "listView": false, "component": "", "singlePage": false },
+                { "title": "Check Boxs", "theme": "checkBoxes", "icon": "icon-checkbox-marked", "listView": false, "component": "", "singlePage": false },
+                { "title": "Search Bars", "theme": "searchBars", "icon": "icon-magnify", "listView": false, "component": "", "singlePage": false },
+                { "title": "Typo + small components", "theme": "textViews", "icon": "icon-tumblr", "listView": false, "component": "", "singlePage": false },
+                { "title": "Wizard", "theme": "wizard", "icon": "icon-cellphone-settings", "listView": false, "component": "", "singlePage": false },
+                { "title": "Spinner", "theme": "spinner", "icon": "icon-image-filter-tilt-shift", "listView": false, "component": "", "singlePage": false },
+                { "title": "Tabs", "theme": "tabs", "icon": "icon-view-array", "listView": false, "component": "", "singlePage": false },
+                { "title": "Maps", "theme": "maps", "icon": "icon-google-maps", "listView": false, "component": "", "singlePage": false },
+                { "title": "QRCode", "theme": "qrcode", "icon": "icon-qrcode", "listView": false, "component": "", "singlePage": false },
+                { "title": "Radio Button", "theme": "radioButton", "icon": "icon-radiobox-marked", "listView": false, "component": "", "singlePage": false },
+                { "title": "Range", "theme": "range", "icon": "icon-toggle-switch-off", "listView": false, "component": "", "singlePage": false },
+                { "title": "Toggle", "theme": "toggle", "icon": "icon-toggle-switch", "listView": false, "component": "", "singlePage": false },
+                { "title": "Select", "theme": "select", "icon": "icon-menu-down", "listView": true, "component": "", "singlePage": false },
+                { "title": "Action Sheet", "theme": "actionSheet", "icon": "icon-dots-horizontal", "listView": false, "component": "", "singlePage": false }
+            ];
+        };
+        this.getDataForTheme = function (menuItem) {
+            return {
+                "background": "assets/images/topo.png",
+                "image": "assets/images/logo/criticoIco512.png",
+                "title": "Ionic3 UI Theme - Yellow Dark"
+            };
+        };
+        this.getEventsForTheme = function (menuItem) {
+            return {};
+        };
+        this.prepareParams = function (item) {
+            return {
+                title: item.title,
+                data: {},
+                events: _this.getEventsForTheme(item)
+            };
+        };
+    }
+    MenuService.prototype.load = function (item) {
+        var _this = this;
+        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                _this.af
+                    .object('menu')
+                    .valueChanges()
+                    .subscribe(function (snapshot) {
+                    observer.next(snapshot);
+                    observer.complete();
+                }, function (err) {
+                    observer.error([]);
+                    observer.complete();
+                });
+            });
+        }
+        else {
+            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
+                observer.next(_this.getDataForTheme(item));
+                observer.complete();
+            });
+        }
+    };
+    MenuService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], MenuService);
+    return MenuService;
+}());
+
+//# sourceMappingURL=menu-service.js.map
+
+/***/ })
+
+},[609]);
+//# sourceMappingURL=main.js.map

@@ -1,1 +1,114 @@
-webpackJsonp([66],{1137:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1138:function(l,n,u){"use strict";function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,24,"ion-item",[["class","item item-block"]],null,null,null,o.b,o.a)),i.Z(1,1097728,null,3,c.a,[r.a,_.a,i.j,i.A,[2,s.a]],null,null),i._18(335544320,1,{contentLabel:0}),i._18(603979776,2,{_buttons:1}),i._18(603979776,3,{_icons:1}),i.Z(5,16384,null,0,d.a,[],null,null),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(7,0,null,0,4,"ion-avatar",[["item-start",""]],null,null,null,null,null)),i.Z(8,16384,null,0,f.a,[],null,null),(l()(),i._20(-1,null,["\n          "])),(l()(),i._0(10,0,null,null,0,"img",[["images-filter",""]],[[8,"src",4]],null,null,null,null)),(l()(),i._20(-1,null,["\n        "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(13,0,null,1,2,"ion-label",[["item-title",""],["padding-top",""]],null,null,null,null,null)),i.Z(14,16384,[[1,4]],0,g.a,[_.a,i.j,i.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),i._20(15,null,["",""])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(17,0,null,1,2,"ion-label",[["item-subtitle",""],["text-wrap",""]],null,null,null,null,null)),i.Z(18,16384,[[1,4]],0,g.a,[_.a,i.j,i.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),i._20(19,null,["",""])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(21,0,null,4,2,"ion-toggle",[["item-end",""]],[[8,"value",0],[2,"toggle-disabled",null],[2,"toggle-checked",null],[2,"toggle-activated",null]],[[null,"ionChange"],[null,"keyup"]],function(l,n,u){var t=!0,a=l.component;if("keyup"===n){t=!1!==i._14(l,23)._keyup(u)&&t}if("ionChange"===n){t=!1!==a.onEvent("onSelect",l.context.$implicit)&&t}return t},b.b,b.a)),i._17(5120,null,v.f,function(l){return[l]},[p.a]),i.Z(23,1228800,null,0,p.a,[r.a,_.a,m.a,i.j,i.A,h.a,[2,c.a],k.l,y.a,i.u],{checked:[0,"checked"]},{ionChange:"ionChange"}),(l()(),i._20(-1,2,["\n      "]))],function(l,n){l(n,23,0,n.context.$implicit.isChecked)},function(l,n){l(n,10,0,n.context.$implicit.avatar);l(n,15,0,n.context.$implicit.title);l(n,19,0,n.context.$implicit.subtitle);l(n,21,0,n.context.$implicit.id,i._14(n,23)._disabled,i._14(n,23)._value,i._14(n,23)._activated)})}function a(l){return i._22(0,[(l()(),i._0(0,0,null,null,5,"ion-list",[],null,null,null,null,null)),i.Z(1,16384,null,0,Z.a,[_.a,i.j,i.A,m.a,k.l,y.a],null,null),(l()(),i._20(-1,null,["\n      "])),(l()(),i.V(16777216,null,null,1,null,t)),i.Z(4,802816,null,0,j.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._20(-1,null,["\n    "]))],function(l,n){l(n,4,0,n.component.data.items)},null)}function e(l){return i._22(0,[(l()(),i._20(-1,null,["\n"])),(l()(),i._0(1,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,x.b,x.a)),i.Z(2,4374528,null,0,A.a,[_.a,m.a,y.a,i.j,i.A,C.a,$.a,i.u,[2,O.a],[2,F.a]],null,null),(l()(),i._20(-1,1,["\n  "])),(l()(),i._0(4,0,null,1,5,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),i.Z(5,16384,null,0,I.a,[],null,null),(l()(),i._20(-1,null,["\n    "])),(l()(),i.V(16777216,null,null,1,null,a)),i.Z(8,16384,null,0,j.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._20(-1,null,["\n  "])),(l()(),i._20(-1,1,["\n"])),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,8,0,null!=n.component.data)},function(l,n){l(n,1,0,i._14(n,2).statusbarPadding,i._14(n,2)._hasRefresher)})}u.d(n,"a",function(){return V}),n.c=e,u.d(n,"b",function(){return w});var i=u(2),o=u(141),c=u(26),r=u(22),_=u(4),s=u(57),d=u(71),f=u(218),g=u(72),b=u(920),v=u(25),p=u(230),m=u(7),h=u(48),k=u(11),y=u(15),Z=u(67),j=u(20),x=u(215),A=u(35),C=u(14),$=u(39),O=u(8),F=u(33),I=u(142),J=u(992),V=i.Y({encapsulation:2,styles:[],data:{}}),w=i.W("toggle-layout-1",J.a,function(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"toggle-layout-1",[],null,null,null,e,V)),i.Z(1,573440,null,0,J.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},835:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),u.d(n,"ToggleLayout1ModuleNgFactory",function(){return k});var t=u(2),a=u(1137),e=u(418),i=u(419),o=u(420),c=u(421),r=u(422),_=u(423),s=u(424),d=u(425),f=u(426),g=u(1138),b=u(20),v=u(25),p=u(216),m=u(66),h=u(992),k=t.X(a.a,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[e.a,i.a,o.a,c.a,r.a,_.a,s.a,d.a,f.a,g.b]],[3,t.i],t.s]),t._12(4608,b.l,b.k,[t.r,[2,b.t]]),t._12(4608,v.n,v.n,[]),t._12(4608,v.c,v.c,[]),t._12(512,b.c,b.c,[]),t._12(512,v.m,v.m,[]),t._12(512,v.d,v.d,[]),t._12(512,v.k,v.k,[]),t._12(512,p.a,p.a,[]),t._12(512,p.b,p.b,[]),t._12(512,a.a,a.a,[]),t._12(256,m.a,h.a,[])])})},920:function(l,n,u){"use strict";function t(l){return a._22(0,[(l()(),a._0(0,0,null,null,1,"div",[["class","toggle-icon"]],null,null,null,null,null)),(l()(),a._0(1,0,null,null,0,"div",[["class","toggle-inner"]],null,null,null,null,null)),(l()(),a._0(2,0,null,null,1,"button",[["class","item-cover"],["disable-activated",""],["ion-button","item-cover"],["role","checkbox"],["type","button"]],[[8,"id",0],[1,"aria-checked",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,e.b,e.a)),a.Z(3,1097728,null,0,i.a,[[8,"item-cover"],o.a,a.j,a.A],null,null)],null,function(l,n){var u=n.component;l(n,2,0,u.id,u._value,u._labelId,u._disabled)})}u.d(n,"a",function(){return c}),n.b=t;var a=u(2),e=u(44),i=u(29),o=u(4),c=(u(22),u(7),u(48),u(11),u(15),a.Y({encapsulation:2,styles:[],data:{}}))},992:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0);var t=function(){function l(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}return l.prototype.ngOnChanges=function(l){this.data=l.data.currentValue},l}()}});
+webpackJsonp([66],{
+
+/***/ 1057:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout3Module", function() { return DragAndDropLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__ = __webpack_require__(1174);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DragAndDropLayout3Module = (function () {
+    function DragAndDropLayout3Module() {
+    }
+    DragAndDropLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], DragAndDropLayout3Module);
+    return DragAndDropLayout3Module;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1174:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DragAndDropLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DragAndDropLayout3 = (function () {
+    function DragAndDropLayout3() {
+        var _this = this;
+        this.reorderItems = function (indexes) {
+            _this.data.items = Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* reorderArray */])(_this.data.items, indexes);
+        };
+    }
+    DragAndDropLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    DragAndDropLayout3.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], DragAndDropLayout3.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], DragAndDropLayout3.prototype, "fabButton", void 0);
+    DragAndDropLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'drag-and-drop-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\drag-and-drop\layout-3\drag-and-drop.html"*/'<!-- Themes Medium item with avatar-->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <!--Content-->\n\n        <ion-row>\n\n            <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n                <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n                    <ion-item *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-start>\n\n                            <img [src]="item.image">\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <h3 item-subtitle>{{item.description}}</h3>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\drag-and-drop\layout-3\drag-and-drop.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], DragAndDropLayout3);
+    return DragAndDropLayout3;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=66.js.map

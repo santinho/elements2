@@ -1,14 +1,14 @@
 webpackJsonp([51],{
 
-/***/ 1115:
+/***/ 1081:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsClassesPageModule", function() { return ElementsClassesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "QRcodeLayout1Module", function() { return QRcodeLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsClasses__ = __webpack_require__(1268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__ = __webpack_require__(1198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,118 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ElementsClassesPageModule = (function () {
-    function ElementsClassesPageModule() {
+var QRcodeLayout1Module = (function () {
+    function QRcodeLayout1Module() {
     }
-    ElementsClassesPageModule = __decorate([
+    QRcodeLayout1Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__elementsClasses__["a" /* ElementsClassesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__elementsClasses__["a" /* ElementsClassesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__qrcode_layout_1__["a" /* QRcodeLayout1 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ElementsClassesPageModule);
-    return ElementsClassesPageModule;
+    ], QRcodeLayout1Module);
+    return QRcodeLayout1Module;
 }());
 
-//# sourceMappingURL=elementsClasses.module.js.map
+//# sourceMappingURL=qrcode-layout-1.module.js.map
 
 /***/ }),
 
-/***/ 1181:
+/***/ 1198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var HomeService = (function () {
-    function HomeService(af, loadingService) {
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getData = function () {
-            return {
-                "toolbarTitle": "Ionic3 UI Theme - Yellow Dark",
-                "title": "SAVE HOURS",
-                "subtitle": "OF DEVELOPING",
-                "subtitle2": "and make apps fast as light!",
-                "link": "http://csform.com/documentation-for-ionic-2-ui-template-app/",
-                "description": "For better understanding how our template works please read documentation.",
-                "background": "assets/images/background/29.jpg"
-            };
-        };
-    }
-    HomeService.prototype.load = function () {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('home')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getData());
-                observer.complete();
-            });
-        }
-    };
-    HomeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], HomeService);
-    return HomeService;
-}());
-
-//# sourceMappingURL=home-service.js.map
-
-/***/ }),
-
-/***/ 1268:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElementsClassesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QRcodeLayout1; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_home_service__ = __webpack_require__(1181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(610);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -140,77 +58,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
-
-var ElementsClassesPage = (function () {
-    function ElementsClassesPage(navCtrl, service, af) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.service = service;
-        this.af = af;
-        this.title = 'Classes';
-        this.node = 'Tormenta/Classes';
-        this.lvls = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        this.tipoClasses = [];
-        this.tipoClassesSelecionados = [];
-        this.searchTerm = "";
-        console.log('classes');
-        service.load().subscribe(function (snapshot) {
-            _this.data = snapshot;
-        });
-        this.list = this.af.list(this.node).valueChanges();
-        this.listFiltered = this.af.list(this.node).valueChanges();
-        this.list.subscribe(function (l) {
-            console.log(l);
-        });
+var QRcodeLayout1 = (function () {
+    function QRcodeLayout1() {
     }
-    ElementsClassesPage.prototype.getItems = function (event) {
-        var _this = this;
-        console.log('getItems', this.searchTerm);
-        if (!this.list) {
-            this.list = this.listFiltered;
+    QRcodeLayout1.prototype.onEvent = function (event, result) {
+        if (this.events[event]) {
+            this.events[event](result);
         }
-        this.list.subscribe(function (listaBD) {
-            var listaBDFiltrada = listaBD.filter(function (item) {
-                var nomeOK = item['Nome'].toLowerCase().indexOf(_this.searchTerm.toLowerCase()) > -1;
-                return nomeOK;
-            });
-            _this.listFiltered = __WEBPACK_IMPORTED_MODULE_4_rxjs__["Observable"].of(listaBDFiltrada);
-        });
-    };
-    ElementsClassesPage.prototype.toggleGroup = function (group) {
-        group.show = !group.show;
-    };
-    ElementsClassesPage.prototype.isGroupShown = function (group) {
-        return group.show;
-    };
-    ElementsClassesPage.prototype.toggleHabilidade = function (group) {
-        group.habilidade = !group.habilidade;
-    };
-    ElementsClassesPage.prototype.isHabilidadeShow = function (group) {
-        return group.habilidade;
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], ElementsClassesPage.prototype, "data", void 0);
+    ], QRcodeLayout1.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], ElementsClassesPage.prototype, "events", void 0);
-    ElementsClassesPage = __decorate([
+    ], QRcodeLayout1.prototype, "events", void 0);
+    QRcodeLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'elements-page-classes',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\elementsClasses\elementsClasses.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>Classes</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <ion-grid no-padding>\n\n        <ion-row *ngIf="data != null">\n\n        <!-- List -->\n\n        <ion-col col-12>\n\n        <ion-list no-padding no-margin transparent>\n\n        <ion-item padding-top no-lines *ngIf="data != null">\n\n            <ion-label>Tipo Classes:</ion-label>\n\n            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados" (ngModelChange)="getItems($event)">\n\n                <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>\n\n            </ion-select>\n\n        </ion-item>\n\n        </ion-list>\n\n        </ion-col>\n\n        \n\n        <ion-col col-12>\n\n            <ion-list no-margin>\n\n            \n\n            <ion-list-header no-padding no-margin transparent>\n\n                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>\n\n                \n\n            </ion-list-header>\n\n\n\n            <li *ngFor="let group of listFiltered | async">\n\n              <div class="collapsible-header" (click)="toggleGroup(group)">\n\n                <ion-item no-padding>\n\n                  <ion-thumbnail item-start no-margin>\n\n                    <img src="../assets/images/icons/{{group.Nome}}.png" alt="{{group.title}}" />\n\n                  </ion-thumbnail>\n\n                  <h2 padding-left item-title>{{group.Nome}}</h2>\n\n                  <h3 padding-left item-subtitle>PV Inicial: {{group.PVInicial}} </h3>\n\n                  <h3 padding-left item-subtitle>PV por Nível: {{group.PV}}</h3>\n\n                </ion-item>\n\n              </div>\n\n              <!-- List big image Body -->\n\n              <div class="item-accordion" [ngClass]="{\'active\': isGroupShown(group) }" [hidden]="!isGroupShown(group)">\n\n                <ion-item transparent no-lines style="color: white">\n\n                    <h2 padding-left>PV Inicial: {{group.PVInicial}}</h2>\n\n                    <h2 padding-left>PV por Nível: {{group.PV}}</h2>\n\n                    <h2 padding-left>Perícias: {{group.Pericias}}</h2>\n\n                    <h2 padding-left>Perícias de Classe: {{group.PericiasClasse}}</h2>\n\n                    <h2 padding-left>Talentos: {{group.Talentos}}</h2>\n\n                    <br/>\n\n                    <h2 *ngFor="let lvl of group.Niveis" padding-left><div *ngIf="lvl">Lvl{{lvl.Nivel}}: BBA:{{lvl.BBA}} - {{lvl.Habilidade}}</div></h2>\n\n                </ion-item>\n\n                <div class="collapsible-header" (click)="toggleHabilidade(group)">\n\n                    <ion-item no-padding class="dividerCaminho">\n\n                       <h2 padding-left item-title>Detalhes Habilidades</h2>\n\n                    </ion-item>\n\n                </div>\n\n                <div class="item-accordion" [ngClass]="{\'active\': isHabilidadeShow(group) }" [hidden]="!isHabilidadeShow(group)">\n\n                    <ion-item transparent no-lines style="color: white">\n\n                        <h2 *ngFor="let h of group.Habilidades" padding-left><div *ngIf="h">{{h.Nome}}: {{h.Descricao}}</div></h2>\n\n                    </ion-item>\n\n                </div>\n\n              </div>\n\n              <!--end-->\n\n            </li>\n\n            </ion-list>\n\n        </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\elementsClasses\elementsClasses.html"*/,
-            providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
+            selector: 'qrcode-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\qrcode\layout-1\qrcode.html"*/'<ion-content has-header>\n\n  <ion-grid no-padding>\n\n    <ion-row>\n\n      <ion-col col-12>\n\n        <ion-list no-margin>\n\n          <ion-item padding-right text-wrap>\n\n            <h1 item-title>{{data.format}}</h1>\n\n          </ion-item>\n\n          <ion-item no-lines padding-right text-wrap>\n\n            <p item-subtitle>{{data.text}}</p>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\qrcode\layout-1\qrcode.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */], __WEBPACK_IMPORTED_MODULE_3_angularfire2_database__["a" /* AngularFireDatabase */]])
-    ], ElementsClassesPage);
-    return ElementsClassesPage;
+        __metadata("design:paramtypes", [])
+    ], QRcodeLayout1);
+    return QRcodeLayout1;
 }());
 
-//# sourceMappingURL=elementsClasses.js.map
+//# sourceMappingURL=qrcode-layout-1.js.map
 
 /***/ })
 

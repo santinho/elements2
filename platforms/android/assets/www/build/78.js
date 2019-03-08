@@ -1,1 +1,92 @@
-webpackJsonp([78],{1005:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1006:function(l,n,u){"use strict";function t(l){return e._22(0,[(l()(),e._0(0,0,null,null,14,"ion-item",[["class","item item-block"]],null,[[null,"tap"]],function(l,n,u){var t=!0;if("tap"===n){t=!1!==l.component.onEvent("onButton",l.context.$implicit)&&t}return t},i.b,i.a)),e.Z(1,1097728,null,3,o.a,[r.a,_.a,e.j,e.A,[2,s.a]],null,null),e._18(335544320,1,{contentLabel:0}),e._18(603979776,2,{_buttons:1}),e._18(603979776,3,{_icons:1}),e.Z(5,16384,null,0,d.a,[],null,null),(l()(),e._20(-1,2,["\n          "])),(l()(),e._0(7,0,null,1,2,"ion-label",[["item-title",""]],null,null,null,null,null)),e.Z(8,16384,[[1,4]],0,f.a,[_.a,e.j,e.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),e._20(9,null,["",""])),(l()(),e._20(-1,2,["\n          "])),(l()(),e._0(11,0,null,0,2,"ion-checkbox",[],[[2,"checkbox-disabled",null]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==e._14(l,13)._click(u)&&t}return t},b.b,b.a)),e._17(5120,null,v.f,function(l){return[l]},[k.a]),e.Z(13,1228800,null,0,k.a,[_.a,r.a,[2,o.a],e.j,e.A],{checked:[0,"checked"]},null),(l()(),e._20(-1,2,["\n        "]))],function(l,n){l(n,13,0,n.context.$implicit.favorite)},function(l,n){l(n,9,0,n.context.$implicit.title);l(n,11,0,e._14(n,13)._disabled)})}function a(l){return e._22(0,[(l()(),e._0(0,0,null,null,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),e.Z(1,16384,null,0,p.a,[],null,null),(l()(),e._20(-1,null,["\n  "])),(l()(),e._0(3,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),e.Z(4,16384,null,0,m.a,[],null,null),(l()(),e._20(-1,null,["\n    "])),(l()(),e._0(6,0,null,null,9,"ion-col",[["class","col"],["col-12",""],["no-padding",""]],null,null,null,null,null)),e.Z(7,16384,null,0,h.a,[],null,null),(l()(),e._20(-1,null,["\n      "])),(l()(),e._0(9,0,null,null,5,"ion-list",[],null,null,null,null,null)),e.Z(10,16384,null,0,x.a,[_.a,e.j,e.A,Z.a,g.l,y.a],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e.V(16777216,null,null,1,null,t)),e.Z(13,802816,null,0,j.i,[e.J,e.G,e.p],{ngForOf:[0,"ngForOf"]},null),(l()(),e._20(-1,null,["\n      "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n  "])),(l()(),e._20(-1,null,["\n"]))],function(l,n){l(n,13,0,n.component.data)},null)}function c(l){return e._22(0,[(l()(),e._20(-1,null,["\n"])),(l()(),e.V(16777216,null,null,1,null,a)),e.Z(2,16384,null,0,j.j,[e.J,e.G],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,null,["\n"]))],function(l,n){l(n,2,0,null!=n.component.data)},null)}u.d(n,"b",function(){return w}),n.c=c,u.d(n,"a",function(){return F});var e=u(2),i=u(141),o=u(26),r=u(22),_=u(4),s=u(57),d=u(71),f=u(72),b=u(904),v=u(25),k=u(224),p=u(142),m=u(143),h=u(144),x=u(67),Z=u(7),g=u(11),y=u(15),j=u(20),A=u(924),w=e.Y({encapsulation:2,styles:[],data:{}}),F=e.W("check-box-layout-1",A.a,function(l){return e._22(0,[(l()(),e._0(0,0,null,null,1,"check-box-layout-1",[],null,null,null,c,w)),e.Z(1,49152,null,0,A.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},767:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),u.d(n,"CheckBoxLayout1ModuleNgFactory",function(){return x});var t=u(2),a=u(1005),c=u(418),e=u(419),i=u(420),o=u(421),r=u(422),_=u(423),s=u(424),d=u(425),f=u(426),b=u(1006),v=u(20),k=u(25),p=u(216),m=u(66),h=u(924),x=t.X(a.a,[],function(l){return t._11([t._12(512,t.i,t.T,[[8,[c.a,e.a,i.a,o.a,r.a,_.a,s.a,d.a,f.a,b.a]],[3,t.i],t.s]),t._12(4608,v.l,v.k,[t.r,[2,v.t]]),t._12(4608,k.n,k.n,[]),t._12(4608,k.c,k.c,[]),t._12(512,v.c,v.c,[]),t._12(512,k.m,k.m,[]),t._12(512,k.d,k.d,[]),t._12(512,k.k,k.k,[]),t._12(512,p.a,p.a,[]),t._12(512,p.b,p.b,[]),t._12(512,a.a,a.a,[]),t._12(256,m.a,h.a,[])])})},904:function(l,n,u){"use strict";function t(l){return a._22(0,[(l()(),a._0(0,0,null,null,1,"div",[["class","checkbox-icon"]],[[2,"checkbox-checked",null]],null,null,null,null)),(l()(),a._0(1,0,null,null,0,"div",[["class","checkbox-inner"]],null,null,null,null,null)),(l()(),a._0(2,0,null,null,2,"button",[["class","item-cover"],["ion-button","item-cover"],["role","checkbox"],["type","button"]],[[8,"id",0],[1,"aria-checked",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,c.b,c.a)),a.Z(3,1097728,null,0,e.a,[[8,"item-cover"],i.a,a.j,a.A],null,null),(l()(),a._20(-1,0,[" "]))],null,function(l,n){var u=n.component;l(n,0,0,u._value);l(n,2,0,u.id,u._value,u._labelId,u._disabled)})}u.d(n,"a",function(){return o}),n.b=t;var a=u(2),c=u(44),e=u(29),i=u(4),o=(u(22),a.Y({encapsulation:2,styles:[],data:{}}))},924:function(l,n,u){"use strict";u.d(n,"a",function(){return t});u(0);var t=function(){return function(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}}()}});
+webpackJsonp([78],{
+
+/***/ 1043:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout4Module", function() { return CheckBoxLayout4Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__ = __webpack_require__(1160);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CheckBoxLayout4Module = (function () {
+    function CheckBoxLayout4Module() {
+    }
+    CheckBoxLayout4Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_4__["a" /* CheckBoxLayout4 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], CheckBoxLayout4Module);
+    return CheckBoxLayout4Module;
+}());
+
+//# sourceMappingURL=check-box-layout-4.module.js.map
+
+/***/ }),
+
+/***/ 1160:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout4; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CheckBoxLayout4 = (function () {
+    function CheckBoxLayout4() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout4.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout4.prototype, "events", void 0);
+    CheckBoxLayout4 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'check-box-layout-4',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-4\check-box.html"*/'<!--Themes Two Columns -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row no-padding>\n\n    <ion-col col-6 *ngFor="let item of data" (tap)="onEvent(\'onButton\', item)">\n\n      <!-- Checkbox List -->\n\n      <ion-item no-lines>\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n      </ion-item>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-4\check-box.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], CheckBoxLayout4);
+    return CheckBoxLayout4;
+}());
+
+//# sourceMappingURL=check-box-layout-4.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=78.js.map

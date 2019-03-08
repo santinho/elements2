@@ -1,1 +1,98 @@
-webpackJsonp([43],{844:function(n,l,u){"use strict";function t(n){return e._22(0,[(n()(),e._0(0,0,null,null,6,"ion-content",[["no-margin",""],["no-padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Z.b,Z.a)),e.Z(1,4374528,null,0,j.a,[x.a,F.a,C.a,e.j,e.A,k.a,A.a,e.u,[2,D.a],[2,E.a]],null,null),(n()(),e._20(-1,1,["\n    "])),(n()(),e._0(3,0,null,1,2,"wizard-layout-1",[],null,null,null,I.b,I.a)),e.Z(4,573440,null,0,J.a,[],{data:[0,"data"],events:[1,"events"]},null),(n()(),e._20(-1,null,["\n    "])),(n()(),e._20(-1,1,["\n"]))],function(n,l){var u=l.component;n(l,4,0,u.params.data,u.params.events)},function(n,l){n(l,0,0,e._14(l,1).statusbarPadding,e._14(l,1)._hasRefresher)})}function i(n){return e._22(0,[(n()(),e._20(-1,null,["\n"])),(n()(),e.V(16777216,null,null,1,null,t)),e.Z(2,16384,null,0,V.j,[e.J,e.G],{ngIf:[0,"ngIf"]},null)],function(n,l){n(l,2,0,null!=l.component.params)},null)}Object.defineProperty(l,"__esModule",{value:!0});var e=u(2),o=(u(0),u(65),u(58)),a=u(1),r=u(92),c=u(91),s=function(){function n(n,l){this.af=n,this.loadingService=l,this.getData=function(){return{btnPrev:"Previous",btnNext:"Next",btnFinish:"Finish",items:[{logo:"assets/images/logo/2.png",title:"Welcome to our new material style theme",description:"Finished layouts and components for Ionic 3. Ready to use!"},{logo:"assets/images/logo/2.png",title:"For Developers",description:"Save hours of developing. Tons of funcional components."},{logo:"assets/images/logo/2.png",title:"For Designers",description:"Endless possibilities. Combine layouts as you wish."}]}}}return n.prototype.load=function(){var n=this,l=this;return l.loadingService.show(),new a.Observable(r.a.IS_FIREBASE_ENABLED?function(u){n.af.object("intro").valueChanges().subscribe(function(n){l.loadingService.hide(),u.next(n),u.complete()},function(n){l.loadingService.hide(),u.error([]),u.complete()})}:function(u){l.loadingService.hide(),u.next(n.getData()),u.complete()})},n}(),d=function(){return function(n,l){this.viewCtrl=n,this.introService=l,this.params=null;var u=this;this.introService.load().subscribe(function(n){setTimeout(function(){u.params={events:{onFinish:function(n){u.viewCtrl.dismiss()}},data:n}})})}}(),f=u(995),_=function(){return function(){}}(),p=u(418),h=u(419),g=u(420),v=u(421),m=u(422),b=u(423),y=u(424),S=u(425),w=u(426),I=u(996),Z=u(215),j=u(35),x=u(4),F=u(7),C=u(15),k=u(14),A=u(39),D=u(8),E=u(33),J=u(915),V=u(20),z=e.Y({encapsulation:2,styles:[],data:{}}),G=e.W("ng-component",d,function(n){return e._22(0,[(n()(),e._0(0,0,null,null,2,"ng-component",[],null,null,null,i,z)),e._17(512,null,s,s,[o.a,c.a]),e.Z(2,49152,null,0,d,[D.a,s],null,null)],null,null)},{},{},[]),N=u(25),P=u(216),O=u(66);u.d(l,"IntroPageModuleNgFactory",function(){return Y});var Y=e.X(_,[],function(n){return e._11([e._12(512,e.i,e.T,[[8,[p.a,h.a,g.a,v.a,m.a,b.a,y.a,S.a,w.a,I.c,G]],[3,e.i],e.s]),e._12(4608,V.l,V.k,[e.r,[2,V.t]]),e._12(4608,N.n,N.n,[]),e._12(4608,N.c,N.c,[]),e._12(512,V.c,V.c,[]),e._12(512,N.m,N.m,[]),e._12(512,N.d,N.d,[]),e._12(512,N.k,N.k,[]),e._12(512,P.a,P.a,[]),e._12(512,P.b,P.b,[]),e._12(512,f.a,f.a,[]),e._12(512,_,_,[]),e._12(256,O.a,d,[])])})},896:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),i._13(null,0)],null,null)}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=i.Y({encapsulation:2,styles:[],data:{}})},897:function(n,l,u){"use strict";function t(n){return i._22(2,[(n()(),i._0(0,0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(n()(),i._0(1,0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),i._13(null,0),(n()(),i._0(3,0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(n,l){var u=l.component;n(l,0,0,u._rtl?"rtl":null);n(l,3,0,!u.pager)})}u.d(l,"a",function(){return e}),l.b=t;var i=u(2),e=(u(4),u(7),u(8),i.Y({encapsulation:2,styles:[],data:{}}))},915:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){function n(){this.sliderOptions={pager:!0},this.path=!1,this.prev=!0,this.next=!0,this.finish=!0,this.prev=!1,this.next=!0,this.finish=!1}return n.prototype.changeSlide=function(n){n>0?this.slider.slideNext(300):this.slider.slidePrev(300)},n.prototype.slideHasChanged=function(n){try{this.prev=!this.slider.isBeginning(),this.next=this.slider.getActiveIndex()<this.slider.length()-1,this.finish=this.slider.isEnd()}catch(n){}},n.prototype.ngOnChanges=function(n){this.data=n.data.currentValue},n.prototype.onEvent=function(n){this.events[n]&&this.events[n](),console.log(n)},n}()},995:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},996:function(n,l,u){"use strict";function t(n){return s._22(0,[(n()(),s._0(0,0,null,null,14,"ion-slide",[],null,null,null,d.b,d.a)),s.Z(1,180224,null,0,f.a,[s.j,s.A,_.a],null,null),(n()(),s._20(-1,0,["\n    "])),(n()(),s._0(3,0,null,0,4,"ion-icon",[["icon-large",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),s.Z(4,147456,null,0,p.a,[h.a,s.j,s.A],null,null),(n()(),s._20(-1,null,["\n      "])),(n()(),s._0(6,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(n()(),s._20(-1,null,["\n    "])),(n()(),s._20(-1,0,["\n    "])),(n()(),s._0(9,0,null,0,1,"h1",[["wizard-title",""]],null,null,null,null,null)),(n()(),s._20(10,null,["",""])),(n()(),s._20(-1,0,["\n    "])),(n()(),s._0(12,0,null,0,1,"p",[["wizard-body-text",""]],null,null,null,null,null)),(n()(),s._20(13,null,["",""])),(n()(),s._20(-1,0,["\n  "]))],null,function(n,l){n(l,3,0,s._14(l,4)._hidden);n(l,6,0,s._3(1,"icon ",l.context.$implicit.iconSlider,""));n(l,10,0,l.context.$implicit.title);n(l,13,0,l.context.$implicit.description)})}function i(n){return s._22(0,[(n()(),s._0(0,0,null,null,5,"ion-slides",[["pager","true"]],null,[[null,"ionSlideDidChange"]],function(n,l,u){var t=!0;if("ionSlideDidChange"===l){t=!1!==n.component.slideHasChanged()&&t}return t},g.b,g.a)),s.Z(1,1228800,[[1,4],["wizardSlider",4]],0,_.a,[h.a,v.a,s.u,[2,m.a],s.j,s.A],{pager:[0,"pager"]},{ionSlideDidChange:"ionSlideDidChange"}),(n()(),s._20(-1,0,["\n  "])),(n()(),s.V(16777216,null,0,1,null,t)),s.Z(4,802816,null,0,b.i,[s.J,s.G,s.p],{ngForOf:[0,"ngForOf"]},null),(n()(),s._20(-1,0,["\n"]))],function(n,l){var u=l.component;n(l,1,0,"true");n(l,4,0,u.data.items)},null)}function e(n){return s._22(0,[(n()(),s._0(0,0,null,null,2,"button",[["button-clear",""],["clear",""],["float-left",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0;if("click"===l){t=!1!==n.component.changeSlide(-1)&&t}return t},y.b,y.a)),s.Z(1,1097728,null,0,S.a,[[8,""],h.a,s.j,s.A],{clear:[0,"clear"]},null),(n()(),s._20(2,0,["\n  ","\n"]))],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,l.component.data.btnPrev)})}function o(n){return s._22(0,[(n()(),s._0(0,0,null,null,2,"button",[["button-clear",""],["clear",""],["float-right",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0;if("click"===l){t=!1!==n.component.changeSlide(1)&&t}return t},y.b,y.a)),s.Z(1,1097728,null,0,S.a,[[8,""],h.a,s.j,s.A],{clear:[0,"clear"]},null),(n()(),s._20(2,0,["\n  ","\n"]))],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,l.component.data.btnNext)})}function a(n){return s._22(0,[(n()(),s._0(0,0,null,null,2,"button",[["button-clear",""],["clear",""],["float-right",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0;if("click"===l){t=!1!==n.component.onEvent("onFinish")&&t}return t},y.b,y.a)),s.Z(1,1097728,null,0,S.a,[[8,""],h.a,s.j,s.A],{clear:[0,"clear"]},null),(n()(),s._20(2,0,["\n  ","\n"]))],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,l.component.data.btnFinish)})}function r(n){return s._22(0,[(n()(),s._0(0,0,null,null,10,"div",[],null,null,null,null,null)),(n()(),s._20(-1,null,["\n  "])),(n()(),s.V(16777216,null,null,1,null,e)),s.Z(3,16384,null,0,b.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(n()(),s._20(-1,null,["\n  "])),(n()(),s.V(16777216,null,null,1,null,o)),s.Z(6,16384,null,0,b.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(n()(),s._20(-1,null,["\n  "])),(n()(),s.V(16777216,null,null,1,null,a)),s.Z(9,16384,null,0,b.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(n()(),s._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,3,0,u.prev);n(l,6,0,u.next);n(l,9,0,u.finish)},null)}function c(n){return s._22(0,[s._18(671088640,1,{slider:0}),(n()(),s._20(-1,null,["\n\n"])),(n()(),s._20(-1,null,["\n"])),(n()(),s.V(16777216,null,null,1,null,i)),s.Z(4,16384,null,0,b.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(n()(),s._20(-1,null,["\n"])),(n()(),s._20(-1,null,["\n"])),(n()(),s.V(16777216,null,null,1,null,r)),s.Z(8,16384,null,0,b.j,[s.J,s.G],{ngIf:[0,"ngIf"]},null),(n()(),s._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,4,0,null!=u.data);n(l,8,0,null!=u.data)},null)}u.d(l,"a",function(){return I}),l.b=c,u.d(l,"c",function(){return Z});var s=u(2),d=u(896),f=u(221),_=u(147),p=u(43),h=u(4),g=u(897),v=u(7),m=u(8),b=u(20),y=u(44),S=u(29),w=u(915),I=s.Y({encapsulation:2,styles:[],data:{}}),Z=s.W("wizard-layout-1",w.a,function(n){return s._22(0,[(n()(),s._0(0,0,null,null,1,"wizard-layout-1",[],null,null,null,c,I)),s.Z(1,573440,null,0,w.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])}});
+webpackJsonp([43],{
+
+/***/ 1090:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterLayout1Module", function() { return RegisterLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_layout_1__ = __webpack_require__(1207);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var RegisterLayout1Module = (function () {
+    function RegisterLayout1Module() {
+    }
+    RegisterLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__register_layout_1__["a" /* RegisterLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], RegisterLayout1Module);
+    return RegisterLayout1Module;
+}());
+
+//# sourceMappingURL=register-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1207:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var RegisterLayout1 = (function () {
+    function RegisterLayout1() {
+        var _this = this;
+        this.onEvent = function (event) {
+            if (_this.events[event]) {
+                _this.events[event]({
+                    'username': _this.username,
+                    'password': _this.password,
+                    'country': _this.country,
+                    'city': _this.city,
+                    'email': _this.email
+                });
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], RegisterLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], RegisterLayout1.prototype, "events", void 0);
+    RegisterLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'register-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/'<!-- Themes Register + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--Form-->\n\n        <div class="form">\n\n          <!--Form Title-->\n\n          <h1 title text-right>{{data.register}}</h1>\n\n          <!---Input field username-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.username}}</ion-label>\n\n            <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n          </ion-item>\n\n          <!---Input field password-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.password}}</ion-label>\n\n            <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n          <!---Input field email-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.email}}</ion-label>\n\n            <ion-input required type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" [(ngModel)]="email"></ion-input>\n\n          </ion-item>\n\n          <!---Input field country-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.country}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="country"></ion-input>\n\n          </ion-item>\n\n          <!---Input field city-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.city}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="city"></ion-input>\n\n          </ion-item>\n\n          <!---Register button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n        </div>\n\n        <div class="logo">\n\n          <!---Logo-->\n\n          <ion-thumbnail>\n\n            <img float-left [src]="data.logo">\n\n          </ion-thumbnail>\n\n          <!---Skip button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], RegisterLayout1);
+    return RegisterLayout1;
+}());
+
+//# sourceMappingURL=register-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=43.js.map

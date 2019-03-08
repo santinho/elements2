@@ -1,14 +1,14 @@
 webpackJsonp([50],{
 
-/***/ 1116:
+/***/ 1083:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsHomePageModule", function() { return ElementsHomePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RadioButtonLayout1Module", function() { return RadioButtonLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsHome__ = __webpack_require__(1269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__ = __webpack_require__(1200);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,38 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ElementsHomePageModule = (function () {
-    function ElementsHomePageModule() {
+var RadioButtonLayout1Module = (function () {
+    function RadioButtonLayout1Module() {
     }
-    ElementsHomePageModule = __decorate([
+    RadioButtonLayout1Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__elementsHome__["a" /* ElementsHomePage */],
+                __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__["a" /* RadioButtonLayout1 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__elementsHome__["a" /* ElementsHomePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__["a" /* RadioButtonLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__radio_button_layout_1__["a" /* RadioButtonLayout1 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], ElementsHomePageModule);
-    return ElementsHomePageModule;
+    ], RadioButtonLayout1Module);
+    return RadioButtonLayout1Module;
 }());
 
-//# sourceMappingURL=elementsHome.module.js.map
+//# sourceMappingURL=radio-button-layout-1.module.js.map
 
 /***/ }),
 
-/***/ 1181:
+/***/ 1200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_angularfire2_database__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__loading_service__ = __webpack_require__(606);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButtonLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,107 +58,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
-
-var HomeService = (function () {
-    function HomeService(af, loadingService) {
-        this.af = af;
-        this.loadingService = loadingService;
-        this.getData = function () {
-            return {
-                "toolbarTitle": "Ionic3 UI Theme - Yellow Dark",
-                "title": "SAVE HOURS",
-                "subtitle": "OF DEVELOPING",
-                "subtitle2": "and make apps fast as light!",
-                "link": "http://csform.com/documentation-for-ionic-2-ui-template-app/",
-                "description": "For better understanding how our template works please read documentation.",
-                "background": "assets/images/background/29.jpg"
-            };
+var RadioButtonLayout1 = (function () {
+    function RadioButtonLayout1() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
         };
     }
-    HomeService.prototype.load = function () {
-        var _this = this;
-        var that = this;
-        that.loadingService.show();
-        if (__WEBPACK_IMPORTED_MODULE_3__app_settings__["a" /* AppSettings */].IS_FIREBASE_ENABLED) {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                _this.af
-                    .object('home')
-                    .valueChanges()
-                    .subscribe(function (snapshot) {
-                    that.loadingService.hide();
-                    observer.next(snapshot);
-                    observer.complete();
-                }, function (err) {
-                    that.loadingService.hide();
-                    observer.error([]);
-                    observer.complete();
-                });
-            });
-        }
-        else {
-            return new __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"](function (observer) {
-                that.loadingService.hide();
-                observer.next(_this.getData());
-                observer.complete();
-            });
-        }
-    };
-    HomeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_angularfire2_database__["a" /* AngularFireDatabase */], __WEBPACK_IMPORTED_MODULE_4__loading_service__["a" /* LoadingService */]])
-    ], HomeService);
-    return HomeService;
-}());
-
-//# sourceMappingURL=home-service.js.map
-
-/***/ }),
-
-/***/ 1269:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ElementsHomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_home_service__ = __webpack_require__(1181);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var ElementsHomePage = (function () {
-    function ElementsHomePage(navCtrl, service) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.service = service;
-        this.titleElements = 'Elements';
-        this.data = {};
-        service.load().subscribe(function (snapshot) {
-            _this.data = snapshot;
-        });
-    }
-    ElementsHomePage = __decorate([
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], RadioButtonLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], RadioButtonLayout1.prototype, "events", void 0);
+    RadioButtonLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'elements-page-home',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\elementsHome\elementsHome.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{titleElements}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <div *ngIf="data.background!=null" background-size default-background>\n\n        <div class="ionic-description" text-center>\n\n            <h2 item-title>CONSULTA</h2>\n\n            <p item-subtitle>Classes, raças, magias, perícias, lojas e regras</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\elementsHome\elementsHome.html"*/,
-            providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
+            selector: 'radio-button-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\radio-button\layout-1\radio-button.html"*/'<!--Themes Radio Button - Simple -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-list radio-group [(ngModel)]="data.selectedItem">\n\n      <!-- Content List -->\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <!-- Content List Title -->\n\n        <ion-label item-title>{{item.title}}</ion-label>\n\n        <ion-radio [value]="item.id" (ionSelect)="onEvent(\'onSelect\',item)"></ion-radio>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\radio-button\layout-1\radio-button.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]])
-    ], ElementsHomePage);
-    return ElementsHomePage;
+        __metadata("design:paramtypes", [])
+    ], RadioButtonLayout1);
+    return RadioButtonLayout1;
 }());
 
-//# sourceMappingURL=elementsHome.js.map
+//# sourceMappingURL=radio-button-layout-1.js.map
 
 /***/ })
 

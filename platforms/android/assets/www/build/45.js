@@ -1,1 +1,95 @@
-webpackJsonp([45],{1123:function(n,l,u){"use strict";u.d(l,"a",function(){return a});u(0),u(65);var a=function(){return function(){}}()},1124:function(n,l,u){"use strict";function a(n){return t._22(0,[(n()(),t._20(-1,null,["\n"])),(n()(),t._0(1,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(n()(),t._20(-1,null,["\n"]))],null,function(n,l){n(l,1,0,l.component.path)})}u.d(l,"a",function(){return i}),l.c=a,u.d(l,"b",function(){return r});var t=u(2),e=u(983),i=t.Y({encapsulation:2,styles:[],data:{}}),r=t.W("spinner",e.a,function(n){return t._22(0,[(n()(),t._0(0,0,null,null,1,"spinner",[],null,null,null,a,i)),t.Z(1,4243456,null,0,e.a,[],null,null)],null,null)},{data:"data"},{},[])},862:function(n,l,u){"use strict";function a(n){return i._22(0,[(n()(),i._0(0,0,null,null,5,"ion-slide",[],null,null,null,Z.b,Z.a)),i.Z(1,180224,null,0,j.a,[i.j,i.A,A.a],null,null),(n()(),i._20(-1,0,["\n      "])),(n()(),i._0(3,0,null,0,1,"spinner",[],null,null,null,b.c,b.a)),i.Z(4,4243456,null,0,w.a,[],{data:[0,"data"]},null),(n()(),i._20(-1,0,["\n    "]))],function(n,l){n(l,4,0,l.context.$implicit)},null)}function t(n){return i._22(0,[(n()(),i._0(0,0,null,null,5,"ion-slides",[["pager","true"]],null,null,null,y.b,y.a)),i.Z(1,1228800,null,0,A.a,[k.a,P.a,i.u,[2,I.a],i.j,i.A],{pager:[0,"pager"]},null),(n()(),i._20(-1,0,["\n    "])),(n()(),i.V(16777216,null,0,1,null,a)),i.Z(4,802816,null,0,T.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(n()(),i._20(-1,0,["\n  "]))],function(n,l){var u=l.component;n(l,1,0,"true");n(l,4,0,u.params.data)},null)}function e(n){return i._22(0,[(n()(),i._20(-1,null,["\n"])),(n()(),i._0(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),i.Z(2,16384,null,0,Y.a,[k.a,i.j,i.A,[2,I.a]],null,null),(n()(),i._20(-1,null,["\n  "])),(n()(),i._0(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,x.b,x.a)),i.Z(5,49152,null,0,F.a,[J.a,[2,I.a],[2,O.a],k.a,i.j,i.A],null,null),(n()(),i._20(-1,3,["\n    "])),(n()(),i._0(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(n,l,u){var a=!0;if("click"===l){a=!1!==i._14(n,9).toggle()&&a}return a},V.b,V.a)),i.Z(8,1097728,[[1,4]],0,D.a,[[8,""],k.a,i.j,i.A],null,null),i.Z(9,1064960,null,0,G.a,[H.a,[2,I.a],[2,D.a],[2,F.a]],{menuToggle:[0,"menuToggle"]},null),i.Z(10,16384,null,1,M.a,[k.a,i.j,i.A,[2,R.a],[2,F.a]],null,null),i._18(603979776,1,{_buttons:1}),(n()(),i._20(-1,0,["\n      "])),(n()(),i._0(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Z(14,147456,null,0,W.a,[k.a,i.j,i.A],{name:[0,"name"]},null),(n()(),i._20(-1,0,["\n    "])),(n()(),i._20(-1,3,["\n    "])),(n()(),i._0(17,0,null,3,2,"ion-title",[["text-left",""],["text-uppercase",""]],null,null,null,z.b,z.a)),i.Z(18,49152,null,0,C.a,[k.a,i.j,i.A,[2,R.a],[2,F.a]],null,null),(n()(),i._20(19,0,["",""])),(n()(),i._20(-1,3,["\n  "])),(n()(),i._20(-1,null,["\n"])),(n()(),i._20(-1,null,["\n"])),(n()(),i._20(-1,null,["\n"])),(n()(),i._0(24,0,null,null,5,"ion-content",[["class","spinner-view"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,N.b,N.a)),i.Z(25,4374528,null,0,S.a,[k.a,P.a,X.a,i.j,i.A,J.a,$.a,i.u,[2,I.a],[2,O.a]],null,null),(n()(),i._20(-1,1,["\n  "])),(n()(),i.V(16777216,null,1,1,null,t)),i.Z(28,16384,null,0,T.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(n()(),i._20(-1,1,["\n"])),(n()(),i._20(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,9,0,"");n(l,14,0,"menu");n(l,28,0,u.params.data.length)},function(n,l){var u=l.component;n(l,4,0,i._14(l,5)._hidden,i._14(l,5)._sbPadding);n(l,7,0,i._14(l,9).isHidden);n(l,13,0,i._14(l,14)._hidden);n(l,19,0,u.params.title);n(l,24,0,i._14(l,25).statusbarPadding,i._14(l,25)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var i=u(2),r=(u(0),u(65),function(){return function(n,l){var u=this;this.navCtrl=n,this.params={},this.page=l.get("page"),this.service=l.get("service"),this.service?(this.params=this.service.prepareParams(this.page,n),this.service.load(this.page).subscribe(function(n){u.params.data=n})):n.setRoot("HomePage")}}()),s=u(1123),o=function(){return function(){}}(),c=u(418),_=u(419),d=u(420),p=u(421),f=u(422),g=u(423),m=u(424),h=u(425),v=u(426),b=u(1124),Z=u(896),j=u(221),A=u(147),w=u(983),y=u(897),k=u(4),P=u(7),I=u(8),T=u(20),Y=u(93),x=u(427),F=u(47),J=u(14),O=u(33),V=u(44),D=u(29),G=u(145),H=u(37),M=u(146),R=u(68),W=u(43),z=u(428),C=u(94),N=u(215),S=u(35),X=u(15),$=u(39),q=u(19),B=i.Y({encapsulation:2,styles:[],data:{}}),E=i.W("ng-component",r,function(n){return i._22(0,[(n()(),i._0(0,0,null,null,1,"ng-component",[],null,null,null,e,B)),i.Z(1,49152,null,0,r,[O.a,q.a],null,null)],null,null)},{},{},[]),K=u(25),L=u(216),Q=u(66);u.d(l,"ItemDetailsPageSpinnerModuleNgFactory",function(){return U});var U=i.X(o,[],function(n){return i._11([i._12(512,i.i,i.T,[[8,[c.a,_.a,d.a,p.a,f.a,g.a,m.a,h.a,v.a,b.b,E]],[3,i.i],i.s]),i._12(4608,T.l,T.k,[i.r,[2,T.t]]),i._12(4608,K.n,K.n,[]),i._12(4608,K.c,K.c,[]),i._12(512,T.c,T.c,[]),i._12(512,K.m,K.m,[]),i._12(512,K.d,K.d,[]),i._12(512,K.k,K.k,[]),i._12(512,L.a,L.a,[]),i._12(512,L.b,L.b,[]),i._12(512,s.a,s.a,[]),i._12(512,o,o,[]),i._12(256,Q.a,r,[])])})},896:function(n,l,u){"use strict";function a(n){return t._22(2,[(n()(),t._0(0,0,null,null,1,"div",[["class","slide-zoom"]],null,null,null,null,null)),t._13(null,0)],null,null)}u.d(l,"a",function(){return e}),l.b=a;var t=u(2),e=t.Y({encapsulation:2,styles:[],data:{}})},897:function(n,l,u){"use strict";function a(n){return t._22(2,[(n()(),t._0(0,0,null,null,3,"div",[["class","swiper-container"]],[[1,"dir",0]],null,null,null,null)),(n()(),t._0(1,0,null,null,1,"div",[["class","swiper-wrapper"]],null,null,null,null,null)),t._13(null,0),(n()(),t._0(3,0,null,null,0,"div",[["class","swiper-pagination"]],[[2,"hide",null]],null,null,null,null))],null,function(n,l){var u=l.component;n(l,0,0,u._rtl?"rtl":null);n(l,3,0,!u.pager)})}u.d(l,"a",function(){return e}),l.b=a;var t=u(2),e=(u(4),u(7),u(8),t.Y({encapsulation:2,styles:[],data:{}}))},983:function(n,l,u){"use strict";u.d(l,"a",function(){return a});u(0);var a=function(){function n(){var n=this;this.getData=function(){return n.data}}return n.prototype.ngAfterViewInit=function(){this.path="assets/svg/"+this.data.icon+".svg"},n}()}});
+webpackJsonp([45],{
+
+/***/ 1088:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RangeLayout3Module", function() { return RangeLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range_layout_3__ = __webpack_require__(1205);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var RangeLayout3Module = (function () {
+    function RangeLayout3Module() {
+    }
+    RangeLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__range_layout_3__["a" /* RangeLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__range_layout_3__["a" /* RangeLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__range_layout_3__["a" /* RangeLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], RangeLayout3Module);
+    return RangeLayout3Module;
+}());
+
+//# sourceMappingURL=range-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1205:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RangeLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var RangeLayout3 = (function () {
+    function RangeLayout3() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    RangeLayout3.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], RangeLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], RangeLayout3.prototype, "events", void 0);
+    RangeLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'range-button-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\range\layout-3\range.html"*/'<ion-list *ngIf="data != null">\n\n    <ion-list-header no-lines color="primary" no-margin text-uppercase>\n\n        <p ion-text color="accentLight">{{data.title}}</p>\n\n        <p ion-text color="brown" item-end>{{data.value}}</p>\n\n    </ion-list-header>\n\n    <ion-item lines>\n\n        <ion-range [min]="data.min" [max]="data.max" [step]="data.step" snaps="true" (ionChange)="onEvent(\'onChange\', data.value, $event)" [(ngModel)]="data.value">\n\n            <ion-label range-left span-small color="brown">{{data.textLeft}}</ion-label>\n\n            <ion-label range-right span-large color="brown">{{data.textRight}}</ion-label>\n\n        </ion-range>\n\n    </ion-item>\n\n</ion-list>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\range\layout-3\range.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], RangeLayout3);
+    return RangeLayout3;
+}());
+
+//# sourceMappingURL=range-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=45.js.map

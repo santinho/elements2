@@ -1,1 +1,92 @@
-webpackJsonp([81],{1129:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0),u(65);var t=function(){return function(){}}()},1130:function(n,l,u){"use strict";function t(n){return e._22(0,[(n()(),e._20(-1,null,["\n"])),(n()(),e._0(1,0,null,null,16,"ion-grid",[["class","grid"]],null,null,null,null,null)),e.Z(2,16384,null,0,a.a,[],null,null),(n()(),e._20(-1,null,["\n  "])),(n()(),e._0(4,0,null,null,12,"ion-row",[["class","row"],["id","splash-background-image"]],null,null,null,null,null)),e.Z(5,16384,null,0,r.a,[],null,null),(n()(),e._20(-1,null,["\n    "])),(n()(),e._0(7,0,null,null,0,"img",[["class","splash-screen"]],[[8,"src",4]],null,null,null,null)),(n()(),e._20(-1,null,["\n    "])),(n()(),e._0(9,0,null,null,6,"div",[["class","logo-title item-fade-in"]],null,null,null,null,null)),(n()(),e._20(-1,null,["\n      "])),(n()(),e._0(11,0,null,null,0,"img",[["class","logo"]],[[8,"src",4]],null,null,null,null)),(n()(),e._20(-1,null,["\n      "])),(n()(),e._0(13,0,null,null,1,"h1",[],null,null,null,null,null)),(n()(),e._20(14,null,["",""])),(n()(),e._20(-1,null,["\n    "])),(n()(),e._20(-1,null,["\n  "])),(n()(),e._20(-1,null,["\n"])),(n()(),e._20(-1,null,["\n"]))],null,function(n,l){var u=l.component;n(l,7,0,u.data.backgroundImage);n(l,11,0,u.data.logo);n(l,14,0,u.data.title)})}u.d(l,"a",function(){return o}),l.c=t,u.d(l,"b",function(){return s});var e=u(2),a=u(142),r=u(143),i=u(986),o=e.Y({encapsulation:2,styles:[],data:{}}),s=e.W("splash-screen-layout-3",i.a,function(n){return e._22(0,[(n()(),e._0(0,0,null,null,1,"splash-screen-layout-3",[],null,null,null,t,o)),e.Z(1,704512,null,0,i.a,[],null,null)],null,null)},{data:"data",events:"events"},{},[])},830:function(n,l,u){"use strict";Object.defineProperty(l,"__esModule",{value:!0}),u.d(l,"SplashScreenLayout3ModuleNgFactory",function(){return b});var t=u(2),e=u(1129),a=u(418),r=u(419),i=u(420),o=u(421),s=u(422),c=u(423),_=u(424),d=u(425),f=u(426),g=u(1130),p=u(20),h=u(25),v=u(216),m=u(66),y=u(986),b=t.X(e.a,[],function(n){return t._11([t._12(512,t.i,t.T,[[8,[a.a,r.a,i.a,o.a,s.a,c.a,_.a,d.a,f.a,g.b]],[3,t.i],t.s]),t._12(4608,p.l,p.k,[t.r,[2,p.t]]),t._12(4608,h.n,h.n,[]),t._12(4608,h.c,h.c,[]),t._12(512,p.c,p.c,[]),t._12(512,h.m,h.m,[]),t._12(512,h.d,h.d,[]),t._12(512,h.k,h.k,[]),t._12(512,v.a,v.a,[]),t._12(512,v.b,v.b,[]),t._12(512,e.a,e.a,[]),t._12(256,m.a,y.a,[])])})},986:function(n,l,u){"use strict";u.d(l,"a",function(){return t});u(0);var t=function(){function n(){}return n.prototype.ngOnChanges=function(n){clearInterval(this.timer),this.executeEvents()},n.prototype.getData=function(){return this.data},n.prototype.getEvents=function(){return this.events},n.prototype.executeEvents=function(){var n=this.getData()&&this.getData().duration?this.getData().duration:1e4,l=null;this.getEvents()&&(l=this.getEvents().onRedirect),this.timer=setTimeout(function(){l&&l()},n)},n.prototype.ngOnDestroy=function(){clearInterval(this.timer)},n}()}});
+webpackJsonp([81],{
+
+/***/ 1041:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CheckBoxLayout1Module", function() { return CheckBoxLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__ = __webpack_require__(1158);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CheckBoxLayout1Module = (function () {
+    function CheckBoxLayout1Module() {
+    }
+    CheckBoxLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__["a" /* CheckBoxLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__["a" /* CheckBoxLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__check_box_layout_1__["a" /* CheckBoxLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], CheckBoxLayout1Module);
+    return CheckBoxLayout1Module;
+}());
+
+//# sourceMappingURL=check-box-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1158:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CheckBoxLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CheckBoxLayout1 = (function () {
+    function CheckBoxLayout1() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], CheckBoxLayout1.prototype, "events", void 0);
+    CheckBoxLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'check-box-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-1\check-box.html"*/'<!--Themes Simple -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row>\n\n    <ion-col col-12 no-padding>\n\n      <ion-list>\n\n        <ion-item *ngFor="let item of data; let i = index;" (tap)="onEvent(\'onButton\', item)">\n\n          <ion-label item-title>{{item.title}}</ion-label>\n\n          <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n        </ion-item>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-1\check-box.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], CheckBoxLayout1);
+    return CheckBoxLayout1;
+}());
+
+//# sourceMappingURL=check-box-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=81.js.map
