@@ -10,7 +10,7 @@ import { HomeService } from '../../services/home-service';
 
 })
 export class ElementsHomePage {
-  titleElements: string = 'Elements';
+  titleElements: string = 'Crítico! RPG!';
   data: any = {};
 
   constructor(public navCtrl: NavController, public service: HomeService) {

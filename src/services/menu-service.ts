@@ -40,7 +40,7 @@ export class MenuService implements IService {
     getDataForTheme = (menuItem: any) => {
       return {
         "background": "assets/images/topo.png",
-        "image": "assets/images/logo/login.png",
+        "image": "assets/images/logo/criticoIco512.png",
         "title": "Ionic3 UI Theme - Yellow Dark"
       };
     };
