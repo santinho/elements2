@@ -27,13 +27,13 @@
                   <ion-thumbnail item-start no-margin>
                       <img src="../assets/images/icons/{{group.Nome}}.png" alt="{{group.title}}" />
                   </ion-thumbnail>
-                  <h2 padding-left item-title>{{group.Nome}}</h2>
+                  <h2 padding-left item-title text-wrap>{{group.Nome}}</h2>
                 </ion-item>
               </div>
               <!-- List big image Body -->
               <div class="item-accordion" [ngClass]="{'active': isGroupShown(group) }" [hidden]="!isGroupShown(group)">
-                <ion-item transparent no-lines style="color: white">
-                    <h2 padding-left text-wrap *ngFor="let v of group.Vantagens">{{v}}</h2>
+                <ion-item transparent style="color: white" *ngFor="let v of group.Vantagens" (click)="toggleGroup(group)">
+                    <h2 padding-left text-wrap>{{v}}</h2>
                 </ion-item>
               </div>
               <!--end-->

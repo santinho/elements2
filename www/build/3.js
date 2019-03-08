@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 1067:
+/***/ 1068:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout4Module", function() { return StickyListHeaderLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_4__ = __webpack_require__(1184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_4__ = __webpack_require__(1185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1145);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -367,7 +367,7 @@ ScrollAdapter = (function () {
 
 /***/ }),
 
-/***/ 1184:
+/***/ 1185:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

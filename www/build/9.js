@@ -1,6 +1,6 @@
 webpackJsonp([9],{
 
-/***/ 1079:
+/***/ 1078:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParallaxLayout2Module", function() { return ParallaxLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_2__ = __webpack_require__(1196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parallax_layout_2__ = __webpack_require__(1195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1124);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -147,7 +147,7 @@ var ElasticHeader = (function () {
 
 /***/ }),
 
-/***/ 1196:
+/***/ 1195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

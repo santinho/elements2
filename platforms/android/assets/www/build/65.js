@@ -1,6 +1,6 @@
 webpackJsonp([65],{
 
-/***/ 1056:
+/***/ 1057:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout4Module", function() { return DragAndDropLayout4Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__ = __webpack_require__(1173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_4__ = __webpack_require__(1174);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var DragAndDropLayout4Module = (function () {
 
 /***/ }),
 
-/***/ 1173:
+/***/ 1174:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
