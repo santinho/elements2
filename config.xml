@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="santinho.elements" version="0.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Elements</name>
-    <description>Elements RPG</description>
+<widget id="santinho.elements" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Critico!RPG!</name>
+    <description>Critico!RPG!</description>
     <author email="leandro.santinho@uol.com.br" href="">Leandro Santinho</author>
     <content src="index.html" />
     <access origin="*" />
