@@ -44,9 +44,6 @@
       <activity android:name="com.google.zxing.client.android.encode.EncodeActivity" android:label="Share"/>
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-permission android:name="android.permission.CAMERA"/>
-      <uses-permission android:name="android.permission.FLASHLIGHT"/>
-      <uses-feature android:name="android.hardware.camera" android:required="true"/>
     </config-file>
     <framework src="src/android/barcodescanner.gradle" custom="true" type="gradleReference"/>
     <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
@@ -105,7 +102,6 @@
       </feature>
     </config-file>
     <config-file target="www/config.xml" parent="/widget/rim:permissions">
-      <rim:permit>use_camera</rim:permit>
     </config-file>
     <dependency id="cordova-plugin-bb-app"/>
   </platform>
