@@ -1,1 +1,130 @@
-webpackJsonp([82],{757:function(l,n,u){"use strict";function t(l){return o._22(0,[(l()(),o._0(0,0,null,null,37,"ion-col",[["class","col"],["col-12",""],["col-md-6",""],["col-xl-4",""]],null,null,null,null,null)),o.Z(1,16384,null,0,v.a,[],null,null),(l()(),o._20(-1,null,["\n                "])),(l()(),o._0(3,0,null,null,33,"ion-card",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.onEvent("onItemClick",l.context.$implicit,u)&&t}return t},null,null)),o.Z(4,16384,null,0,y.a,[Z.a,o.j,o.A],null,null),(l()(),o._20(-1,null,["\n                  "])),(l()(),o._0(6,0,null,null,26,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,k.b,k.a)),o.Z(7,1097728,null,3,x.a,[A.a,Z.a,o.j,o.A,[2,j.a]],null,null),o._18(335544320,2,{contentLabel:0}),o._18(603979776,3,{_buttons:1}),o._18(603979776,4,{_icons:1}),o.Z(11,16384,null,0,I.a,[],null,null),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._0(14,0,null,2,1,"span",[["new-category",""],["text-uppercase",""]],null,null,null,null,null)),(l()(),o._20(15,null,["",""])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._0(18,0,null,2,1,"h2",[["card-title",""],["text-capitalize",""]],null,null,null,null,null)),(l()(),o._20(19,null,["",""])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._0(22,0,null,2,1,"h3",[["card-subtitle",""],["text-wrap",""]],null,null,null,null,null)),(l()(),o._20(23,null,["",""])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._20(-1,2,["\n                      "])),(l()(),o._0(26,0,null,4,5,"button",[["button-action-shit",""],["clear",""],["color","primary"],["ion-button",""],["item-end",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.presentActionSheet(e.data)&&t}return t},S.b,S.a)),o.Z(27,1097728,[[3,4]],0,C.a,[[8,""],Z.a,o.j,o.A],{color:[0,"color"],clear:[1,"clear"]},null),(l()(),o._20(-1,0,["\n                          "])),(l()(),o._0(29,0,null,0,1,"ion-icon",[["role","img"]],[[2,"hide",null]],null,null,null,null)),o.Z(30,147456,null,0,w.a,[Z.a,o.j,o.A],{name:[0,"name"]},null),(l()(),o._20(-1,0,["\n                      "])),(l()(),o._20(-1,2,["\n                  "])),(l()(),o._20(-1,null,["\n                  "])),(l()(),o._20(-1,null,["\n                  "])),(l()(),o._0(35,0,null,null,0,"img",[["images-filter",""]],[[8,"src",4]],null,null,null,null)),(l()(),o._20(-1,null,["\n                "])),(l()(),o._20(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,27,0,"primary","");l(n,30,0,o._3(1,"",u.data.shareIcon,""))},function(l,n){l(n,15,0,n.context.$implicit.category);l(n,19,0,n.context.$implicit.title);l(n,23,0,n.context.$implicit.subtitle);l(n,29,0,o._14(n,30)._hidden);l(n,35,0,n.context.$implicit.image)})}function e(l){return o._22(0,[(l()(),o._0(0,0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),o.Z(1,16384,null,0,E.a,[],null,null),(l()(),o._20(-1,null,["\n            "])),(l()(),o._20(-1,null,["\n            "])),(l()(),o.V(16777216,null,null,1,null,t)),o.Z(5,802816,null,0,$.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(l()(),o._20(-1,null,["\n        "]))],function(l,n){l(n,5,0,n.component.data.items)},null)}function i(l){return o._22(0,[(l()(),o._0(0,0,null,null,5,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),o.Z(1,16384,null,0,J.a,[],null,null),(l()(),o._20(-1,null,["\n        "])),(l()(),o.V(16777216,null,null,1,null,e)),o.Z(4,16384,null,0,$.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(l()(),o._20(-1,null,["\n    "]))],function(l,n){l(n,4,0,null!=n.component.data)},null)}function a(l){return o._22(0,[o._18(402653184,1,{content:0}),(l()(),o._20(-1,null,["\n"])),(l()(),o._0(2,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,O.b,O.a)),o.Z(3,4374528,[[1,4]],0,P.a,[Z.a,F.a,G.a,o.j,o.A,V.a,L.a,o.u,[2,M.a],[2,z.a]],null,null),(l()(),o._20(-1,1,["\n    "])),(l()(),o.V(16777216,null,1,1,null,i)),o.Z(6,16384,null,0,$.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(l()(),o._20(-1,1,["\n"])),(l()(),o._20(-1,null,["\n"]))],function(l,n){l(n,6,0,null!=n.component.data)},function(l,n){l(n,2,0,o._14(n,3).statusbarPadding,o._14(n,3)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(2),c=(u(0),u(86),function(){function l(l){this.actionSheetCtrl=l,this.slider={}}return l.prototype.slideHasChanged=function(l,n){this.slider[n]=l,2==l._activeIndex&&(this.data.items?this.data.items.splice(n,1):this.data.splice(n,1))},l.prototype.onClickEvent=function(l){this.slider[l]&&this.slider[l].slidePrev(300)},l.prototype.onEvent=function(l,n,u){u&&u.stopPropagation(),this.events[l]&&this.events[l](n)},l.prototype.ngOnChanges=function(l){},l.prototype.presentActionSheet=function(l,n){var u=this;this.data.actionSheet.buttons.forEach(function(n){n.handler=function(){u.onEvent("onItemClickActionSheet",{button:n,item:l},null)}});this.actionSheetCtrl.create(this.data.actionSheet).present()},l}()),r=function(){return function(){}}(),_=u(412),s=u(413),d=u(414),p=u(415),f=u(416),h=u(417),m=u(418),g=u(419),b=u(420),v=u(208),y=u(215),Z=u(4),k=u(205),x=u(28),A=u(24),j=u(62),I=u(87),S=u(65),C=u(35),w=u(60),E=u(207),$=u(27),J=u(206),O=u(421),P=u(36),F=u(7),G=u(15),V=u(14),L=u(42),M=u(8),z=u(34),H=u(142),N=o.Y({encapsulation:2,styles:[],data:{}}),R=o.W("action-sheet-layout-3",c,function(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"action-sheet-layout-3",[],null,null,null,a,N)),o.Z(1,573440,null,0,c,[H.a],null,null)],null,null)},{data:"data",events:"events"},{},[]),T=u(31),W=u(204),X=u(61);u.d(n,"ActionSheetLayout3ModuleNgFactory",function(){return Y});var Y=o.X(r,[],function(l){return o._11([o._12(512,o.i,o.T,[[8,[_.a,s.a,d.a,p.a,f.a,h.a,m.a,g.a,b.a,R]],[3,o.i],o.s]),o._12(4608,$.l,$.k,[o.r,[2,$.t]]),o._12(4608,T.n,T.n,[]),o._12(4608,T.c,T.c,[]),o._12(512,$.c,$.c,[]),o._12(512,T.m,T.m,[]),o._12(512,T.d,T.d,[]),o._12(512,T.k,T.k,[]),o._12(512,W.a,W.a,[]),o._12(512,W.b,W.b,[]),o._12(512,r,r,[]),o._12(256,X.a,c,[])])})}});
+webpackJsonp([82],{
+
+/***/ 1040:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout3Module", function() { return ActionSheetLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__ = __webpack_require__(1157);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ActionSheetLayout3Module = (function () {
+    function ActionSheetLayout3Module() {
+    }
+    ActionSheetLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__["a" /* ActionSheetLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__["a" /* ActionSheetLayout3 */])
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_3__["a" /* ActionSheetLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ActionSheetLayout3Module);
+    return ActionSheetLayout3Module;
+}());
+
+//# sourceMappingURL=action-sheet-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1157:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ActionSheetLayout3 = (function () {
+    function ActionSheetLayout3(actionSheetCtrl) {
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.slider = {};
+    }
+    ActionSheetLayout3.prototype.slideHasChanged = function (slider, index) {
+        this.slider[index] = slider;
+        if (2 == slider._activeIndex) {
+            if (this.data.items) {
+                this.data.items.splice(index, 1);
+            }
+            else {
+                this.data.splice(index, 1);
+            }
+        }
+    };
+    ActionSheetLayout3.prototype.onClickEvent = function (index) {
+        if (this.slider[index]) {
+            this.slider[index].slidePrev(300);
+        }
+    };
+    ActionSheetLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    ActionSheetLayout3.prototype.ngOnChanges = function (changes) {
+    };
+    ActionSheetLayout3.prototype.presentActionSheet = function (item, index) {
+        var that = this;
+        this.data.actionSheet.buttons.forEach(function (element) {
+            element["handler"] = function () {
+                that.onEvent("onItemClickActionSheet", { "button": element, "item": item }, null);
+            };
+        });
+        var actionSheet = this.actionSheetCtrl.create(this.data.actionSheet);
+        actionSheet.present();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ActionSheetLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ActionSheetLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], ActionSheetLayout3.prototype, "content", void 0);
+    ActionSheetLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'action-sheet-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/'<!-- Theme Action Sheet - With Text Header -->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <ion-row *ngIf="data != null">\n\n            <!-- Cards Full Image-->\n\n            <ion-col col-12 col-md-6 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n                <ion-card (click)="onEvent(\'onItemClick\', item, $event)">\n\n                  <ion-item no-lines>\n\n                      <!-- Card Categoty-->\n\n                      <span new-category text-uppercase>{{item.category}}</span>\n\n                      <!-- Card Title-->\n\n                      <h2 card-title text-capitalize>{{item.title}}</h2>\n\n                      <!-- Card Subtitle-->\n\n                      <h3 card-subtitle text-wrap>{{item.subtitle}}</h3>\n\n                      <!-- Card Action Sheet Button-->\n\n                      <button item-end clear ion-button color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                          <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n                      </button>\n\n                  </ion-item>\n\n                  <!-- Card Big Image-->\n\n                  <img images-filter [src]="item.image" />\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/action-sheet/layout-3/action-sheet.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
+    ], ActionSheetLayout3);
+    return ActionSheetLayout3;
+}());
+
+//# sourceMappingURL=action-sheet-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=82.js.map

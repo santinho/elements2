@@ -4,7 +4,7 @@
     <button ion-button menuToggle>
       <ion-icon class="icon-menu" name="menu"></ion-icon>
     </button>
-    <ion-title text-uppercase>Pericias</ion-title>
+    <ion-title text-uppercase>Talentos</ion-title>
     </ion-navbar>
 </ion-header>
 <!-- Main Menu List -->
@@ -32,21 +32,33 @@
             </ion-list-header>
 
             <li *ngFor="let group of listFiltered | async">
-              <!-- List big image Header -->
-              <div class="collapsible-header" (click)="toggleGroup(group)">
-                <ion-item no-padding>
-                  <h2 padding-left item-title>{{group.Nome}} ({{group.Custo}})</h2>
-                  <h3 padding-left item-subtitle>{{group.Descricao}}</h3>
-                </ion-item>
-              </div>
-              <!-- List big image Body -->
-              <div class="item-accordion" [ngClass]="{'active': isGroupShown(group) }" [hidden]="!isGroupShown(group)">
-                <ion-item transparent no-lines style="color: white">
-                    <h2 padding-left>{{group.Descricao}}</h2>
-                </ion-item>
-              </div>
-              <!--end-->
-            </li>
+                <div *ngIf="group.Lista && group.Lista.length >0">
+                  <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">
+                      <h2 text-uppercase text-wrap>{{group.Nome}}</h2>
+                  </ion-item-divider>
+                    <div *ngFor="let talento of group.Lista">
+                        <div class="collapsible-header" (click)="toggleGroup(talento)">
+                            <ion-item no-padding>
+                            <h2 padding-left item-title text-wrap>{{talento.Nome}}</h2>
+                            <h3 padding-left item-subtitle text-wrap>{{talento.Resumo}}</h3>
+                            </ion-item>
+                        </div>
+                        <!-- List big image Body -->
+                        <div class="item-accordion" [ngClass]="{'active': isGroupShown(talento) }" [hidden]="!isGroupShown(talento)">
+                            <ion-item transparent no-lines style="color: white">
+                                <h2 padding-left text-wrap>{{talento.Nome}} ({{talento.Tipo}})</h2>
+                                <h2 padding-left text-wrap>Tempo de Execução: {{talento.TempoExecucao}}</h2>
+                                <h2 padding-left text-wrap>Alvo: {{talento.Alvo}}</h2>
+                                <h2 padding-left text-wrap>Duração: {{talento.Duracao}}</h2>
+                                <h2 padding-left text-wrap>Teste de Resistência: {{talento.TesteResistencia}}</h2>
+                                <br/>
+                                <h2 padding-left text-wrap>Descrição: {{talento.Descricao}}</h2>
+                            </ion-item>
+                        </div>
+                        <!--end-->
+                    </div>
+                </div>
+              </li>
             </ion-list>
         </ion-col>
         </ion-row>

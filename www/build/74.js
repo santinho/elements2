@@ -1,1 +1,105 @@
-webpackJsonp([74],{818:function(n,t,l){"use strict";function u(n){return a._22(0,[(n()(),a._20(-1,null,["\n"])),(n()(),a._0(1,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(n()(),a._20(-1,null,["\n"]))],null,function(n,t){n(t,1,0,t.component.path)})}Object.defineProperty(t,"__esModule",{value:!0});var a=l(2),e=(l(0),l(86),function(){function n(){var n=this;this.getData=function(){return n.data}}return n.prototype.ngAfterViewInit=function(){this.path="assets/svg/"+this.data.icon+".svg"},n}()),i=function(){return function(){}}(),r=l(412),c=l(413),o=l(414),_=l(415),s=l(416),f=l(417),p=l(418),d=l(419),g=l(420),h=a.Y({encapsulation:2,styles:[],data:{}}),v=a.W("spinner",e,function(n){return a._22(0,[(n()(),a._0(0,0,null,null,1,"spinner",[],null,null,null,u,h)),a.Z(1,4243456,null,0,e,[],null,null)],null,null)},{data:"data"},{},[]),b=l(27),k=l(31),m=l(204),y=l(61);l.d(t,"SpinnerModuleNgFactory",function(){return w});var w=a.X(i,[],function(n){return a._11([a._12(512,a.i,a.T,[[8,[r.a,c.a,o.a,_.a,s.a,f.a,p.a,d.a,g.a,v]],[3,a.i],a.s]),a._12(4608,b.l,b.k,[a.r,[2,b.t]]),a._12(4608,k.n,k.n,[]),a._12(4608,k.c,k.c,[]),a._12(512,b.c,b.c,[]),a._12(512,k.m,k.m,[]),a._12(512,k.d,k.d,[]),a._12(512,k.k,k.k,[]),a._12(512,m.a,m.a,[]),a._12(512,m.b,m.b,[]),a._12(512,i,i,[]),a._12(256,y.a,e,[])])})}});
+webpackJsonp([74],{
+
+/***/ 1048:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageGalleryLayout3Module", function() { return ImageGalleryLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_3__ = __webpack_require__(1165);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ImageGalleryLayout3Module = (function () {
+    function ImageGalleryLayout3Module() {
+    }
+    ImageGalleryLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_3__["a" /* ImageGalleryLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_3__["a" /* ImageGalleryLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_3__["a" /* ImageGalleryLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ImageGalleryLayout3Module);
+    return ImageGalleryLayout3Module;
+}());
+
+//# sourceMappingURL=image-gallery-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1165:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ImageGalleryLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ImageGalleryLayout3 = (function () {
+    function ImageGalleryLayout3(navCtrl, navParams) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.openSubGallery = function (group, index) {
+            _this.navCtrl.push(group.subGallery, {
+                'group': group.items[index],
+                'events': _this.events,
+                'layout': 1
+            });
+        };
+        this.onEvent = function (event, item, e) {
+            if (e) {
+                e.stopPropagation();
+            }
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ImageGalleryLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ImageGalleryLayout3.prototype, "events", void 0);
+    ImageGalleryLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'image-gallery-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/image-gallery/layout-3/image-gallery-layout-3.html"*/'<!---Theme Category 2 (Music)-->\n\n<ion-grid no-padding>\n\n  <ion-row no-margin no-padding>\n\n    <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 no-margin no-padding *ngFor="let group of data.items;let i = index;">\n\n      <ion-card background-size  no-margin (click)="openSubGallery(data, i)"\n\n      [ngStyle]="{\'background-image\': \'url(\' + group.image + \')\'}">\n\n        <div gallery-title>\n\n          <h2 item-title>{{group.title}}</h2>\n\n          <p item-subtitle>{{group.items.length}} image(s)</p>\n\n          <ion-icon (click)="onEvent(\'onFavorite\', group, $event)">\n\n            <i class="icon" [ngClass]="{\'icon-heart\': group.favorite, \'icon-heart-outline\': !group.favorite}"></i>\n\n          </ion-icon>\n\n        </div>\n\n      </ion-card>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/image-gallery/layout-3/image-gallery-layout-3.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
+    ], ImageGalleryLayout3);
+    return ImageGalleryLayout3;
+}());
+
+//# sourceMappingURL=image-gallery-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=74.js.map

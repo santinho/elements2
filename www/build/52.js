@@ -1,1 +1,95 @@
-webpackJsonp([52],{815:function(l,n,u){"use strict";function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),i.Z(1,16384,[[4,4]],0,b.a,[i.j],{value:[0,"value"]},null),(l()(),i._20(2,null,["",""]))],function(l,n){l(n,1,0,n.context.$implicit.id)},function(l,n){l(n,2,0,n.context.$implicit.title)})}function e(l){return i._22(0,[(l()(),i._0(0,0,null,null,22,"ion-item",[["class","item item-block"],["no-lines",""],["padding-top",""]],null,null,null,h.b,h.a)),i.Z(1,1097728,null,3,y.a,[Z.a,k.a,i.j,i.A,[2,C.a]],null,null),i._18(335544320,1,{contentLabel:0}),i._18(603979776,2,{_buttons:1}),i._18(603979776,3,{_icons:1}),i.Z(5,16384,null,0,I.a,[],null,null),(l()(),i._20(-1,2,["\n    "])),(l()(),i._0(7,0,null,1,2,"ion-label",[["item-title",""]],null,null,null,null,null)),i.Z(8,16384,[[1,4]],0,j.a,[k.a,i.j,i.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),i._20(9,null,["",""])),(l()(),i._20(-1,2,["\n    "])),(l()(),i._0(11,0,null,3,10,"ion-select",[["interface","action-sheet"],["multiple","false"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==i._14(l,12)._click(u)&&t}if("keyup.space"===n){t=!1!==i._14(l,12)._keyup()&&t}if("ngModelChange"===n){t=!1!==(e.data.selectedItem=u)&&t}return t},x.b,x.a)),i.Z(12,1228800,null,1,J.a,[M.a,Z.a,k.a,i.j,i.A,[2,y.a],V.a],{interface:[0,"interface"],multiple:[1,"multiple"]},null),i._18(603979776,4,{options:1}),i._17(1024,null,A.f,function(l){return[l]},[J.a]),i.Z(15,671744,null,0,A.i,[[8,null],[8,null],[8,null],[2,A.f]],{model:[0,"model"]},{update:"ngModelChange"}),i._17(2048,null,A.g,null,[A.i]),i.Z(17,16384,null,0,A.h,[A.g],null,null),(l()(),i._20(-1,null,["\n        "])),(l()(),i.V(16777216,null,null,1,null,t)),i.Z(20,802816,null,0,G.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._20(-1,2,["\n"]))],function(l,n){var u=n.component;l(n,12,0,"action-sheet","false");l(n,15,0,u.data.selectedItem);l(n,20,0,u.data.items)},function(l,n){l(n,9,0,n.component.data.title);l(n,11,0,i._14(n,12)._disabled,i._14(n,17).ngClassUntouched,i._14(n,17).ngClassTouched,i._14(n,17).ngClassPristine,i._14(n,17).ngClassDirty,i._14(n,17).ngClassValid,i._14(n,17).ngClassInvalid,i._14(n,17).ngClassPending)})}function a(l){return i._22(0,[(l()(),i.V(16777216,null,null,1,null,e)),i.Z(1,16384,null,0,G.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,1,0,null!=n.component.data)},null)}Object.defineProperty(n,"__esModule",{value:!0});var i=u(2),c=(u(0),u(86),function(){return function(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}}()),o=function(){return function(){}}(),s=u(412),_=u(413),r=u(414),d=u(415),f=u(416),p=u(417),g=u(418),m=u(419),v=u(420),b=u(136),h=u(205),y=u(28),Z=u(24),k=u(4),C=u(62),I=u(87),j=u(67),x=u(851),J=u(211),M=u(14),V=u(25),A=u(31),G=u(27),F=i.Y({encapsulation:2,styles:[],data:{}}),O=i.W("select-layout-3",c,function(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"select-layout-3",[],null,null,null,a,F)),i.Z(1,49152,null,0,c,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),P=u(204),T=u(61);u.d(n,"SelectLayout3ModuleNgFactory",function(){return L});var L=i.X(o,[],function(l){return i._11([i._12(512,i.i,i.T,[[8,[s.a,_.a,r.a,d.a,f.a,p.a,g.a,m.a,v.a,O]],[3,i.i],i.s]),i._12(4608,G.l,G.k,[i.r,[2,G.t]]),i._12(4608,A.n,A.n,[]),i._12(4608,A.c,A.c,[]),i._12(512,G.c,G.c,[]),i._12(512,A.m,A.m,[]),i._12(512,A.d,A.d,[]),i._12(512,A.k,A.k,[]),i._12(512,P.a,P.a,[]),i._12(512,P.b,P.b,[]),i._12(512,o,o,[]),i._12(256,T.a,c,[])])})},851:function(l,n,u){"use strict";function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"div",[["class","select-placeholder select-text"]],null,null,null,null,null)),(l()(),i._20(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.placeholder)})}function e(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"div",[["class","select-text"]],null,null,null,null,null)),(l()(),i._20(1,null,["",""]))],null,function(l,n){var u=n.component;l(n,1,0,u.selectedText||u._text)})}function a(l){return i._22(0,[(l()(),i.V(16777216,null,null,1,null,t)),i.Z(1,16384,null,0,c.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i.V(16777216,null,null,1,null,e)),i.Z(3,16384,null,0,c.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._0(4,0,null,null,1,"div",[["class","select-icon"]],null,null,null,null,null)),(l()(),i._0(5,0,null,null,0,"div",[["class","select-icon-inner"]],null,null,null,null,null)),(l()(),i._0(6,0,null,null,1,"button",[["aria-haspopup","true"],["class","item-cover"],["ion-button","item-cover"],["type","button"]],[[8,"id",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,o.b,o.a)),i.Z(7,1097728,null,0,s.a,[[8,"item-cover"],_.a,i.j,i.A],null,null)],function(l,n){var u=n.component;l(n,1,0,!u._text);l(n,3,0,u._text)},function(l,n){var u=n.component;l(n,6,0,u.id,u._labelId,u._disabled)})}u.d(n,"a",function(){return r}),n.b=a;var i=u(2),c=u(27),o=u(65),s=u(35),_=u(4),r=(u(24),u(25),i.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([52],{
+
+/***/ 1074:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginLayout2Module", function() { return LoginLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_layout_2__ = __webpack_require__(1191);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var LoginLayout2Module = (function () {
+    function LoginLayout2Module() {
+    }
+    LoginLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_2__["a" /* LoginLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login_layout_2__["a" /* LoginLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__login_layout_2__["a" /* LoginLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], LoginLayout2Module);
+    return LoginLayout2Module;
+}());
+
+//# sourceMappingURL=login-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1191:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var LoginLayout2 = (function () {
+    function LoginLayout2() {
+        var _this = this;
+        this.onEvent = function (event) {
+            if (_this.events[event]) {
+                _this.events[event]({
+                    'username': _this.username,
+                    'password': _this.password
+                });
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], LoginLayout2.prototype, "events", void 0);
+    LoginLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'login-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/login/layout-2/login.html"*/'<!-- Themes Login + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!---Input field username-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.username}}</ion-label>\n\n          <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n        </ion-item>\n\n        <!---Input field password-->\n\n        <ion-item no-padding color="accent">\n\n          <ion-label color="secondary" floating>{{data.password}}</ion-label>\n\n          <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n        </ion-item>\n\n        <!---Login button-->\n\n        <button ion-button button-clear clear float-right (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n        <!---Register button-->\n\n        <button ion-button button-clear clear float-right (click)="onEvent(\'onLogin\')">{{data.login}}</button>\n\n      </ion-col>\n\n      <!---Share Section-->\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 social>\n\n        <!---Facebook button-->\n\n        <button ion-button color="facebook" (click)="onEvent(\'onFacebook\')">Facebook</button>\n\n        <!---Twitter button-->\n\n        <button ion-button color="twitter" (click)="onEvent(\'onTwitter\')">Twitter</button>\n\n        <!---Google button-->\n\n        <button ion-button color="google" (click)="onEvent(\'onGoogle\')">Google</button>\n\n        <!---Pinterest button-->\n\n        <button ion-button color="pinterest" (click)="onEvent(\'onPinterest\')">Pinterest</button>\n\n      </ion-col>\n\n      <!---End Share Section-->\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--LOGO-->\n\n        <ion-thumbnail float-left>\n\n          <img [src]="data.logo">\n\n        </ion-thumbnail>\n\n        <!---Skip button-->\n\n        <button float-right ion-button button-clear clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/login/layout-2/login.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], LoginLayout2);
+    return LoginLayout2;
+}());
+
+//# sourceMappingURL=login-layout-2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=52.js.map

@@ -1,1 +1,114 @@
-webpackJsonp([66],{761:function(l,n,u){"use strict";function t(l){return a._22(0,[(l()(),a._0(0,0,null,null,19,"ion-col",[["class","col"],["col-6",""]],null,[[null,"tap"]],function(l,n,u){var t=!0;if("tap"===n){t=!1!==l.component.onEvent("onButton",l.context.$implicit)&&t}return t},null,null)),a.Z(1,16384,null,0,m.a,[],null,null),(l()(),a._20(-1,null,["\n      "])),(l()(),a._20(-1,null,["\n      "])),(l()(),a._0(4,0,null,null,14,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,h.b,h.a)),a.Z(5,1097728,null,3,x.a,[Z.a,g.a,a.j,a.A,[2,y.a]],null,null),a._18(335544320,1,{contentLabel:0}),a._18(603979776,2,{_buttons:1}),a._18(603979776,3,{_icons:1}),a.Z(9,16384,null,0,j.a,[],null,null),(l()(),a._20(-1,2,["\n        "])),(l()(),a._0(11,0,null,1,2,"ion-label",[["item-title",""]],null,null,null,null,null)),a.Z(12,16384,[[1,4]],0,A.a,[g.a,a.j,a.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),a._20(13,null,["",""])),(l()(),a._20(-1,2,["\n        "])),(l()(),a._0(15,0,null,0,2,"ion-checkbox",[],[[2,"checkbox-disabled",null]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==a._14(l,17)._click(u)&&t}return t},w.b,w.a)),a._17(5120,null,F.f,function(l){return[l]},[I.a]),a.Z(17,1228800,null,0,I.a,[g.a,Z.a,[2,x.a],a.j,a.A],{checked:[0,"checked"]},null),(l()(),a._20(-1,2,["\n      "])),(l()(),a._20(-1,null,["\n    "]))],function(l,n){l(n,17,0,n.context.$implicit.favorite)},function(l,n){l(n,13,0,n.context.$implicit.title);l(n,15,0,a._14(n,17)._disabled)})}function c(l){return a._22(0,[(l()(),a._0(0,0,null,null,9,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),a.Z(1,16384,null,0,J.a,[],null,null),(l()(),a._20(-1,null,["\n  "])),(l()(),a._0(3,0,null,null,5,"ion-row",[["class","row"],["no-padding",""]],null,null,null,null,null)),a.Z(4,16384,null,0,O.a,[],null,null),(l()(),a._20(-1,null,["\n    "])),(l()(),a.V(16777216,null,null,1,null,t)),a.Z(7,802816,null,0,$.i,[a.J,a.G,a.p],{ngForOf:[0,"ngForOf"]},null),(l()(),a._20(-1,null,["\n  "])),(l()(),a._20(-1,null,["\n"]))],function(l,n){l(n,7,0,n.component.data)},null)}function e(l){return a._22(0,[(l()(),a._20(-1,null,["\n"])),(l()(),a.V(16777216,null,null,1,null,c)),a.Z(2,16384,null,0,$.j,[a.J,a.G],{ngIf:[0,"ngIf"]},null),(l()(),a._20(-1,null,["\n"]))],function(l,n){l(n,2,0,null!=n.component.data)},null)}Object.defineProperty(n,"__esModule",{value:!0});var a=u(2),o=(u(0),u(86),function(){return function(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}}()),i=function(){return function(){}}(),_=u(412),r=u(413),s=u(414),d=u(415),f=u(416),b=u(417),v=u(418),k=u(419),p=u(420),m=u(208),h=u(205),x=u(28),Z=u(24),g=u(4),y=u(62),j=u(87),A=u(67),w=u(870),F=u(31),I=u(216),J=u(206),O=u(207),$=u(27),B=a.Y({encapsulation:2,styles:[],data:{}}),E=a.W("check-box-layout-4",o,function(l){return a._22(0,[(l()(),a._0(0,0,null,null,1,"check-box-layout-4",[],null,null,null,e,B)),a.Z(1,49152,null,0,o,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),G=u(204),L=u(61);u.d(n,"CheckBoxLayout4ModuleNgFactory",function(){return M});var M=a.X(i,[],function(l){return a._11([a._12(512,a.i,a.T,[[8,[_.a,r.a,s.a,d.a,f.a,b.a,v.a,k.a,p.a,E]],[3,a.i],a.s]),a._12(4608,$.l,$.k,[a.r,[2,$.t]]),a._12(4608,F.n,F.n,[]),a._12(4608,F.c,F.c,[]),a._12(512,$.c,$.c,[]),a._12(512,F.m,F.m,[]),a._12(512,F.d,F.d,[]),a._12(512,F.k,F.k,[]),a._12(512,G.a,G.a,[]),a._12(512,G.b,G.b,[]),a._12(512,i,i,[]),a._12(256,L.a,o,[])])})},870:function(l,n,u){"use strict";function t(l){return c._22(0,[(l()(),c._0(0,0,null,null,1,"div",[["class","checkbox-icon"]],[[2,"checkbox-checked",null]],null,null,null,null)),(l()(),c._0(1,0,null,null,0,"div",[["class","checkbox-inner"]],null,null,null,null,null)),(l()(),c._0(2,0,null,null,2,"button",[["class","item-cover"],["ion-button","item-cover"],["role","checkbox"],["type","button"]],[[8,"id",0],[1,"aria-checked",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,e.b,e.a)),c.Z(3,1097728,null,0,a.a,[[8,"item-cover"],o.a,c.j,c.A],null,null),(l()(),c._20(-1,0,[" "]))],null,function(l,n){var u=n.component;l(n,0,0,u._value);l(n,2,0,u.id,u._value,u._labelId,u._disabled)})}u.d(n,"a",function(){return i}),n.b=t;var c=u(2),e=u(65),a=u(35),o=u(4),i=(u(24),c.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([66],{
+
+/***/ 1056:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout3Module", function() { return DragAndDropLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__ = __webpack_require__(1173);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DragAndDropLayout3Module = (function () {
+    function DragAndDropLayout3Module() {
+    }
+    DragAndDropLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_3__["a" /* DragAndDropLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], DragAndDropLayout3Module);
+    return DragAndDropLayout3Module;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1173:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DragAndDropLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DragAndDropLayout3 = (function () {
+    function DragAndDropLayout3() {
+        var _this = this;
+        this.reorderItems = function (indexes) {
+            _this.data.items = Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* reorderArray */])(_this.data.items, indexes);
+        };
+    }
+    DragAndDropLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    DragAndDropLayout3.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], DragAndDropLayout3.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], DragAndDropLayout3.prototype, "fabButton", void 0);
+    DragAndDropLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'drag-and-drop-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/list-view/drag-and-drop/layout-3/drag-and-drop.html"*/'<!-- Themes Medium item with avatar-->\n\n<ion-content>\n\n    <ion-grid no-padding *ngIf="data != null">\n\n        <!--Content-->\n\n        <ion-row>\n\n            <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n                <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n                    <ion-item *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n                        <ion-avatar item-start>\n\n                            <img [src]="item.image">\n\n                        </ion-avatar>\n\n                        <h2 item-title>{{item.title}}</h2>\n\n                        <h3 item-subtitle>{{item.description}}</h3>\n\n                    </ion-item>\n\n                </ion-list>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n    <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/list-view/drag-and-drop/layout-3/drag-and-drop.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], DragAndDropLayout3);
+    return DragAndDropLayout3;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=66.js.map

@@ -1,1 +1,95 @@
-webpackJsonp([24],{824:function(l,n,u){"use strict";function t(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"ion-tab",[["role","tabpanel"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,v.b,v.a)),o.Z(1,245760,null,0,m.a,[h.a,I.a,y.a,Z.a,o.j,o.u,o.A,o.i,o.g,j.l,k.a,[2,A.a],O.a,o.k],{root:[0,"root"],tabIcon:[1,"tabIcon"]},null)],function(l,n){l(n,1,0,n.context.$implicit.page,n.context.$implicit.icon)},function(l,n){l(n,0,0,o._14(n,1)._tabId,o._14(n,1)._btnId)})}function a(l){return o._22(0,[o._18(402653184,1,{tabRef:0}),(l()(),o._20(-1,null,["\n  "])),(l()(),o._0(2,0,null,null,6,"ion-tabs",[["tabsPlacement","bottom"]],null,null,null,S.b,S.a)),o._17(6144,null,J.a,null,[h.a]),o.Z(4,4374528,[[1,4],["tabs",4]],0,h.a,[[2,T.a],[2,x.a],I.a,y.a,o.j,Z.a,o.A,A.a,F.a],{tabsPlacement:[0,"tabsPlacement"]},null),(l()(),o._20(-1,0,["\n    "])),(l()(),o.V(16777216,null,0,1,null,t)),o.Z(7,802816,null,0,G.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(l()(),o._20(-1,0,["\n  "])),(l()(),o._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,"bottom");l(n,7,0,u.data)},null)}Object.defineProperty(n,"__esModule",{value:!0});var o=u(2),e=(u(0),u(86),function(){return function(){}}()),i=function(){return function(){}}(),c=u(412),b=u(413),r=u(414),_=u(415),s=u(416),f=u(417),d=u(418),p=u(419),g=u(420),v=u(879),m=u(224),h=u(137),I=u(14),y=u(4),Z=u(7),j=u(12),k=u(46),A=u(25),O=u(15),S=u(880),J=u(47),T=u(34),x=u(8),F=u(42),G=u(27),V=o.Y({encapsulation:2,styles:[],data:{}}),B=o.W("tabs-layout-2",e,function(l){return o._22(0,[(l()(),o._0(0,0,null,null,1,"tabs-layout-2",[],null,null,null,a,V)),o.Z(1,49152,null,0,e,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),P=u(31),Y=u(204),$=u(61);u.d(n,"TabsLayout2ModuleNgFactory",function(){return w});var w=o.X(i,[],function(l){return o._11([o._12(512,o.i,o.T,[[8,[c.a,b.a,r.a,_.a,s.a,f.a,d.a,p.a,g.a,B]],[3,o.i],o.s]),o._12(4608,G.l,G.k,[o.r,[2,G.t]]),o._12(4608,P.n,P.n,[]),o._12(4608,P.c,P.c,[]),o._12(512,G.c,G.c,[]),o._12(512,P.m,P.m,[]),o._12(512,P.d,P.d,[]),o._12(512,P.k,P.k,[]),o._12(512,Y.a,Y.a,[]),o._12(512,Y.b,Y.b,[]),o._12(512,i,i,[]),o._12(256,$.a,e,[])])})},879:function(l,n,u){"use strict";function t(l){return a._22(0,[a._18(402653184,1,{_vp:0}),(l()(),a._0(1,16777216,[[1,3],["viewport",1]],null,0,"div",[],null,null,null,null,null)),(l()(),a._0(2,0,null,null,0,"div",[["class","nav-decor"]],null,null,null,null,null))],null,null)}u.d(n,"a",function(){return o}),n.b=t;var a=u(2),o=(u(4),u(7),u(12),u(46),u(25),u(15),a.Y({encapsulation:2,styles:[],data:{}}))},880:function(l,n,u){"use strict";function t(l){return b._22(0,[(l()(),b._0(0,0,null,null,1,"ion-icon",[["class","tab-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b.Z(1,147456,null,0,r.a,[_.a,b.j,b.A],{name:[0,"name"],isActive:[1,"isActive"]},null)],function(l,n){var u=n.component;l(n,1,0,u.tab.tabIcon,u.tab.isSelected)},function(l,n){l(n,0,0,b._14(n,1)._hidden)})}function a(l){return b._22(0,[(l()(),b._0(0,0,null,null,1,"span",[["class","tab-button-text"]],null,null,null,null,null)),(l()(),b._20(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.tab.tabTitle)})}function o(l){return b._22(0,[(l()(),b._0(0,0,null,null,2,"ion-badge",[["class","tab-badge"]],null,null,null,null,null)),b.Z(1,16384,null,0,s.a,[_.a,b.j,b.A],{color:[0,"color"]},null),(l()(),b._20(2,null,["",""]))],function(l,n){l(n,1,0,n.component.tab.tabBadgeStyle)},function(l,n){l(n,2,0,n.component.tab.tabBadge)})}function e(l){return b._22(0,[(l()(),b.V(16777216,null,null,1,null,t)),b.Z(1,16384,null,0,f.j,[b.J,b.G],{ngIf:[0,"ngIf"]},null),(l()(),b.V(16777216,null,null,1,null,a)),b.Z(3,16384,null,0,f.j,[b.J,b.G],{ngIf:[0,"ngIf"]},null),(l()(),b.V(16777216,null,null,1,null,o)),b.Z(5,16384,null,0,f.j,[b.J,b.G],{ngIf:[0,"ngIf"]},null),(l()(),b._0(6,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],function(l,n){var u=n.component;l(n,1,0,u.tab.tabIcon);l(n,3,0,u.tab.tabTitle);l(n,5,0,u.tab.tabBadge)},null)}function i(l){return b._22(0,[(l()(),b._0(0,0,null,null,1,"a",[["class","tab-button"],["href","#"],["role","tab"]],[[1,"id",0],[1,"aria-controls",0],[1,"aria-selected",0],[2,"has-title",null],[2,"has-icon",null],[2,"has-title-only",null],[2,"icon-only",null],[2,"has-badge",null],[2,"disable-hover",null],[2,"tab-disabled",null],[2,"tab-hidden",null]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==b._14(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==a.select(l.context.$implicit)&&t}return t},e,p)),b.Z(1,114688,null,0,d.a,[_.a,b.j,b.A],{tab:[0,"tab"]},{ionSelect:"ionSelect"})],function(l,n){l(n,1,0,n.context.$implicit)},function(l,n){l(n,0,1,[b._14(n,1).tab._btnId,b._14(n,1).tab._tabId,b._14(n,1).tab.isSelected,b._14(n,1).hasTitle,b._14(n,1).hasIcon,b._14(n,1).hasTitleOnly,b._14(n,1).hasIconOnly,b._14(n,1).hasBadge,b._14(n,1).disHover,!b._14(n,1).tab.enabled,!b._14(n,1).tab.show])})}function c(l){return b._22(0,[b._18(402653184,1,{_highlight:0}),b._18(402653184,2,{_tabbar:0}),b._18(402653184,3,{portal:0}),(l()(),b._0(3,0,[[2,0],["tabbar",1]],null,4,"div",[["class","tabbar"],["role","tablist"]],null,null,null,null,null)),(l()(),b.V(16777216,null,null,1,null,i)),b.Z(5,802816,null,0,f.i,[b.J,b.G,b.p],{ngForOf:[0,"ngForOf"]},null),(l()(),b._0(6,0,null,null,1,"div",[["class","tab-highlight"]],null,null,null,null,null)),b.Z(7,16384,[[1,4]],0,g.a,[b.j,v.a],null,null),b._13(null,0),(l()(),b._0(9,16777216,[[3,3],["portal",1]],null,0,"div",[["tab-portal",""]],null,null,null,null,null))],function(l,n){l(n,5,0,n.component._tabs)},null)}var b=u(2),r=u(60),_=u(4),s=u(230),f=u(27),d=u(225),p=b.Y({encapsulation:2,styles:[],data:{}}),g=u(143),v=u(15);u(47),u(137),u(34),u(8),u(14),u(7),u(25),u(42);u.d(n,"a",function(){return m}),n.b=c;var m=b.Y({encapsulation:2,styles:[],data:{}})}});
+webpackJsonp([24],{
+
+/***/ 1109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleLayout1Module", function() { return ToggleLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__ = __webpack_require__(1226);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ToggleLayout1Module = (function () {
+    function ToggleLayout1Module() {
+    }
+    ToggleLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__toggle_layout_1__["a" /* ToggleLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ToggleLayout1Module);
+    return ToggleLayout1Module;
+}());
+
+//# sourceMappingURL=toggle-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1226:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ToggleLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ToggleLayout1 = (function () {
+    function ToggleLayout1() {
+        var _this = this;
+        this.onEvent = function (event, item) {
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    ToggleLayout1.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('data'),
+        __metadata("design:type", Object)
+    ], ToggleLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])('events'),
+        __metadata("design:type", Object)
+    ], ToggleLayout1.prototype, "events", void 0);
+    ToggleLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'toggle-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/toggle/layout-1/toggle.html"*/'<!--Themes Toggle - With avatars -->\n\n<ion-content>\n\n  <ion-grid no-padding>\n\n    <ion-list *ngIf="data != null">\n\n      <ion-item *ngFor="let item of data.items; let i= index">\n\n        <ion-avatar item-start>\n\n          <img images-filter [src]="item.avatar" />\n\n        </ion-avatar>\n\n        <ion-label item-title padding-top>{{item.title}}</ion-label>\n\n        <ion-label item-subtitle text-wrap>{{item.subtitle}}</ion-label>\n\n        <ion-toggle item-end [value]="item.id" (ionChange)="onEvent(\'onSelect\',item)" [checked]="item.isChecked"></ion-toggle>\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/toggle/layout-1/toggle.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ToggleLayout1);
+    return ToggleLayout1;
+}());
+
+//# sourceMappingURL=toggle-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=24.js.map

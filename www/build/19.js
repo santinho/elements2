@@ -1,1 +1,125 @@
-webpackJsonp([19],{784:function(n,t,l){"use strict";function e(n){return o._22(0,[(n()(),o._0(0,0,null,null,47,"ion-card",[["padding",""]],null,null,null,null,null)),o.Z(1,278528,null,0,S.h,[o.p,o.q,o.j,o.B],{ngClass:[0,"ngClass"]},null),o.Z(2,16384,null,0,E.a,[x.a,o.j,o.A],null,null),(n()(),o._20(-1,null,["\n        "])),(n()(),o._20(-1,null,["\n        "])),(n()(),o._0(5,0,null,null,0,"img",[],[[8,"src",4],[8,"alt",0]],null,null,null,null)),(n()(),o._20(-1,null,["\n        "])),(n()(),o._20(-1,null,["\n        "])),(n()(),o._0(8,0,null,null,17,"div",[["list-images",""]],null,[[null,"click"]],function(n,t,l){var e=!0;if("click"===t){e=!1!==n.component.onEvent("onItemClick",n.context.$implicit.title,l)&&e}return e},null,null)),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(10,0,null,null,2,"div",[["background-size",""],["images",""]],[[8,"title",0]],null,null,null,null)),o.Z(11,278528,null,0,S.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(12,{"background-image":0}),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(14,0,null,null,2,"div",[["background-size",""],["images",""]],[[8,"title",0]],null,null,null,null)),o.Z(15,278528,null,0,S.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(16,{"background-image":0}),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(18,0,null,null,2,"div",[["background-size",""],["images",""]],[[8,"title",0]],null,null,null,null)),o.Z(19,278528,null,0,S.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(20,{"background-image":0}),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(22,0,null,null,2,"div",[["background-size",""],["images",""]],[[8,"title",0]],null,null,null,null)),o.Z(23,278528,null,0,S.m,[o.q,o.j,o.B],{ngStyle:[0,"ngStyle"]},null),o._16(24,{"background-image":0}),(n()(),o._20(-1,null,["\n        "])),(n()(),o._20(-1,null,["\n        "])),(n()(),o._20(-1,null,["\n        "])),(n()(),o._0(28,0,null,null,18,"ion-card-content",[["no-padding",""]],null,null,null,null,null)),o.Z(29,16384,null,0,v.a,[x.a,o.j,o.A],null,null),(n()(),o._20(-1,null,["\n          "])),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(32,0,null,null,2,"h2",[["card-title",""],["ion-text",""],["item-start",""],["margin-top",""],["text-nowrap",""]],null,null,null,null,null)),o.Z(33,16384,null,0,b.a,[x.a,o.j,o.A],null,null),(n()(),o._20(34,null,["",""])),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(36,0,null,null,1,"span",[["float-left",""],["span-medium",""]],null,null,null,null,null)),(n()(),o._20(37,null,["",""])),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(39,0,null,null,1,"span",[["float-left",""],["padding-left",""],["shipping",""],["text-uppercase",""],["text-wrap",""]],null,null,null,null,null)),(n()(),o._20(40,null,["",""])),(n()(),o._20(-1,null,["\n          "])),(n()(),o._20(-1,null,["\n          "])),(n()(),o._0(43,0,null,null,2,"button",[["default-button",""],["float-right",""],["ion-button",""]],null,[[null,"click"]],function(n,t,l){var e=!0;if("click"===t){e=!1!==n.component.onEvent("onBuy",n.context.$implicit,l)&&e}return e},k.b,k.a)),o.Z(44,1097728,null,0,C.a,[[8,""],x.a,o.j,o.A],null,null),(n()(),o._20(45,0,["",""])),(n()(),o._20(-1,null,["\n        "])),(n()(),o._20(-1,null,["\n      "]))],function(n,t){n(t,1,0,t.component.animateClass);n(t,11,0,n(t,12,0,"url("+t.context.$implicit.image2+")"));n(t,15,0,n(t,16,0,"url("+t.context.$implicit.image3+")"));n(t,19,0,n(t,20,0,"url("+t.context.$implicit.image4+")"));n(t,23,0,n(t,24,0,"url("+t.context.$implicit.image5+")"))},function(n,t){n(t,5,0,t.context.$implicit.image1,o._3(1,"",t.context.$implicit.title,""));n(t,10,0,o._3(1,"",t.context.$implicit.title,""));n(t,14,0,o._3(1,"",t.context.$implicit.title,""));n(t,18,0,o._3(1,"",t.context.$implicit.title,""));n(t,22,0,o._3(1,"",t.context.$implicit.title,""));n(t,34,0,t.context.$implicit.title);n(t,37,0,t.context.$implicit.price);n(t,40,0,t.context.$implicit.subtitle);n(t,45,0,t.context.$implicit.buy)})}function i(n){return o._22(0,[(n()(),o._0(0,0,null,null,18,"ion-list",[["no-margin",""]],null,null,null,null,null)),o.Z(1,16384,null,0,w.a,[x.a,o.j,o.A,j.a,Z.l,$.a],null,null),(n()(),o._20(-1,null,["\n      "])),(n()(),o._20(-1,null,["\n      "])),(n()(),o._0(4,0,null,null,10,"ion-list-header",[["class","item"],["header-title",""],["ion-affix",""],["no-lines",""],["no-margin",""],["style","background:light"]],null,null,null,B.b,B.a)),o.Z(5,1097728,null,3,T.a,[O.a,x.a,o.j,o.A,[2,A.a]],null,null),o._18(335544320,2,{contentLabel:0}),o._18(603979776,3,{_buttons:1}),o._18(603979776,4,{_icons:1}),o.Z(9,16384,null,0,F.a,[x.a,o.A,o.j,[8,null]],null,null),o.Z(10,4341760,null,0,R.a,[o.j,o.B],{content:[0,"content"]},null),(n()(),o._20(-1,2,["\n        "])),(n()(),o._0(12,0,null,2,1,"h2",[["text-uppercase",""]],null,null,null,null,null)),(n()(),o._20(13,null,["",""])),(n()(),o._20(-1,2,["\n      "])),(n()(),o._20(-1,null,["\n      "])),(n()(),o.V(16777216,null,null,1,null,e)),o.Z(17,802816,null,0,S.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(n()(),o._20(-1,null,["\n    "]))],function(n,t){n(t,10,0,t.component.content);n(t,17,0,t.context.$implicit.items)},function(n,t){n(t,13,0,t.context.$implicit.groupName)})}function r(n){return o._22(0,[(n()(),o._0(0,0,null,null,4,"div",[],null,null,null,null,null)),(n()(),o._20(-1,null,["\n    "])),(n()(),o.V(16777216,null,null,1,null,i)),o.Z(3,802816,null,0,S.i,[o.J,o.G,o.p],{ngForOf:[0,"ngForOf"]},null),(n()(),o._20(-1,null,["\n  "]))],function(n,t){n(t,3,0,t.component.data.items)},null)}function u(n){return o._22(0,[o._18(402653184,1,{content:0}),(n()(),o._20(-1,null,["\n"])),(n()(),o._0(2,0,null,null,5,"ion-content",[["no-padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,D.b,D.a)),o.Z(3,4374528,[[1,4]],0,z.a,[x.a,j.a,$.a,o.j,o.A,q.a,I.a,o.u,[2,V.a],[2,H.a]],null,null),(n()(),o._20(-1,1,["\n  "])),(n()(),o.V(16777216,null,1,1,null,r)),o.Z(6,16384,null,0,S.j,[o.J,o.G],{ngIf:[0,"ngIf"]},null),(n()(),o._20(-1,1,["\n"])),(n()(),o._20(-1,null,["\n"]))],function(n,t){n(t,6,0,null!=t.component.data)},function(n,t){n(t,2,0,o._14(t,3).statusbarPadding,o._14(t,3)._hasRefresher)})}Object.defineProperty(t,"__esModule",{value:!0});var o=l(2),s=(l(0),l(86),function(){function n(){this.slider={}}return n.prototype.ngOnChanges=function(n){this.data=n.data.currentValue},n.prototype.onEvent=function(n,t,l){l&&l.stopPropagation(),this.events[n]&&this.events[n](t)},n}()),a=(l(873),function(){return function(){}}()),c=l(412),h=l(413),p=l(414),d=l(415),m=l(416),f=l(417),g=l(418),_=l(419),y=l(420),S=l(27),E=l(215),x=l(4),v=l(228),b=l(229),k=l(65),C=l(35),w=l(66),j=l(7),Z=l(12),$=l(15),B=l(205),T=l(28),O=l(24),A=l(62),F=l(133),R=l(853),D=l(421),z=l(36),q=l(14),I=l(42),V=l(8),H=l(34),J=o.Y({encapsulation:2,styles:[],data:{}}),N=o.W("sticky-list-header-layout-2",s,function(n){return o._22(0,[(n()(),o._0(0,0,null,null,1,"sticky-list-header-layout-2",[],null,null,null,u,J)),o.Z(1,573440,null,0,s,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),G=l(31),L=l(204),P=l(857),M=l(61);l.d(t,"StickyListHeaderLayout2ModuleNgFactory",function(){return W});var W=o.X(a,[],function(n){return o._11([o._12(512,o.i,o.T,[[8,[c.a,h.a,p.a,d.a,m.a,f.a,g.a,_.a,y.a,N]],[3,o.i],o.s]),o._12(4608,S.l,S.k,[o.r,[2,S.t]]),o._12(4608,G.n,G.n,[]),o._12(4608,G.c,G.c,[]),o._12(512,S.c,S.c,[]),o._12(512,G.m,G.m,[]),o._12(512,G.d,G.d,[]),o._12(512,G.k,G.k,[]),o._12(512,L.a,L.a,[]),o._12(512,L.b,L.b,[]),o._12(512,P.a,P.a,[]),o._12(512,a,a,[]),o._12(256,M.a,s,[])])})},853:function(n,t,l){"use strict";var e=l(2),i=l(86),r=l(1),u=(l(141),function(){function n(n){this.content=n}return n.prototype.onScroll=function(){return r.Observable.merge(this.content.ionScrollStart,this.content.ionScroll,this.content.ionScrollEnd)},n.prototype.getClientTop=function(){return this.content.getScrollElement().getBoundingClientRect().top},n.prototype.getScrollTop=function(){return this.content.getScrollElement().scrollTop},n.prototype.appendFixedHeader=function(n){this.content.getNativeElement().appendChild(n)},n.prototype.isScrollingDown=function(){return"down"===this.content.directionY},n}()),o=(l(91),l(422)),s=function(){function n(n){this.scroll=n,this.scrollingDown=!1}return n.prototype.onScroll=function(){var n=this;return r.Observable.fromEvent(this.scroll._scrollContent.nativeElement,"scroll").pipe(Object(o.map)(function(){return n.getScrollTop()}),Object(o.pairwise)(),Object(o.tap)(function(t){return n.scrollingDown=t[0]-t[1]<0}))},n.prototype.getClientTop=function(){return 0},n.prototype.getScrollTop=function(){return this.scroll._scrollContent.nativeElement.scrollTop},n.prototype.appendFixedHeader=function(n){this.scroll._scrollContent.nativeElement.parentElement.appendChild(n)},n.prototype.isScrollingDown=function(){return this.scrollingDown},n}();l.d(t,"a",function(){return a});var a=function(){function n(n,t){this.element=n,this.renderer=t,this.onSticky=new e.l}return n.prototype.ngAfterViewInit=function(){var n=this;this.scrollContainer=function(n){if(n instanceof i.a)return new u(n);if(n instanceof i.b)return new s(n);throw"Invalid container element (only ion-content and ion-scroll currently supported)"}(this.content),this.headerElement=this.element.nativeElement,this.containerElement=this.headerElement.parentElement;var t=this.headerElement.getBoundingClientRect().height,l=window.innerWidth-this.headerElement.getBoundingClientRect().width-this.headerElement.getBoundingClientRect().left,e=this.headerElement.getBoundingClientRect().left,r=this.scrollContainer.getClientTop(),o=this.containerElement.offsetTop,a=o+this.containerElement.getBoundingClientRect().height;this.updateSticky(this.scrollContainer.getScrollTop(),o,a,r,t,e,l,!0);this.scrollSubscription=this.scrollContainer.onScroll().subscribe(function(){var i=n.scrollContainer.getScrollTop();r=n.scrollContainer.getClientTop(),a=(o=n.containerElement.offsetTop)+n.containerElement.getBoundingClientRect().height,n.updateSticky(i,o,a,r,t,e,l,n.scrollContainer.isScrollingDown())})},n.prototype.updateSticky=function(n,t,l,e,i,r,u,o){var s=this;if(n>0&&n>=t&&n<=l)if(this.clone||(this.clone=this.headerElement.cloneNode(!0),this.containerElement.insertBefore(this.clone,this.headerElement),this.scrollContainer.appendFixedHeader(this.headerElement),this.onSticky.emit({sticky:!0,affix:this}),o?this.applyStyles(r,u):this.applyStyles(0,0),setTimeout(function(){s.renderer.setStyle(s.headerElement,"right","0px"),s.renderer.setStyle(s.headerElement,"left","0px")},0)),n<=l&&n>=l-i){var a=e-(n-(l-i));this.renderer.setStyle(this.headerElement,"transform","translate3d(0px, "+a+"px, 0px)"),this.renderer.setStyle(this.headerElement,"-webkit-transform","translate3d(0px, "+a+"px, 0px)")}else this.renderer.setStyle(this.headerElement,"transform","translate3d(0px, "+e+"px, 0px)"),this.renderer.setStyle(this.headerElement,"-webkit-transform","translate3d(0px, "+e+"px, 0px)");else this.reset()},n.prototype.reset=function(){this.clone&&(this.containerElement.insertBefore(this.headerElement,this.clone),this.clearStyles(),this.clone.remove(),this.clone=null,this.onSticky.emit({sticky:!1,affix:this}))},n.prototype.applyStyles=function(n,t){this.renderer.setStyle(this.headerElement,"right",t+"px"),this.renderer.setStyle(this.headerElement,"left",n+"px"),this.renderer.setStyle(this.headerElement,"transition","left 0.1s ease-out, right 0.1s ease-out"),this.renderer.setStyle(this.headerElement,"z-index","2"),this.renderer.setStyle(this.headerElement,"position","absolute"),this.renderer.setStyle(this.headerElement,"width","auto"),this.renderer.setStyle(this.headerElement,"top","0px")},n.prototype.clearStyles=function(){this.renderer.removeStyle(this.headerElement,"position"),this.renderer.removeStyle(this.headerElement,"z-index"),this.renderer.removeStyle(this.headerElement,"transition"),this.renderer.removeStyle(this.headerElement,"top"),this.renderer.removeStyle(this.headerElement,"transform"),this.renderer.removeStyle(this.headerElement,"-webkit-transform"),this.renderer.removeStyle(this.headerElement,"left"),this.renderer.removeStyle(this.headerElement,"right"),this.renderer.removeStyle(this.headerElement,"width")},n.prototype.ngOnDestroy=function(){this.reset(),this.scrollSubscription.unsubscribe()},n}()},857:function(n,t,l){"use strict";l.d(t,"a",function(){return e});l(853);var e=function(){return function(){}}()},873:function(n,t,l){"use strict";l(857),l(853)}});
+webpackJsonp([19],{
+
+/***/ 1114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout3Module", function() { return WizardLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__ = __webpack_require__(1231);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var WizardLayout3Module = (function () {
+    function WizardLayout3Module() {
+    }
+    WizardLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], WizardLayout3Module);
+    return WizardLayout3Module;
+}());
+
+//# sourceMappingURL=wizard-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1231:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var WizardLayout3 = (function () {
+    function WizardLayout3() {
+        this.sliderOptions = { pager: true };
+        this.path = false;
+        this.prev = true;
+        this.next = true;
+        this.finish = true;
+        this.prev = false;
+        this.next = true;
+        this.finish = false;
+    }
+    WizardLayout3.prototype.changeSlide = function (index) {
+        if (index > 0) {
+            this.slider.slideNext(300);
+        }
+        else {
+            this.slider.slidePrev(300);
+        }
+    };
+    WizardLayout3.prototype.slideHasChanged = function (index) {
+        try {
+            this.prev = !this.slider.isBeginning();
+            this.next = this.slider.getActiveIndex() < (this.slider.length() - 1);
+            this.finish = this.slider.isEnd();
+        }
+        catch (e) { }
+    };
+    WizardLayout3.prototype.ngOnChanges = function (changes) {
+        this.data = changes['data'].currentValue;
+    };
+    WizardLayout3.prototype.onEvent = function (event) {
+        if (this.events[event]) {
+            this.events[event]();
+        }
+        console.log(event);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], WizardLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], WizardLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('wizardSlider'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Slides */])
+    ], WizardLayout3.prototype, "slider", void 0);
+    WizardLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'wizard-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/wizard/layout-3/wizard.html"*/'<!--Theme Wizard Big Image -->\n\n<button *ngIf="data != null" skip button-clear clear ion-button text-right>\n\n    {{data.btnSkip}}\n\n</button>\n\n<ion-slides #wizardSlider *ngIf="data != null" (ionSlideDidChange)="slideHasChanged()" pager="true">\n\n  <ion-slide background-size *ngFor="let item of data.items;" [ngStyle]="{\'background-image\': \'url(\' + item.backgroundImage + \')\'}">\n\n    <div wizard-description text-left>\n\n      <h1 wizard-title>{{item.title}}</h1>\n\n      <h3 wizard-body-text>{{item.description}}</h3>\n\n    </div>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n<button navigation text-center button-clear clear ion-button (click)="changeSlide(1)" *ngIf="next">\n\n    {{data.btnNext}}\n\n</button>\n\n<button navigation text-center button-clear clear ion-button (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n    {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/wizard/layout-3/wizard.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], WizardLayout3);
+    return WizardLayout3;
+}());
+
+//# sourceMappingURL=wizard-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=19.js.map

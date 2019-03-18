@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import { Component, Input, ViewChild } from '@angular/core';
+import { IonicPage, NavController, Content } from 'ionic-angular';
 import { HomeService } from '../../services/home-service';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs';
@@ -13,21 +13,22 @@ import { Observable } from 'rxjs';
 
 })
 export class ElementsPericiasPage {
-  title: string = 'Pericias';
+  @ViewChild(Content)
+  content: Content;
+  title: string = 'Talentos';
+  node: string = 'Tormenta/Talentos'
   list: Observable<any[]>;
   listFiltered: Observable<any[]>;
-  tipoPericias: string[]=['Agilidade/Destreza', 'Arquearia', 'Caça/Animais', 'Carisma', 
-  'Combate','Força e Resistencia', 'Gerais', 'Magias', 'Sentidos']
-  tipoPericiasSelecionados: string[] = ['Agilidade/Destreza', 'Arquearia', 'Caça/Animais', 'Carisma', 
-  'Combate','Força e Resistencia', 'Gerais', 'Magias', 'Sentidos'];
+  tipoPericias: string[]=[]
+  tipoPericiasSelecionados: string[] = [];
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     console.log('pericias');
     service.load().subscribe(snapshot => {
       this.data = snapshot;
     });
-    this.list = this.af.list('pericias').valueChanges()
-    this.listFiltered = this.af.list('pericias').valueChanges()
+    this.list = this.af.list(this.node).valueChanges()
+    this.listFiltered = this.af.list(this.node).valueChanges()
   }
 
   @Input() data: any;
@@ -42,6 +43,7 @@ export class ElementsPericiasPage {
       this.list = this.listFiltered;
     }
     this.list.subscribe((listaBD:any[])=>{
+      console.log('lista', listaBD)
       let listaBDFiltrada = listaBD.filter((item) => {
         let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
         let classeOK:boolean = this.tipoPericiasSelecionados.indexOf(item['Tipo']) > -1;
