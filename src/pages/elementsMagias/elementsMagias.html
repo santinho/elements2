@@ -16,7 +16,7 @@
         <ion-list no-padding no-margin transparent>
         <ion-item padding-top no-lines *ngIf="data != null">
             <ion-label>Tipo Conjuração:</ion-label>
-            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoMagiasSelecionados">
+            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoMagiasSelecionados" (ionChange)="getItems($event)">
                 <ion-option *ngFor="let tipo of tipoMagias;" [value]="tipo">{{tipo}}</ion-option>
             </ion-select>
         </ion-item>

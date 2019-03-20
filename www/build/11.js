@@ -1,6 +1,6 @@
 webpackJsonp([11],{
 
-/***/ 1039:
+/***/ 1038:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActionSheetLayout2Module", function() { return ActionSheetLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_2__ = __webpack_require__(1156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_layout_2__ = __webpack_require__(1155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__elastic_header_elastic_header_module__ = __webpack_require__(1124);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -147,7 +147,7 @@ var ElasticHeader = (function () {
 
 /***/ }),
 
-/***/ 1156:
+/***/ 1155:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -232,7 +232,7 @@ var ActionSheetLayout2 = (function () {
     ], ActionSheetLayout2.prototype, "content", void 0);
     ActionSheetLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'action-sheet-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/action-sheet/layout-2/action-sheet.html"*/'<!--- Theme Action Sheet - News -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <div title-block *ngIf="data != null">\n\n            <!-- New-category -->\n\n            <span new-category>{{data.category}}</span>\n\n            <!-- Parallax-title -->\n\n            <h1 parallax-title text-wrap>{{data.title}}</h1>\n\n        </div>\n\n    </ion-item>\n\n    <ion-item-group *ngIf="data != null">\n\n        <ion-item-divider border no-lines>\n\n            <!-- Avatar-->\n\n            <ion-avatar item-start>\n\n                <img [src]="data.avatar" />\n\n            </ion-avatar>\n\n            <!-- Item-subtitle -->\n\n            <h2 item-subtitle>{{data.subtitle}}</h2>\n\n            <!-- Action Sheet Button-->\n\n            <button item-end ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n            </button>\n\n        </ion-item-divider>\n\n        <ion-item no-margin no-lines>\n\n          <!-- Parallax-description -->\n\n          <div parallax-description *ngFor="let item of data.items;let i = index">\n\n            <p parallax-description text-wrap>{{item.subtitle}}</p>\n\n          </div>\n\n        </ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/action-sheet/layout-2/action-sheet.html"*/
+            selector: 'action-sheet-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\action-sheet\layout-2\action-sheet.html"*/'<!--- Theme Action Sheet - News -->\n\n<ion-content elastic-header>\n\n    <ion-item no-lines background-size id="elastic-header" [ngStyle]="{\'background-image\': \'url(\' + headerImage + \')\'}">\n\n        <div title-block *ngIf="data != null">\n\n            <!-- New-category -->\n\n            <span new-category>{{data.category}}</span>\n\n            <!-- Parallax-title -->\n\n            <h1 parallax-title text-wrap>{{data.title}}</h1>\n\n        </div>\n\n    </ion-item>\n\n    <ion-item-group *ngIf="data != null">\n\n        <ion-item-divider border no-lines>\n\n            <!-- Avatar-->\n\n            <ion-avatar item-start>\n\n                <img [src]="data.avatar" />\n\n            </ion-avatar>\n\n            <!-- Item-subtitle -->\n\n            <h2 item-subtitle>{{data.subtitle}}</h2>\n\n            <!-- Action Sheet Button-->\n\n            <button item-end ion-button clear color="primary" button-action-shit (click)="presentActionSheet(data)">\n\n                <ion-icon name="{{data.shareIcon}}"></ion-icon>\n\n            </button>\n\n        </ion-item-divider>\n\n        <ion-item no-margin no-lines>\n\n          <!-- Parallax-description -->\n\n          <div parallax-description *ngFor="let item of data.items;let i = index">\n\n            <p parallax-description text-wrap>{{item.subtitle}}</p>\n\n          </div>\n\n        </ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\action-sheet\layout-2\action-sheet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], ActionSheetLayout2);

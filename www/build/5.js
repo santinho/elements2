@@ -1,6 +1,6 @@
 webpackJsonp([5],{
 
-/***/ 1066:
+/***/ 1065:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout2Module", function() { return StickyListHeaderLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_2__ = __webpack_require__(1183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_2__ = __webpack_require__(1182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1145);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -367,7 +367,7 @@ ScrollAdapter = (function () {
 
 /***/ }),
 
-/***/ 1183:
+/***/ 1182:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -414,7 +414,7 @@ var StickyListHeaderLayout2 = (function () {
     ], StickyListHeaderLayout2.prototype, "content", void 0);
     StickyListHeaderLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'sticky-list-header-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/list-view/sticky-list-header/layout-2/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Product -->\n\n<ion-content no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items" no-margin>\n\n      <!--Text Header Top-->\n\n      <ion-list-header no-margin no-lines header-title ion-affix [content]="content" style="background:light">\n\n        <h2 text-uppercase>{{item.groupName}}</h2>\n\n      </ion-list-header>\n\n      <ion-card padding [ngClass]="animateClass" *ngFor="let element of item.items,  let i = index;">\n\n        <!--Big Image -->\n\n        <img [src]="element.image1" alt="{{element.title}}">\n\n        <!--Gallery Card -->\n\n        <div list-images (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image2 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image3 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image4 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image5 + \')\'}" title="{{element.title}}"></div>\n\n        </div>\n\n        <!-- Content card -->\n\n        <ion-card-content no-padding>\n\n          <!-- Card Title -->\n\n          <h2 ion-text card-title item-start text-nowrap margin-top>{{element.title}}</h2>\n\n          <span span-medium float-left>{{element.price}}</span>\n\n          <span padding-left shipping text-uppercase text-wrap float-left>{{element.subtitle}}</span>\n\n          <!-- Button Buy Casd -->\n\n          <button ion-button default-button float-right  (click)="onEvent(\'onBuy\', element, $event)">{{element.buy}}</button>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/list-view/sticky-list-header/layout-2/sticky-list-header.html"*/
+            selector: 'sticky-list-header-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-2\sticky-list-header.html"*/'<!-- Theme Sticky List Header - Product -->\n\n<ion-content no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items" no-margin>\n\n      <!--Text Header Top-->\n\n      <ion-list-header no-margin no-lines header-title ion-affix [content]="content" style="background:light">\n\n        <h2 text-uppercase>{{item.groupName}}</h2>\n\n      </ion-list-header>\n\n      <ion-card padding [ngClass]="animateClass" *ngFor="let element of item.items,  let i = index;">\n\n        <!--Big Image -->\n\n        <img [src]="element.image1" alt="{{element.title}}">\n\n        <!--Gallery Card -->\n\n        <div list-images (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image2 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image3 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image4 + \')\'}" title="{{element.title}}"></div>\n\n          <div images background-size [ngStyle]="{\'background-image\': \'url(\' + element.image5 + \')\'}" title="{{element.title}}"></div>\n\n        </div>\n\n        <!-- Content card -->\n\n        <ion-card-content no-padding>\n\n          <!-- Card Title -->\n\n          <h2 ion-text card-title item-start text-nowrap margin-top>{{element.title}}</h2>\n\n          <span span-medium float-left>{{element.price}}</span>\n\n          <span padding-left shipping text-uppercase text-wrap float-left>{{element.subtitle}}</span>\n\n          <!-- Button Buy Casd -->\n\n          <button ion-button default-button float-right  (click)="onEvent(\'onBuy\', element, $event)">{{element.buy}}</button>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-2\sticky-list-header.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], StickyListHeaderLayout2);

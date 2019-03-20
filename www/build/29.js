@@ -1,6 +1,6 @@
 webpackJsonp([29],{
 
-/***/ 1104:
+/***/ 1103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout3Module", function() { return SplashScreenLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__ = __webpack_require__(1221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_3__ = __webpack_require__(1220);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var SplashScreenLayout3Module = (function () {
 
 /***/ }),
 
-/***/ 1221:
+/***/ 1220:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96,7 +96,7 @@ var SplashScreenLayout3 = (function () {
     ], SplashScreenLayout3.prototype, "events", void 0);
     SplashScreenLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/
+            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout3);

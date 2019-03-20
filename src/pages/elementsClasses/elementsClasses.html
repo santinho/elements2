@@ -11,24 +11,11 @@
 <ion-content>
     <ion-grid no-padding>
         <ion-row *ngIf="data != null">
-        <!-- List -->
-        <ion-col col-12>
-        <ion-list no-padding no-margin transparent>
-        <ion-item padding-top no-lines *ngIf="data != null">
-            <ion-label>Tipo Classes:</ion-label>
-            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoClassesSelecionados" (ngModelChange)="getItems($event)">
-                <ion-option *ngFor="let tipo of tipoClasses;" [value]="tipo">{{tipo}}</ion-option>
-            </ion-select>
-        </ion-item>
-        </ion-list>
-        </ion-col>
-        
         <ion-col col-12>
             <ion-list no-margin>
             
             <ion-list-header no-padding no-margin transparent>
                 <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>
-                
             </ion-list-header>
 
             <li *ngFor="let group of listFiltered | async">
@@ -51,17 +38,17 @@
                     <h2 padding-left text-wrap>Perícias de Classe: {{group.PericiasClasse}}</h2><br/>
                     <h2 padding-left text-wrap>Talentos: {{group.Talentos}}</h2>
                 </ion-item>
-                <ion-item transparent *ngFor="let lvl of group.Niveis" >
+                <ion-item transparent *ngFor="let lvl of group.Niveis" (click)="toggleGroup(group)">
                   <h2 padding-left text-wrap><div *ngIf="lvl" style="color: white">Lvl{{lvl.Nivel}}: BBA:{{lvl.BBA}} - {{lvl.Habilidade}}</div></h2>
                 </ion-item>
                 <div class="collapsible-header" (click)="toggleHabilidade(group)">
-                    <ion-item no-padding class="dividerCaminho">
-                       <h2 padding-left item-title text-wrap>Detalhes Habilidades</h2>
+                    <ion-item no-padding class="dividerNivel">
+                       <h2 padding-left item-title text-wrap>{{group.habilidade?'-':'+'}} Detalhes Habilidades</h2>
                     </ion-item>
                 </div>
                 <div class="item-accordion" [ngClass]="{'active': isHabilidadeShow(group) }" [hidden]="!isHabilidadeShow(group)">
                     <ion-item transparent style="color: white" (click)="toggleHabilidade(group)" *ngFor="let h of group.Habilidades" >
-                        <h2 padding-left text-wrap><div *ngIf="h" style="color: white">{{h.Nome}}: {{h.Descricao}}</div><br/></h2>
+                        <h2 padding-left text-wrap><div *ngIf="h" style="color: white">{{h.Nome}}: {{h.Descricao}}</div></h2>
                     </ion-item>
                 </div>
               </div>
