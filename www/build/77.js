@@ -105,7 +105,7 @@ var FullScreenGallery = (function () {
     ], FullScreenGallery.prototype, "slider", void 0);
     FullScreenGallery = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'full-screen-gallery',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/full-screen-gallery/full-screen-gallery.html"*/'<!--Screen Gallery-->\n\n<ion-slides #slider pager="true" zoom="true" [initialSlide]="data.index">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <img [src]="item.image" />\n\n  </ion-slide>\n\n</ion-slides>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/full-screen-gallery/full-screen-gallery.html"*/
+            selector: 'full-screen-gallery',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/'<!--Screen Gallery-->\n\n<ion-slides #slider pager="true" zoom="true" [initialSlide]="data.index">\n\n  <ion-slide *ngFor="let item of data.items;">\n\n    <img [src]="item.image" />\n\n  </ion-slide>\n\n</ion-slides>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\full-screen-gallery\full-screen-gallery.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
     ], FullScreenGallery);

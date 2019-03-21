@@ -77,7 +77,7 @@ var CheckBoxLayout1 = (function () {
     ], CheckBoxLayout1.prototype, "events", void 0);
     CheckBoxLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'check-box-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/check-box/layout-1/check-box.html"*/'<!--Themes Simple -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row>\n\n    <ion-col col-12 no-padding>\n\n      <ion-list>\n\n        <ion-item *ngFor="let item of data; let i = index;" (tap)="onEvent(\'onButton\', item)">\n\n          <ion-label item-title>{{item.title}}</ion-label>\n\n          <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n        </ion-item>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/check-box/layout-1/check-box.html"*/
+            selector: 'check-box-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-1\check-box.html"*/'<!--Themes Simple -->\n\n<ion-grid no-padding *ngIf="data != null">\n\n  <ion-row>\n\n    <ion-col col-12 no-padding>\n\n      <ion-list>\n\n        <ion-item *ngFor="let item of data; let i = index;" (tap)="onEvent(\'onButton\', item)">\n\n          <ion-label item-title>{{item.title}}</ion-label>\n\n          <ion-checkbox [checked]="item.favorite"></ion-checkbox>\n\n        </ion-item>\n\n      </ion-list>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\check-box\layout-1\check-box.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], CheckBoxLayout1);

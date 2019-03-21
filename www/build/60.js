@@ -1,6 +1,6 @@
 webpackJsonp([60],{
 
-/***/ 1062:
+/***/ 1072:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GoogleCardLayout2Module", function() { return GoogleCardLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__ = __webpack_require__(1179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__google_card_layout_2__ = __webpack_require__(1189);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var GoogleCardLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1179:
+/***/ 1189:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -112,7 +112,7 @@ var GoogleCardLayout2 = (function () {
     ], GoogleCardLayout2.prototype, "fabButton", void 0);
     GoogleCardLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'google-card-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build/elements2/src/components/list-view/google-card/layout-2/google-card.html"*/'<!--Theme Styled cards 2-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n        <ion-card text-right (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n          <!--Card-image-->\n\n          <div card-image>\n\n            <img images-filter [src]="item.image" />\n\n            <!--Card-title-header-->\n\n            <h2 card-title>{{item.titleHeader}}</h2>\n\n          </div>\n\n          <!--Card-content-->\n\n          <ion-card-content>\n\n            <!--Card-title-->\n\n            <ion-card-title>\n\n              <!--Card-subtitle-->\n\n              <h1 card-subtitle>{{item.title}}</h1>\n\n            </ion-card-title>\n\n            <!--Description-->\n\n            <p card-body-text>{{item.description}}</p>\n\n          </ion-card-content>\n\n          <!--Button Share-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onShare\', item, $event)">\n\n            {{item.shareButton}}\n\n          </button>\n\n          <!--Button Explore-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onExplore\', item, $event)">\n\n            {{item.button}}\n\n          </button>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!--Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/build/elements2/src/components/list-view/google-card/layout-2/google-card.html"*/
+            selector: 'google-card-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\google-card\layout-2\google-card.html"*/'<!--Theme Styled cards 2-->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 *ngFor="let item of data.items;let i = index">\n\n        <ion-card text-right (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n          <!--Card-image-->\n\n          <div card-image>\n\n            <img images-filter [src]="item.image" />\n\n            <!--Card-title-header-->\n\n            <h2 card-title>{{item.titleHeader}}</h2>\n\n          </div>\n\n          <!--Card-content-->\n\n          <ion-card-content>\n\n            <!--Card-title-->\n\n            <ion-card-title>\n\n              <!--Card-subtitle-->\n\n              <h1 card-subtitle>{{item.title}}</h1>\n\n            </ion-card-title>\n\n            <!--Description-->\n\n            <p card-body-text>{{item.description}}</p>\n\n          </ion-card-content>\n\n          <!--Button Share-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onShare\', item, $event)">\n\n            {{item.shareButton}}\n\n          </button>\n\n          <!--Button Explore-->\n\n          <button ion-button default-button medium float-right (click)="onEvent(\'onExplore\', item, $event)">\n\n            {{item.button}}\n\n          </button>\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!--Fab Button-->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\google-card\layout-2\google-card.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], GoogleCardLayout2);
