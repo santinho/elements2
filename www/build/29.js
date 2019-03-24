@@ -96,7 +96,7 @@ var SplashScreenLayout3 = (function () {
     ], SplashScreenLayout3.prototype, "events", void 0);
     SplashScreenLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-3\splash-screen.html"*/
+            selector: 'splash-screen-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/'<!--Theme Down + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <div class="logo-title item-fade-in">\n\n      <img class="logo" [src]="data.logo" />\n\n      <h1>{{data.title}}</h1>\n\n    </div>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/splash-screen/layout-3/splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout3);

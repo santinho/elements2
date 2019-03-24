@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 1076:
+/***/ 1077:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsLayout3Module", function() { return MapsLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(1193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__maps_layout_3__ = __webpack_require__(1194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_app_settings__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__agm_core__ = __webpack_require__(1150);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3168,7 +3168,7 @@ AgmCoreModule.ctorParameters = function () { return []; };
 
 /***/ }),
 
-/***/ 1193:
+/***/ 1194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3203,7 +3203,7 @@ var MapsLayout3 = (function () {
     ], MapsLayout3.prototype, "events", void 0);
     MapsLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'maps-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\maps\layout-3\maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\maps\layout-3\maps.html"*/
+            selector: 'maps-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/maps/layout-3/maps.html"*/'<!--Content -->\n\n<ion-content *ngIf="data != null">\n\n    <agm-map [latitude]="data.map.lat" [longitude]="data.map.lng" [zoom]="data.map.zoom" [mapTypeControl]="data.map.mapTypeControl" [streetViewControl]="data.map.streetViewControl">\n\n        <agm-marker [latitude]="data.map.lat" [longitude]="data.map.lng"></agm-marker>\n\n    </agm-map>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/maps/layout-3/maps.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], MapsLayout3);

@@ -46,9 +46,9 @@ export class ElementsPericiasPage {
       console.log('lista', listaBD)
       let listaBDFiltrada = listaBD.filter((item) => {
         let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
-        let classeOK:boolean = this.tipoPericiasSelecionados.indexOf(item['Tipo']) > -1;
+        //let classeOK:boolean = this.tipoPericiasSelecionados.indexOf(item['Tipo']) > -1;
 
-        return nomeOK && classeOK
+        return nomeOK //&& classeOK
       });
       this.listFiltered = Observable.of(listaBDFiltrada);
 

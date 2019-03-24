@@ -1,6 +1,6 @@
 webpackJsonp([17],{
 
-/***/ 1115:
+/***/ 1116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementsHomePageModule", function() { return ElementsHomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsHome__ = __webpack_require__(1232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__elementsHome__ = __webpack_require__(1233);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -119,7 +119,7 @@ var HomeService = (function () {
 
 /***/ }),
 
-/***/ 1232:
+/***/ 1233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -152,7 +152,7 @@ var ElementsHomePage = (function () {
     }
     ElementsHomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'elements-page-home',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\pages\elementsHome\elementsHome.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{titleElements}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <div *ngIf="data.background!=null" background-size default-background>\n\n        <div class="ionic-description" text-center>\n\n            <h2 item-title>CONSULTA</h2>\n\n            <p item-subtitle>Classes, raças, magias, perícias, lojas e regras</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\pages\elementsHome\elementsHome.html"*/,
+            selector: 'elements-page-home',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/pages/elementsHome/elementsHome.html"*/'<!-- Main Menu Header -->\n\n<ion-header>\n\n    <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon class="icon-menu" name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title text-uppercase>{{titleElements}}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<!-- Main Menu List -->\n\n<ion-content>\n\n    <div *ngIf="data.background!=null" background-size default-background>\n\n        <div class="ionic-description" text-center>\n\n            <h2 item-title>CONSULTA</h2>\n\n            <p item-subtitle>Classes, raças, magias, perícias, lojas e regras</p>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/pages/elementsHome/elementsHome.html"*/,
             providers: [__WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__services_home_service__["a" /* HomeService */]])

@@ -1,6 +1,6 @@
 webpackJsonp([26],{
 
-/***/ 1107:
+/***/ 1106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsLayout2Module", function() { return TabsLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(1224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_layout_2__ = __webpack_require__(1223);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var TabsLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1224:
+/***/ 1223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ var TabsLayout2 = (function () {
     ], TabsLayout2.prototype, "tabRef", void 0);
     TabsLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'tabs-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\tabs\layout-2\tabs.html"*/
+            selector: 'tabs-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/tabs/layout-2/tabs.html"*/'<!-- Theme Tabs Footer tab - icons -->\n\n  <ion-tabs #tabs tabsPlacement=\'bottom\'>\n\n    <ion-tab [tabIcon]="item.icon" [root]="item.page" *ngFor="let item of data;let i = index"></ion-tab>\n\n  </ion-tabs>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/tabs/layout-2/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsLayout2);

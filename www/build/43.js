@@ -1,6 +1,6 @@
 webpackJsonp([43],{
 
-/***/ 1089:
+/***/ 1090:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterLayout1Module", function() { return RegisterLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_layout_1__ = __webpack_require__(1206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_layout_1__ = __webpack_require__(1207);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var RegisterLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1206:
+/***/ 1207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -83,7 +83,7 @@ var RegisterLayout1 = (function () {
     ], RegisterLayout1.prototype, "events", void 0);
     RegisterLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'register-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/'<!-- Themes Register + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--Form-->\n\n        <div class="form">\n\n          <!--Form Title-->\n\n          <h1 title text-right>{{data.register}}</h1>\n\n          <!---Input field username-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.username}}</ion-label>\n\n            <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n          </ion-item>\n\n          <!---Input field password-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.password}}</ion-label>\n\n            <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n          <!---Input field email-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.email}}</ion-label>\n\n            <ion-input required type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" [(ngModel)]="email"></ion-input>\n\n          </ion-item>\n\n          <!---Input field country-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.country}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="country"></ion-input>\n\n          </ion-item>\n\n          <!---Input field city-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.city}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="city"></ion-input>\n\n          </ion-item>\n\n          <!---Register button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n        </div>\n\n        <div class="logo">\n\n          <!---Logo-->\n\n          <ion-thumbnail>\n\n            <img float-left [src]="data.logo">\n\n          </ion-thumbnail>\n\n          <!---Skip button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\register\layout-1\register.html"*/
+            selector: 'register-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/register/layout-1/register.html"*/'<!-- Themes Register + logo -->\n\n<ion-content>\n\n  <ion-grid *ngIf="data != null">\n\n    <ion-row wrap padding>\n\n      <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>\n\n        <!--Form-->\n\n        <div class="form">\n\n          <!--Form Title-->\n\n          <h1 title text-right>{{data.register}}</h1>\n\n          <!---Input field username-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.username}}</ion-label>\n\n            <ion-input required type="text" [(ngModel)]="username"></ion-input>\n\n          </ion-item>\n\n          <!---Input field password-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.password}}</ion-label>\n\n            <ion-input required type="password" [(ngModel)]="password"></ion-input>\n\n          </ion-item>\n\n          <!---Input field email-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.email}}</ion-label>\n\n            <ion-input required type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" [(ngModel)]="email"></ion-input>\n\n          </ion-item>\n\n          <!---Input field country-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.country}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="country"></ion-input>\n\n          </ion-item>\n\n          <!---Input field city-->\n\n          <ion-item no-padding color="accent">\n\n            <ion-label floating>{{data.city}}</ion-label>\n\n            <ion-input required type="text" pattern="[a-zA-Z ]*" required [(ngModel)]="city"></ion-input>\n\n          </ion-item>\n\n          <!---Register button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onRegister\')">{{data.register}}</button>\n\n        </div>\n\n        <div class="logo">\n\n          <!---Logo-->\n\n          <ion-thumbnail>\n\n            <img float-left [src]="data.logo">\n\n          </ion-thumbnail>\n\n          <!---Skip button-->\n\n          <button ion-button float-right clear button-clear (click)="onEvent(\'onSkip\')">{{data.skip}}</button>\n\n        </div>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/register/layout-1/register.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], RegisterLayout1);

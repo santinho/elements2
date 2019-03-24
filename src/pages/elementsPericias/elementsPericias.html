@@ -48,12 +48,11 @@
                             <ion-item transparent no-lines style="color: white">
                                 <h2 padding-left text-wrap>{{talento.Nome}}</h2>
                                 <br/>
-                                <h2 padding-left text-wrap *ngIf="talento.Descricao">{{talento.Descricao}}</h2>
-                                <br/>
-                                <h2 padding-left text-wrap *ngIf="talento.Prerequisito">Pré-requisito: {{talento.Prerequisito}}</h2>
-                                <h2 padding-left text-wrap *ngIf="talento.Beneficio">Beneficio: {{talento.Beneficio}}</h2>
-                                <h2 padding-left text-wrap *ngIf="talento.Especial">Especial: {{talento.Especial}}</h2>
-                                <h2 padding-left text-wrap *ngIf="talento.Normal">Normal: {{talento.Normal}}</h2>
+                                <span *ngIf="talento.Descricao"><h2 padding-left text-wrap>{{talento.Descricao}}</h2><br/></span>
+                                <span *ngIf="talento.Prerequisito"><h2 padding-left text-wrap >Pré-requisito: {{talento.Prerequisito}}</h2><br/></span>
+                                <span *ngIf="talento.Beneficio"><h2 padding-left text-wrap >Beneficio: {{talento.Beneficio}}</h2><br/></span>
+                                <span *ngIf="talento.Especial"><h2 padding-left text-wrap >Especial: {{talento.Especial}}</h2><br/></span>
+                                <span *ngIf="talento.Normal"><h2 padding-left text-wrap >Normal: {{talento.Normal}}</h2></span>
                             </ion-item>
                         </div>
                         <!--end-->

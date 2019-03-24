@@ -1,6 +1,6 @@
 webpackJsonp([38],{
 
-/***/ 1106:
+/***/ 1095:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SelectLayout1Module", function() { return SelectLayout1Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_1__ = __webpack_require__(1223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__select_layout_1__ = __webpack_require__(1212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var SelectLayout1Module = (function () {
 
 /***/ }),
 
-/***/ 1223:
+/***/ 1212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -77,7 +77,7 @@ var SelectLayout1 = (function () {
     ], SelectLayout1.prototype, "events", void 0);
     SelectLayout1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'select-layout-1',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\select\layout-1\select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\select\layout-1\select.html"*/
+            selector: 'select-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/select/layout-1/select.html"*/'<ion-item padding-top no-lines *ngIf="data != null">\n\n    <ion-label item-title>{{data.title}}</ion-label>\n\n    <ion-select [(ngModel)]="data.selectedItem" multiple="false">\n\n        <ion-option *ngFor="let item of data.items; let i= index" [value]="item.id">{{item.title}}</ion-option>\n\n    </ion-select>\n\n</ion-item>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/select/layout-1/select.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SelectLayout1);

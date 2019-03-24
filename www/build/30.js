@@ -1,6 +1,6 @@
 webpackJsonp([30],{
 
-/***/ 1102:
+/***/ 1104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashScreenLayout2Module", function() { return SplashScreenLayout2Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__ = __webpack_require__(1219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splash_screen_layout_2__ = __webpack_require__(1221);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42,7 +42,7 @@ var SplashScreenLayout2Module = (function () {
 
 /***/ }),
 
-/***/ 1219:
+/***/ 1221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96,7 +96,7 @@ var SplashScreenLayout2 = (function () {
     ], SplashScreenLayout2.prototype, "events", void 0);
     SplashScreenLayout2 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\splash-screen\layout-2\splash-screen.html"*/
+            selector: 'splash-screen-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/'<!--Theme Down + fadr in + Ken Burns-->\n\n<ion-grid>\n\n  <ion-row id="splash-background-image">\n\n    <img class="splash-screen" [src]="data.backgroundImage" />\n\n    <img class="logo" [src]="data.logo" />\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/splash-screen/layout-2/splash-screen.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], SplashScreenLayout2);

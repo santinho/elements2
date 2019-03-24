@@ -2439,7 +2439,7 @@
              "Nome": "Acerto Crítico Aprimorado",
              "Descricao": "Escolha uma arma. Você sabe desferir golpes mortais com a arma escolhida.",
              "Prerequisito": "Foco em Arma com a arma escolhida, bônus base de ataque +8.",
-             "Benefício": "sua margem de ameaça com a arma escolhida é dobrada. Este efeito não se acumula com qualquer outro que aumente a margem de ameaça de uma arma.",
+             "Beneficio": "sua margem de ameaça com a arma escolhida é dobrada. Este efeito não se acumula com qualquer outro que aumente a margem de ameaça de uma arma.",
              "Normal": "",
              "Especial": ""
            },
@@ -2447,7 +2447,7 @@
              "Nome": "Acuidade Com Arma",
              "Descricao": "Escolha uma arma. Você sabe desferir golpes mortais com a arma escolhida.",
              "Prerequisito": "Destreza 13",
-             "Benefício": "quando usa armas de corpo-a-corpo leves, você pode usar seu modificador de Destreza em vez de Força em jogadas de ataque. Se estiver usando este talento e um escudo, aplique a penalidade de armadura do escudo em jogadas de ataque.",
+             "Beneficio": "quando usa armas de corpo-a-corpo leves, você pode usar seu modificador de Destreza em vez de Força em jogadas de ataque. Se estiver usando este talento e um escudo, aplique a penalidade de armadura do escudo em jogadas de ataque.",
              "Normal": "",
              "Especial": ""
            },
@@ -2455,7 +2455,7 @@
              "Nome": "Apanhar Objetos",
              "Descricao": "Você pode apanhar flechas, adagas e outras armas arremessadas ou disparadas contra você .",
              "Prerequisito": "Des 15, Ataque Desarmado Aprimorado, Desviar Objetos.",
-             "Benefício": "quando usa o talento Desviar Objetos, você pode apanhar a arma ao invés de apenas desviá-la. Armas de arremesso podem ser atiradas de volta ao opo nente como uma reação",
+             "Beneficio": "quando usa o talento Desviar Objetos, você pode apanhar a arma ao invés de apenas desviá-la. Armas de arremesso podem ser atiradas de volta ao opo nente como uma reação",
              "Normal": "",
              "Especial": ""
            },
@@ -2463,7 +2463,7 @@
              "Nome": "Aparar",
              "Descricao": "Você pode usar sua arma para bloquear ataques.",
              "Prerequisito": "Des 15, Acuidade com Arma, Especialização em Combate, bônus base de ataque +6.",
-             "Benefício": "uma vez por rodada, você pode tentar aparar um ataque que iria atingi-lo. Faça uma jogada de ataque. Se o resultado da sua jogada for maior que a do oponente, você evita o ataque.",
+             "Beneficio": "uma vez por rodada, você pode tentar aparar um ataque que iria atingi-lo. Faça uma jogada de ataque. Se o resultado da sua jogada for maior que a do oponente, você evita o ataque.",
              "Normal": "Você só pode usar este talento se estiver usando uma arma afetada pelo talento Acuidade com Arma.",
              "Especial": ""
            },
@@ -2471,7 +2471,7 @@
              "Nome": "Aparencia Inofensiva",
              "Descricao": "Por algum motivo — ser uma mulher, parecer fraco, ser de tamanho Pequeno... — você não parece perigoso. Isso faz com que seus inimigos hesitem antes de atacá-lo.",
              "Prerequisito": "Carisma 13",
-             "Benefício": "a primeira criatura inteligente (Int 3 ou mais) que atacar você em um combate deve fazer um teste de Intuição (CD 10 + metade do seu nível + seu modificador de Carisma). Se falhar, perderá sua ação. Este talento só funciona uma vez por combate; isto é, independente da criatura falhar ou não no teste, poderá atacar você normalmente nas rodadas seguintes.",
+             "Beneficio": "a primeira criatura inteligente (Int 3 ou mais) que atacar você em um combate deve fazer um teste de Intuição (CD 10 + metade do seu nível + seu modificador de Carisma). Se falhar, perderá sua ação. Este talento só funciona uma vez por combate; isto é, independente da criatura falhar ou não no teste, poderá atacar você normalmente nas rodadas seguintes.",
              "Normal": "",
              "Especial": ""
            },
@@ -2479,7 +2479,7 @@
              "Nome": "Ataque Atordoante",
              "Descricao": "Você sabe atingir áreas vulneráveis de seus inimigos.",
              "Prerequisito": "Sab 13, Ataque Desarmado Aprimorado",
-             "Benefício": "declare que está usando este talento antes de fazer um ataque desarmado. Se você acertar o ataque, além de sofrer o dano normal, a vítima deve fazer um teste de Fortitude (CD 10 + metade do seu nível + modificador de Sabedoria). Se falhar, fica atordoada por uma rodada .",
+             "Beneficio": "declare que está usando este talento antes de fazer um ataque desarmado. Se você acertar o ataque, além de sofrer o dano normal, a vítima deve fazer um teste de Fortitude (CD 10 + metade do seu nível + modificador de Sabedoria). Se falhar, fica atordoada por uma rodada .",
              "Normal": "Você pode usar este talento 1 número de vezes por dia igual a 1+seu modificador de Sabedoria. Criaturas imunes a acertos críticos não podem ser atordoadas.",
              "Especial": "você pode escolher este talento diversas vezes. Cada vez que é escolhido além da primeira, você recebe mais duas utilizações por dia."
            },
@@ -2487,7 +2487,7 @@
              "Nome": "Ataque Com Escudo Aprimorado",
              "Descricao": "Você sabe golpear com seu escudo sem perder sua proteção.",
              "Prerequisito": "Usar escudo",
-             "Benefício": "quando você ataca com o escudo, mantém seu bônus na CA.",
+             "Beneficio": "quando você ataca com o escudo, mantém seu bônus na CA.",
              "Normal": "um personagem que ataque com seu escudo perde o bônus que ele fornece à CA até sua próxima rodada.",
              "Especial": ""
            },
@@ -2495,7 +2495,7 @@
              "Nome": "Ataque Desarmado Aprimorado",
              "Descricao": "Você sabe lutar sem armas.",
              "Prerequisito": "",
-             "Benefício": "seus ataques desarmados causam 1d4 pontos de dano, e podem causar dano letal ou não letal (à sua escolha).",
+             "Beneficio": "seus ataques desarmados causam 1d4 pontos de dano, e podem causar dano letal ou não letal (à sua escolha).",
              "Normal": "sem este talento, ataques desarmados causam 1d3 pontos de dano, e podem causar apenas dano não letal.",
              "Especial": "este dano é para criaturas de tamanho Médio. Se você pertence a outra categoria de tamanho, consulte a Tabela 7-4: Dano de Armas por Tamanho para saber seu dano desarmado."
            },
@@ -2503,7 +2503,7 @@
              "Nome": "Ataque Duplo",
              "Descricao": "Escolha uma arma. Você consegue atacar com velocidade impressionante com a arma escolhida.",
              "Prerequisito": "Foco em Arma com a arma escolhida, bônus base de ataque +6.",
-             "Benefício": "quando faz um ataque com a arma escolhida, você pode fazer um ataque adicional na mesma ação padrão, mas sofre penalidade de –5 em ambas as jogadas de ataque.",
+             "Beneficio": "quando faz um ataque com a arma escolhida, você pode fazer um ataque adicional na mesma ação padrão, mas sofre penalidade de –5 em ambas as jogadas de ataque.",
              "Normal": "",
              "Especial": ""
            },
@@ -2511,7 +2511,7 @@
              "Nome": "Ataque Em Movimento",
              "Descricao": "Você faz ataques rápidos e se movimenta com agilidade.",
              "Prerequisito": "Des 13, Esquiva, Mobilidade, bônus base de ataque +4.",
-             "Benefício": "quando estiver atacando corpo-a-corpo, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento. Você não pode usar este talento se estiver de armadura pesada.",
+             "Beneficio": "quando estiver atacando corpo-a-corpo, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento. Você não pode usar este talento se estiver de armadura pesada.",
              "Normal": "você pode se mover antes ou depois de um ataque, mas não ambos.",
              "Especial": ""
            },
@@ -2519,7 +2519,7 @@
              "Nome": "Ataque Giratório",
              "Descricao": "Você é capaz de atacar todos os oponentes à sua volta em combate corpo-a-corpo .",
              "Prerequisito": "Des 13, Int 13, Esquiva, Mobilidade, Ataque em Movimento, Especialização em Combate, bônus base de ataque +4.",
-             "Benefício": "você pode fazer um ataque corpo-a-corpo contra cada oponente adjacente. Usar este talento é uma ação completa.",
+             "Beneficio": "você pode fazer um ataque corpo-a-corpo contra cada oponente adjacente. Usar este talento é uma ação completa.",
              "Normal": "",
              "Especial": ""
            },
@@ -2527,7 +2527,7 @@
              "Nome": "Ataque Poderoso",
              "Descricao": "Você pode sacrifica r a precisão para desferir um golpe destruidor.",
              "Prerequisito": "Força 13",
-             "Benefício": "declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre uma penalidade de –2 na jogada de ataque, mas recebe +4 na jogada de dano.",
+             "Beneficio": "declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre uma penalidade de –2 na jogada de ataque, mas recebe +4 na jogada de dano.",
              "Normal": "",
              "Especial": ""
            },
@@ -2535,7 +2535,7 @@
              "Nome": "Ataque Preciso",
              "Descricao": "Com lâminas leves, você sabe golpear com precisão mortal.",
              "Prerequisito": "Des 15, Acuidade com Arma, Especialização em Combate, bônus base de ataque +11.",
-             "Benefício": "quando usa uma arma afetada pelo talento Acuidade com Arma, você causa 1d6 pontos de dano adicional.",
+             "Beneficio": "quando usa uma arma afetada pelo talento Acuidade com Arma, você causa 1d6 pontos de dano adicional.",
              "Normal": "",
              "Especial": ""
            },
@@ -2543,7 +2543,7 @@
              "Nome": "Ataque Sagaz",
              "Descricao": "Sua espada é ágil, e também atinge os lugares certos .",
              "Prerequisito": "Int 13, Acuidade com Arma, bônus base de ataque +4.",
-             "Benefício": "quando usa uma arma afetada pelo talento Acuidade com Arma, você soma seu modificador de Inteligência (além do modificador de Força) em jogadas de dano.",
+             "Beneficio": "quando usa uma arma afetada pelo talento Acuidade com Arma, você soma seu modificador de Inteligência (além do modificador de Força) em jogadas de dano.",
              "Normal": "",
              "Especial": ""
            },
@@ -2551,7 +2551,7 @@
              "Nome": "Atropelar Aprimorado",
              "Descricao": "Você não tem medo de passar por cima de seus oponentes.",
              "Prerequisito": "For 13, Ataque Poderoso.",
-             "Benefício": "quando você realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, você recebe +4 em jogadas de ataque para atropelar.",
+             "Beneficio": "quando você realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, você recebe +4 em jogadas de ataque para atropelar.",
              "Normal": "",
              "Especial": ""
            },
@@ -2559,7 +2559,7 @@
              "Nome": "Bloqueio Ambidestro",
              "Descricao": "Você é habilidoso em se defender usando duas armas ou uma arma dupla.",
              "Prerequisito": "Des 15, Combater com Duas Armas.",
-             "Benefício": "quando estiver usando duas armas ou uma arma dupla, você recebe +1 na classe de armadura.",
+             "Beneficio": "quando estiver usando duas armas ou uma arma dupla, você recebe +1 na classe de armadura.",
              "Normal": "",
              "Especial": ""
            },
@@ -2567,7 +2567,7 @@
              "Nome": "Casca Grossa",
              "Descricao": "Sua pele dura e calejada resiste a ferimentos.",
              "Prerequisito": "Constituição 13",
-             "Benefício": "você soma seu bônus de Constituição na CA. Este bônus não é cumulativo com armaduras.",
+             "Beneficio": "você soma seu bônus de Constituição na CA. Este bônus não é cumulativo com armaduras.",
              "Normal": "",
              "Especial": ""
            },
@@ -2575,7 +2575,7 @@
              "Nome": "Combate Montado",
              "Descricao": "Você sabe lutar cavalgando .",
              "Prerequisito": "treinado em Cavalgar .",
-             "Benefício": "uma vez por rodada, você pode tentar desviar um ataque que iria atingir sua montaria. Faça um teste de Cavalgar. Se o resultado for maior que a jogada de ataque do oponente, você evita o ataque.",
+             "Beneficio": "uma vez por rodada, você pode tentar desviar um ataque que iria atingir sua montaria. Faça um teste de Cavalgar. Se o resultado for maior que a jogada de ataque do oponente, você evita o ataque.",
              "Normal": "",
              "Especial": ""
            },
@@ -2583,7 +2583,7 @@
              "Nome": "Combater Com Duas Armas",
              "Descricao": "Você é treinado em usar uma arma em cada mão.",
              "Prerequisito": "Destreza 15",
-             "Benefício": "se estiver usando uma arma de uma mão e uma arma leve, ou duas armas leves, você pode fazer dois ataques com a mesma ação padrão, um com cada uma. No entanto, você sofre penalidade de –4 em ambas as jogadas de ataque.",
+             "Beneficio": "se estiver usando uma arma de uma mão e uma arma leve, ou duas armas leves, você pode fazer dois ataques com a mesma ação padrão, um com cada uma. No entanto, você sofre penalidade de –4 em ambas as jogadas de ataque.",
              "Normal": "",
              "Especial": ""
            },
@@ -2591,7 +2591,7 @@
              "Nome": "Combater Com Duas Armas Aprimorado",
              "Descricao": "Você é muito bem treinado em usar uma arma em cada mão.",
              "Prerequisito": "Des 17, Combater com Duas Armas, bônus base de ataque +6.",
-             "Benefício": "usando o talento Combater com Duas Armas, sua penalidade em jogadas de ataque diminui para –2.",
+             "Beneficio": "usando o talento Combater com Duas Armas, sua penalidade em jogadas de ataque diminui para –2.",
              "Normal": "",
              "Especial": ""
            },
@@ -2599,7 +2599,7 @@
              "Nome": "Combater Com Duas Armas Maior",
              "Descricao": "Você é um mestre em usar uma arma em cada mão.",
              "Prerequisito": "Des 19, Combater Com Duas Armas, Combater Com Duas Armas Aprimorado, bônus base de ataque +11.",
-             "Benefício": "usando o talento Combater com Duas Armas, você não sofre nenhuma penalidade em jogadas de ataque.",
+             "Beneficio": "usando o talento Combater com Duas Armas, você não sofre nenhuma penalidade em jogadas de ataque.",
              "Normal": "",
              "Especial": ""
            },
@@ -2607,7 +2607,7 @@
              "Nome": "Derrubar Aprimorado",
              "Descricao": "Você sabe derrubar inimigos em combate corpo-a-corpo.",
              "Prerequisito": "Int 13, Especialização em Combate.",
-             "Benefício": "+4 em testes de derrubar.",
+             "Beneficio": "+4 em testes de derrubar.",
              "Normal": "",
              "Especial": ""
            },
@@ -2615,7 +2615,7 @@
              "Nome": "Desarmar Aprimorado",
              "Descricao": "Você sabe desarmar inimigos em combate corpo -a-corpo.",
              "Prerequisito": "Int 13, Especialização em Combate.",
-             "Benefício": "+4 em testes de desarmar.",
+             "Beneficio": "+4 em testes de desarmar.",
              "Normal": "",
              "Especial": ""
            },
@@ -2623,7 +2623,7 @@
              "Nome": "Desviar Objetos",
              "Descricao": "Você pode desviar flechas, adagas e outras armas arremessadas ou disparadas contra você .",
              "Prerequisito": "Des 13, Ataque Desarmado Aprimorado.",
-             "Benefício": "você pode tentar desviar um ataque à distância que iria atingi-lo. Faça um teste de Reflexos. Se o resultado do seu teste for maior que a jogada de ataque do oponente, você evita o ataque.",
+             "Beneficio": "você pode tentar desviar um ataque à distância que iria atingi-lo. Faça um teste de Reflexos. Se o resultado do seu teste for maior que a jogada de ataque do oponente, você evita o ataque.",
              "Normal": "Você só pode usar este talento se estiver com uma mão livre. Armas muito grandes (como pedras de catapulta) ou criadas por magia não podem ser desviadas .",
              "Especial": ""
            },
@@ -2631,7 +2631,7 @@
              "Nome": "Duro De Matar",
              "Descricao": "Você resiste a ferimentos que fariam outros cair.",
              "Prerequisito": "",
-             "Benefício": "quando você sofre dano que poderia levá-lo a 0 ou menos pontos de vida, você pode ignorar completamente esse dano. Você pode usar este talento uma vez por dia.",
+             "Beneficio": "quando você sofre dano que poderia levá-lo a 0 ou menos pontos de vida, você pode ignorar completamente esse dano. Você pode usar este talento uma vez por dia.",
              "Normal": "",
              "Especial": ""
            },
@@ -2639,7 +2639,7 @@
              "Nome": "Empunhadura Poderosa",
              "Descricao": "Você consegue usar armas grandes.Exageradamente grandes.",
              "Prerequisito": "Força 17",
-             "Benefício": "ao usar armas uma categoria de tamanho acima da sua, sua penalidade cai para –2.",
+             "Beneficio": "ao usar armas uma categoria de tamanho acima da sua, sua penalidade cai para –2.",
              "Normal": "um personagem sem este talento usando uma arma uma categoria de tamanho acima da própria sofre penalidade de –4 em jogadas de ataque.",
              "Especial": ""
            },
@@ -2647,7 +2647,7 @@
              "Nome": "Empurrar Aprimorado",
              "Descricao": "Você sabe como fazer seus inimigos recuarem.",
              "Prerequisito": "Força 13, Ataque Poderoso.",
-             "Benefício": "+4 em jogadas de ataque para empurrar.",
+             "Beneficio": "+4 em jogadas de ataque para empurrar.",
              "Normal": "",
              "Especial": ""
            },
@@ -2655,7 +2655,7 @@
              "Nome": "Especialização Em Armas",
              "Descricao": "Escolha uma arma. Seus golpes com a arma escolhida causam ferimentos profundos .",
              "Prerequisito": "Foco em Arma com a arma escolhida, guerreiro 4º nível.",
-             "Benefício": "usando a arma escolhida, você recebe +2 em jogadas de dano.",
+             "Beneficio": "usando a arma escolhida, você recebe +2 em jogadas de dano.",
              "Normal": "",
              "Especial": ""
            },
@@ -2663,7 +2663,7 @@
              "Nome": "Especialização Em Armas Aprimorado",
              "Descricao": "Escolha uma arma. Seus golpes com a arma escolhida causam ferimentos terríveis",
              "Prerequisito": "Foco em Arma, Foco em Arma Aprimorado, Especializaçã o em Arma com a arma escolhida, guerreiro 12º nível.",
-             "Benefício": "seu bônus no dano pelo talento Especialização em Arma aumenta para +4.",
+             "Beneficio": "seu bônus no dano pelo talento Especialização em Arma aumenta para +4.",
              "Normal": "",
              "Especial": ""
            },
@@ -2671,7 +2671,7 @@
              "Nome": "Especialização Em Armdura",
              "Descricao": "Escolha um tipo de armadura entre leve, média ou pesada. Você sabe usar esse tipo de armadura para absorver os golpes",
              "Prerequisito": "Foco em Armadura do tipo escolhido, guerreiro 8º nível.",
-             "Benefício": "quando usando uma armadura do tipo escolhido, você recebe redução de dano 2.",
+             "Beneficio": "quando usando uma armadura do tipo escolhido, você recebe redução de dano 2.",
              "Normal": "",
              "Especial": ""
            },
@@ -2679,7 +2679,7 @@
              "Nome": "Especialização Em Combate",
              "Descricao": "Você é capaz de usar suas habilidades de combate tanto para atacar quanto para se defender .",
              "Prerequisito": "Inteligencia 13",
-             "Benefício": "declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre –2 na jogada de ataque, mas recebe +4 na classe de armadura até o próximo turno.",
+             "Beneficio": "declare que está usando este talento antes de fazer um ataque corpo-a-corpo. Você sofre –2 na jogada de ataque, mas recebe +4 na classe de armadura até o próximo turno.",
              "Normal": "",
              "Especial": ""
            },
@@ -2687,7 +2687,7 @@
              "Nome": "Esquiva",
              "Descricao": "Você é bom em esquivar-se de golpes.",
              "Prerequisito": "Destreza 13",
-             "Benefício": "você recebe CA+1.",
+             "Beneficio": "você recebe CA+1.",
              "Normal": "",
              "Especial": ""
            },
@@ -2695,7 +2695,7 @@
              "Nome": "Fintar Aprimorado",
              "Descricao": "Você sabe como distrair seus adversários em combate.",
              "Prerequisito": "Int 13, Especialização em Combate.",
-             "Benefício": "você pode realizar um teste de Enganação para fintar em combate usando uma ação de movimento.",
+             "Beneficio": "você pode realizar um teste de Enganação para fintar em combate usando uma ação de movimento.",
              "Normal": "fintar em combate exige uma ação padrão.",
              "Especial": ""
            },
@@ -2703,7 +2703,7 @@
              "Nome": "Flerte Estratégico",
              "Descricao": "Em pleno combate, você consegue seduzir ou embaraçar seus inimigos com uma manobra audaciosa (e nada educada). Por exemplo, beijando sua adversária durante a luta, colocando uma rosa em seu cabelo, usando a espada para rasgar sua roupa e revelar partes interessantes de sua anatomia...",
              "Prerequisito": "Car 13, Fintar Aprimorado.",
-             "Benefício": "faça uma finta em combate contra um inimigo que possa se sentir fisicamente atraído por você. Se for bem-sucedido, sua vítima fica embaraçada e sofre penalidade de –2 em jogadas e testes até o fim do combate.",
+             "Beneficio": "faça uma finta em combate contra um inimigo que possa se sentir fisicamente atraído por você. Se for bem-sucedido, sua vítima fica embaraçada e sofre penalidade de –2 em jogadas e testes até o fim do combate.",
              "Normal": "",
              "Especial": ""
            },
@@ -2711,7 +2711,7 @@
              "Nome": "Foco Em Arma",
              "Descricao": "Escolha uma arma. Você sabe lutar melhor com a arma escolhida. “Ataque desarmado” também pode ser escolhido como arma para este talento.",
              "Prerequisito": "saber usar a arma escolhida, bônus base de ataque +1.",
-             "Benefício": "+1 em jogadas de ataque com a arma escolhida.",
+             "Beneficio": "+1 em jogadas de ataque com a arma escolhida.",
              "Normal": "",
              "Especial": ""
            },
@@ -2719,7 +2719,7 @@
              "Nome": "Foco Em Arma Aprimorado",
              "Descricao": "Escolha uma arma. Você sabe lutar ainda melhor com ela.",
              "Prerequisito": "Foco em Arma com a arma escolhida, guerreiro 8º nível.",
-             "Benefício": "o bônus que você recebe pelo talento Foco em Arma aumenta para +2.",
+             "Beneficio": "o bônus que você recebe pelo talento Foco em Arma aumenta para +2.",
              "Normal": "",
              "Especial": ""
            },
@@ -2727,7 +2727,7 @@
              "Nome": "Foco Em Armadura",
              "Descricao": "Escolha um tipo de armadura entre leve, média ou pesada. Você é mais hábil em defesa e movimento com esse tipo.",
              "Prerequisito": "saber usar o tipo de armadura escolhido.",
-             "Benefício": "quando usando uma armadura do tipo escolhido, você aumenta seu bônus de armadura em +1 e diminui sua penalidade de armadura em –1.",
+             "Beneficio": "quando usando uma armadura do tipo escolhido, você aumenta seu bônus de armadura em +1 e diminui sua penalidade de armadura em –1.",
              "Normal": "",
              "Especial": ""
            },
@@ -2735,7 +2735,7 @@
              "Nome": "Golpe Com Duas Mãos",
              "Descricao": "Você consegue canalizar toda a sua força quando usa uma arma com as duas mãos.",
              "Prerequisito": "For 15, Ataque Poderoso.",
-             "Benefício": "quando usando uma arma de corpo-a-corpo com as duas mãos, você soma o dobro de seu modificador de Força às jogadas de dano. Este talento não pode ser usado com armas leves.",
+             "Beneficio": "quando usando uma arma de corpo-a-corpo com as duas mãos, você soma o dobro de seu modificador de Força às jogadas de dano. Este talento não pode ser usado com armas leves.",
              "Normal": "sem este talento, ao usar armas de duas mãos, você apenas soma seu modificador de Força ao dano.",
              "Especial": ""
            },
@@ -2743,7 +2743,7 @@
              "Nome": "Granadeiro",
              "Descricao": "Explodir tudo é a forma mais garantida de causar dano ao inimigo. Mesmo que, às vezes, algum aliado também acabe se machucando um bocadinho...",
              "Prerequisito": "treinado em Ofício (alquimia).",
-             "Benefício": "você recebe+2 em jogadas de ataque e dano com quaisquer armas que permitem um teste de Reflexos para reduzir seu efeito, como fogo alquímico e granadas.",
+             "Beneficio": "você recebe+2 em jogadas de ataque e dano com quaisquer armas que permitem um teste de Reflexos para reduzir seu efeito, como fogo alquímico e granadas.",
              "Normal": "",
              "Especial": ""
            },
@@ -2751,7 +2751,7 @@
              "Nome": "Insulto Sagaz",
              "Descricao": "Você sabe dizer barbaridades sobre seu adversário, deixando-o tão furioso que prejudica seu desempenho em combate.",
              "Prerequisito": "Car 13, Fintar Aprimorado.",
-             "Benefício": "faça uma finta em combate. Se for bem-sucedido, seu oponente fica enfurecido e sofre uma penalidade de –2 na CA até o fim do combate.",
+             "Beneficio": "faça uma finta em combate. Se for bem-sucedido, seu oponente fica enfurecido e sofre uma penalidade de –2 na CA até o fim do combate.",
              "Normal": "",
              "Especial": ""
            },
@@ -2759,7 +2759,7 @@
              "Nome": "Investida Implacável",
              "Descricao": "Você realiza ataques devastadores cavalgando em investida.",
              "Prerequisito": "treinado em Cavalgar, Combate Montado, Investida Montada.",
-             "Benefício": "quando está montado e faz uma investida, você causa dano dobrado com uma arma comum, ou triplicado com uma lança.",
+             "Beneficio": "quando está montado e faz uma investida, você causa dano dobrado com uma arma comum, ou triplicado com uma lança.",
              "Normal": "",
              "Especial": ""
            },
@@ -2767,7 +2767,7 @@
              "Nome": "Investida Montada",
              "Descricao": "Você é mais eficiente fazendo ataques de investida quando está cavalgando.",
              "Prerequisito": "treinado em Cavalgar, Combate Montado.",
-             "Benefício": "quando está montado e faz uma investida, você pode continuar se movendo depois do ataque. Você deve continuar se movendo em linha reta, e seu movimento total na rodada não pode ser superior ao dobro do deslocamento da montaria.",
+             "Beneficio": "quando está montado e faz uma investida, você pode continuar se movendo depois do ataque. Você deve continuar se movendo em linha reta, e seu movimento total na rodada não pode ser superior ao dobro do deslocamento da montaria.",
              "Normal": "",
              "Especial": ""
            },
@@ -2775,7 +2775,7 @@
              "Nome": "Lutar As Cegas",
              "Descricao": "Você tem maiores chances de atingir alvos que não possa ver.",
              "Prerequisito": "",
-             "Benefício": "sempre que você erra um ataque devido a camuflagem, pode rolar mais uma vez a chance de acertar. Além disso, você não fica desprevenido contra inimigos que não possa ver.",
+             "Beneficio": "sempre que você erra um ataque devido a camuflagem, pode rolar mais uma vez a chance de acertar. Além disso, você não fica desprevenido contra inimigos que não possa ver.",
              "Normal": "um personagem sem este talento fica desprevenido contra inimigos que não possa ver.",
              "Especial": ""
            },
@@ -2783,7 +2783,7 @@
              "Nome": "Mestre Em Arma",
              "Descricao": "Escolha uma arma. Você é um dos melhores guerreiros do mundo com a arma escolhida.",
              "Prerequisito": "Especialização em Arma, Especialização em Arma Aprimorada, Foco em Arma, Foco e m Arma Aprimorado (todos com a arma escolhida), guerreiro 16º nível.",
-             "Benefício": "usando a arma escolhida, você recebe +1 em jogadas de ataque e dano, e sua margem de ameaça aumenta em 1. Além disso, uma vez por dia, você pode rolar outra vez uma jogada de ataque que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "usando a arma escolhida, você recebe +1 em jogadas de ataque e dano, e sua margem de ameaça aumenta em 1. Além disso, uma vez por dia, você pode rolar outra vez uma jogada de ataque que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": "este talento se acumula com quaisquer outros efeitos que aumentem a margem de ameaça de uma arma, mas é o último efeito a ser considerado. Assim, um personagem com Mestre em Arma e Acerto Crítico Aprimorado (machado de guerra) tem margem de ameaça 18-20."
            },
@@ -2791,7 +2791,7 @@
              "Nome": "Mira Apurada",
              "Descricao": "Seus tiros têm precisão mortal.",
              "Prerequisito": "Sab 13, Tiro Certeiro, Tiro Longo.",
-             "Benefício": "você pode gastar 1 ação de movimento p/ mirar 1 alvo. Se fizer isso, recebe +1 em jogadas de ataque à distância realizadas contra ele na mesma rodada.",
+             "Beneficio": "você pode gastar 1 ação de movimento p/ mirar 1 alvo. Se fizer isso, recebe +1 em jogadas de ataque à distância realizadas contra ele na mesma rodada.",
              "Normal": "",
              "Especial": ""
            },
@@ -2799,7 +2799,7 @@
              "Nome": "Mira Mortal",
              "Descricao": "Entre os olhos. No coração. São lugares onde seus tiros costumam acertar!",
              "Prerequisito": "Des 17, Sab 13, Mira Apurada, Tiro Certeiro, Tiro Longo, bônus base de ataque +11.",
-             "Benefício": "Sua margem de ameaça com armas de projéteis aumenta em 1. Por exemplo, a margem de ameaça da pistola é 19-20; para um personagem com este talento, será 18-20.",
+             "Beneficio": "Sua margem de ameaça com armas de projéteis aumenta em 1. Por exemplo, a margem de ameaça da pistola é 19-20; para um personagem com este talento, será 18-20.",
              "Normal": "",
              "Especial": "este talento se acumula com quaisquer outros efeitos que aumentem a margem de ameaça de uma arma, mas é o último efeito a ser considerado. Assim, um personagem com Mira Mortal e Acerto Crítico Aprimorado (pistola) temm margem de ameaça 16-20 ."
            },
@@ -2807,7 +2807,7 @@
              "Nome": "Mobilidade",
              "Descricao": "Você é hábil em esquivar-se enquanto se movimenta.",
              "Prerequisito": "Des 13, Esquiva.",
-             "Benefício": "você recebe +2 na CA sempre que usa uma ação de movimento para deslocar-se",
+             "Beneficio": "você recebe +2 na CA sempre que usa uma ação de movimento para deslocar-se",
              "Normal": "",
              "Especial": ""
            },
@@ -2815,7 +2815,7 @@
              "Nome": "Na Mosca",
              "Descricao": "Sua mira é incrível, e seus disparos acertam onde dói mais.",
              "Prerequisito": "Des 13, Tiro Certeiro, Tiro Preciso.",
-             "Benefício": "você soma seu modificador de Destreza em jogadas de dano com armas de ataque à distância.",
+             "Beneficio": "você soma seu modificador de Destreza em jogadas de dano com armas de ataque à distância.",
              "Normal": "",
              "Especial": ""
            },
@@ -2823,7 +2823,7 @@
              "Nome": "Panache",
              "Descricao": "Você tem a (irritante) habilidade de humilhar seus oponentes em combate. Você pode trocar a espada de mão no meio da luta, arrancar os botões da camisa do oponente, derrubar seu charuto com um tiro, riscar sua inicial nas roupas dele com a ponta da espada...",
              "Prerequisito": "Car 13, Fintar Aprimorado.",
-             "Benefício": "faça uma finta em combate. Se for bem-sucedido, seu oponente fica espantado com a manobra, e no próximo turno só pode realizar uma ação padrão.",
+             "Beneficio": "faça uma finta em combate. Se for bem-sucedido, seu oponente fica espantado com a manobra, e no próximo turno só pode realizar uma ação padrão.",
              "Normal": "",
              "Especial": ""
            },
@@ -2831,7 +2831,7 @@
              "Nome": "Perito Em Arma",
              "Descricao": "Escolha uma arma. Você consegue usar a arma escolhida para realizar façanhas incríveis .",
              "Prerequisito": "Des 13, Int 13, Acuidade com Arma, Foco em Arma com a arma escolhida.",
-             "Benefício": "graças a uma extrema habilidade com a arma, que funciona como uma verdadeira extensão de seu corpo, você pode substituir um teste de qualquer perícia por uma jogada de ataque com a arma escolhida. Você pode, por exemplo, usar uma espada para destrancar uma fechadura (Ladinagem), como suporte para subir em algo (Atletismo), como apoio para uma cambalhota (Acrobacia), para fazer manobras impressionantes(Atuação) e assim por diante .",
+             "Beneficio": "graças a uma extrema habilidade com a arma, que funciona como uma verdadeira extensão de seu corpo, você pode substituir um teste de qualquer perícia por uma jogada de ataque com a arma escolhida. Você pode, por exemplo, usar uma espada para destrancar uma fechadura (Ladinagem), como suporte para subir em algo (Atletismo), como apoio para uma cambalhota (Acrobacia), para fazer manobras impressionantes(Atuação) e assim por diante .",
              "Normal": "Você pode usar este talento um número de vezes por dia igual a seu bônus de Carisma.",
              "Especial": ""
            },
@@ -2839,7 +2839,7 @@
              "Nome": "Pisotear",
              "Descricao": "Você sabe usar sua montaria para atropelar oponentes.",
              "Prerequisito": "treinado em Cavalgar, Combate Montado.",
-             "Benefício": "quando está montado e realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, se a montaria derrubar um oponente, pode fazer um ataque contra esse oponente como uma ação livre (recebendo o bônus padrão de +4 em jogadas de ataque contra oponentes caídos).",
+             "Beneficio": "quando está montado e realiza a manobra atropelar, o alvo não pode escolher evitá-lo. Além disso, se a montaria derrubar um oponente, pode fazer um ataque contra esse oponente como uma ação livre (recebendo o bônus padrão de +4 em jogadas de ataque contra oponentes caídos).",
              "Normal": "",
              "Especial": ""
            },
@@ -2847,7 +2847,7 @@
              "Nome": "Rapidez De Recarga",
              "Descricao": "Escolha uma arma de disparo (como besta, funda ou pistola). Você recarrega a arma escolhida muito rapidamente.",
              "Prerequisito": "saber usar a arma escolhida.",
-             "Benefício": "a ação necessária para recarregar a arma escolhida diminui em uma categoria — ação completa vira padrão, padrão vira de movimento, e de movimento vira livre. Por exemplo, recarregar um mosquete normalmente é uma ação padrão, mas para um personagem com este talento é uma ação de movimento.",
+             "Beneficio": "a ação necessária para recarregar a arma escolhida diminui em uma categoria — ação completa vira padrão, padrão vira de movimento, e de movimento vira livre. Por exemplo, recarregar um mosquete normalmente é uma ação padrão, mas para um personagem com este talento é uma ação de movimento.",
              "Normal": "",
              "Especial": ""
            },
@@ -2855,7 +2855,7 @@
              "Nome": "Reflexos De Combate",
              "Descricao": "Você consegue reagir rapidamente contra oponentes com a guarda baixa.",
              "Prerequisito": "Destreza 13",
-             "Benefício": "se estiver adjacente a um oponente desprevenido, você pode fazer um ataque corpo-a-corpo contra ele como uma ação livre.",
+             "Beneficio": "se estiver adjacente a um oponente desprevenido, você pode fazer um ataque corpo-a-corpo contra ele como uma ação livre.",
              "Normal": "",
              "Especial": ""
            },
@@ -2863,7 +2863,7 @@
              "Nome": "Saque Rápido",
              "Descricao": "Você consegue sacar sua arma mais rápido que o normal.",
              "Prerequisito": "",
-             "Benefício": "você pode sacar ou guardar uma arma como uma ação livre.",
+             "Beneficio": "você pode sacar ou guardar uma arma como uma ação livre.",
              "Normal": "sem este talento, sacar ou guardar uma arma exige uma ação de movimento.",
              "Especial": ""
            },
@@ -2871,7 +2871,7 @@
              "Nome": "Separar Apromorado",
              "Descricao": "Você sabe atingir a arma do oponente, ou outro objeto que ele esteja carregando .",
              "Prerequisito": "For 13, Ataque Poderoso.",
-             "Benefício": "você recebe +4 em jogadas de ataque para separar. Além disso, você causa dano dobrado contra objetos.",
+             "Beneficio": "você recebe +4 em jogadas de ataque para separar. Além disso, você causa dano dobrado contra objetos.",
              "Normal": "",
              "Especial": ""
            },
@@ -2879,7 +2879,7 @@
              "Nome": "Tiro Certeiro",
              "Descricao": "Você é capaz de disparos precisos contra alvos próximos.",
              "Prerequisito": "",
-             "Benefício": "você recebe +1 em jogadas de ataque e dano com armas de ataque à distância contra alvos que estejam a até 9m.",
+             "Beneficio": "você recebe +1 em jogadas de ataque e dano com armas de ataque à distância contra alvos que estejam a até 9m.",
              "Normal": "",
              "Especial": ""
            },
@@ -2887,7 +2887,7 @@
              "Nome": "Tiro Em Movimento",
              "Descricao": "Você faz disparos rápidos e se movimenta com agilidade.",
              "Prerequisito": "Des 13, Esquiva, Mobilidade, Tiro Certeiro, bônus base de ataque +4.",
-             "Benefício": "quando estiver atacando à distância, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento. Você não pode usar este talento se estiver de armadura pesada.",
+             "Beneficio": "quando estiver atacando à distância, você pode se mover antes e depois do ataque, desde que a distância total percorrida não seja maior que seu deslocamento. Você não pode usar este talento se estiver de armadura pesada.",
              "Normal": "você pode se mover antes ou depois de um ataque, mas não ambos.",
              "Especial": ""
            },
@@ -2895,7 +2895,7 @@
              "Nome": "Tiro Longo",
              "Descricao": "Seus disparos de longa distânciavão muito mais longe.",
              "Prerequisito": "Tiro Certeiro",
-             "Benefício": "o incremento de distância de qualquer arma que você utiliza é dobrado.",
+             "Beneficio": "o incremento de distância de qualquer arma que você utiliza é dobrado.",
              "Normal": "",
              "Especial": ""
            },
@@ -2903,7 +2903,7 @@
              "Nome": "Tiro Montado",
              "Descricao": "Você é talentoso em atacar à distância enquanto cavalga",
              "Prerequisito": "treinado em Cavalgar, Combate Montado.",
-             "Benefício": "sua penalidade para ataques à distância quando sua montaria se movimenta é reduzida para –2.",
+             "Beneficio": "sua penalidade para ataques à distância quando sua montaria se movimenta é reduzida para –2.",
              "Normal": "um personagem sem este talento sofre uma penalidade de –4 em jogadas de ataque à distância se, na mesma rodada, sua montaria se movimentou .",
              "Especial": ""
            },
@@ -2911,7 +2911,7 @@
              "Nome": "Tiro Múltiplo",
              "Descricao": "Você atira mais em menos tempo.",
              "Prerequisito": "Des 17, Tiro Certeiro, Tiro Rápido, bônus base de ataque +6.",
-             "Benefício": "usando uma ação padrão e uma arma de projéteis, você pode fazer dois ataques contra um único oponente a até 9m. Ambos usam a mesma jogada (com penalidade de –4) e causam dano normalmente.",
+             "Beneficio": "usando uma ação padrão e uma arma de projéteis, você pode fazer dois ataques contra um único oponente a até 9m. Ambos usam a mesma jogada (com penalidade de –4) e causam dano normalmente.",
              "Normal": "",
              "Especial": "em caso de acerto crítico, apenas o primeiro ataque causa dano multiplicado; o segundo ataque causa dano normal."
            },
@@ -2919,7 +2919,7 @@
              "Nome": "Tiro Preciso ",
              "Descricao": "Você é capaz de mirar e disparar no momento certo.",
              "Prerequisito": "Tiro Certeiro",
-             "Benefício": "você pode fazer ataques à distância contra oponentes envolvidos em combate corpo-a-corpo sem sofrer a penalidade de –4 na jogada de ataque.",
+             "Beneficio": "você pode fazer ataques à distância contra oponentes envolvidos em combate corpo-a-corpo sem sofrer a penalidade de –4 na jogada de ataque.",
              "Normal": "um personagem sem este talento sofre uma penalidade de –4 nos ataques à distância contra oponentes envolvidos em combate corpo-a-corpo.",
              "Especial": ""
            },
@@ -2927,7 +2927,7 @@
              "Nome": "Tiro Preciso Aprimorado",
              "Descricao": "Sua mira é infalível.",
              "Prerequisito": "Des 19, Tiro Certeiro, Tiro Preciso, bônus base de ataque +11.",
-             "Benefício": "seus ataques à distância ignoram cobertura e camuflagem (exceto cobertura ou camuflagem totais). Além disso, quando ataca um alvo envolvido na manobra agarrar, você acerta automaticamente o alvo que escolheu.",
+             "Beneficio": "seus ataques à distância ignoram cobertura e camuflagem (exceto cobertura ou camuflagem totais). Além disso, quando ataca um alvo envolvido na manobra agarrar, você acerta automaticamente o alvo que escolheu.",
              "Normal": "um personagem sem este talento atacando um alvo envolvido na manobra agarrar deve determinar aleatoriamente qual alvo ele acerta.",
              "Especial": ""
            },
@@ -2935,7 +2935,7 @@
              "Nome": "Tiro Rápido",
              "Descricao": "Você é muito rápido atacando à distância.",
              "Prerequisito": "Destreza 13 , Tiro Certeiro",
-             "Benefício": "usando uma arma de ataque à distância, você pode fazer um ataque adicional. Se fizer isso, sofre uma penalidade de –2 em todas as jogadas de ataque. Usar este talento é uma ação completa.",
+             "Beneficio": "usando uma arma de ataque à distância, você pode fazer um ataque adicional. Se fizer isso, sofre uma penalidade de –2 em todas as jogadas de ataque. Usar este talento é uma ação completa.",
              "Normal": "",
              "Especial": ""
            },
@@ -2943,7 +2943,7 @@
              "Nome": "Torcida",
              "Descricao": "Você luta melhor quando há fãs torcendo por você.",
              "Prerequisito": "Carisma 13 ",
-             "Benefício": "você recebe +1 em jogadas de ataque, CA e testes de resistência quando tem a torcida a seu favor, durante uma luta ou outro tipo de disputa. Entenda-se por “torcida” qualquer número de pessoas ou criaturas inteligentes (mesmo que seja apenas uma!) que não está realizando nenhuma outra ação além de ver a luta. Você só recebe este benefício quando a maioria das pessoas presentes na cena está gritando seu nome ou torcendo por sua vitória.",
+             "Beneficio": "você recebe +1 em jogadas de ataque, CA e testes de resistência quando tem a torcida a seu favor, durante uma luta ou outro tipo de disputa. Entenda-se por “torcida” qualquer número de pessoas ou criaturas inteligentes (mesmo que seja apenas uma!) que não está realizando nenhuma outra ação além de ver a luta. Você só recebe este benefício quando a maioria das pessoas presentes na cena está gritando seu nome ou torcendo por sua vitória.",
              "Normal": "",
              "Especial": "a reação de uma torcida depende do mestre, mas você pode tentar um teste de Atuação ou Diplomacia (CD 20) como uma ação padrão para cair nas graças dos torcedores."
            },
@@ -2951,7 +2951,7 @@
              "Nome": "Trespassar",
              "Descricao": "Quando você derruba um inimigo, pode continuar o golpe e acertar outro alvo.",
              "Prerequisito": "For 13, Ataque Poderoso.",
-             "Benefício": "quando você derruba um inimigo com um ataque corpo-a-corpo (reduzindo seus PV para 0 ou menos), pode realizar um ataque adicional contra outra criatura adjacente. O ataque adicional usa os mesmos bônus de ataque e dano do primeiro, mas os dados devem ser rolados novamente. Você pode usar este talento uma vez por rodada.",
+             "Beneficio": "quando você derruba um inimigo com um ataque corpo-a-corpo (reduzindo seus PV para 0 ou menos), pode realizar um ataque adicional contra outra criatura adjacente. O ataque adicional usa os mesmos bônus de ataque e dano do primeiro, mas os dados devem ser rolados novamente. Você pode usar este talento uma vez por rodada.",
              "Normal": "",
              "Especial": ""
            },
@@ -2959,7 +2959,7 @@
              "Nome": "Trespassar Aprimorado",
              "Descricao": "Você empunha suas armas com tanta força que um golpe seu pode derrubar diversos inimigos",
              "Prerequisito": "For 13, Ataque Poderoso, Trespassar, bônus base de ataque +4.",
-             "Benefício": "você pode usar o talento Trespassar quantas vezes quiser na mesma rodada.",
+             "Beneficio": "você pode usar o talento Trespassar quantas vezes quiser na mesma rodada.",
              "Normal": "",
              "Especial": ""
            },
@@ -2967,7 +2967,7 @@
              "Nome": "Usar Armas Simples",
              "Descricao": "Você foi treinado para usar todas as armas simples, como adaga e bordão.",
              "Prerequisito": "",
-             "Benefício": "você sabe usar armas simples.",
+             "Beneficio": "você sabe usar armas simples.",
              "Normal": "um personagem atacando com uma arma que não saiba usar sofre penalidade de –4 em jogadas de ataque.",
              "Especial": ""
            },
@@ -2975,7 +2975,7 @@
              "Nome": "Usar Armas Marciais",
              "Descricao": "Você foi treinado para usar todas as armas marciais, como espada longa e machado de guerra.",
              "Prerequisito": "Usar Armas Simples.",
-             "Benefício": "você sabe usar armas marciais.",
+             "Beneficio": "você sabe usar armas marciais.",
              "Normal": "um personagem atacando com uma arma que não saiba usar sofre penalidade de –4 em jogadas de ataque.",
              "Especial": ""
            },
@@ -2983,7 +2983,7 @@
              "Nome": "Usar Armas Exóticas",
              "Descricao": "Escolha uma arma exótica, como katana ou pistola. Você foi treinado para usar esta arma.",
              "Prerequisito": "Usar Armas Simples.",
-             "Benefício": "você sabe usar a arma escolhida.",
+             "Beneficio": "você sabe usar a arma escolhida.",
              "Normal": "um personagem atacando com uma arma que não saiba usar sofre penalidade de –4 em jogadas de ataque.",
              "Especial": ""
            },
@@ -2991,7 +2991,7 @@
              "Nome": "Usar Armaduras Leves",
              "Descricao": "Você foi treinado para usar armaduras leves.",
              "Prerequisito": "",
-             "Benefício": "você sabe usar armadura acolchoada, corselete de couro, couro batido, camisa de cota de malha e outras armaduras leves.",
+             "Beneficio": "você sabe usar armadura acolchoada, corselete de couro, couro batido, camisa de cota de malha e outras armaduras leves.",
              "Normal": "um personagem vestindo uma armadura que não saiba usar aplica sua penalidade de armadura em jogadas de ataque e testes de perícias baseadas em Força e Destreza.",
              "Especial": ""
            },
@@ -2999,7 +2999,7 @@
              "Nome": "Usar Armaduras Médias",
              "Descricao": "Você foi treinado para usar armaduras médias.",
              "Prerequisito": "Usar Armaduras Leves",
-             "Benefício": "você sabe usar cota de escamas, cota de malha, couraça, gibão de peles e outras armaduras médias.",
+             "Beneficio": "você sabe usar cota de escamas, cota de malha, couraça, gibão de peles e outras armaduras médias.",
              "Normal": "um personagem vestindo uma armadura que não saiba usar aplica sua penalidade de armadura em jogadas de ataque e testes de perícias baseadas em Força e Destreza.",
              "Especial": ""
            },
@@ -3007,7 +3007,7 @@
              "Nome": "Usar Armaduras Pesadas",
              "Descricao": "Você foi treinado para usar armaduras pesadas.",
              "Prerequisito": "Usar Armaduras (leves, médias)",
-             "Benefício": "você sabe usar loriga segmentada, meia armadura, armadura completa e outras armaduras pesadas.",
+             "Beneficio": "você sabe usar loriga segmentada, meia armadura, armadura completa e outras armaduras pesadas.",
              "Normal": "um personagem vestindo uma armadura que não saiba usar aplica sua penalidade de armadura em jogadas de ataque e testes de perícias baseadas em Força e Destreza",
              "Especial": ""
            },
@@ -3015,7 +3015,7 @@
              "Nome": "Usar Escudos",
              "Descricao": "Você sabe lutar com escudos.",
              "Prerequisito": "",
-             "Benefício": "você sabe usar escudos leves e pesados.",
+             "Beneficio": "você sabe usar escudos leves e pesados.",
              "Normal": "um personagem equipado com um escudo que não saiba usar aplica sua penalidade de armadura em jogadas de ataque e testes de perícias baseadas em Força e Destreza.",
              "Especial": ""
            },
@@ -3023,7 +3023,7 @@
              "Nome": "Usar Venenos",
              "Descricao": "Você faz o que muitos consideram desleal: usar venenos para deixar suas armas mais perigosas.",
              "Prerequisito": "treinado em Ofício (alquimia), tendência não Bondosa.",
-             "Benefício": "você pode aplicar veneno em armas sem risco de se envenenar acidentalmente.",
+             "Beneficio": "você pode aplicar veneno em armas sem risco de se envenenar acidentalmente.",
              "Normal": "um personagem sem este talento que aplique veneno em uma arma tem 10% de chance de expor-se acidentalmente ao veneno.",
              "Especial": ""
            },
@@ -3031,7 +3031,7 @@
              "Nome": "Vitalidade",
              "Descricao": "Você suporta mais ferimentos que outras pessoas.",
              "Prerequisito": "",
-             "Benefício": "você recebe 1 ponto de vida adicional por nível de personagem. Quando sobe de nível, os PV que recebe por este talento aumentam de acordo. Por exemplo, se escolher este talento no 3º nível, recebe 3 PV. Chegando ao 4º nível, recebe +1 PV, e assim por diante.",
+             "Beneficio": "você recebe 1 ponto de vida adicional por nível de personagem. Quando sobe de nível, os PV que recebe por este talento aumentam de acordo. Por exemplo, se escolher este talento no 3º nível, recebe 3 PV. Chegando ao 4º nível, recebe +1 PV, e assim por diante.",
              "Normal": "",
              "Especial": "você pode escolher este talento diversas vezes. Seus efeitos se acumulam ."
            }
@@ -3044,7 +3044,7 @@
              "Nome": "Nome1",
              "Descricao": "Descricao1",
              "Prerequisito": "Prerequisito1",
-             "Benefício": "Benefício1",
+             "Beneficio": "Benefício1",
              "Normal": "Normal1",
              "Especial": "Especial1"
            },
@@ -3052,7 +3052,7 @@
              "Nome": "Nome2",
              "Descricao": "Descricao2",
              "Prerequisito": "Prerequisito2",
-             "Benefício": "Benefício2",
+             "Beneficio": "Benefício2",
              "Normal": "Normal2",
              "Especial": "Especial2"
            }
@@ -3065,7 +3065,7 @@
              "Nome": "Nome1",
              "Descricao": "Descricao1",
              "Prerequisito": "Prerequisito1",
-             "Benefício": "Benefício1",
+             "Beneficio": "Benefício1",
              "Normal": "Normal1",
              "Especial": "Especial1"
            },
@@ -3073,7 +3073,7 @@
              "Nome": "Nome2",
              "Descricao": "Descricao2",
              "Prerequisito": "Prerequisito2",
-             "Benefício": "Benefício2",
+             "Beneficio": "Benefício2",
              "Normal": "Normal2",
              "Especial": "Especial2"
            }
@@ -3086,7 +3086,7 @@
              "Nome": "Acrobacia Audaz",
              "Descricao": "Você consegue atravessar aposentos lotados ou mobiliados, correndo sobre mesas, escorregando por corrimões de escada, balançando-se em candelabros ou até pisando sobre outras pessoas!",
              "Prerequisito": "treinado em Acrobacia.",
-             "Benefício": "você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento. Você pode realizar investidas mesmo nessas condições.",
+             "Beneficio": "você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento. Você pode realizar investidas mesmo nessas condições.",
              "Normal": "um personagem em terreno difícil tem seu deslocamento reduzido à metade, e não pode realizar investidas.",
              "Especial": ""
            },
@@ -3094,7 +3094,7 @@
              "Nome": "Acrobático",
              "Descricao": "Você tropeça menos que os outros.",
              "Prerequisito": "você pode rolar outra vez um teste de Acrobacia que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
-             "Benefício": "",
+             "Beneficio": "",
              "Normal": "",
              "Especial": ""
            },
@@ -3102,7 +3102,7 @@
              "Nome": "Afinidade Com Animais",
              "Descricao": "Você se dá bem com animais.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Adestrar Animais que tenha recém realizado. Você deve aceitar a 2ª rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Adestrar Animais que tenha recém realizado. Você deve aceitar a 2ª rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3110,7 +3110,7 @@
              "Nome": "Agil",
              "Descricao": "Você pode usar sua agilidade para realizar proezas acrobáticas.",
              "Prerequisito": "Destreza 15",
-             "Benefício": "você pode usar seu modificador de Destreza em vez de Força em testes de Atletismo.",
+             "Beneficio": "você pode usar seu modificador de Destreza em vez de Força em testes de Atletismo.",
              "Normal": "",
              "Especial": ""
            },
@@ -3118,7 +3118,7 @@
              "Nome": "Aptidão Mágica",
              "Descricao": "Você tem um dom natural para as artes místicas.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez 1 teste de Identificar Magia que tenha recém realizado. Você deve aceitar a 2ª rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez 1 teste de Identificar Magia que tenha recém realizado. Você deve aceitar a 2ª rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3126,7 +3126,7 @@
              "Nome": "Artista",
              "Descricao": "Você tem jeito para as artes.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Atuação que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Atuação que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3134,7 +3134,7 @@
              "Nome": "Atlético",
              "Descricao": "Você tem aptidão natural para atividades físicas.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Atletismo tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Atletismo tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3142,7 +3142,7 @@
              "Nome": "Autossuficiente",
              "Descricao": "Você se vira bem sozinho.",
              "Prerequisito": "",
-             "Benefício": "você não sofre a penalidade de –5 para fazer testes de Cura em si mesmo, e recebe +4 nos testes de Sobrevivência se estiver sozinho (sem nenhum aliado a até 18m).",
+             "Beneficio": "você não sofre a penalidade de –5 para fazer testes de Cura em si mesmo, e recebe +4 nos testes de Sobrevivência se estiver sozinho (sem nenhum aliado a até 18m).",
              "Normal": "",
              "Especial": ""
            },
@@ -3150,7 +3150,7 @@
              "Nome": "Criar Obra-Prima",
              "Descricao": "Você é um artesão competente e pode criar itens de qualidade excepcional.",
              "Prerequisito": "treinado em Ofício, Foco em Perícia (Ofício)",
-             "Benefício": "você pode construir armas, armaduras e kits de ferramentas de qualidade obra-prima. Uma arma obra-prima fornece +1 em jogadas de ataque; uma armadura obra-prima tem sua penalidade de armadura reduzida em 1; e um kit de ferramentas obra-prima fornece +2 nos testes da perícia apropriada. Para criar um item obra-prima, siga as regras normais para criação de itens, exceto que a dificuldade do teste de Ofício aumenta em CD+5, e o custo de criação do item aumenta em +100 TO.",
+             "Beneficio": "você pode construir armas, armaduras e kits de ferramentas de qualidade obra-prima. Uma arma obra-prima fornece +1 em jogadas de ataque; uma armadura obra-prima tem sua penalidade de armadura reduzida em 1; e um kit de ferramentas obra-prima fornece +2 nos testes da perícia apropriada. Para criar um item obra-prima, siga as regras normais para criação de itens, exceto que a dificuldade do teste de Ofício aumenta em CD+5, e o custo de criação do item aumenta em +100 TO.",
              "Normal": "",
              "Especial": ""
            },
@@ -3158,7 +3158,7 @@
              "Nome": "Dedos Agéis",
              "Descricao": "Você tem mão leve.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Ladinagem que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Ladinagem que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3166,7 +3166,7 @@
              "Nome": "Diligente",
              "Descricao": "Você é paciente e detalhista.",
              "Prerequisito": "",
-             "Benefício": "você pode gastar uma ação de movimento para se concentrar na tarefa à frente. Se fizer isso, recebe +2 nos testes de perícia realizados até a próxima rodada .",
+             "Beneficio": "você pode gastar uma ação de movimento para se concentrar na tarefa à frente. Se fizer isso, recebe +2 nos testes de perícia realizados até a próxima rodada .",
              "Normal": "",
              "Especial": ""
            },
@@ -3174,7 +3174,7 @@
              "Nome": "Foco em Perícia",
              "Descricao": "Escolha uma perícia. Você tem certo dom com ela.",
              "Prerequisito": "treinado na perícia escolhida.",
-             "Benefício": "você recebe +4 em testes da perícia escolhida.",
+             "Beneficio": "você recebe +4 em testes da perícia escolhida.",
              "Normal": "",
              "Especial": ""
            },
@@ -3182,7 +3182,7 @@
              "Nome": "Fraudulento",
              "Descricao": "Você sabe como encobrir a verdade.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Enganação que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Enganação que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3190,7 +3190,7 @@
              "Nome": "Impostor",
              "Descricao": "Você pode, de forma quase sobrenatural, fingir ter habilidades que não tem. E você finge tão bem que consegue fazer essas coisas!",
              "Prerequisito": "Car 13, Foco em Perícia (Enganação).",
-             "Benefício": "Benefício: graças a seu extremo charme, magnetismo pessoal e superconfiança, você consegue convencer as pessoas (e também a si próprio!) de que tem certas habilidades ou conhecimentos, quando na verdade não tem . Você pode substituir um teste de qualquer perícia por um teste de Enganação. Você pode usar este talento um número de vezes por dia igual a seu bônus de Carisma.",
+             "Beneficio": "Benefício: graças a seu extremo charme, magnetismo pessoal e superconfiança, você consegue convencer as pessoas (e também a si próprio!) de que tem certas habilidades ou conhecimentos, quando na verdade não tem . Você pode substituir um teste de qualquer perícia por um teste de Enganação. Você pode usar este talento um número de vezes por dia igual a seu bônus de Carisma.",
              "Normal": "",
              "Especial": ""
            },
@@ -3198,7 +3198,7 @@
              "Nome": "Iniciativa Aprimorada",
              "Descricao": "Você não perde tempo em situações de combate",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Iniciativa que tenha recém realizado. Você deve aceitar a segunda rolagem,mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Iniciativa que tenha recém realizado. Você deve aceitar a segunda rolagem,mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3206,7 +3206,7 @@
              "Nome": "Investigador",
              "Descricao": "Você é um bom detetive.",
              "Prerequisito": "Inteligencia 13",
-             "Benefício": "você pode somar seu bônus de Inteligência a testes de Obter Informação e testes de Percepção para procurar.",
+             "Beneficio": "você pode somar seu bônus de Inteligência a testes de Obter Informação e testes de Percepção para procurar.",
              "Normal": "",
              "Especial": ""
            },
@@ -3214,7 +3214,7 @@
              "Nome": "Mãos Rápidas",
              "Descricao": "Quando os outros percebem, já foram roubados.",
              "Prerequisito": "Des 15, treinado em Ladinagem.",
-             "Benefício": "uma vez por rodada, você pode fazer um teste de Ladinagem para prestidigitação como uma ação livre.",
+             "Beneficio": "uma vez por rodada, você pode fazer um teste de Ladinagem para prestidigitação como uma ação livre.",
              "Normal": "",
              "Especial": ""
            },
@@ -3222,7 +3222,7 @@
              "Nome": "Negociador",
              "Descricao": "Você sabe barganhar.",
              "Prerequisito": "treinado em Ofício.",
-             "Benefício": "quando você chega a uma comunidade, faça um teste de Ofício (CD 20). Se tiver sucesso, você pode comprar itens nesta comunidade por 75% do preço padrão (arredondado para baixo). Por exemplo, você pode comprar uma armadura completa (que normalmente custa 1.500 TO) por 1.125 TO. Se falhar, você pode tentar novamente em um mês (ou quando visitar outra comunidade).",
+             "Beneficio": "quando você chega a uma comunidade, faça um teste de Ofício (CD 20). Se tiver sucesso, você pode comprar itens nesta comunidade por 75% do preço padrão (arredondado para baixo). Por exemplo, você pode comprar uma armadura completa (que normalmente custa 1.500 TO) por 1.125 TO. Se falhar, você pode tentar novamente em um mês (ou quando visitar outra comunidade).",
              "Normal": "",
              "Especial": ""
            },
@@ -3230,7 +3230,7 @@
              "Nome": "Persuasivo",
              "Descricao": "Você sabe ser convincente.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Diplomacia que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Diplomacia que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3238,7 +3238,7 @@
              "Nome": "Prontidão",
              "Descricao": "Seus sentidos são mais apurados que o normal.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Percepção que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Percepção que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3246,7 +3246,7 @@
              "Nome": "Rastrear",
              "Descricao": "Você recebeu treinamento para seguir rastros.",
              "Prerequisito": "treinado em Sobrevivência .",
-             "Benefício": "você pode fazer testes de Sobrevivência para encontrar rastros. A dificuldade varia de acordo com o solo — CD 10 para solo macio (neve, lama), 15 para solo padrão (grama, terra) e 20 para solo duro (rocha ou piso de interiores). Você ganha +1 para cada três criaturas no grupo sendo seguido. Você sofre uma penalidade de –1 para cada dia desde a criação dos rastros e uma penalidade de –5 em visibilidade precária (noite, chuva, neblina). Você preci sa fazer um teste para encontrar os rastros e mais um para cada dia de perseguição. Se falhar você pode tentar novamente gastando mais um dia (mas lembre-se de que a CD aumenta a cada dia).",
+             "Beneficio": "você pode fazer testes de Sobrevivência para encontrar rastros. A dificuldade varia de acordo com o solo — CD 10 para solo macio (neve, lama), 15 para solo padrão (grama, terra) e 20 para solo duro (rocha ou piso de interiores). Você ganha +1 para cada três criaturas no grupo sendo seguido. Você sofre uma penalidade de –1 para cada dia desde a criação dos rastros e uma penalidade de –5 em visibilidade precária (noite, chuva, neblina). Você preci sa fazer um teste para encontrar os rastros e mais um para cada dia de perseguição. Se falhar você pode tentar novamente gastando mais um dia (mas lembre-se de que a CD aumenta a cada dia).",
              "Normal": "",
              "Especial": ""
            },
@@ -3254,7 +3254,7 @@
              "Nome": "Senso Da Natureza",
              "Descricao": "Você sabe como viver em áreas selvagens .",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Sobrevivência que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Sobrevivência que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3262,7 +3262,7 @@
              "Nome": "Sorrateiro",
              "Descricao": "Você é bom e m passar despercebido.",
              "Prerequisito": "",
-             "Benefício": "você pode rolar outra vez um teste de Furtividade que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
+             "Beneficio": "você pode rolar outra vez um teste de Furtividade que tenha recém realizado. Você deve aceitar a segunda rolagem, mesmo que seja pior que a primeira.",
              "Normal": "",
              "Especial": ""
            },
@@ -3270,7 +3270,7 @@
              "Nome": "Treino Em Perícia",
              "Descricao": "Escolha uma perícia na qual você não seja treinado. Você se dedicou a esta perícia.",
              "Prerequisito": "",
-             "Benefício": "você se torna treinado na perícia escolhida.",
+             "Beneficio": "você se torna treinado na perícia escolhida.",
              "Normal": "",
              "Especial": ""
            }
@@ -3283,7 +3283,7 @@
              "Nome": "Alma de Pedra",
              "Descricao": "Você não pode ser transformado em pedra.",
              "Prerequisito": "anão ou nagah.",
-             "Benefício": "você é automaticamente bem-sucedido em testes de resistência para evitar qualquer forma de petrifi cação, como ataques de medusas, basiliscos, cocatrizes e a magia carne para pedra. Você também recebe +4 em testes de resistência para evitar qualquer forma de paralisia.",
+             "Beneficio": "você é automaticamente bem-sucedido em testes de resistência para evitar qualquer forma de petrifi cação, como ataques de medusas, basiliscos, cocatrizes e a magia carne para pedra. Você também recebe +4 em testes de resistência para evitar qualquer forma de paralisia.",
              "Normal": "",
              "Especial": ""
            },
@@ -3291,7 +3291,7 @@
              "Nome": "Amo",
              "Descricao": "Você fez um pacto com um amo. Essa ligação torna você mais poderoso, mas também mais vulnerável.",
              "Prerequisito": "qareen, qualquer talento metamágico.",
-             "Benefício": "escolha alguém como seu amo, que pode ser um personagem jogador ou um PdM. Quando você lança uma magia a pedido de seu amo, essa magia recebe o benefício de um talento metamágico que você possua, sem custo extra em PM. Sempre que seu amo está em perigo, você sofre um redutor de –2 em jogadas de ataque, testes de resistência e perícias. “Perigo” significa qualquer situação em que o amo receba ataque direto(bem-sucedido ou não), esteja ferido (qualquer quantidade de PV abaixo de seu total) ou em qualquer condição que reduz sua classe de armadura: amedrontado, atordoado, inconsciente, indefeso(mas não dormindo) e assim por diante.",
+             "Beneficio": "escolha alguém como seu amo, que pode ser um personagem jogador ou um PdM. Quando você lança uma magia a pedido de seu amo, essa magia recebe o benefício de um talento metamágico que você possua, sem custo extra em PM. Sempre que seu amo está em perigo, você sofre um redutor de –2 em jogadas de ataque, testes de resistência e perícias. “Perigo” significa qualquer situação em que o amo receba ataque direto(bem-sucedido ou não), esteja ferido (qualquer quantidade de PV abaixo de seu total) ou em qualquer condição que reduz sua classe de armadura: amedrontado, atordoado, inconsciente, indefeso(mas não dormindo) e assim por diante.",
              "Normal": "",
              "Especial": "caso seu amo morra, os redutores persistem durante 1d4 meses, ou até que ele seja devolvido à vida."
          },
@@ -3299,7 +3299,7 @@
              "Nome": "Arcano Completo",
              "Descricao": "Você andou lendo um livro muito bom sobre magia!",
              "Prerequisito": "elfo ou qareen.",
-             "Benefício": "seu bônus racial em testes de Identifi car Magia aumenta para +8.",
+             "Beneficio": "seu bônus racial em testes de Identifi car Magia aumenta para +8.",
              "Normal": "elfos e qareen recebem +4 nesta perícia.",
              "Especial": ""
           },
@@ -3307,7 +3307,7 @@
              "Nome": "Arma Amada",
              "Descricao": "Separar você de sua arma não é fácil.",
              "Prerequisito": "anão ou bônus base de ataque +5.",
-             "Benefício": "você recebe +4 em jogadas de ataque para evitar manobras de desarmar ou separar.",
+             "Beneficio": "você recebe +4 em jogadas de ataque para evitar manobras de desarmar ou separar.",
              "Normal": "",
              "Especial": ""
           },
@@ -3315,7 +3315,7 @@
              "Nome": "Arma Natural Aprimorada",
              "Descricao": "Suas garras, presas ou chifres são ainda mais perigosos.",
              "Prerequisito": "arma natural, bônus base de ataque +4.",
-             "Benefício": "escolha um tipo de arma natural. Seu dano aumenta uma categoria de tamanho (veja o quadro em Tormenta RPG, Capítulo 7: Equipamento). Este talento afeta todas as suas armas naturais do mesmo tipo escolhido (por exemplo, duas garras), mas não armas de tipos diferentes (por exemplo, garras e mordida).",
+             "Beneficio": "escolha um tipo de arma natural. Seu dano aumenta uma categoria de tamanho (veja o quadro em Tormenta RPG, Capítulo 7: Equipamento). Este talento afeta todas as suas armas naturais do mesmo tipo escolhido (por exemplo, duas garras), mas não armas de tipos diferentes (por exemplo, garras e mordida).",
              "Normal": "",
              "Especial": "este talento pode ser adquirido várias vezes, cada vez para uma arma diferente."
           },
@@ -3323,7 +3323,7 @@
              "Nome": "Armamento de Allihanna",
              "Descricao": "",
              "Prerequisito": "raça meio-dríade.",
-             "Benefício": "ao usar moldar madeira para criar uma arma, essa arma recebe um bônus mágico conforme seu nível de personagem. Além disso, ao lançar pele de árvore, você recebe esse mesmo bônus em sua classe de armadura (além do normal de CA +3 pela magia). Os bônus são: +1 no 1º nível, +2 no 5º nível, +3 no 10º nível, +4 no 15º nível, +5 no 20º nível. Armas criadas assim perdem seu bônus mágico se manuseadas por outros personagens — mas ainda podem ser usadas como armas normais, embora apodreçam e se desmanchem em poucas horas.",
+             "Beneficio": "ao usar moldar madeira para criar uma arma, essa arma recebe um bônus mágico conforme seu nível de personagem. Além disso, ao lançar pele de árvore, você recebe esse mesmo bônus em sua classe de armadura (além do normal de CA +3 pela magia). Os bônus são: +1 no 1º nível, +2 no 5º nível, +3 no 10º nível, +4 no 15º nível, +5 no 20º nível. Armas criadas assim perdem seu bônus mágico se manuseadas por outros personagens — mas ainda podem ser usadas como armas normais, embora apodreçam e se desmanchem em poucas horas.",
              "Normal": "",
              "Especial": ""
           },
@@ -3331,7 +3331,7 @@
              "Nome": "Asas Abissais",
              "Descricao": "Você tem asas de couro e pode voar.",
              "Prerequisito": "sulfure, Herança Extraplanar.",
-             "Benefício": "você pode voar, com o dobro de seu deslocamento normal.",
+             "Beneficio": "você pode voar, com o dobro de seu deslocamento normal.",
              "Normal": "",
              "Especial": ""
           },
@@ -3339,7 +3339,7 @@
              "Nome": "Asas Celestiais",
              "Descricao": "Você tem asas emplumadas e pode voar.",
              "Prerequisito": "aggelus, Herança Extraplanar.",
-             "Benefício": "você pode voar, com o dobro de seu deslocamento normal.",
+             "Beneficio": "você pode voar, com o dobro de seu deslocamento normal.",
              "Normal": "",
              "Especial": ""
           },
@@ -3347,7 +3347,7 @@
              "Nome": "Asas de Aço",
              "Descricao": "Você tem asas anormalmente rígidas, que podem ser empregadas como armas ou escudos.",
              "Prerequisito": "Asas",
-             "Benefício": "suas asas são como escudos. Você pode usá-las como proteção (elevando sua CA em +1 para cada asa) ou para golpear (dano de 1d4 + modifi cador de Força cada asa). Ambas as asas são consideradas mãos inábeis (mas não podem segurar objetos), e sofrem os redutores normais para ataques extras. Você não pode se proteger e atacar com a mesma asa ao mesmo tempo (mas pode se proteger com uma e atacar com a outra). Naturalmente, você também não pode atacar ou se proteger com as asas enquanto está voando.",
+             "Beneficio": "suas asas são como escudos. Você pode usá-las como proteção (elevando sua CA em +1 para cada asa) ou para golpear (dano de 1d4 + modifi cador de Força cada asa). Ambas as asas são consideradas mãos inábeis (mas não podem segurar objetos), e sofrem os redutores normais para ataques extras. Você não pode se proteger e atacar com a mesma asa ao mesmo tempo (mas pode se proteger com uma e atacar com a outra). Naturalmente, você também não pode atacar ou se proteger com as asas enquanto está voando.",
              "Normal": "",
              "Especial": "personagens com este talento são considerados proficientes com escudos (apenas suas asas). Se você também tem o talento Ataque com Escudo Aprimorado, pode atacar com as asas sem perder seu bônus na CA."
           },
@@ -3355,7 +3355,7 @@
              "Nome": "Ataques Multiplos",
              "Descricao": "Você é capaz de atacar melhor com suas armas naturais.",
              "Prerequisito": "uma ou mais armas naturais.",
-             "Benefício": "ataques adicionais com armas naturais sofrem redutor de –2.",
+             "Beneficio": "ataques adicionais com armas naturais sofrem redutor de –2.",
              "Normal": "sem este talento, ataques adicionais com armas naturais sofrem redutor de –4.",
              "Especial": ""
           },
@@ -3363,7 +3363,7 @@
              "Nome": "Ajuda Aprimorada",
              "Descricao": "Você é hábil em prestar auxílio.",
              "Prerequisito": "qareen",
-             "Benefício": "você sempre pode escolher 20 em testes de perícias para prestar ajuda, sem que a tarefa demore mais tempo que o normal.",
+             "Beneficio": "você sempre pode escolher 20 em testes de perícias para prestar ajuda, sem que a tarefa demore mais tempo que o normal.",
              "Normal": "prestar ajuda exige um teste de perícia contra CD 10. Mais detalhes em Tormenta RPG, Capítulo 4: Perícias.",
              "Especial": ""
           },
@@ -3371,7 +3371,7 @@
              "Nome": "Ajuda Avançada",
              "Descricao": "Você é ainda mais hábil em prestar auxílio.",
              "Prerequisito": "qareen, bônus base de ataque +2, Ajuda Aprimorada.",
-             "Benefício": "em situações de combate, com uma ação de movimento, você pode ajudar um aliado adjacente contra seu oponente. O aliado recebe +2 em suas jogadas de ataque ou CA (à sua escolha) até a próxima rodada.",
+             "Beneficio": "em situações de combate, com uma ação de movimento, você pode ajudar um aliado adjacente contra seu oponente. O aliado recebe +2 em suas jogadas de ataque ou CA (à sua escolha) até a próxima rodada.",
              "Normal": "",
              "Especial": ""
           },
@@ -3379,7 +3379,7 @@
              "Nome": "Ajuda Extrema",
              "Descricao": "Ajudar não dói!",
              "Prerequisito": "qareen, bônus base de ataque +8, Ajuda Aprimorada e Avançada.",
-             "Benefício": "você pode prestar ajuda em combate com uma ação livre (mas apenas uma vez por rodada).",
+             "Beneficio": "você pode prestar ajuda em combate com uma ação livre (mas apenas uma vez por rodada).",
              "Normal": "",
              "Especial": ""
           },
@@ -3387,7 +3387,7 @@
              "Nome": "Braços Desiguais",
              "Descricao": "Você tem um braço (muito) maior e mais forte que o outro.",
              "Prerequisito": "bugbear, lefou, meio-orc, orc ou trog.",
-             "Benefício": "tarefas realizadas apenas com sua mão hábil recebem Força +4 (modifi cador +2). Isso normalmente inclui ataques corpo-a-corpo feitos apenas com essa mão. Sua mão inábil recebe um redutor na mesma proporção: Força –4 (modifi cador –2). Para tarefas que exigem ambas as mãos(como o uso de armas de duas mãos), os bônus e redutores se cancelam e usam sua Força normal. O mestre tem a palavra fi nal sobre o uso desse bônus em outras situações; a maioria dos testes de Atletismo, por exemplo, não mudaria ou ficaria pior (natação deve se tornar especialmente difícil...).",
+             "Beneficio": "tarefas realizadas apenas com sua mão hábil recebem Força +4 (modifi cador +2). Isso normalmente inclui ataques corpo-a-corpo feitos apenas com essa mão. Sua mão inábil recebe um redutor na mesma proporção: Força –4 (modifi cador –2). Para tarefas que exigem ambas as mãos(como o uso de armas de duas mãos), os bônus e redutores se cancelam e usam sua Força normal. O mestre tem a palavra fi nal sobre o uso desse bônus em outras situações; a maioria dos testes de Atletismo, por exemplo, não mudaria ou ficaria pior (natação deve se tornar especialmente difícil...).",
              "Normal": "",
              "Especial": "se você tem mais de dois braços, todas as suas mãos inábeis sofrem o mesmo redutor. este talento pode ser adquirido apenas no 1º nível."
           },
@@ -3395,7 +3395,7 @@
              "Nome": "Braquiação",
              "Descricao": "Você é como aquele cara criado por macacos.",
              "Prerequisito": "elfo ou meio-dríade, treinado em Acrobacia.",
-             "Benefício": "em matas fechadas, você pode se mover livremente através das copas das árvores, balançando em galhos e cipós, com seu deslocamento normal. Você faz testes de Acrobacia apenas em situações extremas (por exemplo, se recebeu dano). Você deve estar com as mãos livres para se deslocar, mas pode usá-las normalmente se fi car parado.",
+             "Beneficio": "em matas fechadas, você pode se mover livremente através das copas das árvores, balançando em galhos e cipós, com seu deslocamento normal. Você faz testes de Acrobacia apenas em situações extremas (por exemplo, se recebeu dano). Você deve estar com as mãos livres para se deslocar, mas pode usá-las normalmente se fi car parado.",
              "Normal": "",
              "Especial": ""
           },
@@ -3403,7 +3403,7 @@
              "Nome": "Camuflagem",
              "Descricao": "Como um polvo, você pode mudar sua cor e textura a ponto de ficar quase invisível.",
              "Prerequisito": "elfo-do-mar ou trog.",
-             "Benefício": "ativar ou desativar esta habilidade requer uma ação de movimento. Você é considerado sob efeito da magia invisibilidade, mas este efeito não afeta suas roupas e equipamento: você recebe +10 em testes de Furtividade se estiver nu, +5 com armadura ou roupas leves, +2 com armadura ou roupas médias, e nenhum bônus para armadura ou roupas pesadas.",
+             "Beneficio": "ativar ou desativar esta habilidade requer uma ação de movimento. Você é considerado sob efeito da magia invisibilidade, mas este efeito não afeta suas roupas e equipamento: você recebe +10 em testes de Furtividade se estiver nu, +5 com armadura ou roupas leves, +2 com armadura ou roupas médias, e nenhum bônus para armadura ou roupas pesadas.",
              "Normal": "",
              "Especial": ""
           },
@@ -3411,7 +3411,7 @@
              "Nome": "Cauda Agil",
              "Descricao": "Você pode usar a cauda para realizar manobras acrobáticas.",
              "Prerequisito": "nagah",
-             "Benefício": "você recebe +2 em testes de Acrobacia e Atletismo usando a cauda.",
+             "Beneficio": "você recebe +2 em testes de Acrobacia e Atletismo usando a cauda.",
              "Normal": "",
              "Especial": ""
           },
@@ -3419,7 +3419,7 @@
              "Nome": "Cauda Hipnótica",
              "Descricao": "Você pode mover sua cauda de forma harmoniosa e agradável para influenciar os outros.",
              "Prerequisito": "nagah",
-             "Benefício": "você recebe +2 em testes de Atuação, Diplomacia e Enganação (apenas para blefar) usando a cauda.",
+             "Beneficio": "você recebe +2 em testes de Atuação, Diplomacia e Enganação (apenas para blefar) usando a cauda.",
              "Normal": "",
              "Especial": ""
           },
@@ -3427,7 +3427,7 @@
              "Nome": "Cauda Manipuladora",
              "Descricao": "Você pode usar a cauda para segurar e manipular objetos.",
              "Prerequisito": "nagah, Cauda Ágil.",
-             "Benefício": "sua cauda é considerada uma mão inábil.",
+             "Beneficio": "sua cauda é considerada uma mão inábil.",
              "Normal": "",
              "Especial": ""
           },
@@ -3435,7 +3435,7 @@
              "Nome": "Chuva de Laminas",
              "Descricao": "Você ataca com uma revoada de folhas com bordas afiadas.",
              "Prerequisito": "meio-dríade, personagem de 15º nível.",
-             "Benefício": "uma vez por dia você pode expelir lâminas em uma área igual a um cone com 18m. O dano é igual a 10d6, com direito a um teste de Reflexos para meio dano (CD 10 + nível do meio-dríade + bônus de Sabedoria do meio-dríade).",
+             "Beneficio": "uma vez por dia você pode expelir lâminas em uma área igual a um cone com 18m. O dano é igual a 10d6, com direito a um teste de Reflexos para meio dano (CD 10 + nível do meio-dríade + bônus de Sabedoria do meio-dríade).",
              "Normal": "",
              "Especial": ""
           },
@@ -3443,7 +3443,7 @@
              "Nome": "Comandar Aprimorado",
              "Descricao": "Humanos sabem ser líderes eficientes.",
              "Prerequisito": "humano, Comandar.",
-             "Benefício": "você pode gritar ordens para seus aliados como uma ação de movimento. Além disso, o bônus recebido por seus aliados aumenta para +2.",
+             "Beneficio": "você pode gritar ordens para seus aliados como uma ação de movimento. Além disso, o bônus recebido por seus aliados aumenta para +2.",
              "Normal": "gritar ordens para seus aliados é uma ação padrão. Aqueles que podem ouvi-lo recebem +1 em suas jogadas e testes.",
              "Especial": ""
           },
@@ -3451,7 +3451,7 @@
              "Nome": "Combater Com Duas Armas",
              "Descricao": "Você é treinado em usar uma arma em cada mão.",
              "Prerequisito": "Destreza 15",
-             "Benefício": "se estiver usando uma arma de uma mão e uma arma leve, ou duas armas leves, você pode fazer dois ataques com a mesma ação padrão, um com cada uma. No entanto, você sofre redutor de –4 em ambas as jogadas de ataque.",
+             "Beneficio": "se estiver usando uma arma de uma mão e uma arma leve, ou duas armas leves, você pode fazer dois ataques com a mesma ação padrão, um com cada uma. No entanto, você sofre redutor de –4 em ambas as jogadas de ataque.",
              "Normal": "Nota: este talento já existe no livro básico Tormenta RPG, mas reaparece aqui com detalhes adicionais para mais braços.",
              "Especial": "personagens com três ou mais braços podem atacar com todos eles, usando o mesmo redutor –4 para todos os ataques. O mesmo vale para Combater com Duas Armas Aprimorado e Maior."
           },
@@ -3459,7 +3459,7 @@
              "Nome": "Companheiro Aprimorado",
              "Descricao": "Sua raça é próxima da natureza, sendo recompensada de acordo.",
              "Prerequisito": "elfo, gnomo, halfl ing ou meio-dríade, companheiro animal ou montaria sagrada.",
-             "Benefício": "você é considerado 2 níveis acima para determinar as características de seu companheiro animal.",
+             "Beneficio": "você é considerado 2 níveis acima para determinar as características de seu companheiro animal.",
              "Normal": "",
              "Especial": "você pode adquirir este talento várias vezes. Seus efeitos se acumulam."
           },
@@ -3467,7 +3467,7 @@
              "Nome": "Companheiro Vegetal",
              "Descricao": "Seu companheiro animal é, na verdade, uma criatura planta.",
              "Prerequisito": "raça elfo ou meio-dríade, companheiro animal ou montaria sagrada.",
-             "Benefício": "seu animal adquire as habilidades a seguir.• Tipo monstro. • Classe de armadura +4. • Imunidade a magias e efeitos que afetam apenas animais(mas pode ser afetado por magias e efeitos que afetam plantas). • Imunidade a veneno, sono, paralisia e atordoamento. • Furtividade +10 onde houver vegetação.",
+             "Beneficio": "seu animal adquire as habilidades a seguir.• Tipo monstro. • Classe de armadura +4. • Imunidade a magias e efeitos que afetam apenas animais(mas pode ser afetado por magias e efeitos que afetam plantas). • Imunidade a veneno, sono, paralisia e atordoamento. • Furtividade +10 onde houver vegetação.",
              "Normal": "",
              "Especial": ""
           },
@@ -3475,7 +3475,7 @@
              "Nome": "Conhecimento Mágico Amplo",
              "Descricao": "Ninguém diz a você que não pode aprender aquela magia!",
              "Prerequisito": "humano, classe conjuradora.",
-             "Benefício": "você aprende mais duas magias de qualquer nível que possa lançar, sejam arcanas ou divinas. Por exemplo, se você é um mago de 3º nível, pode aprender duas magias novas (sejam arcanas ou divinas) de 1º ou 2º nível.",
+             "Beneficio": "você aprende mais duas magias de qualquer nível que possa lançar, sejam arcanas ou divinas. Por exemplo, se você é um mago de 3º nível, pode aprender duas magias novas (sejam arcanas ou divinas) de 1º ou 2º nível.",
              "Normal": "Nota: este talento é idêntico a Conhecimento Mágico, exceto que você pode aprender magias não disponíveis para sua classe.",
              "Especial": ""
           },
@@ -3483,7 +3483,7 @@
              "Nome": "Conforto do Aço",
              "Descricao": "Seu povo veste metal como se fosse algodão.",
              "Prerequisito": "anão",
-             "Benefício": "quando usa armadura de qualquer tipo, você não está limitado a um bônus máximo de Destreza, nem sofre qualquer penalidade de armadura.",
+             "Beneficio": "quando usa armadura de qualquer tipo, você não está limitado a um bônus máximo de Destreza, nem sofre qualquer penalidade de armadura.",
              "Normal": "",
              "Especial": ""
           },
@@ -3491,7 +3491,7 @@
              "Nome": "Constrição Atroz",
              "Descricao": "Você conjura monstruosas gavinhas equipadas com espinhos, garras e mandíbulas para aprisionar e atacar seus inimigos.",
              "Prerequisito": "meio-dríade, personagem de 5º nível.",
-             "Benefício": "você pode lançar constrição mesmo em áreas onde não existe vegetação; as plantas simplesmente brotam do chão, ou de seu próprio corpo. A magia também se torna mais agressiva — não apenas enredando, mas atacando. Além de seus efeitos normais, a constrição causa 1d6 pontos de dano por rodada a qualquer criatura enredada.",
+             "Beneficio": "você pode lançar constrição mesmo em áreas onde não existe vegetação; as plantas simplesmente brotam do chão, ou de seu próprio corpo. A magia também se torna mais agressiva — não apenas enredando, mas atacando. Além de seus efeitos normais, a constrição causa 1d6 pontos de dano por rodada a qualquer criatura enredada.",
              "Normal": "",
              "Especial": ""
           },
@@ -3499,7 +3499,7 @@
              "Nome": "Corredor Veloz",
              "Descricao": "Poucas criaturas terrestres são tão rápidas quanto você.",
              "Prerequisito": "velocis",
-             "Benefício": "seu deslocamento básico aumenta para 18m.",
+             "Beneficio": "seu deslocamento básico aumenta para 18m.",
              "Normal": "o deslocamento básico de um dragão-antílope é 12m.",
              "Especial": ""
           },
@@ -3507,7 +3507,7 @@
              "Nome": "Desejo Aprimorado",
              "Descricao": "Você pode conjurar certa magia, atendendo a pedidos.",
              "Prerequisito": "qareen, capacidade de lançar magias arcanas de 1º nível.",
-             "Benefício": "escolha uma magia arcana que seja capaz de lançar. Você pode lançar essa magia sem gastar PM, até três vezes por dia — mas apenas a pedido de outra pessoa.",
+             "Beneficio": "escolha uma magia arcana que seja capaz de lançar. Você pode lançar essa magia sem gastar PM, até três vezes por dia — mas apenas a pedido de outra pessoa.",
              "Normal": "",
              "Especial": "você pode adquirir este talento várias vezes. Cada vez que é adquirido, você deve escolher outra magia."
           },
@@ -3515,7 +3515,7 @@
              "Nome": "Desejo Avançado",
              "Descricao": "Você pode atender a desejos restritos.",
              "Prerequisito": "qareen, Desejo Aprimorado, personagem de 14º nível.",
-             "Benefício": "você pode, uma vez por dia, lançar desejo restrito sem custo em XP ou componentes materiais — mas apenas a pedido de outra pessoa. Cada pessoa tem direito a até três desejos restritos.",
+             "Beneficio": "você pode, uma vez por dia, lançar desejo restrito sem custo em XP ou componentes materiais — mas apenas a pedido de outra pessoa. Cada pessoa tem direito a até três desejos restritos.",
              "Normal": "",
              "Especial": ""
           },
@@ -3523,7 +3523,7 @@
              "Nome": "Desejo Extremo",
              "Descricao": "Você pode atender a desejos verdadeiros.",
              "Prerequisito": "qareen, Desejo Aprimorado e Avançado, personagem de 18º nível.",
-             "Benefício": "você pode, uma vez por dia, lançar a magia desejo sem custo em XP ou componentes materiais — mas apenas a pedido de outra pessoa. Cada pessoa tem direito a até três desejos.",
+             "Beneficio": "você pode, uma vez por dia, lançar a magia desejo sem custo em XP ou componentes materiais — mas apenas a pedido de outra pessoa. Cada pessoa tem direito a até três desejos.",
              "Normal": "",
              "Especial": ""
           },
@@ -3531,7 +3531,7 @@
              "Nome": "Devoção Simulada",
              "Descricao": "Quando uma nagah finge devoção a outra divindade, pode enganar até um devoto verdadeiro!",
              "Prerequisito": "nagah, Car 13, treinado em Conhecimento (religião).",
-             "Benefício": "portando o símbolo sagrado de uma divindade qualquer, você pode lançar uma magia ou manifestar um poder concedido dessa mesma divindade — mas trata-se de uma ilusão, sem efeito real. Testemunhas que tenham razões para duvidar têm direito a um teste de Intuição (CD 20 + modifi cador de Carisma da nagah) para desacreditar. Quando o poder simulado é agressivo, a vítima também tem direito ao mesmo teste de Intuição (além de quaisquer testes normalmente permitidos contra o efeito). A critério do mestre, alguns poderes não podem ser simulados, ou têm difi culdade reduzida para desacreditar.",
+             "Beneficio": "portando o símbolo sagrado de uma divindade qualquer, você pode lançar uma magia ou manifestar um poder concedido dessa mesma divindade — mas trata-se de uma ilusão, sem efeito real. Testemunhas que tenham razões para duvidar têm direito a um teste de Intuição (CD 20 + modifi cador de Carisma da nagah) para desacreditar. Quando o poder simulado é agressivo, a vítima também tem direito ao mesmo teste de Intuição (além de quaisquer testes normalmente permitidos contra o efeito). A critério do mestre, alguns poderes não podem ser simulados, ou têm difi culdade reduzida para desacreditar.",
              "Normal": "",
              "Especial": "Você pode usar este poder um número de vezes por dia igual a seu modificador de Carisma."
           },
@@ -3539,7 +3539,7 @@
              "Nome": "Duas Cabeças",
              "Descricao": "Pensam melhor que uma.",
              "Prerequisito": "gnoll, lefou, orc ou trog.",
-             "Benefício": "suas cabeças não são necessariamente iguais; uma delas pode ser menor ou atrofi ada. Em termos de jogo, você ainda tem as mesmas habilidades mentais, perícias e tendência — mas, se quiser, pode dar personalidades diferentes às suas cabeças e interpretar diálogos entre elas! Você pode rolar qualquer teste de Vontade duas vezes, fi cando com o melhor resultado. Além disso, se você tem uma arma natural (mordida), você ganha uma arma extra desse tipo (mas apenas com uma segunda cabeça de mesmo tamanho da sua). Você não recebe usos adicionais de ataques especiais feitos com a cabeça (como sopro de dragão).",
+             "Beneficio": "suas cabeças não são necessariamente iguais; uma delas pode ser menor ou atrofi ada. Em termos de jogo, você ainda tem as mesmas habilidades mentais, perícias e tendência — mas, se quiser, pode dar personalidades diferentes às suas cabeças e interpretar diálogos entre elas! Você pode rolar qualquer teste de Vontade duas vezes, fi cando com o melhor resultado. Além disso, se você tem uma arma natural (mordida), você ganha uma arma extra desse tipo (mas apenas com uma segunda cabeça de mesmo tamanho da sua). Você não recebe usos adicionais de ataques especiais feitos com a cabeça (como sopro de dragão).",
              "Normal": "",
              "Especial": "este talento pode ser adquirido apenas no 1º nível."
           },
@@ -3547,7 +3547,7 @@
              "Nome": "Dupla Conjuração",
              "Descricao": "Tome isto! E também isto!",
              "Prerequisito": "gnoll, lefou, orc ou trog, capacidade de lançar magias, Des 17, Duas Cabeças.",
-             "Benefício": "você pode lançar duas magias diferentes com a mesma ação padrão, pagando pelo custo total em PM ou esquecendo ambas. Para isso você deve ter ambas as mãos livres (lançar uma magia exige pelo menos uma mão livre).",
+             "Beneficio": "você pode lançar duas magias diferentes com a mesma ação padrão, pagando pelo custo total em PM ou esquecendo ambas. Para isso você deve ter ambas as mãos livres (lançar uma magia exige pelo menos uma mão livre).",
              "Normal": "",
              "Especial": ""
           },
@@ -3555,7 +3555,7 @@
              "Nome": "Dupla Destreza",
              "Descricao": "Temos que conseguir logo outra cimitarra.",
              "Prerequisito": "gnoll, lefou, orc ou trog, bônus base de ataque +8, Des 15, Duas Cabeças.",
-             "Benefício": "graças à coordenação extra oferecida por seu segundo cérebro, você tem duas mãos hábeis, em vez de uma. Isso quer dizer que você pode usar armas de uma mão em ambas as mãos. Você ainda sofre os redutores normais por fazer ataques adicionais na mesma rodada.",
+             "Beneficio": "graças à coordenação extra oferecida por seu segundo cérebro, você tem duas mãos hábeis, em vez de uma. Isso quer dizer que você pode usar armas de uma mão em ambas as mãos. Você ainda sofre os redutores normais por fazer ataques adicionais na mesma rodada.",
              "Normal": "você pode usar uma arma de uma mão em sua mão hábil, e uma arma leve (ou escudo, ou nada) em sua mão inábil.",
              "Especial": ""
           },
@@ -3563,7 +3563,7 @@
              "Nome": "Dupla Inteligencia",
              "Descricao": "Acho que você está enganado sobre isso, caro colega...",
              "Prerequisito": "gnoll, lefou, orc ou trog, Int 15, Duas Cabeças.",
-             "Benefício": "você pode rolar duas vezes qualquer teste de Inteligência ou perícia baseada em Inteligência, e fi car com o melhor resultado.",
+             "Beneficio": "você pode rolar duas vezes qualquer teste de Inteligência ou perícia baseada em Inteligência, e fi car com o melhor resultado.",
              "Normal": "",
              "Especial": ""
           },
@@ -3571,7 +3571,7 @@
              "Nome": "Dupla Prontidão",
              "Descricao": "Vigie aquele lado. Eu vigio este.",
              "Prerequisito": "gnoll, lefou, orc ou trog, Duas Cabeças, Prontidão.",
-             "Benefício": "com campo de visão superior e órgãos de sentidos duplicados, você nunca fica desprevenido e não pode ser flanqueado.",
+             "Beneficio": "com campo de visão superior e órgãos de sentidos duplicados, você nunca fica desprevenido e não pode ser flanqueado.",
              "Normal": "",
              "Especial": ""
           },
@@ -3579,7 +3579,7 @@
              "Nome": "Dupla Tendencia",
              "Descricao": "Você é mau",
              "Prerequisito": "gnoll, lefou, orc ou trog, Duas Cabeças.",
-             "Benefício": "cada cabeça tem sua própria visão de mundo. Em termos de jogo, você pode escolher duas tendências, em vez de uma. Você satisfaz requisitos como se tivesse ambas as tendências, mas também pode ser barrado pelo mesmo motivo. Por exemplo, se uma de suas cabeças é LB e a outra CB, você pode ser paladino (que deve ser Leal e Bondoso), mas não pode ser um bárbaro ou bardo (que não deve ser Leal).",
+             "Beneficio": "cada cabeça tem sua própria visão de mundo. Em termos de jogo, você pode escolher duas tendências, em vez de uma. Você satisfaz requisitos como se tivesse ambas as tendências, mas também pode ser barrado pelo mesmo motivo. Por exemplo, se uma de suas cabeças é LB e a outra CB, você pode ser paladino (que deve ser Leal e Bondoso), mas não pode ser um bárbaro ou bardo (que não deve ser Leal).",
              "Normal": "",
              "Especial": ""
           },
@@ -3587,7 +3587,7 @@
              "Nome": "Escalada Veloz",
              "Descricao": "Você é um demônio nas árvores.",
              "Prerequisito": "deslocamento de escalar.",
-             "Benefício": "você recebe +1 em jogadas de ataque por atacar de terreno superior.",
+             "Beneficio": "você recebe +1 em jogadas de ataque por atacar de terreno superior.",
              "Normal": "",
              "Especial": ""
           },
@@ -3595,7 +3595,7 @@
              "Nome": "Encanto das Fadas",
              "Descricao": "Você é encantador(a).",
              "Prerequisito": "meio-dríade, qareen ou sprite, Car 15.",
-             "Benefício": "você pode lançar enfeitiçar pessoa três vezes por dia.",
+             "Beneficio": "você pode lançar enfeitiçar pessoa três vezes por dia.",
              "Normal": "",
              "Especial": ""
           },
@@ -3603,7 +3603,7 @@
              "Nome": "Enfeitiçar Trolls",
              "Descricao": "Os trolls seguem suas ordens.",
              "Prerequisito": "finntroll, Car 13.",
-             "Benefício": "você pode lançar enfeitiçar monstro (apenas trolls) sem gastar PM, uma quantidade de vezes ao dia igual a seu modificador de Carisma.",
+             "Beneficio": "você pode lançar enfeitiçar monstro (apenas trolls) sem gastar PM, uma quantidade de vezes ao dia igual a seu modificador de Carisma.",
              "Normal": "um finntroll não pode comandar trolls, embora estes precisem ser bem-sucedidos em um teste de Vontade para atacá-lo.",
              "Especial": ""
           },
@@ -3611,7 +3611,7 @@
              "Nome": "Entre as Pernas",
              "Descricao": "Mas aonde foi aquele...?",
              "Prerequisito": "tamanho Pequeno ou menor, treinado em Acrobacia.",
-             "Benefício": "você pode ocupar o mesmo espaço de uma criatura Grande ou maior. Enquanto estiver ali, você recebe CA+4 contra quaisquer ataques (inclusive da própria criatura). Além disso, qualquer ataque contra você tem 50% de chance de atingir a criatura.",
+             "Beneficio": "você pode ocupar o mesmo espaço de uma criatura Grande ou maior. Enquanto estiver ali, você recebe CA+4 contra quaisquer ataques (inclusive da própria criatura). Além disso, qualquer ataque contra você tem 50% de chance de atingir a criatura.",
              "Normal": "",
              "Especial": ""
           },
@@ -3619,7 +3619,7 @@
              "Nome": "Equilibrio Aprimorado",
              "Descricao": "Em senso de equilíbrio, você supera até alguns gatos.",
              "Prerequisito": "treinado em Acrobacia, Des 15.",
-             "Benefício": "você recebe +8 em testes de Acrobacia para se equilibrar. Além disso, o dano de qualquer queda é reduzido em 1d6 (quedas que causariam dano de 1d6 ou menos são ignoradas).",
+             "Beneficio": "você recebe +8 em testes de Acrobacia para se equilibrar. Além disso, o dano de qualquer queda é reduzido em 1d6 (quedas que causariam dano de 1d6 ou menos são ignoradas).",
              "Normal": "",
              "Especial": ""
           },
@@ -3627,7 +3627,7 @@
              "Nome": "Especialização em Armas Raciais",
              "Descricao": "Você é habilidoso com as armas tradicionais de sua raça.",
              "Prerequisito": "bônus base de ataque +2, pelo menos uma arma racial (veja adiante).",
-             "Benefício": "você recebe um bônus de +2 nos danos quando utiliza uma arma tradicional de sua raça. “Armas tradicionais” são aquelas em que o personagem é competente devido a traços raciais(machados e martelos para anões, por exemplo). Armas que tragam o nome da raça em seu nome (como a espada táurica) também são consideradas raciais. O mestre pode autorizar outros tipos de armas como “raciais” seguindo o bom senso.",
+             "Beneficio": "você recebe um bônus de +2 nos danos quando utiliza uma arma tradicional de sua raça. “Armas tradicionais” são aquelas em que o personagem é competente devido a traços raciais(machados e martelos para anões, por exemplo). Armas que tragam o nome da raça em seu nome (como a espada táurica) também são consideradas raciais. O mestre pode autorizar outros tipos de armas como “raciais” seguindo o bom senso.",
              "Normal": "",
              "Especial": "este talento é cumulativo com Especialização em Arma dos guerreiros."
           },
@@ -3635,7 +3635,7 @@
              "Nome": "Extrativismo",
              "Descricao": "Você sabe como encontrar ervas curativas nos ermos.",
              "Prerequisito": "treinado em Sobrevivência.",
-             "Benefício": "você pode gastar um dia procurando por plantas especiais em qualquer terreno selvagem. Faça um teste de Sobrevivência(CD 15). Se for bem-sucedido, você encontra ervas que podem ser usadas para curar 1d8 pontos de dano. Para cada 5 pontos que o resultado de seu teste exceder a CD, você encontra uma dose extra. Aplicar a planta é uma ação completa. Depois que colhidas, as ervas permanecem frescas por apenas uma semana.",
+             "Beneficio": "você pode gastar um dia procurando por plantas especiais em qualquer terreno selvagem. Faça um teste de Sobrevivência(CD 15). Se for bem-sucedido, você encontra ervas que podem ser usadas para curar 1d8 pontos de dano. Para cada 5 pontos que o resultado de seu teste exceder a CD, você encontra uma dose extra. Aplicar a planta é uma ação completa. Depois que colhidas, as ervas permanecem frescas por apenas uma semana.",
              "Normal": "",
              "Especial": ""
           },
@@ -3643,7 +3643,7 @@
              "Nome": "Familiar Elemental",
              "Descricao": "Você tem um familiar ligado a seu elemento.",
              "Prerequisito": "qareen da água, ar, fogo ou terra, Familiar.",
-             "Benefício": "você possui como familiar um elemental Pequeno, feito do mesmo elemento ao qual você pertence. O elemental tem Pontos de Vida normais para este tipo de criatura, ou metade dos PV de seu mestre, o que for maior. O elemental não pode falar com animais, mas possui todas as demais capacidades de um familiar. O familiar elemental também oferece 3 PV extras a seu mestre.",
+             "Beneficio": "você possui como familiar um elemental Pequeno, feito do mesmo elemento ao qual você pertence. O elemental tem Pontos de Vida normais para este tipo de criatura, ou metade dos PV de seu mestre, o que for maior. O elemental não pode falar com animais, mas possui todas as demais capacidades de um familiar. O familiar elemental também oferece 3 PV extras a seu mestre.",
              "Normal": "",
              "Especial": ""
           },
@@ -3651,7 +3651,7 @@
              "Nome": "Familiar da Luz",
              "Descricao": "Você tem um familiar celestial.",
              "Prerequisito": "aggelus ou qareen da luz, Familiar.",
-             "Benefício": "seu familiar adquire as habilidades a seguir. • Visão no Escuro 18m. • Resistência a ácido, frio e eletricidade 5. • Resistência a magia +4. • Destruir o Mal (como os paladinos) uma vez por dia.",
+             "Beneficio": "seu familiar adquire as habilidades a seguir. • Visão no Escuro 18m. • Resistência a ácido, frio e eletricidade 5. • Resistência a magia +4. • Destruir o Mal (como os paladinos) uma vez por dia.",
              "Normal": "",
              "Especial": ""
           },
@@ -3659,7 +3659,7 @@
              "Nome": "Familiar das Trevas",
              "Descricao": "Você tem um familiar abissal.",
              "Prerequisito": "sulfure ou qareen das trevas, Familiar.",
-             "Benefício": "seu familiar adquire as habilidades a seguir. • Visão no Escuro 18m. • Resistência a ácido, fogo e frio 5. • Resistência a magia +4. • Destruir o Bem (como os paladinos, mas contra criaturas Bondosas) uma vez por dia.",
+             "Beneficio": "seu familiar adquire as habilidades a seguir. • Visão no Escuro 18m. • Resistência a ácido, fogo e frio 5. • Resistência a magia +4. • Destruir o Bem (como os paladinos, mas contra criaturas Bondosas) uma vez por dia.",
              "Normal": "",
              "Especial": ""
           },
@@ -3667,7 +3667,7 @@
              "Nome": "Faro Aprimorado",
              "Descricao": "Você tem olfato ainda mais aguçado.",
              "Prerequisito": "faro",
-             "Benefício": "você percebe criaturas a até 15m, e recebe +6 em testes de Sobrevivência para rastrear usando o faro.",
+             "Beneficio": "você percebe criaturas a até 15m, e recebe +6 em testes de Sobrevivência para rastrear usando o faro.",
              "Normal": "raças com faro percebem criaturas a até 9m e recebem +4 em Sobrevivência para rastrear usando o faro.",
              "Especial": ""
           },
@@ -3675,7 +3675,7 @@
              "Nome": "Faro Discriminatório",
              "Descricao": "Você identifica muita coisa através do cheiro.",
              "Prerequisito": "faro, Sab 15.",
-             "Benefício": "quando percebe a presença de criaturas, você pode dizer seu tipo (animal, construto, espírito, humanoide, monstro ou morto-vivo), mas apenas tipos de criaturas que já tenha farejado antes. Você percebe criaturas daquele tipo ao alcance de seu faro, mas não pode dizer quantas ou quais. Você pode tentar identificar o tipo de uma criatura específi ca (por exemplo, um monstro disfarçado de humano) com um exame cuidadoso. Isso exige uma ação completa e um teste de Percepção (CD 15). A criatura deve estar adjacente. Você também recebe +4 em testes de Intuição e +2 em testes de Ofício para fazer avaliações.",
+             "Beneficio": "quando percebe a presença de criaturas, você pode dizer seu tipo (animal, construto, espírito, humanoide, monstro ou morto-vivo), mas apenas tipos de criaturas que já tenha farejado antes. Você percebe criaturas daquele tipo ao alcance de seu faro, mas não pode dizer quantas ou quais. Você pode tentar identificar o tipo de uma criatura específi ca (por exemplo, um monstro disfarçado de humano) com um exame cuidadoso. Isso exige uma ação completa e um teste de Percepção (CD 15). A criatura deve estar adjacente. Você também recebe +4 em testes de Intuição e +2 em testes de Ofício para fazer avaliações.",
              "Normal": "",
              "Especial": ""
           },
@@ -3683,7 +3683,7 @@
              "Nome": "Faro para Magia",
              "Descricao": "Você sente cheiro de magia.",
              "Prerequisito": "faro, Sab 15, Faro Discriminatório.",
-             "Benefício": "você pode farejar auras mágicas, da mesma forma que detectar magia.",
+             "Beneficio": "você pode farejar auras mágicas, da mesma forma que detectar magia.",
              "Normal": "",
              "Especial": ""
           },
@@ -3691,7 +3691,7 @@
              "Nome": "Faro para Medo",
              "Descricao": "Você se intoxica com o medo de suas vítimas.",
              "Prerequisito": "bugbear, tendência Maligna.",
-             "Benefício": "quando uma criatura ao alcance de seu faro está abalada ou apavorada, você recebe +2 em todas as suas jogadas de ataque e dano (contra qualquer oponente).",
+             "Beneficio": "quando uma criatura ao alcance de seu faro está abalada ou apavorada, você recebe +2 em todas as suas jogadas de ataque e dano (contra qualquer oponente).",
              "Normal": "",
              "Especial": ""
           },
@@ -3699,7 +3699,7 @@
              "Nome": "Faz-Tudo",
              "Descricao": "Por sua versatilidade, você atingiu o limite de sua perícia.",
              "Prerequisito": "humano, Int 13.",
-             "Benefício": "você é treinado em todas as perícias de sua classe. Para perícias com várias especializações (Conhecimento e Ofício), você tem um número de especializações igual a seu bônus de Inteligência.",
+             "Beneficio": "você é treinado em todas as perícias de sua classe. Para perícias com várias especializações (Conhecimento e Ofício), você tem um número de especializações igual a seu bônus de Inteligência.",
              "Normal": "",
              "Especial": ""
           },
@@ -3707,7 +3707,7 @@
              "Nome": "Filho da Luz",
              "Descricao": "Você tem maior afinidade com o bem.",
              "Prerequisito": "aggelus, Herança Extraplanar, tendência Bondosa.",
-             "Benefício": "você se torna imune a dano por ácido, frio ou eletricidade, à sua escolha.",
+             "Beneficio": "você se torna imune a dano por ácido, frio ou eletricidade, à sua escolha.",
              "Normal": "",
              "Especial": "este talento pode ser escolhido várias vezes, uma vez para cada energia."
           },
@@ -3715,7 +3715,7 @@
              "Nome": "Filho das Trevas",
              "Descricao": "Você tem maior afinidade com o mal.",
              "Prerequisito": "sulfure, Herança Extraplanar, tendência Maligna.",
-             "Benefício": "você se torna imune a dano por fogo, frio ou eletricidade, à sua escolha.",
+             "Beneficio": "você se torna imune a dano por fogo, frio ou eletricidade, à sua escolha.",
              "Normal": "",
              "Especial": "este talento pode ser escolhido várias vezes, uma vez para cada energia."
           },
@@ -3723,7 +3723,7 @@
              "Nome": "Foco em Habilidade",
              "Descricao": "É mais difícil resistir a seus poderes.",
              "Prerequisito": "ataque especial (veja adiante).",
-             "Benefício": "escolha uma habilidade ou talento racial que exige do alvo um teste de resistência (como o olhar atordoante das medusas, ou o mau cheiro dos trogs). A difi culdade desse teste aumenta em CD+2.",
+             "Beneficio": "escolha uma habilidade ou talento racial que exige do alvo um teste de resistência (como o olhar atordoante das medusas, ou o mau cheiro dos trogs). A difi culdade desse teste aumenta em CD+2.",
              "Normal": "",
              "Especial": "você pode adquirir este talento várias vezes. Seus efeitos se acumulam."
           },
@@ -3731,7 +3731,7 @@
              "Nome": "Foco em Polvora",
              "Descricao": "Alguns amam pólvora mais do que deveriam. Mais do que qualquer um deveria!",
              "Prerequisito": "anão, goblin ou hobgoblin.",
-             "Benefício": "você recebe +1 em jogadas de ataque e +2 em rolagens de dano com armas de pólvora. Normalmente isso inclui armas de fogo, granadas e canhões.",
+             "Beneficio": "você recebe +1 em jogadas de ataque e +2 em rolagens de dano com armas de pólvora. Normalmente isso inclui armas de fogo, granadas e canhões.",
              "Normal": "",
              "Especial": ""
           },
@@ -3739,7 +3739,7 @@
              "Nome": "Forma Humana",
              "Descricao": "De algum modo, você pode adotar uma forma humana de duas pernas.",
              "Prerequisito": "centauro ou nagah, Con 13.",
-             "Benefício": "você pode, com uma ação de movimento, mudar para uma forma bípede de tamanho Médio, com o mesmo rosto e aparência geral de sua forma verdadeira, mas aparentemente humana (ou élfi ca). Você pode fazer isso uma vez por dia para cada ponto de seu modifi cador de Constituição. Roupas e itens comportam-se da mesma forma que na magia alterar-se. Na forma humana você não está sujeito a modifi cadores de tamanho (você é uma criatura Média, mesmo que sua raça original não seja) e tem deslocamento 9m. Nesta forma você também não pode utilizar quaisquer traços raciais ou habilidades ligadas a uma anatomia não humanoide (como os ataques com cascos de um centauro, ou talentos com a cauda de uma nagah).",
+             "Beneficio": "você pode, com uma ação de movimento, mudar para uma forma bípede de tamanho Médio, com o mesmo rosto e aparência geral de sua forma verdadeira, mas aparentemente humana (ou élfi ca). Você pode fazer isso uma vez por dia para cada ponto de seu modifi cador de Constituição. Roupas e itens comportam-se da mesma forma que na magia alterar-se. Na forma humana você não está sujeito a modifi cadores de tamanho (você é uma criatura Média, mesmo que sua raça original não seja) e tem deslocamento 9m. Nesta forma você também não pode utilizar quaisquer traços raciais ou habilidades ligadas a uma anatomia não humanoide (como os ataques com cascos de um centauro, ou talentos com a cauda de uma nagah).",
              "Normal": "",
              "Especial": ""
           },
@@ -3747,7 +3747,7 @@
              "Nome": "Forma Selvagem do Mar",
              "Descricao": "Você pode se transformar em um animal marinho.",
              "Prerequisito": "elfo-do-mar, Con 13, personagem de 5º nível.",
-             "Benefício": "você pode transformar-se em um animal marinho, como um druida de nível igual ao seu nível de personagem atual. Esse animal é escolhido quando você adquire o talento, e não pode ser trocado ou mudado — mesmo que seu nível aumente. Você não precisa escolher nadar para sua forma selvagem (sua raça já tem essa habilidade) mas, a partir do 11º nível, pode escolher nadar 18m para aumentar seu deslocamento. Você pode escolher uma criatura marinha capaz de se deslocar em terra (foca, lontra, tartaruga...), escalar (caranguejo) ou até voar (gaivota, pelicano...).Você pode se transformar um número de vezes por dia igual a seu modificador de Constituição.",
+             "Beneficio": "você pode transformar-se em um animal marinho, como um druida de nível igual ao seu nível de personagem atual. Esse animal é escolhido quando você adquire o talento, e não pode ser trocado ou mudado — mesmo que seu nível aumente. Você não precisa escolher nadar para sua forma selvagem (sua raça já tem essa habilidade) mas, a partir do 11º nível, pode escolher nadar 18m para aumentar seu deslocamento. Você pode escolher uma criatura marinha capaz de se deslocar em terra (foca, lontra, tartaruga...), escalar (caranguejo) ou até voar (gaivota, pelicano...).Você pode se transformar um número de vezes por dia igual a seu modificador de Constituição.",
              "Normal": "",
              "Especial": "este talento pode ser adquirido várias vezes. Cada vez você pode escolher uma forma selvagem diferente."
           },
@@ -3755,7 +3755,7 @@
              "Nome": "Fúria Aterradora",
              "Descricao": "Sua fúria não é apenas destruidora, é também assustadora.",
              "Prerequisito": "habilidade fúria, bônus base de ataque +3.",
-             "Benefício": "quando você entra em fúria, todos os oponentes a até 3m devem fazer um teste de Vontade (CD 10 + seu nível de personagem). Um oponente que falha no teste fi ca abalado (–2 nas jogadas de ataque e testes de habilidade, perícia e resistência)durante 1d4 rodadas. Um teste bem-sucedido torna o oponente imune a sua Fúria Aterradora durante 24 horas. Este é um efeito de medo.",
+             "Beneficio": "quando você entra em fúria, todos os oponentes a até 3m devem fazer um teste de Vontade (CD 10 + seu nível de personagem). Um oponente que falha no teste fi ca abalado (–2 nas jogadas de ataque e testes de habilidade, perícia e resistência)durante 1d4 rodadas. Um teste bem-sucedido torna o oponente imune a sua Fúria Aterradora durante 24 horas. Este é um efeito de medo.",
              "Normal": "",
              "Especial": ""
           },
@@ -3763,7 +3763,7 @@
              "Nome": "Fúria Natural",
              "Descricao": "Quando você é dominado pelos instintos selvagens, prefere usar suas armas naturais a coisas criadas pela civilização.",
              "Prerequisito": "habilidade fúria, arma natural.",
-             "Benefício": "quando você está em fúria, recebe um bônus de +2 nas jogadas de ataque e dano com armas naturais.",
+             "Beneficio": "quando você está em fúria, recebe um bônus de +2 nas jogadas de ataque e dano com armas naturais.",
              "Normal": "",
              "Especial": ""
           },
@@ -3771,7 +3771,7 @@
              "Nome": "Golpe no Joelho",
              "Descricao": "Mas aonde foi aquele... AAAGH!",
              "Prerequisito": "tamanho Pequeno ou menor, treinado em Acrobacia, Entre as Pernas.",
-             "Benefício": "quando você ocupa o mesmo espaço de uma criatura Grande ou maior, a margem de ameaça de seus ataques contra ela aumenta em +2 (este bônus não é dobrado por qualquer razão).",
+             "Beneficio": "quando você ocupa o mesmo espaço de uma criatura Grande ou maior, a margem de ameaça de seus ataques contra ela aumenta em +2 (este bônus não é dobrado por qualquer razão).",
              "Normal": "",
              "Especial": ""
           },
@@ -3779,7 +3779,7 @@
              "Nome": "Grandão",
              "Descricao": "Você é anormalmente grande para sua raça.",
              "Prerequisito": "For 19, Con 19.",
-             "Benefício": "você é considerado uma categoria de tamanho maior para efeito de manobras de combate e armas que pode usar(por exemplo, uma criatura Média com este talento pode usar uma arma Grande sem penalidades, ou uma arma Enorme com uma penalidade de –4). Entretanto, você sofre as mesmas penalidades das criaturas Grandes: –1 nas jogadas de ataque e classe de armadura, –4 em testes de Furtividade.",
+             "Beneficio": "você é considerado uma categoria de tamanho maior para efeito de manobras de combate e armas que pode usar(por exemplo, uma criatura Média com este talento pode usar uma arma Grande sem penalidades, ou uma arma Enorme com uma penalidade de –4). Entretanto, você sofre as mesmas penalidades das criaturas Grandes: –1 nas jogadas de ataque e classe de armadura, –4 em testes de Furtividade.",
              "Normal": "",
              "Especial": "este talento pode ser adquirido apenas no 1º nível. Nota: este talento aparece no Guia da Trilogia, mas reaparece aqui com pré-requisitos atualizados."
           },
@@ -3787,7 +3787,7 @@
              "Nome": "Herança Extraplanar",
              "Descricao": "O sangue extraplanar é mais forte em você.",
              "Prerequisito": "aggelus ou sulfure.",
-             "Benefício": "você pode usar seu ataque especial racial (luz do dia para aggelus, escuridão para sulfure) duas vezes adicionais por dia. Além disso, uma de suas resistências a energia (fogo, frio, eletricidade ou ácido, à sua escolha) aumenta para 10.",
+             "Beneficio": "você pode usar seu ataque especial racial (luz do dia para aggelus, escuridão para sulfure) duas vezes adicionais por dia. Além disso, uma de suas resistências a energia (fogo, frio, eletricidade ou ácido, à sua escolha) aumenta para 10.",
              "Normal": "",
              "Especial": ""
           },
@@ -3795,7 +3795,7 @@
              "Nome": "Investida Aprimorada",
              "Descricao": "Você tem boas razões para acreditar que a melhor maneira de iniciar um combate é atropelando o inimigo.",
              "Prerequisito": "",
-             "Benefício": "quando você faz uma investida, recebe +4 na jogada de ataque.",
+             "Beneficio": "quando você faz uma investida, recebe +4 na jogada de ataque.",
              "Normal": "um personagem que faça uma investida recebe +2 na jogada de ataque.",
              "Especial": ""
           },
@@ -3803,7 +3803,7 @@
              "Nome": "Intuição Natural",
              "Descricao": "Você pode acessar o conhecimento de seus ancestrais, contido em seu sangue.",
              "Prerequisito": "Sabedoria 13",
-             "Benefício": "você soma seu nível a um único teste de Conhecimento(natureza), Cura ou Sobrevivência. Você deve anunciar o uso deste talento antes de o mestre determinar se o teste foi bem-sucedido ou não. Você pode usar este talento um número de vezes por dia igual a seu bônus de Sabedoria.",
+             "Beneficio": "você soma seu nível a um único teste de Conhecimento(natureza), Cura ou Sobrevivência. Você deve anunciar o uso deste talento antes de o mestre determinar se o teste foi bem-sucedido ou não. Você pode usar este talento um número de vezes por dia igual a seu bônus de Sabedoria.",
              "Normal": "",
              "Especial": ""
           },
@@ -3811,7 +3811,7 @@
              "Nome": "Magia Primitiva",
              "Descricao": "Quando lança uma magia você emite rugidos e uivos bestiais, executa danças animalísticas ou esmaga ervas e ossos. É mais demorado que uma conjuração normal, mas graças a isso você consegue canalizar a energia da terra para fortalecer seus feitiços.",
              "Prerequisito": "capacidade de lançar magias, qualquer talento metamágico.",
-             "Benefício": "você pode gastar uma ação completa para lançar uma magia cujo tempo de execução normal seja uma ação padrão ou menos. Se fi zer isso, você aplica à magia o efeito de um talento metamágico que possua, sem aumentar seu custo em PM.",
+             "Beneficio": "você pode gastar uma ação completa para lançar uma magia cujo tempo de execução normal seja uma ação padrão ou menos. Se fi zer isso, você aplica à magia o efeito de um talento metamágico que possua, sem aumentar seu custo em PM.",
              "Normal": "",
              "Especial": ""
           },
@@ -3819,7 +3819,7 @@
              "Nome": "Mandíbula de Aço",
              "Descricao": "A hiena tem uma das mordidas mais fortes do reino animal. Você não fica atrás.",
              "Prerequisito": "gnoll ou Herança da Hiena (veja em “Talentos Moreau”, mais adiante), bônus base de ataque +2. ",
-             "Benefício": "quando ataca com a mordida, você recebe +2 em rolagens de dano e +2 em testes de agarrar e separar.",
+             "Beneficio": "quando ataca com a mordida, você recebe +2 em rolagens de dano e +2 em testes de agarrar e separar.",
              "Normal": "",
              "Especial": ""
           },
@@ -3827,7 +3827,7 @@
              "Nome": "Marca de Wynna Aprimorada",
              "Descricao": "A bênção da Deusa da Magia é poderosa em você.",
              "Prerequisito": "qareen, capacidade de lançar magias arcanas de 1º nível.",
-             "Benefício": "escolha uma magia arcana que seja capaz de lançar. Você pode lançar essa magia sem gastar PM, uma vez por dia.",
+             "Beneficio": "escolha uma magia arcana que seja capaz de lançar. Você pode lançar essa magia sem gastar PM, uma vez por dia.",
              "Normal": "",
              "Especial": ""
           },
@@ -3835,7 +3835,7 @@
              "Nome": "Marca de Wynna Avançada",
              "Descricao": "A bênção da Deusa da Magia é ainda mais poderosa em você.",
              "Prerequisito": "raça qareen, capacidade de lançar magias arcanas de 1º nível, Marca de Wynna Aprimorada, qualquer talento metamágico.",
-             "Benefício": "escolha uma magia arcana já selecionada para o talento Marca de Wynna Aprimorada. Você lança essa magia (e apenas essa) aplicando qualquer talento metamágico que possua, sem pagar PM.",
+             "Beneficio": "escolha uma magia arcana já selecionada para o talento Marca de Wynna Aprimorada. Você lança essa magia (e apenas essa) aplicando qualquer talento metamágico que possua, sem pagar PM.",
              "Normal": "",
              "Especial": ""
           },
@@ -3843,7 +3843,7 @@
              "Nome": "Marca de Wynna Extrema",
              "Descricao": "Wynna ocasionalmente convida você para tomar chá.",
              "Prerequisito": "qareen, capacidade de lançar magias arcanas de 1º nível, Marca de Wynna Aprimorada e Avançada, dois ou mais talentos metamágicos.",
-             "Benefício": "escolha uma magia arcana já selecionada para os talentos Marca de Wynna Aprimorada e Avançada. Uma vez por dia, você pode lançar essa magia aplicando os efeitos de todos os talentos metamágicos que possua, sem pagar PM.",
+             "Beneficio": "escolha uma magia arcana já selecionada para os talentos Marca de Wynna Aprimorada e Avançada. Uma vez por dia, você pode lançar essa magia aplicando os efeitos de todos os talentos metamágicos que possua, sem pagar PM.",
              "Normal": "",
              "Especial": ""
           },
@@ -3851,7 +3851,7 @@
              "Nome": "Marrada Poderosa",
              "Descricao": "Sua cabeçada é digna de respeito.",
              "Prerequisito": "arma natural (chifres), Ataque Poderoso, bônus base de ataque +1.",
-             "Benefício": "quando você faz um ataque de investida com os chifres, aplica o dobro de seu modificador de Força ao dano.",
+             "Beneficio": "quando você faz um ataque de investida com os chifres, aplica o dobro de seu modificador de Força ao dano.",
              "Normal": "",
              "Especial": ""
           },
@@ -3859,7 +3859,7 @@
              "Nome": "Marrada Ligeira",
              "Descricao": "Você pode arremeter contra seus alvos e, ao mesmo tempo, realizar outras ações.",
              "Prerequisito": "arma natural (chifres), Ataque Poderoso, bônus base de ataque +4.",
-             "Benefício": "quando você faz um ataque de investida com os chifres, pode também fazer um segundo ataque com outra arma, à sua escolha. Ambos recebem o bônus normal de +2 por investida.",
+             "Beneficio": "quando você faz um ataque de investida com os chifres, pode também fazer um segundo ataque com outra arma, à sua escolha. Ambos recebem o bônus normal de +2 por investida.",
              "Normal": "",
              "Especial": ""
           },
@@ -3867,7 +3867,7 @@
              "Nome": "Máscara da Serpente",
              "Descricao": "Sua raça tem meios de dissimular sua verdadeira natureza.",
              "Prerequisito": "nagah, Int 13.",
-             "Benefício": "você é considerado sempre sob efeito da magia dissimular tendência.",
+             "Beneficio": "você é considerado sempre sob efeito da magia dissimular tendência.",
              "Normal": "",
              "Especial": ""
           },
@@ -3875,7 +3875,7 @@
              "Nome": "Mimetismo",
              "Descricao": "Como o polvo, você pode mudar sua cor e textura a ponto de adotar outra aparência.",
              "Prerequisito": "elfo-do-mar, Camuflagem.",
-             "Benefício": "além de mudar de cor, você também pode alterar traços faciais e outros detalhes anatômicos menores (por exemplo, adquirir orelhas humanas arredondadas). Você recebe +8 em testes de Enganação para se disfarçar como alguém de outra raça ou sexo.",
+             "Beneficio": "além de mudar de cor, você também pode alterar traços faciais e outros detalhes anatômicos menores (por exemplo, adquirir orelhas humanas arredondadas). Você recebe +8 em testes de Enganação para se disfarçar como alguém de outra raça ou sexo.",
              "Normal": "",
              "Especial": ""
           },
@@ -3883,7 +3883,7 @@
              "Nome": "Mudança de Tamanho",
              "Descricao": "Você pode crescer até o tamanho de um halfl ing. Sim, você leu direito.",
              "Prerequisito": "sprite",
-             "Benefício": "você pode, com uma ação de movimento, mudar livremente entre tamanho Miúdo (natural para sprites) e Pequeno. Quando estão em tamanho Pequeno, os ajustes de habilidades de um sprite mudam para Força –2 e Destreza +2 (Con e Car ainda têm os mesmos ajustes; –2 e +2 respectivamente). Seus bônus mudam para CA+1, +1 nas jogadas de ataque e +4 em testes de Furtividade. Suas asas desaparecem quando você muda para tamanho Pequeno, e você não pode voar enquanto não retornar ao tamanho Miúdo. Roupas e itens comportam-se da mesma forma que na magia alterar-se.",
+             "Beneficio": "você pode, com uma ação de movimento, mudar livremente entre tamanho Miúdo (natural para sprites) e Pequeno. Quando estão em tamanho Pequeno, os ajustes de habilidades de um sprite mudam para Força –2 e Destreza +2 (Con e Car ainda têm os mesmos ajustes; –2 e +2 respectivamente). Seus bônus mudam para CA+1, +1 nas jogadas de ataque e +4 em testes de Furtividade. Suas asas desaparecem quando você muda para tamanho Pequeno, e você não pode voar enquanto não retornar ao tamanho Miúdo. Roupas e itens comportam-se da mesma forma que na magia alterar-se.",
              "Normal": "",
              "Especial": ""
           },
@@ -3891,7 +3891,7 @@
              "Nome": "Mutação Assombrosa",
              "Descricao": "Por seu sangue impuro, orcs podem apresentar os poderes mais inesperados.",
              "Prerequisito": "orc",
-             "Benefício": "escolha um traço racial de qualquer outra raça, como um ataque natural, bônus em perícias, tamanho diferente de Médio, faro, ou mesmo o mau cheiro dos trogs. Você tem esse traço racial. Você não pode escolher modifi cadores de habilidade ou talentos adicionais.",
+             "Beneficio": "escolha um traço racial de qualquer outra raça, como um ataque natural, bônus em perícias, tamanho diferente de Médio, faro, ou mesmo o mau cheiro dos trogs. Você tem esse traço racial. Você não pode escolher modifi cadores de habilidade ou talentos adicionais.",
              "Normal": "",
              "Especial": "você pode escolher este talento várias vezes, uma vez para cada novo traço racial."
           },
@@ -3899,7 +3899,7 @@
              "Nome": "Olhar Atordoante Adicional",
              "Descricao": "Você pode atordoar mais vezes.",
              "Prerequisito": "medusa, bônus base de ataque +2.",
-             "Benefício": "você pode usar seu olhar atordoante duas vezes adicionais por dia.",
+             "Beneficio": "você pode usar seu olhar atordoante duas vezes adicionais por dia.",
              "Normal": "uma medusa pode usar o olhar atordoante uma vez por dia.",
              "Especial": ""
           },
@@ -3907,7 +3907,7 @@
              "Nome": "Olhar Paralisante",
              "Descricao": "Você pode paralisar pessoas com o olhar",
              "Prerequisito": "medusa, personagem de 3º nível.",
-             "Benefício": "uma vez por dia, como uma ação livre, você pode lançar imobilizar pessoa contra um humanoide a até 9m olhando diretamente em seus olhos. A vítima deve ser bem-sucedida em um teste de Fortitude (CD 10 + metade do nível da medusa + modificador de Carisma da medusa) para evitar o efeito.",
+             "Beneficio": "uma vez por dia, como uma ação livre, você pode lançar imobilizar pessoa contra um humanoide a até 9m olhando diretamente em seus olhos. A vítima deve ser bem-sucedida em um teste de Fortitude (CD 10 + metade do nível da medusa + modificador de Carisma da medusa) para evitar o efeito.",
              "Normal": "",
              "Especial": ""
           },
@@ -3915,7 +3915,7 @@
              "Nome": "Olhar Paralisante Aprimorado",
              "Descricao": "Você pode paralisar criaturas com o olhar.",
              "Prerequisito": "medusa, personagem de 7º nível, Olhar Paralisante.",
-             "Benefício": "seu Olhar Paralisante passa a lançar imobilizar monstro.",
+             "Beneficio": "seu Olhar Paralisante passa a lançar imobilizar monstro.",
              "Normal": "",
              "Especial": ""
           },
@@ -3923,7 +3923,7 @@
              "Nome": "Olhar Petrificante",
              "Descricao": "Você pode petrificar com o olhar.",
              "Prerequisito": "medusa, personagem de 13º nível, Olhar Paralisante, Olhar Paralisante Aprimorado.",
-             "Benefício": "uma vez por dia, como uma ação livre, você pode lançar carne para pedra contra uma criatura a até 9m olhando diretamente em seus olhos. A vítima deve ser bem-sucedida em um teste de Fortitude (CD 10 + metade do nível da medusa + modificador de Carisma da medusa) para evitar o efeito.",
+             "Beneficio": "uma vez por dia, como uma ação livre, você pode lançar carne para pedra contra uma criatura a até 9m olhando diretamente em seus olhos. A vítima deve ser bem-sucedida em um teste de Fortitude (CD 10 + metade do nível da medusa + modificador de Carisma da medusa) para evitar o efeito.",
              "Normal": "",
              "Especial": ""
           },
@@ -3931,7 +3931,7 @@
              "Nome": "Pequeno Alpinista",
              "Descricao": "Você é perito em escalar paredes.",
              "Prerequisito": "goblin ou halfling; treinado em Atletismo; Foco em Perícia (Atletismo).",
-             "Benefício": "você é sempre considerado sob efeito da magia patas de aranha.",
+             "Beneficio": "você é sempre considerado sob efeito da magia patas de aranha.",
              "Normal": "",
              "Especial": ""
           },
@@ -3939,7 +3939,7 @@
              "Nome": "Pontaria de Tenebra",
              "Descricao": "Seus disparos são guiados por sua determinação, olhar aguçado e percepção do mundo.",
              "Prerequisito": "anão",
-             "Benefício": "para ataques à distância, você usa seu modificador de Sabedoria.",
+             "Beneficio": "para ataques à distância, você usa seu modificador de Sabedoria.",
              "Normal": "ataques à distância usam o modifi cador de Destreza.",
              "Especial": ""
           },
@@ -3947,7 +3947,7 @@
              "Nome": "Postura Inabalável",
              "Descricao": "Daqui não saio, daqui ninguém me tira!",
              "Prerequisito": "anão",
-             "Benefício": "sempre que está em contato com o chão e imóvel(sem deslocar-se nesta rodada), você recebe +6 em testes para resistir a manobras especiais (agarrar, atropelar, derrubar, desarmar, empurrar, separar).",
+             "Beneficio": "sempre que está em contato com o chão e imóvel(sem deslocar-se nesta rodada), você recebe +6 em testes para resistir a manobras especiais (agarrar, atropelar, derrubar, desarmar, empurrar, separar).",
              "Normal": "",
              "Especial": ""
           },
@@ -3955,7 +3955,7 @@
              "Nome": "Portador da Segurança",
              "Descricao": "É mais seguro ficar em seus braços.",
              "Prerequisito": "minotauro ou For 19.",
-             "Benefício": "com uma ação de movimento, você pode carregar consigo (no colo, sobre os ombros...) uma criatura de tamanho Pequeno ou menor. O protegido deve estar adjacente, e o portador precisa de uma mão livre. Exceto pelo uso de uma mão, o portador não sofre nenhuma penalidade por carregar o protegido. Enquanto está sendo carregado, o protegido é considerado sob cobertura (CA+4). Além disso, qualquer ataque bem-sucedido contra o protegido tem 50% de chance de, em vez disso, atingir o portador (o ataque é feito contra a sua CA).",
+             "Beneficio": "com uma ação de movimento, você pode carregar consigo (no colo, sobre os ombros...) uma criatura de tamanho Pequeno ou menor. O protegido deve estar adjacente, e o portador precisa de uma mão livre. Exceto pelo uso de uma mão, o portador não sofre nenhuma penalidade por carregar o protegido. Enquanto está sendo carregado, o protegido é considerado sob cobertura (CA+4). Além disso, qualquer ataque bem-sucedido contra o protegido tem 50% de chance de, em vez disso, atingir o portador (o ataque é feito contra a sua CA).",
              "Normal": "",
              "Especial": ""
           },
@@ -3963,7 +3963,7 @@
              "Nome": "Protetor Eterno",
              "Descricao": "Você não pode cair. Alguém depende de você.",
              "Prerequisito": "minotauro, tendência Bondosa.",
-             "Benefício": "enquanto tiver pelo menos um aliado adjacente, você continua consciente quando fi ca com pontos de vida negativos, mas só pode realizar uma ação padrão ou movimento (não ambas) por rodada. Você ainda morre caso seus PV negativos cheguem à metade de seu total.",
+             "Beneficio": "enquanto tiver pelo menos um aliado adjacente, você continua consciente quando fi ca com pontos de vida negativos, mas só pode realizar uma ação padrão ou movimento (não ambas) por rodada. Você ainda morre caso seus PV negativos cheguem à metade de seu total.",
              "Normal": "um personagem com PV negativos cai inconsciente.",
              "Especial": ""
           },
@@ -3971,7 +3971,7 @@
              "Nome": "Quatro Braços",
              "Descricao": "Você tem um par de braços extra.",
              "Prerequisito": "lefou, nagah, orc ou trog.",
-             "Benefício": "você tem dois braços extras. Ambos são considerados mãos inábeis, e sofrem os redutores normais para ataques extras.",
+             "Beneficio": "você tem dois braços extras. Ambos são considerados mãos inábeis, e sofrem os redutores normais para ataques extras.",
              "Normal": "",
              "Especial": "este talento pode ser adquirido apenas no 1º nível."
           },
@@ -3979,7 +3979,7 @@
              "Nome": "Queda Leve",
              "Descricao": "Suas asas suavizam sua queda.",
              "Prerequisito": "asas",
-             "Benefício": "você é considerado sempre sob efeito da magia queda suave, mesmo que esteja inconsciente ou morrendo — suas asas impedem a queda, devido a seu formato e reflexos involuntários.",
+             "Beneficio": "você é considerado sempre sob efeito da magia queda suave, mesmo que esteja inconsciente ou morrendo — suas asas impedem a queda, devido a seu formato e reflexos involuntários.",
              "Normal": "",
              "Especial": ""
           },
@@ -3987,7 +3987,7 @@
              "Nome": "Resistencia Alternativa",
              "Descricao": "Você ignora um tipo de dano diferente do normal.",
              "Prerequisito": "finntroll",
-             "Benefício": "escolha um tipo de dano de energia (eletricidade, frio ou sônico), exceto fogo ou ácido. Substitua “fogo” ou “ácido” pelo dano escolhido para determinar quais tipos de dano ignoram sua regeneração (causando dano normal).",
+             "Beneficio": "escolha um tipo de dano de energia (eletricidade, frio ou sônico), exceto fogo ou ácido. Substitua “fogo” ou “ácido” pelo dano escolhido para determinar quais tipos de dano ignoram sua regeneração (causando dano normal).",
              "Normal": "finntroll sofrem dano normal por fogo e ácido.",
              "Especial": ""
           },
@@ -3995,7 +3995,7 @@
              "Nome": "Resistencia Aprimorada",
              "Descricao": "Você é ainda mais resistente a certo elemento.",
              "Prerequisito": "qareen",
-             "Benefício": "para meio-gênios da água, ar, fogo e trevas, todas as suas resistências a energia aumentam para 10. Para meio-gênios da terra, sua redução de dano aumenta para 5/ cortante ou perfurante. Para meio-gênios da luz, sua resistência a eletricidade aumenta para 20.",
+             "Beneficio": "para meio-gênios da água, ar, fogo e trevas, todas as suas resistências a energia aumentam para 10. Para meio-gênios da terra, sua redução de dano aumenta para 5/ cortante ou perfurante. Para meio-gênios da luz, sua resistência a eletricidade aumenta para 20.",
              "Normal": "meio-gênios da água, ar, fogo e trevas têm resistências 5. Meio-gênios da terra têm redução de dano 3/cortante ou perfurante. Meio-gênios da luz têm resistência a eletricidade 10.",
              "Especial": ""
           },
@@ -4003,7 +4003,7 @@
              "Nome": "Salvador",
              "Descricao": "Minotauros Malignos escravizam. Os Bondosos protegem.",
              "Prerequisito": "minotauro, tendência Bondosa.",
-             "Benefício": "como uma reação, uma vez por rodada, você pode impedir que um aliado adjacente receba um ataque — em vez disso, o ataque é feito contra você. O ataque ainda deve vencer sua CA para causar dano.",
+             "Beneficio": "como uma reação, uma vez por rodada, você pode impedir que um aliado adjacente receba um ataque — em vez disso, o ataque é feito contra você. O ataque ainda deve vencer sua CA para causar dano.",
              "Normal": "",
              "Especial": ""
           },
@@ -4011,7 +4011,7 @@
              "Nome": "Sangue Mágico",
              "Descricao": "Literalmente, você pode usar seu sangue para conjurar magia.",
              "Prerequisito": "qareen ou sprite, Con 15, habilidade de lançar magias sem preparação.",
-             "Benefício": "em situações extremas, se esgotar seus pontos de magia, você pode aceitar dano de Constituição e usar esse dano como PM. Por exemplo, você pode sofrer 3 pontos de dano de Constituição para lançar uma bola de fogo. Você se recupera desse dano normalmente.",
+             "Beneficio": "em situações extremas, se esgotar seus pontos de magia, você pode aceitar dano de Constituição e usar esse dano como PM. Por exemplo, você pode sofrer 3 pontos de dano de Constituição para lançar uma bola de fogo. Você se recupera desse dano normalmente.",
              "Normal": "",
              "Especial": ""
           },
@@ -4019,7 +4019,7 @@
              "Nome": "Sem Medo",
              "Descricao": "Seu povo não tem medo. Nem juízo.",
              "Prerequisito": "raça halfling",
-             "Benefício": "você é imune a efeitos de medo.",
+             "Beneficio": "você é imune a efeitos de medo.",
              "Normal": "",
              "Especial": ""
           },
@@ -4027,7 +4027,7 @@
              "Nome": "Telepatia Aquática",
              "Descricao": "Você comanda as criaturas marinhas.",
              "Prerequisito": "elfo-do-mar, habilidade de empatia selvagem.",
-             "Benefício": "você pode lançar enfeitiçar animal livremente, mas apenas para animais aquáticos (normalmente qualquer criatura do tipo animal que tenha deslocamento de natação).",
+             "Beneficio": "você pode lançar enfeitiçar animal livremente, mas apenas para animais aquáticos (normalmente qualquer criatura do tipo animal que tenha deslocamento de natação).",
              "Normal": "",
              "Especial": ""
           },
@@ -4035,7 +4035,7 @@
              "Nome": "Toque de Fogo",
              "Descricao": "Como a água-viva, seu toque queima.",
              "Prerequisito": "raça elfo-do-mar, Agarrar Aprimorado.",
-             "Benefício": "quando consegue realizar uma manobra de agarrar, além de prender a vítima, você injeta pela pele um veneno paralisante que causa dor intensa. A vítima deve fazer um teste de Fortitude (CD 10 + metade do seu nível + modifi cador de Constituição). Se falhar, fi ca enjoada (pode executar apenas uma ação padrão ou de movimento por rodada, não ambas) durante 1d4 rodadas.",
+             "Beneficio": "quando consegue realizar uma manobra de agarrar, além de prender a vítima, você injeta pela pele um veneno paralisante que causa dor intensa. A vítima deve fazer um teste de Fortitude (CD 10 + metade do seu nível + modifi cador de Constituição). Se falhar, fi ca enjoada (pode executar apenas uma ação padrão ou de movimento por rodada, não ambas) durante 1d4 rodadas.",
              "Normal": "",
              "Especial": ""
           },
@@ -4043,7 +4043,7 @@
              "Nome": "Tradição Perdida",
              "Descricao": "Membros de sua raça sabem conjurar magias de formas diferentes das tradições conhecidas, empregando outros atributos para abastecer e aprender magias.",
              "Prerequisito": "não humano, classe conjuradora.",
-             "Benefício": "escolha qualquer habilidade básica (Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma). Sua quantidade de pontos de magia e magias conhecidas são calculadas usando essa habilidade, em vez daquela normalmente exigida pela classe. Testes de resistência contra suas magias, e quaisquer outros cálculos, ainda usam a habilidade-chave original da classe.",
+             "Beneficio": "escolha qualquer habilidade básica (Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma). Sua quantidade de pontos de magia e magias conhecidas são calculadas usando essa habilidade, em vez daquela normalmente exigida pela classe. Testes de resistência contra suas magias, e quaisquer outros cálculos, ainda usam a habilidade-chave original da classe.",
              "Normal": "",
              "Especial": "Especial: este talento pode ser adquirido apenas no 1º nível."
           },
@@ -4051,7 +4051,7 @@
              "Nome": "Tradição Perdida Aprimorada",
              "Descricao": "Você dominou completamente sua tradição perdida.",
              "Prerequisito": "não humano, classe conjuradora, Tradição Perdida.",
-             "Benefício": "sua habilidade básica escolhida afeta também a dificuldade de testes para resistir às suas magias, e quaisquer outros cálculos ligados a uma habilidade.",
+             "Beneficio": "sua habilidade básica escolhida afeta também a dificuldade de testes para resistir às suas magias, e quaisquer outros cálculos ligados a uma habilidade.",
              "Normal": "",
              "Especial": ""
           },
@@ -4059,7 +4059,7 @@
              "Nome": "Veneno Aprimorado",
              "Descricao": "Seu veneno é mais poderoso.",
              "Prerequisito": "medusa, Con 13.",
-             "Benefício": "o dano do veneno de suas serpentes aumenta para 2d4 For (1d4 For).",
+             "Beneficio": "o dano do veneno de suas serpentes aumenta para 2d4 For (1d4 For).",
              "Normal": "o dano do veneno de uma medusa é 1d4 For.",
              "Especial": ""
           },
@@ -4067,7 +4067,7 @@
              "Nome": "Vigilancia Élfica",
              "Descricao": "Você tem sentidos ainda mais aguçados que os demais elfos.",
              "Prerequisito": "elfo, elfo-do-céu ou meio-elfo.",
-             "Benefício": "na primeira rodada de combate, você tem direito a uma ação de movimento adicional.",
+             "Beneficio": "na primeira rodada de combate, você tem direito a uma ação de movimento adicional.",
              "Normal": "",
              "Especial": ""
           },
@@ -4075,7 +4075,7 @@
              "Nome": "Visão Térmica",
              "Descricao": "Você enxerga o calor",
              "Prerequisito": "visão no escuro.",
-             "Benefício": "além de enxergar no escuro, você pode distinguir extremos de temperatura — alaranjado brilhante para calor, preto para frio. Itens em temperatura ambiente aparecem em preto e branco, como na visão no escuro normal. Graças a isso você enxerga normalmente seres vivos invisíveis, e recebe +8 em testes de Percepção para enxergar seres vivos no escuro. Não se aplica a mortos-vivos, construtos, seres incorpóreos, seres vivos de sangue frio (nagahs, trogs...) e outras criaturas a critério do mestre.",
+             "Beneficio": "além de enxergar no escuro, você pode distinguir extremos de temperatura — alaranjado brilhante para calor, preto para frio. Itens em temperatura ambiente aparecem em preto e branco, como na visão no escuro normal. Graças a isso você enxerga normalmente seres vivos invisíveis, e recebe +8 em testes de Percepção para enxergar seres vivos no escuro. Não se aplica a mortos-vivos, construtos, seres incorpóreos, seres vivos de sangue frio (nagahs, trogs...) e outras criaturas a critério do mestre.",
              "Normal": "",
              "Especial": ""
           },
@@ -4083,7 +4083,7 @@
              "Nome": "Vitalidade das Fadas",
              "Descricao": "Sua energia vital não provém de simples saúde física, mas de sua convicção, atitude positiva e força de personalidade.",
              "Prerequisito": "qareen ou sprite, Car 13.",
-             "Benefício": "seus pontos de vida adicionais ganhos por nível usam seu modificador de Carisma.",
+             "Beneficio": "seus pontos de vida adicionais ganhos por nível usam seu modificador de Carisma.",
              "Normal": "pontos de vida adicionais ganhos por nível usam o modificador de Constituição.",
              "Especial": "este talento pode ser adquirido apenas no 1º nível."
           },
@@ -4091,7 +4091,7 @@
              "Nome": "Vitória da Coragem",
              "Descricao": "Você aprendeu a suprimir seu medo racial de altura.",
              "Prerequisito": "centauro ou minotauro, Sab 15.",
-             "Benefício": "seu redutor por medo de altura cai para –2. Além disso, se você adquire qualquer resistência ou imunidade a medo (como a aura de coragem dos paladinos), ela também se aplica a seu medo de altura.",
+             "Beneficio": "seu redutor por medo de altura cai para –2. Além disso, se você adquire qualquer resistência ou imunidade a medo (como a aura de coragem dos paladinos), ela também se aplica a seu medo de altura.",
              "Normal": "raças com medo de altura sofrem redutor de –4 em jogadas de ataque, testes de resistência e perícias ao subir qualquer altura superior a 3m. Resistências ou imunidades contra medo não funcionam com fobias raciais.",
              "Especial": ""
           },
@@ -4099,7 +4099,7 @@
              "Nome": "Voo Adicional",
              "Descricao": "Você pode voar mais.",
              "Prerequisito": "qareen, personagem de 5º nível.",
-             "Benefício": "você pode lançar a magia voo duas vezes adicionais por dia.",
+             "Beneficio": "você pode lançar a magia voo duas vezes adicionais por dia.",
              "Normal": "um meio-gênio pode lançar voo uma vez por dia.",
              "Especial": ""
           }]
@@ -4111,7 +4111,7 @@
              "Nome": "Raça das Aguas",
              "Descricao": "Nem todos os seres aquáticos respiram sob a água (golfi nhos e baleias respiram ar, e prendem o fôlego para mergulhar), mas todos certamente são bons nadadores e enxergam com pouca iluminação. Membros de qualquer raça podem ser aquáticos quando vivem em contato com grandes corpos de água, seja o Oceano, o Rio dos Deuses, o reino de Callistia ou até mesmo grandes lagos subterrâneos.",
              "Prerequisito": "",
-             "Benefício": "você recebe visão na penumbra e +4 em testes de Atletismo para nadar.",
+             "Beneficio": "você recebe visão na penumbra e +4 em testes de Atletismo para nadar.",
              "Normal": "",
              "Especial": "se você já pertence a uma raça com visão na penumbra, em vez disso recebe visão no escuro. Se já possui visão no escuro, seu alcance é duplicado."
           },
@@ -4119,7 +4119,7 @@
              "Nome": "Raça Avançada",
              "Descricao": "Criaturas avançadas são mais inteligentes que outros membros de sua raça. Esse avanço pode ocorrer em pequenas comunidades (que tenham recebido ensinamentos ou magias de uma entidade superior, por exemplo) ou indivíduos especiais, “superdotados”. No entanto, o aumento de intelecto vem acompanhado de menor vigor físico.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Inteligência e perícias baseadas em Inteligência, mas sofre redutor de –2 em testes de Fortitude.",
+             "Beneficio": "você recebe +2 em testes de Inteligência e perícias baseadas em Inteligência, mas sofre redutor de –2 em testes de Fortitude.",
              "Normal": "",
              "Especial": ""
           },
@@ -4127,7 +4127,7 @@
              "Nome": "Raça Carnívora",
              "Descricao": "Quase todos os humanoides são onívoros, capazes de digerir alimentos de origem animal ou vegetal. Uma criatura carnívora é sempre predadora, feral, incapaz de ingerir vegetais ou até mesmo carne cozida. Apenas os membros mais selvagens e insanos de uma raça adquirem esse comportamento, o que pode acontecer por razões variadas.",
              "Prerequisito": "",
-             "Benefício": "você recebe a habilidade faro, mas não pode alimentar-se de nada (incluindo rações para viagem) exceto carne crua.",
+             "Beneficio": "você recebe a habilidade faro, mas não pode alimentar-se de nada (incluindo rações para viagem) exceto carne crua.",
              "Normal": "",
              "Especial": ""
           },
@@ -4135,7 +4135,7 @@
              "Nome": "Raça Couraçada",
              "Descricao": "Quando os predadores são numerosos e ferozes, a melhor defesa muitas vezes é uma armadura natural, formada por couro grosso ou mesmo placas ósseas. Esta adaptação incomum pode surgir como resposta a ambientes hostis (como as Montanhas Sanguinárias) ou influências mágicas (como um mago disposto a criar soldados resistentes, ou um deus menor que deseja proteger seus devotos). Infelizmente, a blindagem também torna você mais lento.",
              "Prerequisito": "",
-             "Benefício": "você recebe CA+2, mas sofre redutor de –2 em testes de Reflexos.",
+             "Beneficio": "você recebe CA+2, mas sofre redutor de –2 em testes de Reflexos.",
              "Normal": "",
              "Especial": ""
           },
@@ -4143,7 +4143,7 @@
              "Nome": "Raça do Deserto",
              "Descricao": "Embora existam desertos gelados, este talento é específico para habitantes de desertos quentes e outras áreas de clima abrasador (como muitos pontos do reino de Sckharshantallas). Criaturas do deserto são resistentes ao calor e desidratação. Seres com esta tolerância são encontrados no Deserto da Perdição, mas também podem ocorrer pelo contato prolongado com seres fl amejantes (como dragões vermelhos).",
              "Prerequisito": "",
-             "Benefício": "você recebe +4 em testes de Fortitude contra calor e fogo, e resistência a calor 1 (cumulativa com outras).",
+             "Beneficio": "você recebe +4 em testes de Fortitude contra calor e fogo, e resistência a calor 1 (cumulativa com outras).",
              "Normal": "",
              "Especial": ""
           },
@@ -4151,7 +4151,7 @@
              "Nome": "Raça Domesticada",
              "Descricao": "Criaturas domesticadas talvez tenham sido criadas como escravos, ou pertencem a povos pacifi stas ou dizimados por tragédias. Estes seres têm muita disposição para fazer amizade, mas pouca determinação e agressividade. Quase todos os não minotauros nativos de Tapista têm este talento, assim como muitos elfos e halflings.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Carisma e perícias baseadas em Carisma (exceto Intimidação), mas sofre redutor de –2 em testes de Vontade.",
+             "Beneficio": "você recebe +2 em testes de Carisma e perícias baseadas em Carisma (exceto Intimidação), mas sofre redutor de –2 em testes de Vontade.",
              "Normal": "",
              "Especial": ""
           },
@@ -4159,7 +4159,7 @@
              "Nome": "Raça da Floresta",
              "Descricao": "Habitantes de fl orestas densas não podem contar apenas com a visão para localizar presas e ameaças, por isso desenvolvem uma audição aguçada e bons refl exos. Nativos dos reinos de Tollon, Pondsmânia e Sambúrdia muitas vezes apresentam este talento.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Iniciativa e testes de Percepção para ouvir.",
+             "Beneficio": "você recebe +2 em testes de Iniciativa e testes de Percepção para ouvir.",
              "Normal": "",
              "Especial": ""
           },
@@ -4167,7 +4167,7 @@
              "Nome": "Raça do Gelo",
              "Descricao": "Criaturas árticas são muito resistentes ao frio. Este talento é encontrado em nativos das Montanhas Uivantes, onde existem versões glaciais de quase todas as raças — mas habitantes de masmorras geladas dominadas por dragões brancos também podem exibir estas características.",
              "Prerequisito": "",
-             "Benefício": "você recebe +4 em testes de Fortitude contra frio e gelo, e resistência a frio 1 (cumulativa com outras).",
+             "Beneficio": "você recebe +4 em testes de Fortitude contra frio e gelo, e resistência a frio 1 (cumulativa com outras).",
              "Normal": "",
              "Especial": ""
           },
@@ -4175,7 +4175,7 @@
              "Nome": "Raça das Montanhas",
              "Descricao": "Habitantes das montanhas e escarpas são habilidosos em escaladas, e geralmente têm bom senso de equilíbrio. Raças de terrenos baixos (como centauros e minotauros) ou subterrâneas (como anões e fi nntroll) podem ter esta variação, independente de suas restrições.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Atletismo para escalar, e em testes de Acrobacia (todos, exceto arte da fuga).",
+             "Beneficio": "você recebe +2 em testes de Atletismo para escalar, e em testes de Acrobacia (todos, exceto arte da fuga).",
              "Normal": "",
              "Especial": ""
           },
@@ -4183,7 +4183,7 @@
              "Nome": "Raça Noturna",
              "Descricao": "Criaturas noturnas confi am em sua visão sensível e audição aguçada, mas não chegam a ser tão intolerantes à luz forte quanto criaturas subterrâneas (veja o talento Raça Subterrânea, adiante).",
              "Prerequisito": "",
-             "Benefício": "você recebe visão na penumbra e +4 em testes de Percepção para ouvir.",
+             "Beneficio": "você recebe visão na penumbra e +4 em testes de Percepção para ouvir.",
              "Normal": "",
              "Especial": "se você já pertence a uma raça com visão na penumbra, em vez disso recebe visão no escuro. Se já possui visão no escuro, seu alcance é duplicado."
           },
@@ -4191,7 +4191,7 @@
              "Nome": "Raça das Nuvens",
              "Descricao": "Habituado a espaços abertos — seja devido à habilidade de voar, seja por viver em ambientes elevados —, você tem visão aguçada e bom desempenho nas alturas. Habitantes da cidade voadora de Vectora não raras vezes apresentam este talento.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Percepção para observar e deslocamento +3m quando voa por meios próprios (asas, magias ou veículos).",
+             "Beneficio": "você recebe +2 em testes de Percepção para observar e deslocamento +3m quando voa por meios próprios (asas, magias ou veículos).",
              "Normal": "",
              "Especial": ""
           },
@@ -4199,7 +4199,7 @@
              "Nome": "Raça do Pantano",
              "Descricao": "Habitantes de pântanos, charcos e lamaçais são bons nadadores. São também resistentes às muitas doenças causadas por bichos que infestam o lugar. Mas, ao contrário das criaturas aquáticas(veja o talento Raça das Águas), em geral são anfíbios e passam boa parte do tempo em terra, ou escondidos em águas rasas.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Furtividade, testes de Atletismo para nadar e testes de Fortitude contra doenças e venenos.",
+             "Beneficio": "você recebe +2 em testes de Furtividade, testes de Atletismo para nadar e testes de Fortitude contra doenças e venenos.",
              "Normal": "",
              "Especial": ""
           },
@@ -4207,7 +4207,7 @@
              "Nome": "Raça da Planície",
              "Descricao": "Criaturas das planícies estão acostumadas a terrenos amplos e vegetação rasteira, onde ficar escondido e correr muito são habilidades necessárias para predadores e presas. Muitos povos da Grande Savana têm este talento, não sendo incomum encontrá-lo também em habitantes do Reinado.",
              "Prerequisito": "",
-             "Benefício": "você recebe +2 em testes de Furtividade e deslocamento +3m.",
+             "Beneficio": "você recebe +2 em testes de Furtividade e deslocamento +3m.",
              "Normal": "",
              "Especial": ""
           },
@@ -4215,7 +4215,7 @@
              "Nome": "Raça Subterranea",
              "Descricao": "Habitantes de túneis e cavernas contam com sentidos diferentes da visão, mas também são muito sensíveis à luz do dia. Apenas criaturas que passam a vida inteira sob a terra (ou foram alteradas para viver assim) apresentam este talento.",
              "Prerequisito": "",
-             "Benefício": "você recebe percepção às cegas 9m. No entanto, é considerado ofuscado (redutor de –1 em jogadas de ataque) quando exposto à luz do sol ou similar, como a magia luz do dia. Esta penalidade é cumulativa com quaisquer outras já possuídas pela raça (como os fi nntroll).",
+             "Beneficio": "você recebe percepção às cegas 9m. No entanto, é considerado ofuscado (redutor de –1 em jogadas de ataque) quando exposto à luz do sol ou similar, como a magia luz do dia. Esta penalidade é cumulativa com quaisquer outras já possuídas pela raça (como os fi nntroll).",
              "Normal": "",
              "Especial": ""
           }]
@@ -4227,7 +4227,7 @@
              "Nome": "Herança do Búfalo",
              "Descricao": "O búfalo é seu ancestral. Você tem pele negra e pequenos chifres vestigiais.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Força +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para atropelar, derrubar e empurrar. • +4 em jogadas de ataque (em vez de +2) quando faz investidas. • +4 em testes de Intimidação. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de chifres (1d6). Você tem chifres maiores e pode executar um ataque adicional por rodada com os chifres, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
+             "Beneficio": "você recebe um bônus permanente de Força +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para atropelar, derrubar e empurrar. • +4 em jogadas de ataque (em vez de +2) quando faz investidas. • +4 em testes de Intimidação. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de chifres (1d6). Você tem chifres maiores e pode executar um ataque adicional por rodada com os chifres, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
              "Normal": "",
              "Especial": ""
           },
@@ -4235,7 +4235,7 @@
              "Nome": "Herança do Coelho",
              "Descricao": "O coelho é seu ancestral. Você tem longas orelhas de coelho.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Destreza +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em testes de Percepção. • +4 em testes de Iniciativa. • +4 em testes de Intuição. • Deslocamento +3m. • Visão na Penumbra. Você ignora camufl agem (mas não camuflagem total) por escuridão.",
+             "Beneficio": "você recebe um bônus permanente de Destreza +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em testes de Percepção. • +4 em testes de Iniciativa. • +4 em testes de Intuição. • Deslocamento +3m. • Visão na Penumbra. Você ignora camufl agem (mas não camuflagem total) por escuridão.",
              "Normal": "",
              "Especial": ""
           },
@@ -4243,7 +4243,7 @@
              "Nome": "Herança da Coruja",
              "Descricao": "A coruja é sua ancestral. Você tem olhos grandes e redondos, e penas em vez de cabelos.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Sabedoria +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • +4 em testes de Furtividade. • Visão no Escuro 18m. Você ignora camufl agem (incluindo camuflagem total) por escuridão. • Ataque natural de garras (1d4). Você pode executar um ataque adicional por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
+             "Beneficio": "você recebe um bônus permanente de Sabedoria +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • +4 em testes de Furtividade. • Visão no Escuro 18m. Você ignora camufl agem (incluindo camuflagem total) por escuridão. • Ataque natural de garras (1d4). Você pode executar um ataque adicional por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
              "Normal": "",
              "Especial": ""
           },
@@ -4251,7 +4251,7 @@
              "Nome": "Herança do Crocodilo",
              "Descricao": "O crocodilo é seu ancestral. Você tem pele verde, com escamas nos ombros, costas, fronte e outras partes do corpo. Apenas mulheres têm cabelo.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Constituição +2. Além disso, escolha duas habilidades entre as seguintes: • Classe de armadura +1. • +2 em jogadas de ataque para derrubar. • +4 em testes de Furtividade. • Deslocamento de natação 6m. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
+             "Beneficio": "você recebe um bônus permanente de Constituição +2. Além disso, escolha duas habilidades entre as seguintes: • Classe de armadura +1. • +2 em jogadas de ataque para derrubar. • +4 em testes de Furtividade. • Deslocamento de natação 6m. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
              "Normal": "",
              "Especial": ""
           },
@@ -4259,7 +4259,7 @@
              "Nome": "Herança do Gato",
              "Descricao": "O gato selvagem é seu ancestral. Você tem dentes caninos salientes, orelhas e cauda de gato.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Carisma +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • +4 em testes de Acrobacia. • +4 em testes de Atletismo. • +4 em testes de Furtividade. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão. • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
+             "Beneficio": "você recebe um bônus permanente de Carisma +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • +4 em testes de Acrobacia. • +4 em testes de Atletismo. • +4 em testes de Furtividade. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão. • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
              "Normal": "",
              "Especial": ""
           },
@@ -4267,7 +4267,7 @@
              "Nome": "Herança da Hiena",
              "Descricao": "A hiena é sua ancestral. Você tem grandes orelhas e manchas negras sobre a pele.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Sabedoria +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em jogadas de ataque (em vez de +2) quando está fl anqueando. • +4 em testes de Enganação para fi ntar. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
+             "Beneficio": "você recebe um bônus permanente de Sabedoria +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em jogadas de ataque (em vez de +2) quando está fl anqueando. • +4 em testes de Enganação para fi ntar. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
              "Normal": "",
              "Especial": ""
           },
@@ -4275,7 +4275,7 @@
              "Nome": "Herança do Leão",
              "Descricao": "O leão é seu ancestral. Você tem dentes caninos salientes, unhas negras, olhos amarelos e juba.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Força +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • +4 em testes de Atletismo. • +4 em testes de Intimidação. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este). • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
+             "Beneficio": "você recebe um bônus permanente de Força +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • +4 em testes de Atletismo. • +4 em testes de Intimidação. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este). • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
              "Normal": "",
              "Especial": ""
           },
@@ -4283,7 +4283,7 @@
              "Nome": "Herança do Lobo",
              "Descricao": "O lobo é seu ancestral. Você tem dentes caninos salientes, orelhas e cauda de lobo.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Carisma +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em jogadas de ataque (em vez de +2) quando está fl anqueando. • +4 em testes de Enganação para fi ntar. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
+             "Beneficio": "você recebe um bônus permanente de Carisma +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em jogadas de ataque (em vez de +2) quando está fl anqueando. • +4 em testes de Enganação para fi ntar. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este).",
              "Normal": "",
              "Especial": ""
           },
@@ -4291,7 +4291,7 @@
              "Nome": "Herança do Morcego",
              "Descricao": "O morcego é seu ancestral. Você tem pele negra e grandes orelhas de morcego.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Destreza +2. Além disso, escolha duas habilidades entre as seguintes: • Visão no Escuro 18m. Você ignora camuflagem (incluindo camuflagem total) por escuridão. • +4 em testes de Percepção. • +4 em testes de Furtividade. • +4 em testes de Intimidação. • Patágio. Você tem uma membrana ligando seus membros. Pode planar como se estivesse sob efeito de queda suave, e percorrer uma distância igual ao dobro da altura que estiver caindo, mas apenas se não usar nenhuma armadura.",
+             "Beneficio": "você recebe um bônus permanente de Destreza +2. Além disso, escolha duas habilidades entre as seguintes: • Visão no Escuro 18m. Você ignora camuflagem (incluindo camuflagem total) por escuridão. • +4 em testes de Percepção. • +4 em testes de Furtividade. • +4 em testes de Intimidação. • Patágio. Você tem uma membrana ligando seus membros. Pode planar como se estivesse sob efeito de queda suave, e percorrer uma distância igual ao dobro da altura que estiver caindo, mas apenas se não usar nenhuma armadura.",
              "Normal": "",
              "Especial": ""
           },
@@ -4299,7 +4299,7 @@
              "Nome": "Herança da Raposa",
              "Descricao": "A raposa é sua ancestral. Você tem grandes orelhas e a cauda densamente peluda de uma raposa.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Inteligência +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em testes de Acrobacia. • +4 em testes de Furtividade. • +4 em testes de Iniciativa. • Deslocamento +3m. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear.",
+             "Beneficio": "você recebe um bônus permanente de Inteligência +2. Além disso, escolha duas habilidades entre as seguintes: • +4 em testes de Acrobacia. • +4 em testes de Furtividade. • +4 em testes de Iniciativa. • Deslocamento +3m. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear.",
              "Normal": "",
              "Especial": ""
           },
@@ -4307,7 +4307,7 @@
              "Nome": "Herança da Serpente",
              "Descricao": "A serpente é sua ancestral. Você tem pele de cores brilhantes (verde, vermelho, branco e/ou preto), com padrões de serpente, e olhos com pupilas verticais.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Inteligência +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • Deslocamento de escalada 6m. • +4 em testes de Furtividade. • +4 em testes de Iniciativa. • +4 em testes de Intimidação. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão.",
+             "Beneficio": "você recebe um bônus permanente de Inteligência +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • Margem de ameaça +2 contra alvos desprevenidos (este bônus não é dobrado por qualquer razão). • Deslocamento de escalada 6m. • +4 em testes de Furtividade. • +4 em testes de Iniciativa. • +4 em testes de Intimidação. • Visão na Penumbra. Você ignora camuflagem (mas não camuflagem total) por escuridão.",
              "Normal": "",
              "Especial": ""
           },
@@ -4315,7 +4315,7 @@
              "Nome": "Herança do Urso",
              "Descricao": "O urso é seu ancestral. Você tem pelagem marrom, orelhas redondas e um focinho curto.",
              "Prerequisito": "",
-             "Benefício": "você recebe um bônus permanente de Constituição +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • +4 em testes de Intimidação. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este). • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
+             "Beneficio": "você recebe um bônus permanente de Constituição +2. Além disso, escolha duas habilidades entre as seguintes: • +2 em jogadas de ataque para agarrar. • +4 em testes de Intimidação. • Faro. Você percebe criaturas a até 9m e recebe +4 em testes de Sobrevivência para rastrear. • Ataque natural de mordida (1d6). Você pode executar um ataque adicional por rodada com a mordida, mas provoca penalidade de –4 em todos os ataques (incluindo este). • Ataque natural de garras (1d4). Você pode executar dois ataques adicionais por rodada com as garras, mas provoca penalidade de –4 em todos os ataques (incluindo estes).",
              "Normal": "",
              "Especial": ""
           },
@@ -4330,7 +4330,7 @@
              "Nome": "Nome1",
              "Descricao": "Descricao1",
              "Prerequisito": "Prerequisito1",
-             "Benefício": "Benefício1",
+             "Beneficio": "Benefício1",
              "Normal": "Normal1",
              "Especial": "Especial1"
            },
@@ -4338,7 +4338,7 @@
              "Nome": "Nome2",
              "Descricao": "Descricao2",
              "Prerequisito": "Prerequisito2",
-             "Benefício": "Benefício2",
+             "Beneficio": "Benefício2",
              "Normal": "Normal2",
              "Especial": "Especial2"
            }
@@ -4351,14 +4351,14 @@
              "Nome": "Nome1",
              "Descricao": "Descricao1",
              "Prerequisito": "Prerequisito1",
-             "Benefício": "Benefício1",
+             "Beneficio": "Benefício1",
              "Normal": "Normal1",
              "Especial": "Especial1"
            },{
             "Nome": "Nome2",
             "Descricao": "Descricao2",
             "Prerequisito": "Prerequisito2",
-            "Benefício": "Benefício2",
+            "Beneficio": "Benefício2",
             "Normal": "Normal2",
             "Especial": "Especial2"
           }

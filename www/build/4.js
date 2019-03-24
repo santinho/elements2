@@ -1,6 +1,6 @@
 webpackJsonp([4],{
 
-/***/ 1066:
+/***/ 1067:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StickyListHeaderLayout3Module", function() { return StickyListHeaderLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(1183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sticky_list_header_layout_3__ = __webpack_require__(1184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(1145);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -367,7 +367,7 @@ ScrollAdapter = (function () {
 
 /***/ }),
 
-/***/ 1183:
+/***/ 1184:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -414,7 +414,7 @@ var StickyListHeaderLayout3 = (function () {
     ], StickyListHeaderLayout3.prototype, "content", void 0);
     StickyListHeaderLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'sticky-list-header-layout-3',template:/*ion-inline-start:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-3\sticky-list-header.html"*/'<!-- Theme Sticky List Header - Post -->\n\n<ion-content no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items">\n\n      <!--Text Header Top-->\n\n      <ion-list-header ion-affix [content]="content">\n\n        <ion-item transparent no-margin no-padding no-lines>\n\n          <h2 item-start no-margin text-uppercase>{{item.groupName}}</h2>\n\n            <div item-content>\n\n            <span item-end span-small>{{item.dateTime}}</span>\n\n          </div>\n\n        </ion-item>\n\n      </ion-list-header>\n\n      <!--Text Content List -->\n\n      <ion-card  *ngFor="let element of item.items" (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n        <ion-item>\n\n          <ion-avatar item-start border>\n\n            <img [src]="element.image" alt="{{element.title}}" />\n\n          </ion-avatar>\n\n          <h2 item-subtitle text-capitalize>{{element.name}}</h2>\n\n          <button item-end ion-button clear button-action-shit (click)="onEvent(\'onShare\', element, $event)">\n\n            <ion-icon name="{{element.shareIcon}}"></ion-icon>\n\n          </button>\n\n        </ion-item>\n\n        <ion-card-content>\n\n          <!--Content List Title -->\n\n          <h2 card-title margin-bottom>{{element.title}}</h2>\n\n          <!--Content List Subtitle -->\n\n          <p card-subtitle text-wrap>{{element.subtitle}}</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Gogs\Santinho\elements2\src\components\list-view\sticky-list-header\layout-3\sticky-list-header.html"*/
+            selector: 'sticky-list-header-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/'<!-- Theme Sticky List Header - Post -->\n\n<ion-content no-padding>\n\n  <div *ngIf="data != null">\n\n    <ion-list *ngFor="let item of data.items">\n\n      <!--Text Header Top-->\n\n      <ion-list-header ion-affix [content]="content">\n\n        <ion-item transparent no-margin no-padding no-lines>\n\n          <h2 item-start no-margin text-uppercase>{{item.groupName}}</h2>\n\n            <div item-content>\n\n            <span item-end span-small>{{item.dateTime}}</span>\n\n          </div>\n\n        </ion-item>\n\n      </ion-list-header>\n\n      <!--Text Content List -->\n\n      <ion-card  *ngFor="let element of item.items" (click)="onEvent(\'onItemClick\', element.title, $event)">\n\n        <ion-item>\n\n          <ion-avatar item-start border>\n\n            <img [src]="element.image" alt="{{element.title}}" />\n\n          </ion-avatar>\n\n          <h2 item-subtitle text-capitalize>{{element.name}}</h2>\n\n          <button item-end ion-button clear button-action-shit (click)="onEvent(\'onShare\', element, $event)">\n\n            <ion-icon name="{{element.shareIcon}}"></ion-icon>\n\n          </button>\n\n        </ion-item>\n\n        <ion-card-content>\n\n          <!--Content List Title -->\n\n          <h2 card-title margin-bottom>{{element.title}}</h2>\n\n          <!--Content List Subtitle -->\n\n          <p card-subtitle text-wrap>{{element.subtitle}}</p>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/list-view/sticky-list-header/layout-3/sticky-list-header.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], StickyListHeaderLayout3);
