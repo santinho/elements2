@@ -27,7 +27,6 @@ export class ElementsMagiasPage {
     });
     this.list = this.af.list(this.node).valueChanges()
     this.listFiltered = this.af.list(this.node).valueChanges()
-    this.list.subscribe((l)=>{console.log(l)})
   }
 
   @Input() data: any;
@@ -39,21 +38,11 @@ export class ElementsMagiasPage {
   allItems:any;
 
   getItems(event: any):void {
-    console.log('tipoMagiasSelecionados',this.tipoMagiasSelecionados)
     if (!this.list) {
       this.list = this.listFiltered;
     }
     this.list.subscribe((listaBD:any[])=>{
       let listaBDFiltrada = [...listaBD];
-      console.log('listaBDFiltrada', listaBDFiltrada)
-      /*listaBDFiltrada = listaBDFiltrada.filter((tipoMagias)=>{
-        if(this.tipoMagiasSelecionados.findIndex(tipoMagias.Nome) >0){
-          return true;
-        }else{
-          return false;
-        }
-      });
-      console.log('listaBDFiltrada2', listaBDFiltrada)*/
       listaBDFiltrada = listaBDFiltrada.filter((item) => {
         console.log('this.tipoMagiasSelecionados.indexOf(item.Nome)',this.tipoMagiasSelecionados.indexOf(item.Nome))
         if(!(this.tipoMagiasSelecionados.indexOf(item.Nome) > -1)){
@@ -79,7 +68,6 @@ export class ElementsMagiasPage {
       this.listFiltered = Observable.of(listaBDFiltrada);
 
     });
-     
   }
 
   toggleGroup(group: any) {

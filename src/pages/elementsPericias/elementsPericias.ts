@@ -19,8 +19,8 @@ export class ElementsPericiasPage {
   node: string = 'Tormenta/Talentos'
   list: Observable<any[]>;
   listFiltered: Observable<any[]>;
-  tipoPericias: string[]=[]
-  tipoPericiasSelecionados: string[] = [];
+  tipoPericias: string[]=['Ambientais','Combate','Destino','Magia','Moreau','Perícia','Poderes Concedidos','Raciais','Tormenta'];
+  tipoPericiasSelecionados: string[] = ['Ambientais','Combate','Destino','Magia','Moreau','Perícia','Poderes Concedidos','Raciais','Tormenta'];
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     console.log('pericias');
@@ -38,22 +38,39 @@ export class ElementsPericiasPage {
   allItems:any;
 
   getItems(event: any):void {
-    console.log('getItems', this.searchTerm)
     if (!this.list) {
       this.list = this.listFiltered;
     }
     this.list.subscribe((listaBD:any[])=>{
-      console.log('lista', listaBD)
-      let listaBDFiltrada = listaBD.filter((item) => {
-        let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
-        //let classeOK:boolean = this.tipoPericiasSelecionados.indexOf(item['Tipo']) > -1;
-
-        return nomeOK //&& classeOK
+      let listaBDFiltrada = [...listaBD];
+      console.log('listaBDFiltrada', listaBDFiltrada);
+      listaBDFiltrada = listaBDFiltrada.filter((item) => {
+        console.log('this.tipoMagiasSelecionados.indexOf(item.Nome)',this.tipoPericiasSelecionados.indexOf(item.Nome))
+        if(!(this.tipoPericiasSelecionados.indexOf(item.Nome) > -1)){
+          return false;
+        }
+        /*let possuiElementos:boolean = false;
+        item.Lista.forEach((nivel)=>{
+          if(nivel){
+            let listaNivelFiltrado = nivel.Lista.filter((talento) =>{
+              let nomeOK:boolean = talento['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
+              console.log('nomeOk', nomeOK)
+              return nomeOK;
+            });
+            nivel.Lista = listaNivelFiltrado
+            if(listaNivelFiltrado.length > 0){
+              possuiElementos = true;
+            }
+            console.log('nivel',listaNivelFiltrado);
+          }
+        })
+        return possuiElementos;*/
+        return true;
       });
+      console.log('listaBDFiltrada2', listaBDFiltrada)
       this.listFiltered = Observable.of(listaBDFiltrada);
 
     });
-     
   }
 
   toggleGroup(group: any) {
