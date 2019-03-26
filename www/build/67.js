@@ -1,1 +1,114 @@
-webpackJsonp([67],{760:function(l,n,u){"use strict";function t(l){return c._22(0,[(l()(),c._0(0,0,null,null,19,"ion-item",[["class","item item-block"],["margin-top",""],["no-lines",""]],null,[[null,"tap"]],function(l,n,u){var t=!0;if("tap"===n){t=!1!==l.component.onEvent("onButton",l.context.$implicit)&&t}return t},p.b,p.a)),c.Z(1,1097728,null,3,h.a,[g.a,x.a,c.j,c.A,[2,Z.a]],null,null),c._18(335544320,1,{contentLabel:0}),c._18(603979776,2,{_buttons:1}),c._18(603979776,3,{_icons:1}),c.Z(5,16384,null,0,y.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c._0(7,0,null,0,3,"ion-icon",[["icon-small",""],["item-start",""],["no-adding",""],["no-margina",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Z(8,147456,[[3,4]],0,j.a,[x.a,c.j,c.A],null,null),(l()(),c._20(-1,null,["\n            "])),(l()(),c._0(10,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c._0(12,0,null,1,2,"ion-label",[["item-title",""]],null,null,null,null,null)),c.Z(13,16384,[[1,4]],0,A.a,[x.a,c.j,c.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),c._20(14,null,["",""])),(l()(),c._20(-1,2,["\n          "])),(l()(),c._0(16,0,null,4,2,"ion-checkbox",[["item-end",""]],[[2,"checkbox-disabled",null]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==c._14(l,18)._click(u)&&t}return t},$.b,$.a)),c._17(5120,null,w.f,function(l){return[l]},[F.a]),c.Z(18,1228800,null,0,F.a,[x.a,g.a,[2,h.a],c.j,c.A],{checked:[0,"checked"]},null),(l()(),c._20(-1,2,["\n        "]))],function(l,n){l(n,18,0,n.context.$implicit.favorite)},function(l,n){l(n,7,0,c._14(n,8)._hidden);l(n,10,0,c._3(1,"icon ",n.context.$implicit.icon,""));l(n,14,0,n.context.$implicit.title);l(n,16,0,c._14(n,18)._disabled)})}function a(l){return c._22(0,[(l()(),c._0(0,0,null,null,17,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),c.Z(1,16384,null,0,I.a,[],null,null),(l()(),c._20(-1,null,["\n  "])),(l()(),c._0(3,0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),c.Z(4,16384,null,0,J.a,[],null,null),(l()(),c._20(-1,null,["\n    "])),(l()(),c._0(6,0,null,null,9,"ion-col",[["class","col"],["col-12",""],["no-padding",""]],null,null,null,null,null)),c.Z(7,16384,null,0,O.a,[],null,null),(l()(),c._20(-1,null,["\n      "])),(l()(),c._0(9,0,null,null,5,"ion-list",[["margin",""]],null,null,null,null,null)),c.Z(10,16384,null,0,B.a,[x.a,c.j,c.A,E.a,G.l,L.a],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c.V(16777216,null,null,1,null,t)),c.Z(13,802816,null,0,M.i,[c.J,c.G,c.p],{ngForOf:[0,"ngForOf"]},null),(l()(),c._20(-1,null,["\n      "])),(l()(),c._20(-1,null,["\n    "])),(l()(),c._20(-1,null,["\n  "])),(l()(),c._20(-1,null,["\n"]))],function(l,n){l(n,13,0,n.component.data)},null)}function i(l){return c._22(0,[(l()(),c._20(-1,null,["\n"])),(l()(),c.V(16777216,null,null,1,null,a)),c.Z(2,16384,null,0,M.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n"]))],function(l,n){l(n,2,0,null!=n.component.data)},null)}Object.defineProperty(n,"__esModule",{value:!0});var c=u(2),e=(u(0),u(86),function(){return function(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}}()),o=function(){return function(){}}(),_=u(412),r=u(413),s=u(414),d=u(415),f=u(416),b=u(417),m=u(418),v=u(419),k=u(420),p=u(205),h=u(28),g=u(24),x=u(4),Z=u(62),y=u(87),j=u(60),A=u(67),$=u(870),w=u(31),F=u(217),I=u(206),J=u(207),O=u(208),B=u(66),E=u(7),G=u(12),L=u(15),M=u(27),N=c.Y({encapsulation:2,styles:[],data:{}}),V=c.W("check-box-layout-3",e,function(l){return c._22(0,[(l()(),c._0(0,0,null,null,1,"check-box-layout-3",[],null,null,null,i,N)),c.Z(1,49152,null,0,e,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),Y=u(204),C=u(61);u.d(n,"CheckBoxLayout3ModuleNgFactory",function(){return P});var P=c.X(o,[],function(l){return c._11([c._12(512,c.i,c.T,[[8,[_.a,r.a,s.a,d.a,f.a,b.a,m.a,v.a,k.a,V]],[3,c.i],c.s]),c._12(4608,M.l,M.k,[c.r,[2,M.t]]),c._12(4608,w.n,w.n,[]),c._12(4608,w.c,w.c,[]),c._12(512,M.c,M.c,[]),c._12(512,w.m,w.m,[]),c._12(512,w.d,w.d,[]),c._12(512,w.k,w.k,[]),c._12(512,Y.a,Y.a,[]),c._12(512,Y.b,Y.b,[]),c._12(512,o,o,[]),c._12(256,C.a,e,[])])})},870:function(l,n,u){"use strict";function t(l){return a._22(0,[(l()(),a._0(0,0,null,null,1,"div",[["class","checkbox-icon"]],[[2,"checkbox-checked",null]],null,null,null,null)),(l()(),a._0(1,0,null,null,0,"div",[["class","checkbox-inner"]],null,null,null,null,null)),(l()(),a._0(2,0,null,null,2,"button",[["class","item-cover"],["ion-button","item-cover"],["role","checkbox"],["type","button"]],[[8,"id",0],[1,"aria-checked",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,i.b,i.a)),a.Z(3,1097728,null,0,c.a,[[8,"item-cover"],e.a,a.j,a.A],null,null),(l()(),a._20(-1,0,[" "]))],null,function(l,n){var u=n.component;l(n,0,0,u._value);l(n,2,0,u.id,u._value,u._labelId,u._disabled)})}u.d(n,"a",function(){return o}),n.b=t;var a=u(2),i=u(65),c=u(35),e=u(4),o=(u(24),a.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([67],{
+
+/***/ 1055:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DragAndDropLayout2Module", function() { return DragAndDropLayout2Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__ = __webpack_require__(1172);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var DragAndDropLayout2Module = (function () {
+    function DragAndDropLayout2Module() {
+    }
+    DragAndDropLayout2Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__["a" /* DragAndDropLayout2 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__["a" /* DragAndDropLayout2 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__drag_and_drop_layout_2__["a" /* DragAndDropLayout2 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], DragAndDropLayout2Module);
+    return DragAndDropLayout2Module;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-2.module.js.map
+
+/***/ }),
+
+/***/ 1172:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DragAndDropLayout2; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var DragAndDropLayout2 = (function () {
+    function DragAndDropLayout2() {
+        var _this = this;
+        this.reorderItems = function (indexes) {
+            _this.data.items = Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* reorderArray */])(_this.data.items, indexes);
+        };
+    }
+    DragAndDropLayout2.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    DragAndDropLayout2.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout2.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], DragAndDropLayout2.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], DragAndDropLayout2.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], DragAndDropLayout2.prototype, "fabButton", void 0);
+    DragAndDropLayout2 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'drag-and-drop-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/list-view/drag-and-drop/layout-2/drag-and-drop.html"*/'<!-- Themes Products + CTA header -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <!--Content-->\n\n    <ion-row no-padding>\n\n      <ion-col col-12>\n\n        <!-- Header Section -->\n\n        <ion-list-header no-lines no-margin padding background-size [ngStyle]="{\'background-image\': \'url(\' + data.headerImage + \')\'}">\n\n          <ion-item-divider transparent no-lines no-padding>\n\n            <!-- Header Title -->\n\n            <h1 header-title text-uppercase>{{data.title}}</h1>\n\n            <!-- Header Subtitle -->\n\n            <h2 header-subtitle>{{data.description}}</h2>\n\n            <!-- Content -->\n\n            <div item-content>\n\n              <span span-large>{{data.price}}</span>\n\n              <button ion-button default-button (click)="onEvent(\'onProceed\', data, $event)">\n\n              {{data.buttonText}}\n\n            </button>\n\n            </div>\n\n          </ion-item-divider>\n\n        </ion-list-header>\n\n        <!-- Item List Section -->\n\n        <ion-list no-margin reorder="true" (ionItemReorder)="reorderItems($event)">\n\n          <ion-item no-padding *ngFor="let item of data.items; let i = index;" (click)="onEvent(\'onItemClick\', item.title, $event)">\n\n            <ion-thumbnail item-start no-margin>\n\n              <img src="{{item.image}}">\n\n            </ion-thumbnail>\n\n            <h2 item-title>{{item.title}}</h2>\n\n            <div span-small>{{item.oldPrice}}</div>\n\n            <div span-medium>{{item.newPrice}}</div>\n\n            <!-- Products + CTA header Seller And Shipping-->\n\n            <h3 item-subtitle float-left>{{item.seller}} {{item.mark}}</h3>\n\n            <h3 item-subtitle float-right>Free shipping</h3>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n  <ion-icon name="add"></ion-icon>\n\n</button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/list-view/drag-and-drop/layout-2/drag-and-drop.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], DragAndDropLayout2);
+    return DragAndDropLayout2;
+}());
+
+//# sourceMappingURL=drag-and-drop-layout-2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=67.js.map

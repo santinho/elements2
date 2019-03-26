@@ -1,1 +1,120 @@
-webpackJsonp([55],{811:function(l,n,u){"use strict";function a(l){return c._22(0,[(l()(),c._0(0,0,null,null,21,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.onEvent("onItemClick",l.context.$implicit)&&a}return a},g.b,g.a)),c.Z(1,1097728,null,3,v.a,[k.a,I.a,c.j,c.A,[2,Z.a]],null,null),c._18(335544320,1,{contentLabel:0}),c._18(603979776,2,{_buttons:1}),c._18(603979776,3,{_icons:1}),c.Z(5,16384,null,0,y.a,[],null,null),(l()(),c._20(-1,2,["\n            "])),(l()(),c._0(7,0,null,0,4,"ion-icon",[["icon-medium",""],["item-left",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Z(8,147456,[[3,4]],0,C.a,[I.a,c.j,c.A],null,null),(l()(),c._20(-1,null,["\n              "])),(l()(),c._0(10,0,null,null,0,"i",[],[[8,"className",0]],null,null,null,null)),(l()(),c._20(-1,null,["\n            "])),(l()(),c._20(-1,2,["\n            "])),(l()(),c._0(13,0,null,2,1,"h2",[["item-title",""]],null,null,null,null,null)),(l()(),c._20(14,null,["",""])),(l()(),c._20(-1,2,["\n            "])),(l()(),c._0(16,0,null,2,1,"h3",[["item-subtitle",""]],null,null,null,null,null)),(l()(),c._20(17,null,["",""])),(l()(),c._20(-1,2,["\n            "])),(l()(),c._0(19,0,null,2,1,"span",[["span-medium",""]],null,null,null,null,null)),(l()(),c._20(20,null,["",""])),(l()(),c._20(-1,2,["\n          "]))],null,function(l,n){l(n,7,0,c._14(n,8)._hidden);l(n,10,0,c._3(1,"icon ",n.context.$implicit.icon,""));l(n,14,0,n.context.$implicit.title);l(n,17,0,n.context.$implicit.description);l(n,20,0,n.context.$implicit.price)})}function e(l){return c._22(0,[(l()(),c._0(0,0,null,null,32,"ion-row",[["class","row"]],null,null,null,null,null)),c.Z(1,16384,null,0,w.a,[],null,null),(l()(),c._20(-1,null,["\n      "])),(l()(),c._0(3,0,null,null,16,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),c.Z(4,16384,null,0,j.a,[],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c._0(6,0,null,null,12,"div",[["background-size",""],["container-hearder-image",""]],null,null,null,null,null)),c.Z(7,278528,null,0,A.m,[c.q,c.j,c.B],{ngStyle:[0,"ngStyle"]},null),c._16(8,{"background-image":0}),(l()(),c._20(-1,null,["\n          "])),(l()(),c._0(10,0,null,null,7,"div",[["class","search-bar-bcg"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            "])),(l()(),c._0(12,0,null,null,4,"ion-searchbar",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ngModelChange"],[null,"ionInput"]],function(l,n,u){var a=!0,e=l.component;if("ngModelChange"===n){a=!1!==(e.searchTerm=u)&&a}if("ionInput"===n){a=!1!==e.onEvent("onTextChange",u)&&a}return a},x.b,x.a)),c.Z(13,671744,null,0,T.i,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),c._17(2048,null,T.g,null,[T.i]),c.Z(15,16384,null,0,T.h,[T.g],null,null),c.Z(16,1294336,null,0,B.a,[I.a,S.a,c.j,c.A,[2,T.g]],null,{ionInput:"ionInput"}),(l()(),c._20(-1,null,["\n          "])),(l()(),c._20(-1,null,["\n        "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c._0(22,0,null,null,9,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),c.Z(23,16384,null,0,j.a,[],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c._0(25,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),c.Z(26,16384,null,0,F.a,[I.a,c.j,c.A,S.a,L.l,M.a],null,null),(l()(),c._20(-1,null,["\n          "])),(l()(),c.V(16777216,null,null,1,null,a)),c.Z(29,802816,null,0,A.i,[c.J,c.G,c.p],{ngForOf:[0,"ngForOf"]},null),(l()(),c._20(-1,null,["\n        "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c._20(-1,null,["\n    "]))],function(l,n){var u=n.component;l(n,7,0,l(n,8,0,"url("+u.data.headerImage+")"));l(n,13,0,u.searchTerm),l(n,16,0);l(n,29,0,u.data.items)},function(l,n){l(n,12,1,[c._14(n,15).ngClassUntouched,c._14(n,15).ngClassTouched,c._14(n,15).ngClassPristine,c._14(n,15).ngClassDirty,c._14(n,15).ngClassValid,c._14(n,15).ngClassInvalid,c._14(n,15).ngClassPending,c._14(n,16)._animated,c._14(n,16)._value,c._14(n,16)._isActive,c._14(n,16)._showCancelButton,c._14(n,16)._shouldAlignLeft,c._14(n,16)._isFocus])})}function t(l){return c._22(0,[(l()(),c._20(-1,null,["\n"])),(l()(),c._0(1,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$.b,$.a)),c.Z(2,4374528,null,0,O.a,[I.a,S.a,M.a,c.j,c.A,P.a,E.a,c.u,[2,J.a],[2,V.a]],null,null),(l()(),c._20(-1,1,["\n  "])),(l()(),c._0(4,0,null,1,5,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),c.Z(5,16384,null,0,G.a,[],null,null),(l()(),c._20(-1,null,["\n    "])),(l()(),c.V(16777216,null,null,1,null,e)),c.Z(8,16384,null,0,A.j,[c.J,c.G],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n  "])),(l()(),c._20(-1,1,["\n"])),(l()(),c._20(-1,null,["\n"]))],function(l,n){l(n,8,0,null!=n.component.data)},function(l,n){l(n,1,0,c._14(n,2).statusbarPadding,c._14(n,2)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var c=u(2),o=(u(0),u(86),function(){function l(){this.searchTerm=""}return l.prototype.getItems=function(l){var n=this;this.allItems||(this.allItems=this.data.items),this.data.items=this.allItems.filter(function(l){return l.title.toLowerCase().indexOf(n.searchTerm.toLowerCase())>-1})},l.prototype.onEvent=function(l,n){this.events[l]&&("onTextChange"===l?(this.getItems(n),this.events[l](this.searchTerm)):this.events[l](n)),console.log(l)},l}()),i=function(){return function(){}}(),r=u(412),s=u(413),_=u(414),d=u(415),m=u(416),h=u(417),p=u(418),b=u(419),f=u(420),g=u(205),v=u(28),k=u(24),I=u(4),Z=u(62),y=u(87),C=u(60),w=u(207),j=u(208),A=u(27),x=u(856),T=u(31),B=u(212),S=u(7),F=u(66),L=u(12),M=u(15),$=u(421),O=u(36),P=u(14),E=u(42),J=u(8),V=u(34),G=u(206),N=c.Y({encapsulation:2,styles:[],data:{}}),Y=c.W("search-bar-layout-3",o,function(l){return c._22(0,[(l()(),c._0(0,0,null,null,1,"search-bar-layout-3",[],null,null,null,t,N)),c.Z(1,49152,null,0,o,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),q=u(204),z=u(61);u.d(n,"SearchBarLayout3ModuleNgFactory",function(){return D});var D=c.X(i,[],function(l){return c._11([c._12(512,c.i,c.T,[[8,[r.a,s.a,_.a,d.a,m.a,h.a,p.a,b.a,f.a,Y]],[3,c.i],c.s]),c._12(4608,A.l,A.k,[c.r,[2,A.t]]),c._12(4608,T.n,T.n,[]),c._12(4608,T.c,T.c,[]),c._12(512,A.c,A.c,[]),c._12(512,T.m,T.m,[]),c._12(512,T.d,T.d,[]),c._12(512,T.k,T.k,[]),c._12(512,q.a,q.a,[]),c._12(512,q.b,q.b,[]),c._12(512,i,i,[]),c._12(256,z.a,o,[])])})},856:function(l,n,u){"use strict";function a(l){return e._22(0,[e._18(402653184,1,{_searchbarInput:0}),e._18(402653184,2,{_searchbarIcon:0}),e._18(402653184,3,{_cancelButton:0}),(l()(),e._0(3,0,null,null,8,"div",[["class","searchbar-input-container"]],null,null,null,null,null)),(l()(),e._0(4,0,null,null,3,"button",[["class","searchbar-md-cancel"],["clear",""],["color","dark"],["ion-button",""],["mode","md"],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,e=l.component;if("click"===n){a=!1!==e.cancelSearchbar(u)&&a}if("mousedown"===n){a=!1!==e.cancelSearchbar(u)&&a}return a},t.b,t.a)),e.Z(5,1097728,null,0,c.a,[[8,""],o.a,e.j,e.A],{color:[0,"color"],mode:[1,"mode"],clear:[2,"clear"]},null),(l()(),e._0(6,0,null,0,1,"ion-icon",[["name","md-arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Z(7,147456,null,0,i.a,[o.a,e.j,e.A],{name:[0,"name"]},null),(l()(),e._0(8,0,[[2,0],["searchbarIcon",1]],null,0,"div",[["class","searchbar-search-icon"]],null,null,null,null,null)),(l()(),e._0(9,0,[[1,0],["searchbarInput",1]],null,0,"input",[["class","searchbar-input"],["dir","auto"]],[[1,"placeholder",0],[1,"type",0],[1,"autocomplete",0],[1,"autocorrect",0],[1,"spellcheck",0]],[[null,"input"],[null,"blur"],[null,"focus"]],function(l,n,u){var a=!0,e=l.component;if("input"===n){a=!1!==e.inputChanged(u)&&a}if("blur"===n){a=!1!==e.inputBlurred()&&a}if("focus"===n){a=!1!==e.inputFocused()&&a}return a},null,null)),(l()(),e._0(10,0,null,null,1,"button",[["class","searchbar-clear-icon"],["clear",""],["ion-button",""],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,e=l.component;if("click"===n){a=!1!==e.clearInput(u)&&a}if("mousedown"===n){a=!1!==e.clearInput(u)&&a}return a},t.b,t.a)),e.Z(11,1097728,null,0,c.a,[[8,""],o.a,e.j,e.A],{mode:[0,"mode"],clear:[1,"clear"]},null),(l()(),e._0(12,0,[[3,0]],null,2,"button",[["class","searchbar-ios-cancel"],["clear",""],["ion-button",""],["mode","ios"],["type","button"]],[[8,"tabIndex",0]],[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,e=l.component;if("click"===n){a=!1!==e.cancelSearchbar(u)&&a}if("mousedown"===n){a=!1!==e.cancelSearchbar(u)&&a}return a},t.b,t.a)),e.Z(13,1097728,[["cancelButton",4]],0,c.a,[[8,""],o.a,e.j,e.A],{mode:[0,"mode"],clear:[1,"clear"]},null),(l()(),e._20(14,0,["",""]))],function(l,n){var u=n.component;l(n,5,0,"dark","md","");l(n,7,0,"md-arrow-back");l(n,11,0,u._mode,"");l(n,13,0,"ios","")},function(l,n){var u=n.component;l(n,6,0,e._14(n,7)._hidden);l(n,9,0,u.placeholder,u.type,u._autocomplete,u._autocorrect,u._spellcheck);l(n,12,0,u._isActive?1:-1);l(n,14,0,u.cancelButtonText)})}u.d(n,"a",function(){return r}),n.b=a;var e=u(2),t=u(65),c=u(35),o=u(4),i=u(60),r=(u(7),e.Y({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([55],{
+
+/***/ 1071:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SwipeToDismissLayout3Module", function() { return SwipeToDismissLayout3Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_3__ = __webpack_require__(1188);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SwipeToDismissLayout3Module = (function () {
+    function SwipeToDismissLayout3Module() {
+    }
+    SwipeToDismissLayout3Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_3__["a" /* SwipeToDismissLayout3 */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_3__["a" /* SwipeToDismissLayout3 */]),
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__swipe_to_dismiss_layout_3__["a" /* SwipeToDismissLayout3 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], SwipeToDismissLayout3Module);
+    return SwipeToDismissLayout3Module;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-3.module.js.map
+
+/***/ }),
+
+/***/ 1188:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeToDismissLayout3; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SwipeToDismissLayout3 = (function () {
+    function SwipeToDismissLayout3() {
+        var _this = this;
+        this.undo = function (slidingItem) {
+            slidingItem.close();
+        };
+        this.delete = function (item) {
+            var index = _this.data.items.indexOf(item);
+            if (index > -1) {
+                _this.data.items.splice(index, 1);
+            }
+        };
+    }
+    SwipeToDismissLayout3.prototype.onEvent = function (event, item, e) {
+        if (e) {
+            e.stopPropagation();
+        }
+        if (this.events[event]) {
+            this.events[event](item);
+        }
+    };
+    SwipeToDismissLayout3.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.content.ionScroll.subscribe(function (d) {
+            _this.fabButton.setElementClass("fab-button-out", d.directionY == "down");
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout3.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], SwipeToDismissLayout3.prototype, "events", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Content */])
+    ], SwipeToDismissLayout3.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* FabButton */])
+    ], SwipeToDismissLayout3.prototype, "fabButton", void 0);
+    SwipeToDismissLayout3 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'swipe-to-dismiss-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss.html"*/'<!-- Themes Swipe To Dismiss Products + CTA footer -->\n\n<ion-content>\n\n  <ion-grid no-padding *ngIf="data != null">\n\n    <ion-row>\n\n      <ion-col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12>\n\n        <ion-list>\n\n        <ion-item-sliding *ngFor="let item of data.items" #slidingItem>\n\n          <ion-item no-padding no-margina background-size\n\n          (click)="onEvent(\'onItemClick\', item.title, $event)" [ngStyle]="{\'background-image\': \'url(\' + item.image + \')\'}">\n\n            <h2 item-title text-center>{{item.title}}</h2>\n\n            <p item-subtitle text-center>{{item.description}}</p>\n\n          </ion-item>\n\n          <ion-item-options>\n\n            <button ion-button (click)="delete(item)">\n\n              <ion-icon icon-medium>\n\n                <i class="icon {{item.iconDelate}}"></i>\n\n              </ion-icon>\n\n            </button>\n\n            <button ion-button (click)="undo(slidingItem)">\n\n              <ion-icon icon-medium>\n\n                <i class="icon {{item.iconUndo}}"></i>\n\n              </ion-icon>\n\n          </button>\n\n          </ion-item-options>\n\n        </ion-item-sliding>\n\n      </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n\n<!-- Fab Button -->\n\n<ion-fab #fab bottom right>\n\n  <button button-ion-fab ion-fab (click)="onEvent(\'onFab\', data, $event)">\n\n    <ion-icon name="add"></ion-icon>\n\n  </button>\n\n</ion-fab>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/list-view/swipe-to-dismiss/layout-3/swipe-to-dismiss.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], SwipeToDismissLayout3);
+    return SwipeToDismissLayout3;
+}());
+
+//# sourceMappingURL=swipe-to-dismiss-layout-3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=55.js.map

@@ -49,23 +49,18 @@ export class ElementsPericiasPage {
         if(!(this.tipoPericiasSelecionados.indexOf(item.Nome) > -1)){
           return false;
         }
-        /*let possuiElementos:boolean = false;
-        item.Lista.forEach((nivel)=>{
-          if(nivel){
-            let listaNivelFiltrado = nivel.Lista.filter((talento) =>{
+        item.Lista = item.Lista.filter((talento)=>{
+          console.log('talento',talento)
+          if(talento){
               let nomeOK:boolean = talento['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
               console.log('nomeOk', nomeOK)
               return nomeOK;
-            });
-            nivel.Lista = listaNivelFiltrado
-            if(listaNivelFiltrado.length > 0){
-              possuiElementos = true;
-            }
-            console.log('nivel',listaNivelFiltrado);
           }
+          return false;
         })
-        return possuiElementos;*/
-        return true;
+
+        return item.Lista.length > 0;
+        
       });
       console.log('listaBDFiltrada2', listaBDFiltrada)
       this.listFiltered = Observable.of(listaBDFiltrada);

@@ -1,1 +1,105 @@
-webpackJsonp([76],{801:function(l,n,u){"use strict";function t(l){return i._22(0,[(l()(),i._0(0,0,null,null,26,"ion-item",[["class","item item-block"]],null,null,null,v.b,v.a)),i.Z(1,1097728,null,3,h.a,[Z.a,k.a,i.j,i.A,[2,C.a]],null,null),i._18(335544320,2,{contentLabel:0}),i._18(603979776,3,{_buttons:1}),i._18(603979776,4,{_icons:1}),i.Z(5,16384,null,0,j.a,[],null,null),(l()(),i._20(-1,2,["\n        "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(8,0,null,0,4,"ion-avatar",[["item-start",""]],null,null,null,null,null)),i.Z(9,16384,null,0,y.a,[],null,null),(l()(),i._20(-1,null,["\n          "])),(l()(),i._0(11,0,null,null,0,"img",[["images-filter",""]],[[8,"src",4]],null,null,null,null)),(l()(),i._20(-1,null,["\n        "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(15,0,null,1,2,"ion-label",[["item-title",""],["padding-top",""]],null,null,null,null,null)),i.Z(16,16384,[[2,4]],0,x.a,[k.a,i.j,i.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),i._20(17,null,["",""])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(20,0,null,1,2,"ion-label",[["item-subtitle",""],["text-wrap",""]],null,null,null,null,null)),i.Z(21,16384,[[2,4]],0,x.a,[k.a,i.j,i.A,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),i._20(22,null,["",""])),(l()(),i._20(-1,2,["\n        "])),(l()(),i._0(24,0,null,4,1,"ion-radio",[["item-end",""]],[[2,"radio-disabled",null]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==i._14(l,25)._click(u)&&t}if("ionSelect"===n){t=!1!==a.onEvent("onSelect",l.context.$implicit)&&t}return t},A.b,A.a)),i.Z(25,245760,null,0,$.a,[Z.a,k.a,i.j,i.A,[2,h.a],[2,I.a]],{value:[0,"value"],checked:[1,"checked"]},{ionSelect:"ionSelect"}),(l()(),i._20(-1,2,["\n      "]))],function(l,n){l(n,25,0,n.context.$implicit.id,n.context.$implicit.isChecked)},function(l,n){l(n,11,0,n.context.$implicit.avatar);l(n,17,0,n.context.$implicit.title);l(n,22,0,n.context.$implicit.subtitle);l(n,24,0,i._14(n,25)._disabled)})}function a(l){return i._22(0,[(l()(),i._0(0,0,null,null,16,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),i.Z(1,16384,null,0,M.a,[],null,null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._0(3,0,null,null,12,"ion-list",[["radio-group",""],["role","radiogroup"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.data.selectedItem=u)&&t}return t},null,null)),i.Z(4,1064960,null,1,I.a,[i.A,i.j,i.g],null,null),i._18(335544320,1,{_header:0}),i._17(1024,null,S.f,function(l){return[l]},[I.a]),i.Z(7,671744,null,0,S.i,[[8,null],[8,null],[8,null],[2,S.f]],{model:[0,"model"]},{update:"ngModelChange"}),i._17(2048,null,S.g,null,[S.i]),i.Z(9,16384,null,0,S.h,[S.g],null,null),i.Z(10,16384,null,0,P.a,[k.a,i.j,i.A,F.a,J.l,O.a],null,null),(l()(),i._20(-1,null,["\n      "])),(l()(),i._20(-1,null,["\n      "])),(l()(),i.V(16777216,null,null,1,null,t)),i.Z(14,802816,null,0,V.i,[i.J,i.G,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._20(-1,null,["\n    "])),(l()(),i._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.data.selectedItem);l(n,14,0,u.data.items)},function(l,n){l(n,3,0,i._14(n,9).ngClassUntouched,i._14(n,9).ngClassTouched,i._14(n,9).ngClassPristine,i._14(n,9).ngClassDirty,i._14(n,9).ngClassValid,i._14(n,9).ngClassInvalid,i._14(n,9).ngClassPending)})}function e(l){return i._22(0,[(l()(),i._20(-1,null,["\n"])),(l()(),i._0(1,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,w.b,w.a)),i.Z(2,4374528,null,0,E.a,[k.a,F.a,O.a,i.j,i.A,G.a,L.a,i.u,[2,R.a],[2,T.a]],null,null),(l()(),i._20(-1,1,["\n  "])),(l()(),i.V(16777216,null,1,1,null,a)),i.Z(5,16384,null,0,V.j,[i.J,i.G],{ngIf:[0,"ngIf"]},null),(l()(),i._20(-1,1,["\n"])),(l()(),i._20(-1,null,["\n"]))],function(l,n){l(n,5,0,null!=n.component.data)},function(l,n){l(n,1,0,i._14(n,2).statusbarPadding,i._14(n,2)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var i=u(2),o=(u(0),u(86),function(){return function(){var l=this;this.onEvent=function(n,u){l.events[n]&&l.events[n](u)}}}()),c=function(){return function(){}}(),_=u(412),r=u(413),d=u(414),s=u(415),g=u(416),f=u(417),m=u(418),p=u(419),b=u(420),v=u(205),h=u(28),Z=u(24),k=u(4),C=u(62),j=u(87),y=u(210),x=u(67),A=u(424),$=u(92),I=u(69),M=u(206),S=u(31),P=u(66),F=u(7),J=u(12),O=u(15),V=u(27),w=u(421),E=u(36),G=u(14),L=u(42),R=u(8),T=u(34),B=i.Y({encapsulation:2,styles:[],data:{}}),D=i.W("radio-button-layout-2",o,function(l){return i._22(0,[(l()(),i._0(0,0,null,null,1,"radio-button-layout-2",[],null,null,null,e,B)),i.Z(1,49152,null,0,o,[],null,null)],null,null)},{data:"data",events:"events"},{},[]),N=u(204),U=u(61);u.d(n,"RadioButtonLayout2ModuleNgFactory",function(){return W});var W=i.X(c,[],function(l){return i._11([i._12(512,i.i,i.T,[[8,[_.a,r.a,d.a,s.a,g.a,f.a,m.a,p.a,b.a,D]],[3,i.i],i.s]),i._12(4608,V.l,V.k,[i.r,[2,V.t]]),i._12(4608,S.n,S.n,[]),i._12(4608,S.c,S.c,[]),i._12(512,V.c,V.c,[]),i._12(512,S.m,S.m,[]),i._12(512,S.d,S.d,[]),i._12(512,S.k,S.k,[]),i._12(512,N.a,N.a,[]),i._12(512,N.b,N.b,[]),i._12(512,c,c,[]),i._12(256,U.a,o,[])])})}});
+webpackJsonp([76],{
+
+/***/ 1045:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ImageGalleryLayout1Module", function() { return ImageGalleryLayout1Module; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__ = __webpack_require__(1162);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ImageGalleryLayout1Module = (function () {
+    function ImageGalleryLayout1Module() {
+    }
+    ImageGalleryLayout1Module = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__["a" /* ImageGalleryLayout1 */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__["a" /* ImageGalleryLayout1 */])
+            ],
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_2__image_gallery_layout_1__["a" /* ImageGalleryLayout1 */]
+            ],
+            schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
+        })
+    ], ImageGalleryLayout1Module);
+    return ImageGalleryLayout1Module;
+}());
+
+//# sourceMappingURL=image-gallery-layout-1.module.js.map
+
+/***/ }),
+
+/***/ 1162:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ImageGalleryLayout1; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ImageGalleryLayout1 = (function () {
+    function ImageGalleryLayout1(navCtrl, navParams) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.openSubGallery = function (group, index) {
+            _this.navCtrl.push(group.subGallery, {
+                'group': group.items[index],
+                'events': _this.events,
+                'layout': 1
+            });
+        };
+        this.onEvent = function (event, item, e) {
+            if (e) {
+                e.stopPropagation();
+            }
+            if (_this.events[event]) {
+                _this.events[event](item);
+            }
+        };
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ImageGalleryLayout1.prototype, "data", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+        __metadata("design:type", Object)
+    ], ImageGalleryLayout1.prototype, "events", void 0);
+    ImageGalleryLayout1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+            selector: 'image-gallery-layout-1',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/image-gallery/layout-1/image-gallery-layout-1.html"*/'<!--Theme Category 1 (Animals)-->\n\n<ion-grid no-padding>\n\n  <ion-row no-margin no-padding>\n\n    <ion-col col-6 col-sm-3 col-md-6 col-lg-4 col-xl-3 no-margin no-padding *ngFor="let group of data.items;let i = index;">\n\n      <ion-card background-size no-margin (click)="openSubGallery(data, i)"\n\n      [ngStyle]="{\'background-image\': \'url(\' + group.image + \')\'}">\n\n        <div gallery-title>\n\n          <h2 item-title>{{group.title}}</h2>\n\n          <p item-subtitle>{{group.items.length}} image(s)</p>\n\n          <ion-icon (click)="onEvent(\'onFavorite\', group, $event)">\n\n            <i class="icon" [ngClass]="{\'icon-heart\': group.favorite, \'icon-heart-outline\': !group.favorite}"></i>\n\n          </ion-icon>\n\n        </div>\n\n      </ion-card>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-grid>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/image-gallery/layout-1/image-gallery-layout-1.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */]])
+    ], ImageGalleryLayout1);
+    return ImageGalleryLayout1;
+}());
+
+//# sourceMappingURL=image-gallery-layout-1.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=76.js.map
