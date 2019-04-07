@@ -15,12 +15,12 @@ import { Observable } from 'rxjs';
 export class ElementsPericiasPage {
   @ViewChild(Content)
   content: Content;
-  title: string = 'Talentos';
-  node: string = 'Tormenta/Talentos'
+  title: string = 'Perícias';
+  node: string = 'Tormenta/Pericias'
   list: Observable<any[]>;
   listFiltered: Observable<any[]>;
-  tipoPericias: string[]=['Ambientais','Combate','Destino','Magia','Moreau','Perícia','Poderes Concedidos','Raciais','Tormenta'];
-  tipoPericiasSelecionados: string[] = ['Ambientais','Combate','Destino','Magia','Moreau','Perícia','Poderes Concedidos','Raciais','Tormenta'];
+  tipoPericias: string[]=[];
+  tipoPericiasSelecionados: string[] = [];
 
   constructor(public navCtrl: NavController, public service: HomeService, public af: AngularFireDatabase) {
     console.log('pericias');
@@ -38,34 +38,22 @@ export class ElementsPericiasPage {
   allItems:any;
 
   getItems(event: any):void {
+    console.log('getItems', this.searchTerm)
     if (!this.list) {
       this.list = this.listFiltered;
+      
     }
     this.list.subscribe((listaBD:any[])=>{
-      let listaBDFiltrada = [...listaBD];
-      console.log('listaBDFiltrada', listaBDFiltrada);
-      listaBDFiltrada = listaBDFiltrada.filter((item) => {
-        console.log('this.tipoMagiasSelecionados.indexOf(item.Nome)',this.tipoPericiasSelecionados.indexOf(item.Nome))
-        if(!(this.tipoPericiasSelecionados.indexOf(item.Nome) > -1)){
-          return false;
-        }
-        item.Lista = item.Lista.filter((talento)=>{
-          console.log('talento',talento)
-          if(talento){
-              let nomeOK:boolean = talento['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1
-              console.log('nomeOk', nomeOK)
-              return nomeOK;
-          }
-          return false;
-        })
+      let listaBDFiltrada = listaBD.filter((item) => {
+        let nomeOK:boolean = item['Nome'].toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1;
 
-        return item.Lista.length > 0;
-        
+
+        return nomeOK
       });
-      console.log('listaBDFiltrada2', listaBDFiltrada)
       this.listFiltered = Observable.of(listaBDFiltrada);
 
     });
+     
   }
 
   toggleGroup(group: any) {
@@ -76,4 +64,11 @@ export class ElementsPericiasPage {
     return group.show;
   }
 
+  toggleHabilidade(group: any) {
+    group.habilidade = !group.habilidade;
+  }
+
+  isHabilidadeShow(group: any) {
+    return group.habilidade;
+  }
 }

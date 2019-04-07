@@ -58585,6 +58585,55 @@ elements-page-racas [default-background] .item-md ion-thumbnail ion-img, element
   height: 32px;
 }
 
+/*  #Style First Screen (pericias)
+================================================*/
+elements-page-talentos [default-background] {
+  background-image: none;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+elements-page-talentos [default-background] .ionic-description {
+  display: table-cell;
+}
+
+elements-page-talentos [default-background] .ionic-description h2[item-title] {
+  margin: 0;
+  color: white;
+}
+
+elements-page-talentos [default-background] .ionic-description p[item-subtitle] {
+  color: white !important;
+}
+
+elements-page-talentos [default-background] a {
+  color: white !important;
+  text-decoration: underline;
+  visibility: visible !important;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+elements-page-talentos [default-background] .item-md ion-thumbnail ion-img, elements-page-talentos [default-background] .item-md ion-thumbnail img {
+  width: 32px;
+  height: 32px;
+}
+
+elements-page-talentos .dividerCaminho {
+  padding-left: 16px;
+  border-bottom: 1px solid #202020;
+  font-size: 1.4rem;
+  color: white !important;
+  background-color: rgba(74, 0, 0, 0.3) !important;
+}
+
+elements-page-talentos .dividerNivel {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.4) !important;
+}
+
 /*  #Style First Screen (Home)
 ================================================*/
 page-home h2 {

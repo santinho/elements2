@@ -1,0 +1,66 @@
+<!-- Main Menu Header -->
+<ion-header>
+    <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon class="icon-menu" name="menu"></ion-icon>
+    </button>
+    <ion-title text-uppercase>Talentos</ion-title>
+    </ion-navbar>
+</ion-header>
+<!-- Main Menu List -->
+<ion-content>
+    <ion-grid no-padding>
+        <ion-row *ngIf="data != null">
+        <!-- List -->
+        <ion-col col-12>
+        <ion-list no-padding no-margin transparent>
+        <ion-item padding-top no-lines *ngIf="data != null">
+            <ion-label>Tipo Pericias:</ion-label>
+            <ion-select multiple="true" interface="action-sheet" [(ngModel)]="tipoPericiasSelecionados" (ngModelChange)="getItems($event)">
+                <ion-option *ngFor="let tipo of tipoPericias;" [value]="tipo">{{tipo}}</ion-option>
+            </ion-select>
+        </ion-item>
+        </ion-list>
+        </ion-col>
+        
+        <ion-col col-12>
+            <ion-list no-margin>
+            
+            <ion-list-header no-padding no-margin transparent>
+                <ion-searchbar placeholder="Buscar..." [(ngModel)]="searchTerm" (ionInput)="getItems($event)" style="background-color: transparent !important;"></ion-searchbar>
+                
+            </ion-list-header>
+
+            <li *ngFor="let group of listFiltered | async">
+                <div *ngIf="group.Lista && group.Lista.length >0">
+                  <ion-item-divider no-margin header-title ion-affix [content]="content" class="dividerCaminho">
+                      <h2 text-uppercase text-wrap>{{group.Nome}}</h2>
+                  </ion-item-divider>
+                    <div *ngFor="let talento of group.Lista">
+                        <div class="collapsible-header" (click)="toggleGroup(talento)">
+                            <ion-item no-padding>
+                            <h2 padding-left item-title text-wrap>{{talento.Nome}}</h2>
+                            <h3 padding-left item-subtitle text-wrap>Pré-requisito: {{talento.Prerequisito}}</h3>
+                            </ion-item>
+                        </div>
+                        <!-- List big image Body -->
+                        <div class="item-accordion" [ngClass]="{'active': isGroupShown(talento) }" [hidden]="!isGroupShown(talento)">
+                            <ion-item transparent no-lines style="color: white">
+                                <h2 padding-left text-wrap>{{talento.Nome}}</h2>
+                                <br/>
+                                <span *ngIf="talento.Descricao"><h2 padding-left text-wrap>{{talento.Descricao}}</h2><br/></span>
+                                <span *ngIf="talento.Prerequisito"><h2 padding-left text-wrap >Pré-requisito: {{talento.Prerequisito}}</h2><br/></span>
+                                <span *ngIf="talento.Beneficio"><h2 padding-left text-wrap >Beneficio: {{talento.Beneficio}}</h2><br/></span>
+                                <span *ngIf="talento.Especial"><h2 padding-left text-wrap >Especial: {{talento.Especial}}</h2><br/></span>
+                                <span *ngIf="talento.Normal"><h2 padding-left text-wrap >Normal: {{talento.Normal}}</h2></span>
+                            </ion-item>
+                        </div>
+                        <!--end-->
+                    </div>
+                </div>
+              </li>
+            </ion-list>
+        </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

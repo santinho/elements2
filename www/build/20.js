@@ -1,14 +1,14 @@
 webpackJsonp([20],{
 
-/***/ 1113:
+/***/ 1114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout2Module", function() { return WizardLayout2Module; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WizardLayout3Module", function() { return WizardLayout3Module; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__ = __webpack_require__(1230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__ = __webpack_require__(1232);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,35 +18,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var WizardLayout2Module = (function () {
-    function WizardLayout2Module() {
+var WizardLayout3Module = (function () {
+    function WizardLayout3Module() {
     }
-    WizardLayout2Module = __decorate([
+    WizardLayout3Module = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["J" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */],
+                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]),
             ],
             exports: [
-                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_2__["a" /* WizardLayout2 */]
+                __WEBPACK_IMPORTED_MODULE_2__wizard_layout_3__["a" /* WizardLayout3 */]
             ],
             schemas: [__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* CUSTOM_ELEMENTS_SCHEMA */]]
         })
-    ], WizardLayout2Module);
-    return WizardLayout2Module;
+    ], WizardLayout3Module);
+    return WizardLayout3Module;
 }());
 
-//# sourceMappingURL=wizard-layout-2.module.js.map
+//# sourceMappingURL=wizard-layout-3.module.js.map
 
 /***/ }),
 
-/***/ 1230:
+/***/ 1232:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WizardLayout3; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -60,8 +60,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var WizardLayout2 = (function () {
-    function WizardLayout2() {
+var WizardLayout3 = (function () {
+    function WizardLayout3() {
         this.sliderOptions = { pager: true };
         this.path = false;
         this.prev = true;
@@ -71,7 +71,7 @@ var WizardLayout2 = (function () {
         this.next = true;
         this.finish = false;
     }
-    WizardLayout2.prototype.changeSlide = function (index) {
+    WizardLayout3.prototype.changeSlide = function (index) {
         if (index > 0) {
             this.slider.slideNext(300);
         }
@@ -79,7 +79,7 @@ var WizardLayout2 = (function () {
             this.slider.slidePrev(300);
         }
     };
-    WizardLayout2.prototype.slideHasChanged = function (index) {
+    WizardLayout3.prototype.slideHasChanged = function (index) {
         try {
             this.prev = !this.slider.isBeginning();
             this.next = this.slider.getActiveIndex() < (this.slider.length() - 1);
@@ -87,10 +87,10 @@ var WizardLayout2 = (function () {
         }
         catch (e) { }
     };
-    WizardLayout2.prototype.ngOnChanges = function (changes) {
+    WizardLayout3.prototype.ngOnChanges = function (changes) {
         this.data = changes['data'].currentValue;
     };
-    WizardLayout2.prototype.onEvent = function (event) {
+    WizardLayout3.prototype.onEvent = function (event) {
         if (this.events[event]) {
             this.events[event]();
         }
@@ -99,25 +99,25 @@ var WizardLayout2 = (function () {
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], WizardLayout2.prototype, "data", void 0);
+    ], WizardLayout3.prototype, "data", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
         __metadata("design:type", Object)
-    ], WizardLayout2.prototype, "events", void 0);
+    ], WizardLayout3.prototype, "events", void 0);
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('wizardSlider'),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* Slides */])
-    ], WizardLayout2.prototype, "slider", void 0);
-    WizardLayout2 = __decorate([
+    ], WizardLayout3.prototype, "slider", void 0);
+    WizardLayout3 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-            selector: 'wizard-layout-2',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/wizard/layout-2/wizard.html"*/'<!--Theme Wizard Big Image -->\n\n\n\n<!--Content-->\n\n\n\n<ion-slides #wizardSlider  *ngIf="data != null" (ionSlideDidChange)="slideHasChanged()" pager="true">\n\n  <ion-slide background-size *ngFor="let item of data.items;" [ngStyle]="{\'background-image\': \'url(\' + item.backgroundImage + \')\'}">\n\n    <h1 wizard-title>{{item.title}}</h1>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n  <button default-button full ion-button (click)="changeSlide(1)" *ngIf="next">\n\n    {{data.btnNext}}\n\n  </button>\n\n  <button default-button full ion-button (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n    {{data.btnFinish}}\n\n  </button>\n\n</div>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/wizard/layout-2/wizard.html"*/
+            selector: 'wizard-layout-3',template:/*ion-inline-start:"/home/santinho/GIT/build2/elements2/src/components/wizard/layout-3/wizard.html"*/'<!--Theme Wizard Big Image -->\n\n<button *ngIf="data != null" skip button-clear clear ion-button text-right>\n\n    {{data.btnSkip}}\n\n</button>\n\n<ion-slides #wizardSlider *ngIf="data != null" (ionSlideDidChange)="slideHasChanged()" pager="true">\n\n  <ion-slide background-size *ngFor="let item of data.items;" [ngStyle]="{\'background-image\': \'url(\' + item.backgroundImage + \')\'}">\n\n    <div wizard-description text-left>\n\n      <h1 wizard-title>{{item.title}}</h1>\n\n      <h3 wizard-body-text>{{item.description}}</h3>\n\n    </div>\n\n  </ion-slide>\n\n</ion-slides>\n\n<!--Button section-->\n\n<div *ngIf="data != null">\n\n<button navigation text-center button-clear clear ion-button (click)="changeSlide(1)" *ngIf="next">\n\n    {{data.btnNext}}\n\n</button>\n\n<button navigation text-center button-clear clear ion-button (click)="onEvent(\'onFinish\')" *ngIf="finish">\n\n    {{data.btnFinish}}\n\n</button>\n\n</div>\n\n'/*ion-inline-end:"/home/santinho/GIT/build2/elements2/src/components/wizard/layout-3/wizard.html"*/
         }),
         __metadata("design:paramtypes", [])
-    ], WizardLayout2);
-    return WizardLayout2;
+    ], WizardLayout3);
+    return WizardLayout3;
 }());
 
-//# sourceMappingURL=wizard-layout-2.js.map
+//# sourceMappingURL=wizard-layout-3.js.map
 
 /***/ })
 
