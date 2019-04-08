@@ -1923,26 +1923,257 @@
           {
             "Lista": [
               {
-                "Alcance": "9m",
-                "Alvo": "1 objeto de até 20kg que possa ser aberto ou fechado",
-                "Descricao": "Você pode abrir ou fechar uma porta, baú, garrafa, bolsa, etc. Esta magia não afeta objetos trancados.",
-                "Duracao": "Instântanea",
                 "Nome": "Abrir/Fechar",
                 "Resumo": "Abre ou fecha um objeto pequeno",
+                "Tipo": "Transmutação",
                 "TempoExecucao": "Ação de movimento",
-                "TesteResistencia": "Nenhum",
-                "Tipo": "Transmutação"
-              },
-              {
                 "Alcance": "9m",
                 "Alvo": "1 objeto de até 20kg que possa ser aberto ou fechado",
-                "Descricao": "Você pode abrir ou fechar um porta, baú, garrafa, bolsa, etc. Esta magia não afeta objetos trancados.",
                 "Duracao": "Instântanea",
-                "Nome": "Apavorante gás de Luigi",
-                "Resumo": "Abre ou fecha um objeto pequeno",
-                "TempoExecucao": "Ação de movimento",
                 "TesteResistencia": "Nenhum",
-                "Tipo": "Transmutação"
+                "Descricao": "Você pode abrir ou fechar uma porta, baú, garrafa, bolsa, etc. Esta magia não afeta objetos trancados."
+              },
+              {
+                "Nome": "Apavorante gás de Luigi",
+                "Resumo": "Alvo expele gases fétidos e barulhentos.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Brilho",
+                "Resumo": "alvo fica ofuscado (–1 nos ataques).",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Consertar",
+                "Resumo": "repara pequenas falhas em objetos mundanos.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Detectar magia",
+                "Resumo": "detecta a presença, quantidade e intensidade de auras mágicas na área.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Detectar venenos",
+                "Resumo": "determina se uma criatura ou objeto é venenoso ou está envenenado.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Flor perene",
+                "Resumo": "flor nasce na cabeça do alvo.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Globos de luz",
+                "Resumo": "cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Intuir direção",
+                "Resumo": "você recebe +4 em testes de Sobrevivência para não se perder.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Ler magias",
+                "Resumo": "decifre inscrições mágicas.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Luz",
+                "Resumo": "objeto brilha como tocha.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Mãos mágicas",
+                "Resumo": "move um objeto à distância.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Marca arcana",
+                "Resumo": "inscreve sua runa pessoal sobre um objeto.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Mensagem",
+                "Resumo": "troque mensagens telepáticas com um alvo.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Pasmar",
+                "Resumo": "alvo fica pasmo por uma rodada.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Prestidigitação",
+                "Resumo": "gera diversos efeitos menores.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Raio de ácido",
+                "Resumo": "causa 1d3 pontos de dano, mais 1 na rodada seguinte.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Raio de fogo",
+                "Resumo": "causa 1d4 pontos de dano.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Raio de frio",
+                "Resumo": "causa 1d3 pontos de dano, e impõe –1 nos ataques na rodada seguinte.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Resistência",
+                "Resumo": "fornece +1 nos testes de resistência.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Romper morto-vivo",
+                "Resumo": "causa 1d6 pontos de dano em um morto-vivo.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Som fantasma",
+                "Resumo": "cria som ilusório",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
+              },
+              {
+                "Nome": "Toque da fadiga",
+                "Resumo": "alvo fica fatigado.",
+                "Tipo": "",
+                "TempoExecucao": "",
+                "Alcance": "",
+                "Alvo": "",
+                "Duracao": "",
+                "TesteResistencia": "",
+                "Descricao": ""
               }
             ],
             "Nivel": "0"
